@@ -10,18 +10,23 @@ from urllib2 import urlopen, HTTPError, URLError
 
 def findPdfs(html):
 	"""
-	Take html string as parameter and parse through links ('a' elements).
+	Take html string as parameter and parse through links ('a' elements). Print final redirect url and bytes
+	Params: html string to be used by beautiful soup
+	Return: Array of urls that end with pdf files
 	"""
 	pdfs = []
 	soup = BeautifulSoup(html, 'html.parser')
 	for link in soup.find_all('a'):
    		linkFound = link.get('href')
    		resp = request(linkFound)
-   		print linkFound,resp.getcode()
-   		finalURL = resp.geturl()
+   		# print linkFound
    		contentType = resp.info().type
-   		print "Bytes: ",len(resp.read()),"\n"
-   		if 'pdf' in contentType:
+   		responseCode = resp.getcode()
+   		if 'pdf' in contentType and responseCode == 200:
+	   		finalURL = resp.geturl()
+	   		print finalURL
+	   		print "Bytes: ",len(resp.read())
+	   		print ""
    			pdfs.append(finalURL)
    	return pdfs
 
@@ -45,19 +50,9 @@ def request(uri):
 	    print 'Reason: ', e.reason
 
 
-def determinteBytes(pdfs):
-	"""
-	
-	"""
-	print ""
-	for link in pdfs:
-		print link
-
-
 if len(sys.argv) == 2:
 	response = request(sys.argv[1])
 	pdfs = findPdfs(response.read())
-	determinteBytes(pdfs)
 else:
 	print "Usage: python pdfCrawl.py URI"
 	exit()
