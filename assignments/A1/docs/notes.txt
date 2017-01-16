@@ -1,6 +1,26 @@
+--------
+Links & Descriptions
+--------
 Beautiful soup ref: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+beautiful soup can parse the document and 
 
 Required pdf page: http://www.cs.odu.edu/~mln/teaching/cs532-s17/test/pdfs.html
 
 LaTeX sample: https://github.com/shawnmjones/cs595-f13/tree/master/assignment9 
 
+urllib2: https://docs.python.org/2/library/urllib2.html
+urllib2 handles exceptions like infinite loop redirects or file not found. 
+Has built in methods for redirecting. geturl() returns last redirected url.
+Has response code functionality.
+
+
+--------
+Notes
+--------
+
+case: https://arxiv.org/pdf/1512.06195
+- Url that leads to a pdf, but the url itself doesn't contain .pdf
+
+case: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E018BA1D3D65453E8DA2B92041291AC5?doi=10.1.1.10.6560&rep=rep1&type=pdf
+- final url doesn't end with .pdf, so how do I determine pdf?
+A: Check content-type for 'pdf' (application/pdf)
