@@ -42,9 +42,9 @@ take a screen shot.
     M --> N
     N --> D
     O --> A
-    P --> G 
+    P --> G
     
-    For the above graph, give the values for:
+    For the above graph, give the values for:q
 
     IN: 
     SCC: 

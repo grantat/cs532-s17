@@ -4,5 +4,4 @@
 
 |Assignment|Source Code|Report|
 |:--------:|:---:|:------|
-|[1](../assignments)| [python](../assignments)|[pdf](../assignments)| 
-
+|[1](./assignments/A1/a1.txt)| [python,shell](./assignments/src)|[pdf](./assignments)| 
