@@ -13,10 +13,18 @@ urllib2 handles exceptions like infinite loop redirects or file not found.
 Has built in methods for redirecting. geturl() returns last redirected url.
 Has response code functionality.
 
+Curl: https://curl.haxx.se/docs/manpage.html
+
+
 
 --------
 Notes
 --------
+
+curl works on http://www.cs.odu.edu/~gatkins/cs532/curlPost.php
+but not http://cs.odu.edu/~gatkins/cs532/curlPost.php 
+why does 'www.' make a difference?
+
 
 case: https://arxiv.org/pdf/1512.06195
 - Url that leads to a pdf, but the url itself doesn't contain .pdf
@@ -24,3 +32,6 @@ case: https://arxiv.org/pdf/1512.06195
 case: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E018BA1D3D65453E8DA2B92041291AC5?doi=10.1.1.10.6560&rep=rep1&type=pdf
 - final url doesn't end with .pdf, so how do I determine pdf?
 A: Check content-type for 'pdf' (application/pdf)
+
+I took a synchronous approach. It would be much faster if it was done asynchronously, especially when the amount of links
+grows.

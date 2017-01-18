@@ -1,1 +1,1 @@
-curl -i "http://cs.odu.edu/~gatkins/cs532/redirect.php"
+curl -d 'name=Grant Atkins' http://www.cs.odu.edu/~gatkins/cs532/curlPost.php
