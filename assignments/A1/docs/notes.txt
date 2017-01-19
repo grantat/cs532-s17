@@ -15,6 +15,8 @@ Has response code functionality.
 
 Curl: https://curl.haxx.se/docs/manpage.html
 
+Check absolute url: http://stackoverflow.com/questions/8357098/how-can-i-check-if-a-url-is-absolute-using-python
+
 --------
 Notes
 --------
@@ -32,6 +34,9 @@ A: Check content-type for 'pdf' (application/pdf)
 
 case: file is relative path and not absolute path url. (http://www.cs.odu.edu/~zeil)
 - Fix by converting to absolute for urllib2
+
+case: http://www.cs.odu.edu/~cs495/
+- Many many links that reference page elements
 
 
 I took a synchronous approach. It would be much faster if it was done asynchronously, especially when the amount of links
