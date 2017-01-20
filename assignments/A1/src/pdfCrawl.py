@@ -50,11 +50,12 @@ def request(uri):
     except URLError as e:
         pass
     except KeyboardInterrupt:
+        print ""
         exit()
 
 
 def isAbsolute(url):
-    """
+    """ 
     Taken from stackoverflow post
     """
     try:

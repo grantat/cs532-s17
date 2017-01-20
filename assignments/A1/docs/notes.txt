@@ -41,3 +41,11 @@ case: http://www.cs.odu.edu/~cs495/
 
 I took a synchronous approach. It would be much faster if it was done asynchronously, especially when the amount of links
 grows.
+
+Refactor from python 2.7 -> 3.something
+
+PRINT Original URI vs Final URI
+
+Not very in the "wild" with cs.odu.edu URIs
+
+
