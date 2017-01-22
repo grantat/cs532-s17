@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # filename : pdfCrawl.py
 # Grant Atkins
 # (CS 532), Spring 2017
@@ -5,7 +7,7 @@
 
 import sys
 from bs4 import BeautifulSoup
-from urllib2 import urlopen, HTTPError, URLError
+from urllib2 import urlopen, HTTPError, URLError, Request
 from urlparse import urljoin, urlparse
 
 
@@ -20,18 +22,20 @@ def findPdfs(html,baseurl):
     for link in soup.find_all('a',href=True):
 
         linkFound = link.get('href')
+
         if isAbsolute(linkFound) == False:
             linkFound = urljoin(baseurl,linkFound)
 
-        # print "LINK FOUND:",linkFound
         resp = request(linkFound)
         if resp is not None:
             contentType = resp.info().type
             responseCode = resp.getcode()
 
-            if 'pdf' in contentType and responseCode == 200:
+            if 'application/pdf' in contentType and responseCode == 200:
                 finalURL = resp.geturl()
-                print finalURL
+                print "Original URI:",linkFound
+                print "Final URI:",finalURL
+                byteSize = resp.headers['content-length']
                 print "Bytes: ", len(resp.read()), "\n"
                 pdfs.append(finalURL)
     return pdfs
@@ -43,11 +47,11 @@ def request(uri):
     Return: http get response
     """
     try:
-        response = urlopen(uri)
+        reqHeaders = {'User-Agent':'Mozilla 5.10'}
+        req = Request(uri,headers=reqHeaders)
+        response = urlopen(req)
         return response
-    except HTTPError as e:
-        pass
-    except URLError as e:
+    except (HTTPError,ValueError,URLError) as e:
         pass
     except KeyboardInterrupt:
         print ""
@@ -64,14 +68,17 @@ def isAbsolute(url):
         return False
 
 
-if len(sys.argv) == 2:
-    response = request(sys.argv[1])
+if __name__ == "__main__":
 
-    if response is None:
-        print "Initial link can't be bad"
+    if len(sys.argv) == 2:
+        response = request(sys.argv[1])
+
+        if response is None:
+            print "Initial link can't be bad"
+            print "Must contain http:// or https://"
+            exit()
+
+        pdfs = findPdfs(response.read(),response.geturl())
+    else:
+        print "Usage: python pdfCrawl.py URI"
         exit()
-
-    pdfs = findPdfs(response.read(),response.geturl())
-else:
-    print "Usage: python pdfCrawl.py URI"
-    exit()
