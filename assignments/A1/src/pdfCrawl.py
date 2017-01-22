@@ -9,6 +9,7 @@ import sys
 from bs4 import BeautifulSoup
 from urllib2 import urlopen, HTTPError, URLError, Request
 from urlparse import urljoin, urlparse
+from httplib import BadStatusLine
 
 
 def findPdfs(html,baseurl):
@@ -35,8 +36,12 @@ def findPdfs(html,baseurl):
                 finalURL = resp.geturl()
                 print "Original URI:",linkFound
                 print "Final URI:",finalURL
-                byteSize = resp.headers['content-length']
-                print "Bytes: ", len(resp.read()), "\n"
+                # might not contain it
+                try:
+                    byteSize = resp.headers['content-length']
+                except:
+                    byteSize = len(resp.read())
+                print "Bytes: ", byteSize, "\n"
                 pdfs.append(finalURL)
     return pdfs
 
@@ -52,6 +57,9 @@ def request(uri):
         response = urlopen(req)
         return response
     except (HTTPError,ValueError,URLError) as e:
+        pass
+    except BadStatusLine:
+        # print "**Connection closed early For:**","\n",uri,"\n"
         pass
     except KeyboardInterrupt:
         print ""
@@ -75,7 +83,7 @@ if __name__ == "__main__":
 
         if response is None:
             print "Initial link can't be bad"
-            print "Must contain http:// or https://"
+            print "Must contain http:// or https:// and must be reachable"
             exit()
 
         pdfs = findPdfs(response.read(),response.geturl())
