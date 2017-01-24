@@ -1,8 +1,10 @@
 <?php
 $message = "";
-$color = "red";
-if(isset($_POST["name"])){
+$note = "";
+$color = "purple";
+if(isset($_POST["name"]) && isset($_POST["note"])){
   $message = "You rock at curl ".$_POST["name"];
+  $note = $_POST["note"];
   $color = "green";
 }else{
   $message = "You suck at curl";
@@ -22,5 +24,6 @@ if(isset($_POST["name"])){
 <body>
   <div class="jumbotron text-center" style="background-color:<?php echo $color; ?>;color:white;">
     <h1><?php echo $message; ?></h1>
+    <h2><?php echo $note; ?></h2>
   </div>
 </body>

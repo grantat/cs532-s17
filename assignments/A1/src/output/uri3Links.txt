@@ -1,0 +1,240 @@
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Sample_Review_1.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Sample_Review_1.pdf
+Bytes:  51693 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-01_Course-Introduction.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-01_Course-Introduction.pdf
+Bytes:  2647409 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-02_PHY-Fundamentals.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-02_PHY-Fundamentals.pdf
+Bytes:  1737882 
+
+Original URI: http://www.cs.ucsb.edu/~ebelding/courses/284/s06/papers/80211_adhoc.pdf
+Final URI: http://www.cs.ucsb.edu/~ebelding/courses/284/s06/papers/80211_adhoc.pdf
+Bytes:  723511 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-03_MAC-I.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-03_MAC-I.pdf
+Bytes:  1624694 
+
+Original URI: http://home.eng.iastate.edu/~daji/papers/ton07.pdf
+Final URI: http://home.eng.iastate.edu/~daji/papers/ton07.pdf
+Bytes:  1068921 
+
+Original URI: http://research.microsoft.com/en-us/um/people/padmanab/papers/imc2005.pdf
+Final URI: http://research.microsoft.com/en-us/um/people/padmanab/papers/imc2005.pdf
+Bytes:  193593 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-03_MAC-I.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-03_MAC-I.pdf
+Bytes:  1624694 
+
+Original URI: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E018BA1D3D65453E8DA2B92041291AC5?doi=10.1.1.10.6560&rep=rep1&type=pdf
+Final URI: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E018BA1D3D65453E8DA2B92041291AC5?doi=10.1.1.10.6560&rep=rep1&type=pdf
+Bytes:  299641 
+
+Original URI: http://www.csc.ncsu.edu/faculty/rhee/export/zmacsensys.pdf
+Final URI: http://www4.ncsu.edu/~rhee/export/zmacsensys.pdf
+Bytes:  283575 
+
+Original URI: http://h10032.www1.hp.com/ctg/Manual/c00186949.pdf
+Final URI: http://h10032.www1.hp.com/ctg/Manual/c00186949.pdf
+Bytes:  313323 
+
+Original URI: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.3.1887&rep=rep1&type=pdf
+Final URI: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.3.1887&rep=rep1&type=pdf
+Bytes:  107248 
+
+Original URI: http://sing.stanford.edu/pubs/sing-10-00.pdf
+Final URI: http://sing.stanford.edu/pubs/sing-10-00.pdf
+Bytes:  1213250 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-05_mac_CSMACN.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-05_mac_CSMACN.pdf
+Bytes:  2725911 
+
+Original URI: http://www.csc.ncsu.edu/faculty/rhee/export/zmacsensys.pdf
+Final URI: http://www4.ncsu.edu/~rhee/export/zmacsensys.pdf
+Bytes:  283575 
+
+Original URI: http://www.cse.wustl.edu/~lu/papers/sensys07.pdf
+Final URI: http://www.cse.wustl.edu/~lu/papers/sensys07.pdf
+Bytes:  540100 
+
+Original URI: http://pages.cs.wisc.edu/~suman/courses/838/f06/zigbee-myers-talk.pdf
+Final URI: http://pages.cs.wisc.edu/~suman/courses/838/f06/zigbee-myers-talk.pdf
+Bytes:  790715 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Moral.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Moral.pdf
+Bytes:  418388 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=989487&type=pdf&coll=&dl=ACM&CFID=15151515&CFTOKEN=6184618
+Final URI: http://delivery.acm.org/10.1145/990000/989487/p222-so.pdf?ip=128.82.17.156&id=989487&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892728580&CFTOKEN=12861955&__acm__=1485275670_70d469714eb0fa91b5245531e7f80f8b
+Bytes:  238849 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=1140286&type=pdf&coll=&dl=ACM&CFID=15151515&CFTOKEN=6184618
+Final URI: http://delivery.acm.org/10.1145/1150000/1140286/p63-mishra.pdf?ip=128.82.17.156&id=1140286&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892728602&CFTOKEN=54630644&__acm__=1485275672_d8a18a61b43ec52850bc1038657b09b7
+Bytes:  227192 
+
+Original URI: http://www.google.com/url?sa=t&source=web&cd=2&ved=0CB4QFjAB&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Bjsessionid%3D6B0972E63A8F1577EFFDB76884E97752%3Fdoi%3D10.1.1.12.6578%26rep%3Drep1%26type%3Dpdf&ei=_1ZQTbjXEYH-8Aa4xfytDg&usg=AFQjCNGykWNj3G7Rl09eVNHnVk9v5-BRFw
+Final URI: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=6B0972E63A8F1577EFFDB76884E97752?doi=10.1.1.12.6578&rep=rep1&type=pdf
+Bytes:  203451 
+
+Original URI: http://ccr.sigcomm.org/online/files/p135-chandra.pdf
+Final URI: http://ccr.sigcomm.org/online/files/p135-chandra.pdf
+Bytes:  1573870 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=1023742&type=pdf&coll=&dl=ACM&CFID=15151515&CFTOKEN=6184618
+Final URI: http://delivery.acm.org/10.1145/1030000/1023742/p216-bahl.pdf?ip=128.82.17.156&id=1023742&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892728641&CFTOKEN=45286051&__acm__=1485275677_8e1147d1848f4693c08792abdaeabfc0
+Bytes:  326607 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=1147554&type=pdf&coll=&dl=ACM&CFID=15151515&CFTOKEN=6184618
+Final URI: http://delivery.acm.org/10.1145/1150000/1147554/p301-wang.pdf?ip=128.82.17.156&id=1147554&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892728655&CFTOKEN=39639930&__acm__=1485275677_2840e702eac9fe87e953ebc4240b6dc7
+Bytes:  909703 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-07_mac-rate-control.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-07_mac-rate-control.pdf
+Bytes:  2941244 
+
+Original URI: http://www.ee.duke.edu/~romit/pubs/capture-Secon07.pdf
+Final URI: http://people.ee.duke.edu/~romit/pubs/capture-Secon07.pdf
+Bytes:  128942 
+
+Original URI: http://www.ee.duke.edu/~romit/pubs/beamcast.pdf
+Final URI: http://people.ee.duke.edu/~romit/pubs/beamcast.pdf
+Bytes:  2204185 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=989483&type=pdf&CFID=7885191&CFTOKEN=48457240
+Final URI: http://delivery.acm.org/10.1145/990000/989483/p187-zhao.pdf?ip=128.82.17.156&id=989483&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892729367&CFTOKEN=78401715&__acm__=1485275766_50d240888f3c288839e2a76727714b73
+Bytes:  152155 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=581866&type=pdf&CFID=7885191&CFTOKEN=48457240
+Final URI: http://delivery.acm.org/10.1145/590000/581866/01026005.pdf?ip=128.82.17.156&id=581866&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892729375&CFTOKEN=14371290&__acm__=1485275766_97433652ed1e974363e177077bfb32a0
+Bytes:  378490 
+
+Original URI: http://www.cs.wisc.edu/~suman/pubs/chop.pdf
+Final URI: http://pages.cs.wisc.edu/~suman/pubs/chop.pdf
+Bytes:  284764 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=1614353&type=pdf&CFID=7885191&CFTOKEN=48457240
+Final URI: http://delivery.acm.org/10.1145/1620000/1614353/p297-shrivastava.pdf?ip=128.82.17.156&id=1614353&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892729396&CFTOKEN=69450836&__acm__=1485275769_95c71c48af59882e576e1f66ece75c4d
+Bytes:  1059205 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=1215981&type=pdf&CFID=7885191&CFTOKEN=48457240
+Final URI: http://delivery.acm.org/10.1145/1220000/1215981/p8-mishra.pdf?ip=128.82.17.156&id=1215981&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892729409&CFTOKEN=36913017&__acm__=1485275770_e9ca53263cc91df992afed3cd70d04fd
+Bytes:  259166 
+
+Original URI: http://www.cise.ufl.edu/~helmy/papers/Gender-based-Udayan-MSWIM.pdf
+Final URI: http://www.cise.ufl.edu/~helmy/papers/Gender-based-Udayan-MSWIM.pdf
+Bytes:  398787 
+
+Original URI: http://db.csail.mit.edu/pubs/mobicom06.pdf
+Final URI: http://db.csail.mit.edu/pubs/mobicom06.pdf
+Bytes:  1553353 
+
+Original URI: http://www.cs.umass.edu/~dganesan/papers/MobiSys10-CrowdSearch.pdf
+Final URI: https://people.cs.umass.edu/~dganesan/papers/MobiSys10-CrowdSearch.pdf
+Bytes:  725104 
+
+Original URI: http://www.winlab.rutgers.edu/~suhas/SuhasMathur_Mobisys2010.pdf
+Final URI: http://www.winlab.rutgers.edu/~suhas/SuhasMathur_Mobisys2010.pdf
+Bytes:  1226531 
+
+Original URI: http://www.cs.dartmouth.edu/~sensorlab/pubs/cenceme_sensys08.pdf
+Final URI: http://www.cs.dartmouth.edu/~sensorlab/pubs/cenceme_sensys08.pdf
+Bytes:  1131508 
+
+Original URI: http://db.csail.mit.edu/pubs/mobicom06.pdf
+Final URI: http://db.csail.mit.edu/pubs/mobicom06.pdf
+Bytes:  1553353 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-12_crowd-search.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-12_crowd-search.pdf
+Bytes:  4538638 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=1067193&type=pdf&CFID=9869336&CFTOKEN=84026223
+Final URI: http://delivery.acm.org/10.1145/1070000/1067193/p205-youssef.pdf?ip=128.82.17.156&id=1067193&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892729473&CFTOKEN=67511478&__acm__=1485275780_f5922e724cd7459b863ac09873d6eba7
+Bytes:  382306 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=1874078&type=pdf&CFID=9869336&CFTOKEN=84026223
+Final URI: http://delivery.acm.org/10.1145/1880000/1874078/p787-martin.pdf?ip=128.82.17.156&id=1874078&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892729483&CFTOKEN=80101923&__acm__=1485275781_4e369c4ffc00555f20a48b1da1574372
+Bytes:  578217 
+
+Original URI: http://portal.acm.org/ft_gateway.cfm?id=1023728&type=pdf&CFID=9869336&CFTOKEN=84026223
+Final URI: http://delivery.acm.org/10.1145/1030000/1023728/p70-haeberlen.pdf?ip=128.82.17.156&id=1023728&acc=ACTIVE%20SERVICE&key=B33240AC40EC9E30%2E9EA977942CF5A36F%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=892729566&CFTOKEN=65256139&__acm__=1485275792_53807802c6ffe8d3c7cf9bcc9599ee14
+Bytes:  658303 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-13_Horus.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-13_Horus.pdf
+Bytes:  2016052 
+
+Original URI: http://www.cs.ucsb.edu/~ebelding/txt/wmcsa99.pdf
+Final URI: http://people.cs.ucsb.edu/ebelding/sites/people/ebelding/files/publications/wmcsa99.pdf
+Bytes:  224182 
+
+Original URI: http://www.eecs.harvard.edu/~htk/publication/2000-mobi-karp-kung.pdf
+Final URI: http://www.eecs.harvard.edu/~htk/publication/2000-mobi-karp-kung.pdf
+Bytes:  193263 
+
+Original URI: http://www.cs.odu.edu/~nadeem/papers/routing_mass_web.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/papers/routing_mass_web.pdf
+Bytes:  249519 
+
+Original URI: http://pdos.csail.mit.edu/papers/grid:mobicom03/paper.pdf
+Final URI: https://pdos.csail.mit.edu/papers/grid:mobicom03/paper.pdf
+Bytes:  284493 
+
+Original URI: http://pdos.csail.mit.edu/papers/roofnet:exor-sigcomm05/roofnet_exor-sigcomm05.pdf
+Final URI: https://pdos.csail.mit.edu/papers/roofnet:exor-sigcomm05/roofnet_exor-sigcomm05.pdf
+Bytes:  206781 
+
+Original URI: http://www.ieee-infocom.org/2004/Papers/39_3.PDF
+Final URI: http://infocom2004.ieee-infocom.org/Papers/39_3.PDF
+Bytes:  212041 
+
+Original URI: http://www.ieee-infocom.org/2003/papers/43_01.PDF
+Final URI: http://infocom2003.ieee-infocom.org/papers/43_01.PDF
+Bytes:  206229 
+
+Original URI: http://www.ee.duke.edu/~romit/pubs/xrtp.pdf
+Final URI: http://people.ee.duke.edu/~romit/pubs/xrtp.pdf
+Bytes:  167025 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-19_Blocked_switched.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-19_Blocked_switched.pdf
+Bytes:  776011 
+
+Original URI: http://www.winlab.rutgers.edu/~gruteser/papers/ccs308-baik.pdf
+Final URI: http://www.winlab.rutgers.edu/~gruteser/papers/ccs308-baik.pdf
+Bytes:  3052631 
+
+Original URI: http://www.isaac.cs.berkeley.edu/isaac/mobicom.pdf
+Final URI: http://www.isaac.cs.berkeley.edu/isaac/mobicom.pdf
+Bytes:  101296 
+
+Original URI: http://www.cs.odu.edu/~nadeem/papers/reputation_TC.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/papers/reputation_TC.pdf
+Bytes:  2928938 
+
+Original URI: http://www.cs.umd.edu/~waa/pubs/wireless-comm-no-clothes.pdf
+Final URI: http://www.cs.umd.edu/~waa/pubs/wireless-comm-no-clothes.pdf
+Bytes:  103857 
+
+Original URI: http://www.cs.utexas.edu/~lili/papers/pub/mobicom2004.pdf
+Final URI: http://www.cs.utexas.edu/~lili/papers/pub/mobicom2004.pdf
+Bytes:  264612 
+
+Original URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-21_Routing_Misbehavior.pdf
+Final URI: http://www.cs.odu.edu/~nadeem/classes/cs752-S11/s11/material/Lec-21_Routing_Misbehavior.pdf
+Bytes:  263518 
+
+Original URI: http://www.cs.wisc.edu/~suman/pubs/paradis.pdf
+Final URI: http://pages.cs.wisc.edu/~suman/pubs/paradis.pdf
+Bytes:  560178 
+
+Original URI: http://www.cs.dartmouth.edu/~dfk/papers/bratus-fingerprint.pdf
+Final URI: http://www.cs.dartmouth.edu/~dfk/papers/bratus-fingerprint.pdf
+Bytes:  283479 
+

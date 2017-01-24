@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-
-# filename : pdfCrawl.py
-# Grant Atkins
-# (CS 532), Spring 2017
-# Assignment 1 - pdfCrawl.py
+#!/usr/bin/env python
 
 import sys
 from bs4 import BeautifulSoup

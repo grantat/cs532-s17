@@ -17,6 +17,8 @@ Curl: https://curl.haxx.se/docs/manpage.html
 
 Check absolute url: http://stackoverflow.com/questions/8357098/how-can-i-check-if-a-url-is-absolute-using-python
 
+http://www.webgraphviz.com/
+
 --------
 Notes
 --------
@@ -47,5 +49,27 @@ Refactor from python 2.7 -> 3.something
 PRINT Original URI vs Final URI
 
 Not very in the "wild" with cs.odu.edu URIs
+
+
+webgraphviz.com code{
+	rankdir=LR 
+    "A" -> "B"
+    "B" -> "C"
+    "C" -> "D"
+    "C" -> "A"
+    "C" -> "G"
+    "E" -> "F"
+    "G" -> "C"
+    "G" -> "H"
+    "I" -> "H"
+    "I" -> "K"
+    "L" -> "D"
+    "M" -> "A"
+    "M" -> "N"
+    "N" -> "D"
+    "O" -> "A"
+    "P" -> "G"
+}
+
 
 
