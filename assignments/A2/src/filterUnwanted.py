@@ -4,8 +4,6 @@
 blacklist = ['.xyz','.pw','http://artist-rack.com?']
 # track lines removed from finalURIs for originalURIs
 removedLines = []
-artistRackFlag = False
-
 
 # Remove unwanted from finalURIs
 with open("output/finalURIs.txt","r+") as file:
@@ -13,14 +11,10 @@ with open("output/finalURIs.txt","r+") as file:
     for num,line in enumerate(lines):
         for f in blacklist:
             if f in line:
-                if f in 'http://artist-rack.com?' and artistRackFlag == False:
-                    artistRackFlag = True
-                    break
-                else:
-                    removedLines.append(num)
-                    lines.remove(line)
-                    print(num,"type found:",f,":",line)
-                    break
+                removedLines.append(num)
+                lines.remove(line)
+                print(num,"type found:",f,":",line)
+                break
             elif 'youtube.com' in line and '&' in line:
                 pos = line.find('&')
                 finalURI = line[:pos]

@@ -24,8 +24,12 @@ def request(uri):
         resp = requests.get(uri,stream=True,timeout=5,allow_redirects=True,headers={'User-Agent':'Mozilla/5.0'})
         if resp.status_code == 200:
             print("Original URI:",uri)
-            print("Final URI:",resp.url)
-            saveOutput(uri,resp.url)
+            uriFinal = resp.url
+            filteredURI = uriFilter(uriFinal)
+            if filteredURI is not None:
+                uriFinal = filteredURI
+                print("Final URI:",uriFinal)
+                saveOutput(uri,uriFinal)
     except KeyboardInterrupt:
         print()
         exit()
@@ -41,7 +45,8 @@ def uriFilter(uri):
             finalURI = uri[:pos]
             return finalURI
         elif f in uri:
-            return "THISWILLFAIL"
+            return
+    return uri
 
 
 def saveOutput(origUri,finalUri):
@@ -80,9 +85,6 @@ class StdOutListener(StreamListener):
         uriArr = jsonData['entities']['urls']
         for item in uriArr:
             uri = item['url']
-            filteredURI = uriFilter(uri)
-            if filteredURI is not None:
-                uri = filteredURI
             request(uri)
             
         # handle retweet json
@@ -90,9 +92,6 @@ class StdOutListener(StreamListener):
             uriArr = jsonData['retweeted_status']['entities']['urls']
             for item in uriArr:
                 uri = item['url']
-                filteredURI = uriFilter(uri)
-                if filteredURI is not None:
-                    uri = filteredURI
                 request(uri)
                 
         print("finished requests")
