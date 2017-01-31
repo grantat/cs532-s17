@@ -15,8 +15,9 @@ access_token = "821042028800802816-E7SvwPXZKJRzazLctidudXhD0X0SgDZ"
 access_token_secret = "hfEMDTkVBX6Kf7x8FddjBZi7joxKZIYYJztq1QFQcF8cp"
 consumer_key = "RigRve4McsZdYXNpz2rwPRZfx"
 consumer_secret = "EuFivjFeWCBmG205shXMjTPb0u56wTXJgRDRhqaWPRQU1CxYjW"
-# counter to be used for first execution of this program
-counter = 0
+# Filter list for bad/inappropriate/repeating domains
+blacklist = ['.xyz','.pw','http://artist-rack.com?']
+
 
 def request(uri):
     try:
@@ -31,39 +32,46 @@ def request(uri):
     except:
         pass
     
-    
-# save URIs to files. Original and final from requests
+
+def uriFilter(uri):
+    for f in blacklist:
+        # for unique youtube URIs just get video id
+        if 'youtube.com' in uri and '&' in uri:
+            pos = uri.find('&')
+            finalURI = uri[:pos]
+            return finalURI
+        elif f in uri:
+            return "THISWILLFAIL"
+
+
 def saveOutput(origUri,finalUri):
-    global counter
     
     if not os.path.exists("output"):
         os.makedirs("output")
         
-    if counter <= 1000:
-        # final URIs to file
-        try:
-            with open('output/finalURIs.txt', 'a+b', 0) as file, \
-                mmap.mmap(file.fileno(), 0, access=mmap.ACCESS_READ) as s:
-                if s.find(bytes(finalUri, encoding='utf-8')) != -1:
-                    return
-                else:
-                    file.write(bytes(finalUri+"\n", encoding='utf-8'))
-        except (IOError,ValueError):
-            with open('output/finalURIs.txt', 'w') as file:
-                file.write(finalUri+"\n")
-    
-        # write original URIs to separate file
-        try:
-            with open("output/originalURIs.txt", "a") as file:
-                file.write(origUri+"\n")
-        except (IOError,ValueError):
-            with open("output/originalURIs.txt", "w") as file:
-                file.write(origUri+"\n")
-        # Increment every time new addition
-        counter += 1     
+    # final URIs to file
+    try:
+        with open('output/finalURIs.txt', 'a+b', 0) as file, \
+            mmap.mmap(file.fileno(), 0, access=mmap.ACCESS_READ) as s:
+            if s.find(bytes(finalUri, encoding='utf-8')) != -1:
+                return
+            else:
+                file.write(bytes(finalUri+"\n", encoding='utf-8'))
+    except (IOError,ValueError):
+        with open('output/finalURIs.txt', 'w') as file:
+            file.write(finalUri+"\n")
+
+    # write original URIs to separate file
+    try:
+        with open("output/originalURIs.txt", "a") as file:
+            file.write(origUri+"\n")
+    except (IOError,ValueError):
+        with open("output/originalURIs.txt", "w") as file:
+            file.write(origUri+"\n")
 
 
-#This is a basic listener that just prints received tweets to stdout.
+# This is a basic listener that just prints received tweets to stdout.
+# Consider this the main class that calls the functions from before
 class StdOutListener(StreamListener):
     
     def on_data(self, data):
@@ -72,6 +80,9 @@ class StdOutListener(StreamListener):
         uriArr = jsonData['entities']['urls']
         for item in uriArr:
             uri = item['url']
+            filteredURI = uriFilter(uri)
+            if filteredURI is not None:
+                uri = filteredURI
             request(uri)
             
         # handle retweet json
@@ -79,6 +90,9 @@ class StdOutListener(StreamListener):
             uriArr = jsonData['retweeted_status']['entities']['urls']
             for item in uriArr:
                 uri = item['url']
+                filteredURI = uriFilter(uri)
+                if filteredURI is not None:
+                    uri = filteredURI
                 request(uri)
                 
         print("finished requests")
@@ -97,7 +111,7 @@ if __name__ == '__main__':
     try:
         stream = Stream(auth, l)
         #This line filter Twitter Streams to capture data by the keywords
-        stream.filter(track=['jazz music', 'marcus miller', 'victor wooten','bill evans','the seatbelts','james brown','snarky puppy','jamiroquai','jazz messengers',''])
+        stream.filter(track=['jazz music', 'marcus miller', 'victor wooten','bill evans','the seatbelts','james brown','snarky puppy','jamiroquai','jazz messengers'])
     except KeyboardInterrupt:
         print()
         exit()

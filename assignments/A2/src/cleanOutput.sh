@@ -1,0 +1,3 @@
+python3 filterUnwanted.py
+python3 filterUnwanted.py
+python3 removeDuplicates.py

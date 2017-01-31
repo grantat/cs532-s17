@@ -10,9 +10,17 @@ http://adilmoujahid.com/posts/2014/07/twitter-analytics/
 requests python library usage - Kenneth Reitz,Cory Benfield, Ian Cordasco
 http://docs.python-requests.org/en/master/
 
+sort/uniq in python
+http://stackoverflow.com/questions/19764655/sort-and-get-uniq-lines-of-file-in-python
+
 --------
 Notes
 --------
 
+Streaming with filters from twitter took approx ~9 hours to get 1000 URIs
+
+after running through filters dropped 100 URIs without even requesting them. Some were innapropriate
 
 age vs time graph
+
+
