@@ -19,7 +19,7 @@ Notes
 
 Streaming with filters from twitter took approx ~9 hours to get 1000 URIs
 
-after running through filters dropped 100 URIs without even requesting them. Some were innapropriate
+after running through filters dropped 100 URIs without even requesting them. Some were inappropriate
 
 age vs time graph
 
