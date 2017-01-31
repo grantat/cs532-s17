@@ -12,7 +12,7 @@ with open("output/finalURIs.txt","r+") as file:
         for f in blacklist:
             if f in line:
                 removedLines.append(num)
-                lines.remove(line)
+                del lines[num]
                 print(num,"type found:",f,":",line)
                 break
             elif 'youtube.com' in line and '&' in line:
