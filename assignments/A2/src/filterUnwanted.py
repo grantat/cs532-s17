@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# unwanted domainsw
+# unwanted domains
 blacklist = ['.xyz','.pw','http://artist-rack.com?']
 # track lines removed from finalURIs for originalURIs
 removedLines = []
@@ -12,8 +12,8 @@ with open("output/finalURIs.txt","r+") as file:
         for f in blacklist:
             if f in line:
                 removedLines.append(num)
-                del lines[num]
                 print(num,"type found:",f,":",line)
+                del lines[num]
                 break
             elif 'youtube.com' in line and '&' in line:
                 pos = line.find('&')

@@ -20,6 +20,7 @@ Notes
 Streaming with filters from twitter took approx ~9 hours to get 1000 URIs
 Ran from Sunday 2am - 9am
 Ran from Tuesday 1pm - 2pm
+Ran from Tuesday 3pm - 4pm
 
 after running through filters dropped 100 URIs without even requesting them. Some were inappropriate
 
