@@ -5,7 +5,7 @@ import os
 import json
 
 
-def saveOutput(jsonOutput):
+def saveOutput(uri,count):
 
     if not os.path.exists("output"):
         os.makedirs("output")
@@ -13,15 +13,16 @@ def saveOutput(jsonOutput):
     # Save json received/created to output
     try:
         with open('output/timeMaps.json', 'a+b', 0) as file:
-            file.write(bytes(jsonOutput + ",\n", encoding='utf-8'))
+            file.write(bytes(uri + ",\n", encoding='utf-8'))
     except (IOError, ValueError):
         with open('output/finalURIs.txt', 'w') as file:
-            file.write(jsonOutput + "\n")
+            file.write(uri + "\n")
 
 
-def create404Json():
-    output = json.dumps({'4': 5, '6': 7}, sort_keys=True, indent=4)
-    print (output)
+
+
+def countMementos(jsonResp):
+    print()
 
 # Remove unwanted from finalURIs
 with open("output/finalURIs.txt", "r") as file:
@@ -37,8 +38,7 @@ with open("output/finalURIs.txt", "r") as file:
                 # count through json arr
                 print(resp.text)
                 print()
-            else:
-                create404Json()
+
         except KeyboardInterrupt:
             print()
             exit()
