@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 # unwanted domains
-blacklist = ['.xyz','.pw','http://artist-rack.com?','https://twitter.com/i/web/status/','paper.li']
+blacklist = ['.xyz','.pw','http://artist-rack.com?','https://twitter.com/i/web/status/','paper.li','twitter.com/']
 # track lines removed from finalURIs for originalURIs
 removedLines = []
+
 
 # Remove unwanted from finalURIs
 with open("output/finalURIs.txt","r+") as file:
