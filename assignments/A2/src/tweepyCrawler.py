@@ -16,7 +16,7 @@ access_token_secret = "hfEMDTkVBX6Kf7x8FddjBZi7joxKZIYYJztq1QFQcF8cp"
 consumer_key = "RigRve4McsZdYXNpz2rwPRZfx"
 consumer_secret = "EuFivjFeWCBmG205shXMjTPb0u56wTXJgRDRhqaWPRQU1CxYjW"
 # Filter list for bad/inappropriate/repeating domains
-blacklist = ['.xyz','.pw','http://artist-rack.com?']
+blacklist = ['.xyz','.pw','http://artist-rack.com?','https://twitter.com/i/web/status/']
 
 
 def request(uri):

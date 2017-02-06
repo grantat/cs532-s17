@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # unwanted domains
-blacklist = ['.xyz','.pw','http://artist-rack.com?']
+blacklist = ['.xyz','.pw','http://artist-rack.com?','https://twitter.com/i/web/status/']
 # track lines removed from finalURIs for originalURIs
 removedLines = []
 
