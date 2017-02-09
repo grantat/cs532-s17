@@ -1,11 +1,9 @@
 # Assignment 2
 
-Main program is pdfCrawl.py, written in python 3.6.
+Written in python 3.6.
 
-Libraries used:
+Dependencies used:
 
-- sys
-- BeautifulSoup
 - tweepy
 - requests
 
@@ -14,3 +12,12 @@ To install dependencies use the following command:
 ```shell
 $ pip3 install -r requirements.txt
 ```
+
+Main program for twitter streaming is tweepyCrawler.py
+
+Youtube duplicates and unwanted URIs may be included so its advisable to run:
+
+```shell
+$ ./cleanOutput.sh
+```
+
