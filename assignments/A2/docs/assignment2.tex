@@ -73,7 +73,8 @@ $ curl -IL --silent https://t.co/DpO767Md1v | egrep -i "(HTTP/1.1|^location:)"
 HTTP/1.1 301 Moved Permanently
 location: https://goo.gl/40yQo2
 HTTP/1.1 301 Moved Permanently
-Location: https://soundcloud.com/roanoketimes/ep-95-talking-hokies-recruiting-one-week-before-signing-day
+Location: https://soundcloud.com/roanoketimes
+/ep-95-talking-hokies-recruiting-one-week-before-signing-day
 HTTP/1.1 200 OK
 
 You might want to use the search feature to find URIs, or you can
@@ -97,11 +98,11 @@ To first approach this problem I started out with the the template code provided
 
 You could filter the stream of tweets with keywords. For my keywords I chose some of my favorite jazz and funk musicians and bands that were saved to my youtube playlist at the time, \url{https://www.youtube.com/playlist?list=PLYcZodEQpdPcZjZks1IV2V9nMPWNvzoxK}, to filter these streams.
 
-The main program for twitter streaming was \textbf{tweepyCrawler.py}. It first starts by listening to the stream of data from twitters streaming API. Then once a a piece of data is received in JSON format parse the number of mementos. Twitter provides a key in JSON called ``urls'' which provided the urls of a tweet. The JSON could also have a``retweeted_status'' key which would point to the urls provided from the tweet referenced so I also included those urls.
+The main program for twitter streaming was \textbf{tweepyCrawler.py} shown in Listing \ref{lst:q1tweepy}. It first starts by listening to the stream of data from twitters streaming API. Then once a a piece of data is received in JSON format, I parsed the number of mementos found in the JSON key ``urls'' which provided the urls of a tweet. The JSON could also have a $``retweeted\char`_status''$ key which would point to the urls provided from the tweet referenced so I also included those urls.
 
 \lstinputlisting[frame=single,caption={Python script for twitter streaming},label=lst:q1tweepy,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/tweepyCrawler.py}
 
-Since I was streaming live tweets it was inevitable that I would get repeating, inappropriate, and blank URIs. Therefore, when receiving the JSON I would request to URI provided then check if the final URI was already in my output file, if it wasn't I would add it. I also added a blacklist of URIs and domain types that were in a the bad category. Sometimes this didn't already work, especially when it came to youtube URIs that had extra parameters inside them. To compensate for this I created \textbf{filterUnwanted.py} shown Listing \ref{lst:q1filter} in and \textbf{removeDuplicates.py} shown in Listing \ref{lst:q1duplicates}. The first script would strip youtube of their extra parameters except for their video ids and it would also remove bad URIs. The second script would make sure all the URIs were still unique in the file, removing duplicates if they were found.
+Since I was taking live tweets it was inevitable that I would get repeating, inappropriate, and URIs with just javascript. Therefore, when receiving the JSON I would perform an HTTP get request to the URI provided then check if the final URI was already in my output file, if it wasn't I would add it. I also added a blacklist of URIs and domain types that were in the bad category. Sometimes this searching for unique URIs didn't work, especially when it came to youtube URIs that had extra parameters inside them. To compensate for this I created \textbf{filterUnwanted.py} shown Listing \ref{lst:q1filter} in and \textbf{removeDuplicates.py} shown in Listing \ref{lst:q1duplicates}. The first script would strip youtube of their extra parameters except for their video ids and it would also remove bad URIs. The second script would make sure all the URIs were still unique in the file, removing duplicates if they were found.
 
 \lstinputlisting[frame=single,caption={Python script for filtering and cleaning data files},label=lst:q1filter,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/filterUnwanted.py}
 
@@ -145,18 +146,20 @@ See: http://www.mementoweb.org/guide/quick-intro/
 And the week 4 lecture. 
 \end{verbatim}
 
+\clearpage
+
 \subsection*{Answer}
 
-For this problem I used  \url{http://memgator.cs.odu.edu/} to retrieve a JSON response for the time maps of my 1000 URIs. If the response was ``404 not found'' it was assumed that there were no mementos for the URI. As shown in Figure \ref{fig:q2histogram}
+For this problem I used  \url{http://memgator.cs.odu.edu/} and wrote \textbf{timeMap.py} to retrieve a JSON response for the time maps of my 1000 URIs. If the response was ``404 not found'' it was assumed that there were no mementos for the URI. If there was a JSON response, I took the count of all archives provided in the JSON key ``list''. For each response I saved the URI and the count to a CSV file named \textbf{timeMaps.csv}. I then created a simple histogram, using R shown in Listing \ref{lst:q2timemapR}, of URIs vs. Number of Mementos as shown in Figure \ref{fig:q2histogram}. An overwhelming majority of the URIs had either no mementos or a very low amount.
+
+\lstinputlisting[frame=single,caption={Python script for retrieving estimated creation date},label=lst:q2timemapR,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/timeMapMementos.R}
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.5]{timemapHistogram.pdf}
+\includegraphics[scale=0.8]{timemapHistogram.pdf}
 \caption{Histogram of }
 \label{fig:q2histogram}
 \end{figure}
-
-
 
 
 \clearpage
@@ -199,10 +202,25 @@ no date estimate:  212
 \clearpage
 \subsection*{Answer}
 
+Using the memento counts retrieved from question 2, I used the carbon dating tool provided in the question to retrieve the estimated dates for each of these URIs. For each response I saved the URI and the ``Estimated Creation Date'' JSON key to a CSV file named \textbf{carbonDate.csv}. This process took a considerable amount of time. The code used to complete this task is displayed in Listing \ref{lst:q2carbondatepy}. 
+
+\lstinputlisting[frame=single,caption={Python script for retrieving estimated creation date},label=lst:q2carbondatepy,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/carbonDate.py}
+
+Once I retrieved all of the dates I merged both the \textbf{carbonDate.csv} and \textbf{timeMaps.csv} together on their URIs using \textbf{mergeCSVs.py} shown in Listing \ref{lst:q2mergepy}. At the same time If the URI had an estimated creation date, the number of days difference from the current date (2017-02-09) to the date provided would be determined. Finally I created a scatter plot with depicting the the days since creation vs. number of mementos shown in Figure \ref{fig:scatterplot}. Some of the categories for the URIs are as follows:
+
+\begin{itemize}
+  \item total URIs:	1000
+  \item no mementos: 949
+  \item no date estimate: 
+\end{itemize}
+
+\lstinputlisting[frame=single,caption={Python script to merge CSVs and determine date},label=lst:q2mergepy,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/mergeCSVs.py}
+
+
 \begin{figure}[h]
-\includegraphics[scale=0.5]{webvizgraph.png}
-\caption{Graph representation generated with WebGraphviz \cite{webgraphvizref}}
-\label{fig:q3graph}
+\includegraphics[scale=0.5]{carbonDateScatterplot.pdf}
+\caption{Scatter plot of age in days and number of mementos}
+\label{fig:scatterplot}
 \end{figure}
 
 
