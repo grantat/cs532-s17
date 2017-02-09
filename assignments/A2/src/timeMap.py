@@ -13,14 +13,14 @@ def saveOutput(uri,count):
 
     # Save json received/created to output
     fields = [uri,count]
-    # try:
-    #     with open('output/timeMaps.csv', 'a', newline='') as file:
-    #         writer = csv.writer(file, delimiter=',')
-    #         writer.writerow(fields)
-    # except (IOError, ValueError):
-    #     with open('output/timeMaps.csv', 'w', newline='') as file:
-    #         writer = csv.writer(file, delimiter=',')
-    #         writer.writerow(fields)
+    try:
+        with open('output/timeMaps.csv', 'a', newline='') as file:
+            writer = csv.writer(file, delimiter=',')
+            writer.writerow(fields)
+    except (IOError, ValueError):
+        with open('output/timeMaps.csv', 'w', newline='') as file:
+            writer = csv.writer(file, delimiter=',')
+            writer.writerow(fields)
 
 
 def countMementos(jsonResp):
@@ -47,8 +47,6 @@ with open("output/finalURIs.txt", "r") as file:
                 print(resp.text)
                 count = countMementos(resp.text)
                 saveOutput(line,count)
-                if count > 2:
-                    exit()
             else:
                 count = 0
                 saveOutput(line,count)
