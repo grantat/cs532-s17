@@ -4,7 +4,7 @@ import requests
 import os
 import json
 import csv
-import datetime
+
 
 def saveOutput(uri,estDate):
 
@@ -33,27 +33,24 @@ startFlag = False
 with open("output/finalURIs.txt", "r") as file:
     lines = file.readlines()
     for num, line in enumerate(lines):
-        if startFlag == True or 'http://www.reviewjournal.com/neon/arts-culture/dave-loeb-brings-jazz-music-las-vegas' in line:
-            startFlag = True
-            # saveOutput(line,"")
-            try:
-                carbonDateURI = "http://localhost:8888/cd?url=" + line
-                print(carbonDateURI)
-                resp = requests.get(carbonDateURI, stream=True, allow_redirects=True, headers={
-                                    'User-Agent': 'Mozilla/5.0'})
+        try:
+            carbonDateURI = "http://localhost:8888/cd?url=" + line
+            print(carbonDateURI)
+            resp = requests.get(carbonDateURI, stream=True, allow_redirects=True, headers={
+                                'User-Agent': 'Mozilla/5.0'})
 
-                if resp.status_code == 200:
-                    # count through json arr
-                    print(resp.text)
+            if resp.status_code == 200:
+                # count through json arr
+                print(resp.text)
 
-                    estDate = getJson(resp.text)
-                    saveOutput(line,estDate)
-                else:
-                    estDate = ""
-                    saveOutput(line,estDate)
+                estDate = getJson(resp.text)
+                saveOutput(line,estDate)
+            else:
+                estDate = ""
+                saveOutput(line,estDate)
 
-            except KeyboardInterrupt:
-                print()
-                exit()
-            except:
-                pass
+        except KeyboardInterrupt:
+            print()
+            exit()
+        except:
+            pass
