@@ -102,7 +102,7 @@ The main program for twitter streaming was \textbf{tweepyCrawler.py} shown in Li
 
 \lstinputlisting[frame=single,caption={Python script for twitter streaming},label=lst:q1tweepy,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/tweepyCrawler.py}
 
-Since I was taking live tweets it was inevitable that I would get repeating URIs, inappropriate URIs, or just javascript based HTML pages with no content. Therefore, when receiving the JSON I would perform an HTTP get request to the URI provided then check if the final URI was already in my output file, if it wasn't I would add it. I also added a blacklist of URIs and domain types that were in the bad category. Sometimes this searching for unique URIs didn't work, especially when it came to youtube URIs that had extra parameters inside them. To compensate for this I created \textbf{filterUnwanted.py} shown Listing \ref{lst:q1filter} in and \textbf{removeDuplicates.py} shown in Listing \ref{lst:q1duplicates}. The first script would strip youtube of their extra parameters except for their video ids and it would also remove bad URIs. The second script would make sure all the URIs were still unique in the file, removing duplicates if they were found.
+Since I was taking live tweets it was inevitable that I would get repeating URIs, inappropriate URIs, or just javascript based HTML pages with no content. Therefore, when receiving the JSON I would perform an HTTP get request to the URI provided then check if the final URI was already in my output file, if it wasn't I would add it. I also added a blacklist of URIs and domain types that were in the bad category. Sometimes this searching for unique URIs didn't work, especially when it came to youtube URIs that had extra parameters inside them. To compensate for this I created \textbf{filterUnwanted.py} shown Listing \ref{lst:q1filter} in and \textbf{removeDuplicates.py} shown in Listing \ref{lst:q1duplicates}. The first script would strip youtube of their extra parameters except for their video ids and it would also remove bad URIs. The second script would make sure all the URIs were still unique in the file, removing duplicates if they were found. Finally I saved all of these URIs to a text file, \textbf{finalURIs.txt} \cite{finalurisref}.
 
 \lstinputlisting[frame=single,caption={Python script for filtering and cleaning data files},label=lst:q1filter,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/filterUnwanted.py}
 
@@ -206,7 +206,7 @@ Using the memento counts retrieved from question 2, I used the carbon dating too
 
 \lstinputlisting[frame=single,caption={Python script for retrieving estimated creation date},label=lst:q2carbondatepy,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/carbonDate.py}
 
-Once I retrieved all of the dates I merged both the \textbf{carbonDate.csv} and \textbf{timeMaps.csv} together on their URIs using \textbf{mergeCSVs.py}, shown in Listing \ref{lst:q3mergepy}. At the same time if the URI had an estimated creation date, the number of days difference from the current date (02/09/2017) to the date provided would be determined. Finally I created a scatter plot, built using R shown in Listing \ref{lst:q2carbonDateR}, depicting the the Days vs. Number of Mementos shown in Figure \ref{fig:scatterplot}.
+Once I retrieved all of the dates I merged both the \textbf{carbonDate.csv} and \textbf{timeMaps.csv} together on their URIs using \textbf{mergeCSVs.py}, shown in Listing \ref{lst:q3mergepy}. At the same time if the URI had an estimated creation date, the number of days difference from the current date (02/09/2017) to the date provided would be determined. Finally I created a scatter plot, built using R shown in Listing \ref{lst:q2carbonDateR}, depicting the the Days vs. Number of Mementos shown in Figure \ref{fig:scatterplot}. I later applied a log-log scale to both axes to show the values more distributed, otherwise most of the values would have been lying flat along the x-axis due to low memento counts, this is shown in Figure \ref{fig:scatterplot2}.
 
 The following values were found using \textbf{carbonDateMementos.R}:
 \begin{itemize}
@@ -214,6 +214,8 @@ The following values were found using \textbf{carbonDateMementos.R}:
   \item no mementos:      949
   \item no date estimate: 266
 \end{itemize}
+
+It was found that URIs that had no date estimates also didn't contain any mementos.
 
 \lstinputlisting[frame=single,caption={Python script to merge CSVs and determine date},label=lst:q3mergepy,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/mergeCSVs.py}
 
@@ -230,6 +232,12 @@ The following values were found using \textbf{carbonDateMementos.R}:
 
 \clearpage
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{carbonDateScatterplot2.pdf}
+\caption{Scatter plot of age in days and number of mementos with log-log scale}
+\label{fig:scatterplot2}
+\end{figure}
 
 \clearpage
 
@@ -238,6 +246,8 @@ The following values were found using \textbf{carbonDateMementos.R}:
 % =================================
 
 \begin{thebibliography}{9}
+\bibitem{finalurisref}
+Atkins, Grant. ``finalURIs.txt - Twitter scraped URIs.'' cs532-s17 Github Repository. N.p., 09 Feb. 2017. Web. 09 Feb. 2017.\url{https://github.com/grantat/cs532-s17/blob/master/assignments/A2/src/output/finalURIs.txt}
 \bibitem{twitterstreamref} 
 Moujahid, Adil. ``An Introduction to Text Mining Using Twitter Streaming API and Python.'' An Introduction to Text Mining Using Twitter Streaming API and Python // Adil Moujahid // Data Analytics and More. N.p., 21 July 2014. Web. 08 Feb. 2017. \url{http://adilmoujahid.com/posts/2014/07/twitter-analytics/}
 \bibitem{carbondateref}
