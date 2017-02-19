@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="ru-RU">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="ru-RU">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="ru-RU">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Jamiroquai &#8212; Automaton | LOL54.RU</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://lol54.ru/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://lol54.ru/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+	  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="LOL54.RU &raquo; Лента" href="http://lol54.ru/feed" />
+<link rel="alternate" type="application/rss+xml" title="LOL54.RU &raquo; Лента комментариев" href="http://lol54.ru/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="LOL54.RU &raquo; Лента комментариев к &laquo;Jamiroquai &#8212; Automaton&raquo;" href="http://lol54.ru/music/video_clips/169845-jamiroquai-automaton.html/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/lol54.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ajaxed-comments-front-css'  href='http://lol54.ru/wp-content/plugins/ajaxed-comments/css/front.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ajaxed-comments-colors-css'  href='http://lol54.ru/wp-content/plugins/ajaxed-comments/css/colors.css?1487196872&#038;ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='a3-pvc-style-css'  href='http://lol54.ru/wp-content/plugins/page-views-count/assets/css/style.min.css?ver=1.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ram108-sape-css'  href='http://lol54.ru/wp-content/plugins/ram108-sape/style.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wsl-widget-css'  href='http://lol54.ru/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://lol54.ru/wp-content/plugins/wp-polls/polls-css.css?ver=2.73.2' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://lol54.ru/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='wp-postratings-css'  href='http://lol54.ru/wp-content/plugins/wp-postratings/css/postratings-css.css?ver=1.84' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfront-scroll-top-css'  href='http://lol54.ru/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-lightbox-2.min.css-css'  href='http://lol54.ru/wp-content/plugins/wp-lightbox-2/styles/lightbox.min.ru_RU.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext,cyrillic,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='http://lol54.ru/wp-content/themes/twentytwelve/style.css?ver=4.7.2' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://lol54.ru/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='malinky-ajax-pagination-css'  href='http://lol54.ru/wp-content/plugins/malinky-ajax-pagination/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://lol54.ru/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.13' type='text/css' media='all' />
+<script type='text/javascript' src='http://lol54.ru/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://lol54.ru/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/plugins/ajaxed-comments/js/jquery.countdown.min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://lol54.ru/wp-includes/js/jquery/jquery.color.min.js?ver=2.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var acArgs = {"editCommEffect":"fade","showEffect":"fade","hideEffect":"fade","timeToHide":"3","hideInlineActions":"no","ajaxurl":"http:\/\/lol54.ru\/wp-admin\/admin-ajax.php","untrash":"Restore","trash":"Trash","unspam":"Unspam","spam":"Spam","unapprove":"Unapprove","approve":"Approve","holdColor":"#ffffe0","trashColor":"#ffaaaa","spamColor":"#fff1cc","highlightComments":"yes","timer":"yes","errUnknown":"Error has occurred. Please try again later or reload a page.","errEmptyComment":"Comment is empty.","deleteComment":"Are you sure you want to delete this comment?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/plugins/ajaxed-comments/js/front.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=1.5'></script>
+<link rel='https://api.w.org/' href='http://lol54.ru/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://lol54.ru/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://lol54.ru/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Maiya' href='http://lol54.ru/18/169817-maiya.html' />
+<link rel='next' title='Мультиварка' href='http://lol54.ru/humor/humor_picture/169847-multivarka.html' />
+<meta name="generator" content="WordPress 4.7.2" />
+<link rel="canonical" href="http://lol54.ru/music/video_clips/169845-jamiroquai-automaton.html" />
+<link rel='shortlink' href='http://lol54.ru/?p=169845' />
+<link rel="alternate" type="application/json+oembed" href="http://lol54.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html" />
+<link rel="alternate" type="text/xml+oembed" href="http://lol54.ru/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&#038;format=xml" />
+
+<script type="text/javascript">
+var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};a2a_localize = {
+	Share: "Отправить",
+	Save: "Сохранить",
+	Subscribe: "Подписаться",
+	Email: "Email",
+	Bookmark: "В закладки!",
+	ShowAll: "Показать все",
+	ShowLess: "Показать остальное",
+	FindServices: "Найти сервис(ы)",
+	FindAnyServiceToAddTo: "Найти сервис и добавить",
+	PoweredBy: "Работает на",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Добавить в закладки",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Добавить в Избранное",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;"
+};
+
+</script>
+<script type="text/javascript" src="http://static.addtoany.com/menu/page.js" async="async"></script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		</head>
+
+<body class="post-template-default single single-post postid-169845 single-format-standard custom-font-enabled">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="http://lol54.ru/" title="LOL54.RU" rel="home">LOL54.RU</a></h1>
+			<h2 class="site-description">На позитиве!</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle">Меню</button>
+			<a class="assistive-text" href="#content" title="Перейти к содержимому">Перейти к содержимому</a>
+			<div class="menu-main-container"><ul id="menu-main" class="nav-menu"><li id="menu-item-143096" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-143096"><a href="http://lol54.ru">Главная</a></li>
+<li id="menu-item-143157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-143157"><a href="http://lol54.ru/feed">RSS</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+			
+				
+	<article id="post-169845" class="post-169845 post type-post status-publish format-standard hentry category-video_clips">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">Jamiroquai &#8212; Automaton</h1>
+										<div class="comments-link">
+					<a href="http://lol54.ru/music/video_clips/169845-jamiroquai-automaton.html#respond"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p style="text-align: center;"><span style="color: #800080;"><strong>Первый за 7 лет клип Jamiroquai &#8212; Automaton</strong></span></p>
+<p><iframe src="//www.youtube.com/embed/rmlmOk4ubcU" width="640" height="480" allowfullscreen="allowfullscreen"></iframe></p>
+<div class="pvc_clear"></div>
+<p class="pvc_stats" element-id="169845">142&nbsp;просмотров всего, 3&nbsp;просмотров сегодня</p>
+<div class="pvc_clear"></div>
+<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="http://lol54.ru/music/video_clips/169845-jamiroquai-automaton.html" data-a2a-title="Jamiroquai — Automaton"><a class="a2a_button_vk" href="http://www.addtoany.com/add_to/vk?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="VK" rel="nofollow" target="_blank"></a><a class="a2a_button_odnoklassniki" href="http://www.addtoany.com/add_to/odnoklassniki?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="Odnoklassniki" rel="nofollow" target="_blank"></a><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="Facebook" rel="nofollow" target="_blank"></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="http://www.addtoany.com/add_to/google_plus?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_whatsapp" href="http://www.addtoany.com/add_to/whatsapp?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="WhatsApp" rel="nofollow" target="_blank"></a><a class="a2a_button_reddit" href="http://www.addtoany.com/add_to/reddit?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="Reddit" rel="nofollow" target="_blank"></a><a class="a2a_button_livejournal" href="http://www.addtoany.com/add_to/livejournal?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="LiveJournal" rel="nofollow" target="_blank"></a><a class="a2a_button_mail_ru" href="http://www.addtoany.com/add_to/mail_ru?linkurl=http%3A%2F%2Flol54.ru%2Fmusic%2Fvideo_clips%2F169845-jamiroquai-automaton.html&amp;linkname=Jamiroquai%20%E2%80%94%20Automaton" title="Mail.Ru" rel="nofollow" target="_blank"></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="http://lol54.ru/music/video_clips/169845-jamiroquai-automaton.html" title="18:50" rel="bookmark"><time class="entry-date" datetime="2017-01-30T18:50:24+00:00">30.01.2017</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="http://lol54.ru/author/roy" title="Посмотреть все записи автора Roy" rel="author">Roy</a></span></span> в рубрике <a href="http://lol54.ru/category/music/video_clips" rel="category tag">Клипы</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text">Навигация по записям</h3>
+					<span class="nav-previous"><a href="http://lol54.ru/18/169817-maiya.html" rel="prev"><span class="meta-nav">&larr;</span> Maiya</a></span>
+					<span class="nav-next"><a href="http://lol54.ru/humor/humor_picture/169847-multivarka.html" rel="next">Мультиварка <span class="meta-nav">&rarr;</span></a></span>
+				</nav><!-- .nav-single -->
+
+				
+<div id="comments" class="comments-area">
+
+	
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Добавить комментарий <small><a rel="nofollow" id="cancel-comment-reply-link" href="/music/video_clips/169845-jamiroquai-automaton.html#respond" style="display:none;">Отменить ответ</a></small></h3>			<form action="http://lol54.ru/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Ваш e-mail не будет опубликован.</span> Обязательные поля помечены <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Комментарий</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p>
+		<div id="ajaxed-comments" style="display: none;" class="wp-default">
+			<div id="ajaxed-comments-box" rel="e57eaed03e">
+				<div class="ac-inside-box"></div>
+			</div>
+		</div><p class="comment-form-author"><label for="author">Имя <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">E-mail <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Сайт</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200" /></p>
+<div class="anr_captcha_field"><div id="anr_captcha_field_1"></div></div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Отправить комментарий" /> <input type='hidden' name='comment_post_ID' value='169845' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+<span id="ac-spinner"></span></p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ca9d83a450" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="136"/></p>			</form>
+			</div><!-- #respond -->
+	
+</div><!-- #comments .comments-area -->
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+<!-- SAPE RTB JS -->
+<script
+    async="async"
+    src="//cdn-rtb.sape.ru/teasers/js/084/2/84.js"
+    type="text/javascript">
+</script>
+<!-- SAPE RTB END --><!-- SAPE RTB DIV 240x400 -->
+<div id="SRTB_59822"></div>
+<!-- SAPE RTB END -->			<aside id="members-widget-login-2" class="widget login"><img src="http://2.gravatar.com/avatar/?s=96&#038;d=mm&#038;r=g" width="96" height="96" alt="" class="avatar avatar-96 wp-user-avatar wp-user-avatar-96 photo avatar-default" /><div class="members-login-form">
+		<form name="loginform" id="loginform" action="http://lol54.ru/wp-login.php" method="post">
+			
+			<p class="login-username">
+				<label for="user_login">Имя</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
+			</p>
+			<p class="login-password">
+				<label for="user_pass">Пароль</label>
+				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+			</p>
+			
+			<p class="login-remember"><label><input name="rememberme" type="checkbox" id="wp-submit" value="forever" /> Запомнить меня</label></p>
+			<p class="login-submit">
+				<input type="submit" name="wp-submit" id="1" class="button button-primary" value="Войти" />
+				<input type="hidden" name="redirect_to" value="http://lol54.ru/music/video_clips/169845-jamiroquai-automaton.html" />
+			</p>
+			
+		</form></div></aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://lol54.ru/">
+				<div>
+					<label class="screen-reader-text" for="s">Найти:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Поиск" />
+				</div>
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Свежие записи</h3>		<ul>
+					<li>
+				<a href="http://lol54.ru/humor/humor_picture/171661-ponyat-i-prostit.html">Понять и простить</a>
+						</li>
+					<li>
+				<a href="http://lol54.ru/humor/humor_picture/171656-ya-gospozha-tamara-a-ty-govno.html">Я госпожа Тамара, а ты &#8212; говно</a>
+						</li>
+					<li>
+				<a href="http://lol54.ru/humor/humor_video/171654-leningrad-kolshhik.html">Ленинград — Кольщик</a>
+						</li>
+					<li>
+				<a href="http://lol54.ru/pozitiv/171560-zhivotnye-kotorye-udachno-vlezli-v-kadr.html">Животные, которые удачно влезли в кадр</a>
+						</li>
+					<li>
+				<a href="http://lol54.ru/humor/humor_picture/171243-valentinka-ot-kota-yury.html">Валентинка от кота Юры</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Свежие комментарии</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">КупиДом из Ленобласти</span> к записи <a href="http://lol54.ru/art/arhitektura/137813-unikalnyjj-kvartal-v-shvecii.html#comment-336314">Уникальный квартал в Швеции</a></li><li class="recentcomments"><span class="comment-author-link">Коля</span> к записи <a href="http://lol54.ru/tech/80867-antigravitacija-grebennikova.html#comment-336313">Антигравитация Гребенникова</a></li><li class="recentcomments"><span class="comment-author-link">Azrail</span> к записи <a href="http://lol54.ru/shocked/119515-ezhegodnoe-massovoe-ubijjstvo-delfinov-v-danii-u.html#comment-336312">Ежегодное массовое убийство дельфинов в Дании у берегов Фарерских островов</a></li><li class="recentcomments"><span class="comment-author-link">Alex</span> к записи <a href="http://lol54.ru/news/kak_eto_bylo/134774-kak-zakonchilas-zhizn-liderov-tretego-rejjkha.html#comment-336310">Как закончилась жизнь лидеров Третьего рейха</a></li><li class="recentcomments"><span class="comment-author-link">Павел</span> к записи <a href="http://lol54.ru/art/168204-kinematograficheskij-kalendar-2017.html#comment-336307">Кинематографический календарь 2017</a></li></ul></aside><aside id="calendar-3" class="widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>Февраль 2017</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Понедельник">Пн</th>
+		<th scope="col" title="Вторник">Вт</th>
+		<th scope="col" title="Среда">Ср</th>
+		<th scope="col" title="Четверг">Чт</th>
+		<th scope="col" title="Пятница">Пт</th>
+		<th scope="col" title="Суббота">Сб</th>
+		<th scope="col" title="Воскресенье">Вс</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://lol54.ru/date/2017/01">&laquo; Янв</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="2" class="pad">&nbsp;</td><td><a href="http://lol54.ru/date/2017/02/01" aria-label="Записи, опубликованные 01.02.2017">1</a></td><td><a href="http://lol54.ru/date/2017/02/02" aria-label="Записи, опубликованные 02.02.2017">2</a></td><td><a href="http://lol54.ru/date/2017/02/03" aria-label="Записи, опубликованные 03.02.2017">3</a></td><td><a href="http://lol54.ru/date/2017/02/04" aria-label="Записи, опубликованные 04.02.2017">4</a></td><td><a href="http://lol54.ru/date/2017/02/05" aria-label="Записи, опубликованные 05.02.2017">5</a></td>
+	</tr>
+	<tr>
+		<td><a href="http://lol54.ru/date/2017/02/06" aria-label="Записи, опубликованные 06.02.2017">6</a></td><td><a href="http://lol54.ru/date/2017/02/07" aria-label="Записи, опубликованные 07.02.2017">7</a></td><td>8</td><td><a href="http://lol54.ru/date/2017/02/09" aria-label="Записи, опубликованные 09.02.2017">9</a></td><td><a href="http://lol54.ru/date/2017/02/10" aria-label="Записи, опубликованные 10.02.2017">10</a></td><td><a href="http://lol54.ru/date/2017/02/11" aria-label="Записи, опубликованные 11.02.2017">11</a></td><td>12</td>
+	</tr>
+	<tr>
+		<td><a href="http://lol54.ru/date/2017/02/13" aria-label="Записи, опубликованные 13.02.2017">13</a></td><td><a href="http://lol54.ru/date/2017/02/14" aria-label="Записи, опубликованные 14.02.2017">14</a></td><td><a href="http://lol54.ru/date/2017/02/15" aria-label="Записи, опубликованные 15.02.2017">15</a></td><td id="today"><a href="http://lol54.ru/date/2017/02/16" aria-label="Записи, опубликованные 16.02.2017">16</a></td><td>17</td><td>18</td><td>19</td>
+	</tr>
+	<tr>
+		<td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td>
+	</tr>
+	<tr>
+		<td>27</td><td>28</td>
+		<td class="pad" colspan="5">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Рубрики</h3>		<ul>
+	<li class="cat-item cat-item-169"><a href="http://lol54.ru/category/18" >18+</a> (200)
+</li>
+	<li class="cat-item cat-item-62"><a href="http://lol54.ru/category/made-in-internet" title="Все что идет из внешних источников">Made in Internet</a> (1&nbsp;629)
+</li>
+	<li class="cat-item cat-item-69"><a href="http://lol54.ru/category/army" >Армия</a> (53)
+</li>
+	<li class="cat-item cat-item-39"><a href="http://lol54.ru/category/video" title="Видео">Видео</a> (2&nbsp;741)
+<ul class='children'>
+	<li class="cat-item cat-item-40"><a href="http://lol54.ru/category/video/video_documental" title="Документальное видео">Документальное</a> (254)
+</li>
+	<li class="cat-item cat-item-50"><a href="http://lol54.ru/category/video/mult" title="Мультфильмы">Мультипликация</a> (295)
+</li>
+	<li class="cat-item cat-item-49"><a href="http://lol54.ru/category/video/video_sport" title="Спортивное видео">Спорт</a> (513)
+</li>
+	<li class="cat-item cat-item-48"><a href="http://lol54.ru/category/video/video_film" title="Художественные фильмы">Художественные</a> (318)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-83"><a href="http://lol54.ru/category/devushki" title="Девушки 24 часа в сутки смотри бесплатно!">Девушки</a> (230)
+</li>
+	<li class="cat-item cat-item-63"><a href="http://lol54.ru/category/demotivacija" title="Всегда свежие Демотиваторы! Серьёзные демотиваторы, прикольные демотиваторы — изображения, состоящее из картинки в чёрной рамке и комментирующей её на">Демотиваторы</a> (236)
+</li>
+	<li class="cat-item cat-item-70"><a href="http://lol54.ru/category/zhivotnye" >Животные</a> (174)
+</li>
+	<li class="cat-item cat-item-35"><a href="http://lol54.ru/category/games" title="Игры и все о них">Игры</a> (325)
+<ul class='children'>
+	<li class="cat-item cat-item-37"><a href="http://lol54.ru/category/games/games_distr" title="Дистрибютивы игр">Дистрибутивы</a> (18)
+</li>
+	<li class="cat-item cat-item-36"><a href="http://lol54.ru/category/games/games_news" title="Новости из мира игровой индустрии">Новости</a> (148)
+</li>
+	<li class="cat-item cat-item-59"><a href="http://lol54.ru/category/games/flash-games" title="чтобы поиграться =))">Флэш-игрушки</a> (96)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-42"><a href="http://lol54.ru/category/art" title="искусство">Искусство</a> (1&nbsp;658)
+<ul class='children'>
+	<li class="cat-item cat-item-74"><a href="http://lol54.ru/category/art/arhitektura" >Архитектура</a> (12)
+</li>
+	<li class="cat-item cat-item-76"><a href="http://lol54.ru/category/art/design" >Дизайн</a> (46)
+</li>
+	<li class="cat-item cat-item-64"><a href="http://lol54.ru/category/art/nature" title="категория фауна и флоры, а также земных рельефов">Природа</a> (371)
+</li>
+	<li class="cat-item cat-item-43"><a href="http://lol54.ru/category/art/art_fentasy" title="Фентези">Фэнтези</a> (104)
+</li>
+	<li class="cat-item cat-item-44"><a href="http://lol54.ru/category/art/art_digital" title="Цифровое художество">Цифра</a> (391)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-68"><a href="http://lol54.ru/category/tenders" >Конкурсы</a> (3)
+</li>
+	<li class="cat-item cat-item-71"><a href="http://lol54.ru/category/kosmos" >Космос</a> (47)
+</li>
+	<li class="cat-item cat-item-65"><a href="http://lol54.ru/category/kotomatrix" title="подборки забавных зверюшек с оригинальными подписями">Котоматрицы</a> (51)
+</li>
+	<li class="cat-item cat-item-14"><a href="http://lol54.ru/category/mobile" title="Все для мобильных телефонов">Мобильный телефон</a> (16)
+<ul class='children'>
+	<li class="cat-item cat-item-30"><a href="http://lol54.ru/category/mobile/mobile_screen" title="Заставки на кран для мобильных телефонов">Заставки</a> (6)
+</li>
+	<li class="cat-item cat-item-15"><a href="http://lol54.ru/category/mobile/mobile_rings" title="Мелодии на звонки, СМС, будиьник">Мелодии</a> (1)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://lol54.ru/category/music" title="Музыка">Музыка</a> (2&nbsp;914)
+<ul class='children'>
+	<li class="cat-item cat-item-52"><a href="http://lol54.ru/category/music/video_clips" title="Видеоклипы">Клипы</a> (1&nbsp;230)
+</li>
+	<li class="cat-item cat-item-53"><a href="http://lol54.ru/category/music/mp3flac" title="Скачать бесплатно музыку mp3 и FLAC.">Скачать mp3 и FLAC</a> (1&nbsp;522)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://lol54.ru/category/tech" title="Материалы о научных и технических достижениях">Наука и техника</a> (1&nbsp;790)
+<ul class='children'>
+	<li class="cat-item cat-item-32"><a href="http://lol54.ru/category/tech/hitech" title="Высокие технологии">Hi-Tech</a> (221)
+</li>
+	<li class="cat-item cat-item-34"><a href="http://lol54.ru/category/tech/tech_avia" title="Авиация">Авиа</a> (175)
+</li>
+	<li class="cat-item cat-item-33"><a href="http://lol54.ru/category/tech/tech_auto" title="Авто и мото-техника">Авто-мото</a> (921)
+</li>
+	<li class="cat-item cat-item-45"><a href="http://lol54.ru/category/tech/tech_other" title="Разное">Разное</a> (387)
+</li>
+	<li class="cat-item cat-item-75"><a href="http://lol54.ru/category/tech/sooruzhenija" >Сооружения</a> (29)
+</li>
+	<li class="cat-item cat-item-82"><a href="http://lol54.ru/category/tech/flot" >Флот</a> (21)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://lol54.ru/category/news" >Новости</a> (3&nbsp;968)
+<ul class='children'>
+	<li class="cat-item cat-item-51"><a href="http://lol54.ru/category/news/vip" title="Популярные, известные люди">Знаменитости</a> (651)
+</li>
+	<li class="cat-item cat-item-77"><a href="http://lol54.ru/category/news/kak_eto_bylo" >Как это было</a> (67)
+</li>
+	<li class="cat-item cat-item-78"><a href="http://lol54.ru/category/news/katastrofy" >Катастрофы</a> (219)
+</li>
+	<li class="cat-item cat-item-56"><a href="http://lol54.ru/category/news/news_lol" >Новости сайта</a> (48)
+</li>
+	<li class="cat-item cat-item-80"><a href="http://lol54.ru/category/news/politika" >Политика</a> (51)
+</li>
+	<li class="cat-item cat-item-81"><a href="http://lol54.ru/category/news/foto_dnya" title="Лучшие фото за день.">Фото дня</a> (68)
+</li>
+	<li class="cat-item cat-item-41"><a href="http://lol54.ru/category/news/news_world" title="Обо всем что происходит в мире">Что в мире творится</a> (2&nbsp;775)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://lol54.ru/category/education" >Образование</a> (2&nbsp;513)
+<ul class='children'>
+	<li class="cat-item cat-item-38"><a href="http://lol54.ru/category/education/education_journal" title="Журналы">Журналы</a> (19)
+</li>
+	<li class="cat-item cat-item-73"><a href="http://lol54.ru/category/education/zdorovie" >Здоровье</a> (59)
+</li>
+	<li class="cat-item cat-item-23"><a href="http://lol54.ru/category/education/education_book" title="Электронные книги без регистрации.">Книги</a> (436)
+</li>
+	<li class="cat-item cat-item-72"><a href="http://lol54.ru/category/education/kreativ" >Креатив</a> (118)
+</li>
+	<li class="cat-item cat-item-79"><a href="http://lol54.ru/category/education/lifehack" >Лайфхаки</a> (56)
+</li>
+	<li class="cat-item cat-item-12"><a href="http://lol54.ru/category/education/uvgsfeshshht_informative" title="Здесь собрана вся познавательная информация">Познавательно</a> (1&nbsp;643)
+</li>
+	<li class="cat-item cat-item-26"><a href="http://lol54.ru/category/education/education_experiment" title="Эксперименты с чем либо">Эксперименты</a> (190)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-55"><a href="http://lol54.ru/category/pozitiv" title="Позитивно!">Позитив</a> (1&nbsp;509)
+</li>
+	<li class="cat-item cat-item-11"><a href="http://lol54.ru/category/other" title="Все что не вошло в другие разделы">Прочее</a> (2&nbsp;096)
+</li>
+	<li class="cat-item cat-item-16"><a href="http://lol54.ru/category/customize" title="Украшения рабочего стола">Украшательство</a> (288)
+<ul class='children'>
+	<li class="cat-item cat-item-17"><a href="http://lol54.ru/category/customize/desktop" title="Картинки на рабочий стол">Рабочий стол</a> (189)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-60"><a href="http://lol54.ru/category/shocked" title="Самые шокирующие новости">Шокирующее</a> (394)
+</li>
+	<li class="cat-item cat-item-2"><a href="http://lol54.ru/category/humor" title="Только позитив!">Юмор</a> (7&nbsp;493)
+<ul class='children'>
+	<li class="cat-item cat-item-5"><a href="http://lol54.ru/category/humor/humor_anekdot" title="Анекдоты">Анекдоты</a> (44)
+</li>
+	<li class="cat-item cat-item-22"><a href="http://lol54.ru/category/humor/humor_audio" title="Юморные звуки и песни">Аудио</a> (18)
+</li>
+	<li class="cat-item cat-item-4"><a href="http://lol54.ru/category/humor/humor_video" title="Смешное видео">Видео</a> (3&nbsp;662)
+</li>
+	<li class="cat-item cat-item-6"><a href="http://lol54.ru/category/humor/humor_history" title="Веселые истории">Истории</a> (223)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://lol54.ru/category/humor/humor_picture" title="Смешные картинки">Картинки</a> (3&nbsp;040)
+</li>
+	<li class="cat-item cat-item-10"><a href="http://lol54.ru/category/humor/humor_other" >Прочее</a> (456)
+</li>
+</ul>
+</li>
+		</ul>
+</aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Архивы</h3>		<label class="screen-reader-text" for="archives-dropdown-2">Архивы</label>
+		<select id="archives-dropdown-2" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Выберите месяц</option>
+				<option value='http://lol54.ru/date/2017/02'> Февраль 2017 &nbsp;(64)</option>
+	<option value='http://lol54.ru/date/2017/01'> Январь 2017 &nbsp;(84)</option>
+	<option value='http://lol54.ru/date/2016/12'> Декабрь 2016 &nbsp;(51)</option>
+	<option value='http://lol54.ru/date/2016/11'> Ноябрь 2016 &nbsp;(40)</option>
+	<option value='http://lol54.ru/date/2016/10'> Октябрь 2016 &nbsp;(50)</option>
+	<option value='http://lol54.ru/date/2016/09'> Сентябрь 2016 &nbsp;(40)</option>
+	<option value='http://lol54.ru/date/2016/08'> Август 2016 &nbsp;(32)</option>
+	<option value='http://lol54.ru/date/2016/07'> Июль 2016 &nbsp;(71)</option>
+	<option value='http://lol54.ru/date/2016/06'> Июнь 2016 &nbsp;(45)</option>
+	<option value='http://lol54.ru/date/2016/05'> Май 2016 &nbsp;(50)</option>
+	<option value='http://lol54.ru/date/2016/04'> Апрель 2016 &nbsp;(47)</option>
+	<option value='http://lol54.ru/date/2016/03'> Март 2016 &nbsp;(28)</option>
+	<option value='http://lol54.ru/date/2016/02'> Февраль 2016 &nbsp;(53)</option>
+	<option value='http://lol54.ru/date/2016/01'> Январь 2016 &nbsp;(70)</option>
+	<option value='http://lol54.ru/date/2015/12'> Декабрь 2015 &nbsp;(56)</option>
+	<option value='http://lol54.ru/date/2015/11'> Ноябрь 2015 &nbsp;(55)</option>
+	<option value='http://lol54.ru/date/2015/10'> Октябрь 2015 &nbsp;(34)</option>
+	<option value='http://lol54.ru/date/2015/09'> Сентябрь 2015 &nbsp;(104)</option>
+	<option value='http://lol54.ru/date/2015/08'> Август 2015 &nbsp;(23)</option>
+	<option value='http://lol54.ru/date/2015/07'> Июль 2015 &nbsp;(73)</option>
+	<option value='http://lol54.ru/date/2015/06'> Июнь 2015 &nbsp;(89)</option>
+	<option value='http://lol54.ru/date/2015/05'> Май 2015 &nbsp;(88)</option>
+	<option value='http://lol54.ru/date/2015/04'> Апрель 2015 &nbsp;(74)</option>
+	<option value='http://lol54.ru/date/2015/03'> Март 2015 &nbsp;(88)</option>
+	<option value='http://lol54.ru/date/2015/02'> Февраль 2015 &nbsp;(136)</option>
+	<option value='http://lol54.ru/date/2015/01'> Январь 2015 &nbsp;(221)</option>
+	<option value='http://lol54.ru/date/2014/12'> Декабрь 2014 &nbsp;(282)</option>
+	<option value='http://lol54.ru/date/2014/11'> Ноябрь 2014 &nbsp;(276)</option>
+	<option value='http://lol54.ru/date/2014/10'> Октябрь 2014 &nbsp;(411)</option>
+	<option value='http://lol54.ru/date/2014/09'> Сентябрь 2014 &nbsp;(361)</option>
+	<option value='http://lol54.ru/date/2014/08'> Август 2014 &nbsp;(355)</option>
+	<option value='http://lol54.ru/date/2014/07'> Июль 2014 &nbsp;(258)</option>
+	<option value='http://lol54.ru/date/2014/06'> Июнь 2014 &nbsp;(268)</option>
+	<option value='http://lol54.ru/date/2014/05'> Май 2014 &nbsp;(299)</option>
+	<option value='http://lol54.ru/date/2014/04'> Апрель 2014 &nbsp;(337)</option>
+	<option value='http://lol54.ru/date/2014/03'> Март 2014 &nbsp;(361)</option>
+	<option value='http://lol54.ru/date/2014/02'> Февраль 2014 &nbsp;(342)</option>
+	<option value='http://lol54.ru/date/2014/01'> Январь 2014 &nbsp;(297)</option>
+	<option value='http://lol54.ru/date/2013/12'> Декабрь 2013 &nbsp;(401)</option>
+	<option value='http://lol54.ru/date/2013/11'> Ноябрь 2013 &nbsp;(367)</option>
+	<option value='http://lol54.ru/date/2013/10'> Октябрь 2013 &nbsp;(335)</option>
+	<option value='http://lol54.ru/date/2013/09'> Сентябрь 2013 &nbsp;(282)</option>
+	<option value='http://lol54.ru/date/2013/08'> Август 2013 &nbsp;(229)</option>
+	<option value='http://lol54.ru/date/2013/07'> Июль 2013 &nbsp;(240)</option>
+	<option value='http://lol54.ru/date/2013/06'> Июнь 2013 &nbsp;(311)</option>
+	<option value='http://lol54.ru/date/2013/05'> Май 2013 &nbsp;(335)</option>
+	<option value='http://lol54.ru/date/2013/04'> Апрель 2013 &nbsp;(392)</option>
+	<option value='http://lol54.ru/date/2013/03'> Март 2013 &nbsp;(363)</option>
+	<option value='http://lol54.ru/date/2013/02'> Февраль 2013 &nbsp;(361)</option>
+	<option value='http://lol54.ru/date/2013/01'> Январь 2013 &nbsp;(386)</option>
+	<option value='http://lol54.ru/date/2012/12'> Декабрь 2012 &nbsp;(374)</option>
+	<option value='http://lol54.ru/date/2012/11'> Ноябрь 2012 &nbsp;(308)</option>
+	<option value='http://lol54.ru/date/2012/10'> Октябрь 2012 &nbsp;(431)</option>
+	<option value='http://lol54.ru/date/2012/09'> Сентябрь 2012 &nbsp;(343)</option>
+	<option value='http://lol54.ru/date/2012/08'> Август 2012 &nbsp;(385)</option>
+	<option value='http://lol54.ru/date/2012/07'> Июль 2012 &nbsp;(304)</option>
+	<option value='http://lol54.ru/date/2012/06'> Июнь 2012 &nbsp;(300)</option>
+	<option value='http://lol54.ru/date/2012/05'> Май 2012 &nbsp;(391)</option>
+	<option value='http://lol54.ru/date/2012/04'> Апрель 2012 &nbsp;(311)</option>
+	<option value='http://lol54.ru/date/2012/03'> Март 2012 &nbsp;(387)</option>
+	<option value='http://lol54.ru/date/2012/02'> Февраль 2012 &nbsp;(307)</option>
+	<option value='http://lol54.ru/date/2012/01'> Январь 2012 &nbsp;(291)</option>
+	<option value='http://lol54.ru/date/2011/12'> Декабрь 2011 &nbsp;(210)</option>
+	<option value='http://lol54.ru/date/2011/11'> Ноябрь 2011 &nbsp;(135)</option>
+	<option value='http://lol54.ru/date/2011/10'> Октябрь 2011 &nbsp;(199)</option>
+	<option value='http://lol54.ru/date/2011/09'> Сентябрь 2011 &nbsp;(204)</option>
+	<option value='http://lol54.ru/date/2011/08'> Август 2011 &nbsp;(167)</option>
+	<option value='http://lol54.ru/date/2011/07'> Июль 2011 &nbsp;(152)</option>
+	<option value='http://lol54.ru/date/2011/06'> Июнь 2011 &nbsp;(140)</option>
+	<option value='http://lol54.ru/date/2011/05'> Май 2011 &nbsp;(165)</option>
+	<option value='http://lol54.ru/date/2011/04'> Апрель 2011 &nbsp;(193)</option>
+	<option value='http://lol54.ru/date/2011/03'> Март 2011 &nbsp;(230)</option>
+	<option value='http://lol54.ru/date/2011/02'> Февраль 2011 &nbsp;(183)</option>
+	<option value='http://lol54.ru/date/2011/01'> Январь 2011 &nbsp;(183)</option>
+	<option value='http://lol54.ru/date/2010/12'> Декабрь 2010 &nbsp;(215)</option>
+	<option value='http://lol54.ru/date/2010/11'> Ноябрь 2010 &nbsp;(240)</option>
+	<option value='http://lol54.ru/date/2010/10'> Октябрь 2010 &nbsp;(206)</option>
+	<option value='http://lol54.ru/date/2010/09'> Сентябрь 2010 &nbsp;(258)</option>
+	<option value='http://lol54.ru/date/2010/08'> Август 2010 &nbsp;(205)</option>
+	<option value='http://lol54.ru/date/2010/07'> Июль 2010 &nbsp;(203)</option>
+	<option value='http://lol54.ru/date/2010/06'> Июнь 2010 &nbsp;(190)</option>
+	<option value='http://lol54.ru/date/2010/05'> Май 2010 &nbsp;(172)</option>
+	<option value='http://lol54.ru/date/2010/04'> Апрель 2010 &nbsp;(107)</option>
+	<option value='http://lol54.ru/date/2010/03'> Март 2010 &nbsp;(135)</option>
+	<option value='http://lol54.ru/date/2010/02'> Февраль 2010 &nbsp;(297)</option>
+	<option value='http://lol54.ru/date/2010/01'> Январь 2010 &nbsp;(338)</option>
+	<option value='http://lol54.ru/date/2009/12'> Декабрь 2009 &nbsp;(378)</option>
+	<option value='http://lol54.ru/date/2009/11'> Ноябрь 2009 &nbsp;(267)</option>
+	<option value='http://lol54.ru/date/2009/10'> Октябрь 2009 &nbsp;(189)</option>
+	<option value='http://lol54.ru/date/2009/09'> Сентябрь 2009 &nbsp;(141)</option>
+	<option value='http://lol54.ru/date/2009/08'> Август 2009 &nbsp;(242)</option>
+	<option value='http://lol54.ru/date/2009/07'> Июль 2009 &nbsp;(276)</option>
+	<option value='http://lol54.ru/date/2009/06'> Июнь 2009 &nbsp;(365)</option>
+	<option value='http://lol54.ru/date/2009/05'> Май 2009 &nbsp;(404)</option>
+	<option value='http://lol54.ru/date/2009/04'> Апрель 2009 &nbsp;(477)</option>
+	<option value='http://lol54.ru/date/2009/03'> Март 2009 &nbsp;(467)</option>
+	<option value='http://lol54.ru/date/2009/02'> Февраль 2009 &nbsp;(326)</option>
+	<option value='http://lol54.ru/date/2009/01'> Январь 2009 &nbsp;(366)</option>
+	<option value='http://lol54.ru/date/2008/12'> Декабрь 2008 &nbsp;(499)</option>
+	<option value='http://lol54.ru/date/2008/11'> Ноябрь 2008 &nbsp;(362)</option>
+	<option value='http://lol54.ru/date/2008/10'> Октябрь 2008 &nbsp;(493)</option>
+	<option value='http://lol54.ru/date/2008/09'> Сентябрь 2008 &nbsp;(416)</option>
+	<option value='http://lol54.ru/date/2008/08'> Август 2008 &nbsp;(311)</option>
+	<option value='http://lol54.ru/date/2008/07'> Июль 2008 &nbsp;(494)</option>
+	<option value='http://lol54.ru/date/2008/06'> Июнь 2008 &nbsp;(462)</option>
+	<option value='http://lol54.ru/date/2008/05'> Май 2008 &nbsp;(501)</option>
+	<option value='http://lol54.ru/date/2008/04'> Апрель 2008 &nbsp;(452)</option>
+	<option value='http://lol54.ru/date/2008/03'> Март 2008 &nbsp;(516)</option>
+	<option value='http://lol54.ru/date/2008/02'> Февраль 2008 &nbsp;(772)</option>
+	<option value='http://lol54.ru/date/2008/01'> Январь 2008 &nbsp;(613)</option>
+	<option value='http://lol54.ru/date/2007/12'> Декабрь 2007 &nbsp;(544)</option>
+	<option value='http://lol54.ru/date/2007/11'> Ноябрь 2007 &nbsp;(462)</option>
+	<option value='http://lol54.ru/date/2007/10'> Октябрь 2007 &nbsp;(372)</option>
+	<option value='http://lol54.ru/date/2007/09'> Сентябрь 2007 &nbsp;(386)</option>
+	<option value='http://lol54.ru/date/2007/08'> Август 2007 &nbsp;(108)</option>
+
+		</select>
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/" title="Современная персональная платформа для публикаций">Сайт работает на WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+	<script type="text/javascript">
+      var anr_onloadCallback = function() {
+	  				var anr_captcha_1;
+				anr_captcha_1 = grecaptcha.render('anr_captcha_field_1', {
+				  'sitekey' : '6Lcr-e8SAAAAAFXqahnP5Vr_Tvac9cvz0JUnLhVf',
+				  'theme' : 'light',
+				  'size' : 'normal'
+				});
+		      };
+    </script>
+	<script src="https://www.google.com/recaptcha/api.js?onload=anr_onloadCallback&render=explicit&amp;hl=ru"
+        async defer>
+    </script>
+
+		
+
+
+    <div id="wpfront-scroll-top-container"><img src="http://lol54.ru/wp-content/plugins/wpfront-scroll-top/images/icons/36.png" alt="" /></div>
+    <script type="text/javascript">function wpfront_scroll_top_init() {if(typeof wpfront_scroll_top == "function" && typeof jQuery !== "undefined") {wpfront_scroll_top({"scroll_offset":100,"button_width":0,"button_height":0,"button_opacity":0.8,"button_fade_duration":200,"scroll_duration":400,"location":1,"marginX":20,"marginY":20,"hide_iframe":false,"auto_hide":false,"auto_hide_after":2});} else {setTimeout(wpfront_scroll_top_init, 100);}}wpfront_scroll_top_init();</script><!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter3735163 = new Ya.Metrika({
+                    id:3735163,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/3735163" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --><script type='text/javascript' src='http://lol54.ru/wp-content/plugins/akismet/_inc/form.js?ver=3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/lol54.ru\/wp-admin\/admin-ajax.php","text_wait":"\u0412\u0430\u0448 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u0437\u0430\u043f\u0440\u043e\u0441 \u0435\u0449\u0435 \u043e\u0431\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u0442\u0441\u044f. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u043f\u043e\u0434\u043e\u0436\u0434\u0438\u0442\u0435 ...","text_valid":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u043d\u043e \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043e\u0442\u0432\u0435\u0442.","text_multiple":"\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u043e\u0435 \u0447\u0438\u0441\u043b\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432:","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/plugins/wp-polls/polls-js.js?ver=2.73.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"http:\/\/lol54.ru\/wp-content\/plugins\/wp-postratings","ajax_url":"http:\/\/lol54.ru\/wp-admin\/admin-ajax.php","text_wait":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043d\u0435 \u0433\u043e\u043b\u043e\u0441\u0443\u0439\u0442\u0435 \u0437\u0430 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0437\u0430\u043f\u0438\u0441\u0435\u0439 \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e.","image":"stars_crystal","image_ext":"gif","max":"5","show_loading":"1","show_fading":"1","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src="http://lol54.ru/wp-content/plugins/wp-postratings/images/stars_crystal/rating_over.gif";;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/plugins/wp-postratings/js/postratings-js.js?ver=1.84'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"fitToScreen":"0","resizeSpeed":"400","displayDownloadLink":"0","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"0","linkTarget":"","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"\u00ab Previous","nextLinkText":"Next \u00bb","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","jqlb_overlay_opacity":"80","jqlb_overlay_color":"#000000","jqlb_overlay_close":"1","jqlb_border_width":"10","jqlb_border_color":"#ffffff","jqlb_border_radius":"0","jqlb_image_info_background_transparency":"100","jqlb_image_info_bg_color":"#ffffff","jqlb_image_info_text_color":"#000000","jqlb_image_info_text_fontsize":"10","jqlb_show_text_for_image":"1","jqlb_next_image_title":"next image","jqlb_previous_image_title":"previous image","jqlb_next_button_image":"http:\/\/lol54.ru\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/ru_RU\/next.gif","jqlb_previous_button_image":"http:\/\/lol54.ru\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/ru_RU\/prev.gif","jqlb_maximum_width":"","jqlb_maximum_height":"","jqlb_show_close_button":"1","jqlb_close_image_title":"close image gallery","jqlb_close_image_max_heght":"22","jqlb_image_for_close_lightbox":"http:\/\/lol54.ru\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/ru_RU\/closelabel.gif","jqlb_keyboard_navigation":"1","jqlb_popup_size_fix":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/plugins/wp-lightbox-2/wp-lightbox-2.min.js?ver=1.3.4.1'></script>
+<script type='text/javascript' src='http://lol54.ru/wp-includes/js/comment-reply.min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/themes/twentytwelve/js/navigation.js?ver=20140711'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var malinkySettings = {"1":{"theme_defaults":"Twenty Twelve","posts_wrapper":".site-content","post_wrapper":".post","pagination_wrapper":"#nav-below","next_page_selector":"#nav-below .nav-previous a","paging_type":"pagination","infinite_scroll_buffer":"20","ajax_loader":"<img src=\"http:\/\/lol54.ru\/wp-content\/plugins\/malinky-ajax-pagination\/img\/loader.gif\" alt=\"AJAX Loader\" \/>","load_more_button_text":"\u0415\u0449\u0435","loading_more_posts_text":"\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430..."}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://lol54.ru/wp-content/plugins/malinky-ajax-pagination/js/main.js'></script>
+<script type='text/javascript' src='http://lol54.ru/wp-includes/js/wp-embed.min.js?ver=4.7.2'></script>
+</body>
+</html>

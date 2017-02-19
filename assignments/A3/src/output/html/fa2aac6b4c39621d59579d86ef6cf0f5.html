@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>
+	<html id="scoped-css" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="not-logged-in no-js commerce oldie">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+	<html id="scoped-css" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="not-logged-in no-js commerce">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4722504a69","applicationID":"7554975","transactionName":"IQxWQRdXDQ1UEUtCFgcRS1wRXU4RUAQBREoRC1dC","queueTime":5,"applicationTime":285,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+
+	<title>Sharon Rae North</title>
+
+	
+
+			<script>if(typeof console == "undefined") { window.console = { log: function () {} }; }</script>
+
+
+
+
+
+<meta name="viewport" content="width=device-width" />
+
+<link rel="stylesheet" media="screen" href="//s3.amazonaws.com/content.sitezoogle.com/assets/usersite/application-bd4629532f801ae52517e74cc0245051.css" />
+
+	<link href="/stylesheet.css" rel="stylesheet" type="text/css" />
+
+
+
+<link rel="stylesheet" media="print" href="//s3.amazonaws.com/content.sitezoogle.com/assets/usersite_print-e6795a5b54bcc5f32a424c83fbf45f66.css" />
+
+
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","name":"Sharon Rae North","url":"https:\/\/sharonraenorth.com\/"}</script>
+
+
+	<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="/C1oijXIF4u7uCNtVBNEX9ValYg2TlPQMChaYKKU43/s3Rlq5kVA2hXEaGyYTIUI1VDdQhKtSF42iRhaMtnPdw==" />
+	<meta name="title" content="Sharon Rae North" />
+<meta property="og:title" content="Sharon Rae North" />
+<meta name="description" content="Home page of Sharon Rae North, a jazz artist from Richmond. Smooth/Contemporary and Straight-Ahead Jazz Vocalist.  " />
+<meta property="og:description" content="Home page of Sharon Rae North, a jazz artist from Richmond. Smooth/Contemporary and Straight-Ahead Jazz Vocalist.  " />
+<meta name="image" content="https://s3.amazonaws.com/content.sitezoogle.com/u/236364/97fe6a2851c305d26abe5d7ee3c2874145b3ee18/original/zoogle-resize-sharon-rae-north-sincerely-yours-front-cover.jpg?1485139840" />
+<meta name="image:width" content="1500" />
+<meta name="image:height" content="2247" />
+<meta property="og:image" content="https://s3.amazonaws.com/content.sitezoogle.com/u/236364/97fe6a2851c305d26abe5d7ee3c2874145b3ee18/original/zoogle-resize-sharon-rae-north-sincerely-yours-front-cover.jpg?1485139840" />
+<meta property="og:image:width" content="1500" />
+<meta property="og:image:height" content="2247" />
+<meta name="url" content="https://sharonraenorth.com/home" />
+<meta property="og:url" content="https://sharonraenorth.com/home" />
+
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if lte IE 9]>
+		<script src="//s3.amazonaws.com/content.sitezoogle.com/assets/history.iegte8.min-4d58c83f2678f3f74a34d395c04f3723.js"></script>
+	<![endif]-->
+
+		<script src="//s3.amazonaws.com/content.sitezoogle.com/assets/usersite/application-09db75a0f7184098d5b3bdfe6e244c66.js"></script>
+		
+			<script type="text/javascript">
+		themeJsManager.registerTheme(166, $.extend({}, themeJsManager.blankJs, {
+	_toggleMobileMenu: function(){
+		$('.mobile-nav-toggle').toggleClass('closed');
+		$('.mobile-nav-toggle').toggleClass('open');
+		$('body').toggleClass('mobile-nav-open-sidebar');
+	},
+
+	// if the page has no content, hide the "scroll down" button
+	_hideScrollButtonIfEmptyPage: function() {
+		if ($('#page-content-wrap .feature').length === 0) {
+			$('#scroll-to-content').hide();
+		}
+	},
+
+	_resetScrollButton: function() {
+		$('#scroll-to-content').show();
+	},
+
+
+	// If the sidebar content is short enough to fit on the screen
+	// without scrolling, then make the sidebar "fixed." Otherwise,
+	// scroll it with the page.
+
+	_fixSideIfNecessary: function () {
+		var containerHeight = $('.usersite-container-wrap').height();
+
+		// if in view site display - the edit bar does not render in time
+		// to base a calculation on its fetched height so we need to use
+		// a hard coded value
+		if ($('#edit-bar-wrap').length) {
+			containerHeight -= 70;
+		}
+
+		// height of all elements in sidebar
+		var sidebarHeight = 0;
+		$('.sidebar > *').each(function () {
+			sidebarHeight += $(this).outerHeight(true)
+		});
+
+		// plus top padding
+		sidebarHeight += parseInt($('.sidebar').css('padding-top'), 10);
+
+		if (sidebarHeight < containerHeight) {
+			$('body').addClass('fixed-sidebar');
+		} else {
+			$('body').removeClass('fixed-sidebar');
+		}
+	},
+
+
+
+	setup: function() {
+		$('.mobile-nav-toggle, #main-nav.mobile a').on('click', this._toggleMobileMenu);
+		this._hideScrollButtonIfEmptyPage();
+
+		// sidebar fixed or scrolling
+		this._fixSideIfNecessary();
+		$(window).on('resize', this._fixSideIfNecessary);
+	},
+
+	tearDown: function() {
+		$('.mobile-nav-toggle, #main-nav.mobile a').off('click', this._toggleMobileMenu);
+		this._resetScrollButton();
+
+		// sidebar fixed or scrolling
+		$(window).off('resize', this._fixSideIfNecessary);
+	},
+
+	plugins: {
+		scrollToContentTab: {
+			scrollTop: function() {
+				return $(window).height();
+			}
+		}
+	}
+}
+));
+	</script>
+
+
+	
+</head>
+
+
+<body class="theme-portside theme-portside-a not-intro-page">
+
+	
+
+	
+
+
+		<div class="usersite-container-wrap">
+			<div id="usersite-container-inner-wrap">
+				<div id="usersite-container" class="">
+						<nav id="main-nav" class="mobile"><ul class="mobile list balance_5 top menu-length-9"><li class="top selected"><div><a class="top" title="Home" href="/home">Home</a></div></li><li class="top"><div><a class="top" title="About" href="/about">About</a></div></li><li class="top"><div><a class="top" title="Calendar" href="/calendar">Calendar</a></div></li><li class="top"><div><a class="top" title="Featured Music" href="/featured-music">Featured Music</a></div></li><li class="top"><div><a class="top" title="Photos " href="/photos">Photos </a></div></li><li class="top"><div><a class="top" title="Videos" href="/videos">Videos</a></div></li><li class="top"><div><a class="top" title="Store" href="/store">Store</a></div></li><li class="top"><div><a class="top" title="Contact" href="/contact">Contact</a></div></li><li class="top"><div><a class="top" title="EPK" href="/epk">EPK</a></div></li></ul></nav>
+
+
+<div class="sidebar-wrapper">
+    <aside class="sidebar">
+
+        <div id="title-wrap" class="title-wrap">
+            <h1 id="page-title" class="page-title display-type-text text-fit"><a href="/home"><span class="outer" data-max-font-size="55"><span class="inner">Sharon Rae North</span></span></a></h1>
+        </div>
+
+        
+
+        <div class="nav-wrap"
+            data-disable-submenu="true">
+            <div class="nav-wrap-inner">
+                		<span id="toggle-mobile-menu" class="toggle-mobile-menu"><a href="javascript:"><i class="icon-hamburger"></i></a></span><nav id="main-nav" class="non-mobile"><ul class="vertical_left vertical list balance_5 top menu-length-9"><li class="top selected"><div><a class="top" title="Home" href="/home">Home</a></div></li><li class="top"><div><a class="top" title="About" href="/about">About</a></div></li><li class="top"><div><a class="top" title="Calendar" href="/calendar">Calendar</a></div></li><li class="top"><div><a class="top" title="Featured Music" href="/featured-music">Featured Music</a></div></li><li class="top"><div><a class="top" title="Photos " href="/photos">Photos </a></div></li><li class="top"><div><a class="top" title="Videos" href="/videos">Videos</a></div></li><li class="top"><div><a class="top" title="Store" href="/store">Store</a></div></li><li class="top"><div><a class="top" title="Contact" href="/contact">Contact</a></div></li><li class="top"><div><a class="top" title="EPK" href="/epk">EPK</a></div></li></ul></nav>
+
+                
+<div id="site-wide-header" class="site-wide-feature-area"><div class="zoogle-content block" data-arrangement-id="1540338"></div></div>
+
+
+            </div>
+        </div>
+
+        <div class="mobile-nav-toggle closed">
+            <div class="hamburger"><span></span></div>
+        </div>
+
+    </aside>
+</div>
+
+<div data-pjax-container>
+    
+	<div id="page-root" data-page-id="1367448" class="landing-page display-type-text website-page-home">
+		<div class="page-wrap">
+
+	<div class="ie-flexbox-fix-wrapper"> <!-- this element is only here to fix an IE11 flexbox bug. see css for details. -->
+		<header id="page-header">
+
+			<div id="page-media">
+				<div class="page-media-wrap">
+							<div class="page-photos page-media-container">
+	<div class="page-photo page-media page-photo-background" style="background-image: url(&#39;//s3.amazonaws.com/content.sitezoogle.com/u/236364/style/page-photo-690635.jpg?b7270b9f41d9994dccdd9a019de5303c&#39;); background-position: 50% 50%;"></div>
+
+</div>
+
+
+				</div>
+			</div>
+
+			
+<div id="default-page-header" class="default-page-header-area empty"><div class="zoogle-content block" data-arrangement-id="1540331"><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 block block-row layout_full" data-row-id="5290699"><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="6129336"></div></div></div></div>
+
+
+			<span id="scroll-to-content">
+	<!-- note it's up to the template designer to choose which icon (if any) they want to use -->
+	<i class="icon-chevron-down"></i>
+	<i class="icon-angle-down"></i>
+</span>
+		</header>
+	</div>
+
+	<div id="content-wrap">
+		<div id="content">
+
+			<!-- temporary: so site_wide_my_sites show up in pages tab of controlpanel -->
+			<div style="display: none">
+<div id="site-wide-header" class="site-wide-feature-area"><div class="zoogle-content block" data-arrangement-id="1540338"></div></div>
+
+</div>
+
+			<div class="zoogle_flash">
+</div>
+
+<section id="cart" class="cart bg-accent">
+</section>
+
+<div id="page-content-wrap"><div class="zoogle-content block" data-arrangement-id="1540330"><div class="zoogle-columns zoogle-columns-2 zoogle-columns-67-33 block block-row layout_full" data-row-id="5290700"><div class="zoogle-column zoogle-column-1-of-2 col_1_of_2 block layout_two_thirds" data-column-id="6129337"><div class="zoogle-feature block layout_full block-title-feature" data-block-id="5779826"><section class="feature title_feature" data-feature-id="1283193"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">Welcome</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="5779827"><section class="feature text_feature" data-feature-id="1302057"><p>Thanks for stopping by.  <br>Take your time and enjoy your visit. <br>Great news for the radio-release of my single "Lonely Nites" on January 30</p>
+<ul>    <li>#1 Smoothjazz.com Most Added:</li>    <li>#2 Billboard Smooth Jazz Chart Most Added (8 adds):</li>    <li>#4 Groove Jazz Music Chart Most Added (12 adds)</li>
+</ul></section></div></div><div class="zoogle-column zoogle-column-2-of-2 col_2_of_2 block layout_third" data-column-id="6129338"><div class="zoogle-feature block layout_full" data-block-id="5779828"><section class="feature mailing_list_feature" data-feature-id="167438"><p class="mailing-list-result hide-on-return alert"> </p>
+<a href="#list-167438" class="hide toggle_with_hide hide-on-return" data-hide=".hide-on-return">Return to form</a>
+<div class="mailing-list-form" id="list-167438">
+	<form data-validate="true" class="simple_form captcha member" novalidate="novalidate" role="member" id="new_member" action="/home/mailing_list_features/167438/join" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" />
+		<h3>Please join our mailing list for the latest news</h3>
+
+		<div class="control">
+			<div class="input email required member_email string"><span class="input_field"><input size="25" class="string email required" placeholder="Your email" type="email" name="member[email]" id="member_email" /></span></div>
+
+			<div class="actions">
+				<input type="submit" name="commit" value="Sign up" class="button" data-disable-with="Sending…" />
+			</div>
+		</div>
+
+		<div class="input captcha hide">
+	<div class="control captcha-wrapper",
+      data-key="6Ld81B0TAAAAAAxk71_dmYiD7iFs_lv8GijvZeGZ"></div>
+	<span class="error">
+		Please prove that you are not a robot
+	</span>
+</div>
+
+</form><script>
+//<![CDATA[
+if(window.ClientSideValidations===undefined)window.ClientSideValidations={};window.ClientSideValidations.disabled_validators=[];window.ClientSideValidations.number_format={"separator":".","delimiter":","};if(window.ClientSideValidations.patterns===undefined)window.ClientSideValidations.patterns = {};window.ClientSideValidations.patterns.numericality=/^(-|\+)?(?:\d+|\d{1,3}(?:\,\d{3})+)(?:\.\d*)?$/;if(window.ClientSideValidations.forms===undefined)window.ClientSideValidations.forms={};window.ClientSideValidations.forms['new_member'] = {"type":"SimpleForm::FormBuilder","error_class":"error","error_tag":"span","wrapper_error_class":"field_with_errors","wrapper_tag":"div","wrapper_class":"input","wrapper":"bz","validators":{"member[email]":{"presence":[{"message":"This field is required."}],"uniqueness":[{"message":"has already been taken","case_sensitive":true,"scope":{"account_id":null}}],"format":[{"message":"is invalid","with":{"source":"^[A-Z0-9_\\.&%\\+\\-']+@(?:[A-Z0-9\\-]+\\.)+(?:[A-Z]{2,13})$","options":"gi"}}],"length":[{"messages":{"maximum":"is too long (maximum is 100 characters)"},"maximum":100}]}}};
+//]]>
+</script></div>
+</section></div></div></div></div></div>
+
+		</div>
+	</div>
+
+	<div id="footer-wrap"><footer id="page-footer">
+  <div class="block layout_full"><section class="feature text_feature" data-feature-id="1302059"></section></div>
+	  	<div class="branding text-tertiary">
+		<small>
+			<a title="Powered by Bandzoogle" target="_blank" rel="nofollow" href="http://bandzoogle.com/">Powered by Bandzoogle</a>
+		</small>
+	</div>
+
+	</footer>
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-91194203-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+<script type="text/javascript">
+var _zaq = _zaq || [];
+_zaq.push(['_setWebsite', '238549']);
+_zaq.push(['_setZone', 'Eastern Time (US &amp; Canada)']);
+_zaq.push(['_setHash', '1a0ef7274d1bb407cba5d65ef6d094d5']);
+_zaq.push(['_trackPage', '1367448']);
+
+(function() {
+	var zs = document.createElement('script'); zs.type = 'text/javascript'; zs.async = true;
+	zs.src = "https://stats.bandzoogle.com/stats.js";
+	zs.id = "zstats";
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(zs, s);
+})();
+</script>
+
+
+				</div>
+			</div>
+		</div>
+
+
+	
+</body>
+</html>

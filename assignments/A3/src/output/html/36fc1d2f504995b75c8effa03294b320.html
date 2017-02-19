@@ -1,0 +1,570 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+        <title>Jamiroquai Kembali dengan Lagu Baru, Lihat Videonya! - MAXIM Indonesia </title>
+	      <meta name="google-site-verification" content="VMOeY6vR-nMrqI-KU08XvbrkK0-Hkm5cThmhx724zKs" />
+        <meta name="description" content="Album 'Automaton' rilis 31 Maret mendatang." />
+        <meta name="keywords" content="Setelah tujuh tahun tanpa rilisan, band funk jazz asal London, Jamiroquai kembali mengeluarkan single dari album mereka yang akan rilis 31 Maret mendatang. Single tersebut berjudul 'Automaton', judul yang sama dengan album terbaru mereka nanti. Jay Kay, vokalis sekaligus frontman, bertindak sebagai produser di album ini bersama kibordis Matt Johnson." />
+
+        <!-- START OF CANONICAL META TAG  -->			
+        <link rel="canonical" href="http://www.maximindonesia.co.id" />	
+        <!-- //END OF CANONICAL META TAG --> 
+
+        <meta http-equiv="Copyright" content="lk_panel" /> 
+        <meta name="author" content="Star Media Abadi - Digital Development and Activation" /> 
+        <meta http-equiv="imagetoolbar" content="no" /> 
+        <meta name="language" content="Indonesia" /> 
+        <meta name="revisit-after" content="7" /> 
+        <meta name="webcrawlers" content="all" /> 
+        <meta name="rating" content="general" /> 
+        <meta name="spiders" content="all" /> 
+        <meta name="robots" content="all" /> 
+       <!-- <meta http-equiv="refresh" content="900;url=http://www.maximindonesia.co.id/" /> -->
+
+        <!-- FOR FACEBOOK -->
+                <meta property="og:title" content="Jamiroquai Kembali dengan Lagu Baru, Lihat Videonya!"/>
+        <meta property="og:type" content="website"/> 
+        <meta property="og:url" content="http://www.maximindonesia.co.id/article/2017/1/3515/Jamiroquai-Kembali-dengan-Lagu-Baru-Lihat-Videonya"/>
+        <meta property="og:image" content="http://www.maximindonesia.co.id/lkgallery//teaser/a77745f65717468c1d63b025e4612222.jpg"/>
+        <meta property="og:site_name" content="Maxim Indonesia"/> 
+        <meta property="og:description" content="
+	Setelah tujuh tahun tanpa rilisan, band funk jazz asal London, Jamiroquai kembali mengeluarkan single dari album mereka yang akan rilis 31 Maret mendatang. Single tersebut berjudul &#39;Automaton&#39;, judul yang sama&#8230;" />
+
+         <!-- Twitter-->
+        <meta name="twitter:site" content="@maxim_idn">
+        <meta name="twitter:creator" content="@maxim_idn">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Jamiroquai Kembali Dengan Lagu Baru, Lihat Videonya!" />        
+        <meta name="twitter:description" content="
+	Setelah tujuh tahun tanpa rilisan, band funk jazz asal London, Jamiroquai kembali mengeluarkan single dari album mereka yang akan rilis 31 Maret mendatang. Single tersebut berjudul &#39;Automaton&#39;, judul yang&#8230;" />       
+        <meta name="twitter:image" content="http://www.maximindonesia.co.id/lkgallery/teaser/a77745f65717468c1d63b025e4612222.jpg"/>        
+
+         <link rel="canonical" href="http://www.maximindonesia.co.id/article/2017/1/3515/Jamiroquai-Kembali-dengan-Lagu-Baru-Lihat-Videonya" />
+        
+        <link rel="icon" href="http://www.maximindonesia.co.id/asset/images/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="http://www.maximindonesia.co.id/asset/images/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="http://www.maximindonesia.co.id/asset/css/css.css" />
+        <link rel="stylesheet" href="http://www.maximindonesia.co.id/asset/css/form.css" />
+        <link rel="stylesheet" href="http://www.maximindonesia.co.id/asset/css/disclaimer.css" />
+        <link rel="stylesheet" href="http://www.maximindonesia.co.id/asset/css/multipage/photoswipe.css" />
+        <link rel="stylesheet" href="http://www.maximindonesia.co.id/asset/css/multipage/default-skin.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+		<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+        <!-- start -->
+        <!--<link rel="stylesheet" href="http://www.maximindonesia.co.id/asset/css/gridloading/default.css" />-->
+        <link rel="stylesheet" href="http://www.maximindonesia.co.id/asset/css/gridloading/component.css" />
+        <!-- asdasd -->
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->    
+      
+        <script type="text/javascript" src="http://www.maximindonesia.co.id/asset/js/jquery.js"></script>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54eff682151b7671" async="async"></script> 
+        <!-- Grid Loading -->
+        <script src="http://www.maximindonesia.co.id/asset/js/gridloading/modernizr.custom.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-4418968-24', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+
+        <!-- Google ADS -->
+          <script type='text/javascript'>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function() {
+              var gads = document.createElement('script');
+              gads.async = true;
+              gads.type = 'text/javascript';
+              var useSSL = 'https:' == document.location.protocol;
+              gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+              var node = document.getElementsByTagName('script')[0];
+              node.parentNode.insertBefore(gads, node);
+            })();
+          </script>
+
+          <script type='text/javascript'>
+            googletag.cmd.push(function() {
+              //Ads Updated
+              googletag.defineSlot('/59447564/Maxim_Fullbanner', [468, 60], 'div-gpt-ad-1484728287509-0').addService(googletag.pubads());
+              googletag.defineSlot('/59447564/Maxim_Fullbanner_Mobile1', [320, 50], 'div-gpt-ad-1484728287509-1').addService(googletag.pubads());
+
+              //Ads Latest
+	          	googletag.defineSlot('/59447564/Maxim_Fullbanner', [468, 60], 'div-gpt-ad-1464589561413-0').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximBillboardBanner', [900, 250], 'div-gpt-ad-1464589561413-1').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximID', [300, 600], 'div-gpt-ad-1464589561413-2').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximLeaderboard', [728, 90], 'div-gpt-ad-1464589561413-3').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximMedRec2', [300, 250], 'div-gpt-ad-1464589561413-4').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximMediumRectangle1', [300, 250], 'div-gpt-ad-1464589561413-5').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximMiniBanner1', [300, 100], 'div-gpt-ad-1464589561413-6').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximMiniBanner2', [300, 100], 'div-gpt-ad-1464589561413-7').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximMobileLargeBanner', [320, 100], 'div-gpt-ad-1464589561413-8').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/MaximMobileLeaderboard', [320, 50], 'div-gpt-ad-1464589561413-9').addService(googletag.pubads());
+	          	googletag.defineSlot('/59447564/Maxim_Fullbanner_Mobile1', [300, 100], 'div-gpt-ad-1470139122533-0').addService(googletag.pubads());
+			    googletag.defineSlot('/59447564/Maxim_Medium_Rectangle_Mobile2', [300, 100], 'div-gpt-ad-1470280450972-0').addService(googletag.pubads());
+    			googletag.defineSlot('/59447564/Maxim_Medium_Rectangle_Mobile1', [300, 100], 'div-gpt-ad-1470280450972-1').addService(googletag.pubads());
+			    googletag.defineSlot('/59447564/Maxim_MiniBanner_Mobile1', [300, 100], 'div-gpt-ad-1470139122533-3').addService(googletag.pubads());
+			    googletag.defineSlot('/59447564/Maxim_MiniBanner_Mobile2', [300, 100], 'div-gpt-ad-1470139122533-4').addService(googletag.pubads());
+			    googletag.defineSlot('/59447564/Maxim_SkinAd_Left', [120, 600], 'div-gpt-ad-1470139122533-5').addService(googletag.pubads());
+			    googletag.defineSlot('/59447564/Maxim_SkinAd_Mobile', [300, 100], 'div-gpt-ad-1470139122533-6').addService(googletag.pubads());
+			    googletag.defineSlot('/59447564/Maxim_SkinAd_Rigth', [120, 600], 'div-gpt-ad-1470139122533-7').addService(googletag.pubads());
+	            googletag.pubads().enableSingleRequest();
+	            googletag.enableServices();
+            });
+          </script>
+        <!-- -->
+        <style type="text/css">
+          #freakout{
+            margin: 10px 0;
+          }
+          #freakout li{
+            position: relative !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100%;
+          }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=249342451936331";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+       
+      	<div id="leaderboard">
+              <div class="leaderboard"><div id='div-gpt-ad-1464589561413-3' style='height:90px; width:728px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1464589561413-3'); });
+</script>
+</div></div>
+          </div>
+        <div class="head">
+            <div class="head-in">
+	<div class="logo">
+		<a href="http://www.maximindonesia.co.id/">
+			<img src="http://www.maximindonesia.co.id/asset/images/logo.jpg">
+		</a>
+		<div class="scr">
+			<div class="yt-fw-bt"><a href="https://twitter.com/maxim_idn" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></div> 
+			<div class="fb-fw-bt">
+				<a href="https://facebook.com/MAXIMIndonesia" target="_blank">
+					<i class="fa fa-facebook fa-lg"></i>
+				</a>
+			</div>
+			<div class="in-fw-bt">
+				<a href="http://instagram.com/maximindonesia/" target="_blank">
+					<i class="fa fa-instagram fa-lg"></i>
+				</a>
+			</div>
+			<div class="yt-fw-bt"><a href="https://www.youtube.com/user/MaximIDTV" target="_blank"><i class="fa fa-youtube fa-lg"></i></a></div>
+			<div class="sc-bt">
+				<form action="http://www.maximindonesia.co.id/search"  id="003777216466123543277:fhavpuohrwe">
+					<input name="cx" type="hidden" value="003777216466123543277:fhavpuohrwe" />
+					<input name="ie" type="hidden" value="UTF-8" />
+					<input name="q" type="search" size="30" />
+					<input name="sa" type="submit" value="Search" class="button">
+				</form> 
+					<!--<input type="search" name="search">
+					<input type="submit" value="Search" class="button">-->
+			</div>
+			<!-- MEMBER AREA  -->
+	        	        <div id="login">
+				<a href="http://www.maximindonesia.co.id/member/login">Login</a> | <a href="http://www.maximindonesia.co.id/member/register">Register</a>
+			</div>
+	        	        <!-- END MEMBER AREA -->
+		</div>
+
+	</div>
+</div>
+</div>
+<div class="menu">
+	<div class="menu-in">
+		<div class="wrap">
+			<title>MAXIM INDONESIA</title> 
+			<div id="mlogin" style="margin: 15px 0 0;">
+								<a href="http://www.maximindonesia.co.id/member/login">Login</a> | <a href="http://www.maximindonesia.co.id/member/register">Register</a>
+							</div>
+			<nav id="NavStrip" role="navigation" class="navbar">
+				<div id="menuSub" class="headerTopBar2nd">
+					<div id="navbarCollapse" class="collapse navbar-collapse">
+						<div class="img-menu">
+							<a href="http://www.maximindonesia.co.id/">
+								<img src="http://www.maximindonesia.co.id/asset/images/logo.jpg">
+							</a>
+						</div>
+						<label for="menu-toggle" class="menu-toggle"><i class="fa fa-bars nav-menu"></i></label>
+
+						<input type="checkbox" id="menu-toggle"/> 
+							<ul class="primary main-menu" id="nav" class=''>
+								<li></li>
+
+
+<li class="sc-m">
+<div class="yt-fw-bt"><a href="https://twitter.com/maxim_idn" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></div>
+<div class="fb-fw-bt"><a href="https://facebook.com/MAXIMIndonesia" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></div>
+<div class="in-fw-bt"><a href="http://instagram.com/maximindonesia/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></div>
+<div class="yt-fw-bt"><a href="https://www.youtube.com/user/MaximIDTV" target="_blank"><i class="fa fa-youtube fa-lg"></i></a></div>
+<div>
+<form action="http://www.maximindonesia.co.id/search"  id="003777216466123543277:fhavpuohrwe">
+		<input name="cx" type="hidden" value="003777216466123543277:fhavpuohrwe" />
+		<input name="ie" type="hidden" value="UTF-8" />
+		<input name="q" type="search" size="30" />
+		<input name="sa" type="submit" value="Search" class="button">
+</form>
+</div>
+</li>
+
+
+								<li><a class="as" href="http://www.maximindonesia.co.id/" title="Home">HOME</a></li>
+								<li><a class="as1" href="http://www.maximindonesia.co.id/channel/1/women">WOMEN</a></li>
+								<li><a class="as2" href="http://www.maximindonesia.co.id/channel/4/style">STYLE</a></li>
+								<li><a class="as3" href="http://www.maximindonesia.co.id/channel/16/autos">AUTOS</a>
+										<ul>
+											<li><a href="http://www.maximindonesia.co.id/category/68/cars">Cars</a></li>
+											<li><a href="http://www.maximindonesia.co.id/category/69/bikes">Bikes</a></li>
+										</ul>
+								</li>
+								<li><a class="as5" href="http://www.maximindonesia.co.id/channel/3/entertainment">ENTERTAINMENT</a></li>
+								<li><a class="as4" href="http://www.maximindonesia.co.id/channel/14/tech">TECH</a></li>
+								<li><a class="as6" href="http://www.maximindonesia.co.id/channel/6/maxim-man">MAXIM MAN</a>
+									<ul>
+										<li><a href="http://www.maximindonesia.co.id/category/44/art-of-seduction">Art of Seduction</a></li>
+										<li><a href="http://www.maximindonesia.co.id/category/42/food-drink">Food & Drink</a></li>
+										<li><a href="http://www.maximindonesia.co.id/category/71/fitness">Fitness</a></li>
+										<li><a href="http://www.maximindonesia.co.id/category/43/travel">Travel</a></li>
+										<li><a href="http://www.maximindonesia.co.id/category/73/money-power">Money & Power</a></li>
+										<li><a href="http://www.maximindonesia.co.id/category/74/updates">Updates</a></li>
+									</ul>
+								</li>
+								<li><a class="as7" href="http://www.maximindonesia.co.id/maximtv" title="maxim tv">MAXIM TV</a></li>
+							</ul>
+	 				</div>
+	 			</div>
+ 			</nav>
+		</div>
+	</div>
+</div>	        </div>
+
+        <div class="wrapper">
+		       	<div id="m-leaderboard"><div class="m-leaderboard"><div id='div-gpt-ad-1464589561413-3' style='height:90px; width:728px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1464589561413-3'); });
+</script>
+</div></div></div>
+            <div class="dashboard">
+                <ul>
+	<!--Colom 2-->
+    <div class="col1-a">
+    	<div class="m-mini" style="margin: 0 auto 10px;"><div id='div-gpt-ad-1464589561413-9' style='height:50px; width:320px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1464589561413-9'); });
+</script>
+</div></div>
+       			<li class="tile-h"><img src="http://www.maximindonesia.co.id/lkgallery/teaser/a77745f65717468c1d63b025e4612222.jpg" alt="Jamiroquai Kembali dengan Lagu Baru, Lihat Videonya!" title="Jamiroquai Kembali dengan Lagu Baru, Lihat Videonya!"></li>
+			
+		<div style="clear:both;"></div>
+		<!--<div class="dt" align="center">image by :</div>--> 
+		<div style="clear:both;"></div>
+        <h1>Jamiroquai Kembali dengan Lagu Baru, Lihat Videonya!</h1>
+		<div class="date">
+			<div class="dt">
+				<li><b style="background:#AB7F38 none repeat scroll 0 0">Entertainment</b></li>
+				<li>
+					<i class="fa fa-clock-o"></i>&nbsp;
+					 January 30, 2017					
+				</li>
+			</div>
+		</div>
+		<div class="col-ar">
+			<h3>Album 'Automaton' rilis 31 Maret mendatang.</h3><br>
+				<i>Penulis : Wahyu Kurniawan</i><br><br>
+			 	<article>
+				 	<p>
+	Setelah tujuh tahun tanpa rilisan, band <em>funk jazz</em> asal London, Jamiroquai kembali mengeluarkan <em>single</em> dari album mereka yang akan rilis 31 Maret mendatang. <em>Single</em> tersebut berjudul &#39;Automaton&#39;, judul yang sama dengan album terbaru mereka nanti. Jay Kay, vokalis sekaligus <em>frontman,</em> bertindak sebagai produser di album ini bersama kibordis Matt Johnson.<br />
+	<br />
+	Seperti dilansir <a href="http://www.nme.com/news/music/jamiroquai-share-comeback-track-new-album-details-1961233">NME</a>, Jay Kay mengatakan, &quot;Inspirasi untuk album <em>Automaton</em> adalah pengakuan atas munculnya kecerdasan dan teknologi buatan dalam dunia kita hari ini dan bagaimana kita sebagai manusia mulai melupakan hal-hal yang lebih menyenangkan, sederhana namun penuh makna dalam hidup dan di lingkungan kita, termasuk hubungan kita dengan satu sama lain sebagai manusia.&quot;<br />
+	<br />
+	Video musik untuk <em>single</em> tersebut juga telah dirilis. Lihat videonya di bawah ini:</p>
+<p>
+	<iframe frameborder="0" height="400" scrolling="no" src="https://www.youtube.com/embed/rmlmOk4ubcU" width="600"></iframe></p>
+				 					 	<br>
+				 	<i>( Image : Ist)</i><br><br>
+				 	<div style="height: 60px; float: none; margin: 0 auto 20px;" align="center" class="tile-m"><div id='div-gpt-ad-1484728287509-0' style='height:60px; width:468px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1484728287509-0'); });
+</script>
+</div></div>
+				 	<li align="center" class="tile-i tile-mo tile-mod m-mini"><!-- /59447564/Maxim_Medium_Rectangle_Mobile1 -->
+<div id='div-gpt-ad-1470280450972-1' style='height:100px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470280450972-1'); });
+</script>
+</div></li>
+				</article>	
+				<div style="clear: both;">
+					<div class="sosmed">
+					  <div class="addthis_sharing_toolbox"></div>  
+					<!--<a class="addthis_button_facebook" data-show-count="true"><i class="fa fa-facebook"></i></a>
+					<a class="addthis_button_twitter"><i class="fa fa-twitter"></i></a>
+					<a class="addthis_button_google_plusone_share"><i class="fa fa-google-plus"></i></a>
+					<a rel="sidebar" id="bookmark-this" href="" title="MAXIM INDONESIA"><i class="fa fa-star-o"></i></a>
+					<a class="addthis_button_email"><i class="fa fa-envelope-o"></i></a>
+					<a class="addthis_button_print"><i class="fa fa-print"></i></a>
+					<a class="addthis_button_compact"><i class="fa fa-plus-square"></i></a>-->
+			</div>            
+            	<div  class="fb-comments" data-href="http://www.maximindonesia.co.id/article/2017/1/3515/Jamiroquai-Kembali-dengan-Lagu-Baru-Lihat-Videonya" data-width="100%" data-num-posts="10"></div>
+        </div>
+		</div>
+
+		<div class="date">
+			<li align="center" class="tile-i tile-mo tile-mod m-mini"><!-- /59447564/Maxim_Medium_Rectangle_Mobile2 -->
+<div id='div-gpt-ad-1470280450972-0' style='height:100px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470280450972-0'); });
+</script>
+</div></li>
+			<div class="ki">
+				<a  href="http://www.maximindonesia.co.id/article/2017/1/3514/Rezvani-Beast-Alpha-Pintunya-Merupakan-yang-Terbaik">
+					<i class="fa fa-chevron-left fa-4x"></i>
+				</a>
+					<ii>
+						<a style="font-weight:bold; color:#000;text-decoration:none;" href="http://www.maximindonesia.co.id/article/2017/1/3514/Rezvani-Beast-Alpha-Pintunya-Merupakan-yang-Terbaik">
+							Rezvani Beast Alpha: Pintunya Merupakan yang Terbaik.
+						</a>
+						<br>
+							                    </ii>
+            </div>
+			<div class="ka">
+				<a href="http://www.maximindonesia.co.id/article/2017/1/3516/Roger-Federer-Menjadi-Legenda-Hidup-di-Lapangan-Tenis">
+					<i class="fa fa-chevron-right fa-4x"></i>
+				</a>
+					<ii>
+						<a style="font-weight:bold; color:#000;text-decoration:none;" href="http://www.maximindonesia.co.id/article/2017/1/3516/Roger-Federer-Menjadi-Legenda-Hidup-di-Lapangan-Tenis">
+							Roger Federer Menjadi Legenda Hidup di Lapangan Tenis						</a>.
+						<br>                   	</ii>
+            </div>
+		</div>
+
+		<div>
+			<li align="center" class="tile-i tile-mo tile-mod m-mini"><!-- /59447564/Maxim_MiniBanner_Mobile1 -->
+<div id='div-gpt-ad-1470139122533-3' style='height:100px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470139122533-3'); });
+</script>
+</div></li>
+			<li align="center" class="tile-i tile-mo tile-mod m-mini"><!-- /59447564/Maxim_MiniBanner_Mobile2 -->
+<div id='div-gpt-ad-1470139122533-4' style='height:100px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470139122533-4'); });
+</script>
+</div></li>
+		</div>
+
+		<div class="relat">
+			<h5>Related Topics</h5>
+			<ul class="rel">
+				
+				<!-- Ads Freak Out Indonesia -->
+				<li>
+					<div data-advs-adspot-id="NDcwOjExMDgy" style="display:none"></div>
+				</li>
+				<!-- End Ads Freak Out Indonesia -->
+
+								<li><p style="padding:6px;"><a href="http://www.maximindonesia.co.id/article/2017/2/3578/Dengarkan-Tular-Single-Terbaru-Monkey-to-Millionaire"> <img src="http://www.maximindonesia.co.id/lkgallery//timthumb/timthumb.php?src=http://www.maximindonesia.co.id/lkgallery/teaser/7c00db46ec42d30d5d99dbf40c48c96e.jpg&h=113&w=113&a=t"
+              alt="Dengarkan 'Tular' Single Terbaru Monkey to Millionaire" title="Dengarkan 'Tular' Single Terbaru Monkey to Millionaire"></a></p>
+				<h4><a style="color:#000; " href="http://www.maximindonesia.co.id/article/2017/2/3578/Dengarkan-Tular-Single-Terbaru-Monkey-to-Millionaire">Dengarkan 'Tular' Single Terbaru Monkey to Millionaire</a></h4> 
+				
+	Pada akhir Februari ini band Monkey to Millionaire akan melepas Tanpa Koma, album pertama mereka&#8230;                </li>
+								<li><p style="padding:6px;"><a href="http://www.maximindonesia.co.id/article/2017/2/3568/Legenda-Musik-Jazz-Al-Jarreau-Meninggal-Dunia"> <img src="http://www.maximindonesia.co.id/lkgallery//timthumb/timthumb.php?src=http://www.maximindonesia.co.id/lkgallery/teaser/d59ccc5c213296c40a19dc9c8e8a3b1e.jpg&h=113&w=113&a=t"
+              alt="Legenda Musik Jazz Al Jarreau Meninggal Dunia" title="Legenda Musik Jazz Al Jarreau Meninggal Dunia"></a></p>
+				<h4><a style="color:#000; " href="http://www.maximindonesia.co.id/article/2017/2/3568/Legenda-Musik-Jazz-Al-Jarreau-Meninggal-Dunia">Legenda Musik Jazz Al Jarreau Meninggal Dunia</a></h4> 
+				
+	Penyanyi jazz dan R&amp;B legendaris Al Jarreau dikabarkan meninggal dunia pada Minggu (12/2) waktu setempat,&#8230;                </li>
+								<li><p style="padding:6px;"><a href="http://www.maximindonesia.co.id/article/2017/2/3567/Lihat-Video-Hitam-Putih-yang-Memukau-dari-Depeche-Mode"> <img src="http://www.maximindonesia.co.id/lkgallery//timthumb/timthumb.php?src=http://www.maximindonesia.co.id/lkgallery/teaser/bb3b8ec023ee9f104b05a69081623235.jpg&h=113&w=113&a=t"
+              alt="Lihat Video Hitam Putih yang Memukau dari Depeche Mode " title="Lihat Video Hitam Putih yang Memukau dari Depeche Mode "></a></p>
+				<h4><a style="color:#000; " href="http://www.maximindonesia.co.id/article/2017/2/3567/Lihat-Video-Hitam-Putih-yang-Memukau-dari-Depeche-Mode">Lihat Video Hitam Putih yang Memukau dari Depeche Mode </a></h4> 
+				
+	Grup elektronik pop veteran asal Inggris, Depeche Mode, merilis video musik dari lagu &quot;Where&rsquo;s the&#8230;                </li>
+								<li><p style="padding:6px;"><a href="http://www.maximindonesia.co.id/article/2017/2/3564/Lihat-Aksi-Liar-Lady-Gaga-di-Video-Musik-John-Wayne"> <img src="http://www.maximindonesia.co.id/lkgallery//timthumb/timthumb.php?src=http://www.maximindonesia.co.id/lkgallery/teaser/155760f6a7fee4a7f4d75a44dc1b1a81.jpg&h=113&w=113&a=t"
+              alt="Lihat Aksi Liar Lady Gaga di Video Musik 'John Wayne' " title="Lihat Aksi Liar Lady Gaga di Video Musik 'John Wayne' "></a></p>
+				<h4><a style="color:#000; " href="http://www.maximindonesia.co.id/article/2017/2/3564/Lihat-Aksi-Liar-Lady-Gaga-di-Video-Musik-John-Wayne">Lihat Aksi Liar Lady Gaga di Video Musik 'John Wayne' </a></h4> 
+				
+	Setelah menyuguhkan penampilan yang spektakuler di ajang Super Bowl belum lama ini, Lady Gaga kembali&#8230;                </li>
+								<li><p style="padding:6px;"><a href="http://www.maximindonesia.co.id/article/2017/2/3558/Bersama-Microsoft-M83-Rilis-Single-Go-Versi-8-Bit"> <img src="http://www.maximindonesia.co.id/lkgallery//timthumb/timthumb.php?src=http://www.maximindonesia.co.id/lkgallery/teaser/dd50c59c1cabc53124ef1135b2f06b10.jpg&h=113&w=113&a=t"
+              alt="Bersama Microsoft M83 Rilis Single "Go!" Versi 8-Bit" title="Bersama Microsoft M83 Rilis Single "Go!" Versi 8-Bit"></a></p>
+				<h4><a style="color:#000; " href="http://www.maximindonesia.co.id/article/2017/2/3558/Bersama-Microsoft-M83-Rilis-Single-Go-Versi-8-Bit">Bersama Microsoft M83 Rilis Single "Go!" Versi 8-Bit</a></h4> 
+				
+	Setelah hampir satu tahun single &#39;Go!&#39; dirilis oleh M83, kini lagu tersebut dirilis kembali tapi&#8230;                </li>
+								<li><p style="padding:6px;"><a href="http://www.maximindonesia.co.id/article/2017/2/3557/Lihat-Video-Musik-Keren-dari-Lagu-POWA-Milik-MIA"> <img src="http://www.maximindonesia.co.id/lkgallery//timthumb/timthumb.php?src=http://www.maximindonesia.co.id/lkgallery/teaser/daddf8ae43e12b0629d20c895b62aa90.jpg&h=113&w=113&a=t"
+              alt="Lihat Video Musik Keren dari Lagu P.O.W.A Milik M.I.A. " title="Lihat Video Musik Keren dari Lagu P.O.W.A Milik M.I.A. "></a></p>
+				<h4><a style="color:#000; " href="http://www.maximindonesia.co.id/article/2017/2/3557/Lihat-Video-Musik-Keren-dari-Lagu-POWA-Milik-MIA">Lihat Video Musik Keren dari Lagu P.O.W.A Milik M.I.A. </a></h4> 
+				
+	Penyanyi asal Inggris, M.I.A merilis video musik dari lagu terbarunya yang berjudul &#39;P.O.W.A&#39;. Selain musiknya,&#8230;                </li>
+							</ul>
+		</div>
+	</div>
+	
+	<!--Colom 2-->
+	<div class="col2-a">
+		<li class="tile1 tile-small1 ads"><p><div id='div-gpt-ad-1464589561413-5' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1464589561413-5'); });
+</script>
+</div></p></li>
+        <li class="tile1 tile-small1 ads"><p><div id='div-gpt-ad-1464589561413-4' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1464589561413-4'); });
+</script>
+</div></p></li>
+		<li class="tile1 tile-small1 ads"><p><div id='div-gpt-ad-1464589561413-6' style='height:100px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1464589561413-6'); });
+</script>
+</div></p></li>
+		<li class="tile1 tile-small1 ads"><p><div id='div-gpt-ad-1464589561413-7' style='height:100px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1464589561413-7'); });
+</script>
+</div></p></li>
+
+		<div align="center">
+        <li class="tile1 tile-small1">
+		<trd2><h2>TRENDING NOW</h2>
+					<h1><i>0 1</i></h1><p><a href="http://www.maximindonesia.co.id/article/2017/1/3511/Foto-Kylie-Jenner-Terbaru-Mengenakan-Lingerie"> Foto Kylie Jenner Terbaru Mengenakan Lingerie</a></p>
+					<h1><i>0 2</i></h1><p><a href="http://www.maximindonesia.co.id/article/2017/1/3499/Georgina-Rodriguez-Pacar-Baru-CR7"> Georgina Rodriguez Pacar Baru CR7</a></p>
+					<h1><i>0 3</i></h1><p><a href="http://www.maximindonesia.co.id/article/2017/1/3494/Meminum-Kopi-Bisa-Membuat-Anda-Hidup-Panjang"> Meminum Kopi Bisa Membuat Anda Hidup Panjang</a></p>
+					<h1><i>0 4</i></h1><p><a href="http://www.maximindonesia.co.id/article/2017/1/3491/Foreplay-Harusnya-Lebih-Lama-dari-Yang-Anda-Pikir"> Foreplay Harusnya Lebih Lama dari Yang Anda Pikir</a></p>
+				</trd2></li>
+
+		<li class="tile1 tile-small1 ads">
+					   <tt style="background:#F03E24 none repeat scroll 0 0">WOMEN</tt>
+						<a href="http://www.maximindonesia.co.id/article/2017/2/3580/Wanita-Ini-Mirip-Sekali-dengan-Taylor-Swift">
+							<img src="http://www.maximindonesia.co.id/lkgallery/teaser/689687eea68eccfa8a1619f203b33997.JPG">
+						</a>
+		</li>
+		</div>
+	</div>
+</ul>            </div>
+
+        </div>    
+        
+        <div style="clear:both;"></div>
+        <div style="clear:both;"></div>
+        <div class="footer">
+          <br>
+<div class="footer-in">
+	<a style="color:#fff;" href="http://www.maximindonesia.co.id/article/2017/02/8/Subscribe">SUBSCRIBE </a>| 
+	<a style="color:#fff;" href="http://www.maximindonesia.co.id/article/2017/02/37/Digital-Edition">DIGITAL EDITIONS </a>| 
+	<a style="color:#fff;" href="http://www.maximindonesia.co.id/article/2017/02/7/Magazine-Advertising">MAGAZINE ADVERTISING </a>| 
+	<a style="color:#fff;" href="http://www.maximindonesia.co.id/article/2017/02/6/Contact-Us">CONTACT US </a>| 
+	<a style="color:#fff;" target="_blank" href="http://mramagazines.com/vacancy/vacancies">CAREERS </a>| 
+	<a style="color:#fff;" href="http://www.maximindonesia.co.id/channel/3/entertainment">TERMS &amp; CONDITIONS </a>| 
+	<a style="color:#fff;" target="_blank" href="http://cosmopolitan.co.id/mracard/">MRA MEMBER CARD </a> | 
+	<a style="color:#fff;" target="_blank" href="rssfeed/latest">RSS FEED</a>
+</div>
+<br>
+<div class="center">
+  		<a href="http://autocarindonesia.com" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-1.png" alt="Logo Autocar Indonesia" ></a>
+  		<a href="http://harpersbazaar.co.id" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-2.png"  alt="Logo Harpers Bazaar Indonesia"></a>
+  		<a href="http://cosmopolitan.co.id" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-3.png"  alt="Logo Cosmopolitan Indonesia"></a>
+  		<a href="http://herworld.co.id/" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-4.png"  alt="Logo Herworld Indonesia"></a>
+  		<a href="http://esquire.co.id" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-6.png"  alt="Logo Esquire Indonesia"></a>
+  		<a href="http://motherandbaby.co.id" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-7.png"  alt="Logo MotherandBaby Indonesia" ></a>
+  		<a href="http://fhm.co.id" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-8.png"  alt="Logo FHM Indonesia"></a>
+  		<a href="http://fitnessformen.co.id" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-9.png"  alt="Logo Finessformen Indonesia"></a>
+  		<a href="http://casaindonesia.com/" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-11.png"  alt="Logo CosmoGirl Indonesia"></a>
+		<a href="http://cosmogirl.co.id" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-10.png"  alt="Logo Finessformen Indonesia"></a>
+  		<a href="http://baliandbeyond.co.id/" target="_blank"><img src="http://www.maximindonesia.co.id/asset/images/logo/logo-12.png"  alt="Bali and beyond"></a>
+</div>
+<div class="footer-in">The name "MAXIM" and the MAXIM logo are registered trademarks of Maxim Media Inc., and used under license by PT Star Media Abadi. All rights reserved.<BR>&copy;&nbsp;2013 - 2017 MAXIM Indonesia
+
+<br><img src="http://www.maximindonesia.co.id//asset/images/mra_logo.png"><img src="http://www.maximindonesia.co.id//asset/images/star_media_logo2.png"><br></div>        </div>
+
+        <!-- Ads Freak Out Indonesia -->
+        <script src="http://js.mtburn.com/advs-instream.js"></script>
+        <script type="text/javascript">MTBADVS.InStream.Default.run({"immediately":true})</script>
+        <!-- End Ads Freak Out Indonesia -->
+        
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4f6641b933","applicationID":"19330091","transactionName":"YF1WZEJUWxIAUUFdV1kXdVNEXFoPTlNHQFFUVFEfWVtRBBk=","queueTime":0,"applicationTime":92,"atts":"TBpVEgpOSBw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+        <!-- LOAD MORE -->
+        <!--<script src="http://www.maximindonesia.co.id/asset/js/loadmore/jquery-1.js"></script>
+        <script src="http://www.maximindonesia.co.id/asset/js/loadmore/jquery_002.js"></script>
+        <script src="http://www.maximindonesia.co.id/asset/js/loadmore/jquery.js"></script>
+        <script>
+          $(function(){
+            
+            var $container = $('#container');
+            
+            $container.imagesLoaded(function(){
+              $container.masonry({
+
+              });
+            });
+            
+            $container.infinitescroll({
+              navSelector  : '#page-nav',    // selector for the paged navigation 
+              nextSelector : '#page-nav a',  // selector for the NEXT link (to page 2)
+              itemSelector : '.box',     // selector for all items you'll retrieve
+              dataType    : 'php',
+             // path: ["", ".php"],
+              loading: {
+                  finishedMsg: 'No more pages to load.',
+                  img: 'http://i.imgur.com/6RMhx.gif'
+                }
+              },
+              // trigger Masonry as a callback
+              function( newElements ) {
+                // hide new items while they are loading
+                var $newElems = $( newElements ).css({ opacity: 0 });
+                // ensure that images load before adding to masonry layout
+                $newElems.imagesLoaded(function(){
+                  // show elems now they're ready
+                  $newElems.animate({ opacity: 1 });
+                  $container.masonry( 'appended', $newElems, false ); 
+                });
+              }
+            );
+          });
+        </script>-->
+        <!--<script src="asset/js/jquery-1.6.4-min.js" type="text/javascript"></script>
+        <script src="asset/js/showHide.js" type="text/javascript"></script>-->
+        <!--<script type="text/javascript">
+        $(document).ready(function(){
+           $('.show_hide').showHide({            
+                speed:500,  // speed you want the toggle to happen    
+                easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
+                changeText: 1, // if you dont want the button text to change, set this to 0
+                showText: 'View',// the button text to show when a div is closed
+                hideText: '' // the button text to show when a div is open                   
+            }); 
+        }); 
+
+        </script>-->
+
+         <script src="http://www.maximindonesia.co.id/asset/js/gridloading/masonry.pkgd.min.js"></script>
+          <script src="http://www.maximindonesia.co.id/asset/js/gridloading/imagesloaded.js"></script>
+          <script src="http://www.maximindonesia.co.id/asset/js/gridloading/classie.js"></script>
+          <script src="http://www.maximindonesia.co.id/asset/js/gridloading/AnimOnScroll.js"></script>
+          <script>
+            new AnimOnScroll( document.getElementById( 'grid' ), {
+              minDuration : 0.4,
+              maxDuration : 0.7,
+              viewportFactor : 0.2
+            } );
+          </script>
+</html>

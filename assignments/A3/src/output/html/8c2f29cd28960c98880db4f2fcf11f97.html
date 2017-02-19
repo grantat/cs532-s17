@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js gt-ie8">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<title>Playloud</title>
+
+<!--=================================
+Meta tags
+=================================-->
+
+<meta name="description" content="">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" />
+
+<!--=================================
+Style Sheets
+=================================-->
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+<!--Plugins CSS Files-->
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="assets/css/owl.transitions.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.vegas.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animations.css">
+<link rel="stylesheet" type="text/css" href="assets/css/bigvideo.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+<!--custom styles for Poison-->
+<link rel="stylesheet" href="assets/css/main.css">
+
+<!--
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color1.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color2.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color3.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color4.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color5.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color6.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color7.css">
+-->
+
+
+<script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#sticktop" data-offset="70">
+<!--=====================================
+Preloader
+========================================-->
+<div id="jSplash">
+	<figure class="preload_logo">
+		<img src="assets/img/basic/logo2.png" alt=""/>
+	</figure>
+</div>
+<div class="wide_layout box-wide">
+    <!--=================================
+    Vegas Slider Images 
+    =================================-->
+    <ul class="vegas-slides hidden" data-speed="6000">
+      <li><img data-fade='2000' src="assets/img/BG/banner1.jpg" alt="" /></li>
+    </ul>
+    <!--================
+     Banner
+    ====================-->
+    <section id="section_1" class="banner hero_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="hero_content animatedParent animateLoop">
+              <h1 class="animated bounceInDown">&nbsp;</h1>
+              
+              <a class="ScrollTo animated bounceInUp" href="#section_12"><i class="fa fa-angle-down"></i></a> 
+           </div>
+          </div>
+        </div>
+      </div>
+    <!--=================================
+    JPlayer (Audio Player)
+    =================================-->
+      <!--Do not edit this section Unless you have to modify HTML structure of Playlist-->
+      <div class="rock_player pre_sticky">
+      <div class="sticky_player" data-sticky="true">
+        <div class="play_list">
+          <div class="list_scroll">
+            <div class="container ">
+              <ul class="music_widget player_data">
+                <li class="music_row_header">
+                  <div class="column_one"> # </div>
+                  <div class="column_three"> artiste - titre </div>
+                </li>
+                <li class="music_row">
+                  <div class="column_one track_index">1</div>
+                  <div id="track_title_line1" class="column_three track_title line_1"></div>
+                  
+                </li>
+                <!--music row-->
+                
+                <li class="music_row">
+                  <div class="column_one track_index line_2">2</div>
+                  <div id="track_title_line2" class="column_three track_title line_2"></div>
+                  
+                </li>
+                <!--music row-->
+                
+				<li class="music_row">
+                  <div class="column_one track_index line_3">3</div>
+                  <div id="track_title_line3" class="column_three track_title line_3"></div>
+                  
+                </li>
+                <!--music row-->
+                
+				<li class="music_row">
+                  <div class="column_one track_index line_4">4</div>
+                  <div id="track_title_line4" class="column_three track_title line_4"></div>
+                  
+                </li>
+                <!--music row-->
+                
+				<li class="music_row">
+                  <div class="column_one track_index line_5">5</div>
+                  <div id="track_title_line5" class="column_three track_title line_5"></div>
+                  
+                </li>
+                <!--music row-->
+              </ul>
+              <!--music_widget--> 
+            </div>
+            <!--container--> 
+          </div>
+        </div>
+        
+        <!--//=============================================================
+        Edit or Modify Playist content in the following Hypertext
+        ==============================================================-->
+        <div class="jp-playlist hidden"> 
+          <!--Add Songs In mp3 formate here-->
+          <ul class="playlist-files">
+            <li 
+                   data-thumb="assets/img/media/media_01.jpg"
+                   data-title="Blitzkrieg Bop - Ramones"
+                    data-genre="punk"  
+                   data-artist="Poision Studios" 
+                   data-length="4:13" 
+                   data-itunes="http://xvelopers.com" 
+                   data-video="http://xvelopers.com" 
+                   data-mp3="http://91.121.59.45:8280/stream"></li>
+          </ul>
+          <!--Playlist ends--> 
+        </div>
+        <div class="container player_wrapper">
+          <div class="row">
+            <div id="player-instance" class="jp-jplayer"></div>
+            <div class="rock_controls controls">
+              <div  class="fa fa-play jp-play"></div>
+              <div  class="fa fa-pause jp-pause"></div>
+            </div>
+			
+			<div class="jp-volume">
+              <ul>
+                <li class="active"><a href="#"></a></li>
+                <li class="active"><a href="#"></a></li>
+                <li class="active"><a href="#"></a></li>
+                <li class="active"><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+			<div class="jp-title audio-title" id="nowPlaying">little black bag pack</div>
+            
+            <!--controls-->
+            
+            <!--audio-progress-->
+         
+            <a href="#" class="playlist_expander fa fa-bars"></a> </div>
+        </div>
+      </div></div>
+    </section>
+    <!--//banner--> 
+    <!--=========================
+     Header
+    ===========================-->
+    <header>
+      <nav id="sticktop" class="navbar navbar-default" data-sticky="true">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="#"><img src="assets/img/basic/logo.png" alt="logo"/></a> </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#section_12">Qui sommes-nous ?</a></li>
+			  <li><a href="#section_2">Actu</a></li>
+              <li><a href="#section_5">Programmation</a></li>
+              <li><a href="#section_7">Podcasts</a></li>
+              <li><a href="#section_9">Countdown</a></li>
+              
+              <li><a href="#section_13">Contact</a></li>
+            </ul>
+          </div>
+          <!--/.nav-collapse --> 
+        </div>
+      </nav>
+    </header>
+    
+    <div class="sections_wrapper"> 
+	      <!--======================================
+    Team/Band Members
+    ==========================================-->
+      <section id="section_12" class="about_section section_first">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section_head_widget animatedParent ">
+                <h1 class="animated fadeInDown">Qui sommes-nous ?</h1>
+                <h4>Présentation du projet.</h4>
+              </div>
+            </div>
+            <!--section_head_widget--> 
+          </div>
+          <!--row-->
+          
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="text_widget">
+                Candidate à l’attribution d’une fréquence sur la RNT à LILLE (appel CSA de juin 2016). PLAYLOUD est une webradio, dont les locaux sont situés à Roubaix, qui met en avant la métropole Lilloise comme le carrefour qu’elle se doit d’être, pluriculturel, multilingue et cosmopolite.<br />
+L’objectif principal de l’association est de fédérer autour de thèmes universels : la culture, la musique et l’art, une audience locale et extra-locale en faisant abstraction des frontières et des langues.<br />
+La Radio Numérique Terrestre est, à la radio, ce que la TNT fut en son temps à la télévision.<br />
+Son HD digital, accompagné de données associés, elle est le chainon manquant entre la FM D’hier et la radio numerique d’aujourd’hui qui s’écoute en IP via le WEB.<br />
+La webradio comporte déjà à l’heure actuelle 6 heures de programmes animés par jour, le<br />
+tout ponctué d’infos pratiques et culturelles sur les évènements à ne pas rater dans l’Eurozone. Des espaces quotidiens d’une heure de liberté musicale sont ouverts le soir à différents artistes locaux et/ou internationaux. 4 à 6 minutes par heure laissent place aux infos culturelles générales et locales, y compris dans les créneaux non-animés, rédigés par plusieurs rédacteurs/blogueurs locaux. Les interventions à l’antenne sont aujourd’hui à 90% en français, mais à caractère international, ponctuées par quelques intervenants anglophones et bientôt néerlandophones.<br />
+Le format musical, est composé d’une majorité de productions indie européennes, à destination d’un public adulte/jeune adulte urbain et tendance. Cette programmation est un contrepied de la playlist des radios Top 40. A faible rotation, elle est composée à plus de 90% de nouveautés issues majoritairement des nouveaux circuits de production et de distribution. La ligne musicale Playloud c’est près de 1000 titres/semaine. Très éloigné de Yacast (qui règne en maitre sur l’offre musicale des radios en France), c’est un choix ciblé, mais éclectique, capable d’intéresser un public local, mais qui se doit d’être également formaté pour un auditeur étranger de passage.<br />
+Géré par un collectif d’anciens ou d’actuels pro de la production musicale et/ou de la radio Commerciale comme associative, Playloud n’est pas juste un robinet à musique c’est un projet pensé, avec une ligne d’antenne, et un vrai format musical.<br />
+Un Label est en cours de création, afin de faire profiter de jeunes artistes locaux innovants, de moyens et talents mutualisés, et d’une expérience solide sur les nouveaux circuits de distribution numérique.<br />
+En plus de son site web, Playloud dispose également de son appli i-phone et android sur les stores correspondants.<br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--container--> 
+      </section>
+      
+	  
+      <!--================
+     News
+    ====================-->
+      
+      <section id="section_2" class="news_section">
+        <div class="container animatedParent ">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section_head_widget">
+                <h2 class="animated fadeInDown">Actu</h2>
+                <h5 class="animated fadeInLeft">Retrouvez ici les dernières actualités</h5>
+              </div>
+            </div>
+            <!--column--> 
+          </div>
+          <!--row--> 
+        </div>
+        <!--contaier-->
+        <div class="news_widget">
+          <div class="container controls_wrapper animatedParent ">
+            <div class="carousel_controls"> <span id="news-prev" class="fa fa-angle-left animated fadeInLeft"></span> <span id="news-next" class="fa fa-angle-right animated bounceInRight "></span> </div>
+            <!--controls--> 
+          </div>
+          <!--//controls_wrapper//carousel_overlay-->
+          
+          <div class="news_carousel animatedParent ">
+            
+		  <div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n52.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>SUR LA PISTE DES DINOSAURES</h5>
+                  <ul class="news_meta">
+                    <li>par Thomas</li>
+                    <li>30-01-2017</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="52">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n53.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>MUSEE DU SLIP</h5>
+                  <ul class="news_meta">
+                    <li>par Thomas</li>
+                    <li>30-01-2017</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="53">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n51.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>EXPO : LES PAYSAGES DU POSSIBLE</h5>
+                  <ul class="news_meta">
+                    <li>par Quentin</li>
+                    <li>26-01-2017</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="51">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n49.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>NAME FESTIVAL D'HIVER</h5>
+                  <ul class="news_meta">
+                    <li>par Quentin</li>
+                    <li>25-01-2017</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="49">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n50.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>DOUR FESTIVAL</h5>
+                  <ul class="news_meta">
+                    <li>par Quentin</li>
+                    <li>25-01-2017</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="50">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n48.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>LES NUITS DE LA FILATURE</h5>
+                  <ul class="news_meta">
+                    <li>par Quentin</li>
+                    <li>14-01-2017</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="48">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n46.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>DRAGONS</h5>
+                  <ul class="news_meta">
+                    <li>par Thomas</li>
+                    <li>27-12-2016</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="46">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n43.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>SOULWAX à L'AERONEF</h5>
+                  <ul class="news_meta">
+                    <li>par Quentin</li>
+                    <li>30-11-2016</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="43">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n44.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>PETER PETER EN CONCERT</h5>
+                  <ul class="news_meta">
+                    <li>par Quentin</li>
+                    <li>30-11-2016</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="44">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n45.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>LES PARADIS ARTIFICIELS</h5>
+                  <ul class="news_meta">
+                    <li>par Quentin</li>
+                    <li>30-11-2016</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="45">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n41.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>VINYL DEALER LILLE</h5>
+                  <ul class="news_meta">
+                    <li>par Quentin</li>
+                    <li>27-11-2016</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="41">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n42.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>CECI N'EST PAS UNE COPIE</h5>
+                  <ul class="news_meta">
+                    <li>par Thomas</li>
+                    <li>27-11-2016</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="42">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n35.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>ART UP 2017</h5>
+                  <ul class="news_meta">
+                    <li>par Thomas</li>
+                    <li>13-11-2016</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="35">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div><div class="news_box fadeInUp animated">
+              <figure><img src="assets/img/news/n10.jpg" alt="" /></figure>
+              <div class="news_info_wrapper">
+                <div class="news_info">
+                  <h5>BUDAFABRIEK</h5>
+                  <ul class="news_meta">
+                    <li>par Thomas</li>
+                    <li>07-07-2016</li>
+                  </ul>
+                  <!--//news_meta-->
+                  
+                </div>
+                <!--news_info--> 
+              </div>
+              <!--//news_info_wrapper-->
+              <div class="hover"> 
+                  <a class="triggerNews" href="news.php" data-number="10">
+                      Lire l'article complet
+                  </a> 
+                </div>
+              <!--//hover--> 
+            </div>		  
+		  
+            <!--//news_box bounceInUp animated-->
+            
+            <!--//news_box bounceInUp animated--> 
+            
+          </div>
+          <!--//news_carousel--> 
+          
+        </div>
+        <!--//news_widget--> 
+      </section>
+      <!--//News--> 
+       
+<section id="newsAjaxWrapper" class="container">
+	<a class="closeNewsAjax" href="#section_2"><i class="fa fa-times"></i></a>
+	<div id="newsAjax" class="content_expander"></div>
+</section>
+
+    <!--=============
+    Music Tracks
+    ===============-->
+      <section id="section_5" class="track_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-8">
+              <div class="section_head_widget animatedParent ">
+                <h2 class="animated fadeInLeft">Programmation</h2>
+                <h5 class="animated bounceInRight">Retrouvez ici l'agenda de vos émissions préférées</h5>
+              </div>
+              <!--section_head_widget--> 
+            </div>
+            
+          </div>
+          <!--row-->
+		  <div class="row tracks_widget">
+		  <div class="col-sm-4 col-xs-12 animatedParent">
+              <div class="track_box animated fadeInUp">
+			  
+                <figure class="animated"><img src="assets/img/programmation/prog1.jpg" alt="" /></figure>
+                <div class="track_info_wrapper">
+                  <div class="track_info">
+                    <h4>La Morninglist</h4>
+                    <h6>Chaque jour de 9h à 12h avec Thomas</h6>
+                  </div>
+                  <!--news_info--> 
+                </div>
+                <!--//news_info_wrapper-->
+                <!--<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>-->
+                <!--//hover--> 
+              </div>
+              <!--//news_box--> 
+            </div><div class="col-sm-4 col-xs-12 animatedParent">
+              <div class="track_box animated fadeInUp">
+			  
+                <figure class="animated"><img src="assets/img/programmation/prog2.jpg" alt="" /></figure>
+                <div class="track_info_wrapper">
+                  <div class="track_info">
+                    <h4>La Daylist</h4>
+                    <h6>Chaque jour de 14h à 16h avec Quentin</h6>
+                  </div>
+                  <!--news_info--> 
+                </div>
+                <!--//news_info_wrapper-->
+                <!--<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>-->
+                <!--//hover--> 
+              </div>
+              <!--//news_box--> 
+            </div><div class="col-sm-4 col-xs-12 animatedParent">
+              <div class="track_box animated fadeInUp">
+			  
+                <figure class="animated"><img src="assets/img/programmation/prog3.jpg" alt="" /></figure>
+                <div class="track_info_wrapper">
+                  <div class="track_info">
+                    <h4>Playloud Residents</h4>
+                    <h6>Chaque soir de 22h à 23h</h6>
+                  </div>
+                  <!--news_info--> 
+                </div>
+                <!--//news_info_wrapper-->
+                <!--<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>-->
+                <!--//hover--> 
+              </div>
+              <!--//news_box--> 
+            </div><div class="col-sm-4 col-xs-12 animatedParent">
+              <div class="track_box animated fadeInUp">
+			  
+                <figure class="animated"><img src="assets/img/programmation/prog4.jpg" alt="" /></figure>
+                <div class="track_info_wrapper">
+                  <div class="track_info">
+                    <h4>Silky Thursdays</h4>
+                    <h6>Chaque Jeudi de 20h à 21h avec Pierre</h6>
+                  </div>
+                  <!--news_info--> 
+                </div>
+                <!--//news_info_wrapper-->
+                <!--<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>-->
+                <!--//hover--> 
+              </div>
+              <!--//news_box--> 
+            </div><div class="col-sm-4 col-xs-12 animatedParent">
+              <div class="track_box animated fadeInUp">
+			  
+                <figure class="animated"><img src="assets/img/programmation/prog5.jpg" alt="" /></figure>
+                <div class="track_info_wrapper">
+                  <div class="track_info">
+                    <h4>Le Countdown</h4>
+                    <h6>Chaque Samedi de 16h à 17h</h6>
+                  </div>
+                  <!--news_info--> 
+                </div>
+                <!--//news_info_wrapper-->
+                <!--<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>-->
+                <!--//hover--> 
+              </div>
+              <!--//news_box--> 
+            </div><div class="col-sm-4 col-xs-12 animatedParent">
+              <div class="track_box animated fadeInUp">
+			  
+                <figure class="animated"><img src="assets/img/programmation/prog6.jpg" alt="" /></figure>
+                <div class="track_info_wrapper">
+                  <div class="track_info">
+                    <h4>Barry &amp; Gibbs Disco Show</h4>
+                    <h6>Chaque Dimanche de 19h à 20h</h6>
+                  </div>
+                  <!--news_info--> 
+                </div>
+                <!--//news_info_wrapper-->
+                <!--<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>-->
+                <!--//hover--> 
+              </div>
+              <!--//news_box--> 
+            </div>		  
+		  
+          
+        </div>
+        <div class="clearfix"></div>
+        <!--=============================tracks-Details=========================-->
+        <div class="trackLoading"><i class="fa fa-spin fa-refresh"></i></div>
+        <section id="tracksAjaxWrapper" class="container">
+        	<a class="closeTrackAjax" href="#section_5"><i class="fa fa-times"></i></a>
+            <div id="tracksAjax" class="content_expander music_widget">
+        	</div>
+        </section>
+        
+        
+    </section>    
+    
+    
+<!--======================================
+    Parallax/Testimonial Section
+    ==========================================-->
+      
+      <!--======================================
+    Media Section
+    ==========================================-->
+      <section id="section_7" class="media_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-8">
+              <div class="section_head_widget animatedParent">
+                <h2 class="animated fadeInLeft">Podcasts</h2>
+                <h5 class="animated bounceInUp">Retrouvez ici le replay de vos émissions préférées</h5>
+              </div>
+            </div>
+<!--             <div class="col-xs-12 col-sm-4 text-right">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    2014 <span class="fa fa-caret-down"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                  </ul>
+                </div>
+            </div> -->
+            <!--section_head_widget--> 
+          </div>
+          <!--row-->
+          <div class="row media_widget">
+		  <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
+              <figure class="animated fadeInUp"> 
+              	<a href="https://itunes.apple.com/fr/podcast/fundamental-by-man-goodwill/id1117747822" target="_blank">
+                	<img src="assets/img/podcasts/pod1.jpg" alt="" />
+                </a><!--hyperlink-->
+                <figcaption>
+                  <h6>FUNDAMENTAL</h6>
+                  par Man Of Goodwill </figcaption>
+              </figure>
+              <!--figure--> 
+            </div><div class="modal fade" id="podcast_1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="close destroy_owl" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body">
+            
+                  <div class="gallery_popup container">
+                  	
+                  
+                    <h2>FUNDAMENTAL</h2>
+                    <h6>2 épisodes</h6>
+                    
+                    <div class="galery_widget">
+                        <ul class="gal_list">
+						AAA Episode 2, posté le 02-05-2016<br />AAA Episode 1, posté le 01-05-2016<br />
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g5.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g6.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g7.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g8.jpg" alt="" /></a></li>
+                            
+                        </ul>
+                        
+                        <ul class="social_share">
+                            <li><a class="btn-share twitter" href="#">Tweet</a><span class="share-count">896</span></li>
+                            <li><a class="btn-share facebook" href="#">Like</a><span class="share-count">2k</span></li>
+                            <li><a class="btn-share google-plus" href="#">1+</a><span class="share-count">18</span></li>
+                        </ul>
+                        
+                        <ul class="channels_list row">
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-circular fa-music"></i>poison itunes</a></li>
+                          <li class="col-xs-12 col-sm-4"><a href="#"><i class="fa fa-soundcloud"></i>poison soundcloud</a></li>
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                        </ul>
+                        
+                    </div>
+                </div><!--gallery-popup-->
+              </div>
+          </div>
+        </div>
+      </div> 
+         <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
+              <figure class="animated fadeInUp"> 
+              	<a href="https://itunes.apple.com/be/podcast/nightcall/id1118662760" target="_blank">
+                	<img src="assets/img/podcasts/pod2.jpg" alt="" />
+                </a><!--hyperlink-->
+                <figcaption>
+                  <h6>NIGHTCALL</h6>
+                  par Johan </figcaption>
+              </figure>
+              <!--figure--> 
+            </div><div class="modal fade" id="podcast_2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="close destroy_owl" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body">
+            
+                  <div class="gallery_popup container">
+                  	
+                  
+                    <h2>NIGHTCALL</h2>
+                    <h6>2 épisodes</h6>
+                    
+                    <div class="galery_widget">
+                        <ul class="gal_list">
+						BBB Episode 2, posté le 03-05-2016<br />BBB Episode 1, posté le 02-05-2016<br />
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g5.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g6.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g7.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g8.jpg" alt="" /></a></li>
+                            
+                        </ul>
+                        
+                        <ul class="social_share">
+                            <li><a class="btn-share twitter" href="#">Tweet</a><span class="share-count">896</span></li>
+                            <li><a class="btn-share facebook" href="#">Like</a><span class="share-count">2k</span></li>
+                            <li><a class="btn-share google-plus" href="#">1+</a><span class="share-count">18</span></li>
+                        </ul>
+                        
+                        <ul class="channels_list row">
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-circular fa-music"></i>poison itunes</a></li>
+                          <li class="col-xs-12 col-sm-4"><a href="#"><i class="fa fa-soundcloud"></i>poison soundcloud</a></li>
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                        </ul>
+                        
+                    </div>
+                </div><!--gallery-popup-->
+              </div>
+          </div>
+        </div>
+      </div> 
+         <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
+              <figure class="animated fadeInUp"> 
+              	<a href="https://djpod.com/hustle" target="_blank">
+                	<img src="assets/img/podcasts/pod3.jpg" alt="" />
+                </a><!--hyperlink-->
+                <figcaption>
+                  <h6>HUSTLE</h6>
+                  par Gibbs </figcaption>
+              </figure>
+              <!--figure--> 
+            </div><div class="modal fade" id="podcast_3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="close destroy_owl" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body">
+            
+                  <div class="gallery_popup container">
+                  	
+                  
+                    <h2>HUSTLE</h2>
+                    <h6>2 épisodes</h6>
+                    
+                    <div class="galery_widget">
+                        <ul class="gal_list">
+						CCC Episode 2, posté le 03-05-2016<br />CCC Episode 1, posté le 02-05-2016<br />
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g5.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g6.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g7.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g8.jpg" alt="" /></a></li>
+                            
+                        </ul>
+                        
+                        <ul class="social_share">
+                            <li><a class="btn-share twitter" href="#">Tweet</a><span class="share-count">896</span></li>
+                            <li><a class="btn-share facebook" href="#">Like</a><span class="share-count">2k</span></li>
+                            <li><a class="btn-share google-plus" href="#">1+</a><span class="share-count">18</span></li>
+                        </ul>
+                        
+                        <ul class="channels_list row">
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-circular fa-music"></i>poison itunes</a></li>
+                          <li class="col-xs-12 col-sm-4"><a href="#"><i class="fa fa-soundcloud"></i>poison soundcloud</a></li>
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                        </ul>
+                        
+                    </div>
+                </div><!--gallery-popup-->
+              </div>
+          </div>
+        </div>
+      </div> 
+         <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
+              <figure class="animated fadeInUp"> 
+              	<a href="https://www.mixcloud.com/Pierre_thery/" target="_blank">
+                	<img src="assets/img/podcasts/pod4.jpg" alt="" />
+                </a><!--hyperlink-->
+                <figcaption>
+                  <h6>SILKY THURSDAY</h6>
+                  par Pierre Thery </figcaption>
+              </figure>
+              <!--figure--> 
+            </div><div class="modal fade" id="podcast_4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="close destroy_owl" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body">
+            
+                  <div class="gallery_popup container">
+                  	
+                  
+                    <h2>SILKY THURSDAY</h2>
+                    <h6>0 épisodes</h6>
+                    
+                    <div class="galery_widget">
+                        <ul class="gal_list">
+						
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g5.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g6.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g7.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g8.jpg" alt="" /></a></li>
+                            
+                        </ul>
+                        
+                        <ul class="social_share">
+                            <li><a class="btn-share twitter" href="#">Tweet</a><span class="share-count">896</span></li>
+                            <li><a class="btn-share facebook" href="#">Like</a><span class="share-count">2k</span></li>
+                            <li><a class="btn-share google-plus" href="#">1+</a><span class="share-count">18</span></li>
+                        </ul>
+                        
+                        <ul class="channels_list row">
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-circular fa-music"></i>poison itunes</a></li>
+                          <li class="col-xs-12 col-sm-4"><a href="#"><i class="fa fa-soundcloud"></i>poison soundcloud</a></li>
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                        </ul>
+                        
+                    </div>
+                </div><!--gallery-popup-->
+              </div>
+          </div>
+        </div>
+      </div> 
+         <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
+              <figure class="animated fadeInUp"> 
+              	<a href="https://itunes.apple.com/fr/podcast/nudisco-sensation/id1114145008?mt=2" target="_blank">
+                	<img src="assets/img/podcasts/pod5.jpg" alt="" />
+                </a><!--hyperlink-->
+                <figcaption>
+                  <h6>NUDISCO SENSATION</h6>
+                  par Mark Lower </figcaption>
+              </figure>
+              <!--figure--> 
+            </div><div class="modal fade" id="podcast_5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="close destroy_owl" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body">
+            
+                  <div class="gallery_popup container">
+                  	
+                  
+                    <h2>NUDISCO SENSATION</h2>
+                    <h6>0 épisodes</h6>
+                    
+                    <div class="galery_widget">
+                        <ul class="gal_list">
+						
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g5.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g6.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g7.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g8.jpg" alt="" /></a></li>
+                            
+                        </ul>
+                        
+                        <ul class="social_share">
+                            <li><a class="btn-share twitter" href="#">Tweet</a><span class="share-count">896</span></li>
+                            <li><a class="btn-share facebook" href="#">Like</a><span class="share-count">2k</span></li>
+                            <li><a class="btn-share google-plus" href="#">1+</a><span class="share-count">18</span></li>
+                        </ul>
+                        
+                        <ul class="channels_list row">
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-circular fa-music"></i>poison itunes</a></li>
+                          <li class="col-xs-12 col-sm-4"><a href="#"><i class="fa fa-soundcloud"></i>poison soundcloud</a></li>
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                        </ul>
+                        
+                    </div>
+                </div><!--gallery-popup-->
+              </div>
+          </div>
+        </div>
+      </div> 
+         <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
+              <figure class="animated fadeInUp"> 
+              	<a href="https://www.mixcloud.com/Lost_In_Music_On_Playloud/" target="_blank">
+                	<img src="assets/img/podcasts/pod6.jpg" alt="" />
+                </a><!--hyperlink-->
+                <figcaption>
+                  <h6>LOST IN MUSIC</h6>
+                  par Fred Rich </figcaption>
+              </figure>
+              <!--figure--> 
+            </div><div class="modal fade" id="podcast_6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="close destroy_owl" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body">
+            
+                  <div class="gallery_popup container">
+                  	
+                  
+                    <h2>LOST IN MUSIC</h2>
+                    <h6>0 épisodes</h6>
+                    
+                    <div class="galery_widget">
+                        <ul class="gal_list">
+						
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g5.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g6.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g7.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g8.jpg" alt="" /></a></li>
+                            
+                        </ul>
+                        
+                        <ul class="social_share">
+                            <li><a class="btn-share twitter" href="#">Tweet</a><span class="share-count">896</span></li>
+                            <li><a class="btn-share facebook" href="#">Like</a><span class="share-count">2k</span></li>
+                            <li><a class="btn-share google-plus" href="#">1+</a><span class="share-count">18</span></li>
+                        </ul>
+                        
+                        <ul class="channels_list row">
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-circular fa-music"></i>poison itunes</a></li>
+                          <li class="col-xs-12 col-sm-4"><a href="#"><i class="fa fa-soundcloud"></i>poison soundcloud</a></li>
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                        </ul>
+                        
+                    </div>
+                </div><!--gallery-popup-->
+              </div>
+          </div>
+        </div>
+      </div> 
+         <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
+              <figure class="animated fadeInUp"> 
+              	<a href="https://djpod.com/countdown" target="_blank">
+                	<img src="assets/img/podcasts/pod7.jpg" alt="" />
+                </a><!--hyperlink-->
+                <figcaption>
+                  <h6>COUNTDOWN</h6>
+                  par Thomas </figcaption>
+              </figure>
+              <!--figure--> 
+            </div><div class="modal fade" id="podcast_7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="close destroy_owl" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body">
+            
+                  <div class="gallery_popup container">
+                  	
+                  
+                    <h2>COUNTDOWN</h2>
+                    <h6>0 épisodes</h6>
+                    
+                    <div class="galery_widget">
+                        <ul class="gal_list">
+						
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g5.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g6.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g7.jpg" alt="" /></a></li>
+                            <li class="trigger_slider"><a href="#"><img src="assets/img/gallery/g8.jpg" alt="" /></a></li>
+                            
+                        </ul>
+                        
+                        <ul class="social_share">
+                            <li><a class="btn-share twitter" href="#">Tweet</a><span class="share-count">896</span></li>
+                            <li><a class="btn-share facebook" href="#">Like</a><span class="share-count">2k</span></li>
+                            <li><a class="btn-share google-plus" href="#">1+</a><span class="share-count">18</span></li>
+                        </ul>
+                        
+                        <ul class="channels_list row">
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-circular fa-music"></i>poison itunes</a></li>
+                          <li class="col-xs-12 col-sm-4"><a href="#"><i class="fa fa-soundcloud"></i>poison soundcloud</a></li>
+                          <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                        </ul>
+                        
+                    </div>
+                </div><!--gallery-popup-->
+              </div>
+          </div>
+        </div>
+      </div> 
+         		  
+          
+            <!--Column / media item-->
+            <!--Column / media item--> 
+            
+          </div>
+        </div>
+        <!--container--> 
+      </section>
+      <!--//media_section--> 
+      
+      <!--======================================
+    Tours Section
+    ==========================================-->
+	<section id="section_9" class="tours_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section_head_widget">
+                <h2>Countdown</h2>
+                <h5>Retrouvez ici le classement des titres de la semaine</h5>
+              </div>
+			  <div class="text_widget">
+                10 Jamiroquai – Automaton<br />
+09 Pont point – A piece of sun<br />
+08 Winston surfshirt – Be about you<br />
+07 Dj Kojack – Party<br />
+06 Yukseck fet Roman Rappak – Live alone<br />
+05 The Black Madonna – He is the Voice that I hear<br />
+04 Urban cone – old School<br />
+03 Nora &amp; Pure – Mak Me love you<br />
+02 Data &amp; Sacha Sieff – Melodie<br />
+01 Deejay Astral – Let you go              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+        
+      
+      
+       
+      <!--======================================
+    Footer
+    ==========================================-->
+      <footer id="section_13" class="parallax parallax_five footer" data-stellar-background-ratio="0.5">
+        <div class="parallax_inner">
+          <div class="container">
+		  
+              <!--=========================
+              Contact Form
+              ===========================-->          
+            <div class="contact_Us">
+			&nbsp;
+       		   <div class="tabs-wrap tabs-wrap-active clearfix">
+                    <ul class="tabs">
+                        <li class="tab-link tab-link1 active" data-tab="tab1">
+                            <span>Suivez-nous</span>
+                        </li>
+                        <li class="tab-link tab-link2" data-tab="tab2">
+                            <span>Message</span>
+                        </li>
+                    </ul>
+                </div><!--tab wrapper-->
+
+                <div id="tab1" class="tab-content active">   
+                    <ul class="channels_list row animatedParent " data-sequence="400">
+					<li class="col-xs-12 col-sm-4 animated fadeInLeft" data-id="3"><a href="https://twitter.com/PlayloudRadio" target="_blank"><i class="fa fa-twitter"></i>Twitter</a></li><li class="col-xs-12 col-sm-4 animated fadeInLeft" data-id="5"><a href="https://www.facebook.com/playloudradio/" target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li>					
+                    </ul>
+                </div>
+                <div id="tab2" class="tab-content animatedParent">  
+                    <div class="contactFormWrapper ">
+                        <form id="contactform" action="assets/php/submit.php" method="post">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4">
+                                    <input type="text" id="name" placeholder="Prénom"/>
+                                </div><!--column-->
+                                <div class="col-xs-12 col-md-4">
+                                    <input type="text" name="email" id="email" placeholder="Email" />
+                                </div><!--column-->
+                                <div class="col-xs-12 col-md-4">
+                                    <input type="text" name="subject" id="subject" placeholder="Sujet" />
+                                </div><!--column-->
+                                <div class="col-xs-12 col-md-8">
+                                    <textarea placeholder="Message" name="message" id="Message"></textarea>
+                                </div><!--column-->
+                                <div class="col-xs-12 col-md-4">
+                                    <button class="btn btn-default" id="submit1" type="submit">
+                                        Envoyer
+                                    </button>
+                                </div><!--column-->
+
+                            </div><!--row-->
+                        </form>
+                        <div id="valid-issue" style="display:none;"> Please Provide Valid Information</div>  
+                    </div>
+                </div>
+                
+            </div>  
+          	
+            
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="copyrights">&copy; 2016 <a href="#">Playloud</a>.<br />Developed by <a href="mailto:alexandrevasseur@outlook.com">Alexandre</a></div>
+              </div>
+            </div>
+          </div><!--container--> 
+        </div><!--parallax_inner--> 
+      </footer><!--//parallax--> 
+    </div>
+    
+</div>
+<!--===================================================================
+Scripts
+====================================================================--> 
+<script src="assets/js/jquery-1.11.0.min.js"></script> 
+<script src="assets/js/jpreloader.min.js"></script>
+<script src="assets/js/jquery.mousewheel.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/jquery.easing-1.3.pack.js"></script> 
+<script src="assets/js/jquery.stellar.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script src="assets/js/jquery.carouFredSel-6.2.1-packed.js"></script> 
+<script src="assets/js/tweetie.min.js"></script> 
+<script src="assets/js/jquery.sticky.js"></script> 
+<script src="assets/jPlayer/jquery.jplayer.min.js"></script> 
+<script src="assets/jPlayer/add-on/jplayer.playlist.min.js"></script> 
+<script src="assets/js/jquery.vegas.min.js"></script> 
+<script src="assets/js/css3-animate-it.js"></script> 
+<script src="assets/js/jquery.fractionslider.min.js"></script> 
+<script src="assets/js/jquery.mCustomScrollbar.min.js"></script> 
+<script src="assets/js/jquery.waitforimages.js"></script>
+<script src="assets/js/video.js"></script>
+<script src="assets/js/bigvideo.js"></script>
+<script src="assets/js/main.js"></script>  
+<script>
+
+$('body').jpreLoader({
+		splashID: "#jSplash",
+		loaderVPos: '50%',
+		autoClose: true,
+});
+/*====================================================================
+Put Your Google Tracker Code here
+===================================================================*/
+</script>
+
+</body>
+</html>

@@ -1,0 +1,566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US" prefix="og: http://ogp.me/ns#"><head profile="http://gmpg.org/xfn/11"><link rel="stylesheet" type="text/css" href="http://www.patheos.com/blogs/poptheology/wp-content/cache/minify/000357/fY3RDoIwDEV_iGVojImfM-Bam8xuWUvw8zUQcHvh9fTc094TBMrqc7AXknb9QR733l1vFYg8-FHVDwLrLvvCMX2cpcyjuoUngjWXDdW6PJMPqjBdazuHUCC8IaZndspzDMXlpI2XA7EE4yRN9I9r97edc10VLBphhuKUSeZc2QUxGKbt42o35NS0AplYaENf.css" media="all" /><link rel="stylesheet" type="text/css" href="http://www.patheos.com/blogs/poptheology/wp-content/cache/minify/000357/M9Qvzk_OTMzRzU1NyUzULc9MSU8tgYrFQ3gA.css" media="all" /><link rel="stylesheet" type="text/css" href="http://www.patheos.com/blogs/poptheology/wp-content/cache/minify/000357/M9Qvzk_OTEzKSdU1NoCzAQ.css" media="all" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwMGUlBQGwIIXFhXBgA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script> <script type="text/javascript">var pathjs = pathjs ? pathjs : {};</script><script type="text/javascript">/*<![CDATA[*/(function(e,f){function h(a){if(a.mode){var b=g("mobify-mode");b&&a[b]||(b=a.mode(c.ua));return a[b]}return a}function m(){function a(a){e.addEventListener(a,function(){c[a]=+new Date},!1)}e.addEventListener&&(a("DOMContentLoaded"),a("load"))}function n(){var a=new Date;a.setTime(a.getTime()+3E5);f.cookie="mobify-path=; expires="+a.toGMTString()+"; path=/";e.location.reload()}function p(){k({src:"https://preview.mobify.com/v7/"})}function g(a){if(a=f.cookie.match(RegExp("(^|; )"+a+"((=([^;]*))|(; |$))")))return a[4]||""}function l(a){f.write('<plaintext style="display:none">');setTimeout(function(){d.capturing=!0;a()},0)}function k(a,b){var e=f.getElementsByTagName("script")[0],c=f.createElement("script"),d;for(d in a)c[d]=a[d];b&&c.setAttribute("class",b);e.parentNode.insertBefore(c,e)}var d=e.Mobify={},c=d.Tag={};d.points=[+new Date];d.tagVersion=[7,0];c.ua=e.navigator.userAgent;c.getOptions=h;c.init=function(a){c.options=a;if(""!==g("mobify-path"))if(m(),a.skipPreview||"true"!=g("mobify-path")&&!/mobify-path=true/.test(e.location.hash)){var b=h(a);if(b){var d=function(){b.post&&b.post()};a=function(){b.pre&&b.pre();k({id:"mobify-js",src:b.url,onerror:n,onload:d},"mobify")};!1===b.capture?a():l(a)}}else l(p)}})(window,document);(function(){var o="//cdn.mobify.com/sites/patheos-2015/production/mobify.js";Mobify.Tag.init({mode:function(o){return/ip(hone|od)|android.*(mobile)|blackberry.*applewebkit|bb1\d.*mobile/i.test(o)?"enabled":"desktop"},enabled:{url:o},desktop:{capture:!1,url:"//a.mobify.com/patheos-2015/a.js"}})})();/*]]>*/</script><title>Shuffled Selections: January 22-28</title><link rel="stylesheet" type="text/css" media="print" href="http://wp.production.patheos.com/blogs/wp-content/themes/genesis/print.css"/><script type="text/javascript" src="http://wp.production.patheos.com/blogs/wp-content/themes/genesis/lib/js/bnet.js"></script><script type="text/javascript" src="//assets.publir.com/client/subscriber.js"></script><script type="text/javascript">
+	pubsubs.publisher_token="73bb1942473274543a704f6b39b73fa2";
+	pubsubs.ad_callbacks=["show_ads"];pubsubs.init();
+	function show_ads(){
+		$("head").append('<style>div[id^="google_ads"],div[class^="google_ads"],div[class^="tynt"]{display:block !important;margin:auto}</style>');
+	}
+</script><style>div[id^="google_ads"],div[class^="google_ads"],div[class^="tynt"]{display:none!important}</style><script type="text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+	var gads = document.createElement("script");
+	gads.async = true;
+	gads.type = "text/javascript";
+	var useSSL = "https:" == document.location.protocol;
+	if(display_ads_server) {
+		gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+		var node =document.getElementsByTagName("script")[0];
+		node.parentNode.insertBefore(gads, node);
+	}
+   })();
+</script><link rel="Shortcut Icon" href="http://www.patheos.com/favicon.ico" type="image/x-icon" /><meta name="com.silverpop.brandeddomains" content="www.pages04.net,patheos.mkt5005.com,www.patheos.com" /><script src="http://content.mkt941.com/lp/static/js/iMAWebCookie.js?1f8fe4f5-1384d1aaa92-b72427ac28f4177bd55290ce12678282&h=www.pages04.net" type="text/javascript"></script><link rel="canonical" href="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Shuffled Selections: January 22-28" /><meta property="og:description" content="Ok, so I’ve calmed down from last week – sorry for that attempt at high concept anger. Back to focusing on new music! This week, I’ve chosen some far more familiar artists who will all (hopefully) have some exciting albums coming out this year. Enjoy! Pay Attention Selection of the Week Father John Misty – [Read More...]" /><meta property="og:url" content="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/" /><meta property="og:site_name" content="Pop Theology" /><meta property="article:tag" content="Music" /><meta property="article:tag" content="Music Review" /><meta property="article:tag" content="Music Reviews" /><meta property="article:tag" content="shuffled selections" /><meta property="article:section" content="Music" /><meta property="article:published_time" content="2017-01-30T05:04:20-08:00" /><meta property="og:image" content="http://wp.production.patheos.com/blogs/poptheology/files/2017/01/Jan22-28.png" /><meta property="og:image:width" content="525" /><meta property="og:image:height" content="525" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Ok, so I’ve calmed down from last week – sorry for that attempt at high concept anger. Back to focusing on new music! This week, I’ve chosen some far more familiar artists who will all (hopefully) have some exciting albums coming out this year. Enjoy! Pay Attention Selection of the Week Father John Misty – [Read More...]" /><meta name="twitter:title" content="Shuffled Selections: January 22-28" /><meta name="twitter:image" content="http://wp.production.patheos.com/blogs/poptheology/files/2017/01/Jan22-28.png" /><link rel="alternate" type="application/rss+xml" title="Pop Theology &raquo; Feed" href="http://www.patheos.com/blogs/poptheology/feed/" /><link rel="alternate" type="application/rss+xml" title="Pop Theology &raquo; Comments Feed" href="http://www.patheos.com/blogs/poptheology/comments/feed/" /><link rel="alternate" type="application/rss+xml" title="Pop Theology &raquo; Shuffled Selections: January 22-28 Comments Feed" href="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/feed/" /> <script type='text/javascript' data-cfasync='false'>
+  //<![CDATA[
+    _SHR_SETTINGS = {"endpoints":{"local_recs_url":"http:\/\/www.patheos.com\/blogs\/poptheology\/wp-admin\/admin-ajax.php?action=shareaholic_permalink_related","share_counts_url":"http:\/\/www.patheos.com\/blogs\/poptheology\/wp-admin\/admin-ajax.php?action=shareaholic_share_counts_api"}};
+  //]]>
+</script><script type='text/javascript' data-cfasync='false'
+        src='//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js'
+        data-shr-siteid='dea7c804bc48740defabe1a3efbdded7' async='async' >
+</script><meta name='shareaholic:site_name' content='Pop Theology' /><meta name='shareaholic:language' content='en-US' /><meta name='shareaholic:url' content='http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/' /><meta name='shareaholic:keywords' content='music, music review, music reviews, shuffled selections' /><meta name='shareaholic:article_published_time' content='2017-01-30T13:04:20+00:00' /><meta name='shareaholic:article_modified_time' content='2017-02-14T21:01:36+00:00' /><meta name='shareaholic:shareable_page' content='true' /><meta name='shareaholic:article_author_name' content='Benjamin Griffin' /><meta name='shareaholic:site_id' content='dea7c804bc48740defabe1a3efbdded7' /><meta name='shareaholic:wp_version' content='7.8.0.4' /><meta name='shareaholic:image' content='http://wp.production.patheos.com/blogs/poptheology/files/2017/01/Jan22-28.png' /> <script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.patheos.com\/blogs\/poptheology\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><style type="text/css">img.wp-smiley,img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0 .07em !important;vertical-align:-0.1em !important;background:none !important;padding:0 !important}</style><link rel='stylesheet' id='lifestyle-theme-css'  href='http://wp.production.patheos.com/blogs/wp-content/themes/Patheos%20TwentyTen/style.css?ver=2.2.6' type='text/css' media='all' /><link rel='stylesheet' id='genesis-printstyle-plus-css'  href='http://www.patheos.com/blogs/poptheology/wp-content/plugins/genesis-printstyle-plus/css/print.min.css?ver=1487098763' type='text/css' media='print' /><script type="text/javascript" src="http://www.patheos.com/blogs/poptheology/wp-content/cache/minify/000357/hcvhCsIwEAPgF1ote6RO41lpr2dzZeztHWPC_gmBQPiylCaMq4Ws9zIeYHzv-Qz07axp-UtCzdKT41azTnO05C807v7ZYiLhx-U3QyUJKtR5wdbowy5csbLAHT0wiw77Ag.js"></script><link rel='https://api.w.org/' href='http://www.patheos.com/blogs/poptheology/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.patheos.com/blogs/poptheology/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wp.production.patheos.com/blogs/poptheology/wp-includes/wlwmanifest.xml" /><meta name="generator" content="WordPress 4.4.1" /><link rel='shortlink' href='http://www.patheos.com/blogs/poptheology/?p=6775' /><link rel="alternate" type="application/json+oembed" href="http://www.patheos.com/blogs/poptheology/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.patheos.com%2Fblogs%2Fpoptheology%2F2017%2F01%2Fshuffled-selections-january-22-28%2F" /><link rel="alternate" type="text/xml+oembed" href="http://www.patheos.com/blogs/poptheology/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.patheos.com%2Fblogs%2Fpoptheology%2F2017%2F01%2Fshuffled-selections-january-22-28%2F&#038;format=xml" /><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-6605286-6', 'auto');
+      
+    </script><script>
+            
+        ga('send', 'pageview', {
+            'dimension1': 'none',
+            'dimension2': 'none',
+            'dimension3': 'none'
+        });
+        </script><script>var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-6605286-1']);</script><script>_gaq.push(['_trackEvent', 'AllBlogs', 'poptheology', value, true]);</script><script>
+            
+        ga('send', 'event', 'AllBlogs', 'poptheology', {
+            'nonInteraction': 1,
+            'dimension1': 'none',
+            'dimension2': 'none',
+            'dimension3': 'none'
+        });
+        </script><script>googletag.cmd.push(function() {googletag.pubads().setTargeting('AllBlogs', ['poptheology']);googletag.pubads().setTargeting('urlhash', [788000112]);});</script><script>_gaq.push(['_trackEvent', 'Channel', '', value, true]);</script><script>ga('send', 'event', 'Channel', '', {'nonInteraction' : 1});</script><script>_gaq.push(['_trackEvent', 'Channel', 'CFT_ProgressiveChristian', value, true]);</script><script>ga('send', 'event', 'Channel', 'CFT_ProgressiveChristian', {'nonInteraction' : 1});</script><script>googletag.cmd.push(function() {googletag.pubads().setTargeting('Channel', ['','CFT_ProgressiveChristian','endlast']);});</script><script>
+        jQuery(document).on("adBlockDetected", function() {
+            console.log("User is running adblock");
+            _gaq.push(['_trackEvent', 'AdBlock', 'poptheology', value, true]);
+            ga('send', 'event', 'AdBlock', 'poptheology', {'nonInteraction' : 1});
+        });
+
+        function checkForAdBlock() {
+            console.log("Checking for ad block");
+
+            if (jQuery("div[id^=sas]").length === 0) {
+                jQuery('html').trigger("adBlockDetected");
+            }
+        }
+
+        setTimeout(checkForAdBlock, 3000);
+    </script><script type="text/javascript">
+				var _gaq = _gaq || [];
+								// removed to prevent repeating setaccounts across plugins
+					//_gaq.push(['_setAccount', 'UA-6605286-1']);
+										_gaq.push(['_setDomainName', '.patheos.com']);
+										_gaq.push(['_trackPageview']);
+					
+									(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+				</script><script>_gaq.push(['_trackEvent', 'D_Ministry', 'ar2403', value, true]);ga('send', 'event', 'D_Ministry', 'ar2403', {'nonInteraction' : 1});_gaq.push(['_trackEvent', 'D_Politics', 'ar2602', value, true]);ga('send', 'event', 'D_Politics', 'ar2602', {'nonInteraction' : 1});</script><script>googletag.cmd.push(function() {googletag.pubads().setTargeting('D_Academic', ['endlast']);});</script><script>googletag.cmd.push(function() {googletag.pubads().setTargeting('D_Age', ['endlast']);});</script><script>googletag.cmd.push(function() {googletag.pubads().setTargeting('D_Family', ['endlast']);});</script><script>googletag.cmd.push(function() {googletag.pubads().setTargeting('D_Gender', ['endlast']);});</script><script>googletag.cmd.push(function() {googletag.pubads().setTargeting('D_Ministry', ['ar2403','endlast']);});</script><script>googletag.cmd.push(function() {googletag.pubads().setTargeting('D_Politics', ['ar2602','endlast']);});</script><script>_gaq.push(['_trackEvent', 'Topical', 'ar1001', value, true]);ga('send', 'event', 'Topical', 'ar1001', {'nonInteraction' : 1});_gaq.push(['_trackEvent', 'Topical', 'ar1002', value, true]);ga('send', 'event', 'Topical', 'ar1002', {'nonInteraction' : 1});</script><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@poptheology" /><meta name="twitter:creator" content="@poptheology" /><meta name="twitter:url" content="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/" /><meta name="twitter:title" content="Shuffled Selections: January 22-28" /><meta name="twitter:description" content="Ok, so I’ve calmed down from last week – sorry for that attempt at high concept anger. Back to focusing on new music! This week, I’ve chosen some far more familiar artists who will all [...]" /><meta name="twitter:image" content="http://media.patheos.com/Images/PChPT/PChPT_PopTheology_bio.jpg" /><link rel="Shortcut Icon" href="http://wp.production.patheos.com/blogs/wp-content/themes/Patheos%20TwentyTen/images/favicon.ico" type="image/x-icon" /><style type="text/css">#header{background:url(http://wp.production.patheos.com/blogs/poptheology/files/2013/05/PopTheology_P30_bh-black_edited-1.jpg) no-repeat !important}</style><meta property="og:description" content="Where religion meets pop culture."/><style type="text/css">.vvqbox{display:block;max-width:100%;visibility:visible !important;margin:10px auto}.vvqbox img{max-width:100%;height:100%}.vvqbox object{max-width:100%}</style><script type="text/javascript">
+// <![CDATA[
+	var vvqflashvars = {};
+	var vvqparams = { wmode: "opaque", allowfullscreen: "true", allowscriptaccess: "always" };
+	var vvqattributes = {};
+	var vvqexpressinstall = "http://www.patheos.com/blogs/poptheology/wp-content/plugins/vipers-video-quicktags/resources/expressinstall.swf";
+// ]]>
+</script><style type="text/css" id="custom-background-css">body.custom-background{background-color:#8e8e8e}</style></head><body class="single single-post postid-6775 single-format-standard custom-background custom-header header-image content-sidebar patheos-black-white"> <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3ZZ5Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K3ZZ5Q');</script><div id="wrap"><div id="patheos-header-wrap"><div id="patheos-top-links"><ul class="account"></ul><ul class="ecommerce"></ul></div><div id="patheos-header"><div id="patheos-logo"> <a href="http://www.patheos.com" title="Patheos Home Page" rel="external nofollow" class="ext-link" data-wpel-target="_blank"><img src="http://css.patheos.com.s3.amazonaws.com/wpimg/patheos-logo.png" width="225" height="75" alt="" /></a></div><div id="patheos-ad-region"><div class="ad ad-container hidden-xs remove-padding"><div id="div-gpt-ad-top-nav" class="DFPAdSlot ad-notice remove-padding"></div></div><div class="ad ad-container hidden-xs"><div id="div-gpt-ad-029599964-1" class="DFPAdSlot "></div></div></div><ul id="patheos-menu"><li><a href="http://www.patheos.com/Progressive-Christian" title="Progressive Christian Channel" rel="external nofollow" class="ext-link" data-wpel-target="_blank">Progressive Christian Channel</a></li><li><a href="http://www.patheos.com/Progressive-Christian-Blogs" title="Blogs" rel="external nofollow" class="ext-link" data-wpel-target="_blank">Blogs</a></li><li><a href="/Channels" title="Channels">More Channels</a></li><li><a href="/Public-Square" title="Public Square">Public Square</a></li><li><a href="/Politics-Blue" title="Politics Blue">Politics Blue</a></li><li><a href="/Politics-Red" title="Politics Red">Politics Red</a></li><li><a href="/Books/Book-Club" title="Books">Book Club</a></li><li><a href="/Library" title="Religion Library">Religion Library</a></li></ul><div id="patheos-breadcrumbs"><ul><li><a href="http://www.patheos.com" title="Home" rel="external nofollow" class="ext-link" data-wpel-target="_blank">Home</a></li><li><a href="http://www.patheos.com/Progressive-Christian" title="Progressive Christian Channel" rel="external nofollow" class="ext-link" data-wpel-target="_blank">Progressive Christian Channel</a></li><li class="current"><a href="http://www.patheos.com/blogs/poptheology" title="Pop Theology">Pop Theology</a></li></ul></div><div id="search-box" class="clearfix"><form id="search" method="get" action="/Search"> <input type="submit" style="background: url('http://css.patheos.com.s3.amazonaws.com/img/hdr-search-btn.png') no-repeat scroll 0 0 transparent; margin-left: 8px; width: 70px; text-indent: -9999px;"/> <input name="q" type="text" style="background: url('http://css.patheos.com.s3.amazonaws.com/img/hdr-search-bg.png') no-repeat scroll 0 0 transparent; padding: 0 10px; width: 160px;"/></form></div></div><div class="ad ad-container hidden-xs"><div id="div-gpt-ad-576796218-2" class="DFPAdSlot "></div></div><div class="ad ad-container visible-xs-block"><div id="div-gpt-ad-435633196-3" class="DFPAdSlot "></div></div></div><div id="header"><div class="wrap"><div id="title-area"><p id="title"><a href="http://www.patheos.com/blogs/poptheology/">Pop Theology</a></p><p id="description">Where religion meets pop culture.</p></div><div class="widget-area header-widget-area"><div id="execphp-2" class="widget widget_execphp"><div class="widget-wrap"><div class="execphpwidget"></div></div></div></div></div></div><div id="subnav"><div class="wrap"><ul id="menu-menu-1" class="menu genesis-nav-menu menu-secondary js-superfish"><li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-9"><a href="http://www.patheos.com/blogs/poptheology/">Home</a></li><li id="menu-item-10" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10"><a href="http://www.patheos.com/blogs/poptheology/about-pop-theology/">About</a></li><li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11"><a href="http://www.patheos.com/blogs/poptheology/publications-by-poptheology-eds/">Publications</a></li><li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://www.patheos.com/blogs/poptheology/contributors-to-pop-theology/">Contributors</a></li><li id="menu-item-3751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3751"><a href="http://www.patheos.com/blogs/poptheology/archive-index/">Archive Index</a></li></ul></div></div><div id="inner"><div id="content-sidebar-wrap"><div id="content" class="hfeed"><div style="overflow:hidden; margin-bottom:20px;"><div style='float:left; margin-top: 20px; padding: 1px;'> &laquo; <a href="http://www.patheos.com/blogs/poptheology/2017/01/at-sundance-their-finest/" rel="prev">At Sundance: THEIR FINEST</a></div> <br/><div style='float:right; margin-top: 20px; padding: 1px;'> <a href="http://www.patheos.com/blogs/poptheology/2017/02/killerserials-path-s2-eps-2-3/" rel="next">#KillerSerials: THE PATH, S2, Eps. 2-3</a> &raquo;</div></div><div class="post-6775 post type-post status-publish format-standard has-post-thumbnail hentry category-music tag-music tag-music-review tag-music-reviews tag-shuffled-selections entry"><h1 class="entry-title">Shuffled Selections: January 22-28</h1><div class="post-info"><span class="date published time" title="2017-01-30T05:04:20+00:00">January 30, 2017</span> by <span class="author vcard"><span class="fn"><a href="http://www.patheos.com/blogs/poptheology/author/bgriffin/" rel="author">Benjamin Griffin</a></span></span> <span class="post-comments"><a href="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/#respond"><span class="dsq-postid" data-dsqidentifier="6775 http://admin.patheos.com/blogs/poptheology/?p=6775">Leave a Comment</span></a></span></div><div class="entry-content"><p>Ok, so I’ve calmed down from last week – sorry for that attempt at high concept anger. Back to focusing on new music! This week, I’ve chosen some far more familiar artists who will all (hopefully) have some exciting albums coming out this year. Enjoy!</p><p><u>Pay Attention Selection of the Week</u></p><p>Father John Misty – “Pure Comedy”</p><p>This is not hyperbole: I think Josh Tillman, aka Father John Misty, is prophetic. A sarcastic misanthrope, a salacious romantic, and a slick-witted storyteller, Tillman went from a career as an overly earnest, soft spoken folk artist (and one time Fleet Foxes member) to a louder than life lounge singer Lothario seemingly overnight. But, rather than abandoning the earnestness, he used his newly minted persona to start speaking honestly without shying away behind cliché and metaphor and it has been remarkably disarming and refreshing. From the drug fueled kaleidoscopic adventure of <em>Fear Fun</em> to the dour intimacy of <em>I Love You, Honeybear</em>, Father John Misty’s particular brand of lounge act troubadour might not be to everyone’s liking – in fact, it might make you outright uncomfortable with its sincerity. But if prophesy is anything, it’s unflinchingly sincere. Although he has concerned himself largely with themes of self-awareness and companionship, he has dipped his toes into the political and social with previous scorched earth anthems “Holy Shit” and “Bored in the U.S.A.” Even from those titles you might assume they’d be on the nose and, well, you’d be right. But what seems trite on the surface will surely get under your skin quick with their righteous anger and resigned apathy. Promising more along this line, Father John Misty will return this year with his newest album <em>Pure Comedy </em>and, if the lead single of the same name is any indication, it ought to be a great shattered mirror look into our current state of affairs. Holding up the maddening hypocrisy of a seemingly suicidal creature terrified of its own mortality and trapped by its unexamined certainty, I will warn you now that “Pure Comedy” will not make you feel good. But, prophesy isn’t meant to – it’s supposed to scare you shitless, slap you in the face, and wake you up. And that’s just what Father John Misty aims to do. Well, either that, or give us some tunes for dancing on the ashes.</p><p><iframe width="500" height="281" src="https://www.youtube.com/embed/wKrSYgirAhc?feature=oembed" frameborder="0" allowfullscreen></iframe></p><p>&nbsp;</p><p><u>Bleak Brutality Selection of the Week</u></p><p>Mastodon – “Sultan’s Curse”</p><p>As far as I’m concerned, any time is a good time for more Mastodon but, in this climate in particular, I’m real ready for their brand of earth rattling rawk. The Atlanta sludge-prog metal heavyweights will be returning this year with their 7<sup>th</sup> studio album <em>Emperor of Sand</em>, another thematic album that explores the band’s experience of cancer and chemotherapy through the lens of a man banished to wander a desert wasteland and confront death. Although this theme has me chomping at the bit for more, I will admit that lead single “Sultan’s Curse” leaves me a little wanting. I’m not convinced Mastodon could make a bad track per se but I am now certain they can make a mediocre one. Although blistering and brutal as all their best work before, this track feels just like that – what they’re done before. Now, this hasn’t stopped me from listening to it on repeat, mind you. I just hope that the rest of the album finds them stretching out a bit more (hey, it happened on their previous record despite its lead single so I have faith).</p><p><iframe width="500" height="281" src="https://www.youtube.com/embed/Og39iIBeOHI?feature=oembed" frameborder="0" allowfullscreen></iframe></p><p>&nbsp;</p><p><u>Forever the Best Hats Selection of the Week</u></p><p>Jamiroquai – “Automaton”</p><p>Look, for you, Jamiroquai might only be that guy with the funny hats and that awesome video. And while you’re not wrong, I’m here to tell you that you are missing out (on more than just fun hats). The acid funk Stevie Wonder devotee has been making some of the absolute best grooves of our generation for decades and, in my opinion, is <em>criminally </em>slept upon. I, for one, have been desperately struggling to remain patient awaiting the follow up to his utterly masterful 2010 album <em>Rock Dust Light Star</em> and will FINALLY be rewarded this year with <em>Automaton. </em>On the first single, it sounds like Jamiroquai is ready to shake the dust off and get back to it, bringing his usual flair for robotic theatrics and spaced out funk hard and heavy. More along the lines of the electronically dazzling <em>Dynamite</em> than the full band sound of <em>Rock Dust Light Star</em>, the track sizzles with heavy synth and pulsating beats before exploding into a Technicolor chorus of 80’s-esque delirium. I really can’t wait for more but, even if this track doesn’t get you, seriously go check out <em>Rock Dust </em>– it is a truly joyous gem of an album.</p><p><iframe width="500" height="281" src="https://www.youtube.com/embed/rmlmOk4ubcU?feature=oembed" frameborder="0" allowfullscreen></iframe></p><p>&nbsp;</p><p><u>Hey, There You Are Selection of the Week</u></p><p>Missy Elliot – “I’m Better” (feat. Lamb)</p><p>Missy Elliot has been flying low for over a decade now with her last proper release being 2005’s <em>The Cookbook</em> but that’s not to say she hasn’t stayed relevant. Every so often, she’ll reappear unannounced and drop an incredible single – and then disappear with about just as much explanation. Now, with the release of her newest single “I’m Better” coming just a year after her last (the Pharrell featuring “WTF”), it almost feels like we might get an album any day now. Here’s hoping – we’re better for it. This time around, Missy eschews her usual Timbaland assisted bounce and dives right into trap. The sparse beat hits hard and Missy’s flow is as smooth as ever – plus, she always knocks it out of the park with her videos. Here’s hoping we don’t have to wait for the next rap trend for another taste.</p><p><iframe width="500" height="281" src="https://www.youtube.com/embed/TwyPsUd9LAk?feature=oembed" frameborder="0" allowfullscreen></iframe></p><p>&nbsp;</p><p><u>Sexiest Selection of the Week</u></p><p>Alina Baraz, Galimatias – “Pretty Thoughts”</p><p>Y’all, some tracks just <em>get to you</em>. Some tracks you just want to keep on repeat until they fill the entire room and become your every breath they are just <em>that</em> good. This track is one of those for me. A combination of artists formulated over facebook, California singer Alana Baraz and Danish producer Galimatias have honestly created the sexiest song of the year. I mean, I know it’s early but just listen – who’s gonna top that? Washed out, down tempo beats carry Baraz’s sultry voice on their oceanic waves and drift you dreamingly along in a lush haze and, like the fleeting tryst it concerns, is over far too soon. This is by far my favorite discovery in these past couple of weeks and, after exploring their lovely debut EP, I can’t wait to see what they do for their full length.</p><p><iframe width="500" height="281" src="https://www.youtube.com/embed/JrHw9BDa3OE?feature=oembed" frameborder="0" allowfullscreen></iframe></p></div><div class="post-meta"><span class="categories">Filed Under: <a href="http://www.patheos.com/blogs/poptheology/category/music/" rel="category tag">Music</a></span> <span class="tags">Tagged With: <a href="http://www.patheos.com/blogs/poptheology/tag/music/" rel="tag">Music</a>, <a href="http://www.patheos.com/blogs/poptheology/tag/music-review/" rel="tag">Music Review</a>, <a href="http://www.patheos.com/blogs/poptheology/tag/music-reviews/" rel="tag">Music Reviews</a>, <a href="http://www.patheos.com/blogs/poptheology/tag/shuffled-selections/" rel="tag">shuffled selections</a></span> <span class="post-comments"><a href="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/#respond"><span class="dsq-postid" data-dsqidentifier="6775 http://admin.patheos.com/blogs/poptheology/?p=6775">Leave a Comment</span></a></span></div><div id="shr_nr"><div class='shareaholic-canvas' data-app-id='11599007' data-app='share_buttons' data-title='Shuffled Selections: January 22-28' data-link='http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/' data-summary=''></div><div id="rcjsload_001ec5"></div><h4 id='related_posts_header' class='widgettitle' >Related posts from Pop Theology:</h4><div class='related_post'><a href="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-8-14-2017/?ref_widget=related&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" alt="Shuffled Selections: January 8-14, 2017" title="Shuffled Selections: January 8-14, 2017"><div class="rp-img-container" style="background-image:url(http://wp.production.patheos.com/blogs/poptheology/files/2017/01/Jan8-14.jpg);"></div></a><a class="rp_link" href="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-8-14-2017/?ref_widget=related&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" alt="Shuffled Selections: January 8-14, 2017" title="Shuffled Selections: January 8-14, 2017">Shuffled Selections: January 8-14, 2017</a></div><div class='related_post'><a href="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-1-7-2017/?ref_widget=related&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" alt="Shuffled Selections: January 1-7, 2017" title="Shuffled Selections: January 1-7, 2017"><div class="rp-img-container" style="background-image:url(http://wp.production.patheos.com/blogs/poptheology/files/2017/01/Jan1-7.jpg);"></div></a><a class="rp_link" href="http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-1-7-2017/?ref_widget=related&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" alt="Shuffled Selections: January 1-7, 2017" title="Shuffled Selections: January 1-7, 2017">Shuffled Selections: January 1-7, 2017</a></div><div class='related_post'><a href="http://www.patheos.com/blogs/poptheology/2017/02/shuffled-selections-january-29-february-4-2017/?ref_widget=related&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" alt="Shuffled Selections: January 29 – February 4, 2017" title="Shuffled Selections: January 29 – February 4, 2017"><div class="rp-img-container" style="background-image:url(http://wp.production.patheos.com/blogs/poptheology/files/2017/02/Jan-29-Feb-4.png);"></div></a><a class="rp_link" href="http://www.patheos.com/blogs/poptheology/2017/02/shuffled-selections-january-29-february-4-2017/?ref_widget=related&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" alt="Shuffled Selections: January 29 – February 4, 2017" title="Shuffled Selections: January 29 – February 4, 2017">Shuffled Selections: January 29 – February 4, 2017</a></div><div class='related_post'><a href="http://www.patheos.com/blogs/poptheology/2017/02/shuffled-selections-february-5-february-11/?ref_widget=related&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" alt="Shuffled Selections: February 5 – February 11" title="Shuffled Selections: February 5 – February 11"><div class="rp-img-container" style="background-image:url(http://wp.production.patheos.com/blogs/poptheology/files/2017/02/Feb5-11.png);"></div></a><a class="rp_link" href="http://www.patheos.com/blogs/poptheology/2017/02/shuffled-selections-february-5-february-11/?ref_widget=related&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" alt="Shuffled Selections: February 5 – February 11" title="Shuffled Selections: February 5 – February 11">Shuffled Selections: February 5 – February 11</a></div><div id='rp-clearfix'></div></div><div style="overflow:hidden; margin-bottom:20px;"><div style='float:left; margin-top: 20px; padding: 1px;'> &laquo; <a href="http://www.patheos.com/blogs/poptheology/2017/01/at-sundance-their-finest/" rel="prev">At Sundance: THEIR FINEST</a></div> <br/><div style='float:right; margin-top: 20px; padding: 1px;'> <a href="http://www.patheos.com/blogs/poptheology/2017/02/killerserials-path-s2-eps-2-3/" rel="next">#KillerSerials: THE PATH, S2, Eps. 2-3</a> &raquo;</div></div></div><div class="author-box"><div><img alt='' src='http://1.gravatar.com/avatar/7341c27843e0ff596656f67104e528a2?s=70&#038;d=identicon&#038;r=g' srcset='http://1.gravatar.com/avatar/7341c27843e0ff596656f67104e528a2?s=140&amp;d=identicon&amp;r=g 2x' class='avatar avatar-70 photo' height='70' width='70' /> <strong>About Benjamin Griffin</strong><br /><p>Benjamin resides in Austin, Texas and divides his time between listening to all the music his brain can handle, reading all the comic books his wallet allows, and contemplating all the Divine his soul can behold.</p></div></div><div id="disqus_thread"></div><script type="text/javascript">
+var disqus_url = 'http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/';
+var disqus_identifier = '6775 http://admin.patheos.com/blogs/poptheology/?p=6775';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'poptheology';
+var disqus_title = "Shuffled Selections: January 22-28";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script></div><div id="sidebar" class="sidebar widget-area"><div id="execphp-10" class="widget widget_execphp"><div class="widget-wrap"><div class="execphpwidget"><div class="ad ad-container hidden-xs remove-padding"><div id="div-gpt-ad-211738202-4" class="DFPAdSlot ad-notice remove-padding"></div></div></div></div></div><div id="execphp-3" class="widget widget_execphp"><div class="widget-wrap"><div class="execphpwidget"><div class="htmlbox patheos-newsletter-mod-rail"><div id="htmlcontent" style="text-align: center;"><h2	style="font: normal 18px 'Century Gothic', Verdana, sans-serif; padding: 10px 10px 4px 10px; letter-spacing: 2px; color: #666666;"> GET	PATHEOS NEWSLETTERS</h2><p style="padding-bottom: 8px;"> Sign up for free newsletters and special offers</p><form class="newsletter-signup-form" id="newsletter-signup-form-head"><p class="newsletter-signup-msgs"></p> <input type="hidden" name="partners" value="true" /> <input type="hidden" name="sourceDesc" value="52" /> <input type="email" name="email" class="email-input" placeholder="Your email (required)"> <input type="submit" name="submit" class="main-btn" value="Submit"><div class="newsletter-checkboxes"> <label> <input type="checkbox" name="newsletter" value="57" id="newsletter_bestofpatheos" checked="checked"> Get the	Best of Patheos Newsletter </label><br> <label> <input type="checkbox" name="newsletter" value="43" id="newsletter_channel" checked="checked"> Get the	Progressive Christian Newsletter </label><br> <label> <input type="checkbox" name="newsletter" value="489" id="newsletter_489" checked="checked"> Get the	Pop Theology Newsletter </label></div></form></div></div></div></div></div><div id="social-widget-2" class="widget Social_Widget"><div class="widget-wrap"><h4 class="widget-title widgettitle">Follow Pop Theology!</h4><div class="socialmedia-buttons smw_center"><a href="https://twitter.com/poptheology" rel="nofollow external" title="" class="ext-link" data-wpel-target="_blank"><img width="32" height="32" src="http://www.patheos.com/blogs/poptheology/wp-content/plugins/social-media-widget/images/default/32/twitter.png" alt="Follow Us on Twitter" title="Follow Us on Twitter" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="http://feeds.feedburner.com/patheos/poptheology" rel="nofollow external" title="" class="ext-link" data-wpel-target="_blank"><img width="32" height="32" src="http://www.patheos.com/blogs/poptheology/wp-content/plugins/social-media-widget/images/default/32/rss.png" alt="Follow Us on RSS" title="Follow Us on RSS" style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a></div></div></div><div id="execphp-4" class="widget widget_execphp"><div class="widget-wrap"><h4 class="widget-title widgettitle">Popular at Patheos Progressive Christian</h4><div class="execphpwidget"><div class='popular_post pp_left'> <a href="http://www.patheos.com/blogs/slacktivist/2015/11/05/left-behind-index-the-whole-thing/?ref_widget=popular&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class='pp-img-container' style='background-image:url(http://wp.production.patheos.com/blogs/slacktivist/files/2015/10/ACHooh.jpg);'></div></a> <a href="http://www.patheos.com/blogs/slacktivist/2015/11/05/left-behind-index-the-whole-thing/?ref_widget=popular&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" class="pp-link ext-link" rel="external nofollow" title="" data-wpel-target="_blank">Left Behind Index (the whole thing)</a></div><div class='popular_post pp_right'> <a href="http://www.patheos.com/blogs/thegodarticle/2017/01/following-jesus-age-trump-resistance-spiritual-practice/?ref_widget=popular&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class='pp-img-container' style='background-image:url(http://wp.production.patheos.com/blogs/thegodarticle/files/2017/01/resistance.jpg);'></div></a> <a href="http://www.patheos.com/blogs/thegodarticle/2017/01/following-jesus-age-trump-resistance-spiritual-practice/?ref_widget=popular&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" class="pp-link ext-link" rel="external nofollow" title="" data-wpel-target="_blank">Following Jesus in the Age of Trump: Resistance as a Spiritual Practice</a></div><div class='pp-clearfix'></div><div class='popular_post pp_left'> <a href="http://www.patheos.com/blogs/unfundamentalistchristians/2015/07/40-questions-for-christians-now-waving-rainbow-flags/?ref_widget=popular&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class='pp-img-container' style='background-image:url(http://wp.production.patheos.com/blogs/unfundamentalistchristians/files/2015/07/rainbow_flag.jpg);'></div></a> <a href="http://www.patheos.com/blogs/unfundamentalistchristians/2015/07/40-questions-for-christians-now-waving-rainbow-flags/?ref_widget=popular&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" class="pp-link ext-link" rel="external nofollow" title="" data-wpel-target="_blank">"40 Questions For Christians Now Waving Rainbow Flags"</a></div><div class='popular_post pp_right'> <a href="http://www.patheos.com/blogs/formerlyfundie/is-it-time-to-remove-the-flag-from-the-church-sanctuary/?ref_widget=popular&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class='pp-img-container' style='background-image:url(http://wp.production.patheos.com/blogs/formerlyfundie/files/2014/09/Screenshot-2014-09-16-09.27.20.png);'></div></a> <a href="http://www.patheos.com/blogs/formerlyfundie/is-it-time-to-remove-the-flag-from-the-church-sanctuary/?ref_widget=popular&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" class="pp-link ext-link" rel="external nofollow" title="" data-wpel-target="_blank">Is It Time To Remove The Flag From The Church Sanctuary?</a></div><div class='pp-clearfix'></div></div></div></div><div id="execphp-9" class="widget widget_execphp"><div class="widget-wrap"><div class="execphpwidget"><div class="ad ad-container hidden-xs remove-padding"><div id="div-gpt-ad-180165838-5" class="DFPAdSlot ad-notice remove-padding"></div></div></div></div></div><div id="search-3" class="widget widget_search"><div class="widget-wrap"><form method="get" class="searchform search-form" action="http://www.patheos.com/blogs/poptheology/" role="search" ><input type="text" value="Search this blog..." name="s" class="s search-input" onfocus="if (&#039;Search this blog...&#039; === this.value) {this.value = &#039;&#039;;}" onblur="if (&#039;&#039; === this.value) {this.value = &#039;Search this blog...&#039;;}" /><input type="submit" class="searchsubmit search-submit" value="Search" /></form></div></div><div id="execphp-8" class="widget widget_execphp"><div class="widget-wrap"><div class="execphpwidget"></div></div></div><div id="categories-3" class="widget widget_categories"><div class="widget-wrap"><h4 class="widget-title widgettitle">Categories</h4> <label class="screen-reader-text" for="cat">Categories</label><select name='cat' id='cat' class='postform' ><option value='-1'>Select Category</option><option class="level-0" value="4">Classics</option><option class="level-0" value="5">DVD</option><option class="level-0" value="6">Film</option><option class="level-0" value="7">Music</option><option class="level-0" value="8">News</option><option class="level-0" value="49">Pop Culture Events</option><option class="level-0" value="9">Print</option><option class="level-0" value="10">Sports</option><option class="level-0" value="11">Television</option><option class="level-0" value="1">Uncategorized</option><option class="level-0" value="12">Video Games</option> </select><script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "http://www.patheos.com/blogs/poptheology/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script></div></div><div id="archives-3" class="widget widget_archive"><div class="widget-wrap"><h4 class="widget-title widgettitle">Archives</h4> <label class="screen-reader-text" for="archives-dropdown-3">Archives</label> <select id="archives-dropdown-3" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'><option value="">Select Month</option><option value='http://www.patheos.com/blogs/poptheology/2017/02/'> February 2017</option><option value='http://www.patheos.com/blogs/poptheology/2017/01/'> January 2017</option><option value='http://www.patheos.com/blogs/poptheology/2016/12/'> December 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/11/'> November 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/10/'> October 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/09/'> September 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/08/'> August 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/07/'> July 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/06/'> June 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/05/'> May 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/04/'> April 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/03/'> March 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/02/'> February 2016</option><option value='http://www.patheos.com/blogs/poptheology/2016/01/'> January 2016</option><option value='http://www.patheos.com/blogs/poptheology/2015/12/'> December 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/11/'> November 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/10/'> October 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/09/'> September 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/08/'> August 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/07/'> July 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/06/'> June 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/05/'> May 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/04/'> April 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/03/'> March 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/02/'> February 2015</option><option value='http://www.patheos.com/blogs/poptheology/2015/01/'> January 2015</option><option value='http://www.patheos.com/blogs/poptheology/2014/12/'> December 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/11/'> November 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/10/'> October 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/09/'> September 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/08/'> August 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/07/'> July 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/06/'> June 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/05/'> May 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/04/'> April 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/03/'> March 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/02/'> February 2014</option><option value='http://www.patheos.com/blogs/poptheology/2014/01/'> January 2014</option><option value='http://www.patheos.com/blogs/poptheology/2013/12/'> December 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/11/'> November 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/10/'> October 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/09/'> September 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/08/'> August 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/07/'> July 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/06/'> June 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/05/'> May 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/04/'> April 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/03/'> March 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/02/'> February 2013</option><option value='http://www.patheos.com/blogs/poptheology/2013/01/'> January 2013</option><option value='http://www.patheos.com/blogs/poptheology/2012/12/'> December 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/11/'> November 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/10/'> October 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/09/'> September 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/08/'> August 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/07/'> July 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/06/'> June 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/05/'> May 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/04/'> April 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/03/'> March 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/02/'> February 2012</option><option value='http://www.patheos.com/blogs/poptheology/2012/01/'> January 2012</option><option value='http://www.patheos.com/blogs/poptheology/2011/12/'> December 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/11/'> November 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/10/'> October 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/09/'> September 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/08/'> August 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/07/'> July 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/06/'> June 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/05/'> May 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/04/'> April 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/03/'> March 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/02/'> February 2011</option><option value='http://www.patheos.com/blogs/poptheology/2011/01/'> January 2011</option><option value='http://www.patheos.com/blogs/poptheology/2010/12/'> December 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/11/'> November 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/10/'> October 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/09/'> September 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/08/'> August 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/07/'> July 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/06/'> June 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/05/'> May 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/04/'> April 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/03/'> March 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/02/'> February 2010</option><option value='http://www.patheos.com/blogs/poptheology/2010/01/'> January 2010</option><option value='http://www.patheos.com/blogs/poptheology/2009/12/'> December 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/11/'> November 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/10/'> October 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/09/'> September 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/08/'> August 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/07/'> July 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/06/'> June 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/05/'> May 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/04/'> April 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/03/'> March 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/02/'> February 2009</option><option value='http://www.patheos.com/blogs/poptheology/2009/01/'> January 2009</option><option value='http://www.patheos.com/blogs/poptheology/2008/12/'> December 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/11/'> November 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/10/'> October 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/09/'> September 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/08/'> August 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/07/'> July 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/06/'> June 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/05/'> May 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/04/'> April 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/03/'> March 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/02/'> February 2008</option><option value='http://www.patheos.com/blogs/poptheology/2008/01/'> January 2008</option><option value='http://www.patheos.com/blogs/poptheology/2007/12/'> December 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/11/'> November 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/10/'> October 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/09/'> September 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/08/'> August 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/07/'> July 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/06/'> June 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/05/'> May 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/04/'> April 2007</option><option value='http://www.patheos.com/blogs/poptheology/2007/03/'> March 2007</option></select></div></div><div id="execphp-5" class="widget widget_execphp"><div class="widget-wrap"><h4 class="widget-title widgettitle">Trending at Patheos Progressive Christian</h4><div class="execphpwidget"><ul id="trending_items"><li class='trending_item'><a href="http://www.patheos.com/blogs/progressiveamerican/2017/02/russian-scandal-get-ready-president-pence/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class="trending-image" style="background-image:url(http://wp.production.patheos.com/blogs/progressiveamerican/files/2017/01/205x205-Progressive-American.jpg)"></div></a><a href="http://www.patheos.com/blogs/progressiveamerican/2017/02/russian-scandal-get-ready-president-pence/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Russian Scandal: Should We Get Ready For A President Pence?</a> (Progressive American)<div class='trending-clearfix'></div></li><li class='trending_item'><a href="http://www.patheos.com/blogs/jacoblupfer/2017/02/whats-next-jacob-lupfers-religion-politics-blog/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class="trending-image" style="background-image:url(http://wp.production.patheos.com/blogs/jacoblupfer/files/2017/02/CapitolCathedral-205x205.jpg)"></div></a><a href="http://www.patheos.com/blogs/jacoblupfer/2017/02/whats-next-jacob-lupfers-religion-politics-blog/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">What's next for Capitol & Cathedral, Jacob Lupfer's religion and politics...</a> (Capitol &amp; Cathedral)<div class='trending-clearfix'></div></li><li class='trending_item'><a href="http://www.patheos.com/blogs/andygill/weirdest-christian-belief-still-stand-heaven-real/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class="trending-image" style="background-image:url(http://media.patheos.com/Images/PChPT/PChPT_AndyGill_bio.jpg)"></div></a><a href="http://www.patheos.com/blogs/andygill/weirdest-christian-belief-still-stand-heaven-real/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">The Weirdest Christian Belief I Still Stand By: Heaven is For Real</a> (Andy Gill)<div class='trending-clearfix'></div></li><li class='trending_item'><a href="http://www.patheos.com/blogs/storiedtheology/2017/02/15/cuck-christology/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class="trending-image" style="background-image:url(http://wp.production.patheos.com/blogs/storiedtheology/files/2016/01/JRD-Kirk-Photo-for-About-Page-150x150.jpg)"></div></a><a href="http://www.patheos.com/blogs/storiedtheology/2017/02/15/cuck-christology/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Cuck Christology</a> (Storied Theology)<div class='trending-clearfix'></div></li><li class='trending_item'><a href="http://www.patheos.com/blogs/jeffhood/loving-sht/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class="trending-image" style="background-image:url(http://wp.production.patheos.com/blogs/jeffhood/files/2016/12/205x205-Jeff-Hood.jpg)"></div></a><a href="http://www.patheos.com/blogs/jeffhood/loving-sht/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Loving Sh*t</a> (Jeff Hood)<div class='trending-clearfix'></div></li><li class='trending_item'><a href="http://www.patheos.com/blogs/teachingnonviolentatonement/2017/02/wednesday-sermon-jesus-hell-managing-anger/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class="trending-image" style="background-image:url(http://media.patheos.com/Images/PRM/TeachingNonviolentAtonement_bio.jpg)"></div></a><a href="http://www.patheos.com/blogs/teachingnonviolentatonement/2017/02/wednesday-sermon-jesus-hell-managing-anger/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Wednesday Sermon: Jesus, Hell, and Managing Anger</a> (Teaching Nonviolent Atonement)<div class='trending-clearfix'></div></li><li class='trending_item'><a href="http://www.patheos.com/blogs/thoughtfulpastor/2017/02/15/help-do-we-ignore-avoid-or-confront-evil/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class="trending-image" style="background-image:url(http://media.patheos.com/Images/PChPT/PChPT_TheThoughtfulPastor_bio.jpg)"></div></a><a href="http://www.patheos.com/blogs/thoughtfulpastor/2017/02/15/help-do-we-ignore-avoid-or-confront-evil/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Help! Do we ignore, avoid, or confront evil?</a> (The Thoughtful Pastor)<div class='trending-clearfix'></div></li><li class='trending_item'><a href="http://www.patheos.com/blogs/jacoblupfer/2017/02/glitter-ash-wednesday-terrible-idea/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><div class="trending-image" style="background-image:url(http://wp.production.patheos.com/blogs/jacoblupfer/files/2017/02/CapitolCathedral-205x205.jpg)"></div></a><a href="http://www.patheos.com/blogs/jacoblupfer/2017/02/glitter-ash-wednesday-terrible-idea/?ref_widget=trending&ref_blog=poptheology&ref_post=shuffled-selections-january-22-28" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">'Glitter Ash Wednesday' is a terrible idea</a> (Capitol &amp; Cathedral)<div class='trending-clearfix'></div></li></ul></div></div></div><div id="execphp-7" class="widget widget_execphp"><div class="widget-wrap"><div class="execphpwidget"><div class="ad ad-container hidden-xs remove-padding"><div id="div-gpt-ad-263474145-6" class="DFPAdSlot ad-notice remove-padding"></div></div></div></div></div><div id="text-8" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Recent Comments</h4><div class="textwidget"><div id="recentcomments" class="dsq-widget"><script type="text/javascript" src="http://poptheology.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=80"></script><script type="text/javascript" src="http://js.patheos.com.s3.amazonaws.com/dsq-recentcomments.js"></script><link rel="stylesheet" href="http://css.patheos.com.s3.amazonaws.com/dsq-recentcomments.css"></div></div></div></div><div id="execphp-6" class="widget widget_execphp"><div class="widget-wrap"><div class="execphpwidget"><div class="ad ad-container hidden-xs remove-padding"><div id="div-gpt-ad-715866167-7" class="DFPAdSlot ad-notice remove-padding"></div></div></div></div></div><div class="sidebar-bottom-left"></div><div class="sidebar-bottom-right"></div></div></div></div><div id="footer" class="footer"><div class="wrap"></div></div><br/><div id="page-wrap"><div class="ad ad-container hidden-xs add-margins remove-padding remove-padding"><div id="div-gpt-ad-bottom-footer" class="DFPAdSlot ad-notice remove-padding"></div></div></div><div id="footer-wrp" class="container-24"><div id="footerp"><div id="ftr-top"><div id="ftr-social"><p>Follow Patheos on</p> <a href="http://facebook.com/patheos" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><img src="http://css.patheos.com.s3.amazonaws.com/img/fb-ico-ftr.png" width="32" height="32" alt="" /></a> <a href="http://twitter.com/patheos" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><img src="http://css.patheos.com.s3.amazonaws.com/img/tw-ico-ftr.png" width="32" height="32" alt="" /></a> <a href="http://www.patheos.com/RSS.html" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank"><img src="http://css.patheos.com.s3.amazonaws.com/img/rss-ico-ftr.png" width="32" height="32" alt="" /></a></div></div><div id="ftr-main"><div class="ftr-column"><h3><img src="http://css.patheos.com.s3.amazonaws.com/wpimg/footer-logo.png" width="143" height="52" alt="" /></h3><ul><li><a href="/About-Patheos/About.html">About Patheos</a></li><li><a href="/About-Patheos/Advertising">How to Advertise</a></li><li><a href="http://shop.patheos.com/" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Premium Content</a></li><li><a href="/About-Patheos/Advertising">Sponsor a Book Club</a></li><li><a href="http://amzn.to/2dKVy2U" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Patheos Press</a></li></ul></div><div class="ftr-column"><h3>Faith Channels</h3><ul><li><a href="/Buddhist">Buddhist</a></li><li><a href="/Catholic">Catholic</a></li><li><a href="/Evangelical">Evangelical</a></li><li><a href="/Hindu">Hindu</a></li><li><a href="/Jewish">Jewish</a></li><li><a href="/Mormon">Mormon</a></li></ul></div><div class="ftr-column"><h3></h3><ul><li><a href="/Muslim">Muslim</a></li><li><a href="/Nonreligious">Nonreligious</a></li><li><a href="/Pagan">Pagan</a></li><li><a href="/Progressive-Christian">Progressive Christian</a></li><li><a href="/Spirituality">Spirituality</a></li></ul></div><div class="ftr-column"><h3>Resources</h3><ul><li><a href="/Blogs">Blogs</a></li><li><a href="/Columns">Columns</a></li><li><a href="/Library">Religion Library</a></li><li><a href="/Library/Lenses/Side-By-Side">Compare Religions</a></li><li><a href="/Topics">Topics</a></li><li><a href="/Public-Square">Public Square</a></li></ul></div><div class="ftr-column"><h3></h3><ul><li><a href="/Books/Book-Club">Book Club</a></li><li><a href="/Entertainment">Entertainment</a></li><li><a href="/Faith-and-Work">Faith and Work</a></li><li><a href="/Seeker">Seeker Resources</a></li><li><a href="/Family">Family Resources</a></li><li><a href="/Preachers">Preaching Resources</a></li></ul></div><div class="ftr-column"><h3>Connect</h3><ul><li><a href="http://facebook.com/patheos" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Follow Us on Facebook</a></li><li><a href="http://twitter.com/patheos" rel="external nofollow" title="" class="ext-link" data-wpel-target="_blank">Follow Us on Twitter</a></li><li><a href="/RSS">Subscribe to RSS Feeds</a></li><li><a href="/About-Patheos/Contact-Us.html">Contact Us</a></li></ul></div></div><div id="ftr-btm"><p> Copyright 2008-2017, Patheos. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/Terms-of-Use.html">Terms of Service</a>&nbsp; |&nbsp;<a href="/Privacy-Policy.html">Patheos Privacy Policy</a></p></div></div><div id="mobile-site" style="padding: 30px 0;"></div><script type="text/javascript">
+		if (/ip(hone|od)|android.*(mobile)|blackberry.*applewebkit/i.test(navigator.userAgent)) {
+			var backToMobile = document.createElement("div");
+			backToMobile.innerHTML = '<a href="#" onclick="document.cookie=\'mobify-path=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/\';location.reload()">Back To Mobile Site</a>';
+			document.getElementById("mobile-site").appendChild(backToMobile);
+		}
+	</script></div><script type="text/javascript">
+		(function() {
+		function ad_block_test(e,o){if("undefined"!=typeof document.body){var t="0.1.2-dev",o=o?o:"sponsorText",n=document.createElement("DIV");n.id=o,n.style.position="absolute",n.style.left="-999px",n.appendChild(document.createTextNode("&nbsp;")),document.body.appendChild(n),setTimeout(function(){if(n){var o=0==n.clientHeight;try{}catch(d){console&&console.log&&console.log("ad-block-test error",d)}e(o,t),document.body.removeChild(n)}},175)}}
+		ad_block_test(function(is_blocked){
+		var widget_id =47505;
+		if (is_blocked === true) {
+		widget_id =58923;
+		}
+		var referer="";try{if(referer=document.referrer,"undefined"==typeof referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);
+		var rcel = document.createElement("script");
+		rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+		rcel.type = 'text/javascript';
+		rcel.src = "http://trends.revcontent.com/serve.js.php?w="+widget_id+"&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth) +"&referer="+referer + '&is_blocked=' + is_blocked;
+		rcel.async = true;
+		var rcds = document.getElementById("rcjsload_001ec5"); rcds.appendChild(rcel);
+		});
+		})();
+	</script><script type="text/javascript">
+    var PREBID_TIMEOUT = 700;
+
+    var adUnits = [];
+    if((window.innerWidth < 768)) // Is Mobile
+    {
+        adUnits = [];
+    }
+    else // Is Desktop
+    {
+        adUnits = [{"code":"div-gpt-ad-top-nav","sizes":[728, 90],"bids":[{"bidder":"pagescience","params":{"placementId":"9793962"}},{"bidder":"sovrn","params":{"tagid":"400814"}}]},{"code":"div-gpt-ad-211738202-4","sizes":[[300, 250], [300, 600]],"bids":[{"bidder":"pagescience","params":{"placementId":"9793963"}},{"bidder":"sovrn","params":{"tagid":"400813"}}]},{"code":"div-gpt-ad-180165838-5","sizes":[[300, 250], [300, 600]],"bids":[{"bidder":"pagescience","params":{"placementId":"9793965"}},{"bidder":"sovrn","params":{"tagid":"400813"}}]},{"code":"div-gpt-ad-263474145-6","sizes":[[300, 250], [300, 600]],"bids":[{"bidder":"pagescience","params":{"placementId":"9793966"}},{"bidder":"sovrn","params":{"tagid":"400813"}}]},{"code":"div-gpt-ad-715866167-7","sizes":[[300, 250], [300, 600]],"bids":[{"bidder":"pagescience","params":{"placementId":"9793968"}},{"bidder":"sovrn","params":{"tagid":"400813"}}]},{"code":"div-gpt-ad-bottom-footer","sizes":[[728, 90], [970, 90], [970, 66], [970, 250]],"bids":[{"bidder":"pagescience","params":{"placementId":"9793969"}},{"bidder":"sovrn","params":{"tagid":"400814"}}]}];
+    }
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+
+    // Configure Custom Price Bucket
+    pbjs.bidderSettings = {
+        standard: {
+            alwaysUseBid: false,
+            adserverTargeting: [{
+                key: "hb_bidder",
+                val: function(bidResponse) {
+                    return bidResponse.bidderCode;
+                }
+            }, {
+                key: "hb_adid",
+                val: function(bidResponse) {
+                    return bidResponse.adId;
+                }
+            }, {
+                key: "hb_pb",
+                val: function(bidResponse) {
+                    var cpm = bidResponse.cpm;
+                    if (cpm < 1.25) { // 0.00 -> 1.25
+                        return (Math.floor(cpm * 20) / 20).toFixed(2); // 0.05 inc
+                    } else if (cpm < 2.00) { // 1.25 -> 2.00
+                        return (Math.floor(cpm * 4) / 4).toFixed(2); // 0.25 inc
+                    } else if (cpm < 2.50) { // 2.00 -> 2.50
+                        return (Math.floor(cpm * 10) / 10).toFixed(2); // 0.10 inc
+                    } else if (cpm < 20.00) { // 2.50 -> 20.00
+                        return (Math.floor(cpm * 2) / 2).toFixed(2); // 0.50 inc
+                    } else {
+                        return '20.00';
+                    }
+                }
+            }, {
+                key: "hb_size",
+                val: function(bidResponse) {
+                    return bidResponse.size;
+                }
+            }]
+        }
+    };
+
+    // Enable Prebid Integration with Analytics
+    pbjs.que.push(function() {
+        pbjs.enableAnalytics({
+            provider: 'ga',
+            options: {
+                global: 'ga', // <string> name of GA global. Default is 'ga'
+                enableDistribution: false
+            }
+        });
+    });
+</script><script src='http://ap.lijit.com/www/sovrn_beacon_standalone/sovrn_standalone_beacon.js?iid=9135198&uid=beliefnet' id='sBeacon'></script><script type="text/javascript" src="http://www.patheos.com/blogs/poptheology/wp-content/cache/minify/000357/M9BPT81LLc4s1s_JTNLPKtYvKEpNykwBAA.js"></script><script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.pubads().disableInitialLoad();
+    });
+
+    pbjs.que.push(function() {
+        pbjs.addAdUnits(adUnits);
+        pbjs.requestBids({
+            bidsBackHandler: sendAdserverRequest
+        });
+    });
+
+    function bnetInitializeDFPAds()
+    {
+        var bnetAds = document.getElementsByClassName("DFPAdSlot");
+        for(var i = 0; i < bnetAds.length; i++)
+        {
+            var a = bnetAds[i];
+
+            googletag.display(a.id);
+            console.log("Loading Ad Slot " + (i+1) + ": " + a.id);
+        }
+
+        DFP.AdInitializationComplete = true;
+        console.log("Firing Event: Ad Initialization Complete");
+        bnetFireEvent("Beliefnet:AdInitializationComplete");
+    }
+
+    function sendAdserverRequest() {
+        if (pbjs.adserverRequestSent) return;
+        pbjs.adserverRequestSent = true;
+        googletag.cmd.push(function() {
+            pbjs.que.push(function() {
+                pbjs.setTargetingForGPTAsync();
+                if(typeof DFP != "undefined" && DFP.AdConfigurationComplete)
+                {
+                    // Initialize Ads
+                    bnetInitializeDFPAds();
+                    // Refresh Ads
+                    googletag.pubads().refresh();
+
+                    console.log("DFP Refresh Initiated");
+                } else {
+                    console.log("Ads not fully configured. Waiting for AdConfigurationComplete event");
+                    document.addEventListener("Beliefnet:AdConfigurationComplete", function (e) {
+                        // Initialize Ads
+                        bnetInitializeDFPAds();
+                        // Refresh Ads
+                        googletag.pubads().refresh();
+
+                        console.log("DFP Refresh Initiated");
+                    });
+                }                    
+            });
+        });
+    }
+
+
+    setTimeout(function() {
+        sendAdserverRequest();
+    }, PREBID_TIMEOUT);
+
+</script><script type='text/javascript'>
+	var crtg_nid = '4428';
+	var crtg_cookiename = 'crtg_rta';
+	var crtg_varname = 'crtg_content';
+	function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);} }return'';}
+	var crtg_content = crtg_getCookie(crtg_cookiename);
+	var crtg_rnd=Math.floor(Math.random()*99999999999);
+	(function(){
+		var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);
+		crtg_url +='&cookieName='+escape(crtg_cookiename);
+		crtg_url +='&rnd='+crtg_rnd;
+		crtg_url +='&varName=' + escape(crtg_varname);
+		var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+		if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);
+		else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+	})();
+</script> <script type='text/javascript' src='//c.amazon-adsystem.com/aax2/amzn_ads.js'></script><script type='text/javascript'>
+	try {
+		amznads.getAds('3300');
+	} catch (e) { /*ignore*/ }
+</script><script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	try { amznads.setTargetingForGPTAsync('amznslots'); } catch(e) { /*ignore*/}
+</script><script type="text/javascript">
+    var pageCount = bnetGetCookie("CAM01cookie");
+
+    if (typeof DFP == 'undefined' || !DFP) var DFP = {};
+    (function() {
+        DFP.config = {
+            hierarchy:  "/29966721/PATH/blogs/poptheology",
+            tags:       ['Music','Music Review','Music Reviews','shuffled selections'],
+            secure:     ("https:" == document.location.protocol ? "True": "False"),
+            source:     bnetGetParameter(document.URL, "utm_source"),
+            medium:     bnetGetParameter(document.URL, "utm_medium"),
+            campaign:   bnetGetParameter(document.URL, "utm_campaign"),
+            contentid:  "357X775",
+            title:      "Shuffled Selections: January 22-28",
+            pagenum:    bnetGetParameter(document.URL, 'p'),
+            pagecount:  ((typeof pageCount == 'undefined') ? "" : pageCount),
+            pageurl:    location.protocol + '//' + location.host + location.pathname,
+            type:       "entry",
+            channel:	['CFT_ProgressiveChristian'],
+            ministry:	"No",
+            political: 	"Left",
+            category:	['Arts and Entertainment','Education and Academic']        }
+
+        DFP.positions = ['DT_ATF_Top','DT_Skin_OutofPage','DT_OutofPage','Mob_OutofPage2','DT_ATF_Right','DT_BTF_Right2','DT_BTF_Right3','DT_BTF_Right4','DT_BTF_Bottom'];
+
+        DFP.MobileSlots = [];
+        DFP.DesktopSlots = [];
+
+        DFP.LoadCount = 0;
+
+        DFP.RegisterSlot = (function(slot, mobile) {
+            if(mobile)
+                DFP.MobileSlots.push(slot);
+            else
+                DFP.DesktopSlots.push(slot);
+
+            DFP.LoadCount += ((window.innerWidth < 768) && mobile == true || (window.innerWidth >= 768 && mobile == false)) ? 1 : 0;
+        });
+
+        DFP.AdConfigurationComplete = false;
+        DFP.AdInitializationComplete = false;
+        DFP.AdLoadComplete = (function(){
+            return DFP.LoadCount <= 0;
+        });        
+	})();
+
+    console.log(DFP);
+</script><script type="text/javascript">
+    googletag.cmd.push(function() {        
+        console.log("Configuring DFP");
+
+        DFP.RegisterSlot(googletag.defineSlot(DFP.config.hierarchy, [728, 90], "div-gpt-ad-top-nav")
+	.addService(googletag.pubads())
+    .defineSizeMapping(googletag.sizeMapping().
+        addSize([0,0], []). // Mobile
+        addSize([640,480], [728, 90]). // Desktop
+        build())
+	.setCollapseEmptyDiv(true)
+	.setTargeting("pos", "DT_ATF_Top"),
+    false);
+DFP.RegisterSlot(googletag.defineOutOfPageSlot(DFP.config.hierarchy, "div-gpt-ad-029599964-1")
+		.addService(googletag.pubads())
+		.defineSizeMapping(googletag.sizeMapping().
+				addSize([0,0], []). // Mobile
+				addSize([640,480], [1,1]). // Desktop
+				build())
+		.setCollapseEmptyDiv(true)
+		.setTargeting("pos", "DT_Skin_OutofPage"),
+		false);
+DFP.RegisterSlot(googletag.defineOutOfPageSlot(DFP.config.hierarchy, "div-gpt-ad-576796218-2")
+		.addService(googletag.pubads())
+		.defineSizeMapping(googletag.sizeMapping().
+				addSize([0,0], []). // Mobile
+				addSize([640,480], [1,1]). // Desktop
+				build())
+		.setCollapseEmptyDiv(true)
+		.setTargeting("pos", "DT_OutofPage"),
+		false);
+DFP.RegisterSlot(googletag.defineOutOfPageSlot(DFP.config.hierarchy, "div-gpt-ad-435633196-3")
+		.addService(googletag.pubads())
+		.defineSizeMapping(googletag.sizeMapping().
+				addSize([0,0], [1,1]). // Mobile
+				addSize([640,480], []). // Desktop
+				build())
+		.setCollapseEmptyDiv(true)
+		.setTargeting("pos", "Mob_OutofPage2"),
+		true);
+DFP.RegisterSlot(googletag.defineSlot(DFP.config.hierarchy, [[300, 250], [300, 600]], "div-gpt-ad-211738202-4")
+	.addService(googletag.pubads())
+    .defineSizeMapping(googletag.sizeMapping().
+        addSize([0,0], []). // Mobile
+        addSize([640,480], [[300, 250], [300, 600]]). // Desktop
+        build())
+	.setCollapseEmptyDiv(true)
+	.setTargeting("pos", "DT_ATF_Right"),
+    false);
+DFP.RegisterSlot(googletag.defineSlot(DFP.config.hierarchy, [[300, 250], [300, 600]], "div-gpt-ad-180165838-5")
+	.addService(googletag.pubads())
+    .defineSizeMapping(googletag.sizeMapping().
+        addSize([0,0], []). // Mobile
+        addSize([640,480], [[300, 250], [300, 600]]). // Desktop
+        build())
+	.setCollapseEmptyDiv(true)
+	.setTargeting("pos", "DT_BTF_Right2"),
+    false);
+DFP.RegisterSlot(googletag.defineSlot(DFP.config.hierarchy, [[300, 250], [300, 600]], "div-gpt-ad-263474145-6")
+	.addService(googletag.pubads())
+    .defineSizeMapping(googletag.sizeMapping().
+        addSize([0,0], []). // Mobile
+        addSize([640,480], [[300, 250], [300, 600]]). // Desktop
+        build())
+	.setCollapseEmptyDiv(true)
+	.setTargeting("pos", "DT_BTF_Right3"),
+    false);
+DFP.RegisterSlot(googletag.defineSlot(DFP.config.hierarchy, [[300, 250], [300, 600]], "div-gpt-ad-715866167-7")
+	.addService(googletag.pubads())
+    .defineSizeMapping(googletag.sizeMapping().
+        addSize([0,0], []). // Mobile
+        addSize([640,480], [[300, 250], [300, 600]]). // Desktop
+        build())
+	.setCollapseEmptyDiv(true)
+	.setTargeting("pos", "DT_BTF_Right4"),
+    false);
+DFP.RegisterSlot(googletag.defineSlot(DFP.config.hierarchy, [[728, 90], [970, 90], [970, 66], [970, 250]], "div-gpt-ad-bottom-footer")
+	.addService(googletag.pubads())
+    .defineSizeMapping(googletag.sizeMapping().
+        addSize([0,0], []). // Mobile
+        addSize([640,480], [[728, 90], [970, 90], [970, 66], [970, 250]]). // Desktop
+        build())
+	.setCollapseEmptyDiv(true)
+	.setTargeting("pos", "DT_BTF_Bottom"),
+    false);
+ 
+
+        // === Begin Page Level KeyValues ===
+
+		// Sitecore Search Tags
+		googletag.pubads().setTargeting("tags", DFP.config.tags);
+		
+		// Secure Flag
+		googletag.pubads().setTargeting("secure", DFP.config.secure);
+			
+		// Google Analytics Traffic Source Parameter
+		googletag.pubads().setTargeting("source", DFP.config.source);
+
+		// Google Analytics Traffic Source Parameter
+        googletag.pubads().setTargeting("source", DFP.config.source);
+
+        // Google Analytics Traffic Source Parameter
+        googletag.pubads().setTargeting("medium", DFP.config.medium);
+
+        // Google Analytics Traffic Source Parameter
+        googletag.pubads().setTargeting("campaign", DFP.config.campaign);		
+			
+		// Unique identifier for individual content pieces
+		googletag.pubads().setTargeting("contentID", DFP.config.contentid);
+		
+		// Page Title
+		googletag.pubads().setTargeting("title", DFP.config.title);
+		
+		// Page or Slide Number
+		googletag.pubads().setTargeting("pagenum", DFP.config.pagenum);
+		
+		// Page Count
+		googletag.pubads().setTargeting("PageCount", DFP.config.pagecount);
+
+		// Type
+		googletag.pubads().setTargeting("type", DFP.config.type);
+
+		// Channel
+		googletag.pubads().setTargeting("p_channel", DFP.config.channel);
+
+		// Ministry
+		googletag.pubads().setTargeting("p_ministry", DFP.config.ministry);
+
+		// Political
+		googletag.pubads().setTargeting("p_political", DFP.config.political);
+
+		// Category
+		googletag.pubads().setTargeting("p_category", DFP.config.category);
+
+		
+        // Collapse Empty Ad Positions
+        googletag.pubads().collapseEmptyDivs(true);
+
+     	// Set Criteo Data
+        try {
+            var crtg_split = crtg_content.split(';');
+            for (var i=1;i<crtg_split.length;i++){ googletag.pubads().setTargeting ("" + (crtg_split[i-1].split('='))[0] + "", "" + (crtg_split[i-1].split('='))[1] + "");}
+        } catch(e) {/*ignore*/
+        }
+
+        googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+            DFP.LoadCount--;
+            if(DFP.AdLoadComplete())
+            {
+                console.log("Firing Event: Ad Load Complete");
+                // Fire off the event declaring the Ad Load has completed
+                bnetFireEvent("Beliefnet:AdLoadComplete");
+            }
+        });
+        
+
+        // === End Page Level KeyValues ===
+        googletag.enableServices();
+
+        DFP.AdConfigurationComplete = true;
+        console.log("Firing Event: Ad Configuration Complete");
+        // Fire off event declaring the ad configuration is complete
+        bnetFireEvent("Beliefnet:AdConfigurationComplete");
+    });
+</script></div><script>
+			var x = window.location.href;			var y = "http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/";
+			var z = parseInt(x.replace(y,'').replace('/',''));
+			var w = y;
+			if (z != z){
+				z = 1
+			};
+			if (w.slice(-1) != "/") {
+				w = w + "/";
+			}
+			if ((jQuery('.pages a[href*="'+w+(z-1)+'/"]').length > 0) || (jQuery('.pages a[href*="'+w+(z-1)+'"]').length > 0) || (jQuery('.pages a[href="'+y+'"]').length > 0)) {
+				var purl = (w + (z-1) + '/').replace('/1/','/');
+			};
+			if ((jQuery('.pages a[href*="'+w+(z+1)+'/"]').length > 0) || (jQuery('.pages a[href*="'+w+(z+1)+'"]').length > 0)) {
+				var nurl = w + (z+1) + '/';
+			};
+			jQuery('.pages').html('');
+			jQuery('.pages').show();
+			if (purl && (purl.slice(-3) != ('/0/'))) {
+				jQuery('.pages').prepend('<a href="'+purl+'">⇦&nbsp;&nbsp;Go Back</a>');
+			}
+			if (nurl) {
+				jQuery('.pages').append('<a href="'+nurl+'">Continue&nbsp;&nbsp;⇨</a>');
+			}
+		</script><script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'poptheology';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script><script type="text/javascript" src="http://www.patheos.com/blogs/poptheology/wp-content/cache/minify/000357/jc9dDgIhDATgC4nVY3gM2K1stRTSgj-3F3hVk32dfJnMnOFZHL4qqnh2THI3uNl3eAic48xJFm4rTrbklFCqUyz8PiaS32zLD9SL1E4nOkFEQSMDpjBAL2lgraBeybZdxmu0XbBvLL7-HzeupoDrEB8.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0bb59405ed","applicationID":"1889511","transactionName":"MVUDMBBRWBZQAUEKDAgfIAcWWVkLHhFcDQQKVQ==","queueTime":0,"applicationTime":1094,"atts":"HRIARlhLSxg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

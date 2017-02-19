@@ -1,0 +1,97 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Radio 1OO1 Sounds</title>
+
+	<link href="css/disposition_gauche.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="css/structure.css?v1" rel="stylesheet" type="text/css" media="screen" />
+<link href="jazz_02_g/couleurs.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+ $(document).ready(function() {
+ 	 $("#responsecontainer").load("playlistws.cfm?test=oui&radiowsid=624849");
+   var refreshId = setInterval(function() {
+      $("#responsecontainer").load('playlistws.cfm?test=oui&radiowsid=624849&randval='+ Math.random());
+   }, 45000);
+});
+
+(function (win, doc, script, source, objectName) { (win.RadionomyPlayerObject = win.RadionomyPlayerObject || []).push(objectName); win[objectName] = win[objectName] || function (k, v) { (win[objectName].parameters = win[objectName].parameters || { src: source, version: '1.1' })[k] = v; }; var js, rjs = doc.getElementsByTagName(script)[0]; js = doc.createElement(script); js.async = 1; js.src = source; rjs.parentNode.insertBefore(js, rjs); }(window, document, 'script', 'https://www.radionomy.com/js/radionomy.player.js', 'radplayer'));
+radplayer('url', 'Radio1OO1Sounds');
+radplayer('type', 'medium');
+radplayer('autoplay', '0');
+radplayer('volume', '50');
+radplayer('color1', '#000000');
+radplayer('color2', '#ffffff');
+
+</script>
+</head>
+
+<body>
+<div id="conteneur">
+	<div id="element_graphique"></div>
+	<div id="colonne_identite">
+    	<div id="bloc_logo_info">
+	    	<div id="bloc_logo">
+				<div id="logo">
+                	<img src="http://i.radionomy.com/radio/110/79F7818B-9764-4BDD-923B-DA1D6126C9C7.png" width="110" height="110" border="0" alt="" />
+                </div>
+			</div>
+	        <div id="bloc_info_radio">
+    	   		<h1>Radio 1OO1 Sounds</h1>
+        	    <h2>Jazz, Bossa nova, Soul, Funk and more.</h2>
+    	        <p>
+Genres musicaux : Funk - Soul - Bossa Nova - Jazz </p>
+       	  </div>
+        </div>
+        <div id="bloc_image">
+       		<div id="image"><img src="jazz_02_g/images/image_radio.png" border="0" alt="" /></div>
+		</div>
+    </div>
+    <div id="colonne_contenu">
+    			<div id="bloc_navigation">
+           	<ul id="navigation">
+               	<li><a href="index.cfm" title="Home">Home</a></li>
+                <li><a href="news.cfm" title="News">News</a></li>
+                <li><a href="comments.cfm" title="Comments">Comment</a></li>
+                <li><a href="contact.cfm" title="NewComment">Contact</a></li>
+        	</ul>
+	   	</div>
+		<div id="bloc_player_playlist">
+			<div id="player">
+           		<div class="radionomy-player"></div>
+            </div>
+            <div id="bloc_playlist">
+	        	<h3>Last played tracks</h3>
+				
+<div id="responsecontainer">
+</div>
+
+			</div>
+        </div>
+        <div id="bloc_teaser_news">
+        	<h3>Latest news</h3>
+			
+            <a class="voir_plus" href="news.cfm" title="Voir toutes les news">Read more news</a>
+	    </div>
+        <div id="bloc_teaser_comments">
+        	<h3>Last comments</h3>
+			
+           	<a class="voir_plus" href="comments.cfm" title="Voir tous les commentaires">Read all comments</a>
+    	</div>
+        
+<div id="bloc_copyright">
+      		&copy; <a href="http://www.radionomy.com" title="" target="_new">Radionomy</a> | <a href="#" title="">Terms of Use</a>
+        </div>
+        <div id="bloc_logos_radionomy_sabam">
+        	<img src="/images/logo_radionomy.png" border="0" width="120" height="21" alt="" /><img src="/images/logo_sabam.jpg" border="0" width="62" height="17" alt="" />
+    	</div>
+        
+    </div>
+    <div id="footer"></div>
+    <div id="element_graphique_bas"></div>
+</div>
+</body>
+</html>

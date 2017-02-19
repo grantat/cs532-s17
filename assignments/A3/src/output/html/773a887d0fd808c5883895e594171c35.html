@@ -1,0 +1,3380 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if gt IE 8]><html class="no-js gt-ie8"><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+
+<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQYFVVZSGwUBVFdRAgU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="google-site-verification" content="Gv-yWuhgx0ps9IeWz3RVq3DH4JXCdtYtu7NgUz3Vrbc" />
+<meta property="og:image" content="https://assets.audiomack.com/dienasty-beats/like-james-brown-275-275-1481072587.jpg" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+
+
+<link rel="shortcut icon" href="https://s.audiomack.com/images/favicon.jpg" type="image/jpeg" />
+<link rel="alternate" type="application/rss+xml" title="Trending Music Feed" href="/rss/trending" />
+<link rel="apple-touch-icon" href="https://s.audiomack.com/images/am-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="https://s.audiomack.com/images/am-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="https://s.audiomack.com/images/am-icon-144x144.png"/>
+
+<meta name="description" content="Listen to Like James Brown the new song from OG Dynasty Beats" >
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<meta name="twitter:card" content="player" >
+<meta name="twitter:domain" content="https://www.audiomack.com" >
+<meta name="twitter:site" content="@audiomack" >
+<meta name="twitter:title" content="OG Dynasty Beats - Like James Brown" >
+<meta name="twitter:description" content="" >
+<meta name="twitter:image" content="https://assets.audiomack.com/dienasty-beats/like-james-brown-275-275-1481072587.jpg" >
+<meta name="twitter:player" content="https://www.audiomack.com/embed4-large/dienasty-beats/like-james-brown" >
+<meta name="twitter:player:width" content="400" >
+<meta name="twitter:player:height" content="250" >
+<meta name="twitter:creator" content="@ogdynastync" >
+<title>OG Dynasty Beats - &quot;Like James Brown&quot;  - Listen | Added by OG Dynasty | Audiomack</title>
+
+<!-- Load CSS Files -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://s.audiomack.com/css/audiomack-cb1486671939.css"  />
+
+<!-- Load JS files -->
+<script type="text/javascript">
+	// site wide
+	var audiomack = {};
+	// page specific
+	audiomack.keytoplay = false;
+    audiomack.logged_in   = 0;
+    audiomack.music_token = 'cDYhQ9m/IxaLv425MAGxESEUZqUG4JXber4TmburiOjefY7K';
+    audiomack.csrf_token  = 'b9491e2409278761ac6002228c27083b';
+    audiomack.mobile      = false;
+</script>
+
+<!-- Facebook -->
+<script type="text/javascript">
+	// Load the FB SDK asynchronously
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+	 if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+	window.fbAsyncInit = function() {
+
+		FB.init({
+			appId      : '915618071782957',
+			cookie     : true,  // enable cookies to allow the server to access
+												// the session
+			xfbml      : true,  // parse social plugins on this page
+			version    : 'v2.2' // use version 2.2
+		});
+	};
+</script>
+
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<script type='text/javascript'>
+	SC.initialize({
+		client_id: 'e8d4a4460406f85186559062901c8a33'
+	});
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://s.audiomack.com/js/audiomack.min-cb1486671939.js"></script>
+<!--Google Recaptcha API, Will not work if a form using it is dynamically created. That would
+Require a different solution -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+<script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+<link href="https://s.audiomack.com/css/player-jw-cb1486671939.css" media="screen" rel="stylesheet" type="text/css" >
+
+<link href="android-app://com.audiomack/audiomack/song/dienasty-beats/like-james-brown" rel="alternate" >
+<link href="https://www.audiomack.com/oembed?url=https://www.audiomack.com/song/dienasty-beats/like-james-brown&amp;format=json" rel="alternate" type="application/json+oembed" title="OG Dynasty Beats - Like James Brown" >
+<link href="https://www.audiomack.com/song/dienasty-beats/like-james-brown" rel="canonical" >
+<link href="https://m.audiomack.com/song/dienasty-beats/like-james-brown" media="only screen and (max-width: 640px)" rel="alternate" >
+
+
+	
+		<script type="text/javascript">
+			cmnunt_site = 'cmn_audiomack';
+			cmnunt_silo = 's_mus';
+			cmnunt_subsilo = '';
+			cmnunt_tier = 't2,to,internal';
+			cmnunt_zone = 'music';
+			cmnunt_kw = '';
+			cmnunt_exclude = 'ugc';
+
+			setInterval(
+				function() {
+					if (typeof CMNUNT !== 'undefined' && typeof CMNUNT.refreshAds == 'function') {
+						CMNUNT.refreshAds([
+							'cmn_ad_300x250_300x600_0',
+							'cmn_ad_1000x1000_0',
+							'cmn_ad_200x30'
+						])
+					}
+				},
+				37 * 1000
+			);
+		</script>
+		<script type="text/javascript" src="https://media.complex.com/common/cmnUNT.js"></script>
+
+	
+<!-- Google Analytics -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-28559780-2', 'auto');
+	ga('set', 'contentGroup1', '/rap');
+	ga('require', 'displayfeatures');
+	ga('send', 'pageview');
+	// ga('send', 'event', 'Protocol', window.location.protocol, '', 1, {'nonInteraction': 1});
+</script>
+<!-- End Google Analytics -->
+
+
+<meta property="fb:app_id" content="915618071782957" />
+
+</head>
+
+	
+	<body class="secure">
+
+	<div id="site-wrap" class="site-wrap">
+
+				<div id="nav-wrap">
+
+	<header id="header" class="header ">
+
+    	<div class="header-left left">
+
+	    	<a onClick="ga('send', 'event', 'Header', 'Logo', 'Logo');" class="site-logo left" href="/"></a>
+
+	    	<div class="menu-trigger-wrap left">
+
+	    		<span class="mega-menu-trigger"></span>
+
+	    	</div><!--/.menu-trigger-wrap-->
+
+	    	<div class="trends right">
+
+	    		<ul class="inline-list">
+
+	    			<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Trending');" href="/trending"><i data-toggle="tooltip" title="" data-original-title="Trending" data-placement="bottom" class="glyphicons fire"></i></a></li>
+
+	    			<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Top Songs');" href="/songs/week"><i data-toggle="tooltip" title="" data-original-title="Top Songs" data-placement="bottom" class="glyphicons music"></i></a></li>
+
+	    			<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Top Albums');" href="/albums/week"><i data-toggle="tooltip" title="" data-original-title="Top Albums" data-placement="bottom" class="glyphicons albums"></i></a></li>
+
+	    			<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Top Playlists');" href="/playlists/week"><i data-toggle="tooltip" title="" data-original-title="Top Playlists" data-placement="bottom" class="glyphicons playlist"></i></a></li>
+
+	    			<li class="top-artists"><a onClick="ga('send', 'event', 'Header', 'Main Menu', 'Top Artists');" href="/artists/popular"><i data-toggle="tooltip" title="" data-original-title="Top Accounts" data-placement="bottom" class="glyphicons user"></i></a></li>
+
+	    		</ul><!--/.inline-list-->
+
+	    	</div><!--/.trends-->
+
+	   	</div><!--/.header-left-->
+
+    	<div class="header-inner">
+
+    		<div class="inner-content">
+
+    			<div class="player-outer-wrap">
+
+    				<div class="listplayer-wrap not-visible">
+
+    					
+    				</div><!--/.listplayer-wrap-->
+
+    				<div class="search-form-wrap visible">
+
+		    			<form id="site-search" class="search-form site-search" action="/search" method="get">
+
+		    				<input type="text" class="search search-autosuggest" autocomplete="off" spellcheck="false" value="" name="q" placeholder="Search for artists, songs, albums!" required/>
+
+		    				<div class="search-box"></div>
+
+		    				<input type="submit" class="submit-button" value=""/>
+
+		    			</form>
+
+		    		</div><!--/.search-form-wrap-->
+
+		    		<span class="close-trigger trigger inactive close-player">
+
+			    		<i class="search-icon fa fa-search"></i>
+
+			    		<i class="player-icon glyphicons play"></i>
+
+		    		</span>
+
+	   			</div><!--/.player-outer-wrap-->
+
+	    		<div class="account-box right ">
+
+	    			
+		    			<div class="logged-out">
+
+		    				<p><a onClick="ga('send', 'event', 'Header', 'Logged Out Menu', 'Signup');" class="signup-modal-trigger" data-target-pane="signup-form-wrap" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a> / <a onClick="ga('send', 'event', 'Header', 'Logged Out Menu', 'Login');" class="signup-modal-trigger" id="signup-login-modal" data-target-pane="login-form-wrap" href="#">Sign In</a></p>
+
+		    			</div><!--/.logged-out-->
+
+	    			
+	    		</div><!--/.account-box-->
+
+                
+                <div class="header-upload-wrap right">
+
+                	<a id="upload-music" class="header-button" href="/account/create"><i class="glyphicons inbox-out"></i> Upload</a>
+
+                	
+                </div><!--/.header-upload-wrap-->
+
+   			</div><!--/.inner-content-->
+
+    	</div><!--/.header-inner-->
+
+    </header><!--/#header-->
+
+    <div class="mega-menu">
+
+    	<div class="container">
+
+    		<div class="menu-trigger-wrap right perm-active">
+
+	    		<span class="mega-menu-trigger"></span>
+
+	    	</div><!--/.menu-trigger-wrap-->
+
+    		<div class="menu-top">
+
+    			<div class="widgets-left left">
+
+	    			<div class="widget browse-widget">
+
+	    				<h3 class="widget-title">Browse Music</h3>
+
+	    				<ul class="menu">
+
+	    					<li class="open">
+
+	    						<span>All Genres</span>
+
+	    						<ul class="sub-menu" style="display:block">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres home');" href="/"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Trending');" href="/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Top Songs');" href="/songs/week"><i class="glyphicons music"></i> Top Songs</a></li>
+
+	    							<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Top Albums');" href="/albums/week"><i class="glyphicons albums"></i> Top Albums</a></li>
+
+	    							<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Top Playlists');" href="/playlists/week"><i class="glyphicons playlist"></i> Top Playlists</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'All genres Recently Added');" href="/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    					<li>
+
+	    						<span>Hip-Hop/R&amp;B</span>
+
+	    						<ul class="sub-menu">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Home');" href="/rap"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Trending');" href="/rap/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Top Songs');" href="/rap/songs/week"><i class="glyphicons music"></i> Top Songs</a></li>
+
+	    							<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Top Albums');" href="/rap/albums/week"><i class="glyphicons albums"></i> Top Albums</a></li>
+
+	    							<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Top Playlists');" href="/rap/playlists/week"><i class="glyphicons playlist"></i> Top Playlists</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Hip-Hop Recently Added');" href="/rap/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    					<li>
+
+	    						<span>Electronic</span>
+
+	    						<ul class="sub-menu">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Home');" href="/electronic"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Trending');" href="/electronic/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Top Songs');" href="/electronic/songs/week"><i class="glyphicons music"></i> Top Songs</a></li>
+
+	    							<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Top Albums');" href="/electronic/albums/week"><i class="glyphicons albums"></i> Top Albums</a></li>
+
+	    							<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Top Playlists');" href="/electronic/playlists/week"><i class="glyphicons playlist"></i> Top Playlists</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Electronic Recently Added');" href="/electronic/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    					<li>
+
+	    						<span>Reggae</span>
+
+	    						<ul class="sub-menu">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Home');" href="/dancehall"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Trending');" href="/dancehall/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Top Songs');" href="/dancehall/songs/week"><i class="glyphicons music"></i> Top Songs</a></li>
+
+	    							<li class="top-albums"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Top Albums');" href="/dancehall/albums/week"><i class="glyphicons albums"></i> Top Albums</a></li>
+
+	    							<li class="top-playlists"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Top Playlists');" href="/dancehall/playlists/week"><i class="glyphicons playlist"></i> Top Playlists</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Reggae Recently Added');" href="/dancehall/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    					<li>
+
+	    						<span>Podcast</span>
+
+	    						<ul class="sub-menu">
+
+	    							<li class="home"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Podcast Home');" href="/podcast"><i class="glyphicons home"></i> Home</a></li>
+
+	    							<li class="trending"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Podcast Trending');" href="/podcast/trending"><i class="glyphicons fire"></i> Trending</a></li>
+
+	    							<li class="top-songs"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Podacst Top Songs');" href="/podcast/songs/week"><i class="glyphicons music"></i> Top Podcasts</a></li>
+
+	    							<li class="recently-added"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Podcast Recently Added');" href="/podcast/recent"><i class="glyphicons alarm"></i> Recently Added</a></li>
+
+	    						</ul><!--/.sub-menu-->
+
+	    					</li>
+
+	    				</ul><!--/.menu-->
+
+	    			</div><!--/.widget-->
+
+    			</div><!--/.widgets-left-->
+
+    			<div class="widgets-right right">
+
+    				<div class="group">
+
+		    			<div class="widget featured-songs-widget">
+
+		    				<h3 class="widget-title">Top Songs Today</h3>
+
+		    				<div class="featured-loop">
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/kodakblack/no-flocking"><img src="https://assets.audiomack.com/kodakblack-7/no-flocking-118-118-1486929962.jpg" alt="Kodak Black - No Flocking Cover Art" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/kodakblack/no-flocking">
+
+			    							<h2 class="artist-title">Kodak Black</h2>
+
+			    							<h3 class="song-title">No Flocking</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/kodakblack">Kodak Black</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/kodakblack/there-he-go"><img src="https://assets.audiomack.com/kodakblack-7/-118-118-1486930873.jpg" alt="Kodak Black - There He Go Cover Art" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/kodakblack/there-he-go">
+
+			    							<h2 class="artist-title">Kodak Black</h2>
+
+			    							<h3 class="song-title">There He Go</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/kodakblack">Kodak Black</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/kodakblack/skrt"><img src="https://assets.audiomack.com/kodakblack/skrt-118-118-1487028937.jpg" alt="Kodak Black - Skrt Cover Art" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Song');" href="/song/kodakblack/skrt">
+
+			    							<h2 class="artist-title">Kodak Black</h2>
+
+			    							<h3 class="song-title">Skrt</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/kodakblack">Kodak Black</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'View more songs');" class="more" href="/songs/day">View more songs</a>
+
+		    				</div><!--/.featured-loop-->
+
+		    			</div><!--/.widget-->
+
+		    			<div class="widget featured-albums-widget right">
+
+		    				<h3 class="widget-title">Top Albums Today</h3>
+
+		    				<div class="featured-loop">
+
+		    					
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/mixtape-republic/heartless"><img src="https://assets.audiomack.com/mixtape-republic/heartless-118-118-1487043578.jpg" alt="Mixtape Republic - Heartless Cover Art" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/mixtape-republic/heartless">
+
+			    							<h2 class="artist-title">Moneybagg Yo</h2>
+
+			    							<h3 class="song-title">Heartless</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/mixtape-republic">Mixtape Republic</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/dejloaf/fuck-a-friend-zone"><img src="https://assets.audiomack.com/dejloaf/fuck-a-friend-zone-118-118-1486773902.jpg" alt="DejLoaf - Fuck A Friend Zone Cover Art" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/dejloaf/fuck-a-friend-zone">
+
+			    							<h2 class="artist-title">Jacquees x Dej Loaf</h2>
+
+			    							<h3 class="song-title">Fuck A Friend Zone</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/dejloaf">DejLoaf</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+		    					<div class="featured-item">
+
+		    						<div class="image left">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/88donka/quavo-huncho-2"><img src="https://assets.audiomack.com/88donka/quavo-huncho-2-118-118-1485698248.jpg" alt="DJ Donka - Quavo Huncho 2 Cover Art" style="width:65px;height:65px;"/></a>
+
+		    						</div><!--/.image-->
+
+		    						<div class="featured-info">
+
+		    							<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Featured Album');" href="/album/88donka/quavo-huncho-2">
+
+			    							<h2 class="artist-title">Quavo of Migos</h2>
+
+			    							<h3 class="song-title">Quavo Huncho 2</h3>
+
+		    							</a>
+
+		    							<p class="uploaded">Uploaded by <a href="/artist/88donka">DJ Donka</a></p>
+
+		    						</div><!--/.featured-info-->
+
+		    					</div><!--/.featured-item-->
+
+		    				
+
+
+		    					<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'View more albums');" class="more" href="/albums/day">View more albums</a>
+
+		    				</div><!--/.featured-loop-->
+
+		    			</div><!--/.widget-->
+
+    				</div><!--/.group-->
+
+	    			<div class="ban-block text-center">
+
+	    				<a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Android / iOS big banner');" href="https://bnc.lt/desktop-menu"><img src="https://s.audiomack.com/images/am-app-728x90.jpg" alt="#"/></a>
+
+	    			</div><!--/.ad-block-->
+
+    			</div><!--/.widgets-right-->
+
+    		</div><!--/.menu-top-->
+
+   			<div class="menu-bottom">
+
+   				<ul class="app-links inline-list left">
+
+   					<li class="label left">Download our app on</li>
+
+   					<li class="google-play"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Android App Link');" href="https://bnc.lt/desktop-menu"></a></li>
+
+   					<li class="app-store"><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'iOS App Link');" href="https://bnc.lt/desktop-menu"></a></li>
+
+   				</ul><!--/.app-links-->
+
+    			<ul class="social-links inline-list right">
+
+	    			<li class="label">Follow Audiomack on</li>
+
+	    			<li><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Twitter');" href="https://twitter.com/audiomack"><span class="fa fa-twitter"></span></a></li>
+
+	    			<li><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Facebook');" href="https://www.facebook.com/audiomack"><span class="fa fa-facebook"></span></a></li>
+
+	    			<li><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Instagram');" href="https://www.instagram.com/audiomack"><span class="fa fa-instagram"></span></a></li>
+
+	    			<li><a onClick="ga('send', 'event', 'Header', 'Mega Menu', 'Google Plus');" href="https://plus.google.com/113996177993476717786"><span class="fa fa-google-plus"></span></a></li>
+
+    			</ul><!--/.social-links-->
+
+   			</div><!--/.menu-bottom-->
+
+    	</div><!--/.container-->
+
+    </div><!--/.mega-menu-->
+
+    
+</div><!--/#nav-wrap-->
+
+
+								<div class="banner-ad ad-space top-ad" id="cmn_head_styles">
+			<div id="cmn_ad_tag_head" class="fw_audiomack">
+				<script type="text/javascript">if (typeof cmnUNT !== 'undefined') { CMNUNT.load('3x3', {}); }</script>
+			</div>
+		</div><!--/.banner-ad-->
+			
+		<div id="cmn_wrap">
+
+			<div id="main">
+
+					<div id="song">
+
+		<div class="container">
+
+			<div class="share-page">
+								<ul>
+
+					<li class="label">Share this page:</li>
+
+					<li class="facebook">
+
+						<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+
+					</li><!--/.facebook-->
+
+					<li class="twitter">
+
+						<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					</li><!--/.twitter-->
+
+					<li class="gplus">
+
+						<a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+
+					</li><!--/.gplus-->
+
+				</ul>
+
+				<script>
+
+					var $twitter_link = $('.share-page .twitter a'),
+						$facebook_link = $('.share-page .facebook a'),
+						$gplus_link = $('.share-page .gplus a');
+
+						$twitter_link.attr('href', 'https://twitter.com/share?url=' + window.location.href +"&amp;text=OG Dynasty Beats - Like James Brown via @ogdynastync");
+						$facebook_link.attr('href', 'https://facebook.com/sharer/sharer.php?u=' + window.location.href + '');
+						$gplus_link.attr('href', 'https://plus.google.com/share?url=' + window.location.href +  '');
+
+				</script>
+
+							</div><!--/.share-page-->
+
+			<div class="profile-header">
+
+				<div class="background-image" style="background-image:url('https://assets.audiomack.com/dienasty-beats/like-james-brown-275-275-1481072587.jpg')">
+
+					<div class="faux-overlay"></div>
+
+				</div><!--/.background-image-->
+
+				<div class="row">
+
+					<div class="profile-image col-xs-4">
+
+						<a class="lightbox-trigger" href="https://assets.audiomack.com/dienasty-beats/03352c5fffdc3e6e165aec1346f361fd.jpeg" data-toggle="lightbox" >
+
+							<img src="https://assets.audiomack.com/dienasty-beats/like-james-brown-260-260-1481072588.jpg" alt="OG Dynasty - Like James Brown Cover Art"/>
+
+							<i class="fa fa-search-plus"></i>
+
+						</a>
+
+					</div><!--/.profile-image-->
+
+					<div class="profile-info song-info col-xs-5">
+
+						<h1 class="profile-title song-title"><span class="artist">OG Dynasty Beats</span> Like James Brown </h1>
+
+						<ul class="details">
+
+
+
+							<li class="uploaded">
+
+								<span style="margin-bottom:0">Uploaded On Dec 6, 2016</span>
+
+							</li>
+
+							
+							
+							
+																						<li class="featured"><span>Genre:</span> <a href="/rap">Hip-Hop/R&amp;B</a>
+							
+							<li>
+
+								<span>
+
+									Added by: <a href="/artist/dienasty-beats">OG Dynasty</a>
+
+									
+								</span>
+
+							</li>
+
+															<li>
+
+									<span>
+
+										Uploaded to Soundcloud by: <a href="http://soundcloud.com/ogdynasty" rel="nofollow" target="_blank">OG Dynasty Beats</a>
+
+									</span>
+
+								</li>
+							
+						</ul><!--/.details-->
+
+						
+								<span>
+
+									
+
+<a href="/artist/dienasty-beats/follow" data-music_id="260318" data-action="follow" data-artist="OG Dynasty Beats" class="follow-artist am-follow-artist launch_login_modal" style="margin:0">
+
+    <span class="follow-text"><i class="glyphicon glyphicon-plus"></i> Follow</span><span class="am-logo"></span>
+    
+</a>
+
+								</span>
+
+							
+					</div><!--/.profile-info-->
+
+					<div class="profile-stats song-stats col-xs-3">
+
+						<div class="table">
+
+							<div class="table-cell">
+																<ul>
+
+									
+									<li><span>Plays:</span> <span>13</span></li>
+
+																			<li><span>Favorites:</span> <span>1</span></li>
+									
+									
+									
+									<li><span>Ranking:</span> <span><a href="/songs/day">N/A Today</a></span></li>
+
+									<li><span>&nbsp;</span> <span><a href="/songs/week">N/A This Week</a></span></li>
+
+									<li><span>&nbsp;</span> <span><a href="/songs/month">N/A This Month</a></span></li>
+
+									<li><span>&nbsp;</span> <span><a href="/songs">#523K All Time</a></span></li>
+								</ul>
+															</div><!--/.table-cell-->
+
+						</div><!--/.table-->
+
+					</div><!--/.profile-stats-->
+
+
+				</div><!--/.row-->
+
+			</div><!--/.profile-header-->
+
+																	<div class="player-wrapper">
+					
+						<div class="no-margin-left no-margin-right">
+							<div class="player">
+							<script type="text/javascript">
+							var m = 2635083;
+
+							$(document).ready(function() {
+								amack.trackEvent('pv', m, audiomack.music_token);
+
+								if($.browser.chrome) {
+							 		$(".download-song").attr('target', '_blank');
+								}
+							});
+							</script>
+							
+							
+
+<div id="wrap" class=" scloud-wrap">
+	<div class="pborder">
+		<div class="pwrap">
+						<div class="player-left">
+
+				<div class="black-overlay"></div>
+														<span id="play-button" >
+
+						<i class="icon glyphicon glyphicon-play"></i>
+
+						<span class="loading-icon song-loader">
+
+							<span class="circle circle-1"></span>
+
+							<span class="circle circle-2"></span>
+
+							<span class="circle circle-3"></span>
+
+						</span>
+
+					</span>
+												</div>
+
+			<div class="player-right">
+				<div class="player-header">
+										<div class="player-title ">
+																					<span class="artist"><a href="https://www.audiomack.com/song/dienasty-beats/like-james-brown" target="_blank">OG Dynasty Beats</a></span>
+								<span class="song-title"><a href="https://www.audiomack.com/song/dienasty-beats/like-james-brown" target="_blank" id="song-title-link">Like James Brown</a></a></span>
+																		</div>
+											<div class="player-icons">
+
+						
+						
+							<a class="scloud-icon player-icon" target="_blank" rel="nofollow" href="http://soundcloud.com/ogdynasty/like-james-brown"><img class="soundcloud-player-logo" src="/images/soundcloud-logo-large-dark.png" alt="soundcloud" /></a>
+
+						
+						
+						<a data-toggle="tooltip" data-placement="left" class="player-icon share-twitter" target="_blank" title="Share on Twitter" href="https://twitter.com/share?url=https://www.audiomack.com/song/dienasty-beats/like-james-brown&amp;text=OG Dynasty Beats - Like James Brown via @ogdynastync">
+							<span class="fa fa-twitter"></span>
+						</a>
+
+						<a data-toggle="tooltip" data-placement="left" class="player-icon share-facebook" target="_blank" title="Share on Facebook" href="https://facebook.com/sharer/sharer.php?u=https://www.audiomack.com/song/dienasty-beats/like-james-brown">
+							<span class="fa fa-facebook"></span>
+						</a>
+
+						
+																					
+<a data-toggle="tooltip" data-placement="left" href="http://bsta.rs/4a42c" onClick="ga('send', 'event', { eventCategory: 'Buy Link', eventAction: $(this).attr('href').split('?')[0], eventLabel: window.location.href});" target="_blank" rel="nofollow" class="player-icon" title="Buy Song">
+    <span class="glyphicon glyphicon-shopping-cart"></span>
+</a>
+																									<a data-placement="left" class="player-embed player-icon" title="Embed" data-target="#embed" id="itsembed" data-toggle="modal" onClick="ga('send', 'event', { eventCategory: 'Embed', eventAction: $(this).attr('href').split('?')[0], eventLabel: window.location.href});">
+							<span class="glyphicons embed_close"></span>
+						</a>
+																										<a data-toggle="tooltip" data-placement="left" data-music_id="2635083" data-action="favorite" title="Favorite" class="launch_login_modal player-icon">
+								<span class="glyphicon glyphicon-star"></span>
+							</a>
+																																											<a data-placement="left" title="Playlist" data-toggle="modal" class="launch_login_modal player-icon">
+										<span class="glyphicon glyphicon-plus"></span>
+									</a>
+															
+																								<a data-placement="left" title="Re-Up" data-toggle="modal" data-action="repost" data-music_id="2635083" class="launch_login_modal player-icon" href="https://www.audiomack.com/song/dienasty-beats/like-james-brown/repost#launch_login_modal">
+										<span class="glyphicons retweet"></span>
+									</a>
+															
+						
+					</div>
+				</div>
+
+				<div class="wform-wrap">
+
+				<div class="player-song-stats">
+					<span class="song-plays glyphicon glyphicon-play"></span><span class="song-plays-stat">13</span><span class="divider"></span>
+					<span class="song-favorites glyphicon glyphicon-star"></span><span class="song-favorites-stat">1</span><span class="divider"></span>
+				</div>
+				<a class="via-audiomack via-am-logo" target="_blank" href="https://www.audiomack.com">Audiomack</a>
+				<div class="player-jwplayer">
+					<div class="elapsed">00:00</div>
+
+
+					<div class="slider-container">
+
+					<div class="slider">
+						<span class="progress"></span>
+												<div class="waveform" data-color="ffa200" data-duration="" data-waveform=""></div>
+
+						<div class="white-border"></div>
+					</div><!--/.slider-->
+
+					</div><!--/.slider-container-->
+
+					<div class="duration">00:00</div>
+
+				</div>
+
+
+				</div><!--/.wform-wrap-->
+
+				<div id="audiomack-embed" class="am-jwplayer" style="display:none;"
+					data-src="https://www.audiomack.com/api/music/url/song/dienasty-beats/like-james-brown"
+					data-title="Like James Brown"
+					data-performer="OG Dynasty Beats"
+					data-url="/song/dienasty-beats/like-james-brown"
+					data-can-download="false"
+					data-buy-link="http://bsta.rs/4a42c"
+					data-embed="<iframe src='https://www.audiomack.com/embed4/dienasty-beats/like-james-brown' scrolling='no' width='100%' height='144' scrollbars='no' frameborder='0'></iframe>"
+					data-art-url="https://assets.audiomack.com/dienasty-beats/like-james-brown-275-275-1481072587.jpg"
+					data-preroll="false"
+					data-promo-key=""
+					data-uploader="260318"
+					data-is-playlist="false"
+					data-playlist-id=""><span class="player-loading">Loading the player...</span>
+				</div>
+			</div>
+
+					</div>
+	</div>
+
+	
+</div>
+
+<script>
+
+$('div.view-song > a').click(function(e) {
+	e.stopPropagation();
+});
+$('a.player-favorite').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    var url      = el.attr('href');
+
+    var suffix = '';
+    $.ajax({ url: url,
+             data: {ajax : true, csrf: audiomack.csrf_token},
+             success: function(result) {
+                if (result.is_favorite) {
+                    $('a.player-favorite').attr('title', 'Un-Favorite' + suffix)
+                      .tooltip('hide')
+                      .attr('data-original-title', 'Un-Favorite' + suffix)
+                      .tooltip('fixTitle')
+                      .tooltip('show');
+                    $('a.player-favorite').addClass('active').blur();
+                                        amack.trackEvent('fav', el.data('music_id'), audiomack.music_token);
+                    var music_type = music_type_regex.exec(url);
+                    ll('tagEvent', toTitleCase(music_type[1]) + ' Favorited', {
+                        'artist': el.data('artist'),
+                        'uploader': el.data('uploader'),
+                        'genre': el.data('genre')
+                    });
+                                    } else {
+                    $('a.player-favorite').attr('title', 'Favorite' + suffix)
+                      .tooltip('hide')
+                      .attr('data-original-title', 'Favorite' + suffix)
+                      .tooltip('fixTitle')
+                      .tooltip('show');
+                    $('a.player-favorite').removeClass('active').blur();
+                }
+          },
+          type: 'POST'
+    });
+});
+$('a.player-repost').click(function(e) {
+	e.preventDefault();
+	if (audiomack.logged_in) {
+		var el = $(this);
+		var music_id = $(this).data('id');
+		var artist   = $(this).data('artist');
+
+		if (typeof music_id == 'string') {
+			music_id.replace(/[^0-9]/gi, '');
+		}
+
+		var url =  $(this).attr('href');
+
+		$.ajax({
+			url: url,
+			cache: false,
+			type: 'POST',
+			data: {csrf: audiomack.csrf_token},
+			success: function(data) {
+				el.toggleClass('active');
+				if (data === 'Repost OK') {
+					amack.trackEvent('reup', music_id, audiomack.music_token);
+
+					var music_type = music_type_regex.exec(url);
+					ll('tagEvent', toTitleCase(music_type[1]) + ' Reposted', {
+					    'artist': artist
+					});
+				}
+			},
+		});
+	}
+	e.stopPropagation();
+});
+
+</script>
+							</div><!--/.player-->
+						</div><!--/.no-margin-left-->
+					</div><!--/.player-wrapper-->
+
+							
+										
+			<div class="profile-content two-col row">
+
+				<div class="left-content left col-xs-8">
+
+					
+					
+					
+					
+					
+											<div class="recent-tracks section">
+
+							<div class="top-bar">
+
+								<span class="icon star-icon"></span>
+
+								<h2 class="top-bar-title">Recent tracks and albums from OG Dynasty</h2>
+
+							</div><!--/.top-bar-->
+
+							<div class="section-content">
+
+								<div class="feed">
+
+																		
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.audiomack.com%2Falbum%2Fdienasty-beats%2Ffuture-x-drake-type-beats-buy-beats-now&amp;text=OG+Dynasty+-+Future+x+Drake+Type+Beats+%28Buy+Beats+Now%29+" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.audiomack.com%2Falbum%2Fdienasty-beats%2Ffuture-x-drake-type-beats-buy-beats-now" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now" class="player_image"
+						data-id="music-2822254"
+						data-artist="OG Dynasty"
+						data-title="Future x Drake Type Beats (Buy Beats Now) "
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="260318"
+						data-url="/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now"
+												data-plays="87"
+						data-favorites="1"
+						data-genre="rap"
+						data-uploader-name="OG Dynasty"
+						>
+					
+						<img src="https://assets.audiomack.com/dienasty-beats/future-x-drake-type-beats-buy-beats-now-160-160-1487017503.jpg" width="160" height="160" alt="OG Dynasty - Future x Drake Type Beats (Buy Beats Now)  Cover Art"/>
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="item-content-inner">
+
+						<div class="flex-breaker">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Album</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=OG+Dynasty">OG Dynasty</a>
+
+									<a class="thicker" href="/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now">Future x Drake Type Beats (Buy Beats Now) </a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: OG Dynasty </p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Added on Feb 13, 2017
+									
+									by 
+											<a class="follow-artist-dienasty-beats" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="260318" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/dienasty-beats/follow">Follow</a>' href="/artist/dienasty-beats">OG Dynasty</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.flex-breaker-->
+
+					  </div><!--/.item-content-inner-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now" class="interaction plays play"
+									data-id="music-2822254"
+									data-artist="OG Dynasty"
+									data-title="Future x Drake Type Beats (Buy Beats Now) "
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="260318"
+									data-url="/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now"
+																		data-plays="87"
+									data-plays-raw="87"
+									data-favorites="1"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">87</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="2822254"><i class="glyphicon glyphicon-star"></i> Fav (1)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="2822254"><i class="glyphicons retweet"></i> Re-Up (1)</a>
+
+						
+						
+						
+							
+						
+						
+						
+							<a class="interaction buy" href="http://bsta.rs/4a42c" target="_blank"><i class="glyphicon glyphicon-shopping-cart"></i> Buy</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+						<div class="plwrapper" for="music-2822254" style="display: none;">
+									<div class="song">
+						<div class="index">01.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/0" data-title="Future x Drake Type Beats (Buy Beats Now)  -Trap Magic ">OG Dynasty -Trap Magic </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">02.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/1" data-title="Future x Drake Type Beats (Buy Beats Now)  -All The Hype ">OG Dynasty -All The Hype </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">03.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/2" data-title="Future x Drake Type Beats (Buy Beats Now)  -Alot Of Hate ">OG Dynasty -Alot Of Hate </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">04.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/3" data-title="Future x Drake Type Beats (Buy Beats Now)  -All My Killas ">OG Dynasty -All My Killas </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">05.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/4" data-title="Future x Drake Type Beats (Buy Beats Now)  -Nights In LA ">OG Dynasty -Nights In LA </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">06.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/5" data-title="Future x Drake Type Beats (Buy Beats Now)  -Views From Uptown ">OG Dynasty -Views From Uptown </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">07.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/6" data-title="Future x Drake Type Beats (Buy Beats Now)  -Trap Paradise (Mastered) ">OG Dynasty -Trap Paradise (Mastered) </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">08.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/7" data-title="Future x Drake Type Beats (Buy Beats Now)  -Preach Greatness (Mastered) ">OG Dynasty -Preach Greatness (Mastered) </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">09.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/8" data-title="Future x Drake Type Beats (Buy Beats Now)  -Still On Tour ">OG Dynasty -Still On Tour </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">10.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/9" data-title="Future x Drake Type Beats (Buy Beats Now)  -Just Like Guwop ">OG Dynasty -Just Like Guwop </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">11.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/10" data-title="Future x Drake Type Beats (Buy Beats Now)  -Premium Only">OG Dynasty -Premium Only</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">12.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/11" data-title="Future x Drake Type Beats (Buy Beats Now)  -Trap With A Passion">OG Dynasty -Trap With A Passion</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">13.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/12" data-title="Future x Drake Type Beats (Buy Beats Now)  -Trap Flows ">OG Dynasty -Trap Flows </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">14.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/13" data-title="Future x Drake Type Beats (Buy Beats Now)  -Prime Suspect ">OG Dynasty -Prime Suspect </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">15.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/14" data-title="Future x Drake Type Beats (Buy Beats Now)  -Trap Like Jeezy">OG Dynasty -Trap Like Jeezy</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">16.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/15" data-title="Future x Drake Type Beats (Buy Beats Now)  -Stole My Drip">OG Dynasty -Stole My Drip</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">17.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now/16" data-title="Future x Drake Type Beats (Buy Beats Now)  -Views From Uptown Part 2 ">OG Dynasty -Views From Uptown Part 2 </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+							</div>
+			
+			
+				
+					<a href="/album/dienasty-beats/future-x-drake-type-beats-buy-beats-now#video" class="video-icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62.174px" height="53.37px" viewBox="389.858 270.955 62.174 53.37" enable-background="new 389.858 270.955 62.174 53.37"
+	 xml:space="preserve">
+<g>
+	<path d="M449.122,270.955h-56.354c-1.606,0-2.911,1.301-2.911,2.912v37.542c0,1.608,1.305,2.909,2.911,2.909h21.177v3.252h-7.8
+		l-3.733,6.755h37.063l-3.73-6.755h-7.801v-3.252h21.178c1.608,0,2.909-1.301,2.909-2.909v-37.542
+		C452.031,272.256,450.731,270.955,449.122,270.955z M446.208,308.5h-50.526v-31.724h50.526V308.5L446.208,308.5z"/>
+	<polygon points="416.102,283.02 416.102,302.256 428.547,292.638 	"/>
+</g>
+</svg>
+</a>
+
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.audiomack.com%2Falbum%2Fdienasty-beats%2Flil-uzi-vert-type-beats-buy-beats-now&amp;text=OG+Dynasty+-+Lil+Uzi+Vert+Type+Beats+%28Buy+Beats+Now%29" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.audiomack.com%2Falbum%2Fdienasty-beats%2Flil-uzi-vert-type-beats-buy-beats-now" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now" class="player_image"
+						data-id="music-2820053"
+						data-artist="OG Dynasty"
+						data-title="Lil Uzi Vert Type Beats (Buy Beats Now)"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="260318"
+						data-url="/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now"
+												data-plays="47"
+						data-favorites="1"
+						data-genre="rap"
+						data-uploader-name="OG Dynasty"
+						>
+					
+						<img src="https://assets.audiomack.com/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now-160-160-1486947664.jpg" width="160" height="160" alt="OG Dynasty - Lil Uzi Vert Type Beats (Buy Beats Now) Cover Art"/>
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="item-content-inner">
+
+						<div class="flex-breaker">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Album</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=OG+Dynasty">OG Dynasty</a>
+
+									<a class="thicker" href="/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now">Lil Uzi Vert Type Beats (Buy Beats Now)</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: OG Dynasty</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Added on Feb 12, 2017
+									
+									by 
+											<a class="follow-artist-dienasty-beats" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="260318" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/dienasty-beats/follow">Follow</a>' href="/artist/dienasty-beats">OG Dynasty</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.flex-breaker-->
+
+					  </div><!--/.item-content-inner-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now" class="interaction plays play"
+									data-id="music-2820053"
+									data-artist="OG Dynasty"
+									data-title="Lil Uzi Vert Type Beats (Buy Beats Now)"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="260318"
+									data-url="/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now"
+																		data-plays="47"
+									data-plays-raw="47"
+									data-favorites="1"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">47</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="2820053"><i class="glyphicon glyphicon-star"></i> Fav (1)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="2820053"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+						
+						
+						
+							<a class="interaction buy" href="http://bsta.rs/4a42c" target="_blank"><i class="glyphicon glyphicon-shopping-cart"></i> Buy</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+						<div class="plwrapper" for="music-2820053" style="display: none;">
+									<div class="song">
+						<div class="index">01.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/0" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -My Own Wave (Mastered)">OG Dynasty -My Own Wave (Mastered)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">02.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/1" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Trap Paradise (Mastered) ">OG Dynasty -Trap Paradise (Mastered) </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">03.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/2" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Pursue The Sauce ">OG Dynasty -Pursue The Sauce </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">04.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/3" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -2-6 Coolin (Mastered)">OG Dynasty -2-6 Coolin (Mastered)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">05.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/4" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Still On Tour">OG Dynasty -Still On Tour</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">06.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/5" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Feelin' Like Denzel ">OG Dynasty -Feelin' Like Denzel </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">07.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/6" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Lavish Life (Mastered)">OG Dynasty -Lavish Life (Mastered)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">08.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/7" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Took Your Girl ">OG Dynasty -Took Your Girl </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">09.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/8" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -New Waves">OG Dynasty -New Waves</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">10.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/9" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -All My Killas ">OG Dynasty -All My Killas </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">11.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/10" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Stole My Drip">OG Dynasty -Stole My Drip</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">12.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/11" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Whenever I Want">OG Dynasty -Whenever I Want</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">13.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/12" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Rawest Eva">OG Dynasty -Rawest Eva</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">14.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/13" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Downtown Atlanta">OG Dynasty -Downtown Atlanta</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">15.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/14" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Bring A Vibe ">OG Dynasty -Bring A Vibe </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">16.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/15" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Blessed With Sauce [Prod. OG Dynasty]">OG Dynasty -Blessed With Sauce [Prod. OG Dynasty]</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">17.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/16" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Break A Hoe Heart">OG Dynasty -Break A Hoe Heart</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">18.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/17" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Follow The Code">OG Dynasty -Follow The Code</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">19.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/18" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -All My Energy Part 2">OG Dynasty -All My Energy Part 2</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">20.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/19" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -All I Ever Wanted">OG Dynasty -All I Ever Wanted</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">21.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/20" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Topple">OG Dynasty -Topple</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">22.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/21" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Real People Only (Mastered)">OG Dynasty -Real People Only (Mastered)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">23.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/22" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Hype Up ">OG Dynasty -Hype Up </a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">24.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/23" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Party On A Weekday (Mastered)">OG Dynasty -Party On A Weekday (Mastered)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">25.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now/24" data-title="Lil Uzi Vert Type Beats (Buy Beats Now) -Luv vs. Rage">OG Dynasty -Luv vs. Rage</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+							</div>
+			
+			
+				
+					<a href="/album/dienasty-beats/lil-uzi-vert-type-beats-buy-beats-now#video" class="video-icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62.174px" height="53.37px" viewBox="389.858 270.955 62.174 53.37" enable-background="new 389.858 270.955 62.174 53.37"
+	 xml:space="preserve">
+<g>
+	<path d="M449.122,270.955h-56.354c-1.606,0-2.911,1.301-2.911,2.912v37.542c0,1.608,1.305,2.909,2.911,2.909h21.177v3.252h-7.8
+		l-3.733,6.755h37.063l-3.73-6.755h-7.801v-3.252h21.178c1.608,0,2.909-1.301,2.909-2.909v-37.542
+		C452.031,272.256,450.731,270.955,449.122,270.955z M446.208,308.5h-50.526v-31.724h50.526V308.5L446.208,308.5z"/>
+	<polygon points="416.102,283.02 416.102,302.256 428.547,292.638 	"/>
+</g>
+</svg>
+</a>
+
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.audiomack.com%2Fsong%2Fdienasty-beats%2Ffeel-it-in-the-air&amp;text=OG+Dynasty+-+Feel+It+In+The+Air" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.audiomack.com%2Fsong%2Fdienasty-beats%2Ffeel-it-in-the-air" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/dienasty-beats/feel-it-in-the-air" class="player_image"
+						data-id="music-2818713"
+						data-artist="OG Dynasty"
+						data-title="Feel It In The Air"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="260318"
+						data-url="/song/dienasty-beats/feel-it-in-the-air"
+												data-plays="4"
+						data-favorites="2"
+						data-genre="rap"
+						data-uploader-name="OG Dynasty"
+						>
+					
+						<img src="https://assets.audiomack.com/dienasty-beats/feel-it-in-the-air-160-160-1486911524.jpg" width="160" height="160" alt="OG Dynasty - Feel It In The Air Cover Art"/>
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="item-content-inner">
+
+						<div class="flex-breaker">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=OG+Dynasty">OG Dynasty</a>
+
+									<a class="thicker" href="/song/dienasty-beats/feel-it-in-the-air">Feel It In The Air</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: OG Dynasty</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Added on Feb 12, 2017
+									
+									by 
+											<a class="follow-artist-dienasty-beats" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="260318" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/dienasty-beats/follow">Follow</a>' href="/artist/dienasty-beats">OG Dynasty</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.flex-breaker-->
+
+					  </div><!--/.item-content-inner-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/dienasty-beats/feel-it-in-the-air" class="interaction plays play"
+									data-id="music-2818713"
+									data-artist="OG Dynasty"
+									data-title="Feel It In The Air"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="260318"
+									data-url="/song/dienasty-beats/feel-it-in-the-air"
+																		data-plays="4"
+									data-plays-raw="4"
+									data-favorites="2"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">4</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="2818713"><i class="glyphicon glyphicon-star"></i> Fav (2)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="2818713"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="2818713" ><i class="glyphicon glyphicon-plus"></i> Playlist (0)</a>
+
+							
+						
+						
+						
+							<a class="interaction buy" href="http://www.beatstars.com/beat/feel-it-in-the-air-499360" target="_blank"><i class="glyphicon glyphicon-shopping-cart"></i> Buy</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.audiomack.com%2Falbum%2F88donka%2Fno-surrender-no-retreat&amp;text=Montana+Of+300+-+No+Surrender+No+Retreat" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.audiomack.com%2Falbum%2F88donka%2Fno-surrender-no-retreat" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/album/88donka/no-surrender-no-retreat" class="player_image"
+						data-id="music-2814246"
+						data-artist="Montana Of 300"
+						data-title="No Surrender No Retreat"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="1587836"
+						data-url="/album/88donka/no-surrender-no-retreat"
+												data-plays="58.8K"
+						data-favorites="706"
+						data-genre="rap"
+						data-uploader-name="DJ Donka"
+						>
+					
+						<img src="https://assets.audiomack.com/88donka/no-surrender-no-retreat-160-160-1486725071.jpg" width="160" height="160" alt="DJ Donka - No Surrender No Retreat Cover Art"/>
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="item-content-inner">
+
+						<div class="flex-breaker">
+
+							
+								<span class="repost"><i class="glyphicons retweet"></i> Re-Upped by OG Dynasty</span>
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Album</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=Montana+Of+300">Montana Of 300</a>
+
+									<a class="thicker" href="/album/88donka/no-surrender-no-retreat">No Surrender No Retreat</a>
+
+								</h3>
+
+							
+							
+								<h4 class="featuring">
+
+									Feat.
+
+									
+																						<a href="/search?q=%24avage">$avage</a>, 
+									
+																						<a href="/search?q=Jalyn+Sanders">Jalyn Sanders</a>, 
+									
+																						<a href="/search?q=TO3">TO3</a> & 
+									
+																						<a href="/search?q=No+Fatigue">No Fatigue</a>
+									
+								</h4>
+								
+									<p class="producer track-meta">Producer: Charisma808, 300Cam, TooBluntBeats, HollywoodBanger</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Added on Feb 10, 2017
+									
+									by 
+											<a class="follow-artist-88donka" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1587836" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/88donka/follow">Follow</a>' href="/artist/88donka">DJ Donka</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.flex-breaker-->
+
+					  </div><!--/.item-content-inner-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/album/88donka/no-surrender-no-retreat" class="interaction plays play"
+									data-id="music-2814246"
+									data-artist="Montana Of 300"
+									data-title="No Surrender No Retreat"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="1587836"
+									data-url="/album/88donka/no-surrender-no-retreat"
+																		data-plays="58.8K"
+									data-plays-raw="58828"
+									data-favorites="706"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">58.8K</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="2814246"><i class="glyphicon glyphicon-star"></i> Fav (706)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="2814246"><i class="glyphicons retweet"></i> Re-Up (87)</a>
+
+						
+						
+						
+							
+						
+						
+						
+							<a class="interaction buy" href="https://itunes.apple.com/us/album/no-surrender-no-retreat/id1197922303" target="_blank"><i class="glyphicon glyphicon-shopping-cart"></i> Buy</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+						<div class="plwrapper" for="music-2814246" style="display: none;">
+									<div class="song">
+						<div class="index">01.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/0" data-title="No Surrender No Retreat -Great (Ft. Montana Of 300 Talley Of 300, Jalyn Sanders, No Fatigue &amp; Savage)">Montana Of 300 -Great (Ft. Montana Of 300 Talley Of 300, Jalyn Sanders, No Fatigue &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">02.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/1" data-title="No Surrender No Retreat -Stylin (Ft. Jalyn Sanders, No Fatigue &amp; Montana Of 300)">Montana Of 300 -Stylin (Ft. Jalyn Sanders, No Fatigue &amp; Montana Of 300)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">03.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/2" data-title="No Surrender No Retreat -Gassed (Ft. Talley Of 300, Montana Of 300 &amp; Savage)">Montana Of 300 -Gassed (Ft. Talley Of 300, Montana Of 300 &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">04.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/3" data-title="No Surrender No Retreat -Only Time (Ft. Jalyn Sanders)">Montana Of 300 -Only Time (Ft. Jalyn Sanders)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">05.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/4" data-title="No Surrender No Retreat -Bag (Ft. Montana Of 300, Jalyn Sanders &amp; Talley Of 300)">Montana Of 300 -Bag (Ft. Montana Of 300, Jalyn Sanders &amp; Talley Of 300)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">06.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/5" data-title="No Surrender No Retreat -No Excuses (Ft. Talley Of 300, No Fatigue &amp; Savage)">Montana Of 300 -No Excuses (Ft. Talley Of 300, No Fatigue &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">07.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/6" data-title="No Surrender No Retreat -FGE Cypher, Pt. 3 (Ft. No Fatigue, Talley Of 300, Montana Of 300 &amp; Savage)">Montana Of 300 -FGE Cypher, Pt. 3 (Ft. No Fatigue, Talley Of 300, Montana Of 300 &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">08.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/7" data-title="No Surrender No Retreat -Know You Wanna (Ft. Montana Of 300, Talley Of 300, Jalyn Sanders, No Fatigue &amp; Savage)">Montana Of 300 -Know You Wanna (Ft. Montana Of 300, Talley Of 300, Jalyn Sanders, No Fatigue &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">09.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/8" data-title="No Surrender No Retreat -My Niggas (Ft. Montana Of 300, Talley Of 300, Don D &amp; Savage)">Montana Of 300 -My Niggas (Ft. Montana Of 300, Talley Of 300, Don D &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">10.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/9" data-title="No Surrender No Retreat -Not Tonight (Ft. Jalyn Sanders, Talley Of 300, Montana Of 300 &amp; Savage)">Montana Of 300 -Not Tonight (Ft. Jalyn Sanders, Talley Of 300, Montana Of 300 &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">11.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/10" data-title="No Surrender No Retreat -I'm Up Now (Ft. Jalyn Sanders, No Fatigue, Montana Of 300 &amp; Savage)">Montana Of 300 -I'm Up Now (Ft. Jalyn Sanders, No Fatigue, Montana Of 300 &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">12.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/11" data-title="No Surrender No Retreat -No Mercy (Ft. Talley Of 300 &amp; Savage)">Montana Of 300 -No Mercy (Ft. Talley Of 300 &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">13.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/12" data-title="No Surrender No Retreat -Who TF Is You (Ft. Montana Of 300, No Fatigue &amp; Savage)">Montana Of 300 -Who TF Is You (Ft. Montana Of 300, No Fatigue &amp; Savage)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">14.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/88donka/no-surrender-no-retreat/13" data-title="No Surrender No Retreat -How We Do It (Ft. Jalyn Sanders, Talley Of 300, Montana Of 300 &amp; No Fatigue)">Montana Of 300 -How We Do It (Ft. Jalyn Sanders, Talley Of 300, Montana Of 300 &amp; No Fatigue)</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+							</div>
+			
+			
+				
+					<a href="/album/88donka/no-surrender-no-retreat#video" class="video-icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62.174px" height="53.37px" viewBox="389.858 270.955 62.174 53.37" enable-background="new 389.858 270.955 62.174 53.37"
+	 xml:space="preserve">
+<g>
+	<path d="M449.122,270.955h-56.354c-1.606,0-2.911,1.301-2.911,2.912v37.542c0,1.608,1.305,2.909,2.911,2.909h21.177v3.252h-7.8
+		l-3.733,6.755h37.063l-3.73-6.755h-7.801v-3.252h21.178c1.608,0,2.909-1.301,2.909-2.909v-37.542
+		C452.031,272.256,450.731,270.955,449.122,270.955z M446.208,308.5h-50.526v-31.724h50.526V308.5L446.208,308.5z"/>
+	<polygon points="416.102,283.02 416.102,302.256 428.547,292.638 	"/>
+</g>
+</svg>
+</a>
+
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.audiomack.com%2Falbum%2Fdejloaf%2Ffuck-a-friend-zone&amp;text=Jacquees+x+Dej+Loaf+-+Fuck+A+Friend+Zone" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.audiomack.com%2Falbum%2Fdejloaf%2Ffuck-a-friend-zone" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/album/dejloaf/fuck-a-friend-zone" class="player_image"
+						data-id="music-2815680"
+						data-artist="Jacquees x Dej Loaf"
+						data-title="Fuck A Friend Zone"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="yes"
+						data-uploader="2226067"
+						data-url="/album/dejloaf/fuck-a-friend-zone"
+												data-plays="255K"
+						data-favorites="1.35K"
+						data-genre="rap"
+						data-uploader-name="DejLoaf"
+						>
+					
+						<img src="https://assets.audiomack.com/dejloaf/fuck-a-friend-zone-160-160-1486773901.jpg" width="160" height="160" alt="DejLoaf - Fuck A Friend Zone Cover Art"/>
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="item-content-inner">
+
+						<div class="flex-breaker">
+
+							
+								<span class="repost"><i class="glyphicons retweet"></i> Re-Upped by OG Dynasty</span>
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Album</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=Jacquees+x+Dej+Loaf">Jacquees x Dej Loaf</a>
+
+									<a class="thicker" href="/album/dejloaf/fuck-a-friend-zone">Fuck A Friend Zone</a>
+
+								</h3>
+
+							
+							
+								
+								<p class="uploaded track-meta">
+
+									
+										Added on Feb 10, 2017
+									
+									by 
+											<a class="follow-artist-dejloaf" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="2226067" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/dejloaf/follow">Follow</a>' href="/artist/dejloaf">DejLoaf</a>
+
+										
+									
+										<span class="verified small"><span class="glyphicon glyphicon-ok"></span></span>
+
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.flex-breaker-->
+
+					  </div><!--/.item-content-inner-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/album/dejloaf/fuck-a-friend-zone" class="interaction plays play"
+									data-id="music-2815680"
+									data-artist="Jacquees x Dej Loaf"
+									data-title="Fuck A Friend Zone"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="yes"
+									data-uploader="2226067"
+									data-url="/album/dejloaf/fuck-a-friend-zone"
+																		data-plays="255K"
+									data-plays-raw="254658"
+									data-favorites="1.35K"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">255K</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="2815680"><i class="glyphicon glyphicon-star"></i> Fav (1.35K)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="2815680"><i class="glyphicons retweet"></i> Re-Up (127)</a>
+
+						
+						
+						
+							
+						
+						
+						
+							<a id="download-14871973165912" class="interaction download" href="https://music.audiomack.com/albums/dejloaf/fuck-a-friend-zone/dejloaf-fuck-a-friend-zone.zip?Expires=1487200916&Signature=C0iigUaCzN2XVJB5LlqG~qKcXTzP2aS27bX6Ym6s12QUp1orJvf2U8zjJoD-lwKhuUKha3XmPOZ0gg7IjVj9oByyDkyqKyH6HNUFjhu-HozF26oRjgP7TTjgzoH35-8h8v1Lu0QO1DlTZuZcowsnXCGkLSWLU13ERkb090715E4_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA" data-url="/album/dejloaf/fuck-a-friend-zone" data-follow-download="no"><i class="glyphicon glyphicon-save"></i> Download</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+						<div class="plwrapper" for="music-2815680" style="display: none;">
+									<div class="song">
+						<div class="index">01.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/0" data-title="Fuck A Friend Zone -Fuck A Friend ZONE">Jacquees x Dej Loaf -Fuck A Friend ZONE</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">02.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/1" data-title="Fuck A Friend Zone -No Better Love">Jacquees x Dej Loaf -No Better Love</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">03.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/2" data-title="Fuck A Friend Zone -At The Club">Jacquees x Dej Loaf -At The Club</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">04.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/3" data-title="Fuck A Friend Zone -Hold This">Jacquees x Dej Loaf -Hold This</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">05.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/4" data-title="Fuck A Friend Zone -Deeper">Jacquees x Dej Loaf -Deeper</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">06.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/5" data-title="Fuck A Friend Zone -Set It Off">Jacquees x Dej Loaf -Set It Off</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">07.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/6" data-title="Fuck A Friend Zone -Your Body">Jacquees x Dej Loaf -Your Body</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">08.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/7" data-title="Fuck A Friend Zone -Want Your Sex">Jacquees x Dej Loaf -Want Your Sex</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">09.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/8" data-title="Fuck A Friend Zone -Hold You Up">Jacquees x Dej Loaf -Hold You Up</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">10.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/9" data-title="Fuck A Friend Zone -Make You Fall In Love">Jacquees x Dej Loaf -Make You Fall In Love</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">11.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/10" data-title="Fuck A Friend Zone -You Belong To Somebody Else">Jacquees x Dej Loaf -You Belong To Somebody Else</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">12.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/11" data-title="Fuck A Friend Zone -Waves">Jacquees x Dej Loaf -Waves</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+									<div class="song">
+						<div class="index">13.</div>
+						<div class="title">
+							<a href="#" data-url="https://www.audiomack.com/api/music/url/album/dejloaf/fuck-a-friend-zone/12" data-title="Fuck A Friend Zone -The World Along With You">Jacquees x Dej Loaf -The World Along With You</a>
+						</div>
+						<div class="spacer"></div>
+					</div>
+							</div>
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.audiomack.com%2Fsong%2Frenzel%2Fsummer-17&amp;text=Rick+Ross+-+Summer+17" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.audiomack.com%2Fsong%2Frenzel%2Fsummer-17" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/renzel/summer-17" class="player_image"
+						data-id="music-2812185"
+						data-artist="Rick Ross"
+						data-title="Summer 17"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="1527318"
+						data-url="/song/renzel/summer-17"
+												data-plays="80.2K"
+						data-favorites="1.61K"
+						data-genre="rap"
+						data-uploader-name="renzel"
+						>
+					
+						<img src="https://assets.audiomack.com/renzel/summer-17-main-160-160-1486661832.jpg" width="160" height="160" alt="renzel - Summer 17 Cover Art"/>
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="item-content-inner">
+
+						<div class="flex-breaker">
+
+							
+								<span class="repost"><i class="glyphicons retweet"></i> Re-Upped by OG Dynasty</span>
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=Rick+Ross">Rick Ross</a>
+
+									<a class="thicker" href="/song/renzel/summer-17">Summer 17</a>
+
+								</h3>
+
+							
+							
+								
+								<p class="uploaded track-meta">
+
+									
+										Added on Feb 09, 2017
+									
+									by 
+											<a class="follow-artist-renzel" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="1527318" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/renzel/follow">Follow</a>' href="/artist/renzel">renzel</a>
+
+										
+									
+										<span class="verified small"><span class="glyphicon glyphicon-ok"></span></span>
+
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.flex-breaker-->
+
+					  </div><!--/.item-content-inner-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/renzel/summer-17" class="interaction plays play"
+									data-id="music-2812185"
+									data-artist="Rick Ross"
+									data-title="Summer 17"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="1527318"
+									data-url="/song/renzel/summer-17"
+																		data-plays="80.2K"
+									data-plays-raw="80151"
+									data-favorites="1.61K"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">80.2K</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="2812185"><i class="glyphicon glyphicon-star"></i> Fav (1.61K)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="2812185"><i class="glyphicons retweet"></i> Re-Up (135)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="2812185" ><i class="glyphicon glyphicon-plus"></i> Playlist (1.58K)</a>
+
+							
+						
+						
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+			
+		
+		
+
+		
+		
+		
+				
+			<div class="track single-feed-item">
+
+			<div class="row inner-row">
+
+				<div class="feed-share-icons">
+
+					<a class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.audiomack.com%2Fsong%2Fdienasty-beats%2Fall-night-every-night&amp;text=OG+Dynasty+-+All+Night+Every+Night" class="mobile-twitter-share" target="_blank"><i class="fa fa-twitter"></i></a>
+
+					<a class="facebook" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.audiomack.com%2Fsong%2Fdienasty-beats%2Fall-night-every-night" target="_blank"><i class="fa fa-facebook"></i></a>
+
+				</div><!--/.share-icons-->
+
+				<div class="cover image">
+
+															<a href="/song/dienasty-beats/all-night-every-night" class="player_image"
+						data-id="music-2812774"
+						data-artist="OG Dynasty"
+						data-title="All Night Every Night"
+						data-favorite="false"
+						data-repost="false"
+						data-preroll="no"
+						data-uploader="260318"
+						data-url="/song/dienasty-beats/all-night-every-night"
+												data-plays="2"
+						data-favorites="1"
+						data-genre="rap"
+						data-uploader-name="OG Dynasty"
+						>
+					
+						<img src="https://assets.audiomack.com/dienasty-beats/all-night-every-night-160-160-1486678091.jpg" width="160" height="160" alt="OG Dynasty - All Night Every Night Cover Art"/>
+
+						
+						
+					</a>
+
+				</div><!--/.cover-->
+
+				<div class="feed-item-content">
+
+					<div class="item-content-inner">
+
+						<div class="flex-breaker">
+
+							
+							
+							<p class="genre">
+
+								
+									<span class="type">Song</span><a href="/rap">Hip-Hop/R&amp;B</a>
+
+								
+							</p>
+
+							
+								<h3 class="artist-title">
+
+									<a href="/search?q=OG+Dynasty">OG Dynasty</a>
+
+									<a class="thicker" href="/song/dienasty-beats/all-night-every-night">All Night Every Night</a>
+
+								</h3>
+
+							
+							
+								
+									<p class="producer track-meta">Producer: OG Dynasty</p>
+
+								
+								<p class="uploaded track-meta">
+
+									
+										Added on Feb 09, 2017
+									
+									by 
+											<a class="follow-artist-dienasty-beats" data-toggle="popover" data-html="true" data-popover="true" data-placement="top" data-content='<a class="follow-user follow feed-follow-artist launch_login_modal" data-music_id="260318" data-action="follow" data-toggle="tooltip" data-original-title="Follow" data-placement="right" href="/artist/dienasty-beats/follow">Follow</a>' href="/artist/dienasty-beats">OG Dynasty</a>
+
+										
+									
+							  </p><!--/.uploaded-->
+
+						  </div><!--/.flex-breaker-->
+
+					  </div><!--/.item-content-inner-->
+
+				</div><!--/.feed-item-content-->
+
+				<div class="track-interactions">
+
+					
+						
+															<a href="/song/dienasty-beats/all-night-every-night" class="interaction plays play"
+									data-id="music-2812774"
+									data-artist="OG Dynasty"
+									data-title="All Night Every Night"
+									data-favorite="false"
+									data-repost="false"
+									data-preroll="no"
+									data-uploader="260318"
+									data-url="/song/dienasty-beats/all-night-every-night"
+																		data-plays="2"
+									data-plays-raw="2"
+									data-favorites="1"
+									>
+								
+										<i class="glyphicons play"></i> Play (<span class="stat-count">2</span>)
+
+								</a>
+
+							
+						
+						
+							<a class="interaction fav launch_login_modal" href="#" data-action="favorite" data-music_id="2812774"><i class="glyphicon glyphicon-star"></i> Fav (1)</a>
+
+						
+						
+						
+							<a class="interaction reup launch_login_modal" href="#" data-action="repost" data-music_id="2812774"><i class="glyphicons retweet"></i> Re-Up (0)</a>
+
+						
+						
+						
+							
+								<a class="interaction playlist launch_login_modal" data-action="favorite" data-music_id="2812774" ><i class="glyphicon glyphicon-plus"></i> Playlist (0)</a>
+
+							
+						
+						
+						
+							<a class="interaction buy" href="http://www.beatstars.com/beat/all-night-every-night-495615" target="_blank"><i class="glyphicon glyphicon-shopping-cart"></i> Buy</a>
+
+						
+						
+						
+
+					
+				</div><!--/.track-interaction-->
+
+			</div><!--/.row-->
+
+			
+			
+				
+			
+		</div><!--/.single-feed-item-->
+		
+	
+	
+
+									<a class="am-button" href="/artist/dienasty-beats">See more from OG Dynasty</a>
+
+								</div><!--/.feed-->
+
+							</div><!--/.section-content-->
+
+						</div><!--/.recent-tracks-->
+					
+				</div><!--/.left-content-->
+
+
+				<div class="right-content sidebar col-xs-4 view-sidebar">
+
+	<div class="ad-widget widget">
+
+		<div class="widget-content">
+
+						<script type="text/javascript">if (typeof cmnUNT !== 'undefined') { CMNUNT.load('300x250,300x600', {}); }</script>
+	
+		</div><!--/.widget-content-->
+
+	</div><!---/.widget-->
+
+
+	
+		
+		<div class="artist-social featured-widget widget">
+		
+			<div class="top-bar">
+
+				<span class="icon star-icon"></span>
+
+				<h4 class="top-bar-title widget-title">Follow OG Dynasty</h4>
+
+			</div><!--/.top-bar-->
+			
+			<div class="widget-content">
+			
+				<a target="_blank" class="twitter-link player-icon" href="http://www.twitter.com/ogdynastync"><i class="fa fa-twitter"></i></a><a target="_blank" class="instagram-link player-icon" href="http://www.instagram.com/ogdynastync"><i class="fa fa-instagram"></i></a>			
+			</div><!--/.widget-content-->
+		
+		</div><!--/.artist-social-->
+	
+	
+</div><!--/.right-content-->
+			</div><!--/.profile-content-->
+
+		</div><!--/.container-->
+
+	</div><!--/#song-->
+
+	
+			</div><!--/#main-->
+
+		</div><!--END CMN_WRAP-->
+
+					<div style="text-align:center;margin-bottom:25px">
+
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Footer - 728x90 -->
+				<ins class="adsbygoogle"
+						 style="display:inline-block;width:728px;height:90px"
+						 data-ad-client="ca-pub-3858157454086512"
+						 data-ad-slot="3761977983"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
+			</div>
+		
+				<footer id="footer" class="footer">
+
+			<div class="container">
+
+				<div class="company left">
+
+					<span class="footer-logo">Audiomack</span>
+
+					<p>Copyright &copy; 2017 Audiomack LLC. <br/>All Rights Reserved.</p>
+
+					<ul class="social inline-list">
+
+						<li class="twitter"><a href="https://twitter.com/audiomack" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+						<li class="facebook"><a href="https://www.facebook.com/audiomack" target="_blank"><i class="fa fa-facebook"></i></a></li>
+
+						<li class="instagram"><a href="https://www.instagram.com/audiomack" target="_blank"><i class="fa fa-instagram"></i></a></li>
+
+						<li class="gplus"><a href="https://plus.google.com/113996177993476717786" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+
+					</ul><!--/.social-->
+
+				</div><!--/.company-->
+
+				<div class="widgets-wrap">
+
+					<div class="menu-widgets">
+
+						<div class="widget">
+
+							<ul>
+
+								<li><a href="/">Home</a></li>
+
+								<li><a href="/trending">Trending</a></li>
+
+								<li><a href="/songs">Top Songs</a></li>
+
+								<li><a href="/albums">Top Albums</a></li>
+
+								<li><a href="/playlists">Top Playlists</a></li>
+
+						</div><!--/.widget-->
+
+						<div class="widget">
+
+							<ul>
+
+								
+									<li><a href="#" class="signup-modal-trigger" data-target-pane="signup-form-wrap">Sign up / Sign In</a></li>
+
+								
+								<li><a href="/legal">Legal &amp; DMCA</a></li>
+
+								<li><a href="/privacy-policy">Privacy Policy</a></li>
+
+								<li><a href="/about/terms-of-service">Terms of Service</a></li>
+
+                                <li><a href="/assets/audiomack-2.0-media-kit.zip">Media Kit</a></li>
+
+								<li><a href="/contact-us">Contact / Support</a></li>
+
+						</div><!--/.widget-->
+
+						<div class="widget">
+
+							<ul>
+
+								<li><a href="/account/create">About</a></li>
+
+								<li><a href="/wordpress">Wordpress</a></li>
+
+								<li><a href="https://itunes.apple.com/us/app/audiomack/id921765888?ls=1&mt=8">iOS App</a></li>
+
+								<li><a href="https://play.google.com/store/apps/details?id=com.audiomack">Android App</a></li>
+
+						</div><!--/.widget-->
+
+					</div><!--/.menu-widgets-->
+
+				</div><!--/.widgets-wrap-->
+
+			</div><!--/.container-->
+
+		</footer><!--/footer-->
+
+
+				<div id="signup-modal" class="am-modal-clean modal fade signup-modal">
+
+	<div class="modal-dialog">
+
+		<div class="modal-header">
+
+			<button class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+			<h4 class="modal-title" style="font-weight:700; text-transform: uppercase; font-size:16px;"><i class="glyphicon glyphicon-user" style="padding-right:10px"></i><span>Create an Account</span></h4>
+
+		</div>
+
+		<div class="modal-content">
+
+			<div class="logo-wrap text-center">
+
+				<img class="am-modal-logo" src="/images/logo-dark@2x.png" alt="Audiomack">
+
+			</div><!--/.logo-wrap-->
+
+			<div class="button-group text-center">
+
+				<a id="login-form-facebook" href="#" class="fbLogin fb-login" data-overlay-target="login-modal-overlay" data-redirect-target="/dashboard" data-action="" data-actionid=""><i class="fa fa-facebook"></i> Login / signup with Facebook</a>
+
+				<p class="fb-note">* If you already have an account we will merge it with your existing account if the email address from Facebook matches your Audiomack account.</p>
+
+			</div><!--/.button-group-->
+
+			<p class="decision-divider text-center"><span>or</span></p>
+
+			<div id="signup-form-wrap" class="signup-form form-wrap">
+
+				<h3 class="title text-center">New user sign up</h3>
+
+				<form id="signup-form" method="post" action="/account/create">
+					<input id="signup-form-immediatate-action" type="hidden" value="" name="immediate_action"/>
+					<input id="signup-form-music-id" type="hidden" value="" name="music_id"/>
+
+					<div class="form-group">
+
+						<input type="text" name="artist_name" value="" placeholder="Screen Name *"/>
+
+					</div><!--/.form-group-->
+
+					<div class="form-group">
+
+						<input type="email" name="email" value="" placeholder="Email Address *"/>
+
+					</div><!--/.form-group-->
+
+					<div class="form-group">
+
+						<input type="password" name="password" value="" placeholder="Password *"/>
+
+					</div><!--/.form-group-->
+
+					<div class="form-group">
+
+						<input type="password" name="password2" value="" placeholder="Confirm Password *"/>
+
+					</div><!--/.form-group-->
+					<input type="hidden" value="b9491e2409278761ac6002228c27083b" name="csrf_token"/>
+
+					<div class="form-group tos-group">
+
+						<input type="hidden" name="agree_to_terms" id="agree_to_terms" value="1">
+						<span class="help-inline tos-label">By signing up you agree to our <a href="/about/terms-of-service" target="_blank">terms of service</a></span>
+
+					</div><!--/.form-group-->
+					<div class="form-group ">
+						<div class="g-recaptcha" data-sitekey="6LeHQQcTAAAAAAe_A78BrpbQ9-lVpv1De3-XL4Px"></div>
+						<label id="captcha_error" style="color: red; font-weight: normal; margin-left:15px;"/>
+					</div>
+
+					<div class="text-center">
+
+						<input type="hidden" name="redirect" value=""/>
+						<input type="hidden" name="type" value="Fan"/>
+
+						<input type="submit" id="specialBootstrapClickId" class="am-btn wide large" value="Sign Up &rarr;"/>
+
+						<div id="status"></div>
+
+					</div><!--/.text-center-->
+
+				</form>
+
+			</div><!--/.signup-form-->
+
+			<div id="login-form-wrap" class="login-form form-wrap active">
+
+				<h3 class="title text-center">Existing user login</h3>
+
+				<form id="login-form" method="post">
+					<input id="login-form-immediatate-action" type="hidden" value="" name="immediate_action"/>
+					<input id="login-form-music-id" type="hidden" value="" name="music_id"/>
+
+					<div class="form-group">
+
+						<input type="text" name="email" id="bootstrap-email" value="" class="form-control" required="" placeholder="Email Address">
+						<label id="split-email-error" style="color: red; font-weight: normal; margin-left:15px;"/>
+
+					</div><!--/.form-group-->
+
+					<div class="form-group">
+
+						<input type="password" name="password" id="bootstrap-password" value="" placeholder="Password" class="form-control" required="">
+						<label id="split-password-error" style="color: red; font-weight: normal; margin-left:15px;"/>
+
+					</div><!--/.form-group-->
+
+					<div class="form-group trouble-links text-right">
+
+						<p class="forgot-password"><a href="/account/forgot-password">Forgot your password?</a></p>
+
+						<p class="trouble-logging-in"><a href="/contact-us">Having trouble logging in?</a></p>
+
+					</div><!--/.trouble-links-->
+
+					<input type="hidden" value="b9491e2409278761ac6002228c27083b" name="csrf_token"/>
+					<input type="hidden" name="redirect" value=""/>
+
+					<div class="text-center">
+
+						<input type="submit" name="bootstrap[login]" id="bootstrap-login" value="Login &rarr;" buttons="danger info primary success warning inverse link" class="am-btn wide large">
+
+					</div><!--/.text-center-->
+
+				</form>
+
+			</div><!--/.login-form-->
+
+			<p class="switch text-center" data-wrap-id="login-form-wrap" data-modal-title="Log In">Already have an account? <span>Log in</span></p>
+
+			<p class="switch text-center visible" data-wrap-id="signup-form-wrap" data-modal-title="Create an Account">Don't have an account? <span>Sign Up For Free</span></p>
+
+			<div id="login-modal-overlay" class="overlay loader-overlay">
+
+				<div class="loader">
+
+					<svg class="circular" viewBox="25 25 50 50">
+
+						<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+
+					</svg>
+
+				</div><!--/.loader-->
+
+			</div><!--/.overlay-loader-->
+
+		</div><!--/.modal-content-->
+
+	</div><!--/.modal-dialog-->
+
+</div><!--/.modal-->
+
+<script>
+
+	$(function(){
+
+		$('.switch').click(function(){
+			var $wrapId = $(this).data('wrap-id'),
+				$modalTitle = $(this).data('modal-title');
+
+			$('.switch').toggleClass('visible');
+
+			$('.form-wrap').removeClass('active');
+			$('.form-wrap#'+ $wrapId +'').addClass('active');
+			$('#signup-modal .modal-title span').text($modalTitle);
+
+		});
+
+		$('.tos-label').click(function(){
+			$('#agree_to_terms').click();
+		});
+
+		$('form#login-form').bootstrapValidator({
+			message: 'This value is not valid',
+			feedbackIcons: {
+				valid: 'glyphicon glyphicon-ok',
+				invalid: 'glyphicon glyphicon-remove',
+				validating: 'glyphicon glyphicon-refresh'
+			},
+			fields: {
+				email: {
+					trigger: 'blur',
+					verbose: false,
+					validators: {
+						notEmpty: {
+							message: 'Email address is required and cannot be empty'
+						},
+						emailAddress: {
+							message: 'You need to enter a valid email address'
+						}
+					}
+				},
+				password: {
+					trigger: 'submit blur',
+					validators: {
+						notEmpty: {
+							message: 'Your password is required to login'
+						},
+						stringLength: {
+							min: 4,
+							message: 'Your password must be at least 4 characters'
+						},
+						remote: {
+							url: '/account/login/check',
+							type: 'POST',
+							message: 'Incorrect Password',
+							data: function(validator, $field, value) {
+                            return {
+                                email: validator.getFieldElements('email').val()
+                            };
+                        },
+						}
+						
+					}
+				}
+			}
+		}).on('error.field.bv', function(e, data) {
+			$('#login-form [type=submit]').attr('disabled', false);
+		}).on('success.form.bv', function (e) {
+			e.preventDefault();
+			var values = $(this).serialize();
+			$.ajax({
+				url: '/account/login/modal',
+				data: values,
+				cache: false,
+				success: function(data) {
+					if(data['error'] != undefined) {
+						if(data['error']['email'] != undefined) {
+							$('#split-email-error').html(data['error']['email']);
+						} else {
+							$('#split-email-error').html('');
+						}
+
+						if(data['error']['password']!= undefined) {
+							$('#split-password-error').html(data['error']['password']);
+
+						} else {
+							$('#split-password-error').html('');
+						}
+
+					} else {
+						if(data['redirect'] != undefined ) {
+							location.href = data['redirect'];
+						} else if("" != '') {
+							location.href = '';
+						} else {
+							location.reload();
+						}
+
+						
+					}
+				},
+				type: 'POST'
+			});
+		});
+
+		$('form#login-form').submit(function(e) {
+		});
+
+			$('form#signup-form').bootstrapValidator({
+				message: 'This value is not valid',
+				feedbackIcons: {
+					valid: 'glyphicon glyphicon-ok',
+					invalid: 'glyphicon glyphicon-remove',
+					validating: 'glyphicon glyphicon-refresh'
+				},
+				onError: function(e) {
+					var firstError = $(e.target).data('bootstrapValidator').getMessages()[0];
+					$('#specialBootstrapClickId').attr('disabled', false); // Just don't disable the start button it's buggy
+				},
+				fields: {
+					artist_name: {
+						validators: {
+							notEmpty: {
+								message: 'The artist name is required and cannot be empty'
+							},
+							stringLength: {
+								min: 1,
+								max: 75,
+								message: 'The artist name must be less than 75 characters long'
+							}
+						}
+					},
+					email: {
+						trigger: 'blur',
+						verbose: false,
+						validators: {
+							notEmpty: {
+								message: 'Email address is required and cannot be empty'
+							},
+							emailAddress: {
+								message: 'You need to enter a valid email address'
+							},
+							remote: {
+								url: '/account/create/check',
+								type: 'POST',
+								message: 'That email address is already in use'
+							}
+						}
+					},
+					password: {
+						validators: {
+							notEmpty: {
+								message: 'The passwords are required and cannot be empty'
+							},
+							stringLength: {
+								min: 4,
+								message: 'Your password must be at least 4 characters'
+							},
+						}
+					},
+					password2: {
+						validators: {
+							notEmpty: {
+								message: 'The passwords are required and cannot be empty'
+							},
+							stringLength: {
+								min: 4,
+								message: 'Your password must be at least 4 characters'
+							},
+							identical: {
+								field: 'password',
+								message: 'Your passwords do not match'
+							}
+						}
+					}
+				}
+			}).on('error.field.bv', function(e, data) {
+				$('#signup-form [type=submit]').attr('disabled', false);
+			}).on('success.form.bv', function (e) {
+				e.preventDefault();
+
+				$('.full-screen-loader').hide().css({
+					'display' : 'flex'
+				});
+				ll('tagEvent', 'Signup Successful', {
+				    'source': 'Desktop signup page'
+				});
+
+				var values = $(this).serialize();
+
+				$.ajax({
+					url: '/account/create',
+					data: values,
+					cache: false,
+					success: function(data) {
+						$('.full-screen-loader').hide();
+						if(data['error']) {
+							//If the only error that comes back is the recaptcha, don't disable the submit button
+							$('#captcha_error').html(data['error']);
+							$('#signup-form [type=submit]').attr('disabled', false);
+						} else {
+							if(data['redirect'] != undefined ) {
+								location.href = data['redirect'];
+							} else if("" != '') {
+								location.href = '';
+							} else {
+								location.reload();
+							}
+						}
+
+					},
+					error: function(data) {
+
+					},
+					type: 'POST'
+				});
+			});
+
+	});
+
+</script>
+
+	</div><!--/#site-wrap-->
+
+		<div id="embed" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" style="font-weight:700; text-transform: uppercase; font-size:16px;">Embed This Song</h4>
+			</div>
+
+			<div class="modal-body" style="max-height: 550px">
+								<ul class="nav nav-tabs">
+											<li class="active">
+							<a href="#embed-large" data-toggle="tab">Large</a>
+						</li>
+											<li class="">
+							<a href="#embed-standard" data-toggle="tab">Standard</a>
+						</li>
+											<li class="">
+							<a href="#embed-thin" data-toggle="tab">Thin</a>
+						</li>
+										<li><a href="#embed-wordpress" data-toggle="tab">Wordpress</a></li>
+					<li><a href="reload-embed" id="reload_embed">Reload Embed</a></li>
+				</ul>
+
+				<div class="tab-content">
+
+											<div class="tab-pane active" id="embed-large">
+
+							<div class="row" style="margin-top: 15px; margin-bottom: 15px">
+								<div class="col-xs-12">
+									<textarea class="embed-text form-control" onclick="this.focus();this.select()" style="height: 75px">&lt;iframe src="https://www.audiomack.com/embed4-large/dienasty-beats/like-james-brown" scrolling="no" width="100%" height="250" scrollbars="no" frameborder="0"&gt;&lt;/iframe&gt;</textarea>
+								</div>
+							</div>
+
+							<div class="inembed">
+								<iframe scrolling='no' width='100%' height='250' scrollbars='no' frameborder='0' src='' data-src="/embed4-large/dienasty-beats/like-james-brown?demo=1"></iframe>
+							</div>
+						</div>
+											<div class="tab-pane " id="embed-standard">
+
+							<div class="row" style="margin-top: 15px; margin-bottom: 15px">
+								<div class="col-xs-12">
+									<textarea class="embed-text form-control" onclick="this.focus();this.select()" style="height: 75px">&lt;iframe src="https://www.audiomack.com/embed4/dienasty-beats/like-james-brown" scrolling="no" width="100%" height="110" scrollbars="no" frameborder="0"&gt;&lt;/iframe&gt;</textarea>
+								</div>
+							</div>
+
+							<div class="inembed">
+								<iframe scrolling='no' width='100%' height='110' scrollbars='no' frameborder='0' src='' data-src="/embed4/dienasty-beats/like-james-brown?demo=1"></iframe>
+							</div>
+						</div>
+											<div class="tab-pane " id="embed-thin">
+
+							<div class="row" style="margin-top: 15px; margin-bottom: 15px">
+								<div class="col-xs-12">
+									<textarea class="embed-text form-control" onclick="this.focus();this.select()" style="height: 75px">&lt;iframe src="https://www.audiomack.com/embed4-thin/dienasty-beats/like-james-brown" scrolling="no" width="100%" height="62" scrollbars="no" frameborder="0"&gt;&lt;/iframe&gt;</textarea>
+								</div>
+							</div>
+
+							<div class="inembed">
+								<iframe scrolling='no' width='100%' height='62' scrollbars='no' frameborder='0' src='' data-src="/embed4-thin/dienasty-beats/like-james-brown?demo=1"></iframe>
+							</div>
+						</div>
+					
+					<div class="tab-pane" id="embed-wordpress">
+						<p>Wordpress.com (Hosted) users: Simply enter the url of the song or album you want to play on your site and it will automatically turn into an embed.</p>
+						<textarea class="embed-text url form-control" onclick="this.focus();this.select()" style="height: auto">https://www.audiomack.com/song/dienasty-beats/like-james-brown</textarea>
+						<p>Wordpress.org (Self-Hosted) users: You have three options:</p>
+						<ol>
+							<li>Download our Wordpress Plugin <a href="https://wordpress.org/plugins/audiomack/" target="_blank">https://wordpress.org/plugins/audiomack/</a>. You can then paste the url or use the shortcode generator in the plugin.</li>
+							<li>Install Jetpack (<a href="http://jetpack.me/" target="_blank">http://jetpack.me/</a>). This doesnt have all the functionality of our plugin but it will allow you to embed by pasting the url.</li>
+							<li>Use the iframe code - If you are an administrator of your account and have opted to "allow unfiltered html" in your posts, then you can use the iframe embed code on the other tabs of this modal.</li>
+						</ol>
+					</div><!--/#wordpress-->
+
+				</div>
+			</div>
+			<div class="modal-footer">
+			</div>
+		</div><!-- /.modal-content -->
+	 </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script>
+
+var reloadIframe = function (e) {
+	e.preventDefault();
+	document.querySelector('.tab-pane.active iframe').contentWindow.location.reload();
+
+}
+
+var lazyLoadIframe = function () {
+	var activeIframe = $('.tab-pane.active iframe');
+
+	if (activeIframe) {
+		if (activeIframe.attr('src') === '' && activeIframe.data('src') !== '') {
+			activeIframe.attr('src', activeIframe.data('src'));
+		}
+	}
+};
+
+$('#embed').on('show.bs.modal', lazyLoadIframe);
+$('a[data-toggle="tab"]').on('shown.bs.tab', lazyLoadIframe);
+
+$('#reload_embed').on('click', reloadIframe);
+
+</script>
+
+		<div class="modal fade am-modal-clean two-col-modal modal--app-overlay am-modal--center-vertical" id="app-overlay">
+		 <div class="modal-dialog text-center">
+		   <div class="modal-content">
+			 <div class="modal-header">
+
+			   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+			   <div class="logo">
+				   <a href="https://www.audiomack.com" target="_blank"><img class="logo-image" src="/images/logo-dark@2x.png" alt=""/></a>
+			  </div><!--/.logo-->
+
+		  	</div><!--/,modal-header-->
+
+			 <div class="modal-body">
+
+				 <p class="blurb">
+					Listen to the best new hip-hop, reggae, and electronic music on the Audiomack App.
+				 </p>
+
+				 <div class="button-group">
+
+ 					<a target="_blank" class="am-btn" href="https://audiomack.app.link/desktop-post-play">Download the Audiomack app</a>
+
+ 				</div><!--/.button-group-->
+
+		        <ul class="app-logos inline-list">
+
+		        	<li class="ios"><a href="https://audiomack.app.link/desktop-post-play" target="_blank"><img src="/images/ios-app-badge.png" style="height:30px" alt="ios app"/></a></li>
+
+		        	<li class="android"><a href="https://audiomack.app.link/desktop-post-play" target="_blank"><img src="/images/android-app-badge.png" style="height:30px" alt="android app"/></a></li>
+
+		        </ul><!--/.app-logos-->
+
+			 </div>
+		   </div><!-- /.modal-content -->
+		 </div><!-- /.modal-dialog -->
+	   </div><!-- /.modal -->
+
+   
+		<script type="text/javascript" src="https://s.audiomack.com/js/bootstrapValidator.min.js"></script>
+					<script>
+				(function() {
+					window.cToolbarInit = function() {
+						cToolbar.load({
+							mobileRightButton: 'sms',
+							facebookUsername: 'audiomack',
+							facebookName: 'audiomack',
+							twitterHandle: 'audiomack',
+							twitterName: 'audiomack',
+							youtubeChannel: 'audiomackvideo',
+							youtubeChannelName: 'audiomack',
+							desktopBackground: 'solid',
+							desktopSocialButtons: ["facebook","twitter"],
+							channel: 'Music'
+						});
+					};
+
+					var ns = document.createElement('script');
+					ns.type = 'text/javascript';
+					ns.async = true;
+					ns.src = 'https://toolbar.complex.com/dist/ctoolbar.min.js';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(ns, s);
+				})();
+			</script>
+		
+		<!--Comscore Beacon-->
+		<script>document.write(unescape("%3Cscript src=\'" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js\' %3E%3C/script%3E"));</script>
+		<script>
+			COMSCORE.beacon({
+				c1:2,
+				c2:6685975,
+				c3:"",
+				c4:"www.audiomack.com/song/dienasty-beats/like-james-brown",
+				c5:"",
+				c6:"",
+				c15:""
+			});
+		</script>
+		<noscript><img src="//b.scorecardresearch.com/p?c1=2&amp;c2=6685975&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" /></noscript>
+		<!-- / Comscore Beacon-->
+
+		<script type="text/javascript">
+			$(document).keypress(function(e) {
+				if(!$(document.activeElement).is('input')) {
+					if(audiomack.keytoplay) {
+						if (e.keyCode == 32) {
+							e.preventDefault();
+								$('#play-button').click();
+						};
+					}
+				}
+			});
+
+							$(document).ready(function(e) {
+					var url = window.location.href;
+					if(url.match('#launch_login_modal')) {
+						$('#login').modal('show');
+					}
+				});
+					</script>
+
+		<div class="full-screen-loader">
+
+			<div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active is-upgraded" data-upgraded=",MaterialSpinner"><div class="mdl-spinner__layer mdl-spinner__layer-1"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-2"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-3"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div><div class="mdl-spinner__layer mdl-spinner__layer-4"><div class="mdl-spinner__circle-clipper mdl-spinner__left"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__gap-patch"><div class="mdl-spinner__circle"></div></div><div class="mdl-spinner__circle-clipper mdl-spinner__right"><div class="mdl-spinner__circle"></div></div></div></div>
+
+		</div><!--/.full-screen-loader-->
+
+					<script>
+				if (typeof cmnUNT !== 'undefined') { CMNUNT.load('tover', {}); }
+			</script>
+		
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f0bc7fac1c","applicationID":"6106354","transactionName":"ZABRYxBXWxJWVkEIWF1KclQWX1oPGFFQB1ZGCUcYEVlbBkQaQwhSRA==","queueTime":0,"applicationTime":357,"atts":"SEdSFVhNSBw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

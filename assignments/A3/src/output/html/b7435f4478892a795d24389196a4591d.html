@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html id="frame">
+<head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"725c972e91","applicationID":"15948462","transactionName":"Ig0PQkpbW1lWEUsPXQ8JEhlLXFhC","queueTime":0,"applicationTime":20,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <title>The Local: Bassflopper cuts through jazz music&#39;s improvisational history on new song</title>
+  <link rel="stylesheet" media="all" href="/assets/application-f929099cfcb408bf7f1ba714c24954727160eb3adc6fba89a31243af1280c6f8.css" data-turbolinks-track="true" />
+  <script src="/assets/application-0b7a37b7bcb079c9f0a272f356e2b84f882f795356ace8f19d27979fe47310bc.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="5BNQ8AIV29i7m4OMe2PCrnb7EfOK1ZDWVz8dnQhZGJ7xQ90NTZEWwQAJhoez51K2/npaOfjzuYHRO7tk97PnWA==" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+
+<script>
+
+  $(document).ready(function() {
+
+    $('.close, .cover').click(function(){
+      $('.cover').hide();
+      $('#iframe-modal .inner').hide();
+      $('#iframe-top').show();
+    });
+  });
+</script>
+
+<div id="framed-page">
+  <div id="iframe-modal">
+    <div class="cover"></div>
+
+    <div class="inner txt-center">
+
+      <img class="close" src="/assets/close_modal-7c1a4263c3c1b8ac15f66628a53680088769317b87f6160c6357d2db78364b57.png" alt="Close modal" />
+
+      <div class="header">
+        <img class="avatar" src="https://upflow.s3.amazonaws.com/uploads/account/9695/thumb_b237da14-bf78-45f8-9c82-cd9c0b7a0fe3.jpg" alt="Thumb b237da14 bf78 45f8 9c82 cd9c0b7a0fe3" />
+
+        <div class="profile">
+          <div class="username">collective251</div>
+          <div class="url"><a href="/?cta=modal-1" target="_blank">found this using upflow.co</a></div>
+        </div>
+      </div>
+
+      <div class="more"><a href="/?cta=modal-1" target="_blank">Grow your followers by posting better content</a></div>
+
+      <a href="/?cta=modal-1" target="_blank" class="btn-primary">
+        LEARN MORE
+      </a>
+    </div>
+  </div>
+
+  <div id="iframe-top">
+
+  <div class="message">
+
+    <!--<a href="/?cta=top-bar" class="cta-text">See content suggestions tailored to your followers</a>
+    <a href="/?cta=top-bar" class="cta-btn">LEARN MORE</a>-->
+
+    
+      <a href="/?cta=top-bar" class="cta-text" target="_blank">Grow your followers by posting better content</a>
+      <a href="/?cta=top-bar" class="cta-btn" target="_blank">Learn more</a>
+
+    <!--<a href="/login_tab?s=cta" class="cta-text" onclick="openLogin('cta'); return false;">Post content tailored to your followers automatically</a>
+    <a href="/login_tab?s=cta" class="cta-btn" onclick="openLogin('cta'); return false;">TRY IT NOW</a>-->
+  </div>
+
+  <div class="clear"></div>
+</div>
+
+  <div id="frame-wrapper-full">
+    <iframe id="target-frame" src="http://nooga.com/174962/the-local-bassflopper-cuts-through-jazz-musics-improvisational-history-on-new-song/?ref=upflow.co"></iframe>
+  </div>
+</div>
+
+
+</body>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-71559750-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</html>

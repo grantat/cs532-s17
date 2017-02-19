@@ -1,0 +1,162 @@
+<!DOCTYPE html><!--[if IE 7 ]>
+<html lang="ja" class="ie ie7"></html><![endif]-->
+<!--[if IE 8 ]>
+<html lang="ja" class="ie ie8"></html><![endif]-->
+<!--[if IE 9 ]>
+<html lang="ja" class="ie9"></html><![endif]-->
+<!--[if !(IE)]><!-->
+<html lang="ja"><!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <title>2017年1月30日（月）16:00～17:00 | AFTERNOON DELIGHT(16時台) | FM COCOLO | radiko.jp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="/apps/css/style.css" rel="stylesheet" media="all">
+    <script src="/apps/lib/jquery-1.11.3.min.js"></script>
+    <script src="/apps/lib/jquery.cookie-min.js"></script>
+    <meta property="og:title"            content="2017年1月30日（月）16:00～17:00 | AFTERNOON DELIGHT(16時台) | FM COCOLO | radiko.jp">
+    <meta property="og:url"              content="http://radiko.jp/share/?sid=CCL&t=20170130162500">
+    <meta property="og:type"             content="article"/>
+    <meta property="og:image"            content="http://radiko.jp/v2/api/image?img=http://radiko.jp/res/program/DEFAULT_IMAGE/CCL/cl_20161005164008_6070289.png">
+    <meta property="og:site_name"        content="radiko.jp">
+    <meta property="og:description"      content="●特集・企画〈月曜日のAFTERNOON DELIGHT〉&amp;nbsp;2時台には『MUSIC PARADE』ノンストップMIX色んなサウンドがカラフルに飛び出します&amp;nbsp;同じく2時台『MASTER">
+    <meta name="twitter:card"        content="summary_large_image"/>
+    <meta name="twitter:site"        content="@radiko_jp"/>
+    <meta name="twitter:title"       content="AFTERNOON DELIGHT(16時台) | FM COCOLO | 2017/01/30/月 16:00-17:00"/>
+    <meta name="twitter:description" content="●特集・企画〈月曜日のAFTERNOON DELIGHT〉&amp;nbsp;2時台には『MUSIC PARADE』ノンストップMIX色んなサウンドがカラフルに飛び出します&amp;nbsp;同じく2時台『MASTER"/>
+    <meta name="twitter:image"       content="http://radiko.jp/v2/api/image?img=http://radiko.jp/res/program/DEFAULT_IMAGE/CCL/cl_20161005164008_6070289.png"/>
+  </head>
+  <body id="radikojp" class="page-share page-timeshift">
+<script>
+
+	// url パラメータ取得
+	var get_qs = function() {
+		var ret = {};
+		if (location.search.length > 1) {
+			var ary = location.search.substr(1).split("&");
+			for (var i = 0 ; i < ary.length ; i++) {
+				var kv  = ary[i].split("=");
+				if (ret[kv[0]] == undefined) {
+					ret[kv[0]]  = [];
+				}
+				ret[kv[0]].push(kv[1]);
+			}
+		}
+		return ret;
+	};
+
+	var relocate = function() {
+		var q	= get_qs();
+		// 期限切れページでブラウザバック等のページ遷移を行う度にビーコンが飛んでしまうのでnoreload
+		window.location = window.location + "&noreload=1";
+
+
+	};
+
+	// ログビーコンのURLを取得
+	var get_share_log_url = function(params) {
+		params.station = "CCL";
+		params.t = "20170130162500";
+		// キャッシュ対策
+		params._ =  Math.floor(Math.random() * 1000000);
+
+		var param_str = "";
+		$.each(params, function(key, val){
+			param_str += "&" + key + "=" + val;
+		});
+		var url = "http://beacon.radiko.jp/share.gif";
+		return url + param_str.replace(/^./,"?");
+	};
+
+	// シェアページに到達したらログビーコンを送る
+	var q	= get_qs();
+	if (q.noreload) {
+		// 一度リロードずみ
+	} else {
+		var params = {};
+		params.type = "land_sp";
+		url = get_share_log_url(params);
+		$("body").prepend("<img id=\"lang_log\" src=\""+ url + "\" alt=\"\">");
+		$("#lang_log").on("load error", function() {
+			relocate();
+		});
+	}
+
+
+$(function(){
+	// ストア遷移時にログビーコンを送信
+	$(".share__download img").on("click", function(e) {
+		var params = {};
+		params.type = "trans_store";
+		if( $(this).attr("id") == "itunesimg" ) {
+			params.store = "itunes";
+		} else {
+			params.store = "play";
+		}
+		log_url = get_share_log_url(params);
+		$("body").prepend("<img id=\"store_log\" src=\""+ log_url + "\" alt=\"\">");
+		var store_url = $(this).parent("a").attr("href");
+		$("#store_log").on("load error", function() {
+			location.href = store_url;
+		});
+
+		return false;
+	});
+});
+
+</script>
+    <div class="container">
+      <div class="header">
+        <header>
+          <div class="header__utility">
+            <div class="header__inner">
+              <div class="header__logo"><a href="/"><img src="/apps/images/img_logo_red_01.png" alt="radiko.jp"></a></div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="content content__main">
+        <div class="content__inner">
+          <div class="content__share share">
+            <div class="share__attention">
+              <p><i class="icon icon--attention"></i>ラジコは、日本国内限定のサービスとなりますので、今アクセスしている場所からではラジオを聴くことができません。<br>This application program is released for use in Japan only and is not to be used in any other conuntry</p>
+            </div>
+            <div class="share__description group">
+              <div class="share__img"><img src="http://radiko.jp/res/program/DEFAULT_IMAGE/CCL/cl_20161005164008_6070289.png" alt=""></div>
+              <div class="share__body">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>放送局</th>
+                      <td><img src="/v2/static/station/logo/CCL/258x60.png" alt="CCL"></td>
+                    </tr>
+                    <tr>
+                      <th>放送時間</th>
+                      <td>2017年1月30日（月）16:00～17:00  </td>
+                    </tr>
+                    <tr>
+                      <th>番組名</th>
+                      <td>AFTERNOON DELIGHT(16時台)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="share__detail">
+                ●特集・企画<br />〈月曜日のAFTERNOON DELIGHT〉<br />&nbsp;<br />2時台には『MUSIC PARADE』<br />ノンストップMIX<br />色んなサウンドがカラフルに飛び出します<br />&nbsp;<br />同じく2時台『MASTER'S VOICE』<br />毎日日替わりで、各分野のスペシャリストから<br />とっておきの情報を伝えて頂きます！<br />&nbsp;<br />3時台『グランマーブル BLOOMING HEART』<br />お茶に添えるトピックと音楽でホッと一息&#12316;。<br />&nbsp;<br />このコーナーでは、<br />メッセージを頂いた方の中から毎週抽選で<br />1名様に、グランマーブルの<br />「デニッシュ ＆ クルート・セット」を<br />プレゼントしています&#12316;&#12316;！<br />&nbsp;<br />今週のメッセージテーマは・・・<br />「お気に入りの豆知識」<br />&nbsp;<br />みなさんの知っているお気に入りの”豆知識”<br />教えて下さい<br />&nbsp;<br />たくさんのメッセージ＆エントリー<br />お待ちしております！<br />&nbsp;<br />同じく3時台<br />『BILLBOARD LIVE OSAKA &#12316;MUSIC INVITATION』<br />毎週月曜日は、AFTERNOON DELIGHTが厳選した<br />BILLBOARD LIVE OSAKAのステージに、COCOLOリスナーの方<br />ペア1組をご招待します<br />&nbsp;<br />今日のMUSIC INVITATIONは…ジョディ・ワトリー<br /><br /><br /><br /><br />⇒番組HPは<u><a href='https://cocolo.jp/service/homepage/index/1140'>コチラ</a></u><br />⇒リクエスト・メッセージは<u><a href='https://cocolo.jp/i/req/1140'>コチラ</a></u><br />⇒twitterハッシュタグは「#fmcocolo765」<br />⇒twitterアカウントは「@fmcocolo765」<br />⇒facebookページは<u><a href='https://ja-jp.facebook.com/FMCOCOLO'>コチラ</a></u><br />
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <footer>
+          <div class="footer__inner">
+            <p class="footer__copyright"><small>Copyright © radiko co., Ltd. All rights reserved</small></p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

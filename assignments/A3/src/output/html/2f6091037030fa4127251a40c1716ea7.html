@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie9" lang="fr"><![endif]-->
+<!--[if !IE]><!--><html lang="fr"><!--<![endif]-->
+	<head>
+		<title>LE SON DU JOUR : Jamiroquai est de retour avec &quot;Automaton&quot;. - SensCritique</title>
+
+				<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQUCU1NUABABXVJQBwIOVg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{h?h-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,h=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(d){"stack"in d&&(t(12),t(11),"addEventListener"in window&&t(6),s.xhrWrappable&&t(13),u=!0)}c.on("fn-start",function(t,e,n){u&&(h+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&h>0&&(h-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){j++,S=y.hash,this[u]=Date.now()}function o(){j--,y.hash!==S&&i(0,!0);var t=Date.now();this[l]=~~this[l]+t-this[u],this[h]=t}function i(t,e){x.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=Date.now()})}var c="-start",s="-end",f="-body",u="fn"+c,h="fn"+s,d="cb"+c,p="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location;if(w[v]){var g=t(9),b=t(10),x=t(8),E=t(6),T=t(12),O=t(7),R=t(13),P=t("ee"),D=P.get("tracer");t(14),t("loader").features.spa=!0;var S,N=w[v],j=0;P.on(u,r),P.on(d,r),P.on(h,o),P.on(p,o),P.buffer([u,h,"xhr-done","xhr-resolved"]),E.buffer([u]),T.buffer(["setTimeout"+s,"clearTimeout"+c,u]),R.buffer([u,"new-xhr","send-xhr"+c]),O.buffer([m+c,m+"-done",m+f+c,m+f+s]),x.buffer(["newURL"]),g.buffer([u]),b.buffer(["propagate",d,p,"executor-err","resolve"+c]),D.buffer([u,"no-"+u]),a(R,"send-xhr"+c),a(P,"xhr-resolved"),a(P,"xhr-done"),a(O,m+c),a(O,m+"-done"),x.on("pushState-end",i),x.on("replaceState-end",i),N("hashchange",i,!0),N("load",i,!0),N("popstate",function(){i(0,j>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",h="bstResource",d="resource",p="-start",l="-end",m="fn"+p,v="fn"+l,w="bstTimer",y="pushState";t("loader").features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(h,[window.performance.getEntriesByType(d)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(h,[window.performance.getEntriesByType(d)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,h],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(21)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",h="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(h+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,h=a.Response,d=a.fetch,p="prototype";u&&h&&d&&(i(f,function(t,e){r(u[p],e,s),r(h[p],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(21)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(21)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(21),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(21)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",h="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+h),a.inPlace(window,[s],s+h),a.inPlace(window,[f,"clearImmediate"],f+h),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){h.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),h.inPlace(t,v,"fn-",c)}function i(t){w.push(t),l&&(g=-g,b.data=g)}function a(){for(var t=0;t<w.length;t++)r([],w[t]);w.length&&(w=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),h=t(21)(u),d=NREUM.o,p=d.XHR,l=d.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,h.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var g=1,b=document.createTextNode(g);new l(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<h;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],h=u.length,d=t("id"),p=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<h;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],h="api-",d=h+"ixn-";a(u,function(t,e){f[e]=o(h+e,!0,"api")}),f.addPageAction=o(h+"addPageAction",!0),f.setCurrentRouteName=o(h+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(d+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(d+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){d([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(h){throw u(e+"err",[r,a,h],c),h}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,h(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){d([a,n,r,o])}s=i}}function h(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!d.aborted){t&&t(n,r,o);for(var i=e(o),a=l(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return h[t]=h[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},g={on:p,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(d.aborted=!0,u=d.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},h={},d=e.exports=o();d.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=h.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(w,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=h.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===h.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(19),f=t("ee"),u=window,h=u.document,d="addEventListener",p="attachEvent",l=u.XMLHttpRequest,m=l&&l.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:l,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(16);var v=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1016.min.js"},y=l&&m&&m[d]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:v,features:{},xhrWrappable:y};h[d]?(h[d]("DOMContentLoaded",i,!1),u[d]("load",r,!1)):(h[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,14,5,3,4]);</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+							<meta name="description" content="Post de Jean-Mathieu Berthelot sur SensCritique - LE SON DU JOUR : Jamiroquai est de retour avec &quot;Automaton&quot;." />
+											<link rel="canonical" href="https://www.senscritique.com/posts/LE_SON_DU_JOUR_Jamiroquai_est_de_retour_avec_Automaton/10364?utm_term=Post%20SC%20Jamiroquai&utm_content=buffer61a9f&utm_medium=social&utm_source=bufferapp.com&utm_campaign=buffer"/>
+				
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-T7KMCR');</script>
+		<!-- End Google Tag Manager -->
+
+							<script src="https://www.smartadserver.com/config.js?nwid=104" type="text/javascript"></script>
+								<script type="text/javascript">
+									if (typeof sas !== 'undefined') {
+										sas.setup({ domain: "https://www.smartadserver.com", async: true, renderMode: 1});
+										sas.call("onecall", {
+											siteId:		"75932",
+											pageId:		"627016",
+											formatId:	"922,19176,930,41614,920,19175,32325,10192,31712,928,32325",
+											target:		""
+										});
+									}
+								</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-T75FWN');</script>
+		
+
+		<link rel="publisher" href="https://plus.google.com/+senscritique">
+
+		<link rel="apple-touch-icon" sizes="57x57" href="https://static.senscritique.com/img/favicon/apple-touch-icon-57x57.png?v=eELP384vde">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://static.senscritique.com/img/favicon/apple-touch-icon-60x60.png?v=eELP384vde">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://static.senscritique.com/img/favicon/apple-touch-icon-72x72.png?v=eELP384vde">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://static.senscritique.com/img/favicon/apple-touch-icon-76x76.png?v=eELP384vde">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://static.senscritique.com/img/favicon/apple-touch-icon-114x114.png?v=eELP384vde">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://static.senscritique.com/img/favicon/apple-touch-icon-120x120.png?v=eELP384vde">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://static.senscritique.com/img/favicon/apple-touch-icon-144x144.png?v=eELP384vde">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://static.senscritique.com/img/favicon/apple-touch-icon-152x152.png?v=eELP384vde">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://static.senscritique.com/img/favicon/apple-touch-icon-180x180.png?v=eELP384vde">
+		<link rel="icon" type="image/png" href="https://static.senscritique.com/img/favicon/favicon-32x32.png?v=eELP384vde" sizes="32x32">
+		<link rel="icon" type="image/png" href="https://static.senscritique.com/img/favicon/favicon-194x194.png?v=eELP384vde" sizes="194x194">
+		<link rel="icon" type="image/png" href="https://static.senscritique.com/img/favicon/favicon-96x96.png?v=eELP384vde" sizes="96x96">
+		<link rel="icon" type="image/png" href="https://static.senscritique.com/img/favicon/android-chrome-192x192.png?v=eELP384vde" sizes="192x192">
+		<link rel="icon" type="image/png" href="https://static.senscritique.com/img/favicon/favicon-16x16.png?v=eELP384vde" sizes="16x16">
+		<link rel="manifest" href="https://static.senscritique.com/img/favicon/manifest.json?v=eELP384vde">
+		<link rel="shortcut icon" href="https://static.senscritique.com/img/favicon/favicon.ico?v=eELP384vde">
+
+		
+						
+			
+			
+			
+			
+      
+      
+			
+			
+			
+			
+			
+			
+			
+			
+		  	    	    <link rel="stylesheet" type="text/css" href="https://static.senscritique.com/lib/optimized_ln/layouts/default.html.min.css?datetime=20170215230701"/>
+		
+	  
+	
+	
+	
+	
+  
+		
+	
+	
+	
+	
+	
+	
+		
+		<link rel="stylesheet" type="text/css" href="https://static.senscritique.com/lib/optimized_ln/forum/view.html.min.css?datetime=20170215230701"/>
+
+		<!--[if lt IE 9]>
+			<script>
+				document.createElement('header');
+				document.createElement('section');
+				document.createElement('article');
+				document.createElement('aside');
+				document.createElement('nav');
+				document.createElement('footer');
+				document.createElement('figure');
+				document.createElement('figcaption');
+				document.createElement('hgroup');
+				document.createElement('time');
+				document.createElement('canvas');
+			</script>
+		<![endif]-->
+		<link rel="apple-touch-icon" href="/img/favicon/57.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/114.png">
+	</head>
+	<body
+		class=""
+				data-sc-registered="0"
+		data-sc-page-type-id=""
+		data-sc-page-section-id="16"
+		data-sc-page-view-id="1"
+		data-sc-page-object-id="10364"
+		
+				>
+
+					<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7KMCR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+		
+						
+				
+				
+										
+        		
+			<div class="wrap" >
+
+								
+
+
+<script type="text/x-jqote-template" data-rel="sc-headerSearch-autocomplete"><![CDATA[
+	<li class="eiau-autocomplete-row">
+		<a href="<%= this.url %>" class="eiau-autocomplete-action">
+			<figure class="eiau-autocomplete-figure">
+				<img src="<%= this.image %>" alt="<%= this.label %>" width="30" />
+			</figure>
+			<div class="d-heading5">
+				<%= this.label %>
+				<% if (this.originalLabel) { %>
+					<small class="eiau-autocomplete-original-title"><%= this.originalLabel %></small>
+				<% } %>
+			</div>
+			<small class="eiau-autocomplete-info"><%= this.description %></small>
+		</a>
+	</li>
+]]></script>
+
+<script type="text/x-jqote-template" data-rel="sc-headerSearch-autocomplete-more"><![CDATA[
+	<li class="eiau-autocomplete-row eiau-autocomplete-more">
+		<a class="eiau-autocomplete-action">
+			Voir tous les résultats pour &laquo; <%= this.query %> &raquo;
+		</a>
+	</li>
+]]></script>
+
+
+
+
+<header class="lahe-header">
+	<div class="lahe-header-topBar">
+		<div class="lahe-topBar-wrapper" data-rel="sc-headerTopBar">
+
+						
+			<div class="d-grid lahe-topBar-content">
+								<div class="lahe-topBar-userMenu">
+											<div class="lahe-userMenu-action signinAction" data-rel="sc-headerSignin-caller">
+							<button type="button" data-rel="btn-register" data-scmodal-type="login" class="d-link-alt">Déjà inscrit</button> ?
+							<form action="/" method="POST" class="lahe-userSubmenu lahe-signin" data-rel="sc-headerSignin">
+								<div class="lahe-userSubmenu-tip"></div>
+								<p class="lahe-signin-label">Connectez-vous avec</p>
+								<a href="/oauthapi/facebook" class="lahe-signin-connect facebook">Facebook</a>
+								<a href="/oauthapi/twitter" class="lahe-signin-connect twitter">Twitter</a>
+								<p class="lahe-signin-label">ou</p>
+								<input type="text" class="lahe-signin-field" name="email" placeholder="Adresse email" data-rel="sc-headerSignin-email" />
+								<input type="password" class="lahe-signin-field" name="password" placeholder="Mot de passe" data-rel="sc-headerSignin-password" />
+								<fieldset class="lahe-signin-clear">
+									<input type="submit" class="d-button-success lahe-signin-confirm" value="Connexion" />
+									<a href="/auth/forgetPassword" class="lahe-signin-forgot">Mot de passe oublié ? </a>
+									<p class="lahe-signin-error d-hidden" data-rel="sc-headerSignin-error"></p>
+								</fieldset>
+							</form>
+						</div>
+						<a href="/register" class="lahe-userMenu-connect">Créer mon compte</a>
+									</div>
+
+								<a href="/" class="lahe-header-brand">
+					<strong class="lahe-brand-name">SensCritique</strong>
+				</a>
+
+								<ul class="lahe-topBar-navigation">
+          <li>
+            <a href="#" class="lahe-topBar-menuIcon"></a>
+          </li>
+											<li class="lahe-navigation-universe " data-rel="sc-universeMenu-caller">
+							<a href="/films" class="lahe-universe-label type-1">Films</a>
+									
+	
+						<ul class="enmm-mainMenu type-1 d-hidden" data-rel="sc-universeMenu">
+				<li class="enmm-mainMenu-tip" data-rel="sc-universeMenu-tip"></li>
+													<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-ticket  enmm-mainMenu-ico" ></span>Au cinéma</div>
+																																														<a href="/films/cette-semaine" class="d-link-alt enmm-mainMenu-category">Sorties de la semaine</a>
+															<a href="/films/toujours-a-l-affiche" class="d-link-alt enmm-mainMenu-category">À l&#039;affiche</a>
+															<a href="https://www.senscritique.com/films/salles-de-cinema" class="d-link-alt enmm-mainMenu-category">Mes cinémas</a>
+															<a href="/top/resultats/Les_meilleurs_films_de_2016/1152822" class="d-link-alt enmm-mainMenu-category">Meilleurs films 2016</a>
+																		</li>
+									<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-tv  enmm-mainMenu-ico" ></span>TV / VOD</div>
+																																														<a href="/everymovie" class="d-link-alt enmm-mainMenu-category">EveryMovie</a>
+															<a href="/everymovie/programme-tv/cette-semaine" class="d-link-alt enmm-mainMenu-category">A la télé</a>
+															<a href="/everymovie/vod" class="d-link-alt enmm-mainMenu-category">En VOD</a>
+																		</li>
+									<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-compass  enmm-mainMenu-ico" ></span>Guide</div>
+																																														<a href="/films/tops/top100-des-top10" class="d-link-alt enmm-mainMenu-category">Vos films préférés</a>
+															<a href="/films/tops/top111" class="d-link-alt enmm-mainMenu-category">Top 111 films</a>
+															<a href="/films/sondages" class="d-link-alt enmm-mainMenu-category">Sondages</a>
+															<a href="" class="d-link-alt enmm-mainMenu-category"></a>
+																		</li>
+							</ul>
+																		
+						</li>
+											<li class="lahe-navigation-universe " data-rel="sc-universeMenu-caller">
+							<a href="/series" class="lahe-universe-label type-4">Séries</a>
+									
+	
+															<ul class="enmm-mainMenu type-4 d-hidden" data-rel="sc-universeMenu">
+				<li class="enmm-mainMenu-tip" data-rel="sc-universeMenu-tip"></li>
+													<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-newspaper  enmm-mainMenu-ico" ></span>Actualité</div>
+																																														<a href="/series/actualite" class="d-link-alt enmm-mainMenu-category">Séries du moment</a>
+															<a href="/top/resultats/Les_meilleures_series_de_2016/1172216" class="d-link-alt enmm-mainMenu-category">Meilleures séries 2016</a>
+																		</li>
+									<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-compass  enmm-mainMenu-ico" ></span>Guide</div>
+																																														<a href="/series/tops/top100-des-top10" class="d-link-alt enmm-mainMenu-category">Vos séries préférées</a>
+															<a href="/series/tops/top111" class="d-link-alt enmm-mainMenu-category">Top 111 séries</a>
+															<a href="/series/sondages" class="d-link-alt enmm-mainMenu-category">Sondages</a>
+															<a href="" class="d-link-alt enmm-mainMenu-category"></a>
+																		</li>
+							</ul>
+									
+						</li>
+											<li class="lahe-navigation-universe " data-rel="sc-universeMenu-caller">
+							<a href="/jeuxvideo" class="lahe-universe-label type-3">Jeux</a>
+									
+	
+												<ul class="enmm-mainMenu type-3 d-hidden" data-rel="sc-universeMenu">
+				<li class="enmm-mainMenu-tip" data-rel="sc-universeMenu-tip"></li>
+													<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-newspaper  enmm-mainMenu-ico" ></span>Actualité</div>
+																																														<a href="/jeuxvideo/actualite" class="d-link-alt enmm-mainMenu-category">Jeux du moment</a>
+															<a href="/jeuxvideo/sorties-jeuxvideo/2017/fevrier" class="d-link-alt enmm-mainMenu-category">Agenda</a>
+															<a href="/jeuxvideo/prochaines-sorties" class="d-link-alt enmm-mainMenu-category">Jeux les plus attendus</a>
+															<a href="/top/resultats/Les_meilleurs_jeux_video_de_2016/1178452" class="d-link-alt enmm-mainMenu-category">Meilleurs jeux 2016</a>
+																		</li>
+									<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-compass  enmm-mainMenu-ico" ></span>Guide</div>
+																																														<a href="/jeuxvideo/tops/top100-des-top10" class="d-link-alt enmm-mainMenu-category">Vos jeux préférés</a>
+															<a href="/jeuxvideo/tops/top111" class="d-link-alt enmm-mainMenu-category">Top 111 jeux</a>
+															<a href="/jeuxvideo/sondages" class="d-link-alt enmm-mainMenu-category">Sondages</a>
+															<a href="" class="d-link-alt enmm-mainMenu-category"></a>
+																		</li>
+							</ul>
+												
+						</li>
+											<li class="lahe-navigation-universe " data-rel="sc-universeMenu-caller">
+							<a href="/livres" class="lahe-universe-label type-2">Livres</a>
+									
+	
+									<ul class="enmm-mainMenu type-2 d-hidden" data-rel="sc-universeMenu">
+				<li class="enmm-mainMenu-tip" data-rel="sc-universeMenu-tip"></li>
+													<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-newspaper  enmm-mainMenu-ico" ></span>Actualité</div>
+																																														<a href="/livres/actualite" class="d-link-alt enmm-mainMenu-category">Livres du moment</a>
+															<a href="/livres/meilleures-ventes" class="d-link-alt enmm-mainMenu-category">Meilleures ventes</a>
+															<a href="/top/resultats/Les_meilleurs_livres_de_2016/1166333" class="d-link-alt enmm-mainMenu-category">Meilleurs livres 2016</a>
+															<a href="https://www.senscritique.com/liste/Les_prix_litteraires_de_2016/1503117" class="d-link-alt enmm-mainMenu-category">Prix littéraires 2016</a>
+																		</li>
+									<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-compass  enmm-mainMenu-ico" ></span>Guide</div>
+																																														<a href="/livres/tops/top100-des-top10" class="d-link-alt enmm-mainMenu-category">Vos livres préférés</a>
+															<a href="/livres/tops/top111" class="d-link-alt enmm-mainMenu-category">Top 111 livres</a>
+															<a href="/livres/sondages" class="d-link-alt enmm-mainMenu-category">Sondages</a>
+															<a href="" class="d-link-alt enmm-mainMenu-category"></a>
+																		</li>
+							</ul>
+															
+						</li>
+											<li class="lahe-navigation-universe " data-rel="sc-universeMenu-caller">
+							<a href="/bd" class="lahe-universe-label type-5">BD</a>
+									
+	
+																		<ul class="enmm-mainMenu type-5 d-hidden" data-rel="sc-universeMenu">
+				<li class="enmm-mainMenu-tip" data-rel="sc-universeMenu-tip"></li>
+													<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-newspaper  enmm-mainMenu-ico" ></span>Actualité</div>
+																																														<a href="/bd/actualite" class="d-link-alt enmm-mainMenu-category">Franco-belge</a>
+															<a href="/bd/actualite/comics" class="d-link-alt enmm-mainMenu-category">Comics</a>
+															<a href="/bd/actualite/manga" class="d-link-alt enmm-mainMenu-category">Mangas</a>
+															<a href="/top/resultats/Les_meilleures_BD_de_2016/1178681" class="d-link-alt enmm-mainMenu-category">Meilleures BD 2016</a>
+																		</li>
+									<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-compass  enmm-mainMenu-ico" ></span>Guide</div>
+																																														<a href="/bd/tops/top100-des-top10" class="d-link-alt enmm-mainMenu-category">Vos BD préférées</a>
+															<a href="/bd/tops/top111" class="d-link-alt enmm-mainMenu-category">Top 111 BD</a>
+															<a href="/bd/sondages" class="d-link-alt enmm-mainMenu-category">Sondages</a>
+															<a href="" class="d-link-alt enmm-mainMenu-category"></a>
+																		</li>
+							</ul>
+						
+						</li>
+											<li class="lahe-navigation-universe " data-rel="sc-universeMenu-caller">
+							<a href="/musique" class="lahe-universe-label type-6">Musique</a>
+									
+	
+																					<ul class="enmm-mainMenu type-6 d-hidden" data-rel="sc-universeMenu">
+				<li class="enmm-mainMenu-tip" data-rel="sc-universeMenu-tip"></li>
+													<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-newspaper  enmm-mainMenu-ico" ></span>Actualité</div>
+																																														<a href="/musique/actualite" class="d-link-alt enmm-mainMenu-category">Albums du moment</a>
+															<a href="/musique/prochaines-sorties" class="d-link-alt enmm-mainMenu-category">Prochaines sorties</a>
+															<a href="/top/resultats/Les_meilleurs_albums_de_2016/1176005" class="d-link-alt enmm-mainMenu-category">Meilleurs albums 2016</a>
+																		</li>
+									<li class="enmm-mainMenu-section" data-rel="sc-universeMenu-section">
+													<div class="enmm-mainMenu-label"><span class="eins-sprite eins-compass  enmm-mainMenu-ico" ></span>Guide</div>
+																																														<a href="/musique/tops/top100-des-top10" class="d-link-alt enmm-mainMenu-category">Vos albums préférés</a>
+															<a href="/musique/tops/top111" class="d-link-alt enmm-mainMenu-category">Top 111 albums</a>
+															<a href="/musique/sondages" class="d-link-alt enmm-mainMenu-category">Sondages</a>
+															<a href="" class="d-link-alt enmm-mainMenu-category"></a>
+																		</li>
+							</ul>
+			
+						</li>
+										<li class="lahe-navigation-universe lahe-navigation-forum">
+						<a href="/posts" class="lahe-universe-label forum">Posts</a>
+					</li>
+														</ul>
+			</div>
+		</div>
+	</div>
+		<div class="lahe-header-searchBar">
+		<div class="d-grid">
+			<form action="/recherche?" method="GET" class="lahe-searchBar-content" data-rel="sc-headerSearch">
+				<div class="lahe-searchBar-placeholder" data-rel="sc-headerSearch-placeholder">
+					<span class="eins-sprite eins-magnify-glass  lahe-placeholder-ico" ></span> Chercher une œuvre, un artiste, une liste, un cinéma ou un membre
+				</div>
+				<div class="lahe-searchBar-inner">
+                    <div class="lahe-header-social" data-rel="sc-headerSearch-social">
+            <a id="socialBtHeaderFB" href="https://www.facebook.com/senscritique" target="_blank" class="lahe-header-socialIcon">
+              <span class="eins-sprite eins-facebook  " ></span>
+      			</a>
+            <a id="socialBtHeaderTW" href="https://twitter.com/senscritique" target="_blank" class="lahe-header-socialIcon">
+                <span class="eins-sprite eins-twitter  " ></span>
+      			</a>
+          </div>
+					<div class="lahe-searchBar-ico" data-rel="sc-headerSearch-submit">
+						<span class="eins-sprite eins-magnify-glass  " ></span>
+					</div>
+										<div class="lahe-searchBar-queryFilters">
+						<label class="lahe-queryFilters-current" data-current-filter="0">Tout</label>
+						<ul class="lahe-queryFilters-list" data-rel="sc-headerSearch-filtersList">
+																							<li class="lahe-queryFilters-filter active" data-available-filter="0">Tout</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="movies">Films</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="tvshows">Séries</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="books">Livres</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="comics">BD</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="videogames">Jeux vidéo</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="albums">Albums de musique</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="tracks">Morceaux de musique</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="lists">Listes d'oeuvres</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="polls">Sondages</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="franchises">Sagas</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="contacts">Artistes et sociétés</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="users">Membres</li>
+																							<li class="lahe-queryFilters-filter " data-available-filter="venues">Cinémas</li>
+													</ul>
+					</div>
+					<input type="text" name="query" value="" class="unfocus lahe-searchBar-query" data-rel="sc-headerSearch-query" />
+					<button type="button" class="lahe-searchBar-close" data-rel="sc-headerSearch-close">
+						<span class="eins-sprite eins-delete  " ></span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</header>
+
+								
+													<div class="d-grid lahe-breadcrumb"><ul class="lahe-breadcrumb-content 	efco-leftGap
+"><li ><a href="/posts" class="lahe-breadcrumb-anchor">Posts</a><span class="d-chevron3-r lahe-breadcrumb-divider"></span></li><li ><a href="/posts/musique" class="lahe-breadcrumb-anchor">Musique</a><span class="d-chevron3-r lahe-breadcrumb-divider"></span></li><li class="lahe-breadcrumb-item">Post de SensCritique</li></ul><a href="/post" class="efco-newTopic fov-newTopic">Créer un post</a></div>				
+									<div class="d-grid">
+				<div class="efco-mainContainer" data-rel="forum-topic-container"
+				data-sc-message-ids="null"
+				data-sc-messages-parent-ids="null"
+				data-sc-full-messages-parent-ids="null"
+				data-sc-first-message="null">
+			<div class="efco-leftCol" data-rel="forum-leftCol">
+										
+	<div class="efsc-score  efsc-score-root" data-rel="forum-vote-container forum-vote-root" data-item-type="topic" data-item-id="10364">
+		<div class="eins-sprite eins-upvote  efsc-score-action " data-rel="forum-btn" data-vote="up"></div>
+		<div data-rel="forum-score" class="efsc-score-count">3</div>
+		<div class="eins-sprite eins-downvote  efsc-score-action " data-rel="forum-btn" data-vote="down"></div>
+	</div>
+
+			</div>
+			<article class="efco-rightCol efco-box">
+				<header class="fov-topic-header">
+					<h1 class="d-heading1 fov-topic-title">LE SON DU JOUR : Jamiroquai est de retour avec &quot;Automaton&quot;.</h1>
+									</header>
+													<div class="d-rubric-inner">
+						<div class="fov-topic-medium" style="" data-rel="external-video" data-sc-no-preroll="" data-sc-video-mode="player" data-sc-video-start="{:start_at}" data-sc-video-id="6twol6GKjrxZ4sBr5Xg6WY?play=true&utm_source=open.spotify.com&utm_medium=open" data-sc-param-index-id="0" data-sc-video-type="5" data-sc-video-width="805" data-sc-video-height="557" data-sc-video-poster="" data-sc-video-autoplay="" data-sc-video-disablerebound="" data-sc-video-delay="{:delay}" data-sc-video-hidecontrols="" data-sc-video-mute="{:mute}"><iframe src="https://embed.spotify.com/?uri=spotify:track:6twol6GKjrxZ4sBr5Xg6WY?play=true&utm_source=open.spotify.com&utm_medium=open" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></div>
+					</div>
+																<footer class="fov-topic-footer">
+					<ul class="fov-topic-stats">
+						<li class="fov-topic-statItem">
+							<b class="fov-topic-statCount">218</b> vues
+						</li>
+						<li class="fov-topic-statItem">
+							<b data-rel="forum-total-comment-text" class="fov-topic-statCount">0</b> réponse
+						</li>
+					</ul>
+					<time datetime="2017-01-27 12:20:25+01:00" class="fov-topic-footerItem" data-rel="timeago">27 janvier 2017</time>
+																					· <button type="button" class="d-link fov-topic-footerItem" data-rel="forum-feedback" data-sc-topic-id="10364">signaler</button>
+														</footer>
+			</article>
+		</div>
+
+				<div class="efco-leftGap fov-topicAuthor">
+							<img src="https://static.senscritique.com/img/about/avatar2.png" class="efco-avatar" alt="SensCritique" width="80" height="80" />
+						<div class="fov-topicAuthor-inner">
+				<button type="button" class="fov-topicAuthor-share twitter" 	
+														
+		
+			data-rel="btn-share" data-sc-type="twitter" data-sc-without-hashtag="true" data-sc-label="LE SON DU JOUR : Jamiroquai est de retour avec &amp;quot;Automaton&amp;quot;." data-sc-url="http://www.senscritique.com/posts/LE_SON_DU_JOUR_Jamiroquai_est_de_retour_avec_Automaton/10364"
+	
+>Twitter</button>
+				<button type="button" class="fov-topicAuthor-share facebook" 	
+														
+		
+			data-rel="btn-share" data-sc-type="facebook" data-sc-description="" data-sc-title="LE SON DU JOUR : Jamiroquai est de retour avec &amp;quot;Automaton&amp;quot;." data-sc-label="Post de Jean-Mathieu Berthelot sur SensCritique" data-sc-url="http://www.senscritique.com/posts/LE_SON_DU_JOUR_Jamiroquai_est_de_retour_avec_Automaton/10364"
+	
+>Facebook</button>
+				<div class="fov-topicAuthor-title official">
+					Par
+											<span class="fov-topicAuthor-name">SensCritique</span>
+									</div>
+							</div>
+		</div>
+
+		<ul class="d-rubric efco-leftGap">
+								<a href="/posts/LE_SON_DU_JOUR_St_Valentin_de_Orelsan_et_Gringe/10602" class="d-link-alt d-offset efre-relTopic">
+		<span class="efre-relTopic-figure">
+							<div class="" style="" data-rel="external-video" data-sc-no-preroll="" data-sc-video-mode="js" data-sc-video-start="{:start_at}" data-sc-video-id="PRzKsIiOVkE" data-sc-param-index-id="0" data-sc-video-type="1" data-sc-video-width="270_crop" data-sc-video-height="187" data-sc-video-poster="" data-sc-video-autoplay="" data-sc-video-disablerebound="{:disableRebound}" data-sc-video-delay="{:delay}" data-sc-video-hidecontrols="{:hideControls}" data-sc-video-mute="{:mute}"><img  src="https://media.senscritique.com/media/000016793784/270_crop/LE_SON_DU_JOUR_St_Valentin_de_Orelsan_et_Gringe.jpg" alt="Vidéo LE SON DU JOUR : &quot;St Valentin&quot; de Orelsan et Gringe" title="Vidéo LE SON DU JOUR : &quot;St Valentin&quot; de Orelsan et Gringe" width="270" height="120"></div>
+				<span class="efre-relTopic-mediaType">VIDEO</span>
+					</span>
+		LE SON DU JOUR : &quot;St Valentin&quot; de Orelsan et Gringe
+	</a>
+
+								<a href="/posts/L_homme_a_la_moto_par_Norma_Loy/10552" class="d-link-alt d-offset efre-relTopic">
+		<span class="efre-relTopic-figure">
+							<div class="" style="" data-rel="external-video" data-sc-no-preroll="" data-sc-video-mode="js" data-sc-video-start="{:start_at}" data-sc-video-id="TgGESWuJAbI" data-sc-param-index-id="0" data-sc-video-type="1" data-sc-video-width="270_crop" data-sc-video-height="187" data-sc-video-poster="" data-sc-video-autoplay="" data-sc-video-disablerebound="{:disableRebound}" data-sc-video-delay="{:delay}" data-sc-video-hidecontrols="{:hideControls}" data-sc-video-mute="{:mute}"><img  src="https://media.senscritique.com/media/000016781883/270_crop/L_homme_a_la_moto_par_Norma_Loy.jpg" alt="Vidéo L&#039;homme à la moto par Norma Loy" title="Vidéo L&#039;homme à la moto par Norma Loy" width="270" height="120"></div>
+				<span class="efre-relTopic-mediaType">VIDEO</span>
+					</span>
+		L&#039;homme à la moto par Norma Loy
+	</a>
+
+								<a href="/posts/Bande_Annonce_VO/10559" class="d-link-alt d-offset efre-relTopic">
+		<span class="efre-relTopic-figure">
+							<div class="" style="" data-rel="external-video" data-sc-no-preroll="" data-sc-video-mode="js" data-sc-video-start="{:start_at}" data-sc-video-id="mafJGrKvMIg" data-sc-param-index-id="0" data-sc-video-type="1" data-sc-video-width="270_crop" data-sc-video-height="187" data-sc-video-poster="" data-sc-video-autoplay="" data-sc-video-disablerebound="{:disableRebound}" data-sc-video-delay="{:delay}" data-sc-video-hidecontrols="{:hideControls}" data-sc-video-mute="{:mute}"><img  src="https://media.senscritique.com/media/000016784551/270_crop/Bande_Annonce_VO.jpg" alt="Vidéo Bande Annonce (VO)" title="Vidéo Bande Annonce (VO)" width="270" height="120"></div>
+				<span class="efre-relTopic-mediaType">VIDEO</span>
+					</span>
+		Bande Annonce (VO)
+	</a>
+
+					</ul>
+
+				<div data-rel="forum_comment" data-sc-topic-id="10364">
+			
+						<div class="efco-leftGap fov-commentsHeader" id="comments">
+								<h2 class="d-heading3 d-hidden" data-rel="forum-info-comment"><span data-rel="forum-total-comment-text">0</span> réponse</h2>
+			</div>
+			<div data-rel="forum-message-index linkify">
+					
+			</div>
+					</div>
+
+						<div class="efco-leftGap fov-newTopic-container">
+			<div class="fov-newTopic-label">Envie de discuter du dernier shōnen ?<br /> Viens, on est bien ici.</div>
+			<a href="/post" class="efco-newTopic xl">
+				Créer un post
+			</a>
+		</div>
+	</div>
+
+								
+								
+
+<footer class="lafo-footer">
+	<div class="d-grid lafo-footer-container">
+				<ul class="lafo-informations-list">
+			<li>
+				<a href="http://lab.senscritique.com" class="lafo-footer-anchor" target="_blank">Lab</a>
+			</li>
+			<li>
+				<a href="http://lab.senscritique.com/changelog" class="lafo-footer-anchor" target="_blank">Changelog</a>
+			</li>
+			<li>
+				<a href="/apropos" class="lafo-footer-anchor">&Agrave; propos</a>
+			</li>
+			<li>
+				<a href="/faq" class="lafo-footer-anchor">Aide</a>
+			</li>
+			<li>
+				<a href="/apropos/publicite" class="lafo-footer-anchor">Publicité</a>
+			</li>
+			<li>
+				<a href="/apropos/emploi" class="lafo-footer-anchor">Emploi</a>
+			</li>
+			<li>
+				<a href="/apropos/cgu" class="lafo-footer-anchor">Conditions d'utilisation</a>
+			</li>
+		</ul>
+
+				<div class="lafo-social">
+			<a href="http://www.facebook.com/senscritique" target="_blank" class="lafoo-footer-social">
+        <span class="eins-sprite eins-facebook  " ></span>
+			</a>
+			<a href="https://twitter.com/senscritique" target="_blank" class="lafoo-footer-social">
+        <span class="eins-sprite eins-twitter  " ></span>
+			</a>
+			<a href="https://plus.google.com/+senscritique" rel="publisher" target="_top" style="text-decoration:none;">
+				<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
+			</a>
+
+			<!-- Place this tag after the last +1 button tag. -->
+			<script type="text/javascript">
+				window.___gcfg = {lang: 'fr'};
+
+				(function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+				})();
+			</script>
+		</div>
+	</div>
+
+		<div class="d-grid">
+		<ul class="lafo-resume">
+			<li><a href="/films/salles-de-cinema" class="lafo-resume-item">Séances de cinéma</a></li>
+			<li><a href="/everymovie/programme-tv/ce-soir" class="lafo-resume-item">Programme TV ce soir</a></li>
+			<li><a href="/everymovie/programme-tv/aujourdhui" class="lafo-resume-item">Programme TV aujourd'hui</a></li>
+			<li><a href="/everymovie/programme-tv/demain" class="lafo-resume-item">Programme TV demain</a></li>
+			<li><a href="/everymovie/programme-tv" class="lafo-resume-item inactive">Programme TV cette semaine</a></li>
+		</ul>
+		<ul class="lafo-resume">
+							<li>
+					<a href="/films/oeuvres" class="lafo-resume-item ">Avis films</a>
+				</li>
+							<li>
+					<a href="/series/oeuvres" class="lafo-resume-item ">Avis séries</a>
+				</li>
+							<li>
+					<a href="/livres/oeuvres" class="lafo-resume-item ">Avis livres</a>
+				</li>
+							<li>
+					<a href="/bd/oeuvres" class="lafo-resume-item ">Avis BD</a>
+				</li>
+							<li>
+					<a href="/jeuxvideo/oeuvres" class="lafo-resume-item ">Avis jeux vidéo</a>
+				</li>
+							<li>
+					<a href="/musique/oeuvres" class="lafo-resume-item inactive">Avis musique</a>
+				</li>
+					</ul>
+		<span class="lafo-copyright">© 2017 SensCritique</span>
+			</div>
+</footer>
+
+								<div id="div10192"><script type='text/javascript'>
+				if (typeof sas !== 'undefined') {
+					sas.render('10192');
+				}
+			</script></div>
+			</div>
+		
+				<script>
+			try {
+				console
+			} catch(e) {
+				console = {};
+				console.log = function(){};
+			}
+		</script>
+			      <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+						<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="https://static.senscritique.com/lib/plugins/jquery.js"><\/script>')</script>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+                    <script type="text/javascript" src="/lib/ads.js"></script>
+        
+      
+
+	    	    <script type="text/javascript" src="https://static.senscritique.com/lib/optimized_ln/layouts/default.html.min.js?datetime=20170215230701"></script>
+		
+	
+	
+	
+	
+	
+		
+		<script type="text/javascript" src="https://static.senscritique.com/lib/optimized_ln/forum/view.html.min.js?datetime=20170215230701"></script>
+
+    		
+						<script language="JavaScript">
+		function _eStat_Whap_loaded_func() {
+			eStatWhap.serial("800000000028");
+			eStatWhap.send();
+		}
+		(function() {
+			var myscript = document.createElement('script');
+			myscript.src = "https://w.estat.com/js/whap.js";
+			myscript.setAttribute('async', 'true');
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(myscript, s);
+		})();
+	</script>
+
+
+				<div id="fb-root"></div>
+<div data-rel="fb_container" data-sc-id="157003860988959"></div>
+<script>
+	// window.fbAsyncInit = function() {
+	// 	FB.init({
+	// 		appId:'157003860988959',
+	// 		cookie:true,
+	// 		status:true,
+	// 		xfbml:true,
+	// 		// channel: 'http://".$domain."/fb_channel.php'
+	// 	});
+
+	// 	FB.Event.subscribe('auth.statusChange', function(response) {
+	// 		if (response.status === 'connected') {
+	// 			var uid = response.authResponse.userID;
+	// 			var accessToken = response.authResponse.accessToken;
+	// 			var expiresIn = response.authResponse.expiresIn;
+	// 			// Do login facebook, only if we have the try
+	// 			$('[data-sc-facebook-autologin="true"]').each(function() {
+	// 				document.location = '/oauthapi/facebook/';
+	// 			});
+	// 			$('[data-sc-refresh-api-facebook="true"]').each(function() {
+	// 				$.ajax({
+	// 					url: '/oauthapi/facebook/renewToken.json',
+	// 					type: 'post',
+	// 					data:{
+	// 						access_token:accessToken,
+	// 						expires_in:expiresIn,
+	// 						uid:uid
+	// 					},
+	// 					dataType: 'json',
+	// 					success: function (data, textStatus, jqXhr) {
+
+	// 					}
+	// 				});
+	// 			});
+	// 		} else {
+	// 			var status = (response.status === 'not_authorized') ? 'connected' : 'unknow';
+	// 			// Do nothing
+	// 			$('[data-sc-facebook-autologin="true"]').each(function() {
+	// 				$.ajax({
+	// 					url: '/oauthapi/facebook/status/' + status + '.json',
+	// 					type: 'get',
+	// 					dataType: 'json',
+	// 					success: function (data, textStatus, jqXhr) {
+
+	// 					}
+	// 				});
+	// 			});
+	// 		}
+	// 	});
+	// };
+
+	// // Load the SDK Asynchronously
+	// (function(d){
+	// 	var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+	// 	js = d.createElement('script'); js.id = id; js.async = true;
+	// 	js.src = "http://connect.facebook.net/fr_FR/all.js";
+	// 	d.getElementsByTagName('head')[0].appendChild(js);
+	// }(document));
+</script>
+
+				<div id="div928"><script type='text/javascript'>
+				if (typeof sas !== 'undefined') {
+					sas.render('928');
+				}
+			</script></div>
+		<div id="div32325"><script type='text/javascript'>
+				if (typeof sas !== 'undefined') {
+					sas.render('32325');
+				}
+			</script></div>
+		<script>var ddjskey = "9DC237E26980E18ED016F0EEFE6B27";</script>
+    <script type="text/javascript" src="https://js.datadome.co/tags.js"></script>
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a2ca6cf22e","applicationID":"19320390","transactionName":"NAdQNxFYWxZZVxEKCw1NcRYQTVoIF3IKEREOTUQKBk4=","queueTime":0,"applicationTime":176,"atts":"GEBTQVlCSBg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css"></style>
+
+	<base href="https://deep.fm/" />
+	<meta charset="utf-8">
+
+	<title>DeepFM Radio - We Are Dance!</title>
+
+	<meta name="description" content="Het meest toonaangevende radio station met 24 uur per dag het nieuwste en beste op het gebied van dance muziek. Overal te beluisteren via http://deep.fm">
+	<meta name="author" content="Dancefoundation.com - We enhance broadcasts" >
+
+	<meta property="og:site_name" content="DeepFM Radio" />
+	<meta property="og:url" content="https://deep.fm/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="DeepFM Radio - We Are Dance!" />
+	<meta property="og:image" content="https://deep.fm/img/deepfmlogo-FB.png" />
+	<meta property="og:description" content="Het meest toonaangevende radio station met 24 uur per dag het nieuwste en beste op het gebied van dance muziek. Overal te beluisteren via http://deep.fm" />
+
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:site" content="@deepfm"/>
+	<meta name="twitter:url" content="https://deep.fm/"/>
+	<meta name="twitter:creator" content="@dancefoundation"/>
+	<meta name="twitter:title" content="DeepFM Radio - We Are Dance!"/>
+	<meta name="twitter:description" content="Het meest toonaangevende radio station met 24 uur per dag het nieuwste en beste op het gebied van dance muziek. Overal te beluisteren via http://deep.fm."/>
+	<meta name="twitter:image" content="https://deep.fm/img/deepfmlogo-FB.png"/>
+
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+  	<link rel="stylesheet" href="/css/deepfm.min.css?ver=2015022807" media="screen">
+
+	<link rel="shortcut icon" href="/img/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="viewport" content="width=1030" id="viewport">
+	<meta name="apple-itunes-app" content="app-id=1101522970">
+
+	<meta name="application-name" content="DeepFM Radio"/>
+	<meta name="msapplication-TileColor" content="#ffffff"/>
+	<meta name="msapplication-TileImage" content="/img/win-tile.png"/>
+	<meta name="MobileOptimized" content="width">
+	<meta name="HandheldFriendly" content="true">
+	<meta http-equiv="cleartype" content="on">
+
+	<meta name="google-site-verification" content="MdAEkLz_ENGva2zNHQPjWrA7AuLp6V0Yu1q8dNEDqx4" />
+	<meta name="msvalidate.01" content="7B8765C313BBB1BBD7F294D75C0397A2" />
+	<meta name="robots" content="noodp, noydir, index, follow">
+
+	<!--[if lt IE 9]>
+	<script src="/js/outdated-ie.min.js"></script>
+	<![endif]-->
+
+	<script>
+
+		!function(e){var i=/iPhone/i,n=/iPod/i,t=/iPad/i,o=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,d=/Android/i,s=/IEMobile/i,h=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,r=/BlackBerry/i,p=/Opera Mini/i,a=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,l=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),b=function(e,i){return e.test(i)},f=function(e){var f=e||navigator.userAgent;return this.apple={phone:b(i,f),ipod:b(n,f),tablet:b(t,f),device:b(i,f)||b(n,f)||b(t,f)},this.android={phone:b(o,f),tablet:!b(o,f)&&b(d,f),device:b(o,f)||b(d,f)},this.windows={phone:b(s,f),tablet:b(h,f),device:b(s,f)||b(h,f)},this.other={blackberry:b(r,f),opera:b(p,f),firefox:b(a,f),device:b(r,f)||b(p,f)||b(a,f)},this.seven_inch=b(l,f),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window?this:void 0},u=function(){var e=new f;return e.Class=f,e};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=f:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=u():"function"==typeof define&&define.amd?define(u()):e.isMobile=u()}(this);
+
+		if (isMobile.apple.tablet) {
+
+			document.getElementById("viewport").setAttribute("content", "width=1024, user-scalable=no");
+
+		} else if (isMobile.android.tablet) {
+
+			document.getElementById("viewport").setAttribute("content", "width=1024, initial-scale=1.0, user-scalable=yes");
+
+		} else if (isMobile.apple.phone) {
+
+			document.getElementById("viewport").setAttribute("content", "width=518, user-scalable=no");
+
+		} else if (isMobile.android.phone) {
+
+			var ratio =  window.screen.width / 518; //calculate ratio
+
+			if( window.screen.width < 518) { 
+	
+				document.getElementById("viewport").setAttribute( "content", 'initial-scale=' + ratio + ', maximum-scale=' + ratio + ', minimum-scale=' + ratio + ', user-scalable=yes, width=' + window.screen.width );
+
+			} else { 
+
+				document.getElementById("viewport").setAttribute("content", "width=518, initial-scale=1.0, user-scalable=yes");
+			}
+
+		} else if ( isMobile.windows.phone ) {
+
+			document.getElementById("viewport").setAttribute("content", "width=518, initial-scale=1.0, user-scalable=yes");
+
+
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					"@-ms-viewport{width:518px!important}"
+				)
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+
+		} else {
+
+			document.getElementById("viewport").setAttribute("content", "width=774, initial-scale=1.0, user-scalable=yes");
+
+		}
+
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					"@-ms-viewport{width:1018px!important}"
+				)
+			);
+			document.getElementsByTagName("head")[0].
+				appendChild(msViewportStyle);
+		}
+
+
+		var site_base = 'https://deep.fm/';
+		var base_url = 'https://deep.fm/';
+		var pageTitle = 'DeepFM Radio';
+		var language = 'english';
+		var event_timezone = false;
+		var live_mode = true;
+		var auto_play = false;
+		var event_start = 0;
+		var event_end = 9999999999;
+		var broadcast_start = false;
+		var socket_server = 'ws116.dance.foundation';
+
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					"@-ms-viewport{width:1018px!important}"
+				)
+			);
+			document.getElementsByTagName("head")[0].
+				appendChild(msViewportStyle);
+		}
+
+	</script>
+
+	<style>
+
+
+	</style>
+
+	<!-- Video player -->
+	<link href="/css/video-js.min.css" rel="stylesheet">
+	<script src="/js/video.js"></script>
+	<script>
+		videojs.options.flash.swf = "/swf/video-js.swf"
+	</script>
+
+</head>
+<body>
+    <div id="fb-root"></div>
+    <div id="background"></div>
+
+
+		<div id="overlay" style="display:none; opacity: 0;"></div>
+
+
+	<div id="wrapper">
+
+
+		<div class="top" id="top">
+
+			<ul id="menu">
+
+				<li><a href="/over-deepfm/" class="ajax" title="Over DeepFM">Over DeepFM</a></li>
+								<li><a href="/app/" class="ajax" title="DeepFM mobiele app">Download app</a></li>
+				<li><a href="/alle-programmas/" class="ajax" title="Alle program's">Alle programma's</a></li>
+				<li><a href="/deepdisc/" class="ajax" title="#DeepDisc">#DeepDisc</a></li>
+				<li><a href="/vacatures/" class="ajax" title="Vacatures">Vacatures</a></li>
+				<li><a href="/contact/" class="ajax" title="Contact">Contact</a></li>
+
+			</ul>
+
+			<div id="fullscreenwrapper"><div title="Toggle Fullscreen" id="fullscreenbutton"></div></div>
+
+			<div class="sharebuttons">
+
+				<div style="float: left !important; margin-right: 4px;">
+
+					<a href="https://twitter.com/share" class="twitter-share-button"  data-url="https://deep.fm" data-related="deepfm" data-via="deepfm" data-count="none">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+				</div>
+
+				<div style="width: 49px; overflow: hidden"><div class="fb-like" style="width:49px;overflow:hidden" data-href="https://www.facebook.com/DeepFM" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false"></div></div>
+
+			</div>
+
+		</div>
+
+
+		<div id="contentHolder">
+
+			<span class="title"> - We Are Dance!</span>
+
+			<div id="grid">
+
+				<div id="logo_box" class="stamp"></div>
+
+				<div id="schedule_box" class="stamp">
+
+					<h3>Dit is Deep</h3>
+					<h2>Vandaag</h2>
+
+					<ul class="schedule"><li>Programmering wordt geladen...</li></ul>
+
+					<h3>Dit is Deep</h3>
+					<h2>Deze Week</h2>
+
+					<ul>
+						<li><a href="/deepdisc" class="ajax">#DeepDisc</a></li>
+						<li><a href="/weekoverzicht" class="ajax ">Weekoverzicht</a></li>
+					</ul>
+
+				</div>
+
+				<div id="player" class="stamp">
+					<div class="container">
+						<h3>Radio player</h3>
+						<h2>Luister nu Deep</h2>
+
+						<div class="sm2-bar-ui" id="snd1">
+							<div class="bd sm2-main-controls">
+								<div class="sm2-button-element sm2-play">
+									<a href="#play" class="sm2-inline-button play-pause"></a>
+								</div>
+								<div class="sm2-button-element sm2-quality">
+									<a href="#quality" class="sm2-inline-button quality" title="Luister naar Deep in 320kbps kwaliteit">HD</a>
+								</div>
+								<div class="sm2-button-element sm2-volume">
+									<span class="sm2-inline-button sm2-volume-control volume-shade"></span>
+									<a    class="sm2-inline-button sm2-volume-control" href="#volume"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="nowplaying_box" class="stamp">
+
+					<img src="" alt="Nu op Deep">
+
+					<h3>Nu op Deep</h3>
+					<h2></h2>
+					<h4></h4>
+					<p></p>
+
+					<a href="/pagina/laatst-gedraaid/" class="ajax eerder-gedraaid" title="Bekijk de laatst gedraaide nummers op DeepFM">Eerder gedraaid</a>
+
+				</div>
+
+
+				<div id="show_box" class="stamp">
+
+					<h3></h3>
+					<h2></h2>
+
+					<p></p>
+
+					<a href="" class="over"></a>
+
+				</div>
+
+				<div id="show_artwork_box" class="stamp">
+
+					<img src="" alt="">
+
+					<a href="" class="over"></a>
+
+				<div>
+
+
+
+			</div><!-- #grid -->
+
+		</div><!-- #contentHolder -->
+
+	</div><!-- #wrapper -->
+
+	<div id="jplayer"></div>
+
+	<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.history.js"></script>
+	<script type="text/javascript" src="/js/primus.min.js"></script>
+	<script type="text/javascript" src="/js/dancefoundation-player.min.js"></script>
+	<script type="text/javascript" src="/js/metalabs-deepfm.min.js"></script>
+
+	<script>
+
+		if (isMobile.android.device) document.body.className = "android";
+
+		window.twttr = (function (d,s,id) {
+		  var t, js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+		  js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+		  return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+		}(document, "script", "twitter-wjs"));
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=183731351656297";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+		var _paq = _paq || [];
+		_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+		_paq.push(["setCookieDomain", "*.deep.fm"]);
+		_paq.push(["setDomains", ["*.deep.fm"]]);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+		var u="//stats.deepmedia.nl/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', 1]);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		})();
+
+		var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-2846178-1']); _gaq.push(['_trackPageview', '/'+site_base]);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+
+	</script>
+
+	<noscript><p><img src="//stats.deepmedia.nl/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+
+</body>
+</html>

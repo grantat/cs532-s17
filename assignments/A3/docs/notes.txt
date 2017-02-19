@@ -1,0 +1,21 @@
+--------
+Links & Descriptions
+--------
+Beautiful soup ref: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+beautiful soup can parse the document
+
+tweepy usage for filtering
+http://adilmoujahid.com/posts/2014/07/twitter-analytics/
+
+requests python library usage - Kenneth Reitz,Cory Benfield, Ian Cordasco
+http://docs.python-requests.org/en/master/
+
+sort/uniq in python
+http://stackoverflow.com/questions/19764655/sort-and-get-uniq-lines-of-file-in-python
+
+--------
+Notes
+--------
+
+303 See Other from nytimes post
+

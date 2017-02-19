@@ -1,0 +1,3533 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"     
+xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<!--  ABOVE XMLNS FOR FACEBOOK OPENGRAPH --> 
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js" lang="en"> <![endif]-->
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+
+
+<head><meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6e831fb790","applicationID":"2214965","transactionName":"Y1BXMUoFDBAFVxYPCVoadDZoSwMPBkEPAgNAVFwJS0oDEBRM","queueTime":0,"applicationTime":283,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script><title>
+	Sunset Terr | Sunrize | CD Baby Music Store
+</title>
+
+<!-- Google Tag Manager -->
+<script>
+	(function (w, d, s, l, i) {
+		w[l] = w[l] || []; w[l].push({
+			'gtm.start':
+			new Date().getTime(), event: 'gtm.js'
+		}); var f = d.getElementsByTagName(s)[0],
+		j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+			'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-KDXVJN');
+
+	
+</script>
+<!-- End Google Tag Manager -->
+
+    <script type="text/javascript" src='/js/libs/modernizr.min.js?token=45'></script>
+    <script type="text/javascript" src='/js/scripts-updatepanels.js?token=45'></script>
+    
+    <link id="canonicalLink" rel="canonical" href="www.cdbaby.com/cd/sunsetterr6" />
+    <meta id="cphHead_metaTitle" name="title" content="Sunrize"></meta>
+    <link id="cphHead_metaImage" rel="image_src" href="//images.cdbaby.name/s/u/sunsetterr6_small.jpg"></link>
+	<link rel="stylesheet" href="/css/albumCarousel.css" />
+    <link rel="stylesheet" href="/css/validation.css" />
+	<link rel="stylesheet" href="/css/shareMenu.css" />
+	<style type="text/css">
+		.center-left 
+		{
+			text-align:left; 
+			vertical-align: middle;
+		}
+
+		.availableFormatText
+		{			
+			padding:5px;
+			font-size: 12px;
+			font-style:italic;
+			font-family:Georgia;
+			color:#666;
+		}
+
+		.availableFormatContainer 
+		{
+			width: 400px;
+			position: relative;
+			float: left;
+			text-align: left;
+		}
+		.center-me {
+			position: relative;
+		}
+		.clip-note {
+			display: none;
+			position: absolute;
+			background-color: white;
+			border: 1px solid #A7A6A6;
+			line-height: 1em;
+			padding: 2px 2px 1px 2px;
+			right: 12px;
+			top: 40px;
+			color: #666;
+			font-weight: bold;
+			font-size: 9px;
+			border-radius: 3px;
+			text-transform: capitalize;
+			font-family: arial;
+			padding: 2px;
+		}
+		.clip-note:after, .clip-note:before {
+			bottom: 100%;
+			left: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+		}
+
+		.clip-note:after {
+			border-color: rgba(255, 255, 255, 0);
+			border-bottom-color: #FFFFFF;
+			border-width: 5px;
+			margin-left: -5px;
+		}
+		.clip-note:before {
+			border-color: rgba(102, 102, 102, 0);
+			border-bottom-color: #A7A6A6;
+			border-width: 6px;
+			margin-left: -6px;
+		}
+	</style>
+	<script type="text/javascript" src="/js/validation/validation.js"></script>
+<meta property="og:title" content="♫ Sunrize - Sunset Terr. Listen @cdbaby" /><meta property="og:type" content="music.album" /><meta property="og:url" content="https://www.cdbaby.com/cd/sunsetterr6" /><meta property="og:image" content="http://images.cdbaby.name/s/u/sunsetterr6_large.jpg?v=e14dcd0c-c886-47a9-af6d-4727fbb30262" /><meta property="og:image:height" content="600" /><meta property="og:image:width" content="600" /><meta property="og:description" content="Click to listen at CDBaby" /><meta name="twitter:card" content="summary" /><meta name="twitter:description" content="Click to listen at CDBaby" />
+
+	<!-- Hotjar Tracking Code for https://www.cdbaby.com -->
+	<script>
+		(function(h,o,t,j,a,r){
+		h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+		h._hjSettings={hjid:245443,hjsv:5};
+		a=o.getElementsByTagName('head')[0];
+		r=o.createElement('script');r.async=1;
+		r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+		a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+<meta name="description" content="Listen to and buy Sunset Terr music on CD Baby. Download or buy the CD Sunrize by Sunset Terr on the independent record store by musicians for musicians." /><meta name="keywords" content="Sunrize, Sunset Terr, CD Baby, Independent Music, Independent Music Downloads" /></head>
+<body id ="content">
+    
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDXVJN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+    <link href="https://plus.google.com/107412413371084264127" rel="publisher" />
+    <link rel="stylesheet" href='/css/styles.css?token=45'/> 
+	<link rel="stylesheet" href='/css/modal.css?token=45'/>
+    <link rel="stylesheet" href='/css/print.css?token=45' media="print" />
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/>
+    <link href='/css/jquery-ui-smoothness.css?token=45' rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href='/css/passwordStrength.css?token=45' />
+
+	
+
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	var pluginUrl =
+	 '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+	_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+	_gaq.push(['_setAccount', 'UA-16769648-1']);
+	_gaq.push(['_setDomainName', 'cdbaby.com']);
+	_gaq.push(['_setAllowLinker', true]);
+	
+	_gaq.push(['_trackPageview']);
+
+
+	(function () {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+
+    <form method="post" action="/cd/sunsetterr6" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__vskey" id="__vskey" value="6fc65833-a7a8-45ef-8638-22802f827e00" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=gOH2R1N_ZCv9K1R1PtIdrVS7QpNMmjWGBmYUwT8w3A7-3FdcJcfBAYHTNZWkFafJ8kOZE8xfO0gSDNyQglKgIhdEYwOIwfsNwu2gWRC85xA1&amp;t=635004735440000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=oDgI_49_zSMaHHv0YfKAz8OoLD6HzCW-9_9PW0YjuBqXLenwi0WmfNk-PUP_-T4aCTpwTtOhi-pXdjMZXc8xBKfv-g2ruTFdePQSTKMbbxElt1lpNz69LX9R4c9OtvtyeNyespTjkcovE2sEj-2hHq1EgGUHXqZS-Yrv8l_gItA1&amp;t=6119e399" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_K4G8Wvq2DKNu-w-ct0DOGLTuHnnkdmm-uPxknIhrMobk1xiq_lzG2DUD5CUf8pyIfOCAaIluV80IU_lW3Ogi6ajP-iQkaQeXgVfjdRTJTTvcCwKKxEf_DN2Nw7KjN7TT0sk-uW-MX3jyU7gHEA8-jFaLHcBQm4WS3dT-twH4n34P9H1HtA1JUVfPB2TKuRl0&amp;t=6119e399" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAEivVXD1oYELeveMr0vHCmYPgp3tyxZxRYRMD8DcskjqRKs/qxRa51b4MHeVkXAKvKhwq+H9LXj0kd93HCGp+RKNTYLXcCQMs3J/g7da1qIJpgEVwJepWm9Zv59/bHGChBFZGPAuL/Tr9NXU3+apZPXpz9N4EAGKLGrTc0yXsyHSFQjGIA2w2E8V2MyNOdsBOcNjyn2nERGyyT2zP97ctvTM67SwiqYfFEaHjjqQ9rgq/S27/hzPDbNO8uLNBuUDjM0F0GR1KmO2YyJsB5CxdZspVy0j0oNXc2Xs8qShgn5L8NuMnngr+LLIoofRQqo8Ico5n8Cw4wcq83ymkAMmNVdon73gWJipgXps4nX+s7y3sqislqv1yvsk+9h/G2rgF+fzR/3w5zvKFRXy6NIVXlBGWDq5XZdrIGfCJlxFHjHCn7EeIKOVEw3BJ53WDMPaafgNdOGZOb64LeCW+A6v5HFus3aQ2A89glu9fOGZ3NlF45Ogkk2fAKoABx011j7yxAxB2ytux3kwhf1q0034Td0JJpinoehwkpE67vWa0quyBmb+Y2QThYj3Xxq9JvwESlfIIUQMKdJBS7WOYbslGyIK+TwuVnNyb3arm/DZzMsEEkDiNhjmk34dl8i958u0gEDmQ5KH65I/b+mz5+V1QBwNg6iGAVhEDn5LmwO3IgHnaKa/Gh4/li02R+ASOAhpMRaHbvxCytRkAVSiNgWzHd7jiVijnunPRdN9LqNmEiiml+GP0/SsNLX+rmQpDo8C+gWnYYUFFezEHZa873Xag9W7A8Xe21H0pjLb7VXBaGwE+7xOqkR995HkbJRvlaB4YJViqBftaLnvV7HRPqYpI3tx6O1n/BCZiqhUCFFmSlyyAdHj4OKI918NUpVS+0LGkuUb4bC1XyGWUXqKV7FQRt9QQi+WHJ1si1R+nOvX6v+673jaxVlHyA0JLBhXMnY7DjAb7gG0lrk3lkuF5ixU08Ro0f/7XWqMEjHgiig1Nz0QvNdxGgl9r0zQAky0jHQNR/KUGhLqrS39A4zRM7j9Bln7MWLZaRnHJWUzrcQOpcg5ArigVW3xrD5wLW9r/F1z3/1cyz+DPrzmAuCdTEXtzrtnmajoVDdNxqsjpybltHPIGPz58pGlP9eCEdOpEty+2OLPh0bSRL6EtrvMnn9sxw0sahYzGll9dGDOI5iZFUaVCu684NOVMT/rYZJmBg3tJFuuegKyCTiNV6iricVxTH3JvIlYIw1n9zSTB5fvxnZ9guILlJs9pujiszN1eYWdBYGcDpx0ZyJ4BMgGzBvcB26BOrNcQOafc3yJtj9jf/ZEJtDNZeNAQmYCsZrkSekVaZRjGyGzFnkix6ABzKUs1IKSuQAmbiVpiT+Y0ERhHrYMxd5VEaPJJC/ueQVt6KhtWH07zvlPsp7qh4rmp+MiZYpgRVfbu8Y4j6Fed9vd6KAqgJy6Ff3VLE5zL8igIgg7XFMrHB7wrj1KIzK4+TuWFDdts/PpJfm9bwiSAQfAHyMzSHzezWleAsZgqrTygxUXamZyt2Uawvkw4xahQfdF3FPz1+6PhUwDJsC1gyYbnz7BCA==" />
+</div>
+
+		<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager', 'form1', ['tctl00$cphContent$ucCartOverlay$upCartOverlay','cphContent_ucCartOverlay_upCartOverlay','tctl00$cphContent$ucWishlistOverlay$upWishlistOverlay','cphContent_ucWishlistOverlay_upWishlistOverlay','tctl00$cphContent$upWaitingList','cphContent_upWaitingList','tctl00$cphContent$upAddReview','cphContent_upAddReview','tctl00$cphContent$upReviews','cphContent_upReviews','tctl00$ucFooter$upNewsletter','ucFooter_upNewsletter','tctl00$ucFooter$UpdatePanel1','ucFooter_UpdatePanel1','tctl00$ucPageIncludes$upSessionWarning','ucPageIncludes_upSessionWarning'], ['ctl00$cphContent$rptFormats$ctl01$lbBuyFormat','cphContent_rptFormats_lbBuyFormat_0','ctl00$cphContent$rptFormats$ctl02$lbBuyFormat','cphContent_rptFormats_lbBuyFormat_1','ctl00$cphContent$lbAddToMyWishlist','cphContent_lbAddToMyWishlist','ctl00$cphContent$rptTrack$ctl01$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_0_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl02$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_1_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl03$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_2_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl04$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_3_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl05$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_4_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl06$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_5_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl07$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_6_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl08$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_7_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl09$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_8_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl10$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_9_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl11$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_10_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl12$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_11_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl13$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_12_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl14$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_13_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl15$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_14_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl16$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_15_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl17$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_16_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl18$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_17_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl19$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_18_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl20$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_19_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl21$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_20_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl22$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_21_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl23$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_22_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl24$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_23_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl25$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_24_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl26$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_25_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl27$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_26_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl28$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_27_lbBuyFormat_0','ctl00$cphContent$rptTrack$ctl29$rptTrackFormats$ctl01$lbBuyFormat','cphContent_rptTrack_rptTrackFormats_28_lbBuyFormat_0'], [], 90, 'ctl00');
+//]]>
+</script>
+
+		
+
+        <div id="container">
+			<div id="header-container">
+				
+<header>
+	<a id="cdb-nav-logo" href="/"><img src="/img/cdbaby-music-store-logo.png" alt="CD Baby Indie Music Store Logo" title="CD Baby" /></a>
+
+	
+	<div id="ucHeader_pnlh2">
+	
+		<h2 id="cdb-tagline">the <span class="highlight">best independent</span> music store on the web</h2>
+	
+</div>
+	<nav>
+		<a href="/cart" id="ucHeader_cartLinkIcon"><img src="/img/music-shopping-cart.png" alt="CD Baby music shopping cart" title="Shopping Cart" />Cart</a> 
+		<a href="/redeem" id="ucHeader_downloadCardLink">Redeem Download Card</a>
+		<a href="/login.aspx?showSO=yes" id="ucHeader_soLookupLink">Find an order / download</a>
+		<div style="display:none;"><a href="/Account" id="ucHeader_myAccountLnk">My Account</a></div>
+		<div class="account-hover">
+			<a id="ucHeader_hlLogIn" class="login-logout" href="/Login?PageTo=/account">My Account</a>
+			<div class="account-dropdown">
+				
+				<div id="ucHeader_acctLoggedOut" class="loggedOut">
+					<a href="/login">
+						<img src="../../IMG/Buttons/sign-in-cdb.png" alt="Sign in to CDBaby.com?" />
+					</a>
+					<a href="https://members.cdbaby.com/login" onClick="reportClick('header dropdown members link');">
+						<img src="../../IMG/Buttons/sign-in-members.png" alt="Sign in to your CD Baby Members account?"/>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</nav> 
+</header>
+			</div>
+			<div id="nav-container">
+				
+<nav id="top-nav">
+	<img src="/img/button-notch.jpg" />
+	<div class="browse-box-wrapper">
+		<a href="javascript:;" class="nav-link browse-link">Browse Music</a>
+		<div id="browse-box">
+			<nav id="browse-box-browse-by">
+				<h5 class="highlight">Browse</h5>
+				<a href="/new">New Arrivals</a>
+				<a href="/top">Top Sellers</a>
+				<a href="/staffpicks">Staff Picks</a>
+				<a href="/picks">Editors' Picks</a>
+				<a href="/artistsyoumayknow">Artists You May Know</a>
+				<a href="/playlists">Curated Collections</a>
+				<a href="/places">Artists by Locations</a>
+				<a href="/sale">$5 Sale</a>
+				<a href="http://musicdiscovery.cdbabypodcast.com">Music Discovery Podcast</a>
+				<a href="/topsongs">Top Songs</a>
+				<a href="/search">Advanced Search</a>
+			</nav>
+
+			<nav id="browse-box-genres">
+				<h5 class="highlight">Genres</h5>        
+				<div><a href="/style/avant">Avant Garde</a>	<a href="/style/latin">Latin</a></div>
+				<div><a href="/style/blues">Blues</a>	<a href="/style/metal">Metal/Punk</a></div>
+				<div><a href="/style/classical">Classical</a>		<a href="/style/mood">Moods</a></div>
+				<div><a href="/style/country">Country</a>		<a href="/style/newage">New Age</a></div>
+				<div><a href="/style/easy">Easy Listening</a>		<a href="/style/pop">Pop</a></div>
+				<div><a href="/style/electronic">Electronic</a>   		<a href="/style/reggae">Reggae</a></div>
+				<div><a href="/style/folk">Folk</a>		<a href="/style/rock">Rock</a></div>
+				<div><a href="/style/hiphop">Hip Hop</a>		<a href="/style/gospel">Spiritual</a></div>
+				<div><a href="/style/holiday">Holiday</a>		<a href="/style/spoken">Spoken Word</a></div>
+				<div><a href="/style/jazz">Jazz</a>		<a href="/style/urban">Urban/R&amp;B</a></div>
+				<div><a href="/style/kids">Kids/Family</a>		<a href="/style/world">World</a></div>
+			</nav>
+		</div>
+	</div><!-- .browse-box-wrapper -->
+	<img src="/img/button-notch.jpg" />
+	<a href="https://members.cdbaby.com" class="nav-link" title="Sell Music Online With CD Baby" onClick="_gaq.push(['_trackEvent', 'cdbaby-retail-artist-signup', 'Click', 'top-nag-sell-your-music']);">Sell Your Music</a>
+	<img src="/img/button-notch.jpg" />
+    <div id="search-box" class="txt-input-gradient">
+    <div id="ucNav_pnlSiteSearch" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ucNav_btnSearch&#39;)">
+	
+		<div id="input-container">
+			<input type="text" id="txtSearch" class="search-input ui-autocomplete-input" placeholder="Type your search here..." maxlength="50" />
+			<input type="hidden" name="ctl00$ucNav$hfSearch" id="ucNav_hfSearch" />
+			<input type="button" name="ctl00$ucNav$btnSearch" value="Search ►" onclick="UpdateSearchField($(&#39;.search-input&#39;).val()); this.disabled = true;__doPostBack(&#39;ctl00$ucNav$btnSearch&#39;,&#39;&#39;)" id="ucNav_btnSearch" class="search-button btn-gradient-primary" />
+		</div>
+	
+</div>
+    </div>
+    
+
+
+
+    <!-- autocomplete for search -->
+    <script type="text/javascript" src="/js/libs/jquery-1.6.4.min.js?token=45"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.10.3/jquery-ui.js?token=45"></script> <!-- TODO: minified local, or official CDN -->
+    <script type="text/javascript">
+
+    	function UpdateSearchField(terms) {
+    	    
+            // Limit search to 50 characters here as well in case the user somehow got past the textbox control limiter
+            if (terms.length > 50)
+    	    {
+    	        terms = terms.substring(50);
+    	    }   // if
+
+    	    // Encode search terms
+    		$('#ucNav_hfSearch').val(encodeURI(terms));
+
+    		if ($('.search-input').val() == 'type your search here...' || $('.search-input').val() == '')
+    		{
+    			return false;
+    		};
+    	}	// UpdateSearchField(terms)
+		
+    	function autocompleteSearch() {
+    	    var ajaxUrl = "/SearchResults.aspx/GetAutoSuggest";
+            var val = $(".search-input").val().replace(/'/g, "\\'");
+
+            $.ajax(
+                {
+                    type: "POST",
+                    url: ajaxUrl,
+                    async: true,
+                    username: null,
+                    password: null, 
+                    data: "{'query':'" + val + "'}",
+                    contentType: 'application/json; charset=utf-8',
+                    dataType: 'json',
+                    success: function (msg) {
+                        var newList = (msg.d) ? msg.d.split("||") : [];
+                        var ajaxSource = [];
+                        for (var i = 0; i < newList.length; i++) {
+                            var itemstring = newList[i];
+                            var itemobj = { label: itemstring, value: itemstring };
+                            ajaxSource.push(itemobj);
+                        }
+                        $(".search-input").autocomplete("option", "source", ajaxSource);
+                    }, // success
+                    error: function (jqxhr, txtstatus, errthrown) {
+                       // alert?
+                    } // error
+                }  // ajax
+          )
+        }
+        $(document).ready(function () {
+           
+            $(".search-input").keyup(function () {
+                 autocompleteSearch();  
+            });
+
+            $(".search-input").autocomplete({
+                source: [],
+                response: function (event, ui) {
+                    // override to match everything in source
+                    ui.content.splice(0, ui.content.length); // ditch all, but keep object
+                    var src = $(this).autocomplete("option", "source")
+                    for (var i = 0; i < src.length; i++) {
+                        ui.content.push(src[i]);
+                    }
+                }
+            });
+        });
+
+
+
+    </script> <!-- autocomplete for search -->
+</nav>
+
+
+			</div>
+			<section id="main" role="main" style="clearfix">
+				
+	
+
+<style type="text/css">
+        
+    .overlay-button
+	{
+		border: 0;
+		border-radius: 4px;
+		color: #FFF;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}   
+	
+	.float-right
+	{
+	    float:right;	    
+	}
+	
+	.empty-cart
+	{
+	    margin-top: 30px;   
+	    margin-bottom: 30px;
+	}
+        
+</style>
+
+    
+<div id="cart-modal" class="clearfix avlModalHideClass">
+    <div id="cphContent_ucCartOverlay_cartHeader" class="page-header">
+	    <div class="header-icon my-cart-icon"></div>
+	    <h4>My Cart</h4>
+    </div>
+
+    <div id="cphContent_ucCartOverlay_upCartOverlay">
+	  
+            <div onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;cphContent_ucCartOverlay_btnCheckoutTop&#39;)">
+		
+                <div id="divTopButtons">
+	                <a href="javascript:;" id="overlay-top-continue" onclick="$.closeModal({target:'#cart-modal'})" title="continue shopping" class="button small green">Continue Shopping</a>
+					<div id="banner-cartpreview-upper"></div>
+	                <input type="submit" name="ctl00$cphContent$ucCartOverlay$btnCheckoutTop" value="Checkout" id="cphContent_ucCartOverlay_btnCheckoutTop" class="button small float-right" />
+                </div>
+                <div class="separator"></div>
+                <div style="clear:both"></div>
+		        
+		        <div id="cphContent_ucCartOverlay_pnlCartOverlay">
+			
+			        
+ 
+<style type="text/css">
+	.error-response-div
+	{
+		margin:10px 0 10px 0;
+	}
+</style>	
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    
+</script>
+
+
+		        
+		</div>
+                <div id="cphContent_ucCartOverlay_overlayButtonContainer">
+	                <a href="javascript:;" id="overlay-continue" onclick="$.closeModal({target:'#cart-modal'})" title="continue shopping" class="btn-gradient-tertiary overlay-button">Continue Shopping</a>
+	                <input type="submit" name="ctl00$cphContent$ucCartOverlay$btnCheckoutBottom" value="Checkout" id="cphContent_ucCartOverlay_btnCheckoutBottom" class="btn-gradient-primary overlay-button float-right" />
+                </div>
+            
+	</div>
+	    
+</div>
+
+    <a href="javascript:;" class="overlay-close" title="close" onclick="$.closeModal({target:'#cart-modal'})"></a>
+</div>
+
+<!-- Bread Crumb -->	
+<div itemscope itemtype="http://www.schema.org/MusicAlbum">
+	<div id="bread-crumb-container">
+		<nav id="bread-crumb">
+			<ul>
+				<li><a href="/">Home </a>&nbsp;&nbsp;>&nbsp;</li>                							
+				<li itemprop="byArtist" itemscope itemtype="http://schema.org/MusicGroup">
+					<span itemprop="name"><a id="cphContent_hlArtistBreadCrumb" title="Sunset Terr" class="bread-crumb" href="http://www.cdbaby.com/Artist/SunsetTerr">Sunset Terr</a></span></li>
+                <li> > </li>
+                <li itemprop="name"><span id="cphContent_lblAlbumName" title="Sunset Terr | Sunrize" class="bread-crumb-last-item">Sunrize</span></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="left-nav-container">
+		<!-- Left Column -->
+		<span itemprop="image"><img id="cphContent_imgAlbum" title="Sunset Terr | Sunrize" src="//images.cdbaby.name/s/u/sunsetterr6.jpg" alt="Sunset Terr | Sunrize" /></span>
+		<br /><br />
+		<a id="cphContent_hlArtistPage" title="Sunset Terr" class="bread-crumb" href="http://www.cdbaby.com/Artist/SunsetTerr">Go To Artist Page</a>	
+		<div id="cphContent_albumsCarousel" style="height:235px; width:200px">
+			
+
+<style type="text/css">
+	.extra-margin
+	{
+	   margin-top: 125px;
+	}
+
+</style>
+<div id="cphContent_ucArtistAlbums_pnlArtistAlbumsCarousel">
+	
+<div class="section-header carousel-header">            
+			<div class="more-about-this-artist-icon"></div>
+			<div class="more-about-this-artist-head"><h4>MORE ALBUMS BY THIS ARTIST</h4></div>			
+	     </div>	
+         
+           
+                    <div id="deluxe-info">    
+                        <div class="carousel-container"> 
+                            <div id="deluxe-covers" >
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_0" title="Sunset Terr | Lock Load" class="carousel-image" href="/cd/sunsetterr9"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_0" class="carousel-image" src="//images.cdbaby.name/s/u/sunsetterr9_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_1" title="Sunset Terr | Proball" class="carousel-image" href="/cd/sunsetterr8"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_1" class="carousel-image" src="//images.cdbaby.name/s/u/sunsetterr8_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_2" title="Sunset Terr | Sunrize Acoustics" class="carousel-image" href="/cd/sunsetterr7"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_2" class="carousel-image" src="//images.cdbaby.name/s/u/sunsetterr7_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_3" title="Sunset Terr | Summer In the Ghetto" class="carousel-image" href="/cd/sunsetterr5"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_3" class="carousel-image" src="//images.cdbaby.name/s/u/sunsetterr5_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_4" title="Sunset Terr | Archways" class="carousel-image" href="/cd/sunsetterr4"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_4" class="carousel-image" src="//images.cdbaby.name/s/u/sunsetterr4_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+                    <div class="carousel-feature">                                    
+                        <a id="cphContent_ucArtistAlbums_rptArtistAlbums_hlArtistAlbum_5" title="Sunset Terr | A Prelude to Sunset Terr" class="carousel-image" href="/cd/sunsetterr"><img id="cphContent_ucArtistAlbums_rptArtistAlbums_imgFeature_5" class="carousel-image" src="//images.cdbaby.name/s/u/sunsetterr_small.jpg" /></a>                           
+                    </div> 
+                                               
+                
+               
+                            </div>
+                             
+                        <a href="javascript:;" class="a-carousel-left" title="previous album"></a>
+                        <a href="javascript:;" class="a-carousel-right" title="next album"></a>
+                          
+                        </div> 
+                        	
+                    </div>
+                    <div class="carousel-album-seperator input-gradient extra-margin"></div> 
+                
+         
+         
+        
+</div>  <!-- pnlArtistAlbumsCarousel --> 
+		</div>	
+
+		
+
+<div class="album-page-left-nav-headers">    
+    <br />Recommended if You Like
+</div>
+<div class="dotted-line">
+</div>
+
+
+
+	
+		<span id="cphContent_ucRecommendedIfYouLike_rptSoundsLike_lblSoundsLike_0" class="album-page-left-nav-items">De La Soul</span>
+	
+		<span id="cphContent_ucRecommendedIfYouLike_rptSoundsLike_lblSoundsLike_1" class="album-page-left-nav-items">Little Brother</span>
+	
+		<span id="cphContent_ucRecommendedIfYouLike_rptSoundsLike_lblSoundsLike_2" class="album-page-left-nav-items">Tribe Called Quest</span>
+	
+	
+		
+		
+
+<div class="album-page-left-nav-headers">    
+    <br /><span id="cphContent_ucMoreArtistsFrom_lblMoreArtists">More Artists From</span> 
+         
+</div>
+<div class="dotted-line">
+</div>
+
+
+	
+		<a id="cphContent_ucMoreArtistsFrom_rptLocations_hlLocation_0" title="United States - United States" class="left-nav-links" href="/Places/5US0">United States - United States</a>
+	
+	
+		
+
+<div class="album-page-left-nav-headers">    
+    <br /><span id="cphContent_ucOtherGenresYouWillLove_lblOtherGenresYouWillLove">Other Genres You Will Love</span> 
+         
+</div>
+<div class="dotted-line">
+</div>
+
+
+	
+		<a id="cphContent_ucOtherGenresYouWillLove_rptSubGenres_hlGenre_0" title="Hip-Hop/Rap:&amp;nbsp;Jazz-Rap" class="left-nav-links" href="/Style/631">Hip-Hop/Rap:&nbsp;Jazz-Rap</a>
+	
+		<a id="cphContent_ucOtherGenresYouWillLove_rptSubGenres_hlGenre_1" title="Jazz:&amp;nbsp;Soul-Jazz" class="left-nav-links" href="/Style/537">Jazz:&nbsp;Soul-Jazz</a>
+	
+		<a id="cphContent_ucOtherGenresYouWillLove_rptSubGenres_hlGenre_2" title="Moods:&amp;nbsp;Type: Lyrical" class="left-nav-links" href="/Style/202">Moods:&nbsp;Type: Lyrical</a>
+	
+	<br />
+		
+
+<style type="text/css">
+#banner-advanced-search
+	{
+		margin-top: 6px;
+		overflow: hidden;
+		position: relative;
+		float:left;
+		height: 50px;
+		width: 200px;
+	}
+	#banner-advanced-search img
+	{
+	    position: relative;
+	    top: -657px;
+	    left: 0px;
+	}
+	#banner-advanced-search img:hover
+	{
+		top: -707px;
+		left: 0px;
+	}
+
+</style>
+<a href="/search" id="banner-advanced-search">Not what your looking for? Use advanced search.<img src="/IMG/sprite-elements.jpg" alt="Not what your looking for? Use advanced search." /></a>
+
+
+<div id="left-banner"></div>
+
+
+<style type="text/css">
+#banner-podcast
+	{
+		margin-top: 20px;
+		overflow: hidden;
+		position: relative;
+		float:left;
+		height: 70px;
+		width: 200px;
+	}
+	#banner-podcast img
+	{
+	    
+	    position: relative;
+	    top: -345px;
+	    left: 0px;
+	}
+	#banner-podcast img:hover
+	{
+		top: -415px;
+		left: 0px;
+	}
+	
+</style>
+
+<a href="http://musicdiscovery.cdbabypodcast.com/" id="banner-podcast" ><img src="/IMG/sprite-elements.jpg" alt="Listen to the CD Baby Music Discovery Podcast" />Listen to the CD Baby Music Discovery Podcast</a>
+
+
+
+		<!-- Left Column -->
+	</div>
+
+	<!-- Wishlist -->
+	
+
+ <link rel="stylesheet" href="/css/styles.css?token=45">
+<style type="text/css">
+        
+    .overlay-button
+	{
+		border: 0;
+		border-radius: 4px;
+		color: #FFF;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}   
+	
+	.float-right
+	{
+	    float:right;	    
+	}
+	.table-display
+	{
+	    margin-top: 0px !important;
+	}
+	.download-button
+    {
+        font-size:11px;
+        float: left;
+        display: block;
+        margin: 10px;
+        padding: 7px 7px;
+    }
+    .item-description, .item-name
+    {
+        display: block;
+        float: left;
+        font-family: Arial, Sans-Serif;
+        font-style: normal;
+        text-align: left;
+        margin-bottom:5px;
+        width: 100%;
+    }
+        .item-name 
+    {
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+     .table-display
+    {
+       float:left;
+       margin-top: 10px;
+    }
+   
+   .table-display td, .formats 
+    {
+        vertical-align: middle;
+        text-align: left;   
+
+        
+</style>
+
+    
+<div id="wishlist-modal" class="clearfix avlModalHideClass">
+    <div id="cphContent_ucWishlistOverlay_wishlistHeader" class="page-header">
+	    <div class="header-icon music-icon"></div>
+	    <h4>My Wishlist</h4>
+    </div>
+    
+    <div id="cphContent_ucWishlistOverlay_upWishlistOverlay">
+	  
+         
+            
+
+<style type="text/css">
+    .download-button
+    {
+        font-size:11px;
+        float: left;
+        display: block;
+        margin: 10px;
+        padding: 7px 7px;
+    }
+    .item-description, .item-name
+    {
+        display: block;
+        float: left;
+        font-family: Arial, Sans-Serif;
+        font-style: normal;
+        text-align: left;
+        margin-bottom:5px;
+        width: 100%;
+    }
+        .item-name 
+    {
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+     .table-display
+    {
+       float:left;
+       margin-top: 10px;
+    }
+   
+   .table-display td, .formats 
+    {
+        vertical-align: middle;
+        text-align: left;   
+    }
+  
+
+</style>
+
+<div id="cphContent_ucWishlistOverlay_ucWishlistView_pnlNoWishlistItems">
+		
+<div class="output-message">There are no items in your wishlist.</div>
+
+	</div>
+		    
+		    <div id="cphContent_ucWishlistOverlay_pnlWishlistOverlay">
+		
+			    
+		    
+	</div>
+	    
+</div>
+
+    <a href="javascript:;" class="overlay-close" title="close" onclick="$.closeModal({target:'#wishlist-modal'})"></a>
+</div>
+ 
+	<!-- Right Column -->
+    
+    <div id="right-container" class="clearfix">
+	<!-- Top Portion -->
+        <!-- Left Half-->
+		<div class="float-container">
+			<div id="album-page-right-container-topleft">
+				<h1 id="album-page-album"><span itemprop="name"><span id="cphContent_lblAlbumTitle">Sunrize</span></span></h1>
+				<h2 id="album-page-artist"><span itemprop="byArtist">by <a id="cphContent_hlByLine" class="underline" href="http://www.cdbaby.com/Artist/SunsetTerr"> Sunset Terr</a></span></h2>
+				<div id="album-page-copyright"><span itemprop="copyrightHolder"><span id="cphContent_lblCopyrightLine">© Copyright - Sunset Terr / Nightbreed Entertainment (885767076471)</span></span></div>
+      
+				<!-- Buy Buttons --->
+				<div class="album-page-buy-button-container">
+					
+		
+						
+							<a id="cphContent_rptFormats_lbBuyFormat_0" title="Download" class="btn-std buy-button btn-gradient-buy-mp3" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">Download $9.99</a>
+						
+							<a id="cphContent_rptFormats_lbBuyFormat_1" title="CD" class="btn-std buy-button btn-gradient-buy-cd" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptFormats$ctl02$lbBuyFormat&#39;,&#39;&#39;)">CD $12.97</a>
+						
+		
+						
+				</div> <!-- Buy Buttons --->
+  
+				<div class="dotted-line-space"></div>
+				<div class="album-page-summary"> 
+					<div id="album-page-summary-short-description"><span id="cphContent_lblShortDescription"></span></div>
+
+					<div id="cphContent_divGenre"><b>Genre:&nbsp;</b><meta id="cphContent_metaGenre" itemprop="genre" content="Hip-Hop/Rap"></meta><span id="cphContent_lblMainGenre">Hip-Hop/Rap: Jazz-Rap</span></div>
+					<div><b>Release Date:&nbsp;</b><span itemprop="datePublished"><span id="cphContent_lblReleaseDate">2012</span></span></div>
+				</div>	
+			</div><!-- Left Half -->
+			<!-- Right Half -->
+			<div class="right-container-top-right"> 
+				<div id="waiting-list-modal" class="clearfix avlModalHideClass">  
+		
+					<div id="cphContent_upWaitingList">
+	
+							<div id="cphContent_divWaitingListSignup" class="notify-container">
+							<div id="cphContent_Panel1" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;cphContent_btnSubmitWaitingList&#39;)">
+		
+								<h2>We'll ship when it's back in stock</h2>
+								<div class="notify-content">
+									<div>Order now and we'll ship when it's back in stock, or enter your email below to be notified when it's back in stock.</div>
+									<input name="ctl00$cphContent$txtWaitingListEmail" type="text" id="cphContent_txtWaitingListEmail" class="input-gradient notify-email" />
+									<input type="submit" name="ctl00$cphContent$btnSubmitWaitingList" value="Submit ▶" id="cphContent_btnSubmitWaitingList" class="btn-gradient-primary newsletter-button btn-waiting" />
+									<div></div>
+									<span style="float:left; margin-right:5px; margin-left:-2px;"><input id="cphContent_cbNewsletter" type="checkbox" name="ctl00$cphContent$cbNewsletter" checked="checked" /></span>
+									<div><strong>Sign up for the CD Baby Newsletter</strong><br />
+									Your email address will not be sold for any reason.</div>
+									
+								</div>
+								<div class="clear-both"></div>
+								
+	</div>
+							</div> <!-- notify-container -->
+			
+							
+							<a href="javascript:;" id="wait-overlay-continue" onclick="$.closeModal({target:'#waiting-list-modal'})" title="continue shopping" class="btn-std btn-gradient-tertiary">Continue Shopping</a>
+						
+</div>
+					<a href="javascript:;" class="overlay-close" title="close" onclick="$.closeModal({target:'#waiting-list-modal'})"></a>
+				</div> <!--waiting-list-modal -->
+    
+				<div class="right-container-top-right-small"> 
+					<div id="cphContent_pnlCDStockStatus" class="in-stock-panel">
+	
+						<div class="in-stock-panel-img"></div> 
+						<span id="cphContent_lblStockMessage">cd in stock order now</span>
+					
+</div>
+
+					
+
+					
+		
+					<div id="cphContent_pnlMultiUnitDiscount" class="discount-panel">
+	
+						<div class="discount-panel-img"></div> 
+						<span id="cphContent_lblMultiDiscount">Buy 2 or more of this title and get <b>10% off</b></span>
+					
+</div>
+
+					<div id="cphContent_pnlFiveDollarSale">
+	
+						<a href="/sale/" class="five-dollar-sale-button" title="learn about $5 sale"></a>
+					
+</div>
+
+					<div id="cphContent_pnlWishList">
+	
+						<a id="cphContent_lbAddToMyWishlist" title="add to my wishlist" class="wish-list-button-login" href="javascript:__doPostBack(&#39;ctl00$cphContent$lbAddToMyWishlist&#39;,&#39;&#39;)">Log in to view wishlist</a>
+					
+</div>
+
+					<div id="cphContent_pnlSocial">
+	
+						<div class="addthis_toolbox" addthis:email_template="ShareAlbum"
+							addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}", addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+                
+							<a class="addthis_button_facebook facebook-button"><img src="" width="30" height="30" border="0" alt="Share to Facebook" /></a>
+							<a class="addthis_button_twitter twitter-button"><img src="" width="30" height="30" border="0" alt="Share to Twitter" /></a>
+							<a class="addthis_button_google_plusone_share google-button" target="blank" rel="noopener"><img src="" width="30" height="30" border="0" alt="Share to Google +1" /></a>
+							<a class="addthis_button_compact share-button"><img src="/IMG/Blank.gif" width="60" height="30" border="0" alt=""  /></a>
+						</div>
+					
+</div>
+				</div> <!--right-container-top-right-small  -->
+			</div><!-- Right Half -->
+			
+		</div>
+
+
+		
+		<div class="float-container">
+			<div id="jp-no-solution" class="hide-error">
+				<p>To listen to tracks you will need to <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_">update your browser to a recent version</a>.</p>
+			</div>
+		</div>
+
+
+		<div class="right-column-album-header">
+			<div class="carousel-header-icon music-icon"></div>
+
+			<h4>Tracks</h4>
+			
+			<div class="play-all-container">
+				<a class="play-all-button play-track-all"><div class="now-playing">Preview all songs</div></a>
+			</div>
+		</div>
+
+		
+				<table class="track-table">
+					<thead>
+						<tr class="table-headings">
+							<td style="width: 5%" >&nbsp;</td>                        
+							<td style="width: 67%;">Song</td>
+							<td style="width: 5%" class="text-center">Share</td>
+							<td style="width: 9%" class="text-center">Time</td>
+							<td style="width: 13%" class="text-center">Download</td>
+						</tr>
+					</thead>
+					<tbody>				
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_0" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_0" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AwGAKYUv+JmxkMrey9nwOXw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_0" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_0" class="track-title-meta" itemprop="name" content="Archways"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_0" class="track-title">1. Archways</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl01$hfTrackID" id="cphContent_rptTrack_hfTrackID_0" value="9431359" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_0" content="PT0H4M8S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_0">4:08</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_0_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl01$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_1" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_1" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AE9toFPdovyoO7tlwvXOvXQ==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_1" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_1" class="track-title-meta" itemprop="name" content="A New Dawn"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_1" class="track-title">2. A New Dawn</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl02$hfTrackID" id="cphContent_rptTrack_hfTrackID_1" value="9431360" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_1" content="PT0H3M5S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_1">3:05</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_1_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl02$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_2" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_2" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/A5q1aPfdMI6+pny_VFrF6GQ==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_2" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_2" class="track-title-meta" itemprop="name" content="Jazz Town"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_2" class="track-title">3. Jazz Town</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl03$hfTrackID" id="cphContent_rptTrack_hfTrackID_2" value="9431361" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_2" content="PT0H3M25S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_2">3:25</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_2_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl03$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_3" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_3" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AI2XNeBdNC1sA_7QPGERChA==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_3" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_3" class="track-title-meta" itemprop="name" content="One Shot"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_3" class="track-title">4. One Shot</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl04$hfTrackID" id="cphContent_rptTrack_hfTrackID_3" value="9431362" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_3" content="PT0H3M49S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_3">3:49</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_3_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl04$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_4" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_4" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/A985gQ0RPxZCPI8nFkne4Yg==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_4" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_4" class="track-title-meta" itemprop="name" content="Ya Blocked Out"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_4" class="track-title">5. Ya Blocked Out</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl05$hfTrackID" id="cphContent_rptTrack_hfTrackID_4" value="9431363" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_4" content="PT0H4M30S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_4">4:30</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_4_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl05$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_5" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_5" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/Ay9T_YTvko4ie79R4tAQvuw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_5" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_5" class="track-title-meta" itemprop="name" content="Verbal Scalpel"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_5" class="track-title">6. Verbal Scalpel</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl06$hfTrackID" id="cphContent_rptTrack_hfTrackID_5" value="9431364" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_5" content="PT0H4M28S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_5">4:28</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_5_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl06$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_6" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_6" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/Aa98Rgtk4gKnAlN1tmUKHDg==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_6" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_6" class="track-title-meta" itemprop="name" content="King Tut"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_6" class="track-title">7. King Tut</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl07$hfTrackID" id="cphContent_rptTrack_hfTrackID_6" value="9431365" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_6" content="PT0H3M43S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_6">3:43</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_6_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl07$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_7" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_7" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/A9xe65l4tUL77Ku4469tnWQ==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_7" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_7" class="track-title-meta" itemprop="name" content="Flow Well Get Well Paid"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_7" class="track-title">8. Flow Well Get Well Paid</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl08$hfTrackID" id="cphContent_rptTrack_hfTrackID_7" value="9431366" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_7" content="PT0H3M15S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_7">3:15</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_7_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl08$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_8" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_8" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/Anos_M1BjE6O806xqRu3sUQ==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_8" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_8" class="track-title-meta" itemprop="name" content="Food for Thought"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_8" class="track-title">9. Food for Thought</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl09$hfTrackID" id="cphContent_rptTrack_hfTrackID_8" value="9431367" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_8" content="PT0H3M40S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_8">3:40</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_8_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl09$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_9" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_9" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/Ag_o0uw6o3baVJxEvnGjPHg==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_9" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_9" class="track-title-meta" itemprop="name" content="Carpe Diem"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_9" class="track-title">10. Carpe Diem</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl10$hfTrackID" id="cphContent_rptTrack_hfTrackID_9" value="9431368" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_9" content="PT0H4M44S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_9">4:44</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_9_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl10$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_10" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_10" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/A+0LL+fXNvFnwl6hL6AQLhg==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_10" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_10" class="track-title-meta" itemprop="name" content="Where You Gonna Run"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_10" class="track-title">11. Where You Gonna Run</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl11$hfTrackID" id="cphContent_rptTrack_hfTrackID_10" value="9431369" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_10" content="PT0H3M46S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_10">3:46</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_10_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl11$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_11" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_11" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/ARIeK_Z_V7nfJAPTYlv4AXQ==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_11" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_11" class="track-title-meta" itemprop="name" content="Get Your Ride On"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_11" class="track-title">12. Get Your Ride On</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl12$hfTrackID" id="cphContent_rptTrack_hfTrackID_11" value="9431370" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_11" content="PT0H3M35S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_11">3:35</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_11_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl12$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_12" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_12" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AO82OQHTAdJrzpX5Ig0ywsA==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_12" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_12" class="track-title-meta" itemprop="name" content="The Road Less Traveled"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_12" class="track-title">13. The Road Less Traveled</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl13$hfTrackID" id="cphContent_rptTrack_hfTrackID_12" value="9431371" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_12" content="PT0H3M54S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_12">3:54</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_12_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl13$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_13" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_13" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/Aa6nvGpk_a111+n_EcvgRVw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_13" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_13" class="track-title-meta" itemprop="name" content="Heal the World"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_13" class="track-title">14. Heal the World</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl14$hfTrackID" id="cphContent_rptTrack_hfTrackID_13" value="9431372" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_13" content="PT0H3M57S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_13">3:57</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_13_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl14$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_14" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_14" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/Aq7rz3CX_ntC3SralbTspXQ==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_14" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_14" class="track-title-meta" itemprop="name" content="Grand Denouement"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_14" class="track-title">15. Grand Denouement</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl15$hfTrackID" id="cphContent_rptTrack_hfTrackID_14" value="9431373" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_14" content="PT0H4M49S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_14">4:49</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_14_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl15$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_15" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_15" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AesHKXNV_qU7dWlU68xuMOw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_15" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_15" class="track-title-meta" itemprop="name" content="3di"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_15" class="track-title">16. 3di</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl16$hfTrackID" id="cphContent_rptTrack_hfTrackID_15" value="9431374" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_15" content="PT0H1M32S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_15">1:32</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_15_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl16$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_16" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_16" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/ASb2THDoA57VlAqzs7dvKKw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_16" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_16" class="track-title-meta" itemprop="name" content="Getting Busy"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_16" class="track-title">17. Getting Busy</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl17$hfTrackID" id="cphContent_rptTrack_hfTrackID_16" value="9431375" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_16" content="PT0H5M2S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_16">5:02</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_16_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl17$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_17" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_17" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/Ac3J0yGCO55KPqka8ReXEIA==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_17" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_17" class="track-title-meta" itemprop="name" content="Double Diamond"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_17" class="track-title">18. Double Diamond</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl18$hfTrackID" id="cphContent_rptTrack_hfTrackID_17" value="9431376" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_17" content="PT0H3M49S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_17">3:49</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_17_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl18$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_18" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_18" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AGxX0ts_rMg5PAKed+UBgqQ==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_18" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_18" class="track-title-meta" itemprop="name" content="Flows On Mind"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_18" class="track-title">19. Flows On Mind</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl19$hfTrackID" id="cphContent_rptTrack_hfTrackID_18" value="9431377" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_18" content="PT0H4M30S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_18">4:30</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_18_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl19$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_19" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_19" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AvMzBLWREUreyJu7xOh0Vjw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_19" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_19" class="track-title-meta" itemprop="name" content="Lets Get It"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_19" class="track-title">20. Lets Get It</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl20$hfTrackID" id="cphContent_rptTrack_hfTrackID_19" value="9431378" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_19" content="PT0H3M32S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_19">3:32</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_19_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl20$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_20" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_20" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/ARoNn0acVczX6RHuqXBfIbA==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_20" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_20" class="track-title-meta" itemprop="name" content="We Be Macadocious"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_20" class="track-title">21. We Be Macadocious</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl21$hfTrackID" id="cphContent_rptTrack_hfTrackID_20" value="9431379" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_20" content="PT0H4M35S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_20">4:35</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_20_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl21$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_21" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_21" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/A9T_06wT9+nJEX4WgPkVHgw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_21" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_21" class="track-title-meta" itemprop="name" content="Summer in the Ghetto"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_21" class="track-title">22. Summer in the Ghetto</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl22$hfTrackID" id="cphContent_rptTrack_hfTrackID_21" value="9431380" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_21" content="PT0H5M2S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_21">5:02</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_21_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl22$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_22" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_22" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AMH3DlR97gRbWKT5XsZRKng==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_22" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_22" class="track-title-meta" itemprop="name" content="Tooth Decay"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_22" class="track-title">23. Tooth Decay</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl23$hfTrackID" id="cphContent_rptTrack_hfTrackID_22" value="9431381" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_22" content="PT0H4M32S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_22">4:32</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_22_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl23$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_23" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_23" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/ADi_XuWSxl5cCAj7ZHNi_iw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_23" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_23" class="track-title-meta" itemprop="name" content="Just Us League"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_23" class="track-title">24. Just Us League</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl24$hfTrackID" id="cphContent_rptTrack_hfTrackID_23" value="9431382" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_23" content="PT0H3M45S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_23">3:45</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_23_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl24$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_24" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_24" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/ADSaxwxRBdtIZLwutYpj7gA==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_24" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_24" class="track-title-meta" itemprop="name" content="Time"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_24" class="track-title">25. Time</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl25$hfTrackID" id="cphContent_rptTrack_hfTrackID_24" value="9431383" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_24" content="PT0H4M29S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_24">4:29</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_24_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl25$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_25" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_25" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AS670v0JGxXE7FyOebxzSYQ==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_25" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_25" class="track-title-meta" itemprop="name" content="N.A.L.S"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_25" class="track-title">26. N.A.L.S</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl26$hfTrackID" id="cphContent_rptTrack_hfTrackID_25" value="9431384" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_25" content="PT0H4M29S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_25">4:29</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_25_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl26$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_26" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_26" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AUU2P2curp61bHlZwE7U57Q==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_26" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_26" class="track-title-meta" itemprop="name" content="Mary"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_26" class="track-title">27. Mary</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl27$hfTrackID" id="cphContent_rptTrack_hfTrackID_26" value="9431385" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_26" content="PT0H4M10S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_26">4:10</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_26_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl27$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_27" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_27" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AQsneKJ29PV077Mc4TjuBXA==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_27" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_27" class="track-title-meta" itemprop="name" content="Trashcans"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_27" class="track-title">28. Trashcans</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl28$hfTrackID" id="cphContent_rptTrack_hfTrackID_27" value="9431386" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_27" content="PT0H4M14S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_27">4:14</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_27_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl28$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+					<tr itemprop="track" itemscope itemtype="http://www.schema.org/MusicRecording">
+                    	<td class="center-me">
+							<meta id="cphContent_rptTrack_metaTrackUrl_28" content="https://www.cdbaby.com/cd/sunsetterr6" itemprop="url"></meta>
+							<div class="float-container">
+								<audio class="track-audio" preload="none">
+									<source type='audio/mpeg; codecs="mp3"' />
+								</audio>
+							</div>
+							<a href="#" class="play-track paused"></a>
+							
+							<a id="cphContent_rptTrack_hlPlayButton_28" class="play-me-icon jplay-button play" onClick="SampleSelected(&#39;http://content.cdbaby.com/audio/full/da7e457d/AKGbuD1H7OiJUm7OmDR3FHw==.mp3&#39;, this);" href="javascript:;" style="display: none;"></a>
+						</td>                       
+						<td class="center-left">
+							<meta id="cphContent_rptTrack_metaInAlbum_28" itemprop="inAlbum" content="Sunrize"></meta>
+							<meta id="cphContent_rptTrack_metaTrackTitle_28" class="track-title-meta" itemprop="name" content="To the Fullest"></meta>
+							<div class="track-title">
+								<span id="cphContent_rptTrack_lblTrackTitle_28" class="track-title">29. To the Fullest</span> <input type="hidden" name="ctl00$cphContent$rptTrack$ctl29$hfTrackID" id="cphContent_rptTrack_hfTrackID_28" value="9431387" /> 
+							</div>
+							<div class="track-artist">
+								
+							</div>
+						</td>
+						<td class="center-me">
+							<div class="addthis_toolbox" addthis:email_template="ShareAlbum" addthis:email_vars="{ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'}"
+								addthis:url ='http://www.cdbaby.com/cd/sunsetterr6'>
+								<div class="custom_hover">
+									<div class="custom_button"><img src="/IMG/Share_Icon_Grey.png" width="28" height="21" border="0" alt=""/></div>
+								</div>
+								<div class="hover_menu" style="z-index:1">
+									<div class="hover_menu_title"><strong>Share this song!</strong></div><div class="hover_menu_close">X</div>
+									<div class="column1">
+										<a class="addthis_button_twitter">Twitter</a>
+										<a class="addthis_button_facebook">Facebook</a>
+									</div>
+									<div class="clear"></div>
+									<div class="top"></div>
+									<div class="column1">
+										<a class="addthis_button_google_plusone_share">Google</a>
+										<a class="addthis_button_stumbleupon">Stumble</a>
+									</div>
+									<div class="column2">
+										<a class="addthis_button_email">Email</a>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							
+						</td>
+						<td class="center-me">
+							<meta id="cphContent_rptTrack_metaDuration_28" content="PT0H4M13S" itemprop="duration"></meta>
+							<span id="cphContent_rptTrack_lblTrackTime_28">4:13</span>
+						</td>
+						<td class="center-me" >
+							
+							
+								
+									<a id="cphContent_rptTrack_rptTrackFormats_28_lbBuyFormat_0" title="$0.99" class="buy-track-button btn-gradient-primary" href="javascript:__doPostBack(&#39;ctl00$cphContent$rptTrack$ctl29$rptTrackFormats$ctl01$lbBuyFormat&#39;,&#39;&#39;)">$0.99</a>
+								
+								
+						</td>
+					</tr>  
+			
+				</tbody>
+				<tfoot>
+					<tr>
+						<td class="center-me">
+							<div style="display: none;">
+							<a id="cphContent_rptTrack_hlPlayAll" class="play-all-icon play-all" onclick="PlayAll();" href="javascript:;"></a>
+							</div>
+						</td>
+						<td class="bold-italic" colspan="3" ></td>
+					</tr>
+				</tfoot>
+				</table>
+			
+		
+		<div class="availableFormatContainer">
+			<span id="cphContent_lblAvailableFormatText" class="availableFormatText">Available as MP3, MP3 320, and FLAC files.</span>
+		</div>
+		
+		<div class="right-column-album-header">
+			<div class="carousel-header-icon about-this-ablum-icon"></div>
+			<h4>ABOUT THIS ALBUM</h4>
+		</div>
+        
+		<div class="pad">
+			      
+        
+        
+		<div class="album-notes">
+            <div class="album-page-left-nav-headers"><br />Reviews</div>
+            <div class="dotted-line"></div><br /><br />
+          
+			<div id="cphContent_upAddReview">
+	
+                    <script type="text/javascript">Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(pageLoaded);</script>
+					
+					<div id="cphContent_pnlReviewNotLoggedIn">
+		
+						<a id="cphContent_hlLogInAndReview" title="Log in" class="log-in-to-write-a-review" href="/Login?PageTo=/cd/sunsetterr6">Log in</a>
+                        <span class="review-to-write">to write a review</span>
+					
+	</div>
+
+
+									
+				
+</div>
+
+			<div id="cphContent_upReviews">
+	                   
+					
+							<table>							
+						                                
+								<tr style="padding-top:10px; padding-bottom:10px; margin-top:10px" itemprop="review" itemscope itemtype="http://www.schema.org/Review">                                                                
+									<td style="width:120px" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">   <br />                                                                      
+											<meta id="cphContent_rptReviews_metaRating_0" itemprop="ratingValue" content="5"></meta>
+											<img id="cphContent_rptReviews_imgStar1_0" src="/img/reviewstar-orange.jpg" style="height:18px;width:18px;" />
+											<img id="cphContent_rptReviews_imgStar2_0" src="/img/reviewstar-orange.jpg" style="height:18px;width:18px;" />
+											<img id="cphContent_rptReviews_imgStar3_0" src="/img/reviewstar-orange.jpg" style="height:18px;width:18px;" />
+											<img id="cphContent_rptReviews_imgStar4_0" src="/img/reviewstar-orange.jpg" style="height:18px;width:18px;" />
+											<img id="cphContent_rptReviews_imgStar5_0" src="/img/reviewstar-orange.jpg" style="height:18px;width:18px;" />
+										    <span id="cphContent_rptReviews_lblReviewerName_0" class="reviwer-name">Larry</span>
+									</td>
+									<td><br />
+										<span itemprop="name"><span id="cphContent_rptReviews_lblReviewTitle_0" class="review-title">A plus sounds</span></span><br />
+										<div class="review" id="reviewNote" itemprop="description"><span id="cphContent_rptReviews_lblReviewText_0">Sunrize is hip hop/jazz-rap at a step above  the rest,  full of beats, rhyming with free flowing sounds,, when I  listen with my old  friends (Jazz Town, Flow Well Get Paid or real young riders (Candy Man, Just Us League , no cussing, no degrading sexes, but yet good positive flow of music, two thumbs up</span></div>                                      
+                                        <a href="javascript:;" id="readMore" class="read-more">Read more...</a>
+									</td>
+								</tr>                                                          		
+						                        
+								<tr>
+									<td colspan="2">
+										<div style="float: right;">
+											
+											
+											
+										</div>
+										<div style="clear:both;">
+										</div>
+									</td>
+								</tr>
+							</table>
+						
+				
+</div>
+            </div> <!-- padding -->
+		</div>
+	  <!--Lower Right  --> 
+   
+	<div style="clear: both;"></div>
+
+  </div>
+
+			</section>
+			<div id="footer-container">
+				
+
+ <style type="text/css">           
+        .overlay-content-wrap
+	    {
+		    height:auto;		
+		    top:100px;    
+	    }
+	    .email-address
+	    {
+	        font-weight:bold;
+	    }	    
+</style>
+
+
+
+<footer>
+    <div id="ucFooter_upNewsletter">
+	
+                
+        
+</div>
+
+    
+	<div id="social-bar">
+		<div id="social-options">
+			<label for="ucFooter_txtEmailNewsletter" id="ucFooter_lblEmailNewsletter" class="newsletter-label">
+				Subscribe and discover new music.
+			</label>
+
+            <div id="ucFooter_UpdatePanel1">
+	
+                        <div onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ucFooter_btnSignUp&#39;)">
+		
+			            <div class="txt-input-container"><input name="ctl00$ucFooter$txtEmailNewsletter" type="text" id="ucFooter_txtEmailNewsletter" class="txt-input-newsletter-gradient txt-input-newsletter" placeholder="Email Address" />
+                            
+                        </div>
+			            <input type="submit" name="ctl00$ucFooter$btnSignUp" value="Submit ►" id="ucFooter_btnSignUp" class="search-button btn-gradient-primary newsletter-button" />
+                    
+	</div>
+                
+</div>
+			<div id="follow-us">
+				Follow <span class="highlight">CD Baby</span> on
+			</div>
+			<div id="social-icons-container">
+				<a href="http://www.facebook.com/cdbaby" id="facebook-icon" class="social-icon"></a>
+				<a href="https://twitter.com/#!/cdbaby" id="twitter-icon" class="social-icon"></a>
+				<a href="http://www.youtube.com/user/cdbabyvideo" id="youtube-icon" class="social-icon"></a>
+				<a href="http://plus.google.com/107412413371084264127/" rel="publisher" id="google-icon" class="social-icon"></a>
+			</div>
+		</div>
+	</div>
+        
+    
+	<div id="footer-navigation" style="width:1000px">
+		<nav id="footer-company-info">
+			<div id="company-info-icon"></div>
+			<h5 class="footer-header highlight">Company Info</h5>
+			<a href="/about">About CD Baby</a>			
+            <a href="/reseller">Wholesale Music Distribution</a>
+			<a href="/terms">Terms &amp; Conditions</a>
+			<a href="/privacy">Privacy Policy</a>
+			<a href="https://members.cdbaby.com" onClick="_gaq.push(['_trackEvent', 'cdbaby-retail-artist-signup', 'Click', 'footer-link-artist-signup']);">Artist Sign Up</a>
+			<a href="/careers.aspx">Careers</a>
+			<a href="/sitemap.aspx">Sitemap</a>
+		</nav>
+		<nav id="footer-need-help">
+			<div id="help-icon"></div>
+			<h5 class="footer-header highlight">Need Help?</h5>
+			<a href="/contact">Contact us</a>
+			<a href="/shipping">Shipping info</a>
+			<a href="/returns#policy">Returns</a>
+			<a href="/auth">Forgot your password</a>			
+			<a href="/faq">FAQ</a>
+		</nav>
+		<nav id="footer-my-acct">
+			<div id="myaccount-icon"></div>
+			<h5 class="footer-header highlight">My Account</h5>
+			<a href="/login.aspx">Login</a>
+			<a href="/myaccount/manageaccount.aspx">Manage account</a>
+			<a href="/myaccount/orderhistory.aspx">Order Information</a>
+		</nav>
+		<nav id="footer-more">
+			<div id="more-icon"></div>
+			<h5 class="footer-header highlight">More</h5>
+			<a href="http://www.hostbaby.com/?utm_source=cdbaby&utm_medium=footer&utm_campaign=textlink" title="Websites for Musicians and Bands">HostBaby</a>
+			<a href="https://www.bookbaby.com/?utm_source=CDB-com&utm_medium=footer&utm_campaign=textlink" title="Self Publishing and Distribution">BookBaby</a>
+			<a href="http://diymusician.cdbaby.com" title="Music Promotion for Independent Musicians" onClick="_gaq.push(['_trackEvent', 'cdbaby-retail-diy-blog', 'Click', 'footer-link-diy-blog']);">DIY Musician Blog</a>
+			<a href="http://musicdiscovery.cdbabypodcast.com" title="Music Promotion Podcast">Podcast</a>
+			<a href="http://duplication.cdbaby.com/?utm_source=cdbaby&utm_medium=footer&utm_campaign=textLink" title="CD Duplication and CD Replication">Disc Duplication</a>
+			<a href="/redeem">Redeem Download Cards</a>
+		</nav>
+	</div>
+</footer>
+
+
+            </div>
+        </div><!-- #container -->
+
+        <label id="update-action"></label>
+
+        
+
+<style type="text/css">
+        
+    .edit-button
+	{
+	    float:right;
+	    margin-top: 10px;
+    }
+    
+    .login-button
+    {
+        width:50px;
+        
+    }
+	#update-your-browser-banner
+	{
+		line-height: 26px;
+		background-color: #ccd00a;
+		font-size: 14px;
+		padding: 10px;
+		font-weight: bold;
+		text-align: center;
+		display: none;
+		cursor: pointer;
+	}
+	#updateYourBrowser li{
+		float: left;
+		margin: 12px 12px 34px 12px;
+		text-align: center;
+		
+	}
+	#updateYourBrowser li div{
+		background-image: url(../../IMG/sprites/browserlogos.png);
+		background-repeat:no-repeat;
+		width: 100px;
+		height: 100px;
+	}
+	#lnk-chrome{background-position: -4px 0;}
+	#lnk-firefox{background-position: -171px 0;}
+	#lnk-safari{background-position: -340px 0;}
+	#lnk-ie{background-position:-495px 0;}
+
+</style>
+
+<div id="avlModal1" class="clearfix avlModalHideClass">        
+    <div>
+        <div id="ucPageIncludes_upSessionWarning">
+	                  
+                <h2>Session Expiration Warning</h2>
+                <p>Your CD Baby online session is due to expire shortly.  Would you like to extend your session and remain logged in?</p>
+                <div>                        
+                    <input type="submit" name="ctl00$ucPageIncludes$btnExtendSession" value="Yes" id="ucPageIncludes_btnExtendSession" class="edit-button btn-gradient-primary" />                    
+                </div>               
+            
+</div>
+    </div>
+</div>
+   
+
+<div id="avlModal2" class="clearfix avlModalHideClass">        
+    <div>
+        <h2>Session Expiration</h2>
+        <p>We're sorry, but your CD Baby online session has expired.</p>
+        <div>
+            <div><a href="javascript:;" class="edit-button btn-gradient-primary login-button" onclick="LogIn();">Log in</a></div>            
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    
+    // --- Session timeout notification and expiration script ---
+
+    var jsTimeoutNotify;
+    var jsTimeoutExpire;
+
+    var sessTimeoutExpire;  //time until expiration
+    var sessTimeoutNotify;  //time until warning; 
+
+            
+    //Initial load and partial postbacks initiate/refresh the session
+    function pageLoad() {    
+    	FeatureDetection();
+        
+        sessTimeoutExpire = 0;  
+        sessTimeoutNotify = sessTimeoutExpire - 300000; // (5 minutes = 300,000 milliseconds)   
+
+        if (sessTimeoutExpire > 0)
+        {             
+            if(jsTimeoutExpire)
+            {
+                clearTimeout(jsTimeoutExpire);   
+                clearTimeout(jsTimeoutNotify);   
+            }//if
+                
+            jsTimeoutNotify = setTimeout("TimeoutNotifaction()", sessTimeoutNotify );
+            jsTimeoutExpire = setTimeout("TimeoutExpiration()", sessTimeoutExpire );     
+        }   // if   
+    } //pageLoad()         
+    
+    function TimeoutNotifaction()
+    {
+        $.openModal({ target: '#avlModal1', width: '400px', height: '130px' });                 
+    }   // TimeoutNotifaction()   
+
+    function LogIn()
+    {        
+         window.location = "/Login.aspx";
+    }   //LogIn()
+       
+    function TimeoutExpiration()
+    {
+        $.closeModal({ target: '#avlModal1'});          
+        var x = setTimeout("$.openModal({ target: '#avlModal2', width: '340px', height: '120px' })", 510 );         
+    }   // TimeoutExpiration()
+
+    function FeatureDetection() {
+    	//detect base support at the site level  
+    	//checking for audio support eliminates IE8, 
+    	//checking for text-shadow support eliminates IE9, 
+    	//checking for webgl eliminates IE10 and Safari 7
+    	//this should be expanded to include common failure points in older browsers based on actual features used.
+    	if (!/PhantomJS/.test(window.navigator.userAgent)) {
+    		if (!Modernizr.audio || !Modernizr.textshadow || !Modernizr.webgl || !Modernizr.flexbox || !Modernizr.flexwrap) {
+
+    			if(!$.cookie('updatebrowser')== true){
+    				updateYourBrowserModal();
+    			}
+    			if(!$('#update-your-browser-banner').length){
+    				$('<div id="update-your-browser-banner" onclick ="updateYourBrowserModal();">NOTE: Your browser is out of date and no longer supported by CD Baby.  Please upgrade or use a different browser for the best experience. </div>').insertBefore('#header-container')
+    				$('#update-your-browser-banner').slideDown('slow');
+    			}
+    		}
+    	}
+    }
+    function createUpdateBrowserCookie(){
+    	$.cookie('updatebrowser', true);
+    }
+    function updateYourBrowserModal(){
+    	var updateYourBrowserModalString="";
+    		updateYourBrowserModalString += "<div id=\"updateYourBrowser\" class=\"clearfix avlModalHideClass\">        ";
+    		updateYourBrowserModalString += "    <div>";
+    		updateYourBrowserModalString += "		<h2>Oops<\/h2>";
+    		updateYourBrowserModalString += "		<p>Looks like the web browser you’re using is a little outdated and no longer supported by CD Baby. We have good news though! <\/p>";
+    		updateYourBrowserModalString += "		<p>You can easily upgrade your web browser by using one of the links below.<\/p>";
+    		
+    		updateYourBrowserModalString += "		<ul>";
+    		updateYourBrowserModalString += "			<li><a href=\"http:\/\/www.google.com\/chrome\/\" target=\"_blank\"><div id=\"lnk-chrome\"><\/div>Google Chrome<\/a><\/li>";
+    		updateYourBrowserModalString += "			<li><a href=\"https:\/\/www.mozilla.com\/firefox\/\" target=\"_blank\"><div id=\"lnk-firefox\"> <\/div>Mozilla Firefox<\/a><\/li>";
+    		updateYourBrowserModalString += "			<li><a href=\"http:\/\/www.apple.com\/safari\/download\/\" target=\"_blank\"><div id=\"lnk-safari\"><\/div>Safari<\/a><\/li>";
+    		updateYourBrowserModalString += "			<li><a href=\"http:\/\/www.microsoft.com\/windows\/internet-explorer\" target=\"_blank\"><div id=\"lnk-ie\"><\/div>Internet Explorer<\/a><\/li>";
+    		updateYourBrowserModalString += "		<\/ul>";
+    		updateYourBrowserModalString += "			<div><a href=\"javascript:;\" class=\"edit-button btn-gradient-primary edit-button\" onclick=\"$.closeModal({target:'#updateYourBrowser'});createUpdateBrowserCookie();\">Close<\/a><\/div>";
+    		updateYourBrowserModalString += "			<a href=\"javascript:;\" class=\"overlay-close\" title=\"close\" onclick=\"$.closeModal({target:'#updateYourBrowser'});createUpdateBrowserCookie();\"><\/a>";
+    		updateYourBrowserModalString += "	<\/div>";
+    		updateYourBrowserModalString += "<\/div>";
+    		$('body').append(updateYourBrowserModalString);
+    	$.openModal({ target: '#updateYourBrowser', width: '500px' });
+    }
+  
+</script>
+
+    
+
+
+      
+
+    </form>
+
+    <script type="text/javascript" src="/js/libs/jquery-1.6.4.min.js?token=45"></script>
+    <script type="text/javascript" src="/js/libs/jquery-ui.min.js?token=45"></script>
+    <script type="text/javascript" src="/js/libs/jquery.dotdotdot-1.5.6.js?token=45"></script>
+    <script type="text/javascript" src="/js/libs/jquery.easing.1.3.js?token=45"></script>
+    <script type="text/javascript" src="/js/libs/jquery.scrollTo-1.4.min.js?token=45"></script>
+    <script type="text/javascript" src="/js/avlModal/jquery.avlModal.js?token=45"></script>
+    <script type="text/javascript" src="/js/libs/jquery.bxSlider.js?token=45"></script>
+    <script type="text/javascript" src="/js/libs/jquery.tools.min.js?token=45"></script>
+    <script type="text/javascript" src="/js/libs/jquery.coversCarousel.js?token=45"></script>
+    <script type="text/javascript" src="/js/scripts.js?token=45"></script>
+    <script type="text/javascript" src="/js/libs/jquery.lazyload.min.js?token=45"></script>
+    <script type="text/javascript" src="/JS/libs/jquery.cookie.js?token=45"></script>
+
+    
+    <!--fix for IE7 z-index stacking problems -->
+         <!--[if IE 7]>
+          <script type="text/javascript">
+            $(function () {
+                var zIndexNumber = 6000;
+                $('div').each(function () {
+                    $(this).css('zIndex', zIndexNumber);
+                    zIndexNumber -= 10;
+                });
+            });  
+            </script>
+          <![endif]-->  
+
+
+    
+	<script type="text/javascript" src="/JS/AlbumPlayer.js"></script>
+    <script type="text/javascript">
+    	jQuery.support.cors = true;
+    	var addthis_config = {
+    		username: "cdbaby",
+    		data_track_clickback: true
+        }
+
+        var addthis_share = {
+        	email_template: 'ShareAlbum',
+        	email_vars: {ArtistName: 'Sunset Terr', AlbumName: 'Sunrize'},
+        	templates: {
+        		twitter: '♫ ; Sunset Terr. Listen @cdbaby {{url}}'
+            },
+            url_transforms: {
+                shorten: {
+                    twitter: 'bitly'
+                }
+            },
+            shorteners: {
+                bitly: {
+                    username: 'cdbabyweb',
+                    apiKey: 'R_c2a4ea11b87569a52b3d6822640ee33c'
+                }
+            }
+        }
+
+
+        //***************Read-more/Read-less           
+
+            var $link = $("#albumNote").parent().find(".read-more-about-album");
+
+            if ($("#albumNote").height() > 90) {
+                $("#albumNote").css("height", "90");
+                $link.show();
+            }
+            else {
+                $link.hide();
+            }
+            
+            $("#albumNote").css("overflow", "hidden");                
+
+            $("#readMoreAboutAlbum").click(function () {               
+                var $link = $("#readMoreAboutAlbum");
+                var $reviewText = $("#readMoreAboutAlbum").parent().find(".note");
+
+                if ($("#readMoreAboutAlbum").text() == "Read more...") {                    
+                    $reviewText.css("height", "100%");
+                  
+                    $link.text("Read less....");
+                    $link.removeClass("read-more-about-album");
+                    $link.addClass("read-less-about-album");
+                }
+                else {                  
+                    $reviewText.animate({ height: '90' }, 500, function () { });
+                    $link.text("Read more...");
+                    $link.removeClass("read-less-about-album");
+                    $link.addClass("read-more-about-album");
+                }
+            });
+        //********End-of "Read more/Read less"
+         
+	</script>
+
+	<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#username=cdbaby"></script>
+				
+	<style type="text/css">
+		.console { 
+			position: fixed;
+			top: 10px;
+			left: 10px;
+			background-color: #000000;
+			color: #4cff00;
+			line-height: 1.7em;
+			display: block;
+			z-index: 999999;
+			width: 450px;
+			height: 440px;
+			opacity: 0.7;
+			padding: 10px 15px;
+			overflow-y: scroll;
+			font-family: "Lucida Console", Monaco, monospace;
+		}
+			
+		.console-header {
+			display: block;
+			overflow:hidden;
+			margin-bottom: 10px;
+			border-bottom: 1px dashed #4cff00;
+			padding-bottom: 7px;
+		}
+		.console-content {
+			display: block;
+			overflow-y: scroll;
+			height:350px;
+		}
+		.console-line { 
+			display: block;
+			margin-bottom: 5px;
+			overflow:hidden;
+		}
+
+		.item-label {
+			width: 150px;
+			float: left;
+		}
+		.item-value {
+			width: 283px;
+			float: left;
+		}
+
+		.play-track{
+			background-color: #F1F1F1;
+			border: 1px solid #ccc;
+			position: relative;
+			height: 25px;
+			width: 25px;
+			border-radius: 40px;
+			display: block;
+			cursor: pointer;
+		}
+		.play-track.paused:after,
+		.play-track-all.paused:after {
+			content: " ";
+			height: 0;
+			width: 0;
+			border-left: 7px solid #333;
+			border-top: 5px solid transparent;
+			border-bottom: 5px solid transparent;
+			border-right: 0px solid transparent;
+			position: absolute;
+			top: 8px;
+			left: 10px;
+		}
+		.play-track.playing:after,
+		.play-track-all.playing:after {
+			content: " ";
+			height: 10px;
+			width: 3px;
+			position: absolute;
+			top: 8px;
+			left: 8px;
+			background-color: #333;
+		}
+		.play-track:focus {
+			outline:0; 
+		}
+		.play-track.playing:before,
+		.play-track-all.playing:before {
+			content: " ";
+			height: 10px;
+			width: 3px;
+			position: absolute;
+			top: 8px;
+			left: 14px;
+			background-color: #333;
+		}
+		.play-all-container {
+			display: inline-block;
+			float: Right;
+			width: 151px;
+			margin-top: 6px;
+		}
+		.play-all-container .play-track-all {
+			float: left;
+			margin-right: 6px;
+			background-color:#ffffff;
+			border: 1px solid #C6C6C6;
+		}
+		.play-all-container .now-playing {
+			float: left;
+			line-height: 22px;
+			display: inline-block;
+			padding-top: 1px;
+		}
+		.play-all-button {
+			background-color: #fff;
+			border: 1px solid #D4D3D3;
+			border-radius: 5px;
+			padding: 4px 13px 4px 33px;
+			margin-bottom: 0px;
+			font-size: 12px;
+			position:relative;
+			display: inline-block;
+			cursor: pointer;
+		}
+		.play-all-button.paused:after { 
+			position: absolute;
+			content: " ";
+			top: 10px;
+			left: 13px;
+			border-bottom: 5px solid transparent;
+			border-left: 6px solid #333333;
+			border-top: 5px solid transparent;
+		}
+		.play-all-button:after {
+			position: absolute;
+			content: " ";
+			top: 10px;
+			left: 13px;
+			border-bottom: 5px solid transparent;
+			border-left: 6px solid #333333;
+			border-top: 5px solid transparent;
+		}
+
+	</style>
+	<script type="text/javascript">
+		    
+		$(document).ready(function (){
+		    AlbumId = "sunsetterr6";
+		    Referrer = "";
+			albumPlayer = AlbumPlayer();
+		}); // ready()
+
+	</script>
+
+	<script type="text/javascript">
+
+		var albumPlayList = [{name:'Archways',trackID:'9431359',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AwGAKYUv+JmxkMrey9nwOXw==.mp3', trackNumber: 1},
+{name:'A New Dawn',trackID:'9431360',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AE9toFPdovyoO7tlwvXOvXQ==.mp3', trackNumber: 2},
+{name:'Jazz Town',trackID:'9431361',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/A5q1aPfdMI6+pny_VFrF6GQ==.mp3', trackNumber: 3},
+{name:'One Shot',trackID:'9431362',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AI2XNeBdNC1sA_7QPGERChA==.mp3', trackNumber: 4},
+{name:'Ya Blocked Out',trackID:'9431363',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/A985gQ0RPxZCPI8nFkne4Yg==.mp3', trackNumber: 5},
+{name:'Verbal Scalpel',trackID:'9431364',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/Ay9T_YTvko4ie79R4tAQvuw==.mp3', trackNumber: 6},
+{name:'King Tut',trackID:'9431365',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/Aa98Rgtk4gKnAlN1tmUKHDg==.mp3', trackNumber: 7},
+{name:'Flow Well Get Well Paid',trackID:'9431366',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/A9xe65l4tUL77Ku4469tnWQ==.mp3', trackNumber: 8},
+{name:'Food for Thought',trackID:'9431367',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/Anos_M1BjE6O806xqRu3sUQ==.mp3', trackNumber: 9},
+{name:'Carpe Diem',trackID:'9431368',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/Ag_o0uw6o3baVJxEvnGjPHg==.mp3', trackNumber: 10},
+{name:'Where You Gonna Run',trackID:'9431369',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/A+0LL+fXNvFnwl6hL6AQLhg==.mp3', trackNumber: 11},
+{name:'Get Your Ride On',trackID:'9431370',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/ARIeK_Z_V7nfJAPTYlv4AXQ==.mp3', trackNumber: 12},
+{name:'The Road Less Traveled',trackID:'9431371',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AO82OQHTAdJrzpX5Ig0ywsA==.mp3', trackNumber: 13},
+{name:'Heal the World',trackID:'9431372',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/Aa6nvGpk_a111+n_EcvgRVw==.mp3', trackNumber: 14},
+{name:'Grand Denouement',trackID:'9431373',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/Aq7rz3CX_ntC3SralbTspXQ==.mp3', trackNumber: 15},
+{name:'3di',trackID:'9431374',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AesHKXNV_qU7dWlU68xuMOw==.mp3', trackNumber: 16},
+{name:'Getting Busy',trackID:'9431375',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/ASb2THDoA57VlAqzs7dvKKw==.mp3', trackNumber: 17},
+{name:'Double Diamond',trackID:'9431376',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/Ac3J0yGCO55KPqka8ReXEIA==.mp3', trackNumber: 18},
+{name:'Flows On Mind',trackID:'9431377',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AGxX0ts_rMg5PAKed+UBgqQ==.mp3', trackNumber: 19},
+{name:'Lets Get It',trackID:'9431378',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AvMzBLWREUreyJu7xOh0Vjw==.mp3', trackNumber: 20},
+{name:'We Be Macadocious',trackID:'9431379',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/ARoNn0acVczX6RHuqXBfIbA==.mp3', trackNumber: 21},
+{name:'Summer in the Ghetto',trackID:'9431380',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/A9T_06wT9+nJEX4WgPkVHgw==.mp3', trackNumber: 22},
+{name:'Tooth Decay',trackID:'9431381',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AMH3DlR97gRbWKT5XsZRKng==.mp3', trackNumber: 23},
+{name:'Just Us League',trackID:'9431382',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/ADi_XuWSxl5cCAj7ZHNi_iw==.mp3', trackNumber: 24},
+{name:'Time',trackID:'9431383',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/ADSaxwxRBdtIZLwutYpj7gA==.mp3', trackNumber: 25},
+{name:'N.A.L.S',trackID:'9431384',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AS670v0JGxXE7FyOebxzSYQ==.mp3', trackNumber: 26},
+{name:'Mary',trackID:'9431385',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AUU2P2curp61bHlZwE7U57Q==.mp3', trackNumber: 27},
+{name:'Trashcans',trackID:'9431386',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AQsneKJ29PV077Mc4TjuBXA==.mp3', trackNumber: 28},
+{name:'To the Fullest',trackID:'9431387',fullLength:'True',mp3:'http://content.cdbaby.com/audio/full/da7e457d/AKGbuD1H7OiJUm7OmDR3FHw==.mp3', trackNumber: 29}];
+			
+        $(document).ready(function()
+        {
+        	HideNoPreviewPlayButton();
+        	ShowShareSongMenu();
+        	LoadSingleSongFunctions();
+        });
+
+		function HideNoPreviewPlayButton()
+		{
+			$("tr[itemprop*='track']").each(function() {
+				if ($(this).find(".jplay-button").length === 0) {
+					var playIcon = $(this).find(".play-track");
+					playIcon.hide();
+				}
+			});
+		}
+
+        function ShowShareSongMenu()
+        {	
+        	// Load menu on click
+        	$('.custom_button').click(function() {
+        		$(this).parent().parent().find('.hover_menu').fadeIn('fast');
+        		$(this).data('in', true);
+        		$(this).parent().parent().find('.hover_menu').data('hidden', false); 
+        		$(this).addClass('present');         		
+			});
+
+			// Fix cursor issue
+        	$('.hover_menu_close').mouseover(function()	{document.body.style.cursor='pointer';})
+			.mouseleave(function() 	{ document.body.style.cursor='default'; });
+
+			// Hide menu on click
+        	$('.hover_menu_close').click(function ()
+        	{
+        		$(this).parent().hide();					        		
+        	});     	
+        }	// ShowShareSongMenu()
+			
+        function LoadSingleSongFunctions()
+        {
+        	ChangeSingleSongURL();
+        	ChangeSingleSongMetaTitle();
+        	PlaySingleSong();
+        }	// LoadSingleSongFunctions()
+
+        function PlaySingleSong()
+        {
+        	var trackInURL = window.location.pathname.split('/'); 
+        	var correcTrack = trackInURL[trackInURL.length-1];
+			
+        	$('.track-title-meta').each(function ()
+        	{
+        		var currentTracks = $(this).attr("content");
+
+        		currentTracks = currentTracks.replace(/\s+/g, '').replace(/[^a-z0-9\s]/gi,'');
+								
+        		if(currentTracks == correcTrack)
+        		{
+        			$(this).parent().parent().find('.play').click();
+        		}	// if
+        	});
+        }  // CheckAndPlaySingleSong()
+
+			
+        function ChangeSingleSongURL()
+        {
+        	$(".custom_button").each( function()
+        	{        		
+        		var trackName = $(this).parent().parent().parent().parent().find('.track-title-meta').attr("content");	
+		
+        		if(trackName != undefined)
+        		{   	
+        			// Trim down the track name
+        			trackName = trackName.replace(/\s+/g, '').replace(/[^a-z0-9\s]/gi,'');
+
+        			var tempUrl = document.URL.split('#'); 
+
+        			// Make sure we only attach one song title
+        			var url = tempUrl[0].split('/');
+        			var newURL = url[0] + "/" + url[1] + "/" + url[2] + "/" + url[3] + "/" + url[4] + "/"+ trackName;
+					        			
+        			$(this).parent().parent().attr("addthis:url",newURL);
+        		}	// if
+        	});
+			        	
+        	$(".addthis_button_compact").each(function()
+        	{
+        		$(this).parent().attr("addthis:url",document.URL);
+        	});
+
+        }	// ChangeAddThisURL()
+		
+        function ChangeSingleSongMetaTitle()
+        {
+        	var orgTitle = $('meta[property="og:title"]').attr('content');
+        	var titlePieces =  orgTitle.split('-'); 
+        	var twitterTitle;
+        	var updatedTemplate;
+        	var twitterTemplate = addthis_share.templates.twitter.split(';');
+			
+        	// Share songs 
+        	$(".custom_button").mouseover(function ()
+        	{
+        		var trackName = $(this).parent().parent().parent().parent().find('.track-title-meta').attr("content");	
+				        		
+        		var ogTitle = '♫ ' + trackName + ' - ' + titlePieces[1];
+        					
+        		if(trackName != 'undefined')
+        		{
+        			var ogTitle = '♫ ' + trackName + ' - ' + titlePieces[1];
+        		}	// if
+        		else
+        		{
+        			var ogTitle = orgTitle;
+        		}	// else
+				
+        		// Change meta titles				
+        		$('meta[property="og:title"]').attr('content', ogTitle);
+        		
+        		updatedTemplate = twitterTemplate[0] + ' ' + trackName + ' - ' + twitterTemplate[1];
+        		addthis_share.templates.twitter = updatedTemplate; 
+        	});
+
+        	// Share album
+        	$(".addthis_button_compact").mouseover(function ()
+        	{
+        		updatedTemplate = twitterTemplate[0] + ' ' + twitterTemplate[1];
+        		addthis_share.templates.twitter = updatedTemplate; 
+        		
+        		// Put meta back to orginal 
+        		$('meta[property="og:title"]').attr('content', orgTitle);
+        	});
+        }	// ChangeSingleSongMetaTitle()
+
+		//defining this function so as not to break AlbumPlayer.js
+        function setTrackSources() {}
+	</script>   
+    	
+</body>
+</html>

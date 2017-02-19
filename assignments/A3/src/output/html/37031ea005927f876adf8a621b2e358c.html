@@ -1,0 +1,162 @@
+<!DOCTYPE html><!--[if IE 7 ]>
+<html lang="ja" class="ie ie7"></html><![endif]-->
+<!--[if IE 8 ]>
+<html lang="ja" class="ie ie8"></html><![endif]-->
+<!--[if IE 9 ]>
+<html lang="ja" class="ie9"></html><![endif]-->
+<!--[if !(IE)]><!-->
+<html lang="ja"><!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <title>2017年1月30日（月）21:00～22:00 | ROCK KIDS 802 -OCHIKEN Goes ON!!-(21時台) | FM802 | radiko.jp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="/apps/css/style.css" rel="stylesheet" media="all">
+    <script src="/apps/lib/jquery-1.11.3.min.js"></script>
+    <script src="/apps/lib/jquery.cookie-min.js"></script>
+    <meta property="og:title"            content="2017年1月30日（月）21:00～22:00 | ROCK KIDS 802 -OCHIKEN Goes ON!!-(21時台) | FM802 | radiko.jp">
+    <meta property="og:url"              content="http://radiko.jp/share/?sid=802&t=20170130215100">
+    <meta property="og:type"             content="article"/>
+    <meta property="og:image"            content="http://radiko.jp/v2/api/image?img=http://radiko.jp/res/program/DEFAULT_IMAGE/802/cl_20161031174002_3963297.png">
+    <meta property="og:site_name"        content="radiko.jp">
+    <meta property="og:description"      content="●ETC&gt;番組最新情報 や オチケンPHOTOなど 随時 更新中★ アカウント：@RK802STAFF ハッシュタグ： #RK802→https://twitter.com/RK802STAFF&amp;nbs">
+    <meta name="twitter:card"        content="summary_large_image"/>
+    <meta name="twitter:site"        content="@radiko_jp"/>
+    <meta name="twitter:title"       content="ROCK KIDS 802 -OCHIKEN Goes ON!!-(21時台) | FM802 | 2017/01/30/月 21:00-22:00"/>
+    <meta name="twitter:description" content="●ETC&gt;番組最新情報 や オチケンPHOTOなど 随時 更新中★ アカウント：@RK802STAFF ハッシュタグ： #RK802→https://twitter.com/RK802STAFF&amp;nbs"/>
+    <meta name="twitter:image"       content="http://radiko.jp/v2/api/image?img=http://radiko.jp/res/program/DEFAULT_IMAGE/802/cl_20161031174002_3963297.png"/>
+  </head>
+  <body id="radikojp" class="page-share page-timeshift">
+<script>
+
+	// url パラメータ取得
+	var get_qs = function() {
+		var ret = {};
+		if (location.search.length > 1) {
+			var ary = location.search.substr(1).split("&");
+			for (var i = 0 ; i < ary.length ; i++) {
+				var kv  = ary[i].split("=");
+				if (ret[kv[0]] == undefined) {
+					ret[kv[0]]  = [];
+				}
+				ret[kv[0]].push(kv[1]);
+			}
+		}
+		return ret;
+	};
+
+	var relocate = function() {
+		var q	= get_qs();
+		// 期限切れページでブラウザバック等のページ遷移を行う度にビーコンが飛んでしまうのでnoreload
+		window.location = window.location + "&noreload=1";
+
+
+	};
+
+	// ログビーコンのURLを取得
+	var get_share_log_url = function(params) {
+		params.station = "802";
+		params.t = "20170130215100";
+		// キャッシュ対策
+		params._ =  Math.floor(Math.random() * 1000000);
+
+		var param_str = "";
+		$.each(params, function(key, val){
+			param_str += "&" + key + "=" + val;
+		});
+		var url = "http://beacon.radiko.jp/share.gif";
+		return url + param_str.replace(/^./,"?");
+	};
+
+	// シェアページに到達したらログビーコンを送る
+	var q	= get_qs();
+	if (q.noreload) {
+		// 一度リロードずみ
+	} else {
+		var params = {};
+		params.type = "land_sp";
+		url = get_share_log_url(params);
+		$("body").prepend("<img id=\"lang_log\" src=\""+ url + "\" alt=\"\">");
+		$("#lang_log").on("load error", function() {
+			relocate();
+		});
+	}
+
+
+$(function(){
+	// ストア遷移時にログビーコンを送信
+	$(".share__download img").on("click", function(e) {
+		var params = {};
+		params.type = "trans_store";
+		if( $(this).attr("id") == "itunesimg" ) {
+			params.store = "itunes";
+		} else {
+			params.store = "play";
+		}
+		log_url = get_share_log_url(params);
+		$("body").prepend("<img id=\"store_log\" src=\""+ log_url + "\" alt=\"\">");
+		var store_url = $(this).parent("a").attr("href");
+		$("#store_log").on("load error", function() {
+			location.href = store_url;
+		});
+
+		return false;
+	});
+});
+
+</script>
+    <div class="container">
+      <div class="header">
+        <header>
+          <div class="header__utility">
+            <div class="header__inner">
+              <div class="header__logo"><a href="/"><img src="/apps/images/img_logo_red_01.png" alt="radiko.jp"></a></div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="content content__main">
+        <div class="content__inner">
+          <div class="content__share share">
+            <div class="share__attention">
+              <p><i class="icon icon--attention"></i>ラジコは、日本国内限定のサービスとなりますので、今アクセスしている場所からではラジオを聴くことができません。<br>This application program is released for use in Japan only and is not to be used in any other conuntry</p>
+            </div>
+            <div class="share__description group">
+              <div class="share__img"><img src="http://radiko.jp/res/program/DEFAULT_IMAGE/802/cl_20161031174002_3963297.png" alt=""></div>
+              <div class="share__body">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>放送局</th>
+                      <td><img src="/v2/static/station/logo/802/258x60.png" alt="802"></td>
+                    </tr>
+                    <tr>
+                      <th>放送時間</th>
+                      <td>2017年1月30日（月）21:00～22:00  </td>
+                    </tr>
+                    <tr>
+                      <th>番組名</th>
+                      <td>ROCK KIDS 802 -OCHIKEN Goes ON!!-(21時台)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="share__detail">
+                ●ETC<br /><< ROCK KIDS 802  オフィシャル Twitter !!!! >><br />番組最新情報 や オチケンPHOTOなど 随時 更新中★<br /> アカウント：@RK802STAFF<br /> ハッシュタグ： #RK802<br />→https://twitter.com/RK802STAFF<br />&nbsp;<br /><br /><br />●ゲスト<br />22時台…Suchmosが生出演!<br />23時台…水曜日のカンパネラが生出演!<br />アーティストからコメントが飛び出すトビコメ！！<br />今週は毎晩、MAN WITH A MISSION　ジャン・ケン・ジョニーが登場！<br /><br />●特集・企画<br />『ROCK KIDS 802 CINEMA Goes ON』<br />映画『君と100回目の恋』を特集！<br />劇場鑑賞券のプレゼントもあり<br /><br />●グッズプレゼント<br />受験生応援グッズ「うまくいくシール」をプレゼント<br />「志望校」を書いてエントリーしてね！！<br />友達の分を合わせて5枚まで応募OK！<br /><br /><br /><br /><br />⇒番組HPは<u><a href='https://funky802.com/rockkids/'>コチラ</a></u><br />⇒リクエスト・メッセージは<u><a href='https://funky802.com/i/req/1121'>コチラ</a></u><br />⇒twitterハッシュタグは「#fm802」<br />⇒twitterアカウントは「@fm802_pr」<br />⇒facebookページは<u><a href='https://ja-jp.facebook.com/funky802'>コチラ</a></u><br />
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <footer>
+          <div class="footer__inner">
+            <p class="footer__copyright"><small>Copyright © radiko co., Ltd. All rights reserved</small></p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

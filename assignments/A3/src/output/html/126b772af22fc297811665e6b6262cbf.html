@@ -1,0 +1,849 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+    <meta name="apple-itunes-app" content="app-id=850603922"/>
+    <meta name="google-play-app" content="app-id=com.vnn.mobile">
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+
+    <!-- BEGIN wp_head() -->
+    <meta name="twitter:card" content="summary_large_image">
+                    <meta name="twitter:site" content="@PennfieldAD">
+                    <meta name="twitter:title" content="Varsity Wrestling Team Competes at Bill Evans Invitational">
+                    <meta name="twitter:description" content="The Pennfield High School varsity wrestling team traveled to Battle Creek Central High School on Saturday to compete in the annual Bill Evans Invitational.
+
+The Panthers had some solid individual pe">
+                    <meta name="twitter:creator" content="@varsitynewsnet">
+                    <meta name="twitter:image:src" content="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/02/all.jpg">
+                    <meta name="twitter:domain" content="http://pennfieldathletics.com/2017/01/30/varsity-wrestling-team-competes-at-bill-evans-invitational/">
+                    <meta name="twitter:app:name:iphone" content="VNN Sports">
+                    <meta name="twitter:app:id:iphone" content="id850603922">
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.13 - http://yoast.com/wordpress/seo/ -->
+<title>Varsity Wrestling Team Competes at Bill Evans Invitational - This is the home of pennfieldathletics.com</title>
+<link rel="canonical" href="http://pennfieldathletics.com/2017/01/30/varsity-wrestling-team-competes-at-bill-evans-invitational/" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="This is the home of pennfieldathletics.com &raquo; Feed" href="http://pennfieldathletics.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="This is the home of pennfieldathletics.com &raquo; Comments Feed" href="http://pennfieldathletics.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/pennfieldathletics.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='roboto_css-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='author-editor-css-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/author_editor.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='vnn-print-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/print.css?ver=1.0' type='text/css' media='print' />
+<link rel='stylesheet' id='vnn-all-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/all.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-login-css'  href='http://pennfieldathletics.com/wp-content/plugins/admin-bar-login/admin-bar-login.css?ver=0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/style.css' type='text/css' media='screen' />
+<!--[if IE]>
+<link rel='stylesheet' id='ie-general-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/ie.css?ver=1.8.2' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='ie-lt9-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/ie-lt9.css?ver=1.8.2' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE 8]>
+<link rel='stylesheet' id='ie8-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/ie8.css?ver=1.8.2' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE 7]>
+<link rel='stylesheet' id='ie7-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/ie7.css?ver=1.8.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='pushup-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox/includes/scripts/jquery-pushup/pushup.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://pennfieldathletics.com/wp-includes/css/dashicons.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://pennfieldathletics.com/wp-includes/css/admin-bar.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='vnn-icons-css'  href='http://pennfieldathletics.com/wp-content/plugins/vnn-auto-post/css/vnn-icon.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='usp-style-css'  href='http://pennfieldathletics.com/wp-content/plugins/vnn-auto-post/css/usp-style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='rotatingtweets-css'  href='http://pennfieldathletics.com/wp-content/plugins/rotatingtweets/css/style.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='http://pennfieldathletics.com/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='adsanity-default-css-css'  href='http://pennfieldathletics.com/wp-content/plugins/adsanity/css/widget-default.css?ver=1.0.4.4' type='text/css' media='screen' />
+<link rel='stylesheet' id='taxonomy-image-plugin-public-css'  href='http://pennfieldathletics.com/wp-content/plugins/taxonomy-images/style.css?ver=0.8.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='wdfb_style-css'  href='http://pennfieldathletics.com/wp-content/plugins/wpmu-dev-facebook/css/wdfb.css?ver=4.4.2' type='text/css' media='all' />
+        <!-- Begin alerts widget config -->
+        <script type="text/javascript">
+            window.vnnbloginfo = {
+              school_id: 458            };
+        </script>
+    <script type='text/javascript' src='http://pennfieldathletics.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/js/general.js?ver=1.0.1'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/plugins/rotatingtweets/js/jquery.cycle.all.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/plugins/rotatingtweets/js/rotating_tweet.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?u&#038;ver=4.4.2'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/themes/startbox/includes/scripts/jquery.colorbox.min.js'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/themes/startbox/includes/scripts/jquery.md5.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/themes/startbox/includes/scripts/jquery.smooth-scroll.min.js?ver=1.4'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/themes/startbox/includes/scripts/startbox.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/themes/startbox/includes/scripts/jquery-pushup/jquery.pushup.js'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/plugins/vnn-adserver/scripts/dfp_header.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/js/slideshow_runner.js?ver=1.3'></script>
+<link rel='https://api.w.org/' href='http://pennfieldathletics.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pennfieldathletics.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pennfieldathletics.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel='shortlink' href='http://pennfieldathletics.com/?p=6125' />
+<link rel="alternate" type="application/json+oembed" href="http://pennfieldathletics.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpennfieldathletics.com%2F2017%2F01%2F30%2Fvarsity-wrestling-team-competes-at-bill-evans-invitational%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://pennfieldathletics.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpennfieldathletics.com%2F2017%2F01%2F30%2Fvarsity-wrestling-team-competes-at-bill-evans-invitational%2F&#038;format=xml" />
+<script>
+jQuery(window).on('hashchange', function (e) {
+
+  var pic = window.location.hash.split('/')[1];
+  _gaq.push(['_setAccount', window.vnnUA]);
+  _gaq.push(['_trackPageview', window.location.pathname + pic]);
+  _gaq.push(['b._setAccount', window.vnnUA2]);
+  _gaq.push(['b._trackPageview', window.location.pathname + pic]);
+});
+</script>
+<link rel="stylesheet" type="text/css" href="http://pennfieldathletics.com/wp-content/plugins/complete-gallery-manager/css/prettyPhoto.css" /><script type="text/javascript">var _wdfb_ajaxurl="http://pennfieldathletics.com/wp-admin/admin-ajax.php";var _wdfb_root_url="http://pennfieldathletics.com/wp-content/plugins/wpmu-dev-facebook";</script><link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css" />
+
+<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css" />
+
+<link rel="icon" type="image/png" href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/02/logo-16.png" />
+<style type="text/css">
+#site-title a {
+display: block;
+width: 980px;
+height: 155px;
+background: transparent url(http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/02/nova-header.jpg) no-repeat;
+text-indent: -10000px;
+}
+</style>
+<link rel="icon" type="image/png" href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/02/logo-16.png" />
+<!-- BEGIN Analytics-->
+<script type="text/javascript">
+window.vnnUA = "UA-59144138-2";
+window.vnnUA2 = "UA-35580852-1";
+var _gaq = _gaq || [];
+_gaq.push(["_setAccount", window.vnnUA]);
+_gaq.push(["_trackPageview", location.pathname + location.search + location.hash]);
+_gaq.push(["b._setAccount", window.vnnUA2]);
+_gaq.push(["b._trackPageview", location.pathname + location.search + location.hash]);
+
+(function() {
+var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- END Analytics-->
+<style type="text/css">
+body {
+  background: #1f1f1f url(http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/02/background-1f1f1f.png) repeat-x;
+}
+#slideshow-wrapper .meta h3 a {
+  color: #ffffff;
+}
+#slideshow-wrapper .meta p {
+  color: #cccccc;
+}
+#content .page-title, #content .entry-title, #school-name-print, #content .entry-title a {
+  color: #005500;
+}
+#content .page-content p, #content .entry-content p {
+  color: #333333;
+}
+#content .page-meta, #content .entry-meta {
+  color: #000000;
+}
+a, a:visited {
+  color: #005500;
+}
+a:hover {
+  color: #009900;
+}
+.widget li a:hover {
+  background-color: #005500;
+  color: #fff;
+}
+#footer .leftright {
+  background-color: #005500;
+  color: #ffcc33;
+}
+#alerts h3, .homepage_category_icons h3 {
+  background-color: #005500;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#009900), to(#005500));
+  background: -webkit-linear-gradient(#009900, #005500);
+  background: -moz-linear-gradient(#009900, #005500);
+  background: -ms-linear-gradient(#009900, #005500);
+  background: -o-linear-gradient(#009900, #005500);
+  background: linear-gradient(#009900, #005500);
+  -pie-background: linear-gradient(#009900, #005500);
+  color: #ffffff;
+}
+#alerts .subscribe a {
+background: rgba(0,85,0,0.8);
+color: #ffffff;
+}
+#secondary_nav a {
+color: #ffffff;
+}
+.nav-secondary {
+	background: #005500;
+}
+
+        .school_background { background-color: #005500}
+        .school_color { color: #005500}
+        .school_light_background { background-color: #009900}
+        .school_light_color { background-color: #009900}
+#victory_club .donate_button {
+	border: 1px solid #005500;
+	background: #005500;
+	background-image: linear-gradient(bottom, #005500 69%, #009900 100%);
+	background-image: -o-linear-gradient(bottom, #005500 69%, #009900 100%);
+	background-image: -moz-linear-gradient(bottom, #005500 69%, #009900 100%);
+	background-image: -webkit-linear-gradient(bottom, #005500 69%, #009900 100%);
+	background-image: -ms-linear-gradient(bottom, #005500 69%, #009900 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.39, #005500), color-stop(1, #009900) );
+}
+#primary .CGMRecentWidget h4, #primary .widget-title, 
+#primary .CGMRecentWidget .instagram-button {
+  background-color: #005500;
+  color: #ffffff;
+}
+.reg-wp-container h3 {
+color: #005500
+}
+.reg-wp-btn {
+background-color: #005500
+}
+#secondary_nav ul a {
+background: rgba(0,85,0,1);
+}
+#secondary_nav ul a:hover {
+background: rgba(0,85,0,1);
+}
+#primary .widget-title a,
+#primary .CGMRecentWidget h4 a {
+  color: #ffffff;
+}
+#common_social_widget h3 {
+  background-color: #005500;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#009900), to(#005500));
+  background: -webkit-linear-gradient(#009900, #005500);
+  background: -moz-linear-gradient(#009900, #005500);
+  background: -ms-linear-gradient(#009900, #005500);
+  background: -o-linear-gradient(#009900, #005500);
+  background: linear-gradient(#009900, #005500);
+  -pie-background: linear-gradient(#009900, #005500);
+  color: #ffffff;
+}
+#content .coachstaff .page-title, #content .coachstaff .entry-title {
+background-color: #005500;
+}
+#footer_sidebar {
+background-color: #005500;
+}
+#wrap #megaMenu .sub-menu a:hover {
+background-color: #005500;
+color: #ffffff;
+}
+#primary .ngg-sidebar-widget h4 a, .ngg-description h4 a, #primary .CGMRecentWidget .gallery_count a, #primary .CGMRecentWidget .gallery_count, #content table.roster caption, #content table.schedule caption, .post-type-archive-cgm-complete_gallery #content h3, #gallery_links, #gallery_links a, #gallery_terms, #gallery_terms h4, #content table.remote_schedule caption, div.roster-header {
+background-color: #005500;
+color: #ffffff;
+}
+.ngg-thumbnail img:hover {
+background-color: #005500;
+border: 1px solid #005500;
+}
+#related_posts h3 span {
+background-color: #005500;
+}
+#content #related_posts .entry-title a {
+color: #005500;
+}#content #related_posts .entry-title a {
+color: #005500;
+}</style>
+
+    <!-- END wp_head() -->
+</head>
+
+<body class="single single-post postid-6125 single-format-standard blog6541 unknown s-category-uncategorized y2017 m02 d14 h01 s-y2017 s-m01 s-d30 s-h03 post-varsity-wrestling-team-competes-at-bill-evans-invitational layout-two-col-right">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+<a name="top"></a>
+<a href="#content" title="Skip to content" class="skip-to-content">Skip to content</a>
+<div id="urlacher_wrap"><div id="super_wrap"><div id="wrap" class="hfeed">
+
+    <div id="header_wrap">
+
+        <div id="header">
+        <div id="logo" class="center"><h2 id="site-title"><a href="http://pennfieldathletics.com" title="This is the home of pennfieldathletics.com Home" >This is the home of pennfieldathletics.com</a></h2></div>    </div><!-- #header -->
+    
+    </div><!-- #header_wrap -->
+<div class="nav nav-primary nav-sb_after_header">
+<ul id="primary_nav">
+<li id="menu-item-5373" class="first menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-5373"><a href="http://pennfieldathletics.com">Home</a></li>
+<li id="menu-item-5374" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-parent current-page-parent"><a href="#/">Panther HQ</a>
+<ul class="sub-menu">
+<li id="menu-item-5812" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2016/08/54df9ec04c05ce87-Athletic-Fee-Application-Form-2016-17.docx">Application for Financial Assistance </a></li>
+<li id="menu-item-566" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://pennfieldathletics.com/athleticdepartment">Athletic Dept Info</a></li>
+<li id="menu-item-5799" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2016/08/391f440dc7ec4515-ATHL.-HANDBOOK-2016-17-Revisions.doc">Athletic Handbook</a></li>
+<li id="menu-item-5837" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2016/08/5690752542166807-Pennfield-two-Sport-Season-Form.doc">Dual Sport Form</a></li>
+<li id="menu-item-4871" class="menu-item menu-item-type-post_type menu-item-object-page"><a target="_blank" href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/02/physical-card-2-page1.pdf">MHSAA Physical Form</a></li>
+<li id="menu-item-5376" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/10/0d55a730f866efc6-PENNFIELD-HOF-NOMINATION-FORM.docx">Hall of Fame Nomination Form</a></li>
+<li id="menu-item-5820" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2016/08/8c1da806d3c7927e-PENNFIELD-SCHOOLS-TRAINING-RULES-Handbook-Form-2016-17.docx">Training Rules/Understanding Form</a></li>
+</ul>
+</li>
+<li id="menu-item-fall-sports" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Fall Sports</a>
+<ul class="sub-menu">
+<li id="menu-item-3601" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_cross_country"><span class="wpmega-link-title">Boys Cross Country</span></a></li>
+<li id="menu-item-3521" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_soccer"><span class="wpmega-link-title">Boys Soccer</span></a></li>
+<li id="menu-item-3761" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_tennis"><span class="wpmega-link-title">Boys Tennis</span></a></li>
+<li id="menu-item-5285" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/equestrian"><span class="wpmega-link-title">Equestrian</span></a></li>
+<li id="menu-item-3421" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/football"><span class="wpmega-link-title">Football</span></a></li>
+<li id="menu-item-3631" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/girls_cross_country"><span class="wpmega-link-title">Girls Cross Country</span></a></li>
+<li id="menu-item-3471" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/volleyball"><span class="wpmega-link-title">Volleyball</span></a></li>
+</ul>
+</li>
+<li id="menu-item-fall-sports" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Winter Sports</a>
+<ul class="sub-menu">
+<li id="menu-item-3821" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_basketball"><span class="wpmega-link-title">Boys Basketball</span></a></li>
+<li id="menu-item-3931" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_bowling"><span class="wpmega-link-title">Boys Bowling</span></a></li>
+<li id="menu-item-4031" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_swimming"><span class="wpmega-link-title">Boys Swimming</span></a></li>
+<li id="menu-item-3661" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/competitive_cheer"><span class="wpmega-link-title">Competitive Cheer</span></a></li>
+<li id="menu-item-3871" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/girls_basketball"><span class="wpmega-link-title">Girls Basketball</span></a></li>
+<li id="menu-item-3961" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/girls_bowling"><span class="wpmega-link-title">Girls Bowling</span></a></li>
+<li id="menu-item-3991" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/wrestling"><span class="wpmega-link-title">Wrestling</span></a></li>
+</ul>
+</li>
+<li id="menu-item-fall-sports" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Spring Sports</a>
+<ul class="sub-menu">
+<li id="menu-item-4061" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/baseball"><span class="wpmega-link-title">Baseball</span></a></li>
+<li id="menu-item-3731" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_golf"><span class="wpmega-link-title">Boys Golf</span></a></li>
+<li id="menu-item-4221" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_lacrosse"><span class="wpmega-link-title">Boys Lacrosse</span></a></li>
+<li id="menu-item-4161" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/boys_track"><span class="wpmega-link-title">Boys Track</span></a></li>
+<li id="menu-item-3561" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/girls_soccer"><span class="wpmega-link-title">Girls Soccer</span></a></li>
+<li id="menu-item-3791" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/girls_tennis"><span class="wpmega-link-title">Girls Tennis</span></a></li>
+<li id="menu-item-4191" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/girls_track"><span class="wpmega-link-title">Girls Track</span></a></li>
+<li id="menu-item-4111" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/softball"><span class="wpmega-link-title">Softball</span></a></li>
+</ul>
+</li>
+<li id="menu-item-fall-sports" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Middle School</a>
+<ul class="sub-menu">
+<li id="menu-item-4321" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/ms_boys_basketball"><span class="wpmega-link-title">MS Boys Basketball</span></a></li>
+<li id="menu-item-4951" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/ms_boys_track"><span class="wpmega-link-title">MS Boys Track</span></a></li>
+<li id="menu-item-4481" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/ms_competitive_cheer"><span class="wpmega-link-title">MS Competitive Cheer</span></a></li>
+<li id="menu-item-5313" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/cross_country"><span class="wpmega-link-title">MS Cross Country</span></a></li>
+<li id="menu-item-4381" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/ms_girls_basketball"><span class="wpmega-link-title">MS Girls Basketball</span></a></li>
+<li id="menu-item-4991" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/ms_girls_track"><span class="wpmega-link-title">MS Girls Track</span></a></li>
+<li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/ms_volleyball"><span class="wpmega-link-title">MS Volleyball</span></a></li>
+<li id="menu-item-4441" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://pennfieldathletics.com/ms_wrestling"><span class="wpmega-link-title">MS Wrestling</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="menu-title">Boosters</a>
+<ul class="sub-menu">
+<li id="menu-item-5354" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/09/5603b521d4d70dc3-Concession-Stand-Application-.doc">Concession Stand Fund Raising Application</a></li>
+<li id="menu-item-5346" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/09/9c194f3168721f37-booster-flyer-2015-16.docx">Booster Flyer</a></li>
+<li id="menu-item-5336" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/09/e1aab5cbb1e56d82-Concession-Volunteer-Sign.docx">Concession Stand Sign-Up</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="menu-title">Camps</a>
+<ul class="sub-menu">
+<li id="menu-item-5773" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://pennfieldathletics.com/hq/summer-tennis-clinics/">Summer Tennis Clinics</a></li>
+<li id="menu-item-5754" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://pennfieldathletics.com/hq/summer-gym-schedule/">Summer Gym Schedule</a></li>
+<li id="menu-item-5752" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://pennfieldathletics.com/hq/youth-cheer-clinic/">Youth Cheer Clinic</a></li>
+<li id="menu-item-5736" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://pennfieldathletics.com/hq/football/">Football Clinics and/or Camps</a></li>
+<li id="menu-item-5733" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://pennfieldathletics.com/hq/soccer-camps-and-conditioning-info/">Soccer Camps and Conditioning Info</a></li>
+<li id="menu-item-5688" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://pennfieldathletics.com/hq/phs-cross-country-camp-info-brochure/">PHS Track and Cross Country Camps</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#" class="menu-title">Directions</a>
+<ul class="sub-menu">
+<li id="menu-item-5832" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2016/08/a90d34f0f69d4409-Interstate8AthleticFacilitiesAddressesandLocations.docx">I-8 Schools Athletic Facilities/Locations</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+    <div id="container_wrap">
+        
+	<div id="container">
+		<div id="content">
+
+				
+		
+						
+			<div id="post-6125" class="post-6125 post type-post status-publish format-standard hentry category-uncategorized author-steeleb">
+				<h1 class="page-title">Varsity Wrestling Team Competes at Bill Evans Invitational</h1>
+				<div class="entry-meta">
+					By <span class="vcard author entry-author"><a href="http://pennfieldathletics.com/author/steeleb/" class="url fn" title="View all Articles by steeleb">steeleb</a></span> on <span class="published entry-date">January 30, 2017</span> 				</div>
+				
+				<div class="vnn_social">
+<div class="social_bit social_facebook">
+<div href="http://pennfieldathletics.com/2017/01/30/varsity-wrestling-team-competes-at-bill-evans-invitational/" class="fb-like" data-send="true" data-width="140" data-layout="button_count" data-show-faces="false"></div>
+</div>
+<div class="social_bit social_twitter">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://pennfieldathletics.com/2017/01/30/varsity-wrestling-team-competes-at-bill-evans-invitational/" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+</div>
+		<div class="meta socail_meta">
+		<p class="left vnn-reads" id="reads-6125">26 Reads</p>
+		<p class="right comment_count" title="Comments"><a href="http://pennfieldathletics.com/2017/01/30/varsity-wrestling-team-competes-at-bill-evans-invitational/#dsq-content" title="Post Comment">0 <span class="comment_count_label">Comments</span></a></p>
+		</div><div class="social_bit socail_print">
+<a href="#" class="print" onclick="window.print();">Print</a>
+</div>
+</div>
+<script type='text/javascript'>
+        var ajaxurl = 'http://pennfieldathletics.com/wp-admin/admin-ajax.php';
+        var post_id = 6125;
+        var data = {action: 'vnn_get_post_reads',
+                    post_ids: 6125,
+                    update: true};
+
+        jQuery.post(ajaxurl, data, function(d){
+
+            for (j in d)
+            {
+                if (d[j] == 1) {
+                    jQuery('#reads-'+j).html(d[j] +' Read');
+                } else {
+                    jQuery('#reads-'+j).html(d[j] +' Reads');
+                }
+            
+            }
+        }, 'json');
+
+
+        </script>				
+				<div class="entry-content">
+					<p>The Pennfield High School varsity wrestling team traveled to Battle Creek Central High School on Saturday to compete in the annual Bill Evans Invitational.</p>
+<p>The Panthers had some solid individual performances on the day led by Nolen Bornamann and Dillon Striplin who both finished 4-1 in their matches.  Striplin finished in second place at 160 pounds, while Bornamann finished in 5th place at 112 pounds.</p>
+<p>Other Pennfield wrestlers who placed in their respective weight classes were Shane Edwards (4th), Kaleb Dillard (8th), and Ashton Leenhouts (7th) who all went 2-2 on the day.</p>
+<p>The varsity wrestling team will be back in action on Saturday, February 4th when they travel to Coldwater for the Interstate 8 Conference Championships.  Wrestling is scheduled to begin at 10:00am.</p>
+<p>&nbsp;</p>
+				</div>
+				
+								
+				<div class="entry-footer">
+					<span class="entry-comments"><span>Comments Off<span class="screen-reader-text"> on Varsity Wrestling Team Competes at Bill Evans Invitational</span></span></span>				</div>
+
+			</div><!-- .post -->
+			
+			<div class="pagination">
+</div>
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://pennfieldathletics.com/2017/01/30/varsity-girls-basketball-makes-it-three-straight-victories/" rel="prev"><span class="meta-nav">&laquo;</span> Varsity Girl&#8217;s Basketball Makes it Three Straight Victories</a></div>
+					<div class="nav-next"><a href="http://pennfieldathletics.com/2017/01/30/varsity-girls-bowling-team-finishes-2nd-at-east-kentwood-invitational/" rel="next">Varsity Girls Bowling Team Finishes 2nd at East Kentwood Invitational <span class="meta-nav">&raquo;</span></a></div>
+				</div>
+			
+						
+			<div id="comments">
+
+	
+	
+</div><!-- #comments -->
+			
+			        <div class="related-articles">
+            <h5>Related Articles</h5>
+
+                            <div class="related-article">
+                                        <div class="related-article-info">
+                        <a href="http://pennfieldathletics.com/?post_type=post&p=6185&utm_source=internal&utm_campaign=related_articles">All Teams Schedule: Week of February 13 &#8211; February 19</a>
+                        <div class="entry-meta">
+                            By <span class="vcard author entry-author"><a href="http://pennfieldathletics.com/author/vnnadmin/" class="url fn" title="View all Articles by vnnadmin">vnnadmin</a></span> on <span class="published entry-date">February 13, 2017</span>                         </div>
+                    </div>
+                </div>
+                                <div class="related-article">
+                                        <div class="related-article-info">
+                        <a href="http://pennfieldathletics.com/?post_type=post&p=6183&utm_source=internal&utm_campaign=related_articles">Varsity Boy&#8217;s Basketball Team Falls at Harper Creek</a>
+                        <div class="entry-meta">
+                            By <span class="vcard author entry-author"><a href="http://pennfieldathletics.com/author/steeleb/" class="url fn" title="View all Articles by steeleb">steeleb</a></span> on <span class="published entry-date">February 11, 2017</span>                         </div>
+                    </div>
+                </div>
+                                <div class="related-article">
+                                        <div class="related-article-info">
+                        <a href="http://pennfieldathletics.com/?post_type=post&p=6180&utm_source=internal&utm_campaign=related_articles">Varsity Girl&#8217;s Basketball Defeats Harper Creek</a>
+                        <div class="entry-meta">
+                            By <span class="vcard author entry-author"><a href="http://pennfieldathletics.com/author/steeleb/" class="url fn" title="View all Articles by steeleb">steeleb</a></span> on <span class="published entry-date">February 11, 2017</span>                         </div>
+                    </div>
+                </div>
+                        </div>
+        
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+
+						<div id="primary" class="aside primary-aside">
+								<ul class="xoxo">
+					
+			<li id="cgmrecentwidget-2" class="widget CGMRecentWidget">
+				<h3 class="widget-title"><span class="widget-title-left"><span class="widget-title-right">Latest Photo Galleries</span></span></h3>
+<ul id="recent_galleries"><li><a href="http://pennfieldathletics.com/photo-gallery/5553/" title="Boys Varsity Bowling"><img src="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2016/12/2fe50d4148fc2c71-Penn-VAR-Mens-bowl-16-17-125x125.jpg" alt="Boys Varsity Bowling" /></a>
+<span class="gallery_count"><a class="count" href="http://pennfieldathletics.com/photo-gallery/5553/" title="Boys Varsity Bowling">2 Photos</a><a class="date" href="http://pennfieldathletics.com/photo-gallery/5553/" title="Date">Dec 14</a></span></li><li><a href="http://pennfieldathletics.com/photo-gallery/boys-tennis-team-16-17/" title="Boys Tennis Team 16-17"><img src="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/11/a77082e0efed069a-Boys-Tennis-16-17-125x125.jpg" alt="Boys Tennis Team 16-17" /></a>
+<span class="gallery_count"><a class="count" href="http://pennfieldathletics.com/photo-gallery/boys-tennis-team-16-17/" title="Boys Tennis Team 16-17">1 Photo</a><a class="date" href="http://pennfieldathletics.com/photo-gallery/boys-tennis-team-16-17/" title="Date">Oct 12</a></span></li><li><a href="http://pennfieldathletics.com/photo-gallery/cross-country-team-16-17/" title="Cross Country Team 16-17"><img src="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2015/11/44abeb743ace30da-Cross-Country-16-17-125x125.jpg" alt="Cross Country Team 16-17" /></a>
+<span class="gallery_count"><a class="count" href="http://pennfieldathletics.com/photo-gallery/cross-country-team-16-17/" title="Cross Country Team 16-17">1 Photo</a><a class="date" href="http://pennfieldathletics.com/photo-gallery/cross-country-team-16-17/" title="Date">Oct 12</a></span></li><li><a href="http://pennfieldathletics.com/photo-gallery/pennfield-jv-football-team-16-17/" title="Pennfield JV Football Team 16-17"><img src="http://s3.amazonaws.com/vnn-aws-sites/6541/files/2016/08/96b695046e25f063-Penn-JV-team-5x7-2016-125x125.jpg" alt="Pennfield JV Football Team 16-17" /></a>
+<span class="gallery_count"><a class="count" href="http://pennfieldathletics.com/photo-gallery/pennfield-jv-football-team-16-17/" title="Pennfield JV Football Team 16-17">1 Photo</a><a class="date" href="http://pennfieldathletics.com/photo-gallery/pennfield-jv-football-team-16-17/" title="Date">Aug 23</a></span></li></ul>
+
+<h4><a href="/photo-gallery/">View More Galleries</a></h4>
+
+
+			</li>
+
+			<li id="vnn_adunit_leaderboard-3" class="widget widget_vnn_adunit_leaderboard">
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+
+googletag.defineSlot('/154566981/300x250_GoldA_1', [300,250], 'div-gpt-ad-1419962005551-0').addService(googletag.pubads()).setTargeting('site', 'pennfieldathletics.com');
+});
+</script><h3 class="widget-title"><span class="widget-title-left"><span class="widget-title-right">SUPPORT OUR SPONSORS</span></span></h3><div style='width:300px;height:250px;margin-left:auto;margin-right:auto;'>
+<!-- Adunit -->
+<div class='vnn-adslots adslot-Gold_A' style=';width:300px;height:250px;'>
+<div  id='div-gpt-ad-1419962005551-0' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1419962005551-0'); });
+</script>
+</div></div></div>
+<script>
+    jQuery(document).ready(function(){
+        var Gold_A_int = 0;
+        var Gold_A_count = jQuery('.adslot-Gold_A').children().length;
+
+        if (Gold_A_count <= 1) {
+            return;
+        }
+
+        var d = new Date();
+        var n = d.getMilliseconds() + (3 * Math.random());
+
+        setTimeout(function(){
+            var Gold_Atimeout = setInterval(function(){
+                Gold_A_int++;
+                if (Gold_A_int >= Gold_A_count) {
+                    Gold_A_int = 0;
+                }
+                jQuery('.adslot-Gold_A').fadeOut();
+                setTimeout(function(){
+                    jQuery('.adslot-Gold_A:eq('+Gold_A_int+')').fadeIn();
+                }, 550);
+
+            }, 7000);
+        }, n);
+    });
+</script>
+
+			</li>
+              
+			<li id="rotatingtweets_widget-2" class="widget widget_rotatingtweets_widget">
+				<h3 class="widget-title"><span class="widget-title-left"><span class="widget-title-right">FOLLOW US ON TWITTER</span></span></h3>
+
+<div class='rotatingtweets rotatingtweets_format_0' id='rotatingtweets_4000_scrollUp_58a29e2f3d6a7'>
+	<div class = 'rotatingtweet'>
+		<p class='rtw_main'>In Case You Missed It: New Story: All Teams Schedule: Week of February 13 – February 19 <a href='https://t.co/ppZUnycL5U' title='http://pennfieldathletics.com/2017/02/13/all-teams-schedule-week-of-february-13-february-19/' target="_blank" >pennfieldathletics.com/2017/0&hellip;</a></p>
+		<p class='rtw_meta'><a  target="_blank"  href="https://twitter.com/twitterapi/status/831252708233318402">About 9 hours ago</a> &middot; 
+			<a href='https://twitter.com/intent/tweet?in_reply_to=831252708233318402' title='reply' lang='en' target="_blank" >reply</a> &middot; 
+			<a href='https://twitter.com/intent/retweet?tweet_id=831252708233318402' title='retweet' lang='en' target="_blank" >retweet</a> &middot; 
+			<a href='https://twitter.com/intent/favorite?tweet_id=831252708233318402' title='favorite' lang='en' target="_blank" >favorite</a></p></div>
+	<div class = 'rotatingtweet' style='display:none'>
+		<p class='rtw_main'>New Story: All Teams Schedule: Week of February 13 – February 19 <a href='https://t.co/ppZUnycL5U' title='http://pennfieldathletics.com/2017/02/13/all-teams-schedule-week-of-february-13-february-19/' target="_blank" >pennfieldathletics.com/2017/0&hellip;</a></p>
+		<p class='rtw_meta'><a  target="_blank"  href="https://twitter.com/twitterapi/status/831070947645939712">Yesterday</a> &middot; 
+			<a href='https://twitter.com/intent/tweet?in_reply_to=831070947645939712' title='reply' lang='en' target="_blank" >reply</a> &middot; 
+			<a href='https://twitter.com/intent/retweet?tweet_id=831070947645939712' title='retweet' lang='en' target="_blank" >retweet</a> &middot; 
+			<a href='https://twitter.com/intent/favorite?tweet_id=831070947645939712' title='favorite' lang='en' target="_blank" >favorite</a></p></div>
+	<div class = 'rotatingtweet' style='display:none'>
+		<p class='rtw_main'>In Case You Missed It: New Story: Varsity Boy’s Basketball Team Falls at Harper Creek <a href='https://t.co/XXKgrXn1vj' title='http://pennfieldathletics.com/2017/02/11/varsity-boys-basketball-team-falls-at-harper-creek/' target="_blank" >pennfieldathletics.com/2017/0&hellip;</a></p>
+		<p class='rtw_meta'><a  target="_blank"  href="https://twitter.com/twitterapi/status/830640902217478144">About 2 days ago</a> &middot; 
+			<a href='https://twitter.com/intent/tweet?in_reply_to=830640902217478144' title='reply' lang='en' target="_blank" >reply</a> &middot; 
+			<a href='https://twitter.com/intent/retweet?tweet_id=830640902217478144' title='retweet' lang='en' target="_blank" >retweet</a> &middot; 
+			<a href='https://twitter.com/intent/favorite?tweet_id=830640902217478144' title='favorite' lang='en' target="_blank" >favorite</a></p></div>
+	<div class = 'rotatingtweet' style='display:none'>
+		<p class='rtw_main'>In Case You Missed It: New Story: Varsity Girl’s Basketball Defeats Harper Creek <a href='https://t.co/SxIPtBFeyT' title='http://pennfieldathletics.com/2017/02/11/varsity-girls-basketball-defeats-harper-creek/' target="_blank" >pennfieldathletics.com/2017/0&hellip;</a></p>
+		<p class='rtw_meta'><a  target="_blank"  href="https://twitter.com/twitterapi/status/830640900241969152">About 2 days ago</a> &middot; 
+			<a href='https://twitter.com/intent/tweet?in_reply_to=830640900241969152' title='reply' lang='en' target="_blank" >reply</a> &middot; 
+			<a href='https://twitter.com/intent/retweet?tweet_id=830640900241969152' title='retweet' lang='en' target="_blank" >retweet</a> &middot; 
+			<a href='https://twitter.com/intent/favorite?tweet_id=830640900241969152' title='favorite' lang='en' target="_blank" >favorite</a></p></div>
+	<div class = 'rotatingtweet' style='display:none'>
+		<p class='rtw_main'>In Case You Missed It: New Story: Varsity Wrestling Team Captures District Title <a href='https://t.co/7QOc632JIz' title='http://pennfieldathletics.com/2017/02/11/varsity-wrestling-team-captures-district-title/' target="_blank" >pennfieldathletics.com/2017/0&hellip;</a></p>
+		<p class='rtw_meta'><a  target="_blank"  href="https://twitter.com/twitterapi/status/830631674278928384">About 2 days ago</a> &middot; 
+			<a href='https://twitter.com/intent/tweet?in_reply_to=830631674278928384' title='reply' lang='en' target="_blank" >reply</a> &middot; 
+			<a href='https://twitter.com/intent/retweet?tweet_id=830631674278928384' title='retweet' lang='en' target="_blank" >retweet</a> &middot; 
+			<a href='https://twitter.com/intent/favorite?tweet_id=830631674278928384' title='favorite' lang='en' target="_blank" >favorite</a></p></div>
+</div>
+<div class='rtw_follow follow-button'><a href='http://twitter.com/PennfieldAD' class='twitter-follow-button' title='Follow @PennfieldAD' data-lang='en'>Follow @PennfieldAD</a></div>
+			</li>
+        
+			<li id="vnn_adunit_leaderboard-4" class="widget widget_vnn_adunit_leaderboard">
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+
+googletag.defineSlot('/154566981/300x250_GoldB_1', [300,250], 'div-gpt-ad-1419962005561-0').addService(googletag.pubads()).setTargeting('site', 'pennfieldathletics.com');
+});
+</script><h3 class="widget-title"><span class="widget-title-left"><span class="widget-title-right">SUPPORT OUR SPONSORS</span></span></h3><div style='width:300px;height:250px;margin-left:auto;margin-right:auto;'>
+<!-- Adunit -->
+<div class='vnn-adslots adslot-Gold_B' style=';width:300px;height:250px;'>
+<div  id='div-gpt-ad-1419962005561-0' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1419962005561-0'); });
+</script>
+</div></div></div>
+<script>
+    jQuery(document).ready(function(){
+        var Gold_B_int = 0;
+        var Gold_B_count = jQuery('.adslot-Gold_B').children().length;
+
+        if (Gold_B_count <= 1) {
+            return;
+        }
+
+        var d = new Date();
+        var n = d.getMilliseconds() + (3 * Math.random());
+
+        setTimeout(function(){
+            var Gold_Btimeout = setInterval(function(){
+                Gold_B_int++;
+                if (Gold_B_int >= Gold_B_count) {
+                    Gold_B_int = 0;
+                }
+                jQuery('.adslot-Gold_B').fadeOut();
+                setTimeout(function(){
+                    jQuery('.adslot-Gold_B:eq('+Gold_B_int+')').fadeIn();
+                }, 550);
+
+            }, 7000);
+        }, n);
+    });
+</script>
+
+			</li>
+
+			<li id="vnn_adunit_leaderboard-5" class="widget widget_vnn_adunit_leaderboard">
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+
+googletag.defineSlot('/154566981/300x250_GoldC_1', [300,250], 'div-gpt-ad-1419962005571-0').addService(googletag.pubads()).setTargeting('site', 'pennfieldathletics.com');
+});
+</script><div style='width:300px;height:250px;margin-left:auto;margin-right:auto;'>
+<!-- Adunit -->
+<div class='vnn-adslots adslot-Gold_C' style=';width:300px;height:250px;'>
+<div  id='div-gpt-ad-1419962005571-0' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1419962005571-0'); });
+</script>
+</div></div></div>
+<script>
+    jQuery(document).ready(function(){
+        var Gold_C_int = 0;
+        var Gold_C_count = jQuery('.adslot-Gold_C').children().length;
+
+        if (Gold_C_count <= 1) {
+            return;
+        }
+
+        var d = new Date();
+        var n = d.getMilliseconds() + (3 * Math.random());
+
+        setTimeout(function(){
+            var Gold_Ctimeout = setInterval(function(){
+                Gold_C_int++;
+                if (Gold_C_int >= Gold_C_count) {
+                    Gold_C_int = 0;
+                }
+                jQuery('.adslot-Gold_C').fadeOut();
+                setTimeout(function(){
+                    jQuery('.adslot-Gold_C:eq('+Gold_C_int+')').fadeIn();
+                }, 550);
+
+            }, 7000);
+        }, n);
+    });
+</script>
+
+			</li>
+				</ul>
+						   </div><!-- #primary .aside-primary .aside -->
+		   		
+		<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script><div id='fb-root'></div><script type='text/javascript'>
+	         FB.init({
+	            appId: '',
+	            status: true,
+	            cookie: true,
+	            xfbml: true,
+	            oauth: true
+	         });
+	      </script>			</div><!-- #container_wrap .hfeed -->
+</div><!-- #wrap .hfeed -->
+<div id="footer_wrap">
+	
+		
+	<div id="footer">
+		
+			<div id="footer_sidebar">
+		
+						<div id="footer_widget_area_1" class="aside footer_widget_area_1-aside column one_half">
+								<ul class="xoxo">
+					
+			<li id="text-2" class="widget widget_text">
+				<h3 class="widget-title"><span class="widget-title-left"><span class="widget-title-right">Pennfield High School</span></span></h3>
+			<div class="textwidget"><p>Athletic Director: Brett Steele<br />
+8587 PENNFIELD RD<br />
+BATTLE CREEK, MI 49017<br />
+Phone: (269) 961-9777</p>
+</div>
+		
+			</li>
+				</ul>
+						   </div><!-- #footer_widget_area_1 .aside-footer_widget_area_1 .aside -->
+		   		
+		
+						<div id="footer_widget_area_2" class="aside footer_widget_area_2-aside column one_half last">
+								<ul class="xoxo">
+					
+			<li id="rss-2" class="widget widget_rss">
+				<h3 class="widget-title"><span class="widget-title-left"><span class="widget-title-right"><a class="rsswidget" href="http://usatodayhss.com/feed/"><img class="rss-widget-icon" style="border:0" width="14" height="14" src="http://pennfieldathletics.com/wp-includes/images/rss.png" alt="RSS" /></a> <a class="rsswidget" href="http://usatodayhss.com/">Area Preps News</a></span></span></h3>
+<ul><li><a class='rsswidget' href='http://usatodayhss.com/2017/top-5-dominant-texas-dunks-from-the-past-seven-days/'>Top 5: Dominant Texas dunks from the past seven days</a></li><li><a class='rsswidget' href='http://usatodayhss.com/2017/roundup-mathis-cousins-help-kcd-take-down-brown/'>Roundup: Mathis cousins help KCD take down Brown</a></li><li><a class='rsswidget' href='http://usatodayhss.com/2017/loyola-vs-parkview-baptist-girls-soccer/'>Loyola vs. Parkview Baptist girls soccer</a></li><li><a class='rsswidget' href='http://usatodayhss.com/2017/west-de-pere-wins-bay-for-3rd-straight-year-girls-rdp/'>West De Pere wins Bay for 3rd straight year | Girls Rdp</a></li><li><a class='rsswidget' href='http://usatodayhss.com/2017/luxcasco-hits-16-3s-in-big-win-boys-rdp/'>Lux-Casco hits 16 3’s in big win | Boys Rdp</a></li><li><a class='rsswidget' href='http://usatodayhss.com/2017/liz-bryan-scores-for-loyola/'>Liz Bryan scores for Loyola</a></li></ul>
+			</li>
+				</ul>
+						   </div><!-- #footer_widget_area_2 .aside-footer_widget_area_2 .aside -->
+		   		
+			</div><!-- #footer_sidebar -->
+	
+
+		
+		<div class="leftright">
+<div id="footer_left" class="left">                <div id="credits" class="fine">
+                    <span class="copyright">&copy;2017 Pennfield Panther Athletics. <span class="rights">All Rights Reserved.</span></span>                                                                            </div><!-- #credits -->
+            </div><!-- #footer_left --><div id="footer_right" class="right"><p>Powered by VNN Technology</p>
+</div><!-- #footer_right -->		
+					<div id="wp_footer">
+				<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/plugins/vnn_adsanityMods/vnn_adsanityMods.js?ver=1'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-includes/js/jquery/ui/effect-pulsate.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/plugins/vnn-ajax-adminbar/jquery.cookie.js?ver=1.0.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vnn_ajax_adminbar_settings = {"login_key":"ksddapz1cxylarw450rg6"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-content/plugins/vnn-ajax-adminbar/vnn-ajax-adminbar.js?ver=1.1.4'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://pennfieldathletics.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+			</div><!-- #wp_footer -->
+				
+	</div><!-- #footer -->
+	
+	</div>
+	
+</div><!-- #footer_wrap .hfeed -->
+
+<script type="text/javascript">window.scrollTo(0, 1);</script></div><div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) {return;}
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+<ul class="xoxo" id="under_nav">
+<li id="vnn_adunit_leaderboard-2" class="widget widget_vnn_adunit_leaderboard">
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+
+googletag.defineSlot('/154566981/728x90_Leaderboard_1', [728,90], 'div-gpt-ad-1419962008967-0').addService(googletag.pubads()).setTargeting('site', 'pennfieldathletics.com');
+});
+</script><div style='width:728px;height:90px;margin-top:5px;'>
+<!-- Adunit -->
+<div class='vnn-adslots adslot-Leaderboard' style=';width:728px;height:90px;'>
+<div  id='div-gpt-ad-1419962008967-0' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1419962008967-0'); });
+</script>
+</div></div></div>
+<script>
+    jQuery(document).ready(function(){
+        var Leaderboard_int = 0;
+        var Leaderboard_count = jQuery('.adslot-Leaderboard').children().length;
+
+        if (Leaderboard_count <= 1) {
+            return;
+        }
+
+        var d = new Date();
+        var n = d.getMilliseconds() + (3 * Math.random());
+
+        setTimeout(function(){
+            var Leaderboardtimeout = setInterval(function(){
+                Leaderboard_int++;
+                if (Leaderboard_int >= Leaderboard_count) {
+                    Leaderboard_int = 0;
+                }
+                jQuery('.adslot-Leaderboard').fadeOut();
+                setTimeout(function(){
+                    jQuery('.adslot-Leaderboard:eq('+Leaderboard_int+')').fadeIn();
+                }, 550);
+
+            }, 7000);
+        }, n);
+    });
+</script>
+</li>
+<li id="common_social_widget" class="widget widget_text">			<div class="textwidget"><div id="common_social">
+<h3>Subscribe &amp; Follow</h3>
+<ul>
+<li class="twitter"><a title="Twitter" href="https://twitter.com/PennfieldAD" target="_blank">Twitter</a></li>
+<li class="print"><a title="Print" href="#" onclick="window.print();">Print</a></li>
+</ul>
+</div>
+</div>
+		</li>
+</ul>
+</div>        <!-- Quantcast Tag -->
+        <script type="text/javascript">
+            var _qevents = _qevents || [];
+            (function () {
+                var elem = document.createElement('script');
+                elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+                    + ".quantserve.com/quant.js";
+                elem.async = true;
+                elem.type = "text/javascript";
+                var scpt = document.getElementsByTagName('script')[0];
+                scpt.parentNode.insertBefore(elem, scpt);
+            })();
+        </script>
+        <script type="text/javascript">
+            _qevents.push({
+                qacct: "p-7JSA-he1aLrtV",
+                labels: "Site.http://pennfieldathletics.com,State.MI,DMA.Grand Rapids-Kalmzoo-B.Crk"
+            });
+        </script>
+        <noscript>
+            <div style="display:none;">
+                <img src="//pixel.quantserve.com/pixel/p-7JSA-he1aLrtV.gif?labels=Site.http://pennfieldathletics.com,State.MI,DMA.Grand Rapids-Kalmzoo-B.Crk"
+                     border="0" height="1" width="1" alt="Quantcast"/>
+            </div>
+        </noscript>
+        <!-- End Quantcast tag -->
+        
+<script async src="https://i.simpli.fi/dpx.js?cid=42572&action=100&segment=vnnlansingdma&m=1&sifi_tuid=21623"></script>	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5afe71a4bb","applicationID":"9997602","transactionName":"MlUDZkVTDEVZUEcMDgsfIFFDWw1YF0BaCwYJVQ==","queueTime":0,"applicationTime":595,"atts":"HhIAEA1JH0s=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using redis
+Object Caching 1978/2023 objects using memcached
+
+ Served from: varsitynewsnetwork.com @ 2017-02-14 01:05:35 by W3 Total Cache -->

@@ -1,0 +1,2465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+	
+
+	<head>
+
+		
+		
+		<script type="text/javascript" src="scripts/bowser.min.js"></script>
+		<script type="text/javascript" src="scripts/swfobject.js"></script>
+
+		<script>
+			var playSessionID = "A66A3B27-155D-C0F3-03ACB7BD6E4A2CDA";
+			var mobilePlayer = false;
+			var mobilePlayerNew = false;
+			var privateLabel = false;
+			var centralSvrPrefixURL = "http://radio.securenetsystems.net/";
+			var adnSvrPrefixURL = "http://ssiadnweb.securenetsystems.net/";
+
+			var launchFrom = "";
+			var enableCirrusOmni = true;
+
+			var stationSlogan = "Smooth Jazz";
+			var cdnRfPrefixURL = "http://cdnrf.securenetsystems.net/file_radio/";
+			var playerBgImg = cdnRfPrefixURL + "v5/skins/standard.png";
+
+			var geoCTCode = "US";
+			var geoDMACode = "544";
+			var geoLocLat = "36.9312";
+			var geoLocLon = "-76.2397";
+			var cGeoLocationLevel = "1";
+			var clientIPAddr = "128.82.32.156";
+
+			var playerAdvertisingMode = "ADN";
+			var bannerRotationFqcy = 30;
+			var definedBannerTypes = "M,D,N,E";
+			var sLocaFillOnAdnFail = true;
+			var sTerrFillOnLocalFail = true;
+			var sBedFillOnAllFail = false;
+			var sBedFillFileName = "COMMERCIAL-BREAK-BACKGROUNDER.m4a";
+			var sTspStnId = "SECURENET25";
+			var sGenre = "S25";
+			var logVPAID = false;
+			var vastAbortTimer;
+
+			var royaltyMarkProgram = 30;
+			var royaltyMarkAd = 90;
+
+			var adBlockerPresent = false;
+
+			
+			var prerollApp = new Array();
+
+			
+					
+					prerollApp.push("player-check-ab");
+					
+				
+			
+
+			var checkIEModernUI = false;
+
+			var playerAppOnDemand = true;
+			var playerAppHome = false;
+			var playerAppContact = true;
+			var playerAppFacebook = true;
+			var playerAppTwitter = true;
+			var playerAppYouTube = false;
+			var playerAppsYouTubeUserName = "";
+			var youtubeUserType = " ";
+			var playerAppUstream = false;
+			var playerAppsUstreamCid = "";
+			var playerAppOtherStations = true;
+			var playerAppShareThis = true;
+			var playerAppNews = true;
+			var playerAppNewsSrc = "http://rss.cnn.com/rss/cnn_topstories.rss";
+			var playerAppSports = true;
+			var playerAppSportsSrc = "http://sports.espn.go.com/espn/rss/news";
+			var playerAppStocks = true;
+			var playerAppStocksSrc = "http://online.wsj.com/xml/rss/3_7031.xml";
+			var playerAppEntertainment = true;
+			var playerAppEntertainmentSrc = "http://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml";
+			var playerAppWeather = true;
+			var playerAppFlight = true;
+			var playerAppYelp = false;
+			var playerAppDeals = false;
+			var playerAppPolls = false;
+			var playerAppSongRequest = true;
+			var playerAppChat = true;
+			var chatChannel = "5746141831";
+			var playerAppGames = false;
+			var playerAppWobot = false;
+			var playerAppWobotSrc = "http://www.wobot.tv/rss/";
+			var playerAppPlaylist = true;
+			var playerAppLyrics = true;
+			var playerAppSendToMobile = true;
+			var playerAppHelp = true;
+
+			var playerAutoStartApp = "";
+			var listenSessionTimeout = 90;
+			var playerAppTimeout = true;
+
+			var dspAlbumArt = true;
+			var dftAlbumArt = "http://radio.securenetsystems.net/file_radio/stations_large/JAZZBEAT/v5/album-art-default.png";
+			var dspBuyMediaButton = true;
+			var dspMediaRate = true;
+
+			var dspMenuIcon = true;
+			var playerMenuAutoOpen = true;
+
+			var stationCallSign = "JAZZBEAT";
+
+			var polling = new Object();
+			polling.enabled = true;
+			polling.active = false;
+			polling.adInsert = true;
+			
+			var adnPrebidEnable = true;
+			var adnPrebidFloor = 0.30;			
+			var adnPrebidTimeout = 800;		
+			var adnPrebidObj = new Object();
+
+			
+					adnPrebidObj[0]=new Object();
+					adnPrebidObj[0].externalProvider='ADNADV';
+					adnPrebidObj[0].cID="0D4588C9-A141-A5FE-60DBFCAEC6BD40BE";
+					adnPrebidObj[0].cIDn=24384;
+					adnPrebidObj[0].cType="PBB";
+					adnPrebidObj[0].aType="M";
+					adnPrebidObj[0].aHsize="300";
+					adnPrebidObj[0].aVsize="250";
+					adnPrebidObj[0].caCode="{\"bidder\": \"aol\", \"params\": {\"placement\": \"4001447\", \"network\": \"10068.1\", \"alias\": null, \"server\": \"adserver.adtechus.com\", \"sizeId\": \"170\"}}";
+					adnPrebidObj[0].pC=15.00;
+				
+					adnPrebidObj[1]=new Object();
+					adnPrebidObj[1].externalProvider='ADNCPX';
+					adnPrebidObj[1].cID="7BD9630D-E39D-A142-73BAF5ECB512A4FE";
+					adnPrebidObj[1].cIDn=24541;
+					adnPrebidObj[1].cType="PBB";
+					adnPrebidObj[1].aType="M";
+					adnPrebidObj[1].aHsize="300";
+					adnPrebidObj[1].aVsize="250";
+					adnPrebidObj[1].caCode="{\"bidder\": \"brealtime\", \"params\": {\"placementId\": 7722260}}";
+					adnPrebidObj[1].pC=0.00;
+				
+					adnPrebidObj[2]=new Object();
+					adnPrebidObj[2].externalProvider='ADNLIJ';
+					adnPrebidObj[2].cID="7BFD768B-F1DC-963D-3B7D81111F2840BB";
+					adnPrebidObj[2].cIDn=24542;
+					adnPrebidObj[2].cType="PBB";
+					adnPrebidObj[2].aType="M";
+					adnPrebidObj[2].aHsize="300";
+					adnPrebidObj[2].aVsize="250";
+					adnPrebidObj[2].caCode="{\"bidder\": \"sovrn\",\"params\": {\"tagid\": 402685}}";
+					adnPrebidObj[2].pC=0.00;
+				
+					adnPrebidObj[3]=new Object();
+					adnPrebidObj[3].externalProvider='ADNAPN';
+					adnPrebidObj[3].cID="845CAC5E-B285-F9AA-1ED2BFE45AD4385C";
+					adnPrebidObj[3].cIDn=24657;
+					adnPrebidObj[3].cType="PBB";
+					adnPrebidObj[3].aType="M";
+					adnPrebidObj[3].aHsize="300";
+					adnPrebidObj[3].aVsize="250";
+					adnPrebidObj[3].caCode="{\"bidder\": \"appnexus\",\"params\": {\"placementId\": \"6913509\"}}";
+					adnPrebidObj[3].pC=0.00;
+				
+					adnPrebidObj[4]=new Object();
+					adnPrebidObj[4].externalProvider='ADNAPN';
+					adnPrebidObj[4].cID="8468D9AD-BF80-89E4-BB12DB4FE06A65D6";
+					adnPrebidObj[4].cIDn=24658;
+					adnPrebidObj[4].cType="PBB";
+					adnPrebidObj[4].aType="D";
+					adnPrebidObj[4].aHsize="728";
+					adnPrebidObj[4].aVsize="90";
+					adnPrebidObj[4].caCode="{\"bidder\": \"appnexus\",\"params\": {\"placementId\": \"6913513\"}}";
+					adnPrebidObj[4].pC=0.00;
+				
+					adnPrebidObj[5]=new Object();
+					adnPrebidObj[5].externalProvider='ADNADV';
+					adnPrebidObj[5].cID="83CB3830-98DE-8ECD-C32DAE002B415A59";
+					adnPrebidObj[5].cIDn=24557;
+					adnPrebidObj[5].cType="PBB";
+					adnPrebidObj[5].aType="D";
+					adnPrebidObj[5].aHsize="728";
+					adnPrebidObj[5].aVsize="90";
+					adnPrebidObj[5].caCode="{\"bidder\": \"aol\", \"params\": {\"placement\": \"4001448\", \"network\": \"10068.1\", \"alias\": null, \"server\": \"adserver.adtechus.com\", \"sizeId\": \"225\"}}";
+					adnPrebidObj[5].pC=15.00;
+				
+					adnPrebidObj[6]=new Object();
+					adnPrebidObj[6].externalProvider='ADNLIJ';
+					adnPrebidObj[6].cID="83FC45A3-CF46-DA97-D2EF0D28BF421D7B";
+					adnPrebidObj[6].cIDn=24558;
+					adnPrebidObj[6].cType="PBB";
+					adnPrebidObj[6].aType="D";
+					adnPrebidObj[6].aHsize="728";
+					adnPrebidObj[6].aVsize="90";
+					adnPrebidObj[6].caCode="{\"bidder\": \"sovrn\", \"params\": {\"tagid\": \"402686\"}}";
+					adnPrebidObj[6].pC=0.00;
+				
+					adnPrebidObj[7]=new Object();
+					adnPrebidObj[7].externalProvider='ADNCPX';
+					adnPrebidObj[7].cID="84043680-A792-885E-5BC7946920C85D58";
+					adnPrebidObj[7].cIDn=24559;
+					adnPrebidObj[7].cType="PBB";
+					adnPrebidObj[7].aType="D";
+					adnPrebidObj[7].aHsize="728";
+					adnPrebidObj[7].aVsize="90";
+					adnPrebidObj[7].caCode="{\"bidder\": \"brealtime\", \"params\": {\"placementId\": 7722260}}";
+					adnPrebidObj[7].pC=0.00;
+				
+				var otherStations = new Object();
+				
+						otherStations["1"] = new Array("JAZZBEAT","http://streamdb4web.securenetsystems.net");
+					
+						otherStations["2"] = new Array("HOTT923","http://streamdb6web.securenetsystems.net");
+					
+				var otherStationsCount = 2;
+			
+				// var streamProvider = "http";
+				var streamProvider = "http";
+
+				
+				
+				
+				var streamSRC = "http://ice3.securenetsystems.net/JAZZBEAT?&playSessionID=A66A3B27-155D-C0F3-03ACB7BD6E4A2CDA";
+				var encoderType = "ACP";
+				var playlistType = "";
+				primary = "html5";
+				if(encoderType === "ACP"){
+					if((bowser.firefox) || (bowser.msie)){
+						if(swfobject.hasFlashPlayerVersion("1")){
+							if(streamSRC.indexOf(";stream.nsv") <= -1){
+								streamSRC += "&type=.flv";
+							}
+								playlistType = "flv";
+								primary = "flash";
+						}else{
+							if(!mobilePlayer){
+								prerollApp.push("flashRequired");
+							}
+						}
+					}else{
+						playlistType = "aac";
+						primary = "html5";
+					}
+				}else if(encoderType === "MP3"){
+					playlistType = "mp3"
+					primary = "html5";
+				}
+
+				// if(encoderType === "ACP"){
+				// 	if(streamSRC.indexOf(";stream.nsv") > -1){
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "aac";
+				// 	}else{
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}
+				// }else if(encoderType === "MP3"){
+				// 	if(streamSRC.indexOf(";stream.nsv") > -1){
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}else{
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}
+				// }
+				
+
+				var liveStreamEnable = true;
+				var streamRoot = "http://ice3.securenetsystems.net/media";
+
+				var blackout = new Object();
+				blackout.active = 0;
+				blackout.type = "";
+				blackout.app = "";
+				blackout.nextCheck = 86731000;
+				blackout.resumeTime = "Thursday, 2/16/2017 5:20 PM ET";
+
+				var rejoinPriority = "PGM";
+				var enforceRejoinPriority = true;
+
+				var persistAlbumArt = true;
+
+				
+				var xmlODUrl = "";
+				var onDemandQueue = new Object();
+
+				var onDemandFileCount = 55;
+				var onDemandAutoStart = false;
+				var onDemandFill = new Object();
+				onDemandFill.enabled = true;
+				onDemandFill.active = false;
+				
+
+						onDemandQueue[0]=new Object();
+						onDemandQueue[0].fileId=78608;
+						// onDemandQueue[0].fileName="Jeanette Harris - Just Keep Holding On.m4a";
+						onDemandQueue[0].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Jeanette Harris - Just Keep Holding On.m4a";
+						onDemandQueue[0].fileDsp="Jeanette Harris - Just Keep Holding On";
+						onDemandQueue[0].duration="243.160";
+						onDemandQueue[0].video=false;
+						onDemandQueue[0].modal=false;
+					
+
+						onDemandQueue[1]=new Object();
+						onDemandQueue[1].fileId=78609;
+						// onDemandQueue[1].fileName="Jazzmasters - Paul Hardcastle - Lost In Space.m4a";
+						onDemandQueue[1].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Jazzmasters - Paul Hardcastle - Lost In Space.m4a";
+						onDemandQueue[1].fileDsp="Jazzmasters - Paul Hardcastle - Lost In Space";
+						onDemandQueue[1].duration="200.150";
+						onDemandQueue[1].video=false;
+						onDemandQueue[1].modal=false;
+					
+
+						onDemandQueue[2]=new Object();
+						onDemandQueue[2].fileId=78610;
+						// onDemandQueue[2].fileName="Jazz Night Flight.m4a";
+						onDemandQueue[2].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Jazz Night Flight.m4a";
+						onDemandQueue[2].fileDsp="Jazz Night Flight";
+						onDemandQueue[2].duration="16.670";
+						onDemandQueue[2].video=false;
+						onDemandQueue[2].modal=false;
+					
+
+						onDemandQueue[3]=new Object();
+						onDemandQueue[3].fileId=78611;
+						// onDemandQueue[3].fileName="Jazz At Sunset Marc VanClaggett.m4a";
+						onDemandQueue[3].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Jazz At Sunset Marc VanClaggett.m4a";
+						onDemandQueue[3].fileDsp="Jazz At Sunset Marc VanClaggett";
+						onDemandQueue[3].duration="212.830";
+						onDemandQueue[3].video=false;
+						onDemandQueue[3].modal=false;
+					
+
+						onDemandQueue[4]=new Object();
+						onDemandQueue[4].fileId=78612;
+						// onDemandQueue[4].fileName="Jazmine Sullivan - Lions, Tigers, and Bears Lyrics -.m4a";
+						onDemandQueue[4].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Jazmine Sullivan - Lions, Tigers, and Bears Lyrics -.m4a";
+						onDemandQueue[4].fileDsp="Jazmine Sullivan - Lions, Tigers, and Bears Lyrics -";
+						onDemandQueue[4].duration="228.530";
+						onDemandQueue[4].video=false;
+						onDemandQueue[4].modal=false;
+					
+
+						onDemandQueue[5]=new Object();
+						onDemandQueue[5].fileId=78613;
+						// onDemandQueue[5].fileName="Inside My Love , Minnie Riperton -.m4a";
+						onDemandQueue[5].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Inside My Love , Minnie Riperton -.m4a";
+						onDemandQueue[5].fileDsp="Inside My Love , Minnie Riperton -";
+						onDemandQueue[5].duration="284.770";
+						onDemandQueue[5].video=false;
+						onDemandQueue[5].modal=false;
+					
+
+						onDemandQueue[6]=new Object();
+						onDemandQueue[6].fileId=78614;
+						// onDemandQueue[6].fileName="India.Arie - Cocoa Butter.m4a";
+						onDemandQueue[6].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"India.Arie - Cocoa Butter.m4a";
+						onDemandQueue[6].fileDsp="India.Arie - Cocoa Butter";
+						onDemandQueue[6].duration="180.230";
+						onDemandQueue[6].video=false;
+						onDemandQueue[6].modal=false;
+					
+
+						onDemandQueue[7]=new Object();
+						onDemandQueue[7].fileId=78615;
+						// onDemandQueue[7].fileName="India Arie - Strange Fruit.m4a";
+						onDemandQueue[7].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"India Arie - Strange Fruit.m4a";
+						onDemandQueue[7].fileDsp="India Arie - Strange Fruit";
+						onDemandQueue[7].duration="163.330";
+						onDemandQueue[7].video=false;
+						onDemandQueue[7].modal=false;
+					
+
+						onDemandQueue[8]=new Object();
+						onDemandQueue[8].fileId=78616;
+						// onDemandQueue[8].fileName="Human Nature - BWB (Norman Brown, Kirk Whalum, Rick Braun) -.m4a";
+						onDemandQueue[8].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Human Nature - BWB (Norman Brown, Kirk Whalum, Rick Braun) -.m4a";
+						onDemandQueue[8].fileDsp="Human Nature - BWB (Norman Brown, Kirk Whalum, Rick Braun) -";
+						onDemandQueue[8].duration="329.210";
+						onDemandQueue[8].video=false;
+						onDemandQueue[8].modal=false;
+					
+
+						onDemandQueue[9]=new Object();
+						onDemandQueue[9].fileId=78617;
+						// onDemandQueue[9].fileName="Hollywood Rufus and Chaka Khan.m4a";
+						onDemandQueue[9].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Hollywood Rufus and Chaka Khan.m4a";
+						onDemandQueue[9].fileDsp="Hollywood Rufus and Chaka Khan";
+						onDemandQueue[9].duration="250.630";
+						onDemandQueue[9].video=false;
+						onDemandQueue[9].modal=false;
+					
+
+						onDemandQueue[10]=new Object();
+						onDemandQueue[10].fileId=78618;
+						// onDemandQueue[10].fileName="Herbie - Paula Atherton.m4a";
+						onDemandQueue[10].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Herbie - Paula Atherton.m4a";
+						onDemandQueue[10].fileDsp="Herbie - Paula Atherton";
+						onDemandQueue[10].duration="270.970";
+						onDemandQueue[10].video=false;
+						onDemandQueue[10].modal=false;
+					
+
+						onDemandQueue[11]=new Object();
+						onDemandQueue[11].fileId=78619;
+						// onDemandQueue[11].fileName="He Looked Beyond My Faults - Rachelle Ferrell -.m4a";
+						onDemandQueue[11].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"He Looked Beyond My Faults - Rachelle Ferrell -.m4a";
+						onDemandQueue[11].fileDsp="He Looked Beyond My Faults - Rachelle Ferrell -";
+						onDemandQueue[11].duration="192.580";
+						onDemandQueue[11].video=false;
+						onDemandQueue[11].modal=false;
+					
+
+						onDemandQueue[12]=new Object();
+						onDemandQueue[12].fileId=78620;
+						// onDemandQueue[12].fileName="Got To Get You Into My Life - Dave Koz -.m4a";
+						onDemandQueue[12].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Got To Get You Into My Life - Dave Koz -.m4a";
+						onDemandQueue[12].fileDsp="Got To Get You Into My Life - Dave Koz -";
+						onDemandQueue[12].duration="343.230";
+						onDemandQueue[12].video=false;
+						onDemandQueue[12].modal=false;
+					
+
+						onDemandQueue[13]=new Object();
+						onDemandQueue[13].fileId=78621;
+						// onDemandQueue[13].fileName="Gerald Albright Norman Brown- Champagne life -.m4a";
+						onDemandQueue[13].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Gerald Albright Norman Brown- Champagne life -.m4a";
+						onDemandQueue[13].fileDsp="Gerald Albright Norman Brown- Champagne life -";
+						onDemandQueue[13].duration="317.230";
+						onDemandQueue[13].video=false;
+						onDemandQueue[13].modal=false;
+					
+
+						onDemandQueue[14]=new Object();
+						onDemandQueue[14].fileId=78622;
+						// onDemandQueue[14].fileName="GEORGE DUKE-NO RHYME NO REASON -.m4a";
+						onDemandQueue[14].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"GEORGE DUKE-NO RHYME NO REASON -.m4a";
+						onDemandQueue[14].fileDsp="GEORGE DUKE-NO RHYME NO REASON -";
+						onDemandQueue[14].duration="360.190";
+						onDemandQueue[14].video=false;
+						onDemandQueue[14].modal=false;
+					
+
+						onDemandQueue[15]=new Object();
+						onDemandQueue[15].fileId=78623;
+						// onDemandQueue[15].fileName="George Duke (1946- 2013) - Missing you -.m4a";
+						onDemandQueue[15].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"George Duke (1946- 2013) - Missing you -.m4a";
+						onDemandQueue[15].fileDsp="George Duke (1946- 2013) - Missing you -";
+						onDemandQueue[15].duration="332.510";
+						onDemandQueue[15].video=false;
+						onDemandQueue[15].modal=false;
+					
+
+						onDemandQueue[16]=new Object();
+						onDemandQueue[16].fileId=78624;
+						// onDemandQueue[16].fileName="George Duke - Reach For It.m4a";
+						onDemandQueue[16].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"George Duke - Reach For It.m4a";
+						onDemandQueue[16].fileDsp="George Duke - Reach For It";
+						onDemandQueue[16].duration="289.640";
+						onDemandQueue[16].video=false;
+						onDemandQueue[16].modal=false;
+					
+
+						onDemandQueue[17]=new Object();
+						onDemandQueue[17].fileId=78625;
+						// onDemandQueue[17].fileName="George Duke - I Want You For Myself (Jazz-Funk Live Video) -.m4a";
+						onDemandQueue[17].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"George Duke - I Want You For Myself (Jazz-Funk Live Video) -.m4a";
+						onDemandQueue[17].fileDsp="George Duke - I Want You For Myself (Jazz-Funk Live Video) -";
+						onDemandQueue[17].duration="407.180";
+						onDemandQueue[17].video=false;
+						onDemandQueue[17].modal=false;
+					
+
+						onDemandQueue[18]=new Object();
+						onDemandQueue[18].fileId=78626;
+						// onDemandQueue[18].fileName="George Duke - Dukey Stick.m4a";
+						onDemandQueue[18].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"George Duke - Dukey Stick.m4a";
+						onDemandQueue[18].fileDsp="George Duke - Dukey Stick";
+						onDemandQueue[18].duration="358.880";
+						onDemandQueue[18].video=false;
+						onDemandQueue[18].modal=false;
+					
+
+						onDemandQueue[19]=new Object();
+						onDemandQueue[19].fileId=78627;
+						// onDemandQueue[19].fileName="George Duke - Brazilian Love Affair copy.m4a";
+						onDemandQueue[19].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"George Duke - Brazilian Love Affair copy.m4a";
+						onDemandQueue[19].fileDsp="George Duke - Brazilian Love Affair copy";
+						onDemandQueue[19].duration="443.870";
+						onDemandQueue[19].video=false;
+						onDemandQueue[19].modal=false;
+					
+
+						onDemandQueue[20]=new Object();
+						onDemandQueue[20].fileId=78628;
+						// onDemandQueue[20].fileName="Fourplay feat. Chaka Khan Between The Sheets.m4a";
+						onDemandQueue[20].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Fourplay feat. Chaka Khan Between The Sheets.m4a";
+						onDemandQueue[20].fileDsp="Fourplay feat. Chaka Khan Between The Sheets";
+						onDemandQueue[20].duration="581.840";
+						onDemandQueue[20].video=false;
+						onDemandQueue[20].modal=false;
+					
+
+						onDemandQueue[21]=new Object();
+						onDemandQueue[21].fileId=78629;
+						// onDemandQueue[21].fileName="Fourplay - All I Wanna Do -.m4a";
+						onDemandQueue[21].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Fourplay - All I Wanna Do -.m4a";
+						onDemandQueue[21].fileDsp="Fourplay - All I Wanna Do -";
+						onDemandQueue[21].duration="257.040";
+						onDemandQueue[21].video=false;
+						onDemandQueue[21].modal=false;
+					
+
+						onDemandQueue[22]=new Object();
+						onDemandQueue[22].fileId=78630;
+						// onDemandQueue[22].fileName="Euge Groove - Lets Get It On -.m4a";
+						onDemandQueue[22].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Euge Groove - Lets Get It On -.m4a";
+						onDemandQueue[22].fileDsp="Euge Groove - Lets Get It On -";
+						onDemandQueue[22].duration="284.530";
+						onDemandQueue[22].video=false;
+						onDemandQueue[22].modal=false;
+					
+
+						onDemandQueue[23]=new Object();
+						onDemandQueue[23].fileId=78631;
+						// onDemandQueue[23].fileName="Esperanza Spalding - Cinnamon Tree (2012).m4a";
+						onDemandQueue[23].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Esperanza Spalding - Cinnamon Tree (2012).m4a";
+						onDemandQueue[23].fileDsp="Esperanza Spalding - Cinnamon Tree (2012)";
+						onDemandQueue[23].duration="336.130";
+						onDemandQueue[23].video=false;
+						onDemandQueue[23].modal=false;
+					
+
+						onDemandQueue[24]=new Object();
+						onDemandQueue[24].fileId=78632;
+						// onDemandQueue[24].fileName="Esperanza Spalding - Black Gold.m4a";
+						onDemandQueue[24].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Esperanza Spalding - Black Gold.m4a";
+						onDemandQueue[24].fileDsp="Esperanza Spalding - Black Gold";
+						onDemandQueue[24].duration="231.270";
+						onDemandQueue[24].video=false;
+						onDemandQueue[24].modal=false;
+					
+
+						onDemandQueue[25]=new Object();
+						onDemandQueue[25].fileId=78633;
+						// onDemandQueue[25].fileName="Esperanza Spalding - Black Gold copy.m4a";
+						onDemandQueue[25].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Esperanza Spalding - Black Gold copy.m4a";
+						onDemandQueue[25].fileDsp="Esperanza Spalding - Black Gold copy";
+						onDemandQueue[25].duration="231.270";
+						onDemandQueue[25].video=false;
+						onDemandQueue[25].modal=false;
+					
+
+						onDemandQueue[26]=new Object();
+						onDemandQueue[26].fileId=78634;
+						// onDemandQueue[26].fileName="Erykah Badu - D-Angelo - Your Precious Love.m4a";
+						onDemandQueue[26].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Erykah Badu - D-Angelo - Your Precious Love.m4a";
+						onDemandQueue[26].fileDsp="Erykah Badu - D-Angelo - Your Precious Love";
+						onDemandQueue[26].duration="272.410";
+						onDemandQueue[26].video=false;
+						onDemandQueue[26].modal=false;
+					
+
+						onDemandQueue[27]=new Object();
+						onDemandQueue[27].fileId=78635;
+						// onDemandQueue[27].fileName="Erykah Badu - Stay (Live).m4a";
+						onDemandQueue[27].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Erykah Badu - Stay (Live).m4a";
+						onDemandQueue[27].fileDsp="Erykah Badu - Stay (Live)";
+						onDemandQueue[27].duration="285.230";
+						onDemandQueue[27].video=false;
+						onDemandQueue[27].modal=false;
+					
+
+						onDemandQueue[28]=new Object();
+						onDemandQueue[28].fileId=78636;
+						// onDemandQueue[28].fileName="Erykah Badu - Hollywood.m4a";
+						onDemandQueue[28].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Erykah Badu - Hollywood.m4a";
+						onDemandQueue[28].fileDsp="Erykah Badu - Hollywood";
+						onDemandQueue[28].duration="328.140";
+						onDemandQueue[28].video=false;
+						onDemandQueue[28].modal=false;
+					
+
+						onDemandQueue[29]=new Object();
+						onDemandQueue[29].fileId=78637;
+						// onDemandQueue[29].fileName="Elan Trotman - Crusin -.m4a";
+						onDemandQueue[29].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Elan Trotman - Crusin -.m4a";
+						onDemandQueue[29].fileDsp="Elan Trotman - Crusin -";
+						onDemandQueue[29].duration="270.880";
+						onDemandQueue[29].video=false;
+						onDemandQueue[29].modal=false;
+					
+
+						onDemandQueue[30]=new Object();
+						onDemandQueue[30].fileId=78638;
+						// onDemandQueue[30].fileName="Earth, Wind - Fire - REASONS.m4a";
+						onDemandQueue[30].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Earth, Wind - Fire - REASONS.m4a";
+						onDemandQueue[30].fileDsp="Earth, Wind - Fire - REASONS";
+						onDemandQueue[30].duration="348.200";
+						onDemandQueue[30].video=false;
+						onDemandQueue[30].modal=false;
+					
+
+						onDemandQueue[31]=new Object();
+						onDemandQueue[31].fileId=78639;
+						// onDemandQueue[31].fileName="Dwele - Without You.m4a";
+						onDemandQueue[31].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Dwele - Without You.m4a";
+						onDemandQueue[31].fileDsp="Dwele - Without You";
+						onDemandQueue[31].duration="235.030";
+						onDemandQueue[31].video=false;
+						onDemandQueue[31].modal=false;
+					
+
+						onDemandQueue[32]=new Object();
+						onDemandQueue[32].fileId=78640;
+						// onDemandQueue[32].fileName="Donald byrd - Places and spaces.m4a";
+						onDemandQueue[32].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Donald byrd - Places and spaces.m4a";
+						onDemandQueue[32].fileDsp="Donald byrd - Places and spaces";
+						onDemandQueue[32].duration="380.990";
+						onDemandQueue[32].video=false;
+						onDemandQueue[32].modal=false;
+					
+
+						onDemandQueue[33]=new Object();
+						onDemandQueue[33].fileId=78641;
+						// onDemandQueue[33].fileName="Dave Brubeck Quartet - Take Five.m4a";
+						onDemandQueue[33].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Dave Brubeck Quartet - Take Five.m4a";
+						onDemandQueue[33].fileDsp="Dave Brubeck Quartet - Take Five";
+						onDemandQueue[33].duration="320.990";
+						onDemandQueue[33].video=false;
+						onDemandQueue[33].modal=false;
+					
+
+						onDemandQueue[34]=new Object();
+						onDemandQueue[34].fileId=78642;
+						// onDemandQueue[34].fileName="Darren Rahn  One Step Ahead Live at Spaghettinis -.m4a";
+						onDemandQueue[34].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Darren Rahn  One Step Ahead Live at Spaghettinis -.m4a";
+						onDemandQueue[34].fileDsp="Darren Rahn  One Step Ahead Live at Spaghettinis -";
+						onDemandQueue[34].duration="259.970";
+						onDemandQueue[34].video=false;
+						onDemandQueue[34].modal=false;
+					
+
+						onDemandQueue[35]=new Object();
+						onDemandQueue[35].fileId=78643;
+						// onDemandQueue[35].fileName="Chuck Loeb - Silhouette.m4a";
+						onDemandQueue[35].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Chuck Loeb - Silhouette.m4a";
+						onDemandQueue[35].fileDsp="Chuck Loeb - Silhouette";
+						onDemandQueue[35].duration="248.400";
+						onDemandQueue[35].video=false;
+						onDemandQueue[35].modal=false;
+					
+
+						onDemandQueue[36]=new Object();
+						onDemandQueue[36].fileId=78644;
+						// onDemandQueue[36].fileName="Chrisette Michele - A Couple Of Forevers.m4a";
+						onDemandQueue[36].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Chrisette Michele - A Couple Of Forevers.m4a";
+						onDemandQueue[36].fileDsp="Chrisette Michele - A Couple Of Forevers";
+						onDemandQueue[36].duration="274.460";
+						onDemandQueue[36].video=false;
+						onDemandQueue[36].modal=false;
+					
+
+						onDemandQueue[37]=new Object();
+						onDemandQueue[37].fileId=78645;
+						// onDemandQueue[37].fileName="Chaka Khan - Angel.m4a";
+						onDemandQueue[37].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Chaka Khan - Angel.m4a";
+						onDemandQueue[37].fileDsp="Chaka Khan - Angel";
+						onDemandQueue[37].duration="264.940";
+						onDemandQueue[37].video=false;
+						onDemandQueue[37].modal=false;
+					
+
+						onDemandQueue[38]=new Object();
+						onDemandQueue[38].fileId=78646;
+						// onDemandQueue[38].fileName="Casablanca- Nils.m4a";
+						onDemandQueue[38].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Casablanca- Nils.m4a";
+						onDemandQueue[38].fileDsp="Casablanca- Nils";
+						onDemandQueue[38].duration="221.240";
+						onDemandQueue[38].video=false;
+						onDemandQueue[38].modal=false;
+					
+
+						onDemandQueue[39]=new Object();
+						onDemandQueue[39].fileId=78647;
+						// onDemandQueue[39].fileName="Cal Harris Jr. - By The Bay.m4a";
+						onDemandQueue[39].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Cal Harris Jr. - By The Bay.m4a";
+						onDemandQueue[39].fileDsp="Cal Harris Jr. - By The Bay";
+						onDemandQueue[39].duration="256.020";
+						onDemandQueue[39].video=false;
+						onDemandQueue[39].modal=false;
+					
+
+						onDemandQueue[40]=new Object();
+						onDemandQueue[40].fileId=78648;
+						// onDemandQueue[40].fileName="Brian Simpson - Just What You Need.m4a";
+						onDemandQueue[40].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Brian Simpson - Just What You Need.m4a";
+						onDemandQueue[40].fileDsp="Brian Simpson - Just What You Need";
+						onDemandQueue[40].duration="239.260";
+						onDemandQueue[40].video=false;
+						onDemandQueue[40].modal=false;
+					
+
+						onDemandQueue[41]=new Object();
+						onDemandQueue[41].fileId=78649;
+						// onDemandQueue[41].fileName="Brian Culbertson - I Dont Know -.m4a";
+						onDemandQueue[41].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Brian Culbertson - I Dont Know -.m4a";
+						onDemandQueue[41].fileDsp="Brian Culbertson - I Dont Know -";
+						onDemandQueue[41].duration="301.620";
+						onDemandQueue[41].video=false;
+						onDemandQueue[41].modal=false;
+					
+
+						onDemandQueue[42]=new Object();
+						onDemandQueue[42].fileId=78650;
+						// onDemandQueue[42].fileName="Brian Bromberg - Compared to That.m4a";
+						onDemandQueue[42].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Brian Bromberg - Compared to That.m4a";
+						onDemandQueue[42].fileDsp="Brian Bromberg - Compared to That";
+						onDemandQueue[42].duration="506.660";
+						onDemandQueue[42].video=false;
+						onDemandQueue[42].modal=false;
+					
+
+						onDemandQueue[43]=new Object();
+						onDemandQueue[43].fileId=78651;
+						// onDemandQueue[43].fileName="Boney James - Powerhouse.m4a";
+						onDemandQueue[43].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Boney James - Powerhouse.m4a";
+						onDemandQueue[43].fileDsp="Boney James - Powerhouse";
+						onDemandQueue[43].duration="241.440";
+						onDemandQueue[43].video=false;
+						onDemandQueue[43].modal=false;
+					
+
+						onDemandQueue[44]=new Object();
+						onDemandQueue[44].fileId=78652;
+						// onDemandQueue[44].fileName="Bob James David Sanborn - Deep in the Weeds.m4a";
+						onDemandQueue[44].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Bob James David Sanborn - Deep in the Weeds.m4a";
+						onDemandQueue[44].fileDsp="Bob James David Sanborn - Deep in the Weeds";
+						onDemandQueue[44].duration="364.920";
+						onDemandQueue[44].video=false;
+						onDemandQueue[44].modal=false;
+					
+
+						onDemandQueue[45]=new Object();
+						onDemandQueue[45].fileId=78653;
+						// onDemandQueue[45].fileName="Bob James David Sanborn - Deep in the Weeds -.flv";
+						onDemandQueue[45].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Bob James David Sanborn - Deep in the Weeds -.flv";
+						onDemandQueue[45].fileDsp="Bob James David Sanborn - Deep in the Weeds -";
+						onDemandQueue[45].duration="364.810";
+						onDemandQueue[45].video=true;
+						onDemandQueue[45].modal=false;
+					
+
+						onDemandQueue[46]=new Object();
+						onDemandQueue[46].fileId=78654;
+						// onDemandQueue[46].fileName="Billy Paul - ME AND MRS. JONES - Oldies.m4a";
+						onDemandQueue[46].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Billy Paul - ME AND MRS. JONES - Oldies.m4a";
+						onDemandQueue[46].fileDsp="Billy Paul - ME AND MRS. JONES - Oldies";
+						onDemandQueue[46].duration="287.040";
+						onDemandQueue[46].video=false;
+						onDemandQueue[46].modal=false;
+					
+
+						onDemandQueue[47]=new Object();
+						onDemandQueue[47].fileId=78655;
+						// onDemandQueue[47].fileName="Avery Sunshine ft. Roy Ayers-The Most -.m4a";
+						onDemandQueue[47].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Avery Sunshine ft. Roy Ayers-The Most -.m4a";
+						onDemandQueue[47].fileDsp="Avery Sunshine ft. Roy Ayers-The Most -";
+						onDemandQueue[47].duration="296.010";
+						onDemandQueue[47].video=false;
+						onDemandQueue[47].modal=false;
+					
+
+						onDemandQueue[48]=new Object();
+						onDemandQueue[48].fileId=78656;
+						// onDemandQueue[48].fileName="Anytime Anyplace - Janet Jackson.m4a";
+						onDemandQueue[48].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Anytime Anyplace - Janet Jackson.m4a";
+						onDemandQueue[48].fileDsp="Anytime Anyplace - Janet Jackson";
+						onDemandQueue[48].duration="282.030";
+						onDemandQueue[48].video=false;
+						onDemandQueue[48].modal=false;
+					
+
+						onDemandQueue[49]=new Object();
+						onDemandQueue[49].fileId=78657;
+						// onDemandQueue[49].fileName="Anthony Hamilton - Charlene.m4a";
+						onDemandQueue[49].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Anthony Hamilton - Charlene.m4a";
+						onDemandQueue[49].fileDsp="Anthony Hamilton - Charlene";
+						onDemandQueue[49].duration="256.900";
+						onDemandQueue[49].video=false;
+						onDemandQueue[49].modal=false;
+					
+
+						onDemandQueue[50]=new Object();
+						onDemandQueue[50].fileId=78658;
+						// onDemandQueue[50].fileName="Anita Baker - Chapter 8 - I Just Wanna Be Your Girl - Urban.m4a";
+						onDemandQueue[50].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Anita Baker - Chapter 8 - I Just Wanna Be Your Girl - Urban.m4a";
+						onDemandQueue[50].fileDsp="Anita Baker - Chapter 8 - I Just Wanna Be Your Girl - Urban";
+						onDemandQueue[50].duration="284.630";
+						onDemandQueue[50].video=false;
+						onDemandQueue[50].modal=false;
+					
+
+						onDemandQueue[51]=new Object();
+						onDemandQueue[51].fileId=78659;
+						// onDemandQueue[51].fileName="Andrea Razzauti - Not Just Another Love (Featuring Patti Austin) -.m4a";
+						onDemandQueue[51].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Andrea Razzauti - Not Just Another Love (Featuring Patti Austin) -.m4a";
+						onDemandQueue[51].fileDsp="Andrea Razzauti - Not Just Another Love (Featuring Patti Austin) -";
+						onDemandQueue[51].duration="269.580";
+						onDemandQueue[51].video=false;
+						onDemandQueue[51].modal=false;
+					
+
+						onDemandQueue[52]=new Object();
+						onDemandQueue[52].fileId=78660;
+						// onDemandQueue[52].fileName="Alicia Myers I Want to Thank You.m4a";
+						onDemandQueue[52].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Alicia Myers I Want to Thank You.m4a";
+						onDemandQueue[52].fileDsp="Alicia Myers I Want to Thank You";
+						onDemandQueue[52].duration="228.710";
+						onDemandQueue[52].video=false;
+						onDemandQueue[52].modal=false;
+					
+
+						onDemandQueue[53]=new Object();
+						onDemandQueue[53].fileId=78661;
+						// onDemandQueue[53].fileName="10 Wilshire Blvd Marc VanClaggett.m4a";
+						onDemandQueue[53].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"10 Wilshire Blvd Marc VanClaggett.m4a";
+						onDemandQueue[53].fileDsp="10 Wilshire Blvd Marc VanClaggett";
+						onDemandQueue[53].duration="202.480";
+						onDemandQueue[53].video=false;
+						onDemandQueue[53].modal=false;
+					
+
+						onDemandQueue[54]=new Object();
+						onDemandQueue[54].fileId=78662;
+						// onDemandQueue[54].fileName="02 - I Want You Marc VanClaggett.m4a";
+						onDemandQueue[54].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"02 - I Want You Marc VanClaggett.m4a";
+						onDemandQueue[54].fileDsp="02 - I Want You Marc VanClaggett";
+						onDemandQueue[54].duration="266.770";
+						onDemandQueue[54].video=false;
+						onDemandQueue[54].modal=false;
+					
+					
+					var d = new Date();
+					var localServerTSoffset = d.getTime()+d.getTimezoneOffset()*60000 - Date.parse("15 Feb 2017 22:14:35");
+				
+
+				
+					var nielsenEnabled = true;
+				
+
+			var enableStream = true;
+
+			
+			var streamSrcDB = 'http://ice3.securenetsystems.net/JAZZBEAT?type=.flv';
+			var streamSrcPlay=streamSrcDB.replace("?type=.flv","")+'?playSessionID=A66A3B27-155D-C0F3-03ACB7BD6E4A2CDA';
+			var streamSrcFlv = 'http://ice3.securenetsystems.net/JAZZBEAT?type=.flv';
+			var streamSrcAac = streamSrcDB+(streamSrcDB.indexOf("?")==-1?"?":"&")+"playSessionID=A66A3B27-155D-C0F3-03ACB7BD6E4A2CDA";		//streamSrcDB.replace("?type=.flv","");
+			var streamSrcMp3 = streamSrcDB.replace("type=.flv","type=.mp3");
+			var bDRC=false;
+		</script>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE, NO-STORE, must-revalidate, max-age=0" />
+		<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+		<META HTTP-EQUIV="EXPIRES" CONTENT="0" />
+		<meta name="distribution" content="Global" />
+		<meta property="og:title" content="JAZZBEAT" />
+		<meta property="og:description" content="Listen to our station on your computer or mobile device!" />
+		<meta property="og:image" content="http://cdnrf.securenetsystems.net/file_radio/stations_large/JAZZBEAT/v5/logo.png" />
+		<link REL="SHORTCUT ICON" HREF="images/ssiicon.ico">
+
+		<title>Smooth Jazz</title>
+
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/style_stdres.css" type="text/css" />
+		<![endif]-->
+		<!--[if (!IE)|(gte IE 9)]> -->
+			<link rel="stylesheet" href="css/style_hires.css" type="text/css" />
+		<!-- <![endif]-->
+
+		<style>
+			.bodyDiv {
+				background:url(http://cdnrf.securenetsystems.net/file_radio/v5/skins/standard.png) no-repeat top left #1B1B1B;
+				top:50%;
+				left:50%;
+				height:630px;
+				
+					width:940px;
+					margin:-315px 0 0 -470px;
+				
+				position:absolute;
+				display:none;
+			}
+			div {
+				color: #C8D6FB;
+			}
+			a:link, a:visited, a:hover, a:active, .menuHeader, .player-apps-title, #transport-counter, #transport-volume-label {
+				color: #4F7FF7;
+			}
+		</style>
+
+		
+		
+	
+	<script type="text/javascript" src="scripts/prebid.js" async></script> 
+	<script type="text/javascript">
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		var preBidCounter = 0; 
+		var waterfallCounter = 0;
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+	</script>
+	
+	<!--script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.json-2.2.min.js"></script>
+	<script type="text/javascript" src="scripts/ifvisible.min.js"></script>
+	
+	<script src="../cirruscore/cirruscore_v1.js"></script>
+	
+	<script type="text/javascript" src="scripts/ad.js"></script>
+	
+
+	
+	
+		<script type="text/javascript" src="scripts/jquery.qrcode.min.js"></script>
+	
+			<script type="text/javascript" src="scripts/v5.min.js?cb=20170215171435"></script>
+		
+		
+
+	</head>
+
+	<body onClick="cirrusOmni();">
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-67327905-4', 'auto');
+		  ga('send', 'pageview');
+		  if(playerAdvertisingMode === 'ADN'){
+			  ga('send', 'event', 'Player Event', 'Player Launch', '00000010', 1);
+		  }
+		  if(launchFrom.length > 0){
+			  ga('send', 'event', 'Player Event', 'Player Launch', 'Launch From ' + launchFrom, 1);
+		  }
+		</script>
+		
+
+		
+		<script type="text/javascript">
+		_atrk_opts = { atrk_acct:"U4nwg1awAe00qR", domain:"securenetsystems.net",dynamic: true};
+		(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+		</script>
+		<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=U4nwg1awAe00qR" style="display:none" height="1" width="1" alt="" /></noscript>
+		
+
+		
+			<div id="bodyDiv" class="bodyDiv">
+
+				<div id="ajax-loader" class="ajax-loader-container ajax-loader"></div>
+				<img id="stationLogo" src="http://cdnrf.securenetsystems.net/file_radio/stations_large/JAZZBEAT/v5/logo.png" /> 
+<div id="top-menu-wrapper" class="top-menu-wrapper dH tS">
+	
+</div>
+
+
+
+<div id="menu" class="menu">
+	
+	<div class="menu-close" title="Close menu" onClick="dspMenu();"></div>
+	
+
+	<div class="menu-row">
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Station info</div>
+				<img src="images/contact.png" width="60" title="Contact information" onClick="startApp('contact');" /> <img src="images/facebook.png" width="60" title="Facebook feed" onClick="startApp('facebook');" /> <img src="images/twitter.png" width="60" title="Read our twitter feed" onClick="startApp('twitter');" /> 
+
+			</div>
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Streams</div>
+				<img src="images/media-send-to-mobile.png" width="60" title="Send player to mobile phone" onClick="startApp('send-to-mobile');" /> <img src="images/playlist.png" width="60" title="Recently played" onClick="startApp('playlist');" /> <img src="images/other-stations.png" width="60" title="Other radio stations" onClick="startApp('other-stations');" /> <img src="images/on-demand.png" width="60" title="On-demand streaming" onClick="startApp('on-demand');" /> 
+			</div>
+		
+
+	</div>
+	<div class="menu-apps-row dT">
+		<div class="top-menu-button-c1">
+			<div class="top-menu-button-c2">
+				
+					<div class="fL menu-apps mr20">
+						<div class="menuText menuHeader f15em">Player apps</div>
+						<img src="images/news.png" width="60" title="News" onClick="startApp('news');" /> <img src="images/stocks.png" width="60" title="Finance" onClick="startApp('stocks');" /> <img src="images/sports.png" width="60" title="Sports" onClick="startApp('sports');" /> <img src="images/entertainment.png" width="60" title="Entertainment" onClick="startApp('entertainment');" /> <img src="images/weather.png" width="60" title="Weather" onClick="startApp('weather');" /> <img src="images/traffic.png" width="60" title="Traffic map" onClick="startApp('traffic');" /> <img src="images/flight.png" width="60" title="Flight tracker" onClick="startApp('flight');" /> <img src="images/request.png" width="60" title="Song request" onClick="startApp('request');" /> <img src="images/chat.png" width="60" title="Chat with other listeners" onClick="startApp('chat');" /> <img src="images/help.png" width="60" title="Problems streaming? Click here for common answers." onClick="startApp('help');" />
+					</div>
+				
+					<div class="fL menuIcons" style="padding-right:0px;">
+						<div class="menuText menuHeader f15em">Share</div>
+						<!-- AddThis Button BEGIN -->
+						<div class="shareThis addthis_toolbox addthis_default_style addthis_32x32_style">
+						<a class="addthis_button_preferred_1"></a>
+						<a class="addthis_button_preferred_2"></a>
+						<a class="addthis_button_preferred_3"></a>
+						<a class="addthis_button_preferred_4"></a>
+						<a class="addthis_button_compact"></a>
+						<a class="addthis_counter addthis_bubble_style"></a>
+						</div>
+						<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-502552987eaa3f3d"></script>
+						<!-- AddThis Button END -->
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+				
+
+				
+				<div id="updateBrowser">
+					<p>Your browser is out of date. Please upgrade your browser to proceed to the live stream.</p>
+					<p>This player utilizes features that are unavailable in your version of browser. Don't worry - there is an easy solution. Simply upgrade your browser to the latest version and then return to this player to proceed to the live stream. You'll be enjoying your favorite station before you know it!</p>
+				</div>
+				
+
+				
+				
+
+	
+
+		
+		<div id="player-apps-flashRequired" class="player-apps-preroll dH">
+			<div>
+				<div class="player-apps-content papbct dT">
+					<div class="top-menu-button-c1">
+						<p>Adobe Flash Required</p>
+						<br>
+						<p>Adobe Flash is required to listen to this station, but you don't appear to have it installed.</p>
+						<br>
+						<p><a href="https://get.adobe.com/flashplayer/">Click here to install Adobe Flash</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+		
+			<div id="player-apps-player-check-ab" class="player-apps-preroll dH">
+				<div>
+					<div class="player-apps-content papbct dT">
+						<div class="top-menu-button-c1">
+							
+							
+							
+
+							<div id="adblockWrapper"></div>
+							<script>
+								function getQueryVariable(variable){
+							       var query = window.location.search.substring(1);
+							       var vars = query.split("&");
+							       for (var i=0;i<vars.length;i++) {
+							               var pair = vars[i].split("=");
+							               if(pair[0] == variable){return pair[1];}
+							       }
+							       return(false);
+								}
+
+								function avyQDrJNrVDQiFZSpi70eX0FCH7DMcveIFon189h0OCTpBEjmh6o4BGtCy8p54fQ5qtMw6WD6jooLZ320c0h5OZC9ZN5DZchkQHjUUVxg71k82bgIPqqT3amAR0UHpeqja4pHdBBK8koF7tzjsMBAMZCx0r5lP5Xg5bQjQy7q09dNcC77eZnM(){
+									if(window.iExist === undefined){
+										console.log("ad blocker detected");
+										ga('send', 'event', 'Player Event', 'Ad Blocker', 'Ad Blocker Detected', 1);
+
+										adBlockerPresent = true;
+										$("#adblockWrapper").html("<a href=\"abp:subscribe?location=http://streamdb4web.securenetsystems.net/v5/adBlockWhitelist.cfm\"><img id=\"blockImage\" src=\"images/blockdetected.png\" width=\"750\" height=\"92\"></a>");
+										var retryVar = getQueryVariable("retry");
+										if(!retryVar){
+											setTimeout(function(){
+												window.location.replace("http://streamdb4web.securenetsystems.net/v5/index.cfm?stationCallSign=JAZZBEAT&retry=true");
+											}, 5000);
+										}else{
+											$("#blockImage").attr("src", "images/blockgivenup.png");
+										}
+									}else{
+										adBlockerPresent = false;
+										console.log("ad blocker NOT detected");
+										$("#adblockWrapper").hide();
+									}
+								}
+
+								if(playerAdvertisingMode=="ADN" || playerAdvertisingMode=="SEQ"){
+									setTimeout(function(){
+										avyQDrJNrVDQiFZSpi70eX0FCH7DMcveIFon189h0OCTpBEjmh6o4BGtCy8p54fQ5qtMw6WD6jooLZ320c0h5OZC9ZN5DZchkQHjUUVxg71k82bgIPqqT3amAR0UHpeqja4pHdBBK8koF7tzjsMBAMZCx0r5lP5Xg5bQjQy7q09dNcC77eZnM();
+									}, 500);
+								}	
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		
+	
+
+	
+	<div id="player-apps" class="player-apps">
+
+		
+		<div id="player-apps-close-button" class="player-apps-close-button player-apps-close-button-app" title="Close player app" onClick="closeApp();"></div>
+		
+
+		
+		
+			<div id="player-apps-contact" class="dH">
+				<div>
+					<img src="images/contact.png" width="40" height="40" />
+					<div class="player-apps-title">Contact</div>
+					<div class="player-apps-content">
+						<div id="player-apps-contact-icons">
+							<div class="player-apps-contact-phone">404-343-1527</div> <div class="player-apps-contact-web" onClick="openURL('http://www.jazzbeatsradio.com');">http://www.jazzbeatsradio.com</div> <div class="player-apps-contact-email" onClick="dspContactForm(true);">Click here to send us a message</div> 
+						</div>
+						<div id="player-apps-contact-form">
+							<input type="text" id="contactFormName" value="Your name" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your name',2);" onBlur="fieldDesc(this,'out','Your name',2);">
+							<br /><br />
+							<input type="text" id="contactFormEmail" value="Your email address" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your email address',10);" onBlur="fieldDesc(this,'out','Your email address',10);">
+							<br /><br />
+							<textarea id="contactFormMessage" onClick="fieldDesc(this,'in','Your message',5);" onBlur="fieldDesc(this,'out','Your message',5);">Your message</textarea>
+							<br /><br />
+							<div class="player-apps-contact-back fL" onClick="dspContactForm(false);"></div>
+							<div class="fL"><input type="button" value="Send message" onClick="contactForm();"></div>
+							<div id="contactFormErr" class="fL ml10 red formErrMsg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-facebook" class="dH">
+				<div>
+					<img src="images/facebook.png" width="40" height="40" />
+					<div class="player-apps-title">Facebook</div>
+					<div class="player-apps-content" id="player-apps-content-facebook">
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=108260835883518";
+						  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+						<div class="fb-like-box" data-href="https://www.facebook.com/jazzbeatsradio" data-width="573" data-height="252" data-colorscheme="dark" data-show-faces="false" data-stream="true" data-header="false"></div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-twitter" class="dH">
+				<div>
+					<img src="images/twitter.png" width="40" height="40" />
+					<div class="player-apps-title">Twitter feed</div>
+					<div class="player-apps-content" id="player-apps-content-twitter">
+						<a class="twitter-timeline" width="520" height="250" href="https://twitter.com/twitterapi" data-widget-id="365511658203910144" data-screen-name="Jazzdar" data-theme="dark"></a>
+						<script>
+							!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+								if(!d.getElementById(id)){
+									js=d.createElement(s);
+									js.id=id;
+									js.src="//platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js,fjs);
+								}
+							}
+							(document,"script","twitter-wjs");
+						</script>						
+					</div>			
+				</div>
+			</div>
+		
+			<div id="player-apps-other-stations" class="dH">
+				<div>
+					<img src="images/other-stations.png" width="40" height="40" />
+					<div class="player-apps-title">Other radio stations</div>
+					<div class="player-apps-content">
+						<p>Click on any of the stations below to start listening</p>
+						
+							<div class="other-stations-row cP" onClick="location.href='http://streamdb4web.securenetsystems.net/v5/index.cfm?stationCallSign=JAZZBEAT';">
+								<div class="on-demand-state fL on-demand-on-air"></div>
+								<div class="other-stations-logo fL"><img src="http://cdnrf.securenetsystems.net/file_radio/stations_large/JAZZBEAT/v5/logo.png" width="125" height="47" /></div>
+								<div class="other-stations-slogan dT fL">
+									<div class="top-menu-button-c1">
+										<div class="top-menu-button-c2">
+											Smooth Jazz 
+												<div id="other-stations-now-playing-1" class="f08em"></div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="other-stations-row cP" onClick="location.href='http://radio.securenetsystems.net/radio_player_large.cfm?stationCallSign=HHJRR';">
+								<div class="on-demand-state fL "></div>
+								<div class="other-stations-logo fL"><img src="http://cdnrf.securenetsystems.net/file_radio/v5/logo_default.png" width="125" height="47" /></div>
+								<div class="other-stations-slogan dT fL">
+									<div class="top-menu-button-c1">
+										<div class="top-menu-button-c2">
+											HipHop Joint Rap Radio 
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="other-stations-row cP" onClick="location.href='http://streamdb6web.securenetsystems.net/v5/index.cfm?stationCallSign=HOTT923';">
+								<div class="on-demand-state fL "></div>
+								<div class="other-stations-logo fL"><img src="http://cdnrf.securenetsystems.net/file_radio/stations_large/HOTT923/v5/logo.png" width="125" height="47" /></div>
+								<div class="other-stations-slogan dT fL">
+									<div class="top-menu-button-c1">
+										<div class="top-menu-button-c2">
+											R&B, Adult Contemporary 
+												<div id="other-stations-now-playing-2" class="f08em"></div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="other-stations-row cP" onClick="location.href='http://radio.securenetsystems.net/radio_player_large.cfm?stationCallSign=KMAX';">
+								<div class="on-demand-state fL "></div>
+								<div class="other-stations-logo fL"><img src="http://cdnrf.securenetsystems.net/file_radio/v5/logo_default.png" width="125" height="47" /></div>
+								<div class="other-stations-slogan dT fL">
+									<div class="top-menu-button-c1">
+										<div class="top-menu-button-c2">
+											Kmaxgospel.com 
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							<div class="other-stations-row cP" onClick="location.href='http://radio.securenetsystems.net/radio_player_large.cfm?stationCallSign=WTTRADIO';">
+								<div class="on-demand-state fL "></div>
+								<div class="other-stations-logo fL"><img src="http://cdnrf.securenetsystems.net/file_radio/stations_large/WTTRADIO/v5/logo.png" width="125" height="47" /></div>
+								<div class="other-stations-slogan dT fL">
+									<div class="top-menu-button-c1">
+										<div class="top-menu-button-c2">
+											WTTRADIO 
+										</div>
+									</div>
+								</div>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-on-demand" class="dH">
+				<div>
+					<img src="images/on-demand.png" width="40" height="40" />
+					<div class="player-apps-title">On-demand streaming</div>
+					<div id="on-demand-list" class="player-apps-content">
+						<p>Click on any file to start listening</p>
+						
+						
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-0" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(0,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Jeanette Harris - Just Keep Holding On</div>
+												<div>
+													<div>
+														00:04:03
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-1" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(1,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Jazzmasters - Paul Hardcastle - Lost In Space</div>
+												<div>
+													<div>
+														00:03:20
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-2" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(2,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Jazz Night Flight</div>
+												<div>
+													<div>
+														00:00:16
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-3" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(3,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Jazz At Sunset Marc VanClaggett</div>
+												<div>
+													<div>
+														00:03:32
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-4" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(4,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Jazmine Sullivan - Lions, Tigers, and Bears Lyrics -</div>
+												<div>
+													<div>
+														00:03:48
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-5" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(5,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Inside My Love , Minnie Riperton -</div>
+												<div>
+													<div>
+														00:04:44
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-6" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(6,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">India.Arie - Cocoa Butter</div>
+												<div>
+													<div>
+														00:03:00
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-7" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(7,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">India Arie - Strange Fruit</div>
+												<div>
+													<div>
+														00:02:43
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-8" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(8,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Human Nature - BWB (Norman Brown, Kirk Whalum, Rick Braun) -</div>
+												<div>
+													<div>
+														00:05:29
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-9" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(9,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Hollywood Rufus and Chaka Khan</div>
+												<div>
+													<div>
+														00:04:10
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-10" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(10,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Herbie - Paula Atherton</div>
+												<div>
+													<div>
+														00:04:30
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-11" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(11,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">He Looked Beyond My Faults - Rachelle Ferrell -</div>
+												<div>
+													<div>
+														00:03:12
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-12" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(12,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Got To Get You Into My Life - Dave Koz -</div>
+												<div>
+													<div>
+														00:05:43
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-13" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(13,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Gerald Albright Norman Brown- Champagne life -</div>
+												<div>
+													<div>
+														00:05:17
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-14" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(14,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">GEORGE DUKE-NO RHYME NO REASON -</div>
+												<div>
+													<div>
+														00:06:00
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-15" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(15,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">George Duke (1946- 2013) - Missing you -</div>
+												<div>
+													<div>
+														00:05:32
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-16" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(16,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">George Duke - Reach For It</div>
+												<div>
+													<div>
+														00:04:49
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-17" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(17,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">George Duke - I Want You For Myself (Jazz-Funk Live Video) -</div>
+												<div>
+													<div>
+														00:06:47
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-18" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(18,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">George Duke - Dukey Stick</div>
+												<div>
+													<div>
+														00:05:58
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-19" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(19,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">George Duke - Brazilian Love Affair copy</div>
+												<div>
+													<div>
+														00:07:23
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-20" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(20,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Fourplay feat. Chaka Khan Between The Sheets</div>
+												<div>
+													<div>
+														00:09:41
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-21" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(21,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Fourplay - All I Wanna Do -</div>
+												<div>
+													<div>
+														00:04:17
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-22" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(22,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Euge Groove - Lets Get It On -</div>
+												<div>
+													<div>
+														00:04:44
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-23" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(23,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Esperanza Spalding - Cinnamon Tree (2012)</div>
+												<div>
+													<div>
+														00:05:36
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-24" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(24,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Esperanza Spalding - Black Gold</div>
+												<div>
+													<div>
+														00:03:51
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-25" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(25,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Esperanza Spalding - Black Gold copy</div>
+												<div>
+													<div>
+														00:03:51
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-26" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(26,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Erykah Badu - D-Angelo - Your Precious Love</div>
+												<div>
+													<div>
+														00:04:32
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-27" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(27,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Erykah Badu - Stay (Live)</div>
+												<div>
+													<div>
+														00:04:45
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-28" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(28,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Erykah Badu - Hollywood</div>
+												<div>
+													<div>
+														00:05:28
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-29" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(29,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Elan Trotman - Crusin -</div>
+												<div>
+													<div>
+														00:04:30
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-30" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(30,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Earth, Wind - Fire - REASONS</div>
+												<div>
+													<div>
+														00:05:48
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-31" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(31,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Dwele - Without You</div>
+												<div>
+													<div>
+														00:03:55
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-32" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(32,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Donald byrd - Places and spaces</div>
+												<div>
+													<div>
+														00:06:20
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-33" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(33,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Dave Brubeck Quartet - Take Five</div>
+												<div>
+													<div>
+														00:05:20
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-34" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(34,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Darren Rahn  One Step Ahead Live at Spaghettinis -</div>
+												<div>
+													<div>
+														00:04:19
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-35" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(35,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Chuck Loeb - Silhouette</div>
+												<div>
+													<div>
+														00:04:08
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-36" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(36,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Chrisette Michele - A Couple Of Forevers</div>
+												<div>
+													<div>
+														00:04:34
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-37" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(37,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Chaka Khan - Angel</div>
+												<div>
+													<div>
+														00:04:24
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-38" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(38,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Casablanca- Nils</div>
+												<div>
+													<div>
+														00:03:41
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-39" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(39,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Cal Harris Jr. - By The Bay</div>
+												<div>
+													<div>
+														00:04:16
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-40" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(40,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Brian Simpson - Just What You Need</div>
+												<div>
+													<div>
+														00:03:59
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-41" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(41,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Brian Culbertson - I Dont Know -</div>
+												<div>
+													<div>
+														00:05:01
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-42" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(42,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Brian Bromberg - Compared to That</div>
+												<div>
+													<div>
+														00:08:26
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-43" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(43,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Boney James - Powerhouse</div>
+												<div>
+													<div>
+														00:04:01
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-44" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(44,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Bob James David Sanborn - Deep in the Weeds</div>
+												<div>
+													<div>
+														00:06:04
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-45" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(45,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Bob James David Sanborn - Deep in the Weeds -</div>
+												<div>
+													<div>
+														00:06:04
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-46" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(46,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Billy Paul - ME AND MRS. JONES - Oldies</div>
+												<div>
+													<div>
+														00:04:47
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-47" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(47,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Avery Sunshine ft. Roy Ayers-The Most -</div>
+												<div>
+													<div>
+														00:04:56
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-48" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(48,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Anytime Anyplace - Janet Jackson</div>
+												<div>
+													<div>
+														00:04:42
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-49" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(49,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Anthony Hamilton - Charlene</div>
+												<div>
+													<div>
+														00:04:16
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-50" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(50,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Anita Baker - Chapter 8 - I Just Wanna Be Your Girl - Urban</div>
+												<div>
+													<div>
+														00:04:44
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-51" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(51,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Andrea Razzauti - Not Just Another Love (Featuring Patti Austin) -</div>
+												<div>
+													<div>
+														00:04:29
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-52" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(52,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">Alicia Myers I Want to Thank You</div>
+												<div>
+													<div>
+														00:03:48
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-53" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(53,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">10 Wilshire Blvd Marc VanClaggett</div>
+												<div>
+													<div>
+														00:03:22
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+								<div class="on-demand-row">
+									<div id="on-demand-on-air-54" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(54,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">02 - I Want You Marc VanClaggett</div>
+												<div>
+													<div>
+														00:04:26
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-help" class="dH">
+				<div>
+					<img src="images/help.png" width="40" height="40" />
+					<div class="player-apps-title">Help</div>
+					<div class="player-apps-content">
+						<p><b>If you accessed the player from a desktop computer (PC or Mac)</b></p>
+						<ul>
+							<li>For the best experience, we recommend upgrading to the latest version of your Internet browser</li>
+							<li>If the stream is not audible, or doesn't start, please verify that you have the latest version of Adobe Flash plug-in installed.</li>
+							<li>The player is known to work on Windows, Mac OS and Linux, using Chrome, Firefox, Safari or Internet Explorer</li>
+						</ul>
+						<br />
+						<p><b>If you accessed the player from a mobile device</b></p>
+						<ul>
+							<li>If this station has a mobile app, we recommend installing and using it for the best experience</li>
+							<li>Since Adobe Flash is not supported on most mobile devices, you may not be able to listen to the audio stream; however, you can use most of the interactive features of the player</li>
+						</ul>
+						<br />
+						<p><b>Privacy Policy</b></p>
+						<p>
+							We may allow third-party companies to serve ads and/or collect certain anonymous information when you visit this website. These companies may use non-personally identifiable information (e.g., click stream information, browser type, time and date, subject of advertisements clicked or scrolled over) during your visits to this and other websites in order to provide advertisements about goods and services likely to be of greater interest to you. These companies typically use a cookie or third party web beacon to collect this information. To learn more about this behavioral advertising practice or to opt-out of this type of advertising, you can visit <a href="http://networkadvertising.org/choices" target="_blank">http://networkadvertising.org/choices</a>.
+							<br><br>
+							Our properties may feature Nielsen proprietary measurement software, which will allow you to contribute to market research, such as Nielsen Audio. To learn more about the information that Nielsen software may collect and your choices with regard to it, please see the Nielsen Digital Measurement Privacy Policy at <a href="http://www.nielsen.com/digitalprivacy" target="_blank">http://www.nielsen.com/digitalprivacy</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-news" class="dH">
+				<div>
+					<img src="images/news.png" width="40" height="40" />
+					<div class="player-apps-title">News</div>
+					<div id="player-apps-content-news" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-stocks" class="dH">
+				<div>
+					<img src="images/stocks.png" width="40" height="40" />
+					<div class="player-apps-title">Stocks</div>
+					<div class="player-apps-content">
+						<div id="player-apps-content-stocks" class="fL"></div>
+						<div class="fL">
+							<iframe name="wsjIndexWidget" id="wsjIndexWidget" src="http://online.wsj.com/marketsdata/widgets/mdcwidget_default_wide.html?title=Markets from WSJ.com&symbols=NCM,SPX,DJI,HKS,STOXX50&hl1=true&hl2=false&hl3=false&qsb=true&style=blue" width="175px" height="250px" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+						</div>
+					</div>				
+				</div>
+			</div>
+		
+			<div id="player-apps-sports" class="dH">
+				<div>
+					<img src="images/sports.png" width="40" height="40" />
+					<div class="player-apps-title">Sports</div>
+					<div id="player-apps-content-sports" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-entertainment" class="dH">
+				<div>
+					<img src="images/entertainment.png" width="40" height="40" />
+					<div class="player-apps-title">Entertainment</div>
+					<div id="player-apps-content-entertainment" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-weather" class="dH">
+				<div>
+					<img src="images/weather.png" width="40" height="40" />
+					<div class="player-apps-title">Weather</div>
+					<div class="player-apps-content" style="background-color:#C8D6FB">
+						<iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=36.9312&lon=-76.2397&name=Norfolk,%20Virginia"></iframe>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-traffic" class="dH">
+				<div>
+					<img src="images/traffic.png" width="40" height="40" />
+					<div class="player-apps-title">Traffic map</div>
+					<div class="player-apps-content" id="player-apps-content-traffic"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-flight" class="dH">
+				<div>
+					<img src="images/flight.png" width="40" height="40" />
+					<div class="player-apps-title">Flight tracker</div>
+					<div class="player-apps-content">
+						<iframe src="http://www.flightstats.com/go/FlightStatus/getFlightStatusWidget.do?guid=34b64945a69b9cac:-3d959db5:13912449d99:-6659" frameborder="0" scrolling="no" width="280" height="240"></iframe>					
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-request" class="dH">
+				<div>
+					<img src="images/request.png" width="40" height="40" />
+					<div class="player-apps-title">Song request</div>
+					<div class="player-apps-content">
+						<p>Is there a particular song you'd like to have us play? Fill out & stay tuned!<br />
+						Your email address will not be used for any other purpose.</p>
+						<input type="text" id="songRequestName" value="Your name" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your name',2);" onBlur="fieldDesc(this,'out','Your name',2);">
+						<br /><br />
+						<input type="text" id="songRequestEmail" value="Your email address" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your email address',10);" onBlur="fieldDesc(this,'out','Your email address',10);">
+						<br /><br />
+						<input type="text" id="songRequestTitle" value="Song request" size="40" maxlength="64" onClick="fieldDesc(this,'in','Song request',5);" onBlur="fieldDesc(this,'out','Song request',5);">
+						<br /><br />
+						<div class="fL"><input type="button" value="Send request" onClick="songRequest();"></div>
+						<div id="songRequestErr" class="fL ml10 red formErrMsg"></div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-chat" class="dH">
+				<div>
+					<img src="images/chat.png" width="40" height="40" />
+					<div class="player-apps-title">Chat with other listeners</div>
+					<div id="player-apps-chat-wrapper">Loading chat, please wait....</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-playlist" class="dH">
+				<div>
+					<img src="images/media-playlist.png" width="40" height="40" />
+					<div class="player-apps-title">Recently played</div>
+					<div>
+						<iframe id="player-apps-frame-playlist" class="player-apps-frame" frameborder="no" scrolling="no" src="sd/index.cfm?stationCallSign=JAZZBEAT" allowtransparency="true"></iframe>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-media-buy-song" class="dH">
+				<div>
+					<img src="images/media-buy-song.png" width="40" height="40" />
+					<div class="player-apps-title">Buy media</div>
+					<div class="player-apps-content">
+						<p>You can buy & download this track & more from either Apple iTunes or Amazon.com mp3 store. Simply click the icon for the store you wish to access.</p>
+						<div id="mediaBuyTitle" class="menuHeader"></div>
+						<div id="mediaBuyArtist"></div>
+						<div id="mediaBuyAlbum"></div>
+						<br />
+						<div class="fL cP mr20" onClick="goToMediaStore('iTunes');"><img src="images/media-buy-song-itunes.png" width="75" height="75" title="Click here to buy from Apple iTunes" /></div>
+						<div class="fL cP" onClick="goToMediaStore('amazon');"><img src="images/media-buy-song-amazon.png" width="75" height="75" title="Click here to buy from Amazon.com" /></div>
+						<form id="mediaBuyForm" action="http://radio.securenetsystems.net/get_tune_buy_link.cfm" method="post" style="margin:0px;" target="_blank">
+							<input type="hidden" name="stationCallSign" value="JAZZBEAT">
+							<input type="hidden" name="title" id="mFtitle" value="">
+							<input type="hidden" name="artist" id="mFartist" value="">
+							<input type="hidden" name="album" id="mFalbum" value="">
+						</form>				
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-lyrics" class="dH">
+				<div>
+					<img src="images/media-lyrics.png" width="40" height="40" />
+					<div class="player-apps-title">Song lyrics</div>
+					<div class="player-apps-content" id="player-apps-content-lyrics"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-send-to-mobile" class="dH">
+				<div>
+					<img src="images/media-send-to-mobile.png" width="40" height="40" />
+					<div class="player-apps-title">Send to mobile</div>
+					<div class="player-apps-content">
+						<br /><br />
+						<div class="playerAppSendToMobileQR-wrapper fL mr20">
+							<div id="playerAppSendToMobileQR"></div>
+						</div>
+						<div>
+							<div class="f15em">Scan the QR code to send the player to your compatible mobile device.</div>
+							<div><br />If your mobile device doesn't have a QR scanning app, download a free one from your device's app store.</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-timeout" class="dH">
+				<div>
+					<img src="images/on-air.png" width="40" height="40" />
+					<div class="player-apps-title">Are you still here?</div>
+					<div class="player-apps-content">
+						<div id="playerAppTimeoutIni">
+							<div class="fL">Due to inactivity on the player, the stream will stop in&nbsp;</div><div id="sTO_remTime" class="fL">60 seconds</div>
+							<br /><br />
+							<div onClick="streamTimeoutCancel();" class="cP">Click here to continue listening</div>
+						</div>
+						<div id="playerAppTimeoutOn" class="dH">
+							<p>The audio stream has been stopped due to inactivity on the player.</p>
+							<div onClick="streamTimeoutReset();" class="cP">Click here to resume listening</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		
+		
+
+	</div>
+	
+	
+<div id="playerDiv" class="player-div">
+
+	
+
+		<div id="transport-icons">
+			<img id="transport-play" src="images/transport-play.png" class="player-div-img dH cP" width="80" height="80" onClick="transportAction('play',true);" title="Start playing media" />
+			<img id="transport-pause" src="images/transport-pause.png" class="player-div-img dH cP" width="80" height="80" onClick="transportAction('pause',true);" title="Pause media" />
+			<img id="transport-buffering" src="images/transport-buffering.gif" class="player-div-img dH cP" width="54" height="55" title="Preparing media, please wait...." />
+		</div>
+
+		<img id="now-playing-album-art" src="images/dot_blank.gif" class="player-div-img cP " width="250" height="250" title="Click for song-related options" />
+
+		<div id="transport-counter-wrapper">
+			<div id="transport-counter" class="now-playing f15em tS">00:00</div>
+			<div id="transport-progress"><div id="transport-progress-bar"></div></div>
+		</div>
+
+		<div id="transport-volume-label" class="now-playing f15em tS">VOL</div>
+		<div id="transport-volume" title="Click to change volume"><div id="transport-volume-bar"></div></div>
+
+		<div id="now-playing" class="now-playing tS ">
+			<div id="now-playing-title" class="menuHeader f15em"></div>
+			<div id="now-playing-artist"></div>
+			<div id="now-playing-album"></div>
+		</div>
+		
+		
+			<div id="media-rate-wrapper" class="media-rate-wrapper tS dH">
+				<div id="media-rate-up" class="media-rate-up cP fL mr20" onClick="mediaRate('up');" title="Like this track"></div>
+				<div id="media-rate-down" class="media-rate-down cP fL mr20" onClick="mediaRate('down');" title="Dislike this track"></div>
+				<div id="media-rate-message" class="fL"></div>
+			</div>
+		
+
+		<div id="media-icons" class="media-icons dH">
+			<img src="images/media-playlist.png" height="30" width="30" border="0" title="View last songs played" onClick="startApp('playlist');" />
+			<img src="images/media-lyrics.png" height="30" width="30" border="0" title="View song lyrics" onClick="startApp('lyrics');getSongLyrics();" /> <img src="images/media-buy-song.png" height="30" width="30" border="0" title="Buy this song" onClick="buyMedia();" /> 
+				<img src="images/media-facebook.png" height="30" width="30" border="0" title="Share this song on Facebook" onClick="socialShare('facebook');" />
+				<img id="media-icons-twitter" src="images/media-twitter.png" height="30" width="30" border="0" title="Tweet this song" onClick="socialShare('twitter');" /></a>
+			
+		</div>
+	
+	
+</div>
+
+					<div id="powered-about" onClick="dspPoweredSSI();">CIRRUS&#174; &nbsp;BY SSI. WE BUILD IMMERSIVE MEDIA PLAYERS FOR TERRESTRIAL AND INTERNET RADIO STATIONS WORLDWIDE.</div>
+					<div id="powered-link" onClick="openURL('http://www.securenetsystems.net');">CLICK HERE TO GET STARTED WITH</div>
+					<div id="powered-ssi" onClick="dspPoweredSSI();"></div>
+				
+					<div id="menu-button-expand" class="menu-button" onClick="dspMenu();" title="Show menu"></div>
+					<div id="menu-button-contract" class="menu-button" onClick="dspMenu();" title="Hide menu"></div>
+				
+				
+
+				
+				<div id="bannerM"></div>
+				<div id="bannerD"></div>
+					
+					<div id="bannerN" class="bannerNotActive"></div>
+					<div id="bannerE" class="bannerNotActive"></div>
+					
+				
+
+				
+				<div id="mediaplayer" class="mediaplayer mediaplayer-audio"></div>
+				<div id="mediaplayerOD" class="mediaplayer videoplayer-hide"></div>
+				<div id="vpaidplayerdiv" class="mediaplayer vpaidplayer vpaidplayer-hide"></div>
+				<div id="mediaplayer-video-shader" class="mediaplayer-video mediaplayer-video-shader"></div>
+				
+
+				
+				<div class="flash-proxy">
+					<object
+						id="swfhttprequest" class="xDomainFlash"
+						classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+						codebase="http://fpdownload.adobe.com/pub/shockwave/cabs/flash/swflash.cab##version=9,0,0,0">
+						<param name="movie" value="assets/swfhttprequest.swf?onload=swfhttprequestready" />
+						<param name="allowScriptAccess" value="always" />
+						<embed
+							class="xDomainFlash"
+							src="assets/swfhttprequest.swf?onload=swfhttprequestready"
+							allowScriptAccess="always"
+							type="application/x-shockwave-flash"
+							pluginspage="http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+						</embed>
+					</object>
+				</div>
+				
+
+				
+				<div id="impressionDiv" class="impression-div"></div>
+				
+
+				
+
+			</div>
+		
+
+		
+		<div id="debugDiv">
+			
+		</div>
+		
+
+	</body>
+
+</html>
