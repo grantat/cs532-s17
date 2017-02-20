@@ -1,0 +1,183 @@
+Search
+Home
+Listen Live!
+Mobile Apps
+Jammin’ Jocks
+Keep Jammin On The Air
+About Us
+Contact Us
+Listen Live!
+Can’t listen live with our web player ? Here’s some other links to let you listen to Jammin!
+– Winamp
+– Windows Media Player
+– Real Player
+– Quick Time
+– iTunes
+–
+Click here to listen behind a firewall!
+Click here to donate using Flattr!
+php if ( function_exists( 'yoast_analytics' ) ) {yoast_analytics();}?
+?php
+11 comments
+Skip to comment form
+↓
+Mitch
+January 9, 2012 at 10:05 pm
+(UTC 0)
+Link to this comment
+WHERE IS DIBELLO?
+#comment-##
+Jackie Reeves
+January 10, 2012 at 6:34 pm
+(UTC 0)
+Link to this comment
+What happened not music on I Tunes
+#comment-##
+GP Brefini
+January 14, 2012 at 2:06 pm
+(UTC 0)
+Link to this comment
+BigTom-
+Great station!  Love the music playlist. It is great to put on in  the car using the phone.
+Keep  it up…Good luck in in 2012!
+GP Brefini
+#comment-##
+William geesey
+January 27, 2012 at 9:16 pm
+(UTC 0)
+Link to this comment
+Just wanted to know if you all have a xm spot anywhere! if you do please let me know what it is so i can find it! tks 😉 XM radio
+#comment-##
+Big Jay
+March 26, 2012 at 6:30 pm
+(UTC 0)
+Link to this comment
+Dibello AKA:Famous Amos is a world famous all night board op in NYC.
+#comment-##
+David Maresca
+April 8, 2012 at 4:13 pm
+(UTC 0)
+Link to this comment
+Are you guy’s the same Jammin 105 I used to listen to in 98-99 out of New York?
+#comment-##
+jammin105
+April 10, 2012 at 7:20 pm
+(UTC 0)
+Link to this comment
+Kindof – let’s just say it’s the new and improved Jammin 105!
+#comment-##
+World Famous Board Op
+April 20, 2012 at 1:28 am
+(UTC 0)
+Link to this comment
+Questions, questions:
+1. Hey,
+Catfish Prewitt
+(jimprewitt@hotmail.com)! How the hell ARE ya? Does the real Big Jay know you’re posting under his name?
+2. Are you still close to 500 lb.? Can you see your thingy, yet? 😛
+#comment-##
+Agostina Dama
+May 3, 2012 at 1:35 pm
+(UTC 0)
+Link to this comment
+LOVE YOUR STATION…LET THE MUSIC PLAY!!!!!!!!!!!!!!!
+#comment-##
+Richie
+June 13, 2012 at 12:59 am
+(UTC 0)
+Link to this comment
+I just found you and you sound great. New York needs this on with the loss of Kiss Fm
+#comment-##
+Bob
+July 4, 2012 at 7:26 pm
+(UTC 0)
+Link to this comment
+Hey Famous Amos,  I be checkin’ yo ass out now, soundin’ pretty fresh yo!
+#comment-##
+Leave a Reply
+Cancel reply
+Your email address will not be published.
+Required fields are marked
+*
+Connect with Facebook
+Name:
+*
+Email:
+*
+Website:
+Message:
+*
+You may use these
+HTML
+tags and attributes:
+<a href="" title=""> <abbr title=""> <acronym title=""> <b> <blockquote cite=""> <cite> <code> <del datetime=""> <em> <i> <q cite=""> <s> <strike> <strong>
+#respond
+#content-main
+Now Playing
+#nowPlaying
+Jackson 5 - Enjoy Yourself on
+#jammin105
+#listenlive
+https://t.co/YOlr2mMWCP
+1 min
+#nowPlaying
+Bloodstone - Natural High on
+#jammin105
+#listenlive
+https://t.co/YOlr2mMWCP
+4 mins
+#nowPlaying
+Swing Out Sister - Breakout on
+#jammin105
+#listenlive
+https://t.co/YOlr2mMWCP
+8 mins
+#nowPlaying
+Lakeside - Fantastic Voyage on
+#jammin105
+#listenlive
+https://t.co/YOlr2mMWCP
+14 mins
+#nowPlaying
+Sam Cooke - Shake on
+#jammin105
+#listenlive
+https://t.co/YOlr2mMWCP
+17 mins
+#nowPlaying
+Chi Lites - Oh Girl on
+#jammin105
+#listenlive
+https://t.co/YOlr2mMWCP
+21 mins
+Donate to Jammin with Flattr
+#sidebar1
+#content
+Copyright
+Copyright 2011 jamminoldiesradio.com. No purchase necessary except Kalamazoo. Any names or likenesses used on this website are not real or meant to represent anyone living or dead...even the real names and likenesses. Member FDIC, Your mileage may vary, Batteries not included, Do not insert in mouth or rectum (rectum? damn near killed 'em), Actual results may vary.  Consult a doctor if erection lasts longer than 4 hours.
+Return to top
+Powered by
+WordPress
+and the
+Graphene Theme
+.
+#footer
+#container
+.bg-gradient
+Powered by WPtouch: 3.8.8
+[if IE 8]>
+    <script type="text/javascript">
+        (function($) {
+            var imgs, i, w;
+            var imgs = document.getElementsByTagName( 'img' );
+            maxwidth = 0.98 * $( '.entry-content' ).width();
+            for( i = 0; i < imgs.length; i++ ) {
+                w = imgs[i].getAttribute( 'width' );
+                if ( w > maxwidth ) {
+                    imgs[i].removeAttribute( 'width' );
+                    imgs[i].removeAttribute( 'height' );
+                }
+            }
+        })(jQuery);
+    </script>
+    <![endif]

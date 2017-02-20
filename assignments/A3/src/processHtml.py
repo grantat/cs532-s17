@@ -1,6 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 import re
+import codecs
 
 
 def visible(element):
@@ -11,33 +12,43 @@ def visible(element):
     return True
 
 
-for filename in os.listdir("output/html"):
-    print(filename)
-    html = open("output/html/"+filename).read()
-    soup = BeautifulSoup(html, 'html.parser')
+def saveProcessed(filename,line):
 
-    texts = soup.findAll(text=True)
-    visible_texts = list(filter(visible, texts))
-    for item in visible_texts:
+    filename = "output/processed/"+filename+".txt"
+    if not os.path.exists("output/processed"):
+        os.makedirs("output/processed")
+        
+    # if not found, create
+    try:
+        with open(filename, 'a') as file:
+            file.write(line+"\n")
+    except (IOError,ValueError):
+        with open(filename, 'w') as file:
+            file.write(line+"\n")
 
-        item = (item.strip())
-        print(type(item))
-        # chunks = (phrase.strip() for line in item for phrase in line.split("  "))
-        # # texts = ' '.join(chunk for chunk in chunks if chunk)
-        # print(chu)
-        # print(texts.encode('utf-8'))
-    # # kill all script and style elements
-    # for script in soup(["script", "style"]):
-    #     script.extract()    # rip it out
 
-    # # get text
-    # text = soup.get_text()
+def processHtml():
+    for filename in os.listdir("output/html"):
+        print(filename)
+        with codecs.open("output/html/"+filename, "r",encoding='utf-8', errors='surrogateescape') as fdata:
 
-    # # break into lines and remove leading and trailing space on each
-    # lines = (line.strip() for line in text.splitlines())
-    # # break multi-headlines into a line each
-    # chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-    # # drop blank lines
-    # texts = '\n'.join(chunk for chunk in chunks if chunk)
+            soup = BeautifulSoup(fdata, 'html.parser')
 
-    # print(texts.encode('utf-8'))
+            texts = soup.findAll(text=True)
+            visible_texts = list(filter(visible, texts))
+            for item in visible_texts:
+
+                item = (item.strip())
+                if len(item) != 0: 
+                    try:
+                        print(item)
+                        md5name = filename[:-5]
+                        saveProcessed(md5name,item)
+                    except UnicodeEncodeError:
+                        # skip bad encodings
+                        print("skipped bad utf-8 encoding")
+
+
+if __name__ == "__main__":
+    processHtml()
+

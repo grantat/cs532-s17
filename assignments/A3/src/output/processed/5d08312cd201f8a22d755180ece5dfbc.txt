@@ -1,0 +1,58 @@
+Facebook
+Email or Phone
+Password
+Forgot account?
+Sign Up
+To see more from
+Gay Polk Payton-White
+on Facebook, log in or create an account.
+Sign Up
+Log In
+To see more from
+Gay Polk Payton-White
+on Facebook, log in or create an account.
+Sign Up
+Log In
+Not Now
+English (US)
+Español
+Français (France)
+中文(简体)
+العربية
+Português (Brasil)
+Italiano
+한국어
+Deutsch
+हिन्दी
+日本語
+Sign Up
+Log In
+Messenger
+Facebook Lite
+Mobile
+Find Friends
+People
+Pages
+Places
+Games
+Locations
+Celebrities
+Groups
+Moments
+Instagram
+About
+Create Ad
+Create Page
+Developers
+Careers
+Privacy
+Cookies
+Ad Choices
+Terms
+Help
+Settings
+Activity Log
+Facebook © 2017
+BigPipe construction and first response
+<div class="_5pcb"><h2 class="accessible_elem" id="newsFeedHeading">News Feed</h2></div>
+<div><div class="_4-u2 _19ah _2ph_ _4-u8"><div class="_5aj7"><div class="_4bl9"><div class="fsm fwn fcg">English (US)<span role="presentation" aria-hidden="true"> · </span><a class="_5f4c" dir="ltr" href="#" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;es_LA&quot;, &quot;en_US&quot;, &quot;https:\\/\\/es-la.facebook.com\\/gaypolkpayton\\/posts\\/10206642920586506&quot;, &quot;www_card_selector&quot;, 0); return false;" title="Spanish" role="button">Español</a><span role="presentation" aria-hidden="true"> · </span><a class="_5f4c" dir="ltr" href="#" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;pt_BR&quot;, &quot;en_US&quot;, &quot;https:\\/\\/pt-br.facebook.com\\/gaypolkpayton\\/posts\\/10206642920586506&quot;, &quot;www_card_selector&quot;, 1); return false;" title="Portuguese (Brazil)" role="button">Português (Brasil)</a><span role="presentation" aria-hidden="true"> · </span><a class="_5f4c" dir="ltr" href="#" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;fr_FR&quot;, &quot;en_US&quot;, &quot;https:\\/\\/fr-fr.facebook.com\\/gaypolkpayton\\/posts\\/10206642920586506&quot;, &quot;www_card_selector&quot;, 2); return false;" title="French (France)" role="button">Français (France)</a><span role="presentation" aria-hidden="true"> · </span><a class="_5f4c" dir="ltr" href="#" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;de_DE&quot;, &quot;en_US&quot;, &quot;https:\\/\\/de-de.facebook.com\\/gaypolkpayton\\/posts\\/10206642920586506&quot;, &quot;www_card_selector&quot;, 3); return false;" title="German" role="button">Deutsch</a></div></div><div class="_4bl7 _2pit"><a class="_42ft _4jy0 _4jy4 _517h _51sy" role="button" href="#" ajaxify="/settings/language/language/?uri=https%3A%2F%2Fwww.facebook.com%2Fgaypolkpayton%2Fposts%2F10206642920586506&amp;source=www_card_selector_more" rel="dialog" aria-label="Use Facebook in another language."><i class="img sp_sDdEb5UAmdU sx_b6d361"></i></a></div></div></div><div class="_45mq" role="contentinfo"><div class="fsm fwn fcg"><a href="https://www.facebook.com/privacy/explanation" title="Learn about your privacy and Facebook.">Privacy</a><span role="presentation" aria-hidden="true"> · </span><a accesskey="9" href="https://www.facebook.com/policies?ref=pf" title="Review our terms and policies.">Terms</a><span role="presentation" aria-hidden="true"> · </span><a href="https://www.facebook.com/campaign/landing.php?placement=pf_rhc&amp;campaign_id=242449722530626&amp;extra_1=auto" title="Advertise on Facebook.">Advertising</a><span role="presentation" aria-hidden="true"> · </span><a class="_41uf" href="https://www.facebook.com/help/568137493302217" title="Learn about Ad Choices.">Ad Choices<i class="img sp_SVNlQgVFXZb sx_c97a7b"></i></a><span role="presentation" aria-hidden="true"> · </span><a href="https://www.facebook.com/help/cookies?ref_type=sitefooter" title="Cookies">Cookies</a><span role="presentation" aria-hidden="true"> · </span><div class="_6a uiPopover" id="u_0_i"><a class="_45mr _p" href="#" aria-haspopup="true" aria-expanded="false" rel="toggle" role="button" id="u_0_j">More<i class="img sp_SVNlQgVFXZb sx_595ec2"></i></a></div></div><div><span> Facebook © 2017</span></div></div></div>

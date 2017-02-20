@@ -1,0 +1,228 @@
+[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]
+Favicons
+CSS
+FONT INTRO
+/**
+		* @license
+		* MyFonts Webfont Build ID 2992625, 2015-03-17T11:59:05-0400
+		* 
+		* The fonts listed in this notice are subject to the End User License
+		* Agreement(s) entered into by the website owner. All other parties are 
+		* explicitly restricted from using the Licensed Webfonts(s).
+		* 
+		* You may obtain a valid license at the URLs below.
+		* 
+		* Webfont: IntroBold by Fontfabric
+		* URL: http://www.myfonts.com/fonts/font-fabric/intro/bold/
+		* 
+		* Webfont: IntroRegular by Fontfabric
+		* URL: http://www.myfonts.com/fonts/font-fabric/intro/book/
+		* 
+		*
+		* License: http://www.myfonts.com/viewlicense?type=web&buildid=2992625
+		* Licensed pageviews: 500,000
+		* Webfonts copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+		* 
+		* © 2015 MyFonts Inc
+		*/
+END FONT INTRO
+GOOGLE ANALYTICS
+END GOOGLE ANALYTICS
+Safari App Badge
+Bitly Verification
+SINGLE NEWS FACEBOOK TAG
+meta property="article:published_time" content="2017-02-15T21:51:21+00:00"
+END SINGLE NEWS FACEBOOK TAG
+TAG ADV
+Page Loader --    
+        <div class="page-loader">
+            <div class="loader">Caricamento...</div>
+        </div>
+        -- End Page Loader
+Page Wrap
+Navigation panel
+Menu Button
+Menu
+End Menu Button
+Menu Overlay
+Social Links --
+									<div class="fm-social-links">
+										<a class="facebook" href="https://www.facebook.com/rollingstoneitalia" target="_blank"><i class="fa fa-facebook"></i></a>
+										<a class="twitter" href="https://twitter.com/rollingstoneita" target="_blank"><i class="fa fa-twitter"></i></a>
+										<a class="instagram" href="https://www.instagram.com/rollingstoneitalia/" target="_blank"><i class="fa fa-instagram"></i></a>
+										<a class="spotify" href="https://play.spotify.com/user/rollingstoneitalia" target="_blank"><i class="fa fa-spotify"></i></a>
+                        			</div>
+									!-- End Social Links
+MUSICA
+NEWS
+INTERVISTE
+PLAYLIST
+RECENSIONI
+CINEMA+TV
+NEWS
+INTERVISTE
+RECENSIONI
+CULTURA
+ARTE+FOTOGRAFIA
+LIBRI+STRISCE
+TECH+GAMING
+INTERVISTE
+SPORT
+NEWS
+INTERVISTE
+ROLLING AFFAIRS
+NEWS
+INTERVISTE
+REPORTAGE
+OPINION
+RECENSIONI
+MUSICA
+CINEMA+SERIE TV
+LIBRI+STRISCE
+GAMING
+POP & LIFE
+RS VIDEO
+FOTO
+li>
+											<a href="#">POP&LIFE</a>
+										</li
+End Menu Overlay
+?php include("module/header-search.php"); ?
+Cerca quello che vuoi e clicca invia:
+Logo ( * your text or image into link tag *) --
+                    <div class="nav-logo-wrap local-scroll">
+                        <a href="mp-index.html" class="logo">
+                            <img src="images/global-logo-rs.svg" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-nav">
+                        <i class="fa fa-bars"></i>
+                    </div
+End Navigation panel
+TAG ADV MASTHEAD
+END TAG ADV
+NEWS
+Head Section
+MUSICA
+/
+News
+Guarda “Automaton”, il nuovo video dei Jamiroquai
+La band di Jay Kay lascia il funk per indirizzarsi dritta verso un'electro in salsa francese, più vicina ai primi lavori dei Daft Punk che al sound a cui ci aveva abituato lo Space Cowboy
+div class="col-md-2 mt-30 mt-xs-0">
+                        </div
+End Head Section
+Content
+Media Gallery
+27 gennaio 2017
+Post
+Dopo che ieri è arrivato l’annuncio del nuovo album
+Automaton
+, oggi la band capitanata da Jay Kay ha pubblicato il primo, omonimo, singolo estratto.
+Come intuibile già dalla copertina dell’album,
+Automaton
+segna un cambio deciso nel sound della band, che passa dal funk e dall’acid jazz – loro marchio di fabbrica – a tonalità che prendono a mani basse dall’universo degli arpeggiatori
+a là
+french touch – si vedano Daft Punk, Kavinsky o i
+Justice
+nella loro ultima veste per l’album
+Woman
+.
+Il nuovo album firmato Jamiroquai uscirà il 31 marzo mentre, per vedere la band in Italia si dovrà aspettare l’11 luglio in occasione del
+Firenze Summer Festival
+.
+Altre notizie su:
+Jamiroquai
+TAG ADV
+END TAG ADV
+Iscriviti alla Newsletter
+Non perderti neanche una notizia, inserisci il tuo indirizzo qui sotto e iscriviti.
+ISCRIVITI
+Niente spam, solo notizie certificate.
+?php include("module/box-video.php"); ?
+TAG ADV
+END TAG ADV
+TAG ADV
+END TAG ADV
+I più letti di oggi
+1
+Le cinque ragioni per cui l’album dell’anno è di Adele (e non di Beyoncé)
+2
+È scoppiato l'amore tra Metallica e Lady Gaga
+3
+Dieci film da guardare a San Valentino (da soli o in coppia)
+4
+Rock in Love: Lou Reed & Laurie Anderson
+5
+Il nuovo video dei Blondie è "spaziale"
+TAG ADV MASTHEAD
+END TAG ADV
+RELATED CONTENTS
+Potrebbe interessarti anche
+I Blondie ritornano con “Pollinator”. Ascolta il primo singolo “Fun”
+Uscirà il 5 maggio il nuovo disco della band di Debbie Harry. Con collaborazioni parecchio importanti
+È uscito “Where’s The Revolution”, il nuovo video dei Depeche Mode
+La clip diretta da Anton Corbijn anticipa l'uscita di Sprit, il nuovo album in arrivo a marzo e preannunciato come "il più energico da anni" anche grazie alla produzione affidata a James Ford dei Simian Mobile Disco, già al lavoro con Arctic Monkeys, Florence & The Machine
+L’EP “No Plan” di David Bowie verrà stampato in vinile
+Il lavoro postumo del leggendario Duca Bianco, dopo la diffusione in digitale nel giorno del suo 70esimo compleanno, verrà pubblicato anche in copia fisica: sono in arrivo un cd, un vinile e un'edizione da collezione
+Due singoli e un nuovo album per Mac DeMarco
+Dopo il suo ultimo "Salad Days" uscito nel 2014, il cantautore canadese è tornato con un nuovo lavoro «di rock italiano»
+Guarda “A Simple Love”, il nuovo inno animalista dei Moby & the Void Pacific Choir
+Nel video scene di maltrattamenti animali e di attivisti che tentano di salvarli: «Questa è la mia lettera d'amore per gli animali e per le persone che li amano», ha scritto Moby
+È uscito “Cloud 9”, il nuovo singolo dei Jamiroquai
+Dopo gli arpeggiatori à la Daft Punk sfoderati per il precedente "Automaton", con il nuovo singolo la band capitanata da Jay-Kay torna al sound disco-funky di cui ha fatto il proprio marchio di fabbrica
+Il nuovo video dei London Grammar è “Big Picture”
+La clip è stata diretta da Sophie Muller, già all'opera su clip di Beyoncé e Coldplay
+Fink ritorna al blues con il suo nuovo “Sunday Night Blues Club”
+Ispirato dalla musica di John Lee Hooker, T-Bone Walker e Chuck Berry, il musicista di casa Ninja Tune per il nuovo album ha collaborato con Flood, il super producer già al lavoro con New Order, U2 e Smashing Pumpkins
+Nel nuovo video de Lo Stato Sociale si baciano tutti
+È uscito proprio a San Valentino la clip di "Vorrei essere una canzone". Guardate qui
+Guarda P.O.W.A. il nuovo video di M.I.A.
+Dopo le anticipazioni degli scorsi giorni la cantante ha condiviso la sua nuova clip in cui attacca il mondo del pop, da Rihanna a Madonna, ma senza dimenticare la politica...
+Ascolta “Where’s the revolution”, il nuovo singolo dei Depeche Mode
+Il primo anticipo di "Spirit" è finalmente online, in attesa del disco che esce a marzo
+Guarda “Reverend”, il nuovo capitolo della saga dei Kings of Leon
+La band aggiunge un nuovo tassello alle vicenda tra il thriller e il fantascientifico à la "Stranger Things" raccontate con i due primi estratti da "Walls", il settimo album della band capitanata dai fratelli Followill
+“Chained to the Rhythm”, il nuovo singolo di Katy Perry
+Realizzato insieme a Skip Marley e alla cantante australiana Sia, il singolo segna il ritorno della pop star a ritmo di reggae e disco music
+Dave Grohl e Josh Homme insieme in studio. Collaborazione in arrivo?
+In una foto condivisa, e subito rimossa, da Jesse Hughes degli Eagles of Death Metal si vedono i due rocker insieme in studio: una collaborazione per il nuovo album dei Queens of the Stone Age o un ritorno dei Them Crooked Vultures?
+Guarda il nuovo allucinante video di Grimes
+Grimes è tornata tra cyberpunk e atmosfere dark à la Björk per un video visivamente potentissimo che si candida già a essere uno dei più belli del 2017
+Guarda il nuovo video di Marcello e il mio amico Tommaso
+"La sola coppietta del mondo" è il terzo estratto dal disco uscito a novembre per Noia Dischi
+Ascolta “La chitarra il bosco lo spleen”, il nuovo album di Strueia
+Un disco nato dalla malinconia, fra le passeggiate interminabili nei boschi e il suono della chitarra, da dove tutte le canzoni sono nate, con in testa la poesia di Hank Williams
+Paolo Benvegnù torna con il nuovo album “H3+”
+Dopo tre anni dall'ultimo lavoro "Earth Hotel", il nuovo disco dell'ex leader degli Scisma va a chiudere una trilogia iniziata con "Hermann"
+Johnny Greenwood al lavoro con Paul Thomas Anderson
+La collaborazione non è una sorpresa dopo che il chitarrista ha composto le colonne sonore per gli ultimi film del regista che, a sua volta, ha diretto tre video dei Radiohead
+I Depeche Mode annunciano le date del primo singolo e dell’album
+Insieme alle date di uscita di "Where's The Revolution" e "Spirit" la band ha anche mostrato le copertine realizzate da Anton Corbijn
+Features Grid
+Features Item
+Cortellesi e Albanese: «Per far ridere serve malinconia»
+Features Grid
+TAG ADV
+END TAG ADV
+TAG ADV
+END TAG ADV
+Luciano Bernardini de Pace Editore
+© Luciano Bernardini De Pace Editore S.r.l. - Viale Giulio Richard 1/B - 20143 Milano - Cap. Soc. 100.000 Euro - P. Iva Registro Imprese Tribunale di Milano N. 08620160963.
+Copyright © 2015 by ROLLING STONE LLC. All rights reserved. Reproduction in whole or in part without permission is prohibited. The name ROLLING STONE and the logo thereof are registered trademarks of ROLLING STONE LLC, which trademarks have been licensed to LUCIANO BERNARDINI DE PACE EDITORE S.r.l.
+CONTATTI
+|
+PUBBLICITÀ
+|
+REDAZIONE
+|
+ABBONAMENTI
+|
+AREA STAMPA
+|
+CREDITI
+|
+PRIVACY
+|
+CONDIZIONI D'UTILIZZO
+|
+USO DEI COOKIE

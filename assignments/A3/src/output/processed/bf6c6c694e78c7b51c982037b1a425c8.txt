@@ -1,0 +1,332 @@
+<![endif]
+[if IE 7]>
+		<link rel="stylesheet" href="http://www.phxsoul.com/wp-content/themes/worldwide-v1-02/stylesheet/ie7-style.css" /> 
+		<link rel="stylesheet" href="http://www.phxsoul.com/wp-content/themes/worldwide-v1-02/stylesheet/font-awesome/font-awesome-ie7.min.css" /> 
+	<![endif]
+This site is optimized with the Yoast SEO plugin v4.3 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 9]>
+<style type="text/css">
+	body{ min-width: 1180px; }
+	div.shortcode-dropcap.circle,
+	div.anythingSlider .anythingControls ul a, .flex-control-nav li a, 
+	.nivo-controlNav a, ls-bottom-slidebuttons a{
+		z-index: 1000;
+		position: relative;
+		behavior: url(http://www.phxsoul.com/wp-content/themes/worldwide-v1-02/stylesheet/ie-fix/PIE.php);
+	}
+
+	ul.gdl-accordion li, ul.gdl-toggle-box li{ overflow: hidden; }
+	
+	.logo-wrapper{ overflow: hidden; width: 700px !important; }	
+</style>
+<![endif]
+top navigation
+Submit Your Event
+Business Directory
+Advertise with Us
+Sign Up for Our E-Newsletter
+— Top Menu —
+Submit Your Event
+Business Directory
+Advertise with Us
+Sign Up for Our E-Newsletter
+top navigation wrapper
+Get Logo
+Right Banner Area
+PhxSoul - Responsive Leaderboard
+header container
+header wrapper
+Navigation
+— Main Menu —
+Home
+Events Calendar
+- Live Entertainment Calendar
+Local Lifestyle
+- Community Events
+- MLK 2017
+- Black History Month
+- Organizations
+- Dating & Relationships
+- Education
+- Food & Drink
+- Hair
+- Health
+- News & Media
+- Opinion
+- Politics
+Entertainment
+- Arts
+- Comedy
+- Film
+- Music
+- Nightclubs
+- Spoken Word
+- Sports
+Featured Events
+Business
+- Business Directory
+- Careers
+- Marketing & Sales
+- Retail
+Religion
+Travel
+- Other Cities
+PhxSoul Photos
+More
+- About Us
+- Contact Us
+- Submit Your Event
+- Advertise with Us
+- Sign Up for Our E-Newsletter
+Events Calendar
+Live Entertainment Calendar
+Local Lifestyle
+Community Events
+MLK 2017
+Black History Month
+Organizations
+Dating & Relationships
+Education
+Food & Drink
+Hair
+Health
+News & Media
+Opinion
+Politics
+Entertainment
+Arts
+Comedy
+Film
+Music
+Nightclubs
+Spoken Word
+Sports
+Featured Events
+Business
+Business Directory
+Careers
+Marketing & Sales
+Retail
+Religion
+Travel
+Other Cities
+PhxSoul Photos
+More
+About Us
+Contact Us
+Submit Your Event
+Advertise with Us
+Sign Up for Our E-Newsletter
+LATEST EVENTS
+H&R Block Announces Refund Advance of Up to $1,250
+PhxSoul.com LIMITED EDITION Black Power T-Shirts on Sale Now!
+Black History Month 2017 Celebrations, Events in the Phoenix Area
+The Israel of God in Phoenix Presents Black History Told By the Prophets on Saturdays from Feb. 4-March 4
+African Music Star Dobet Gnahoré Live at Musical Instrument Museum in Phoenix on February 19
+R&B Singer Keith Sweat in Concert at Phoenix’s Celebrity Theatre on February 19
+Join the Delightful Class at Your Art Party Studio in Glendale on February 24
+Chris Rock Bringing His Total Blackout Tour to Phoenix’s Comerica Theatre on February 25 – Two Shows
+NCNW Metropolitan Sun of Arizona to Host Women’s History Month Program in Tempe on March 4
+Hope Women’s Conference at One Church Scottsdale on March 24-25
+Roaring 20’s Hollywood Gala Fundraiser in Phoenix on March 25
+UrbanAZ’s Grown & Sexy Weekend at Celebrity Theatre in Phoenix on April 14-15
+The All-Star Comedy Explosion with Marlon Wayans and More in Phoenix on April 15
+John Legend Bringing Darkness and Light Tour to Phoenix’s Comerica Theatre on May 24
+Jubeelieve Indoor Playland in Avondale – Fun for Younger Children
+ASU Recruiting Maricopa County Adults for WalkIT Arizona Physical Activity Study
+Nalini Jones, Jasmine Marshall Capture Miss Black Arizona USA, Talented Teen 2017 Crowns
+Tremaine Jasper – PhxSoul.com Interview (2010)
+Hamilton Coming to ASU Gammage in Tempe – Performances Begin January 30, 2018
+Vision and Sound: An African American Experience at West Valley Arts Council in Surprise on February 2-26
+Phoenix Author/Survivor Releases Coffee Table Book on Domestic Violence
+navigation-wrapper
+header outer wrapper
+Here Comes the Jazz … Great Live Spots in the Phoenix Area
+Posted On
+01 Apr 2014
+By :
+Tremaine Jasper
+Comment: 0
+Tag:
+arizona
+,
+jazz
+,
+live entertainment
+,
+live music
+,
+Music
+,
+music scene
+,
+phoenix
+,
+scottsdale
+,
+tempe
+We love going to live music venues in the Phoenix area and since jazz has a special place in our hearts, we are sharing our recommended spots with you!
+Kazimierz World Wine Bar
+7137 E Stetson Dr. (Stetson is 1 block southwest of Camelback and Scottsdale Roads)
+Scottsdale, AZ
+It will be hard to find the bar from the street so you have to Valet Park and just ask the Valet where the bar is. It will be worth the trouble.
+The Nash
+110 E. Roosevelt St.
+Phoenix, AZ
+Amazing jazz venue in the downtown Phoenix area. National and local jazz artists performing and great jam sessions. Visit
+www.thenash.org
+for more information.
+Musical Instrument Museum (MIM) Music Theater
+4725 E. Mayo Boulevard
+Phoenix, AZ 85050
+The MIM Music Theater hosts some of the best jazz concerts in town. National and local jazz artists perform at the MIM Music Theater all year round. Visit
+mimmusictheater.themim.org
+for upcoming shows.
+Michael’s at Park Central
+3110 N Central Ave., Suite 140
+Phoenix, AZ 85012
+Smooth jazz on Wednesday nights. One of the best places in the Phoenix area to meet mature urban professionals. Check
+michaelsatparkcentral.com
+for entertainment updates.
+The Womack
+5749 N 7th Street
+Phoenix, AZ 85014
+Great live R&B, jazz, blues and music on select nights. Good drinks. Nice patio. The vibe of The Womack is inspired by the legendary “Chez Nous” cocktail lounge that used to be in Phoenix for many years. Small, cozy and classy.
+Lakeshore Music Concert Series at the Tempe Center for the Arts
+700 W. Rio Salado Parkway
+Tempe, AZ  85281
+The Lakeshore Music Concert series will host a number of celebrated national jazz artists in 2016-17. Check
+lakeshoremusic.org/tca/
+for upcoming acts.
+Sanctuary Camelback Mountain
+5700 East McDonald Drive
+Paradise Valley, Arizona
+Live performances by jazz, pop, and R&B vocalists at the Jade Bar make this one of the best date spots in the Valley of the Sun. The views are spectacular.
+If you are a venue owner/manager who would like to have your special events listed on the PhxSoul.com Event Calendar, click here to
+Submit Your Event(s)
+.
+About the Author
+Previous Event
+Hair Salons for African American Women in the Phoenix Area
+Next Event
+African American Barber Shops in the Phoenix Area
+Related Events
+0
+ASU Recruiting Maricopa County Adults for WalkIT Arizona Physical Activity Study
+Posted On
+15 Feb 2017
+,
+By
+Tremaine Jasper
+off
+Nalini Jones, Jasmine Marshall Capture Miss Black Arizona USA, Talented Teen 2017 Crowns
+Posted On
+29 Jan 2017
+,
+By
+Tremaine Jasper
+Tremaine Jasper – PhxSoul.com Interview (2010)
+Posted On
+28 Jan 2017
+,
+By
+Tremaine Jasper
+Check Authorize
+Comment List
+Comment Form
+Leave a Reply
+Cancel reply
+#form-section-comment .form-section
+Name
+*
+#form-section-author .form-section
+Email
+*
+#form-section-email .form-section
+Website
+#form-section-url .form-section
+#respond
+Find Something Specific
+Search box code
+Search Results Page code
+H&R Block [js]
+PhxSoul.tv 300x250 sidebar
+Get Social with PhxSoul
+7,452
+Followers
+0
+Fans
+RSS
+Subscribers
+Follow PhxSoul on Twitter
+ASU Recruiting Local Adults WalkIT Arizona Physical Activity Study
+https://t.co/ljYtUJnD2c
+2 hours ago
+Buy your tickets ASAP for Chris Rock's
+#TotalBlackout
+Tour on Feb. 25 in Phoenix! Two Shows, One Night:
+https://t.co/lbMxoxWpND
+16 hours ago
+The Weeknd Live at Talking Stick Resort Arena in Phoenix on May 2! Buy your tickets here:
+https://t.co/LKN3QPSrdH
+16 hours ago
+PhxSoul on Facebook
+PhxSoul.com
+New location announced for the Cupcakes & Stilettos Ladies Soiree happening this Saturday. The event is moving from Phoenix to the Rio Salado Conference Center in Tempe. Click here for more details on the Cupcakes & Stilettos Ladies Soiree:
+ow.ly/tKxc308WqS1
+...
+See More
+See Less
+2 hours ago
+·
+Photo
+View on Facebook
+·
+Share
+PhxSoul.com
+Donald Trump woke up the beast! Now it's time for the people to fight back! Get rid of Gerrymandering in all states!
+...
+See More
+See Less
+Our Congress is less popular than herpes. -- Arnold Schwarzenegger
+ATTN:
+5 hours ago
+·
+Video
+View on Facebook
+·
+Share
+PhxSoul.com
+Mayo Clinic and Mayo Clinic School of Medicine invite aspiring medical students to attend Med School 101 in Scottsdale on April 8. This half-day informational seminar will tell you what it takes to apply to Medical School. Click here for more details:
+ow.ly/s7b9308Tsuo
+...
+See More
+See Less
+8 hours ago
+·
+Photo
+View on Facebook
+·
+Share
+View on Facebook
+page wrapper
+post class
+content wrapper
+content outer wrapper
+Get Footer Widget
+PhxSoul - 250x250 Footer Ad
+close row
+Get Copyright Text
+Copyright 2006-2016
+PhxSoul.com
+. All Rights Reserved. View our
+Privacy Policy
+and
+Legal Disclaimer.
+footer wrapper
+body wrapper
+body outer wrapper
+Custom Facebook Feed JS
+Start Alexa Certify Javascript
+End Alexa Certify Javascript

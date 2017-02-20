@@ -1,0 +1,398 @@
+This site is optimized with the Yoast SEO plugin v4.3 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://cdn.singersroom.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]
+[if IE  8]><link rel="stylesheet" type="text/css" href="http://cdn.singersroom.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]
+mvp-fly-logo
+mvp-fly-top-in
+mvp-fly-but-wrap
+mvp-fly-top-out
+mvp-fly-menu-top
+Shop
+News
+Music
+Videos
+Interviews
+Editorials
+Artists
+Pop Music Room (PMR)
+Singersroom UK
+mvp-fly-menu-wrap
+Connect with us
+mvp-fly-soc-wrap
+mvp-fly-wrap
+mvp-leader-wrap
+mvp-search-box
+mvp-search-but-wrap
+mvp-search-wrap
+mvp-head-top
+mvp-fly-but-wrap
+Singersroom.com
+mvp-logo-nav
+Shop
+News
+Mariah Carey Shares Valentine’s Day Photos With New Boo, Bryan Tanaka
+Leela James Drops V-Day Card, Teases New Song ‘This Day Is For You’
+[EXCLUSIVE] Tyrese and Lee Daniels Address Upcoming Controversial Transgender Episode of #STAR
+[Concert Review] Patti LaBelle Spreads Her Love At Kings Theater For Valentine’s Day Weekend Concert
+Adele Opens Grammys with ‘Hello’, Restarts George Michael Tribute After Flub, Makes Beyoncé Cry With Speech
+Music
+R&B Music
+Mix Room
+Videos
+Fabian Secon – Resuscitate
+Cute! CeeLo Green Professes Love For Beyonce In ‘Jay Z’s Girl’ Video
+Mya – Coolin’
+Amber Mimz Celebrates Valentine’s Day With Dreamy Video, ‘Start’
+[Video Premiere] No Lovely Thing – Stay True
+Features
+Interviews
+Editorials
+Artists
+More
+Pop Music Room (PMR)
+Singersroom UK
+mvp-nav-menu
+mvp-nav-main
+mvp-nav-right-in
+mvp-nav-soc
+mvp-nav-right
+mvp-nav-right-out
+mvp-nav-right-wrap
+mvp-nav-left-in
+mvp-nav-left-out
+mvp-main-nav-cont
+mvp-main-in
+mvp-main-out
+mvp-main-boxed-wrap
+mvp-nav-wrap
+Rising Star Ambri Releases An Amazing Cover of James Brown’s Classic ‘Man’s, Man’s, Man’s World’ (Video)
+mvp-nav-soc-title
+Share
+Tweet
+mvp-nav-soc-list
+mvp-nav-soc-cont
+mvp-main-in
+mvp-main-out
+mvp-nav-soc-bar
+mvp-head-wrap
+mvp-post-feat-img
+mvp-post-info-col
+R&B Music Videos
+Rising Star Ambri Releases An Amazing Cover of James Brown’s Classic ‘Man’s, Man’s, Man’s World’ (Video)
+mvp-post-author-img
+By
+Elle Breezy
+mvp-post-author
+Published on
+January 31, 2017
+mvp-post-date
+mvp-post-info-in
+mvp-post-info-out
+mvp-post-info-top
+Share
+Tweet
+Comment
+mvp-post-info-bot
+mvp-post-info-wrap
+Fresh from releasing a beautiful cover of Torey Lanez massive hit “Say It,” Brookyn-native Ambri
+releases the cover video to The God Father of Soul James Brown’s classic hit “It’s A Man’s Man’s Man’s World.”
+Ambri’s soulful vocals are quite impressive and does justice to the record. When asked why she chose to cover the timeless classic she replied, “I’m very big on women empowerment. I loved the idea of recording a classic by a male legend such as The Godfather of Soul
+James Brown, that empowers women. This song also goes hand in hand with my first single, “Wouldn’t Be” that I am releasing, which is why I call the cover song and video
+“
+Man’s World Part 1.”
+Watch Ambri’s amazing cover below:
+Ambri was raised in the church and grew up singing there and at all her school plays. Throughout her school years, she engulfed herself in all musical activities. She graduated from Brooklyn High School of The Arts as a vocal major, and from there she enrolled in NYFA (New York Film Academy) studying musical theater. While attending NYFA (New York Film Academy), she studied under the leadership of some amazing instructors who performed on Broadway and helped guided her career.
+At the age of 14, she auditioned at the legendary Apollo theater and performed a rendition of Alicia Keys smash hit “If I Aint Got You” and was chosen as the runner-up. It was then she knew that music was her calling and that she wanted to pursue it professionally. She was so determined that she signed herself up to audition at shows such as, American Idol, The X Factor, The Voice, America’s Got Talent and Michael Bivens’ Talent Search.
+Ambri has collaborated with industry heavy weights like Claude Kelly and Chuck Harmony (Jessie J, Bruno Mars, etc.), JFK ( Beyonce, Iggy, Teyana Taylor, Estelle, etc.), The Order (Beyonce ‘Jealous’, ‘Drunk in Love’…just to name a few.) The soulful songstress is currently in the studio finishing up her musical project, shooting videos and gearing up to put together her first official showcase.
+END THEIA POST SLIDER
+Tweet
+More
+Email
+WhatsApp
+Start Custom Video Player
+End Custom Video Player
+mvp-content-main
+More About:
+Ambri
+mvp-post-tags
+Continue Reading
+mvp-ad-rel-top
+mvp-post-bot-ad
+You may also like...
+mvp-post-bot-rel
+mvp-ad-rel-in
+mvp-ad-rel-out
+mvp-ad-rel-bot
+mvp-ad-rel-wrap
+posts-nav-link
+Site LInks
+Around The Web
+End Site Links
+mvp-org-logo
+mvp-org-wrap
+Click to comment
+mvp-comments-button
+mvp-post-content-mid
+mvp-post-content-in
+mvp-post-content-out
+mvp-post-content
+mvp-post-content-wrap
+More in R&B Music Videos
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Fabian Secon – Resuscitate
+By
+Elle Breezy
+February 15, 2017
+mvp-feat1-info
+On the song, the Brixton, London singer-songwriter/producer hits the falsetto to tell the tale of trying...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Cute! CeeLo Green Professes Love For Beyonce In ‘Jay Z’s Girl’ Video
+By
+Elle Breezy
+February 15, 2017
+mvp-feat1-info
+Green (under his new moniker Gnarly Davidson) dropped a cute video called "Jay Z's Girl," a...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Mya – Coolin’
+By
+Elle Breezy
+February 14, 2017
+mvp-feat1-info
+Shot in Australia, the black-and-white video sees the singer in lingerie in a beautiful mansion immersed...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Amber Mimz Celebrates Valentine’s Day With Dreamy Video, ‘Start’
+By
+Elle Breezy
+February 14, 2017
+mvp-feat1-info
+"Start" depicts the leap of faith required to experience love in the first place. In the...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+[Video Premiere] No Lovely Thing – Stay True
+By
+Singersroom
+February 14, 2017
+mvp-feat1-info
+No Lovely Thing, a Bay Area funk-soul band, premieres the music video for their new single...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+[Video Premiere] Jordan King – How To Love
+By
+Elle Breezy
+February 14, 2017
+mvp-feat1-info
+Today, King premieres the video for "How To Love," a heartfelt track produced as a result...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Louis York – Don’t Play
+By
+Elle Breezy
+February 13, 2017
+mvp-feat1-info
+The single channels the Chicago House scene and the video was shot in Downtown Nashville’s famous...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Témi – Lock & Key
+By
+Elle Breezy
+February 13, 2017
+mvp-feat1-info
+Nigeria-born, Toronto-raised artist Témi (pronounced Tay-Me) drops the video for his new single, "Lock & Key"...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+BriaMarie – Love The Way We Argue
+By
+Singersroom
+February 13, 2017
+mvp-feat1-info
+Rising Philly R&B; artist BriaMarie unwraps a music video for her latest single "Love The Way...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+[Video Premiere] Imaj – Something Real
+By
+Elle Breezy
+February 13, 2017
+mvp-feat1-info
+Following his debut single/video "Fool," Dallas-native Imaj drops off his second video titled "Something Real." The...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvp-main-blog-story
+mvp-main-blog-wrap
+mvp-post-bot-wrap
+mvp-prev-post-arrow
+Evan Taylor Jones – Love Me Now ft. Niko Is (John Legend Cover)
+mvp-prev-post-text
+mvp-prev-post-wrap
+mvp-prev-post-arrow
+The New Respects – Money
+mvp-prev-next-text
+mvp-next-post-wrap
+mvp-prev-next-wrap
+mvp-content-left-wrap
+mvp-content-side-in
+mvp-widget-ad
+Trending
+mvp-trend-widget-img
+Hollywood/TV/Reality TV
+[EXCLUSIVE] Tyrese and Lee Daniels Address Upcoming Controversial Transgender Episode of #STAR
+mvp-trend-widget-text
+mvp-100img-in
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-100img-out
+mvp-trend-widget-story
+mvp-trend-widget-img
+Music
+BJ The Chicago Kid – Roses
+mvp-trend-widget-text
+mvp-100img-in
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-100img-out
+mvp-trend-widget-story
+mvp-trend-widget-img
+R&B Music Videos
+Mya – Coolin’
+mvp-trend-widget-text
+mvp-100img-in
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-100img-out
+mvp-trend-widget-story
+mvp-trend-widget-wrap
+mvp-widget-ad
+Shop Singersroom
+Responsive
+mvp-widget-ad
+mvp-side-wrap
+mvp-content-side-out
+mvp-post-area
+mvp-foot-ad-wrap
+mvp-main-content-wrap
+mvp-main-in
+mvp-main-out
+mvp-main-boxed-wrap
+mvp-main-wrap
+Home
+News
+Music
+Videos
+Artists
+Interviews
+mvp-foot-nav
+mvp-foot-in-wrap
+mvp-main-in
+mvp-main-out
+mvp-foot-top-wrap
+The Soul Train Award winner for "Best Soul Site," Singersroom features top
+R&B Singers
+, candid
+R&B Interviews
+,
+New R&B Music
+,
+Soul Music
+,
+R&B News
+,
+R&B Videos
+, and
+editorials
+on fashion & lifestyle trends.
+In addition, we cover soul and R&B artist in the
+UK
+, Canada, and rest of the world.
+©2017 Singersroom. All Rights Reserved.
+About
+|
+Contact
+|
+Advertise
+|
+Privacy Policy
+|
+Terms of Use
+|
+Sitemap
+Powered by
+Purlue.com, a Long Island Web Design & SEO Company
+.
+A Member of Townsquare Music
+mvp-foot-copy
+mvp-foot-in-wrap
+mvp-main-in
+mvp-main-out
+mvp-foot-bot-wrap
+mvp-site
+To Top
+mvp-fly-top
+mvp-fly-fade
+Send to Email Address
+Your Name
+Your Email Address
+Cancel
+Post was not sent - check your email addresses!
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.

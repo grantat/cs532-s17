@@ -1,0 +1,430 @@
+About Us
+Contact Us
+Blog
+View and Share Events
+Add Your Events
+Panel
+Andorra
+(1)
+Argentina
+(1)
+Australia
+(37)
+Austria
+(7)
+Belgium
+(2)
+Brazil
+(3)
+Canada
+(7)
+China
+(11)
+Costa Rica
+(1)
+Czech Republic
+(7)
+Denmark
+(5)
+Ethiopia
+(1)
+France
+(11)
+Germany
+(23)
+Ghana
+(1)
+Greece
+(8)
+Guinea
+(1)
+Hong Kong
+(4)
+Hungary
+(1)
+Iceland
+(1)
+India
+(7)
+Indonesia
+(2)
+Ireland
+(7)
+Israel
+(3)
+Italy
+(8)
+Japan
+(1)
+Kenya
+(1)
+Korea (South)
+(1)
+Malaysia
+(1)
+Mauritius
+(1)
+Mexico
+(3)
+Monaco
+(1)
+Morocco
+(1)
+Mozambique
+(3)
+Netherlands
+(13)
+Nigeria
+(2)
+Oman
+(4)
+Papua New Guinea
+(1)
+Portugal
+(5)
+Qatar
+(3)
+Russia
+(2)
+Senegal
+(1)
+Singapore
+(23)
+Slovenia
+(3)
+South Africa
+(4)
+Spain
+(22)
+Swaziland
+(1)
+Sweden
+(2)
+Switzerland
+(7)
+Thailand
+(1)
+Trinidad and Tobago
+(1)
+Turkey
+(4)
+UK
+(744)
+United Arab Emirates
+(49)
+USA
+(272)
+Vietnam
+(2)
+Zambia
+(1)
+/login
+The tab on top
+/ top
+panel
+Social Media Event Marketing Platform
+<img src="http://tweetmyevents.com/images/tweetmyeventslogo.png" alt="Social Media Event Marketing" width="798" height="185" border="0" style="padding-top: 3px;" />
+<img alt="social media campaigns" src="http://tweetmyevents.com/images/tweetmyevents_right.gif" width="353" height="59" />
+<div class="logo_centertop">
+    <a href="https://www.indiegogo.com/projects/tweetmyevents" title="Crowd Funding Campaign" target="_blank" > <img src="http://tweetmyevents.com/images/campaign-button-blue.png" width="352" height="85" border="0" /></a>
+    </div>
+<p class="header-caption">
+            You Are Seconds Away From Announcing <br>Your Event To The World
+        </p>
+<form action="" method="post" name="frmtopsearch">
+
+            <script language="javascript">
+                function SearchTextBox1(defaultText)
+                {
+                    with (document.frmtopsearch) {
+                        if (txtsearchbox.value == defaultText || txtsearchbox.value == "") {
+                            txtsearchbox.value = "";
+                            alert("Type your search keyword");
+                            txtsearchbox.focus();
+                        }
+                        else {
+                            top.location = "/published-events/?sch=true&schKeyword=" + txtsearchbox.value + "&ac=";
+                        }
+                    }
+                }
+
+                function SearchTextBox2(defaultText)
+                {
+                    with (document.frmtopsearch) {
+                        if (txtsearchbox.value == defaultText || txtsearchbox.value == "") {
+                            txtsearchbox.value = "";
+                            txtsearchbox.focus();
+                        }
+                    }
+                }
+
+                function SearchTextBox3(defaultText)
+                {
+                    with (document.frmtopsearch) {
+                        if (txtsearchbox.value == "") {
+                            txtsearchbox.value = defaultText;
+                        }
+                    }
+                }
+
+            </script>
+
+
+            <input  name="txtsearchbox" type="text" class="textarea" value="Type your search text here" onfocus="SearchTextBox2('Type your search text here')" onblur="SearchTextBox3('Type your search text here')" />
+
+
+            <img src="http://tweetmyevents.com/images/tweetmyevents_search.gif" width="80" height="34" align="absmiddle" id="Image2" style="margin-left:-5px; cursor:pointer;"onmouseover="this.src = 'http://tweetmyevents.com/images/tweetmyevents_search1.gif';" onmouseout="this.src = 'http://tweetmyevents.com/images/tweetmyevents_search.gif';" onclick="SearchTextBox1('Type your search text here');" /><br />
+
+        </form> <div id="button1"> <strong class="text_white" style="text-decoration:underline;">ADVANCED SEARCH </strong> </div>
+Advanced Search for Events
+Please enter the required field in the following form and Click ''search'' Button
+Keyword:
+Twitter Account
+Event Date:
+From
+To
+Country:
+Latest News :
+Events posted to date
+Events online
+Nightspot Cinema / Jackie Brown meets James Brown
+Posted by
+@evently 
+                                                                   2 weeks ago
+offering 1 credits to promote this event
+<a  href="#" id="" rel="tw" class="links retweet-link-more more">More</a>
+Event Views
+56
+to date
+Date/Time
+From
+Friday 24, February 2017
+7:00 pm
+To
+Saturday 25, February 2017
+2:30 am
+Venue
+Mick's Garage,
+ Unit 8, Queen's Yard Hackney Wick, London,
+ Greater London  E9 5EN,
+UK
+Tag/Category
+Other
+Industry
+Entertainment
+Jackie Brown meets James Brown for one very special night only at Nightspot Cinema's The Soundcrash Funk & Soul Weekender Launch Party.
+Friday 24 February.
+19:00_2:30am.
+Mick's Garage,
+Unit 8, Queen's Yard Hackney Wick E9 5EN.
+Tickets Available
+nightspotcinema.eventcube.io
+SCREENING: Jackie Brown.
+LIVE: Brassroots.
+DJ's: Dom Servini (Wah Wah 45s),
+Russ Ryan (The Doctor's Orders),
+Ash Tres (Soundwave Croatia).
+THEME: Blaxpliotation movies
+We will be screening Tarantino's terrific Blaxploitation masterpiece Jackie Brown, followed by an epic 70's funk and soul immersion party. Expect serious music, as Brassroots will be playing the hits LIVE from funk legends George Clinton and Parliament Funkadelic right through to the God Father of Soul himself, Mr Brown.
+Category: Nightlife.
+Artists / Speakers: Brassroots DJ's, Dom Servini, Russ Ryan, Ash Tres.
+URLs:
+Facebook: https://go.evvnt.com/81430-1
+Twitter: https://go.evvnt.com/81430-2
+Price: Super Early Bird - GBP 10.
+Register/Contact details
+Visit:
+http://go.evvnt.com/81430-0
+Email:
+james@concretepr.co.uk
+Phone:07500335373
+RSS feed of evently's events
+Popular tags for
+@evently
+#concert
+#conference
+#music
+#other
+#uk
+#usa
+UK
+USA
+a
+banquet
+concert
+conference
+family
+festival
+hackney
+international
+kitchen
+lantern
+launch
+london
+magic
+medicine
+medieval
+music
+party
+residency
+show
+2017
+<h3><strong>Other Upcoming Events Posted by <a href="http://tweetmyevents.com/published-events/?tac=evently" >@evently</a></strong></h3>
+<div class="content_rightbottweet" onMouseOver="this.style.backgroundColor = '#ECF5FB';" onMouseOut="this.style.backgroundColor = '#ffffff';">
+
+                                                <div class="content_rightbottweetleft"> <a href="http://tweetmyevents.com/published-events/?tac=evently"> <img src="http://pbs.twimg.com/profile_images/545949727905177600/ID_ex8VP_normal.png" width="40" height="40" border="0" alt="evently" title="evently" /> </a></div>
+
+                                                <div class="content_rightbottweetright"> <a href="http://tweetmyevents.com/event-detail/?e=30357" style="color:#000; text-decoration:none;"> 13 Oct 2016 - evently 8 months from now </a> 
+
+                                                    <span style="float:right; width:80px; text-align:right; padding-right:10px;" class="main_text"><em>Views (115)</em></span>
+
+                                                    <br />
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=Training" class="links">
+                                                        <strong> #Training - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/event-detail/?e=30357" style="color:#000; text-decoration:none;">
+                                                        <strong> French & Arabic Classes - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=United Arab Emirates" class="links">
+                                                        <strong> #United Arab Emirates </strong>  </a> 
+
+
+
+                                                </div>
+
+                                            </div>
+<div class="content_rightbottweet" onMouseOver="this.style.backgroundColor = '#ECF5FB';" onMouseOut="this.style.backgroundColor = '#ffffff';">
+
+                                                <div class="content_rightbottweetleft"> <a href="http://tweetmyevents.com/published-events/?tac=evently"> <img src="http://pbs.twimg.com/profile_images/545949727905177600/ID_ex8VP_normal.png" width="40" height="40" border="0" alt="evently" title="evently" /> </a></div>
+
+                                                <div class="content_rightbottweetright"> <a href="http://tweetmyevents.com/event-detail/?e=30371" style="color:#000; text-decoration:none;"> 13 Oct 2016 - evently 8 months from now </a> 
+
+                                                    <span style="float:right; width:80px; text-align:right; padding-right:10px;" class="main_text"><em>Views (138)</em></span>
+
+                                                    <br />
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=Education" class="links">
+                                                        <strong> #Education - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/event-detail/?e=30371" style="color:#000; text-decoration:none;">
+                                                        <strong> IELTS Exam Preparation - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=United Arab Emirates" class="links">
+                                                        <strong> #United Arab Emirates </strong>  </a> 
+
+
+
+                                                </div>
+
+                                            </div>
+<div class="content_rightbottweet" onMouseOver="this.style.backgroundColor = '#ECF5FB';" onMouseOut="this.style.backgroundColor = '#ffffff';">
+
+                                                <div class="content_rightbottweetleft"> <a href="http://tweetmyevents.com/published-events/?tac=evently"> <img src="http://pbs.twimg.com/profile_images/545949727905177600/ID_ex8VP_normal.png" width="40" height="40" border="0" alt="evently" title="evently" /> </a></div>
+
+                                                <div class="content_rightbottweetright"> <a href="http://tweetmyevents.com/event-detail/?e=29941" style="color:#000; text-decoration:none;"> 28 Oct 2016 - evently 7 months from now </a> 
+
+                                                    <span style="float:right; width:80px; text-align:right; padding-right:10px;" class="main_text"><em>Views (183)</em></span>
+
+                                                    <br />
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=Conference" class="links">
+                                                        <strong> #Conference - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/event-detail/?e=29941" style="color:#000; text-decoration:none;">
+                                                        <strong> Six Sigma Green Belt and Black Belt- IQF, USA - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=United Arab Emirates" class="links">
+                                                        <strong> #United Arab Emirates </strong>  </a> 
+
+
+
+                                                </div>
+
+                                            </div>
+<div class="content_rightbottweet" onMouseOver="this.style.backgroundColor = '#ECF5FB';" onMouseOut="this.style.backgroundColor = '#ffffff';">
+
+                                                <div class="content_rightbottweetleft"> <a href="http://tweetmyevents.com/published-events/?tac=evently"> <img src="http://pbs.twimg.com/profile_images/545949727905177600/ID_ex8VP_normal.png" width="40" height="40" border="0" alt="evently" title="evently" /> </a></div>
+
+                                                <div class="content_rightbottweetright"> <a href="http://tweetmyevents.com/event-detail/?e=31046" style="color:#000; text-decoration:none;"> 18 Nov 2016 - evently 9 months from now </a> 
+
+                                                    <span style="float:right; width:80px; text-align:right; padding-right:10px;" class="main_text"><em>Views (102)</em></span>
+
+                                                    <br />
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=Education" class="links">
+                                                        <strong> #Education - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/event-detail/?e=31046" style="color:#000; text-decoration:none;">
+                                                        <strong> Provisioning SQL Databases (20765 part of MCSA SQL 2016 DA) - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=UK" class="links">
+                                                        <strong> #UK </strong>  </a> 
+
+
+
+                                                </div>
+
+                                            </div>
+<div class="content_rightbottweet" onMouseOver="this.style.backgroundColor = '#ECF5FB';" onMouseOut="this.style.backgroundColor = '#ffffff';">
+
+                                                <div class="content_rightbottweetleft"> <a href="http://tweetmyevents.com/published-events/?tac=evently"> <img src="http://pbs.twimg.com/profile_images/545949727905177600/ID_ex8VP_normal.png" width="40" height="40" border="0" alt="evently" title="evently" /> </a></div>
+
+                                                <div class="content_rightbottweetright"> <a href="http://tweetmyevents.com/event-detail/?e=31026" style="color:#000; text-decoration:none;"> 30 Nov 2016 - evently 9 months from now </a> 
+
+                                                    <span style="float:right; width:80px; text-align:right; padding-right:10px;" class="main_text"><em>Views (94)</em></span>
+
+                                                    <br />
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=Other" class="links">
+                                                        <strong> #Other - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/event-detail/?e=31026" style="color:#000; text-decoration:none;">
+                                                        <strong> MTA Networking Fundamentals (40366) - </strong>  </a> 
+
+                                                    <a href="http://tweetmyevents.com/published-events/?sch=true&schKeyword=UK" class="links">
+                                                        <strong> #UK </strong>  </a> 
+
+
+
+                                                </div>
+
+                                            </div>
+<div class="right-box-login" style="height: 100px;">
+                  
+                    
+                        <div class="signin"> <a title="Sign in with Twitter" href="http://tweetmyevents.com/oauth/" >
+                                <img src="http://tweetmyevents.com/images/signin1.png" name="Image1" width="100%"  border="0" onmouseover="this.src = 'http://tweetmyevents.com/images/signin2.png';" onmouseout="this.src = 'http://tweetmyevents.com/images/signin1.png';" /> </a> 
+                        </div>
+                    
+                </div>
+Events Calendar
+Our Partners
+Follow us on
+About Us
+Share with friends
+Privacy Policy
+Terms of use
+Link with Us
+Contact Us
+Site Map
+1
+User Online
+Copyright © 2017
+We are in no way associated with Twitter or Twitter.com
+TweetMyEvents is a real-time
+Social Media event Marketing
+platform for the social web. With this service you can
+promote your events
+to the world through
+Twitter
+, Facebook and Linkedin. An amazingly easy way to market your events to get attendees for your next seminars, conference, workshops, webinars or other type of events. Getting started is easy. Simply sign in with your Twitter account, register your event and tweet it out. There are no limits to the number of events you can display. TweetMyEvents also has a tracking counter so you can constantly monitor your page views in real-time.
+5
+stars, based on
+175
+Reviews
+Social media event marketing
+Digital media event marketing
+Event Marketing Campaigns
+Online event media marketing
+Event marketing

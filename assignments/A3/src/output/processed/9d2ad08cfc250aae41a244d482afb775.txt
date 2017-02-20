@@ -1,0 +1,399 @@
+<![endif]
+[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]
+[if lt IE 9]>
+<script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]
+[if IE]>
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.clipplanet.uk/templates/Ruby/css/new-style-ie.css">
+
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400italic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:700italic" rel="stylesheet" type="text/css">
+<![endif]
+Facebook Javascript SDK
+< >
+RSS
+I
+25 - Adele
+I
+Four Pink Walls - Alessia Cara
+I
+Storyteller - Carrie Underwood
+I
+The Intro - EP - Ruth B.
+Welcome
+Login
+/
+Register
+login modal
+×
+Login
+Username/Email
+Password
+Remember me
+Login
+Forgot your password?
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2000-2009
+90's
+80's
+70's
+60's
+50's
+pop
+nederpop
+rock
+blues
+dance
+hip-hop
+latin
+r & b
+reggae
+jazz
+country
+rap
+guitarlessons
+german
+other
+westcoast
+french
+xmas
+italian
+concerts
+Scandinavie
+Playlists
+Soundcloud
+Arab
+Top
+About ClipPlanet
+Guitar Shop
+English
+Albanian
+Arabic
+Brazilian
+Bulgarian
+Croatian
+Danish
+Deutsch
+Français
+Georgian
+Italian
+Lithuanian
+Nederlands
+Polish
+Portuguese
+Română
+Russian
+Serbian
+Slovak
+Spanish
+Swedish
+Türkçe
+Hebrew
+Thai
+Farsi
+.span3
+Jamiroquai - Automaton
+Lights off
+#video-wrapper
+Added
+2 weeks ago
+by
+Admin
+in
+2017
+end pm-player-full-width
+#pm-video-left
+Autoplay
+Related
+Popular
+02:29
+Jamiroquai - Too Young To Die
+1 Views
+04:13
+Jamiroquai - High Times
+4 Views
+03:48
+Jamiroquai - Love Foolosophy
+2 Views
+02:52
+Jamiroquai - Virtual Insanity
+5 Views
+05:17
+Jamiroquai - Smile
+2 Views
+03:40
+Jamiroquai - Love Foolosophy
+2 Views
+02:41
+Jamiroquai - Virtual Insanity
+4 Views
+03:57
+Jamiroquai - Virtual Insanity
+3 Views
+02:29
+Jamiroquai - Too Youn To Die
+2 Views
+03:21
+Jamiroquai - You Give Me Something
+2 Views
+03:39
+Jamiroquai - Feels Just Like It Should
+6 Views
+03:47
+Jamiroquai - Alright
+3 Views
+03:46
+Jamiroquai - Runaway
+3 Views
+03:20
+Jamiroquai - Virtual Insanity
+11 Views
+03:22
+Jamiroquai - You Give Me Something
+3 Views
+03:35
+Jamiroquai - Feels Just Like It Should
+8 Views
+03:36
+Jamiroquai - Feels Just Like It Should
+4 Views
+04:36
+Jamiroquai - Deeper Underground
+6 Views
+03:57
+Jamiroquai - Virtual Insanity
+5 Views
+03:31
+Jamiroquai - Lifeline
+2 Views
+03:13
+Jamiroquai - Too Young To Die
+1 Views
+03:57
+Jamiroquai - Little L
+2 Views
+03:59
+Jamiroquai - Cloud 9
+29 Views
+03:45
+Jamiroquai - You Give Me Something
+2 Views
+03:45
+Jamiroquai - Feels Just Like It Should
+12 Views
+05:16
+Conchita Wurst - Champagne Kisses
+98 Views
+04:24
+Samantha Preis - Our World
+1,324 Views
+03:10
+Lucie Jones - Never Give Up On You
+55 Views
+04:09
+Giorgia - Vanità
+37 Views
+04:22
+Conchita Wurst – Blue Bloom
+86 Views
+04:05
+Laurel - Life Worth Living
+951 Views
+03:45
+Sara Farell - Water Under The Bridge
+75 Views
+04:33
+Zaz - Tous les cris les S.O.S
+2,789 Views
+04:00
+Vitaa - MIEUX SANS TOI
+138 Views
+04:03
+CAT - You Belong To Me
+21 Views
+03:56
+Katy Perry - Chained To The Rhythm
+28 Views
+04:04
+Imelda May - Black Tears
+40 Views
+05:33
+Lux Lisbon - When You Need Somebody
+23 Views
+02:58
+Jennie Lena - Lush Life
+27 Views
+04:12
+Emeli Sandé - Highs & Lows
+30 Views
+03:37
+Sophie Ellis-Bextor - Wild Forever
+30 Views
+04:01
+Imelda May - Black Tears
+37 Views
+04:19
+Gulp - Search For Your Love
+43 Views
+Featured
+03:51
+Snakehips  - Don't Leave
+48 Views
+Featured
+02:59
+The Big Moon - Formidable
+54 Views
+Featured
+03:19
+Middle Kids - Never Start
+32 Views
+03:11
+Burak Yeter - Tuesday
+28 Views
+04:18
+The Weeknd - Party Monster
+33 Views
+04:20
+Amanda Jenssen  - When We Dig for Gold In the USA
+118 Views
+#pm-tabs
+#pm-related
+#pm-video-right
+Like
+Share
+This video is already in your favorites list.
+49
+Views
+×
+Thanks! Share it with your friends!
+URL
+×
+You disliked this video. Thanks for the feedback!
+#bin-rating-like-confirmation
+Sorry, only registred users can create playlists.
+Specify problem
+Dead video
+SPAM
+Racist or hate content
+Copyrighted Content
+Report this video
+URL
+Embed
+Send to a friend
+Jamiroquai - Automaton
+Send
+Description or Lyrics and Chords
+Am I love?
+Every heart is beating
+I'm all love
+Can't you feel me feeling?
+Take my hand
+Cold like a junkie
+I'm an ice cold man
+(I'm an ice cold)
+Why am I crying for you?
+All this love I felt for you
+Has gone away to another place
+I put my faith in a digital world
+Where they've given me
+Eyes without a face
+I'd steal the moon, on silver nights
+Remind myself I am someone
+My soul is numb and for tonight
+(I'm Automaton)
+I'm so tough
+Can't you see me running
+See I can touch
+Can you feel me coming?
+I see the world
+And cry for freedom
+These metal eyes, they can't disguise
+The fact that I
+(I need something to believe in)
+But then I'm dying for you
+I said goodbye to the world I knew
+And took off into inner space
+Weren't you the ones who promised me
+A very different place
+I've powered up, get my program set
+And tilt my head toward the sun
+Inside I know, I'm not a void
+(I'm Automaton)
+(Automaton [x4])
+Hey, you got me down underground
+Getting holed up in my cyber land
+As if I had time to break that down
+(Automaton)
+Whatever you can do I can override it
+Got a million ways to synthesize it
+Digital android, I can fight it
+(Fi-fi-fi-fight it out)
+(Automaton [x4])
+Feel like a man, who fell to Earth
+That this is not where I belong
+They rule my life from a metal box, that's windowless
+And I wonder, where it all goes wrong
+Maybe this dream will stay alive
+But can the madness be undone?
+Am I the new intelligence?
+(I'm Automaton [x7])
+You know I need something
+I can hold on to
+Hold on to
+You were all I knew
+(I'm Automaton)
+I need something
+I can hold on to
+Hold on to
+This was all I knew
+(I'm Automaton)
+http://vevo.ly/PrhsJZ
+Biography
+Jamiroquai is a funk/acid jazz band which formed in London, England, United Kingdom in 1992. The band currently consists of Jason Luis 'Jay Kay' Cheetham  (vocals), Matt Johnson (keyboards), Rob Harris (guitar), Paul Turner (bass), Derrick McKenzie (drums) , Sola Akingbola (percussion), Lorraine McIntosh (backing vocals) and Hazel Fernandez (backing vocals). The name "Jamiroquai" is derived from the Native American Iroquois tribe, with which Kay has said he identifies philosophically, combined with 'Jam', as in musical jamming.
+After Jay Kay auditioned unsuccessfully to be the singer of the Brand New Heavies, he decided to put together his own band. Jamiroquai's first single, "When You Gonna Learn?", was released in 1992 on the Acid Jazz label. Following its success, Kay signed a £1,000,000 eight-album record deal with Sony BMG Music Entertainment. The band enjoys worldwide popularity and is the best-known member of the early-1990s London-based acid jazz movement, alongside groups such as Incognito, Galliano, and Corduroy. Jamiroquai has since, however, moved in other musical directions.
+Band Members:
+Jason "Jay" Kay - Vocals
+Rob Harris - Guitar
+Derrick McKenzie - Drums
+Paul Turner - Bass
+Sola Akingbola - Percussion
+Matt Johnson - Keyboards
+Lorraine McIntosh - Backing vocals
+Hazel Fernandez - Backing vocals
+Former Members:
+Toby Smith - Keyboards (1992-2002)
+Wallis Buchanan - Didgeridoo (1992-2001)
+Gavin Dodds - Guitar (1993-1994)
+Simon Katz - Guitar (1995-2000)
+Stuart Zender - Bass (1992-1998)
+Nick Fyffe - Bass (1998-2003)
+Nick Van Gelder - Drummer (1993)
+Darren Galea aka DJ D-Zire - Turntables (1993-2001)
+Adrian Revell - Flute, saxophone
+Winston Rollins - Trombone
+Simon Carter - Keyboards (1999-2001)
+Sia - Backing Vocals
+Sam Smith - Backing vocals (2001-2007) Read more on Last.fm. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.
+Find Tabs + Chords
+Find the chords,tabs or lyrics!
+Simply copy the artist name and song
+Jamiroquai - Automaton
+and paste it into the searchbar!
+Click here
+(Opens in a new window!)
+Newsflash
+Comment here
+Start: Copyright 2016 TraceMyIP.org Service Code (185812-12132016)- DO NOT MODIFY //
+End: TraceMyIP.org Service Code //

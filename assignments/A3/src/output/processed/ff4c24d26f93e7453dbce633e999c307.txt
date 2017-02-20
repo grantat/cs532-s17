@@ -1,0 +1,200 @@
+<![endif]
+Mobile Specific Metas
+		==================================================
+Ads on this site are served by WP PRO Advertising System - All In One Ad Manager v4.6.8 - http://bit.ly/WPPROADSYSTEM
+/ WP PRO Advertising System - All In One Ad Manager.
+Open Graph Meta Data by WP-Open-Graph plugin
+/Open Graph Meta Data
+Noticias
+/logo
+Inicio
+Noticias
+Programas
+Staff
+Fotos
+Las 20
+Al Aire
+Videos
+Las 103
+#nav
+/header
+/row
+/top-wrap
+Noticias
+/large-12
+/row
+/section
+/header-wrap
+30
+Ene
+“AUTOMATON”, el nuevo single de JAMIROQUAI.
+Filed Under:
+Actualidad
+,
+Djs
+,
+musica
+,
+Playlist
+,
+Podcast
+,
+Releases
+,
+video
+,
+Video
+,
+Videos
+El ganador de varios  premios Grammy y estrella del sonido funk lanza su nueva canción ‘Automaton’ además incluye su video oficial dirigido por Charlie Lightning, el álbum estará disponible  para su lanzamiento el 31 de marzo 2017 .
+Aquí te dejamos lo nuevo de JAMIROQUAI.
+@Misterjotta
+/post
+16 enero, 2017
+Starboy (feat. Daft Punk) (Vicetone Remix) – The Weeknd
+View Video Details
+/latest-album
+Release date: 11-Feb-2017
+Las 20 de La X
+View Album
+Play
+Vicetone ft. The Weeknd & Daft Punk
+Starboy Remix
+Play
+Armin Van Buuren ft. Vini Vici
+Great Spirit
+Play
+Jonas Blue
+By Your Side
+Play
+Bruno Mars
+24k Magic
+Play
+Calvin Harris
+My Way
+Play
+Deadmau5
+4ware
+Play
+Ed Sheeran
+Shape Of You Remix
+Play
+Pryda
+Choo
+Play
+Offaiah
+Trouble
+Play
+Clean Bandit & Sean Paul ft. Anne-Marie
+Rockabye
+Play
+Quizzow
+Dreamer
+Play
+W&W;
+Caribbean Rave
+Play
+Jonas Blue ft. Jp Cooper
+Perfect Strangers Remix
+Play
+Sia & Alan Walker
+Move Your Body
+Play
+Snavs & Fabian Mazur
+Exhale
+Play
+Robin Schulz & David Guetta  ft. Cheat Codes
+Shed a Light
+Play
+Khomha
+Strange Love
+Play
+The Chainsmokers
+Paris
+Play
+Nora En Pure
+Convincing
+Play
+Meiko, Droplex,
+Leave The Lights On
+/latest-album
+Calendar
+febrero 2017
+L
+M
+X
+J
+V
+S
+D
+« Ene
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+.sidebar-1
+La influencia de
+@kraftwerk
+en la música Techno
+https://t.co/f9CIB5auJm
+https://t.co/WnU5B7zYu1
+1 hour ago
+¿Lo dirías? #BailaTechnoconlax
+https://t.co/JEcoYZJdjE
+3 hours ago
+@HIIOmusic
+, el dúo Colombo-Argentino se despide de la escena electrónica.
+https://t.co/129G52RbIl
+https://t.co/nj9Iljbj3r
+3 hours ago
+.sidebar-2
+/main
+/main-wrap
+La X Medellín es la primera y única emisora de música Electrónica de Colombia. Nuestra programación incluye Clásicos Dance y éxitos anglo del mundo.
+Únete en Facebook
+Últimos Tweets
+Tweets por @laxmedellin
+Menu
+Cláusula de Consentimiento Web
+Politicas de Tratamiento de Datos Personales (Web)
+Politicas de Tratamiento
+Aviso de Privacidad
+/footer
+/large-12
+/row
+/footer-wrap
+La X Electrónica © 2017 | Todos los derechos reservados | Medellín - Colombia - Suramerica
+Diseño y posicionamiento Web
+por Interficto
+/row
+/large-12
+/row
+/credits-wrap
+[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="http://laxelectronica.com/wp-content/themes/wp_club88/panel/scripts/selectivizr-min.js"></script>
+	<![endif]
+/44965562/Home

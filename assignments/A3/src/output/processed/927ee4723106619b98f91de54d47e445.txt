@@ -1,0 +1,869 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Click to call our Disability Customer Support line, or reach us directly at 1-888-283-1678
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+Chris Botti In Boston
+Chris Botti
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+March 31, 2009
+4.8 out of 5 stars
+365 customer reviews
+To enable Prime Music, you must have JavaScript turned on in your browser.
+Price display
+Start your 30-day free trial of Unlimited
+to listen to this album plus tens of millions more songs. Exclusive Prime pricing.
+See all 3 formats and editions
+Hide other formats and editions
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Listen Now with Amazon Music
+Chris Botti In Boston
+"Please retry"
+Amazon Music Unlimited
+Price
+New from
+Used from
+Do not show expander when DVD_redesign weblab is in treatment
+MP3 Music, March 31, 2009
+"Please retry"
+$9.99
+$9.99
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Audio CD, March 31, 2009
+"Please retry"
+$6.99
+$3.65
+$1.93
+Streaming
+Unlimited
+MP3
+$9.99
+Listen with our
+Free App
+Audio CD
+$6.99
+19 Used
+from
+$1.93
+36 New
+from
+$3.65
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Listen to any song, anywhere with Amazon Music Unlimited.
+Learn More
+Buy MP3 Album
+$9.99
+Add to MP3 Cart
+Album in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Buy CD + free MP3 album
+$6.99
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+Ave Maria
+Ave Maria
+3:18
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+2
+When I Fall In Love
+When I Fall In Love
+8:33
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+3
+Seven Days
+Seven Days
+4:53
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+4
+Emmanuel (Live)
+Emmanuel (Live)
+5:55
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+5
+I've Got You Under My Skin (Live)
+I've Got You Under My Skin (Live)
+4:16
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+6
+Cinema Paradiso
+Cinema Paradiso
+7:19
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+7
+Broken Vow
+Broken Vow
+5:00
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+8
+Flamenco Sketches
+Flamenco Sketches
+8:56
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+9
+Glad to Be Unhappy
+Glad to Be Unhappy
+5:33
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+10
+Hallelujah (Live)
+Hallelujah (Live)
+3:00
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+11
+Smile
+Smile
+5:01
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+12
+If I Ever Lose My Faith In You (Live)
+If I Ever Lose My Faith In You (Live)
+5:24
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+13
+Con Te Partiro
+Con Te Partiro
+5:14
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Related Video Shorts
+Page
+1
+of
+1
+Start Over
+Page 1 of 1
+Previous page
+3:14
+Chris Botti - Chris Botti talks about Miles Davis (Newport Jazz Festival 2015)
+Next page
+Customers Also Bought These Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+All For You (A Dedication To T...
+Diana Krall
+184
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Italia
+Chris Botti
+270
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+The World We Knew
+Frank Sinatra
+22
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Impressions
+Chris Botti
+229
+Stream
+or buy for
+$10.99
+check if each carouselCard is Platinum or Prime
+Ultimate Kenny G
+Kenny G
+67
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+Midnight Without You
+Chris Botti
+28
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+When I Fall In Love
+Chris Botti
+247
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+Maiden Voyage (The Rudy Van Ge...
+Herbie Hancock
+106
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+All-Time Greatest Swing Era Songs
+Various artists
+52
+Stream
+or buy for
+$5.00
+check if each carouselCard is Platinum or Prime
+Funk!
+Brian Culbertson
+27
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Greatest Hits
+Dave Koz
+85
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+Playing By Heart
+John Barry & Chris Botti & Chet Baker
+31
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Sketches of Spain
+Miles Davis
+251
+Stream
+or buy for
+$6.99
+check if each carouselCard is Platinum or Prime
+Live in Cuba
+Jazz at Lincoln Center Orchestra with Wynton Marsalis
+68
+Stream
+or buy for
+$12.49
+check if each carouselCard is Platinum or Prime
+It Might As Well Be Swing
+Count Basie And His Orchestra and Frank Sinatra
+65
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Night Sessions
+Chris Botti
+118
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Bliss
+Cindy Bradley
+85
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+First Wish
+Chris Botti
+16
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+When I Fall In Love
+Chris Botti
+247
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+Breezin'
+George Benson
+145
+Stream
+or buy for
+$9.21
+check if each carouselCard is Platinum or Prime
+It's On Tonight
+Brian Culbertson
+120
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Breathless
+Kenny G
+155
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+To Love Again
+Chris Botti
+170
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+The Very Best of Chris Botti
+Chris Botti
+61
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Slowing Down The World
+Chris Botti
+54
+Stream
+or buy for
+$6.99
+check if each carouselCard is Platinum or Prime
+A Thousand Kisses Deep
+Chris Botti
+119
+Stream
+or buy for
+$8.99
+Next
+Product Details
+Original Release Date:
+March 31, 2009
+Release Date:
+March 31, 2009
+Label:
+Columbia
+Copyright:
+(P) 2009 Sony Music Entertainment
+Record Company Required Metadata:
+Music file metadata contains unique purchase identifier.
+Learn more
+.
+Total Length:
+1:12:22
+Genres:
+Jazz
+ASIN:
+B001ZS5JNY
+Average Customer Review:
+4.8 out of 5 stars
+365 customer reviews
+Amazon Best Sellers Rank:
+#16,641 Paid in Albums (
+See Top 100 Paid in Albums
+)
+#687
+in
+MP3 Downloads
+>
+Albums
+>
+Jazz
+Customer Reviews
+4.8 out of 5 stars
+365
+4.8 out of 5 stars
+for popover_trigger
+for declarative_action
+5 star
+86%
+4 star
+9%
+3 star
+3%
+2 star
+2%
+1 star
+0%
+See all verified purchase reviews
+Share your thoughts with other customers
+Write a customer review
+Top Customer Reviews
+5.0 out of 5 stars
+Pure Perfection!
+By
+Stewart E. White
+on February 12, 2010
+Format: Audio CD
+Verified Purchase
+There are not many times in one's life where pure perfection is experienced but the "Chris Botti in Boston" DVD and music CD is one of them. Before you even listen to the music or see the DVD, you experience a mastery of package design and photography; the inside and outside black and white triptych is a creative visual feast as is the content booklet which is hidden in the center section.
+From the first note, you know that something special is unfolding because of a tremendous sense of staging and  audio space as created by the virtuoso master audio recordist, Al Schmitt, who should be considered the sixth member of Chris Botti's group.The other virtuoso artists in Chris' group include: Billy Childs-piano, Mark Whitfield-guitar, Robert Hurst-bass, and Billy Kilson-drums; masters all, each one bringing a unique talent to the event. Their synergy and energy synthesize into something unimaginable! All of this overlaid upon Keith Lockhart and the  Boston Pops Orchestra whose very name invokes its well known excellence.
+As if all this wasn't enough, there are the guest appearances by Sting, Josh Groban, Steven Tyler, YoYo Ma, John Mayer, Katherine McPhee, Lucia Micarelli, Sy Smith, Dominic Miller, Russ Irwin. What  treasures and a splendid gift to the audience!
+I won't even try to describe the performances in this work which are all beyond mere words so they must be heard.
+I must also recognize the amazing multi-camera video work: the flying camera boom shots, the Steadicams, and every other implementation and process of the videomaker's art which left me breathless.
+My personal experience? I am left with tears streaming down my face from the sight and sound of this magnificent work.
+1 Comment
+10 people found this helpful. Was this review helpful to you?
+Yes
+No
+Sending feedback...
+Thank you for your feedback.
+Sorry, we failed to record your vote. Please try again
+Report abuse
+5.0 out of 5 stars
+Got my time machine. Now what?
+By
+Eric Sedensky
+TOP 500 REVIEWER
+VINE VOICE
+on March 20, 2011
+Format: Audio CD
+Verified Purchase
+Well, there are lots of places to go if you have a time machine, but I'd probably start with Boston in the late summer of 2009. There, over a period of two days, the Boston Pops Orchestra held concerts featuring the inimitably smooth trumpeter, Chris Botti, accompanied by a cast of high-profile, high-talent musicians. I won't bother to list who sings what because you can look that up, but while you're back in Boston in 2009, what you want to keep your eyes and ears open for are Katharine McPhee's impeccable jazz phrasing (she's not a jazz singer, by the way), Yo-yo Ma's passionate and powerful cello, Sting's lively performance of his own songs with accompaniment from performers from the original recording, Lucia Micarelli's sweet violin (and her even sweeter plunge-to-the-waist evening dress), Josh Groban being Josh Groban, John Mayer doing a fairly impressive take on Frank Sinatra, Steven Tyler sounding like Aerosmith ("Cryin'") and not sounding like Aerosmith (Charlie Chaplin's "Smile"), and Sy Smith transporting us back to the `70's without a time machine with her funky rendition of The Look of Love. Pound for pound, Chris Botti has one of the clearest, resonant, and mellow sounding trumpets in the business, and he can blow it like nobody's business, too. High, low, muted, hand-cupped, all sound crisp and clear. He plays classics, jazz, funk, and pop, all with verve and confidence or reservation and serenity, whatever is called for by the song. His rhythm section is arguably one of the best jazz bands around and you won't find them slacking anywhere during the concert, but you will find them shockingly determined to outdo each other on Miles Davis' Flamenco Sketches, with Chris playing one of the three best solos you will ever hear played over this song.
+Read more ›
+Comment
+4 people found this helpful. Was this review helpful to you?
+Yes
+No
+Sending feedback...
+Thank you for your feedback.
+Sorry, we failed to record your vote. Please try again
+Report abuse
+4.0 out of 5 stars
+A pleasant surprise
+By
+Rocky Mountain Jazz Fan
+on November 26, 2010
+Format: MP3 Music
+Verified Purchase
+Over the years, the Boston Pops has hosted a large number of pop and jazz musicians.  Sometimes the combinations work, sometimes they don't.  This night, they pretty much did.  Similarly, when pop stars tackle jazz standards out the Great American Songbook, the results can range from magical to awful.  Here, the results stay in mostly in the middle, with some nice surprises.  Though far from my favorite song on this album, Steven Tyler's version of "Smile" at least proves that one should not compartmentalize musicians.
+Before my top picks from this album, a few words about Chris Botti.  I admit having mixed feeling about his performances at times.  Make no mistake, he is a great "technical" trumpeter, with a rich, lovely tone.  What he sometimes lacks is the ability to really "swing"--either on ballads or "up" tunes--like he just doesn't "feel it."  On this album, though, he does better at "finding the groove."  So do the Pops and the guests, thanks in part to a first-rate rhythm section with Billy Childs on piano and Mark Whitfield on guitar leading the charge.
+Now, for those "delights"--both surprises.  First, there is John Mayer singing the chestnut ballad, "Glad To Be Unhappy."  With a voice and delivery not unlike Kurt Elling, Mayer sings this ballad beautifully, with Botti taking a lovely solo.
+The tune that takes the prize for the best on this album, though, is the Cole Porter composition, "I've Got You Under My Skin," most famously performed by Frank Sinatra with a sterling Nelson Riddle arrangement.  Here it shines with a swinging vocal solo by Katharine McPhee (who, if you watch the video of this performance, is also playfully flirting with the band and audience during the song--she definitely is a beauty).
+Read more ›
+Comment
+2 people found this helpful. Was this review helpful to you?
+Yes
+No
+Sending feedback...
+Thank you for your feedback.
+Sorry, we failed to record your vote. Please try again
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Customer Images
+Most Recent Customer Reviews
+5.0 out of 5 stars
+Five Stars
+Excellent !
+Published 16 days ago by Europa
+5.0 out of 5 stars
+So happy to have it and can listen anytime we choose
+Yes, it met our expectations!  So happy to have it and can listen anytime we choose.
+Published 16 days ago by Elizabeth C.
+5.0 out of 5 stars
+Big Fan
+I am a big fan. Especially his duets
+Published 16 days ago by Rugosa
+4.0 out of 5 stars
+... the recorded live concerts because I find the applause annoying....
+I'm not really into the recorded live concerts because I find the applause annoying.  However, the music itself plus the great guest stars are terrific.
+Published 19 days ago by Margie
+5.0 out of 5 stars
+BOTTI MAJIK
+CHRIS IS ALWAYS TOPS
+Published 1 month ago by scarlet quick
+5.0 out of 5 stars
+Wonderful
+Incredible trumpet player. I have never heard a trumpet played quite that smoothly. Very different style.
+Published 1 month ago by nuala
+5.0 out of 5 stars
+Nothing by awesome!
+Nothing but awesome! I saw the concert on PBS and had to buy the CD.
+Published 1 month ago by Book Diva
+4.0 out of 5 stars
+Four Stars
+Fantastic!
+Published 1 month ago by Ronald Anderson
+5.0 out of 5 stars
+Great CD
+Great CD. Great stars performing too.
+Published 1 month ago by Lee A Schutz
+5.0 out of 5 stars
+Loved this album with varied soloists to add depth to his album
+Beautiful Album
+Published 1 month ago by Mary S. Durkin
+Search Customer Reviews
+Search
+What Other Items Do Customers Buy After Viewing This Item?
+Emmanuel (Live)
+Chris Botti
+5.0 out of 5 stars
+9
+$0.99
+Hallelujah (Live)
+Chris Botti
+4.6 out of 5 stars
+4
+$0.99
+Cinema Paradiso
+Chris Botti
+5.0 out of 5 stars
+5
+$0.99
+The Very Thought of You
+Chris Botti feat. Paula Cole
+5.0 out of 5 stars
+2
+$0.99
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/redirect-overlay/redirect-overlay-lte-ie9._CB336734515_.css"><![endif]
+Your Recently Viewed Items and Featured Recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your Recently Viewed Items and Featured Recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+Australia
+Brazil
+Canada
+China
+France
+Germany
+India
+Italy
+Japan
+Mexico
+Netherlands
+Spain
+United Kingdom
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+BeautyBar.com
+Prestige Beauty
+Delivered
+Book Depository
+Books With Free
+Delivery Worldwide
+Casa.com
+Kitchen, Storage
+& Everything Home
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+Diapers.com
+Everything
+But The Baby
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Prime Photos
+Unlimited Photo Storage
+Free With Prime
+Shopbop
+Designer
+Fashion Brands
+Soap.com
+Health, Beauty &
+Home Essentials
+TenMarks.com
+Math Activities
+for Kids & Schools
+Wag.com
+Everything
+For Your Pet
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Woot!
+Deals and
+Shenanigans
+Yoyo.com
+A Happy Place
+To Shop For Toys
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-AVkwvCqumhXXsWv9/ldlw9lBLnLSQw8u+OnZPKP6HWz/MNyWeAaR1hlIGBpnq8bJ rid-47PDDWF7DKDV0XYZ2QAA

@@ -1,0 +1,101 @@
+[if lte IE 5]>
+<div class="ie">
+<![endif]
+[if IE 6]>
+<div class="ie ie6">
+<![endif]
+[if IE 7]>
+<div class="ie ie7">
+<![endif]
+[if IE 8]>
+<div class="ie ie8">
+<![endif]
+[if lte IE 5]>
+<div class="ie">
+<![endif]
+[if IE 6]>
+<div class="ie ie6">
+<![endif]
+[if IE 7]>
+<div class="ie ie7">
+<![endif]
+[if IE 8]>
+<div class="ie ie8">
+<![endif]
+[if lte IE 8]>
+</div>
+<![endif]
+続行するには、cookieを有効にしてください
+Amazon.jpでのお買い物を続けるには、Webブラウザのcookieを有効にしてください。
+[if lte IE 5]>
+    <div class="ie">
+      <![endif]
+[if IE 6]>
+    <div class="ie ie6">
+      <![endif]
+[if IE 7]>
+    <div class="ie ie7">
+      <![endif]
+[if IE 8]>
+    <div class="ie ie8">
+      <![endif]
+サインイン
+Eメールアドレスまたは携帯電話の番号を入力してください。
+Eメールまたは携帯番号:
+Amazon.co.jp にパスワードを登録しましたか？
+いいえ。初めて利用します。
+パスワードを入力してください:
+[if lt IE 7]>
+  <style type="text/css">
+  .ap_caps_warn {
+    display: none;
+  }
+  </style>
+  <![endif]
+Caps Lock がオンです。
+この状態だとパスワードが
+正しく入力されない可能性があります。
+[if IE]><![if !IE]><![endif]
+[if IE]><![endif]><![endif]
+[if lte IE 6]>
+          <div id="ap_small_forgot_password_link_ie_old" class="ie_old">
+        <![endif]
+[if gte IE 7]>
+           <div id="ap_small_forgot_password_link_ie_new" class="ie_new">
+        <![endif]
+サインインしたままにする
+詳細
+パスワードをお忘れですか？
+[if lte IE 8]>
+    </div>
+<![endif]
+wlscci
+クラウドに保存した音楽を
+あらゆるシーンで楽しもう
+Amazonで購入したデジタル・ミュージックを保存、再生できます。
+パソコン、タブレット、スマートフォンなどさまざまな端末から音楽をお楽しみいただけます。
+ご利用の端末にダウンロードして、インターネットへの接続がない場合でも音楽を再生できます。
+無料の音楽アプリ
+|
+Amazonデジタル・ミュージックストア
+|
+ヘルプ
+利用規約
+プライバシー規約
+© 1996-2017, Amazon.com, Inc. or its affiliates
+footer-1
+footer-2
+footer-3
+footer-4
+footer-5
+footer-6
+footer-7
+footer-8
+footer-9
+footer-10
+footerSlots
+javascriptSlots
+end  div  wrapper
+[if lte IE 8]>
+</div>
+<![endif]

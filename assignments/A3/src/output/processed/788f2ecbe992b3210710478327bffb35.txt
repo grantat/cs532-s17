@@ -1,0 +1,51 @@
+<![endif]
+This site is optimized with the Yoast SEO plugin v3.2.4 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://kittylaroar.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]
+[if IE  8]><link rel="stylesheet" type="text/css" href="http://kittylaroar.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]
+Kitty LaRoar | Nick Shankland | Jazz London
+Navigation
+Home
+Music
+Valentine’s Eve
+Christmas Dream
+Skylark
+Basket
+Checkout
+Videos
+News
+Gallery
+About Kitty
+Home
+Music
+Valentine’s Eve
+Christmas Dream
+Skylark
+Basket
+Checkout
+Videos
+News
+Gallery
+About Kitty
+Albums
+Valentine’s Eve
+Skylark
+Christmas Dream
+New Album Out Now
+Valentine's Eve
+Recent Posts
+About my “Christmas Dream”..
+I am sailing, I am sailing tra-la..
+Contact/Enquiries
+For all work enquiries please contact Nick 07968003414
+or email:
+nickshankland@gmail.com
+Home
+Music
+Videos
+News
+Gallery
+About Kitty
+DEVELOPED BY
+SD1
+END #top.site

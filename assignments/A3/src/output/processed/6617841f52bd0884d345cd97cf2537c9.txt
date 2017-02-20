@@ -1,0 +1,256 @@
+meta http-equiv="X-UA-Compatible" content="IE=edge" /
+facebook image
+jQuery (necessary for Bootstrap's JavaScript plugins)
+image crop support
+filehandling
+Include all compiled plugins (below), or include individual files as needed
+additional fonts
+Custom styles for this template
+helper scripts
+my scripts
+small scrollbars
+visibility
+notifications
+Custom notifications Styles
+Go to www.addthis.com/dashboard to customize your tools
+run script that will populate the buzz
+Home
+Blog
+Celeb
+Delight
+Fashion
+Fortune
+Luxury
+Read
+span class="ti-menu show_button"></span
+X
+h2 class="hidden loadMoreText" id="loadMoreAccArticlesText"> Loading More </h2
+Login
+Forgot Password ?
+<div class="checkbox">
+			<label><input type="checkbox"> Remember me</label>
+		</div>
+Sign Up
+Get Your Weekend App
+Play BINGBING Games
+Indicators
+Wrapper for slides
+Controls
+Previous
+Next
+BINGBING Connection
+Indicators
+ol class="carousel-indicators">
+		<li data-target="#carousel-bb" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-bb" data-slide-to="1"></li>
+		<li data-target="#carousel-bb" data-slide-to="2"></li>
+		<li data-target="#carousel-bb" data-slide-to="3"></li>
+		<li data-target="#carousel-bb" data-slide-to="4"></li>
+	  </ol
+Wrapper for slides
+Kaydee 'Scattered Thoughts'
+BLACKSHEEPxGME 'Twilight'
+Rachel Marie - Finger Lickin' Good
+V33 BARS - ORS2015
+Driive - 'Kill3r'
+Gerard 'After One Night'
+Young Troubled Minds 'One Big Session'
+Tee Wavy 'Baby Baby'
+Arcani '6 AM'
+Lil Bit - That Shit Im On
+Marcus Valance - 'Life in A Paper Cup'
+Jay2Six 'Slow Motion...'
+Landino Santana 'Pop It'
+BLAK PLAGUE - OFF DA CHAIN
+Sister P Guitar 'Imagine'
+DRIIVE 'Full Cup'
+Keeyen Martin 'DiveN2Luv'
+JUNI JITTAZ "REPN"
+PReZ - WAVEY
+Mel Aston Jr - The Impossible
+Fonzy Williams - Reignbow Gods Of Compton
+Coelated 'All Of The Above'
+James Francis - Hey Valley
+Galaxy - Beef Rap
+Rhomanife - Pray Now
+RoyRy 'Emerald City'
+Gerard 'Aliens and UFOs'
+see.francis 'Room Full Of Hoes'
+Mista Vina 'All I Need'
+SHINERS - Karma
+Mula Migz - We Made It
+Jep Roadie 'SuperHeroes'
+AleX Ko 'Epic'
+Solidtary 'They Want'
+FLEXX KAPONE 'Straight 2 The Point'
+Ceo Son-Son 'SelfMade'
+Brillivntboy 'A Diamond In The Rough'
+Lil Scooter 'Born In The 90's'
+Supa High Society 'Fugazy - Something 4 Nothing'
+Youth 'Rise And Shine'
+Kid Bracer 'Sweet Living Remix'
+QuinnShawn Damar 'On Ya Grind'
+V33 BARS - For This
+Falco DiGeneral - More Money
+Ty Kenney 'Choosing'
+TRAVGUCC 'GET IT GIRL'
+Moshae Beats 'DARK CLUB BEAT'
+TRAVGUCV 'FRESH OFF THE BOAT'
+AC SLATOR Mix Tape
+Julius Jay 'Too Long' ft Hazmat
+Treece 'Get Down On It'
+Alonzo Walker 'Validation'
+Haze 'On Top'
+Playrunnaz A.V. 'Winner's Circle'
+hlr_savage_boyz 'Frankie Benjamin Hlr WalkThru Remix'
+Michael Tavon 'Tululah'
+Tee Wavy 'Color Whick'
+Marco Russo 'Ma Chute'
+Emute 'Praise Your Senses'
+F.A. (El Jefe)
+MULA MIGZ
+Landino Santana In Fly you Trust
+Dennis McKinney
+Musica-Lee
+Dee Bronte
+Lil Manis
+Juan Da God
+Allied Forces 3D Army Parking
+Bigg Ant
+Strizzy Vendetta
+Colvane
+Yvng_$unrise
+OG.ENIU$
+"THE LOX" SURVIVOR
+Akeela 'Ratchet Chick'
+Tmark
+Cedes Baby
+Marathon (Indie Rock band)
+Kenny Turpel
+NOWHERELAND (Robin Bain)
+Forever Digital Empire
+Oracle Studios
+CATASTROPHIC - Like
+Rondo Smiff - SO WHAT
+iLL-iteracy - Spit Slang
+Wizley Taylor - You're The One
+Styers - Beauty and the Beak
+Artist Gone Viral
+JproD - We Here Now
+Slym - The Introduction
+Main Girl - Lose It
+Rebeca Vallejo
+KD $ideways
+Ice Runnerz - You Ain't
+Phil Read Originals - New in Town
+Gone Wallace - Cult Classic
+Swainatra - Can't Focus
+Tu-k - Show Me
+Oscar Lee - The Beadles
+Controls
+Previous
+Next
+BINGBING Buzz
+div class="list-group scrollbox3" name="TopBuzzListGroup"
+h2 class="hidden loadMoreText" id="loadMoreFrontPageBuzzText"> Loading More </h2
+Get Your Weekend App
+Play BINGBING Games
+Indicators
+Wrapper for slides
+Controls
+Previous
+Next
+X
+Close
+Sign Up Error
+div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div
+button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button
+Sign Up In progress
+button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">X</span><span class="sr-only">Close</span></button
+Please Sign Up
+<div class="checkbox">
+			<label><input type="checkbox"> Remember me</label>
+		</div>
+Sign Up
+Or Login with your existing account.
+Login
+Forgot Password ?
+X
+Close
+Please Sign Up
+Login
+Forgot Password ?
+X
+Close
+Please Sign Up
+<div class="checkbox">
+			<label><input type="checkbox"> Remember me</label>
+		</div>
+Sign Up
+X
+Close
+Message
+No messages have been sent yet!
+X
+Close
+What mood are you in ? Choose one !
+Share with BINGBING users
+Share with BINGBING users
+Annoyed
+Baby
+Loved
+Blushing
+Silly
+Pleased
+Irritated
+Crying
+Angry
+Cheery
+Sad
+Excited
+Shocked
+Joy
+Fuming
+Surprised
+Pretty
+Happy
+X
+Close
+Invite Your Friends For More Fun
+Join me on The BINGBING to Showcase your Content, Catch the Trend, Connect to Friends ! www.thebingbing.com/
+Go to www.addthis.com/dashboard to customize your tools
+X
+Close
+Play a BINGBING Game ?
+div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"
+Food Jack
+Show off your card Skill
+Beat the BINGBING Dealer.
+PLAY
+/div
+X
+Close
+Meet New Friends !
+Send them a Buzz !
+button type="submit" class="btn btn-bbgold sendMsgBtns"  id="submit" name="submit" onClick="SendMessage(this.form);return false;" >
+						<span class="glyphicon glyphicon-camera"></span>
+						Add Photo
+						</button
+Send
+Share Privately
+Maximum 200 characters per message
+200
+X
+Close
+Send a
+Snapbook
+to Friends & Family
+Copyright © BINGBING
+®
+2017
+About
+Terms of Use
+Privacy
+Contact Us

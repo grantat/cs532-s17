@@ -1,0 +1,65 @@
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+<meta property="og:url" content="http://gvult.com/kiev/"/>
+<li><a target="blank" href="http://vk.com/public50531108" class="header-vk"></a></li>
+<li><a target="blank" href="http://gvult.com/rss.xml" class="header-rss"></a></li>
+<li><a href="#" class="header-rss"></a></li>
+Modal
+×
+/ right-header
+{search}
+                     
+                    File /index.php is in the folder, which is available to write (CHMOD 777). For security purposes the connection files from these folders is impossible. Change the permissions on the folder that it had no rights to the write.
+row
+container
+header
+Street Jazz: Woody Allen
+Cafe Letage & Bel etage
+», «
+», «
+https://goo.gl/QD78H6
+☎
++380445905550
+dleaddcomments
+dlecomments
+dlenavigationcomments
+//news list
+//news right block
+<div class="col-md-3 col-xs-12">
+</div>
+GVULT.com
+<a href="http://chefs-summit.com " target="_blank"><img src="/uploads/gvult.com_262455.gif" alt="Creative Chefs Summit"></a>
+<div style="width:260px; margin: 20px 0 20px; overflow: auto;">
+            
+
+	<div class="col-md-12" style="padding: 5px;">
+    	
+     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+     <ins class="adsbygoogle"
+     	style="display:block; overflow: hidden; max-height: 280px;"
+     	data-ad-client="ca-pub-3483436381555225"
+     	data-ad-slot="5148247191"
+     	data-ad-format="auto">
+     </ins>
+    <script> (adsbygoogle = window.adsbygoogle || []).push({}); 
+    
+    </script>
+
+</div>
+	   
+            </div>
+Facebook
+Twitter
+Instagram
+Google+
+<a target="blank" href="http://vk.com/public50531108" class="vk">Vkontakte</a>
+<a href="#" class="rss">RSS</a>
+<div class="col-md-3 col-xs-12 podpis">
+<!--                         <div class="col-md-6 col-xs-6">
+</div>
+                        <div class="col-md-6 col-xs-6">
+<input type="text" data-toggle="modal" data-target="#login" placeholder="E-mail">
+<button data-toggle="modal" data-target="#login"></button>
+</div>
+<!--
+×
+×

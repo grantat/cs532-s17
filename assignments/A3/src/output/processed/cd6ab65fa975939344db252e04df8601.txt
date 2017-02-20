@@ -1,0 +1,46 @@
+All in One SEO Pack 2.3.11.4 by Michael Torbert of Semper Fi Web Design[391,426]
+/all in one seo pack
+[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='http://dailyplaylists.com/wp-content/themes/dailyplaylists/css/ie.css?ver=20160816' type='text/css' media='all' />
+<![endif]
+[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='http://dailyplaylists.com/wp-content/themes/dailyplaylists/css/ie8.css?ver=20160816' type='text/css' media='all' />
+<![endif]
+[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='http://dailyplaylists.com/wp-content/themes/dailyplaylists/css/ie7.css?ver=20160816' type='text/css' media='all' />
+<![endif]
+[if lt IE 9]>
+<script type='text/javascript' src='http://dailyplaylists.com/wp-content/themes/dailyplaylists/js/html5.js?ver=3.7.3'></script>
+<![endif]
+Home
+Blog Playlists
+YouTube Playlists
+Daily Playlists
+Blog
+Submit A Track
+Contact Us
+Featured
+Bassrush
+Play
+Featured
+Relentless Beats
+Play
+Featured
+Rock Daily
+Play
+Featured
+The Vibe Guide
+Play
+Featured
+Drop The Bassline
+Play
+Jamiroquai – Automaton
+.post-thumbnail
+Jamiroquai have made their hugely anticipated return after seven years with new single ‘Automaton’.
+The track borrows heavily from Daft Punk in its Tron-indebted synths, vocoder vocal effect. Taken from the forthcoming album of the same name, the ‘Rock Dust Light Star’ follow up is set for a March 31st release via Virgin EM.
+“The inspiration for Automaton is in recognition of the rise of artificial intelligence and technology in our world today,” Kay says in a press release, “and how we as humans are beginning to forget the more pleasant, simple and eloquent things in life and in our environment including our relationship with one another as human beings. ”
+The band have also announced a one-off date at London’s Roundhouse venue on the day the album is released. You can listen to lead single ‘Automaton’ below in our Indie Electro Playlist.
+info@dailyplaylists.com
+Independent Spotify Playlists. Updated Regularly With New Music & Reviews.
+Click Here
+To Find & Follow Your Daily Playlist Favourites.

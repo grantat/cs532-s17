@@ -1,0 +1,1142 @@
+Skip navigation
+Sign in
+Search
+Home
+Trending
+Home
+Trending
+History
+Get YouTube Red
+Best of YouTube
+Music
+Sports
+Gaming
+Movies
+TV Shows
+News
+Live
+Spotlight
+360° Video
+Browse channels
+Sign in now to see your channels and recommendations!
+Sign in
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Watch Later</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Watch Later</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription added</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription removed</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Saved to Playlists</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Playlists</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to playlist</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from playlist</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Liked videos</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Liked videos</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >You'll be reminded about this event</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Event reminder removed</span></span></div>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-serialized-endpoint="" data-external-id="__ID__" data-sessionlink="ei=gdKkWLmmJOOf8gTbzZyQDQ&amp;feature=g-playlists" data-visibility-tracking=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-playlists-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Saved to Playlists">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-serialized-endpoint="" data-external-id="__ID__" data-sessionlink="ei=gdKkWLmmJOOf8gTbzZyQDQ&amp;feature=g-playlists" data-visibility-tracking=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-mix-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Saved to Playlists">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-serialized-endpoint="" data-external-id="__ID__" data-sessionlink="ei=gdKkWLmmJOOf8gTbzZyQDQ&amp;feature=g-channel" data-visibility-tracking=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        
+  <img width="20" src="__THUMBNAIL_URL__" data-ytimg="1" alt="" height="20" onload=";__ytRIL(this)" aria-hidden="true" >
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Subscription added">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+Show ad
+Watch Queue
+Queue
+Watch Queue
+Queue
+Remove all
+Disconnect
+The next video is starting
+stop
+Loading...
+Watch Queue
+Queue
+__count__/__total__
+<p class="yt-spinner ">
+        <span title="Loading icon" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+Trending
+6:14
+Play next
+Play now
+Did You Ever Notice These 10 Disney Easter Eggs?
+- Duration: 6:14.
+Screen Rant
+1,247,853 views
+2 days ago
+23:50
+Play next
+Play now
+Trump vs. Truth: Last Week Tonight with John Oliver (HBO)
+- Duration: 23:50.
+LastWeekTonight
+8,348,618 views
+2 days ago
+7:04
+Play next
+Play now
+Michael Flynn Resigns as National Security Advisor: A Closer Look
+- Duration: 7:04.
+Late Night with Seth Meyers
+533,920 views
+16 hours ago
+5:01
+Play next
+Play now
+Couples Describe the First and Last Time They Had Sex
+- Duration: 5:01.
+WatchCut Video
+838,882 views
+1 day ago
+1:18
+Play next
+Play now
+Team Thor: Pt. 2, Where Are They Now?
+- Duration: 1:18.
+Marvel Entertainment
+1,546,465 views
+1 day ago
+5:15
+Play next
+Play now
+Romeo Santos - Héroe Favorito (Official Video)
+- Duration: 5:15.
+RomeoSantosVEVO
+3,416,069 views
+1 day ago
+6:49
+Play next
+Play now
+Who's The Baby Daddy: Jimmy Kimmel or Matt Damon?
+- Duration: 6:49.
+Jimmy Kimmel Live
+1,567,316 views
+1 day ago
+4:05
+Play next
+Play now
+PewDiePie vs. Free Speech
+- Duration: 4:05.
+CaseyNeistat
+1,778,867 views
+1 day ago
+9:03
+Play next
+Play now
+DIY PIZZA ROSES - Man Vs Valentines Day #108
+- Duration: 9:03.
+ThreadBanger
+1,209,793 views
+1 day ago
+3:36
+Play next
+Play now
+Ed Sheeran on Why He Threw Away His Cell Phone
+- Duration: 3:36.
+TheEllenShow
+1,266,368 views
+1 day ago
+0:40
+Play next
+Play now
+The World of Pokémon GO has Expanded!
+- Duration: 0:40.
+Pokémon GO
+211,657 views
+9 hours ago
+4:01
+Play next
+Play now
+Katy Perry - Chained to the Rhythm (Live From The 59th Annual Grammy Awards/2017)
+- Duration: 4:01.
+KatyPerryVEVO
+170,293 views
+1 day ago
+5:13
+Play next
+Play now
+Bruno Mars - That’s What I Like (LIVE from the 59th GRAMMYs)
+- Duration: 5:13.
+Vevo
+488,050 views
+2 days ago
+7:31
+Play next
+Play now
+Stephen Miller, You're Invited To Tell Lies On The Late Show
+- Duration: 7:31.
+The Late Show with Stephen Colbert
+1,842,201 views
+1 day ago
+2:54
+Play next
+Play now
+Adele Wins Album Of The Year | Acceptance Speech | 59th GRAMMYs
+- Duration: 2:54.
+Recording Academy / GRAMMYs
+7,091,801 views
+2 days ago
+Shared and Liked
+by
+Popular on YouTube
+Highlights of the most popular videos being shared across social networks.
+8:20
+Play next
+Play now
+Sean Spicer Press Conference Cold Open - SNL
+- Duration: 8:20.
+Saturday Night Live
+11,308,330 views
+3 days ago
+6:14
+Play next
+Play now
+What's inside a Fidget Cube?
+- Duration: 6:14.
+What's Inside?
+3,047,245 views
+3 days ago
+9:03
+Play next
+Play now
+DIY PIZZA ROSES - Man Vs Valentines Day #108
+- Duration: 9:03.
+ThreadBanger
+1,209,793 views
+1 day ago
+5:19
+Play next
+Play now
+James Corden's GRAMMYs Opening
+- Duration: 5:19.
+The Late Late Show with James Corden
+1,075,068 views
+2 days ago
+3:36
+Play next
+Play now
+Ed Sheeran on Why He Threw Away His Cell Phone
+- Duration: 3:36.
+TheEllenShow
+1,266,368 views
+1 day ago
+3:27
+Play next
+Play now
+Do You Really Need To Have Friends?
+- Duration: 3:27.
+Life Noggin
+458,885 views
+2 days ago
+5:13
+Play next
+Play now
+Bruno Mars - That’s What I Like (LIVE from the 59th GRAMMYs)
+- Duration: 5:13.
+Vevo
+488,050 views
+2 days ago
+2:44
+Play next
+Play now
+Why Do We Eat Raw Fish But Not Raw Chicken?
+- Duration: 2:44.
+SciShow
+219,094 views
+1 day ago
+19:18
+Play next
+Play now
+GET READY WITH ME + Jessie J
+- Duration: 19:18.
+NikkieTutorials
+2,931,964 views
+2 days ago
+4:56
+Play next
+Play now
+Wheel of Freestyle with Common
+- Duration: 4:56.
+The Tonight Show Starring Jimmy Fallon
+1,090,504 views
+4 days ago
+4:00
+Play next
+Play now
+Shinedown - "I'll Follow You" [Alternate Video]
+- Duration: 4:00.
+Shinedown
+127,338 views
+23 hours ago
+0:36
+Play next
+Play now
+The Walking Dead: Next on: 'New Best Friends' Ep. 710
+- Duration: 0:36.
+amc
+434,634 views
+2 days ago
+1:57
+Play next
+Play now
+Dinner Date: Starters - Simon's Cat (A Valentine's Special)
+- Duration: 1:57.
+Simon's Cat
+736,660 views
+5 days ago
+0:40
+Play next
+Play now
+Unbreakable Kimmy Schmidt - Season 3 | Teaser [HD] | Netflix
+- Duration: 0:40.
+Netflix US & Canada
+513,649 views
+2 days ago
+6:32
+Play next
+Play now
+American Kids Try Mexican Food | Ep 16
+- Duration: 6:32.
+WatchCut Video
+1,121,724 views
+2 days ago
+Vines - Topic
+Recommended channel
+Subscribe
+Subscribed
+Unsubscribe
+22,381
+22K
+15:56
+Play next
+Play now
+Try Not to Laugh or Grin Challenge - Darius Benson Vines Compilation | Top Viners
+- Duration: 15:56.
+Top Viners
+2,512,110 views
+1 week ago
+10:07
+Play next
+Play now
+SAVAGE LEVEL 101%
+- Duration: 10:07.
+RecklessFromTheBlock
+3,299,618 views
+1 month ago
+17:16
+Play next
+Play now
+*Try Not To Laugh Challenge* Funny Kids Vines Compilation 2016 | Funniest Kids Videos
+- Duration: 17:16.
+All Of Vines
+79,979,837 views
+5 months ago
+10:15
+Play next
+Play now
+*IF YOU LAUGH, YOU LOSE* Funny Kids Fails Vines Compilation 2017 Part 2 | by Life Awesome
+- Duration: 10:15.
+Life Awesome
+7,199,905 views
+2 weeks ago
+11:00
+Play next
+Play now
+Best Sports Vines 2016 - DECEMBER WEEK 2 & 3
+- Duration: 11:00.
+Sports Vines Land
+1,320,898 views
+1 month ago
+13:21
+Play next
+Play now
+I bet 1.000.000$ You Will LAUGH (RIP VINE EDITION)
+- Duration: 13:21.
+Twiinz
+1,886,107 views
+4 weeks ago
+26:03
+Play next
+Play now
+Funny Animals Vines  Vine compilation November 2016
+- Duration: 26:03.
+Vines Video
+6,721,636 views
+3 months ago
+20:19
+Play next
+Play now
+Funny Vines January 2017 (Part 3) TBT Vine compilation
+- Duration: 20:19.
+CooL Vines
+2,083,717 views
+4 weeks ago
+30:42
+Play next
+Play now
+New Zach King Magic Vines 2016 | Best Zach King Magic Tricks Ever
+- Duration: 30:42.
+Dream Vine
+6,911,192 views
+2 months ago
+41:07
+Play next
+Play now
+New Zach King Magic Vines 2016 | Best Zach King Magic Tricks Ever
+- Duration: 41:07.
+World Wide Vines
+7,980,506 views
+2 months ago
+13:21
+Play next
+Play now
+R.I.P Vine
+- Duration: 13:21.
+Judan Land
+3,331,538 views
+3 months ago
+14:57
+Play next
+Play now
+New Zach King Magic Vines Compilation 2016 With Titles
+- Duration: 14:57.
+Dream Vine
+48,484,920 views
+7 months ago
+34:45
+Play next
+Play now
+BatDad NEW Vines 2015 - Vine compilation - Best Viners
+- Duration: 34:45.
+Best Viners
+20,636,085 views
+1 year ago
+22:23
+Play next
+Play now
+David Lopez Funny Vines Compilation - Best Vines 2015
+- Duration: 22:23.
+Funny Vines
+5,252,649 views
+1 year ago
+9:13
+Play next
+Play now
+rip vine
+- Duration: 9:13.
+rachajem
+620,844 views
+1 month ago
+Comedy - Topic
+Recommended channel
+Subscribe
+Subscribed
+Unsubscribe
+292,292
+292K
+13:31
+Play next
+Play now
+The Most Famous Pranker -  Rémi Gaillard
+- Duration: 13:31.
+TopFiveAmazing
+4,963,991 views
+1 year ago
+4:54
+Play next
+Play now
+Friends - Boob Job
+- Duration: 4:54.
+Favorite Videos
+1,395,403 views
+2 months ago
+5:24
+Play next
+Play now
+Ellen's Tribute to the Obamas
+- Duration: 5:24.
+TheEllenShow
+20,439,361 views
+3 weeks ago
+6:30
+Play next
+Play now
+Oval Office Cold Open, Saturday Night Live avec Alec Baldwin
+- Duration: 6:30.
+Comédie+
+970,261 views
+1 week ago
+8:57
+Play next
+Play now
+Dave Chapelle: why terrorists won't take black people as hostage
+- Duration: 8:57.
+StandupTV13
+16,055,791 views
+5 years ago
+7:32
+Play next
+Play now
+15 Times Ryan Stiles Owned "Whose Line Is It, Anyway?"
+- Duration: 7:32.
+Next of Ken
+1,784,351 views
+1 month ago
+15:05
+Play next
+Play now
+Adrienne Barbeau, Gabriel Kaplan, 1973, Tonight Show, Carson,
+- Duration: 15:05.
+Dave Harris
+2,460,493 views
+1 month ago
+6:39
+Play next
+Play now
+Black Jeopardy with Tom Hanks - SNL
+- Duration: 6:39.
+Saturday Night Live
+18,847,733 views
+3 months ago
+2:02:04
+Play next
+Play now
+Joe Rogan Experience #915 - Nick DiPaolo
+- Duration: 2:02:04.
+PowerfulJRE
+342,013 views
+Streamed 2 days ago
+4:38
+Play next
+Play now
+Wheel of Musical Impressions with Alessia Cara
+- Duration: 4:38.
+The Tonight Show Starring Jimmy Fallon
+9,850,619 views
+1 week ago
+3:52
+Play next
+Play now
+Trump Unveils Huge Wheel of Decisions
+- Duration: 3:52.
+The Tonight Show Starring Jimmy Fallon
+3,229,169 views
+2 weeks ago
+2:27
+Play next
+Play now
+Gym Class - SNL
+- Duration: 2:27.
+Saturday Night Live
+921,374 views
+3 days ago
+10:56
+Play next
+Play now
+President Trump Is Using His Office To Protect His Family's Businesses
+- Duration: 10:56.
+The Late Show with Stephen Colbert
+3,965,095 views
+6 days ago
+6:55
+Play next
+Play now
+Weekend Update on a $18 Cup of Coffee - SNL
+- Duration: 6:55.
+Saturday Night Live
+1,350,032 views
+3 days ago
+2:48
+Play next
+Play now
+Weekend Update: Greg and Shelly Duncan - SNL
+- Duration: 2:48.
+Saturday Night Live
+276,996 views
+3 days ago
+Humor
+Recommended videos
+Subscribe
+Subscribed
+Unsubscribe
+348,351
+348K
+12:41
+Play next
+Play now
+Best Fails/Wins of January 2016
+- Duration: 12:41.
+MrMrMike1337
+7,903,097 views
+1 year ago
+26:50
+Play next
+Play now
+We Love Russia 2016 - Russian Fail Compilation (25 Min)
+- Duration: 26:50.
+Bear TV
+8,768,295 views
+4 months ago
+15:04
+Play next
+Play now
+Try Not To Laugh or Grin | David Lopez Funny Vines Compilation
+- Duration: 15:04.
+Funny Vines
+888,028 views
+2 weeks ago
+10:11
+Play next
+Play now
+TRY NOT TO LAUGH (CARTOON EDITION)
+- Duration: 10:11.
+VINESRB
+10,998,606 views
+1 year ago
+2:56
+Play next
+Play now
+10+ FUNNIEST Test Answers From Smartass Kids
+- Duration: 2:56.
+Smile
+6,792,685 views
+2 years ago
+34:45
+Play next
+Play now
+BatDad NEW Vines 2015 - Vine compilation - Best Viners
+- Duration: 34:45.
+Best Viners
+20,636,085 views
+1 year ago
+22:23
+Play next
+Play now
+David Lopez Funny Vines Compilation - Best Vines 2015
+- Duration: 22:23.
+Funny Vines
+5,252,649 views
+1 year ago
+4:37
+Play next
+Play now
+FUNNIEST BABIES EVER 5
+- Duration: 4:37.
+2M Media
+12,525,098 views
+1 year ago
+4:58
+Play next
+Play now
+Monty Python's best sketch ever
+- Duration: 4:58.
+queezycds
+10,245,109 views
+10 years ago
+4:34
+Play next
+Play now
+BEST Savage moments | Vine Compilation
+- Duration: 4:34.
+Vine Compilations
+4,710,940 views
+1 year ago
+13:10
+Play next
+Play now
+The Wisdoms of Al Bundy
+- Duration: 13:10.
+wanderer168
+807,360 views
+3 years ago
+3:41
+Play next
+Play now
+Pedestrian Question - Do You Have a Black Friend?
+- Duration: 3:41.
+Jimmy Kimmel Live
+7,094,181 views
+2 years ago
+19:29
+Play next
+Play now
+Try not to laugh while Watching Eastside Ivo Funny Instagram Compilation 2016
+- Duration: 19:29.
+InstaCompis
+2,140,329 views
+2 months ago
+Saturday Night Live
+Recommended channel
+Subscribe
+Subscribed
+Unsubscribe
+3,749,802
+3M
+4:54
+Play next
+Play now
+Trump People's Court - SNL
+- Duration: 4:54.
+Saturday Night Live
+9,223,636 views
+3 days ago
+7:25
+Play next
+Play now
+Celebrity Family Feud: Super Bowl Edition - SNL
+- Duration: 7:25.
+Saturday Night Live
+5,386,980 views
+1 week ago
+4:05
+Play next
+Play now
+Drill Sergeant - SNL
+- Duration: 4:05.
+Saturday Night Live
+1,813,631 views
+3 days ago
+8:07
+Play next
+Play now
+Sean Spicer Press Conference (Melissa McCarthy) - SNL
+- Duration: 8:07.
+Saturday Night Live
+23,175,864 views
+1 week ago
+5:05
+Play next
+Play now
+Teacher Trial with Ronda Rousey - SNL
+- Duration: 5:05.
+Saturday Night Live
+5,389,744 views
+1 year ago
+3:09
+Play next
+Play now
+New Disney Movie - SNL
+- Duration: 3:09.
+Saturday Night Live
+12,798,802 views
+1 year ago
+3:24
+Play next
+Play now
+NFL Intros | Saturday Night Live
+- Duration: 3:24.
+Saturday Night Live
+5,765,190 views
+2 years ago
+5:56
+Play next
+Play now
+Bush Twins - Saturday Night Live
+- Duration: 5:56.
+Saturday Night Live
+3,685,915 views
+3 years ago
+7:57
+Play next
+Play now
+Donald Trump Press Conference Cold Open - SNL
+- Duration: 7:57.
+Saturday Night Live
+11,371,473 views
+1 month ago
+4:19
+Play next
+Play now
+Five Stars - SNL
+- Duration: 4:19.
+Saturday Night Live
+1,723,478 views
+3 weeks ago
+3:44
+Play next
+Play now
+Kellyanne Conway - SNL
+- Duration: 3:44.
+Saturday Night Live
+3,795,197 views
+3 weeks ago
+4:23
+Play next
+Play now
+Pitch Meeting - SNL
+- Duration: 4:23.
+Saturday Night Live
+1,148,428 views
+3 days ago
+9:04
+Play next
+Play now
+Aziz Ansari Stand-Up Monologue - SNL
+- Duration: 9:04.
+Saturday Night Live
+3,706,541 views
+3 weeks ago
+7:39
+Play next
+Play now
+Weekend Update on the Ninth Circuit Court's Ruling - SNL
+- Duration: 7:39.
+Saturday Night Live
+2,042,100 views
+3 days ago
+American Football - Topic
+Recommended channel
+Subscribe
+Subscribed
+Unsubscribe
+57,625
+57K
+13:39
+Play next
+Play now
+Greatest Trick Plays in Football History
+- Duration: 13:39.
+Jaydon
+11,642,353 views
+1 month ago
+3:49
+Play next
+Play now
+Top 10 Smart Penalty Goals In Football
+- Duration: 3:49.
+Fazeli
+34,503,722 views
+3 months ago
+8:53
+Play next
+Play now
+Football World Record Edition | Dude Perfect
+- Duration: 8:53.
+Dude Perfect
+9,742,949 views
+1 week ago
+16:09
+Play next
+Play now
+Top 10 hardest football knockout hits
+- Duration: 16:09.
+TheLookin4now
+2,338,857 views
+2 months ago
+11:33
+Play next
+Play now
+Greatest NFL Ejections
+- Duration: 11:33.
+baseball maniac
+930,371 views
+1 month ago
+6:31
+Play next
+Play now
+Top 10 Emotional Moments of the 2016 Season | NFL Highlights
+- Duration: 6:31.
+NFL
+832,170 views
+2 weeks ago
+33:23
+Play next
+Play now
+Super Bowl LI: Patriots vs. Falcons Mic'd Up | NFL Films | Sound FX
+- Duration: 33:23.
+NFL
+1,346,835 views
+6 days ago
+17:51
+Play next
+Play now
+Worst Plays of the 2016 Season | NFL Highlights
+- Duration: 17:51.
+NFL
+1,451,572 views
+1 month ago
+5:58
+Play next
+Play now
+"NFL 2017" — A Bad Lip Reading of the NFL
+- Duration: 5:58.
+Bad Lip Reading
+8,515,373 views
+2 weeks ago
+10:38
+Play next
+Play now
+The Greatest Runs in NFL History
+- Duration: 10:38.
+BeastModeHighlights
+1,308,150 views
+6 months ago
+11:14
+Play next
+Play now
+ATLANTA FALCONS FANS REACT DURING SUPER BOWL LI IN DOWNTOWN  ATLANTA (THE THRILL AND THE AGONY)
+- Duration: 11:14.
+Chandler Hilton
+401,590 views
+1 week ago
+22:55
+Play next
+Play now
+109-YARD KICKOFF RETURN! | On-Season Football Series | Game 2
+- Duration: 22:55.
+dodgerfilms
+1,329,653 views
+1 month ago
+2:41
+Play next
+Play now
+How NFL rule changes made linemen gigantic
+- Duration: 2:41.
+Vox
+759,166 views
+1 week ago
+4:14
+Play next
+Play now
+Biggest Football Hits Ever
+- Duration: 4:14.
+The Highlight Factory
+23,078,298 views
+1 year ago
+3:30
+Play next
+Play now
+Best Jukes In Football History
+- Duration: 3:30.
+The Highlight Factory
+13,529,275 views
+1 year ago
+Basketball - Topic
+Recommended channel
+Subscribe
+Subscribed
+Unsubscribe
+968,782
+968K
+3:42
+Play next
+Play now
+Kevin Durant Booed in Return to OKC! Heated Exchanges! Warriors vs Thunder
+- Duration: 3:42.
+Chris Smoove
+1,178,857 views
+3 days ago
+9:58
+Play next
+Play now
+Never celebrate too early (Compilation)
+- Duration: 9:58.
+Wanapedia
+16,426,449 views
+7 months ago
+4:34
+Play next
+Play now
+Nerds Play Basketball In The Hood Like A Boss!
+- Duration: 4:34.
+Coby Persin
+6,336,065 views
+2 months ago
+17:17
+Play next
+Play now
+Nerd Plays Basketball In The HOOD!
+- Duration: 17:17.
+DC Heat
+17,393,438 views
+2 months ago
+7:55
+Play next
+Play now
+HALFCOURT BASKETBALL CHALLENGE
+- Duration: 7:55.
+FaZe Rain
+794,525 views
+1 month ago
+8:02
+Play next
+Play now
+Top 10 Plays In NBA History
+- Duration: 8:02.
+TheNBAFreak
+1,512,287 views
+4 months ago
+5:39
+Play next
+Play now
+Backwards Edition | Dude Perfect
+- Duration: 5:39.
+Dude Perfect
+33,131,813 views
+1 year ago
+9:11
+Play next
+Play now
+Charles Barkley & Shaq Get Into Heated Argument Over LeBron’s Roster Comments | 2016-17 NBA Season
+- Duration: 9:11.
+Ximo Pierto Final
+841,308 views
+2 weeks ago
+6:55
+Play next
+Play now
+Epic Trick Shot Battle 3 | Dude Perfect
+- Duration: 6:55.
+Dude Perfect
+10,939,130 views
+2 weeks ago
+3:58
+Play next
+Play now
+Chino Hills Locker Room After 92 Point Game From LaMelo Ball (FUNNY) | 92 Point Game AFTERMATH
+- Duration: 3:58.
+BallerVisions
+1,138,616 views
+6 days ago
+10:08
+Play next
+Play now
+FAZE CLANS FIRST EVER BASKETBALL GAME!
+- Duration: 10:08.
+FaZe Adapt
+1,138,692 views
+1 month ago
+6:46
+Play next
+Play now
+Christmas Day With The Ball Brothers
+- Duration: 6:46.
+SLAM Magazine
+2,687,359 views
+1 month ago
+11:47
+Play next
+Play now
+1 V 1 VS HIGHSCHOOL #1 PG ALL AMERICAN UCLA COMMIT JAYLEN HANDS!
+- Duration: 11:47.
+JesserTheLazer
+1,188,687 views
+3 weeks ago
+14:00
+Play next
+Play now
+OUR PLAYOFFS THE FINALE! BASKETBALL SEASON #5
+- Duration: 14:00.
+JesserTheLazer
+636,835 views
+1 week ago
+11:59
+Play next
+Play now
+LaMelo Ball EASY Buckets & Two Hand Dunk (Warm Ups) 1st Game Since 92 Points! Chino Hills vs Rancho!
+- Duration: 11:59.
+Ballislife
+823,651 views
+5 days ago
+Loading...
+Load more
+We were unable to complete the request, please try again later.
+Loading...
+Language:
+English
+Content location:
+United States
+Restricted Mode:
+Off
+History
+Help
+Loading...
+Loading...
+Loading...
+About
+Press
+Copyright
+Creators
+Advertise
+Developers
++YouTube
+Terms
+Privacy
+Policy & Safety
+Send feedback
+Test new features
+© 2017 YouTube, LLC
+Loading...
+Working...
+Sign in
+to add this to Watch Later
+Add to
+Loading playlists...

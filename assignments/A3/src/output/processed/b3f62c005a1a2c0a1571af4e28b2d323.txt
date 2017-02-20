@@ -1,0 +1,450 @@
+<![endif]
+Google Chrome Frame for IE
+[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]
+mobile meta
+head functions
+This site is optimized with the Yoast SEO Premium plugin v4.0.2 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO Premium plugin.
+[if lt IE 9]>
+<link rel='stylesheet' id='cb-ie-only-css'  href='http://4dpavshx5ly3quwy2v9yv83i.wpengine.netdna-cdn.com/wp-content/themes/valenti/library/css/ie.css?ver=CB_VER' type='text/css' media='all' />
+<![endif]
+Body BG
+end custom css
+end head functions
+ADS AND TRACKERS
+Begin comScore Tag
+End comScore Tag
+Facebook Pixel Code
+End Facebook Pixel Code
+Google Analytics
+/END Google Analytics
+Google Header
+END Google Header
+/* Revive Adserver Javascript Tag v3.0.2 */
+/*  * Replace all instances of INSERT_RANDOM_NUMBER_HERE with
+  * a generated random number (or timestamp).
+  *
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://72.52.81.231/revive/www/delivery/...'
+  * to
+  *   'https://72.52.81.231/revive/www/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */
+AD CODE Quantcast Tag
+End Quantcast tag
+Small-Screen Menu
+Categories
+Most Heated Debates
+Music Industry
+Information For Musicians
+Pop Culture
+Music Tech
+Startups
+Gear And Software
+Jobs
+Marketing Coordinator
+Digital Marketing Playlist and Streaming Specialist
+Business Development Manager
+Analyst – Partner Development
+DIGITAL STRATEGY MANAGER
+Vice-President of Marketing
+About Us
+Contact
+Advertise
+Conferences
+Tickets
+Desert Trip Tickets
+Adele Tickets
+Justin Bieber Tickets
+Beyonce Tickets
+Drake Tickets
+Pearl Jam Tickets
+Hamilton Tickets
+Bruce Springsteen Tickets
+Promoted Music
+/Small-Screen Menu
+Log In
+Lost your password?
+Register
+Lost your password?
+Register
+A password will be e-mailed to you.
+Search
+Categories
+Most Heated Debates
+Music Industry
+Information For Musicians
+Pop Culture
+Music Tech
+Startups
+Gear And Software
+Jobs
+Marketing Coordinator
+Digital Marketing Playlist and Streaming Specialist
+Business Development Manager
+Analyst – Partner Development
+DIGITAL STRATEGY MANAGER
+Vice-President of Marketing
+About Us
+Contact
+Advertise
+Conferences
+Tickets
+Desert Trip Tickets
+Adele Tickets
+Justin Bieber Tickets
+Beyonce Tickets
+Drake Tickets
+Pearl Jam Tickets
+Hamilton Tickets
+Bruce Springsteen Tickets
+Promoted Music
+AD CODE LARGE Marquee
+/* Revive Adserver Javascript Tag v3.0.2 */
+/END AD CODE LARGE Marquee
+Secondary Menu
+Trending
+Joy Villa’s Album Sales Explode After ‘Make America Great Again’ Grammys Dress
+70s Soul Group Says Sony Music Hasn’t Paid Them In 42 Years
+Carlos Santana: Beyonce Is a Model, Adele Is a Singer
+ISP: Blocking the Pirate Bay In Sweden Is a ‘Desperate Move’
+Will Google Play Music + YouTube = Spotify Destruction?
+/Secondary Menu
+end header
+Home
+Pop Culture
+Jamiroquai Releases the Best Track of 2017: ‘Automaton’
+Paul Resnikoff
+January 27, 2017
+11
+START-WP-ADS-ID: 5
+/22112625/DMN_Article_11_Leaderboard
+END-WP-ADS-PRIO
+Jamiroquai’s ‘Automaton’ first debuted on BBC Radio on Thursday.  Now, it’s gone viral among fans.  Is this the best track of 2017 (so far)?
+Let’s keep this one simple.  If you like Jamiroquai, you’ll like this just-released track.  It blends the group’s classic 90s style with a some modern touches, and a beat that moves.  And, changes right when you need it to.
+Actually, most people don’t realize that Jamiroquai has been packing clubs and festivals for decades.  This is an artist that first surfaced in the 1990s, but one that never went away.
+Check out ‘Automaton’.  You won’t be disappointed.
+Actually, this is the first release in a long time.  The group’s last album,
+Rock Dust Light Star
+, came out in 2010.  The latest single is the first track from the upcoming album,
+Automaton
+, arriving March 31st on Virgin EMI.
+Jamiroquai is not just one guy (another popular misconception).  The group is fronted by Jay Kay, and backed by a number of different musicians.  That includes percussionists Sola Akingbola and Derrick McKenzie, both of whom have been with the group since 1994.
+In terms of mainstream popularity, Jamiroquai’s biggest hit remains ‘Virtual Insanity’.  That track, released under Epic Records in the 90s, propelled the group to a Grammy (among other accolades).
+Then, a big chunk of America moved on, though pockets of intense fandom emerged in places like Eastern Europe.  Indeed, this is a group that has performed hundreds of gigs since the 90s.  And, just like old school pioneers like Daft Punk, are enjoying a retro resurgence as EDM has exploded.
+START-WP-ADS-ID: 3
+In Read
+disable <script type='text/javascript' src='//cdn.deepintent.com/vserveoutstream.js'></script>
+disable <script type="text/javascript" src="//zt.1rx.io/DeepIntent/DeepIntent_Outstream/"></script>
+END-WP-ADS-PRIO
+Upcoming Jamiroquai tour dates:
+March:
+28th:
+Paris
+, France (La Selle Pleyel)
+31st:
+London
+, England (Roundhouse)
+May:
+25th:
+Tokyo
+, Japan (Tokyo International Forum)
+27th-28th:
+Seoul
+, South Korea (Seoul Jazz Festival)
+June:
+June 17th:
+Athens
+, Greece (Release Athens Festival)
+July:
+9th:
+Rotterdam
+, Netherlands (North Sea Jazz Festival)
+11th:
+Florence
+, Italy (Visarno Arena)
+14th:
+Pori
+, Finland (Pori Jazz)
+16th:
+Aix-Les-Bains
+, France (Musilac)
+18th:
+Locarno
+, Switzerland (Moon & Stars)
+22nd:
+Ostrava
+, Czech Republic (Colours of Ostrava)
+August:
+START-WP-ADS-ID: 4
+/* Revive Adserver Javascript Tag v3.0.2 */
+/*
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://72.52.81.231/revive/www/delivery/...'
+  * to
+  *   'https://72.52.81.231/revive/www/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */
+END-WP-ADS-PRIO
+5th:
+Zambujeira do Mar
+, Portugal (Sudoeste)
+12th:
+Cornwall
+, England (Boardmasters)
+START-WP-ADS-ID: 1
+/22112625/DMN_Article_13_Leaderboard
+END-WP-ADS-PRIO
+Share it!
+Click to email this to a friend (Opens in new window)
+Click to print (Opens in new window)
+Click to share on Reddit (Opens in new window)
+Click to share on WhatsApp (Opens in new window)
+Click to share on Twitter (Opens in new window)
+Click to share on Facebook (Opens in new window)
+Click to share on LinkedIn (Opens in new window)
+More
+Click to share on Tumblr (Opens in new window)
+Click to share on Google+ (Opens in new window)
+Click to share on Pinterest (Opens in new window)
+Share on Skype (Opens in new window)
+end article section
+Testing
+Related Posts
+Joy Villa’s Album Sales Explode After ‘Make America Great Again’ Grammys Dress
+Daniel Adrian Sanchez
+February 15, 2017
+Carlos Santana: Beyonce Is a Model, Adele Is a Singer
+Paul Resnikoff
+February 14, 2017
+26
+Breaking: Hurricane Chris May Fight Kodak Black In a Celebrity Boxing Match
+Paul Resnikoff
+February 10, 2017
+Are the Grammys Racist and Outdated? Macklemore the Latest to Protest
+Paul Resnikoff
+February 10, 2017
+6
+end article footer
+Feature FM
+11 Responses
+Anonymous
+January 27, 2017
+Sponsored content has gone too far
+Reply
+Paul Resnikoff
+January 27, 2017
+My sponsor is ‘music’
+Reply
+#comment-##
+.children
+#comment-##
+Cjan
+January 27, 2017
+The song title is “AUTOMATON” and not “AUTOMATION”.
+Reply
+#comment-##
+Outre Lights
+January 28, 2017
+I’m a fan and it’s a cool song, but the vocal and music in the verse sections don’t mesh that well.  Chorus is tight.
+Reply
+#comment-##
+Write Me A Check
+January 28, 2017
+Brian Eno may have said to Bowie that Moroder’s “I Feel Love” was the sound of the
+future.. however I think this record has elements that could be very well the sound
+of today’s future..
+Max Martin could take these elements and make a hundred new hits in 2017
+Reply
+#comment-##
+Party Favorz
+January 30, 2017
+I’m a HUGE fan of Jamiroquai but the chorus is the only redeeming quality of this song. It’s like the verse is a different song all together. No amount of repeat listening is going to make any better.
+I’ll reserve further judgment once the remixes come out to see if they can rescue what has promise but fails to deliver.
+Reply
+#comment-##
+michaelnycny
+January 30, 2017
+I don’t hear anything special here at all
+Reply
+#comment-##
+lucarovi
+January 30, 2017
+I´m 100% agree with you. It is the evolution of their music what still let Jamiroquai to be be active after 25 years! For sure we will have more of them!
+Reply
+#comment-##
+ANOM
+January 30, 2017
+Best track of 2017???? WHA???? BARF!!!
+Reply
+#comment-##
+Onat
+January 31, 2017
+Jamiroquai is not a good band any more. Thinking about their first albums and now. They have decreased the quality of their music in order to reach more people. Jason Kay’s voice is nothing special unless he tries some jazzy stuff. And nowadays he does not do that, so rather than listening this techno song i will listen artists like bruno mars or lady gaga. They have much much better songs.
+Reply
+#comment-##
+I can be so picky at times
+January 31, 2017
+I think it’s quite original.. there are music phrases that sound familiar to other songs but that’s true to a lot of pop.
+The fade-out ending is the easy way out of a song.. better to write an actual ending..
+What I like:
+The special audio effects, noises, synthesizers, voice.
+The weird verse movement and it’s bassline pattern
+The 80s style text-to-speech computer voice
+Chorus topline melody is quite hooky with a surprise chord in the 4th measure
+Reply
+#comment-##
+Leave a Reply
+Cancel Reply
+Your email address will not be published.
+Comment
+Name
+START-WP-ADS-ID: 6
+END-WP-ADS-PRIO
+#respond
+end article
+end #main
+Subscribe to Our Daily Newsletter
+MailChimp for WordPress v2.3.15 - https://wordpress.org/plugins/mailchimp-for-wp/
+/ MailChimp for WordPress Plugin
+Our Partners
+/* Revive Adserver Javascript Tag v3.0.2 */
+/*
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://72.52.81.231/revive/www/delivery/...'
+  * to
+  *   'https://72.52.81.231/revive/www/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */
+/22112625/DMN_Sidebar_9b_Box
+modified
+end #cb-content
+Digital Music News is the leading authority for music industry professionals worldwide. We are based in Santa Monica, CA. More about us
+here
+.
+Subscribe
+MailChimp for WordPress v2.3.15 - https://wordpress.org/plugins/mailchimp-for-wp/
+/ MailChimp for WordPress Plugin
+Network
+Archives
+Archives
+Select Month
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+October 2014
+September 2014
+August 2014
+July 2014
+June 2014
+May 2014
+April 2014
+March 2014
+February 2014
+January 2014
+December 2013
+November 2013
+October 2013
+September 2013
+August 2013
+July 2013
+June 2013
+May 2013
+April 2013
+March 2013
+February 2013
+January 2013
+December 2012
+November 2012
+October 2012
+September 2012
+August 2012
+July 2012
+June 2012
+May 2012
+April 2012
+March 2012
+February 2012
+January 2012
+December 2011
+November 2011
+October 2011
+September 2011
+August 2011
+July 2011
+June 2011
+May 2011
+April 2011
+March 2011
+January 2011
+August 2010
+Digital Music News ©2016 All Rights Reserved
+Advertise
+Contact
+Privacy Policy
+About Us
+end footer
+end #cb-container
+end #cb-outer-container
+Send to Email Address
+Your Name
+Your Email Address
+Cancel
+Post was not sent - check your email addresses!
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.

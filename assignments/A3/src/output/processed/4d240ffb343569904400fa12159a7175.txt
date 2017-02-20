@@ -1,0 +1,220 @@
+<![endif]
+This site is optimized with the Yoast WordPress SEO plugin v1.6.1 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast WordPress SEO plugin.
+Using Simple Yearly Archive Plugin v1.7.1 | http://www.schloebe.de/wordpress/simple-yearly-archive-plugin/ //
+BANNER PUBBLICITARI INIZIO JAVASCRIPT
+BANNER PUBBLICITARI FINE JAVASCRIPT
+TESTATA INIZIO
+<span style="position:absolute; width:13%; left:56%;">
+  <a href="http://fb.com/radionbcreteregione" target="_blank">
+    <img src="http://radionbc.it/wp-content/uploads/2016/05/Facebook-10000-Like-NBC.png"></a>
+  </span>
+TESTATA FINE
+BEGIN #top.site
+end .x-logobar-inner
+end .x-logobar
+Navigation
+HOME
+Contatti
+NOTIZIE
+Notizie Regionali
+Interni / Esteri
+Eventi Radio NBC
+Novità in Radio
+Dischi Novità
+Sanremo 2017
+SPORT
+Notizie sportive
+SERVIZI
+Viabilità
+Meteo
+Podcast
+Mercatino
+Cinema
+Newsletter
+RSS Feed
+Pubblicità
+INDAGINE D’ASCOLTO
+COME ASCOLTARCI
+Palinsesto
+end .x-nav-collapse.collapse
+end .x-navbar-inner
+end .x-navbar
+end .x-navbar-wrap
+BANNER PUBBLICITARI SOTTOMENU JAVASCRIPT
+BANNER PUBBLICITARI SOTTOMENU JAVASCRIPT
+SLIDER SPORT INIZIO
+SLIDER SPORT INIZIO
+Blocca Notizia e Contenuti extra Category Page
+article
+entry-wrap
+x-container-fluid max width
+JAMIROQUAI ANNUNCIANO L’USCITA DELL’OTTAVO DISCO DI STUDIO “AUTOMATON”
+JAMIROQUAI
+annunciano l’uscita dell’ottavo disco di studio
+“AUTOMATON”
+La title track disponibile come instant-grat
+con il preorder del disco
+Annunciate le date del tour
+Milano, 27 gennaio 2017. I Jamiroquai annunciano il loro ritorno con l’ottavo disco di studio “AUTOMATON”.
+Il gruppo soul funk elettronico, vere superstar mondiali e vincitori di un Grammy Award tornano con un album scritto e prodotto da Jay Kay e dal tastierista Matt Johnson. “AUTOMATON” sarà disponibile nei negozi tradizionali e in digitale su etichetta VIRGIN EMI dal 31 marzo. Preordinando il disco su http://jamiroquai.lnk.to/Automaton si riceverà subito la title track “AUTOMATON”.
+Dopo aver causato uno sciame di eccitazione nei fan di tutto il mondo grazie alla pubblicazione lo scorso lunedì di “Automaton Transmission 001”, JAMIROQUAI pubblicano il video ufficiale della title track.
+Il video, una sorta di neo-noir di fantascienza visibile http://po.st/AutomatonYT, è stato diretto da Charli Lightening (Arcade Fire, Bjork) con la direzione creativa del front man Jay Kay. Questo è solo l’ultimo dei video pubblicati dalla band, responsabile di video innovativi come “Canned Heat”, “Little L” e “Virtual Insanity” (vincitore di 4 MTV Video Music Award”.
+Parlando di “AUTOMATON” Jay Kay ha commentato: “l’ispirazione di Automation è una sorta di riconoscimento di quanto l’intelligenza artificiale e la tecnologia abbiano accresciuto il loro ruolo nel nostro mondo oggi e di come gli uomini stanno iniziando a dimenticare le cose più piacevoli, semplici ed espressive della vita, incluse le nostre relazioni con gli altri esseri umani”.
+Questa la tracklist del nuovo album: “Shake It On”, “Automaton”, “Cloud 9”, “Superfresh”, “Hot Property”, “Something About You”, “Summer Girl”, “Nights out in the Jungle”, “Dr Buzz”, “We Can Do It”, “Vitamin”, “Carla”.
+Formatisi nel 1992 da Jay Kay, Jamiroquai sono diventati una delle maggiori realtà del mondo fin da disco di debutto “Emergency on Planet Earth”. Con uno stuolo di fan famosi come Chance the Rapper, The Black Madonna, Anderson.Paak, Pharrell, Tyler the Creator, Jungle, Redman, Stevie Wonder & The Internet, Jamiroquai hanno costantemente dimostrato a se stessi di essere una delle band più influenti e innovatrici del loro tempo.
+Nel curriculum il gruppo annovera sette album che hanno raggiunto la Top10 inglese (e tre il 1 posto), un Grammy Award, più di 26 milioni di dischi venduti nel mondo e il Guinness Book of World Records per il disco funk che ha venduto di più di tutti i tempi.
+Jamiroquai hanno inoltre annunciato un unico e intimo show alla The London Roundhouse nel giorno dell’uscita del disco, il 31 marzo, preceduto il 28 marzo a Parigi dal primo show live dopo 6 anni. Sono già state annunciate altre date live.
+JAMIROQUAI HEADLINE SHOWS
+28 marzo La Salle Pleyel, Paris
+31 marzo The Roundhouse, London
+25 maggio Tokyo International Forum, Tokyo, Japan
+JAMIROQUAI 2017 FESTIVAL DATES
+27 e 28 maggio Seoul Jazz Festival, Seoul, South Korea
+17 giugno Release Athens 2017, Athens, Greece
+9 luglio North Sea Jazz, Rotterdam, Netherlands
+11 luglio Firenze Summer Festival, Visarno Arena, Florence, Italy
+14 luglio Pori Jazz, Pori, Finland
+16 luglio Musilac, Aix-Les-Bains, France
+18 luglio Moon & Stars, Locarno, Switzerland
+22 luglio Colours of Ostrava, Czech Republic
+5 agosto Sudoeste, Portugal
+12 agosto Boardmasters, UK
+Jamiroquai is back, and as they say, ‘coming to a planet near you’ – Interview Magazine
+The big return of Jamiroquai is finally here – MixMag
+Sci-fi movies got nothing on this… as visually pleasing as it is exciting – HighSnobiety
+Jamiroquai is back – The Fader
+30 gennaio 2017
+CONDIVIDI
+© RadioNBC.it - Riproduzione riservata
+RSS
+Primo Piano
+GLORENZA. SI VERSA ADDOSSO DEL TE’ BOLLENTE, FERITO UN BIMBO DI 3 ANNI
+Posted: 15 febbraio 2017
+Incidente domestico a Glorenza. Un bimbo di tre anni è rimasto ustionato dopo essersi inavvertitamente versato addosso del tè bollente. Subito sul posto i soccorsi e i sanitari del Pelikan1 che hanno trasportato il bimbo all’ospedale S.Maurizio di Bolzano dove è stato ricoverato con ustioni di primo e secondo grado nella parte inferiore della gamba
+VAL SARENTINO. CON LO SLITTINO FUORI PISTA, GRAVE
+Posted: 15 febbraio 2017
+Grave incidente sulle nevi della Val Sarentino a S.Martino. Un turista di 30 anni, di nazionalità ceca, stava scendendo con lo slittino, quando, dopo aver sbagliato pista, è caduto rovinosamente. Sul posto i soccorsi e il Pelikan 1 che ha trasportato il ferito all’ospedale S.Maurizio di Bolzano dove è stato ricoverato in gravi condizioni. Il …
+Continua a leggere
+LO SCIENZIATO STATUNITENSE LIVINGSTON VINCE IL PREMIO PEZCOLLER DEL TRENTINO
+Posted: 15 febbraio 2017
+E’ stato assegnato al professore di Harvard David Morse Livingstone il premio Pezcoller che ogni anno viene assegnato dalla Fondazione trentina a chi si è distinto per la ricerca contro il cancro. Livingstone è considerato un pioniere nello studio dei meccanismi di moltiplicazione delle cellule tumorali. 9 i finalisti di quest’anno. Il premio è molto …
+Continua a leggere
+TUTTE LE NOTIZIE
+Eventi Radio NBC
+FRANCESCO COMINA RACCONTA MAYR NUSSER
+Posted: 6 febbraio 2017
+“Se nessuno avrà mai il coraggio di contrastare il nazionalsocialismo, questo sistema non crollerà mai!” E’ il 4 ottobre 1944 e la giovane recluta delle SS, il sudtirolese Josef Mayr Nusser, ha appena gridato la sua obiezione di coscienza di cristiano alla dittatura. Alla storia di questo eroe solitario, quale fu Josef Mayr Nusser, il …
+Continua a leggere
+NBC AL FESTIVAL DI SANREMO
+Posted: 1 febbraio 2017
+La 67 esima della manifestazione piu’ amata dagli italiani verra’ seguita in diretta anche quest’anno da Nbc Rete Regione la Radio delle Alpi. Le canzoni, gli ospiti, le polemiche, le curiosita’, i pettegolezzi, dalla nostra postazione “Motivi” in Corso Matteotti 95 a pochi metri dal teatro Ariston, in diretta dalle 10.15 alle 12.00 di mercoledì …
+Continua a leggere
+MARINA MANGANARO, CI PARLERA’ DEL LIBRO “DI MAMMA CE N’E’ UNA SOLA (GRAZIE AL CIELO)
+Posted: 20 gennaio 2017
+Dopo la pausa natalizia, torna la rubrica “Il libro della domenica” in collaborazione con l’Associazione Scrittori Bolzano. Domenica prossima alle 9.40, sara’ con noi la sociologa bolzanina Marina Manganaro, ci parlera’ del libro “Di mamma ce n’e’ una sola (grazie al cielo) edito da Curcu & Genovese.
+TUTTI GLI EVENTI
+Cerca
+ULTIME NOTIZIE
+ARTICOLO NORMALE
+GLORENZA. SI VERSA ADDOSSO DEL TE’ BOLLENTE, FERITO UN BIMBO DI 3 ANNI
+15 febbraio 2017
+ARTICOLO NORMALE
+VAL SARENTINO. CON LO SLITTINO FUORI PISTA, GRAVE
+15 febbraio 2017
+ARTICOLO NORMALE
+LO SCIENZIATO STATUNITENSE LIVINGSTON VINCE IL PREMIO PEZCOLLER DEL TRENTINO
+15 febbraio 2017
+ARTICOLO NORMALE
+TORNA IL GRAN CARNEVALE ALPINO A SAN MICHELE ALL’ADIGE
+15 febbraio 2017
+ARTICOLO NORMALE
+RIFIUTI, BOLZANO NEL MIRINO DELL’UE PER PIANO DI GESTIONE OBSOLETO
+15 febbraio 2017
+ARTICOLO NORMALE
+TROPPI PROFUGHI A BOLZANO, IL COMUNE CHIEDE AIUTO ALLA PROVINCIA
+15 febbraio 2017
+ARTICOLO NORMALE
+RAVINA DI TRENTO. TENTATO FURTO IN UN APPARTAMENTO, ARRESTATA
+15 febbraio 2017
+ARTICOLO NORMALE
+BOLZANO. SENZA PATENTE E SENZA ASSICURAZIONE, SANZIONE DI 6 MILA EURO
+15 febbraio 2017
+ARTICOLO NORMALE
+MERANO. INCIDENTE STRADALE, DUE STUDENTI FERITI
+15 febbraio 2017
+ARTICOLO NORMALE
+BOLZANO. STUDIO, IL BILINGUISMO RITARDA I SINTOMI DELL’ALZHEIMER
+15 febbraio 2017
+NEWSLETTER
+Form by MailChimp for WordPress plugin v2.1.3 - https://mc4wp.com/
+Nome
+Cognome:
+Indirizzo mail:
+/ MailChimp for WP Plugin
+Informativa privacy
+PUBBLICITÀ
+FACEBOOK
+RADIO NBC APP
+START REVOLUTION SLIDER 4.6.0 fullwidth mode
+SLIDE
+MAIN IMAGE
+LAYERS
+LAYER NR. 1
+LAYER NR. 2
+LAYER NR. 3
+SLIDE
+MAIN IMAGE
+LAYERS
+LAYER NR. 1
+LAYER NR. 2
+LAYER NR. 3
+END REVOLUTION SLIDER
+WWW.RADIONBC.IT
+WWW.ALPINOTIZIE.IT
+DIRETTORE RESPONSABILE
+Rosanna Nannarone
+SOCIETÀ EDITRICE
+Publicenter Trentino Alto Adige/Suedtirol S.R.L.
+Bolzano Via Molini n. 5
+con capitale sociale di Euro 10.000,00
+iscritta al Registro delle Imprese di Bolzano
+numero di iscrizione e codice fiscale 027243802138
+AMMINISTRATORE
+Rosanna Nannarone
+SEDI DI PRODUZIONE
+DI RADIO NBC RETE REGIONE
+Tel. +39 0471 972747
+Fax +39 0471 978289
+SMS & WHATSAPP 347 7780713
+e-mail: info@radionbc.it
+P.I. 00851480210
+BOLZANO
+via Molini, 5
+Tel. 0471 972747
+TRENTO
+via Mattioli, 7
+Tel. 0461 391186
+REDAZIONE
+Marco De Angelis
+Daniele Magagnin
+Francesca Merz
+Rosanna Nannarone
+Patrizia Orsingher
+Tutti i diritti riservati
+Radio NBC Rete Regione | La Radio delle Alpi
+HOME
+EVENTI
+NOTIZIE
+SPORT
+OSPITI
+PODCAST
+MERCATINO
+RSS
+NEWSLETTER
+CONTATTI
+PRIVACY
+Questo sito utilizza i cookie. Continuando a navigare il sito accetti i termini e le condizioni previste per l'utilizzo dei cookie.
+Leggi di più
+.
+Continua

@@ -1,0 +1,73 @@
+Add class .is-active to show .theme16-poll
+Why are you closing?
+It hides the content
+It looks like an ad
+I trust only original links
+Link shared by
+TUSDJ
+TUSDJ
+@tusdj
+Somos La Página Oficial de Los DJs en Venezuela. 
+http://t.co/itPvVr68qx 
+Twitter: @tusdj 
+Facebook: Tusdjcom 
+Whatsapp: 04241638546 
+Bbpin: 7BA390CB
+tusdj.com
+<span class="js-conteiner-panel-xmaspic">
+                    <div class="panel-cell panel-cell_separator-right js-santa-dropdown ">
+
+                                                    <span data-version="1" class="panel-btn panel-btn_snow  js-panel-christmasTree"><span class="ico-down-open"></span></span>
+                                                    <span data-version="2" class="panel-btn panel-btn_santa js-panel-christmasTree">Find Santa<span class="ico-down-open"></span></span>
+                        
+                        <div class="panel-dropdown panel-santa ">
+                            <span class="santa-hide js-dont-show">Close</span>
+                            <span class="santa-hat"></span>
+                            <div class="santa-content">
+                                <img src="/images/popups/santa/santa-dropup-pic.png" alt="">
+                                <h3>Santa Claus is comin' to town!</h3>
+                                <p>Upload a photo with your friends and find out who is Santa among them!</p>
+                                <div class="santa-buttons">
+                                    <span class="santa-button-decorations">
+                                        <a
+                                            href=""
+                                            target="_blank"
+                                            class="button button_green js-button-xmaspic"
+                                        >
+                                            Seek for Santa!
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+prev
+14 days ago
+Previous link
+Holanda apuesta al consumo responsable a través de Youtubers Drogados - TUSDJ.com
+Links tweeted by TUSDJ
+Instagram photo by TUSDJ.com • Jan 29, 2017 at 12:40pm UTC
+Shared 17 days ago
+Instagram video by TUSDJ.com • Jan 27, 2017 at 1:10pm UTC
+Shared 19 days ago
+¿QUE TAL? Tiesto le dice adiós a su logo viejo - TUSDJ.com
+Shared 19 days ago
+¿QUE TAL? Tiesto le dice adiós a su logo viejo - TUSDJ.com
+Shared 19 days ago
+Instagram photo by TUSDJ.com • Jan 27, 2017 at 11:06am UTC
+Shared 19 days ago
+Instagram photo by TUSDJ.com • Jan 25, 2017 at 11:58am UTC
+Shared 21 days ago
+Load more links
+Next
+17 days ago
+Next
+Instagram photo by TUSDJ.com • Jan 29, 2017 at 12:40pm UTC
+Log in
+Original URL
+http://www.tusdj.com/jamiroquai-reaparece-video-tras-7-anos-ausencia
+#LoActual Jamiroquai reaparece en vídeo tras 7 años de ausencia [VÍDEO]   #Jamiroquai…
+16 days ago
+POPUPS
+New popups Template

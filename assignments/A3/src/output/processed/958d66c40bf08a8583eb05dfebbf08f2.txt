@@ -1,0 +1,103 @@
+Sender
+Programm
+Nachhören
+Mitmachen
+Sender
+Empfangsmöglichkeiten
+Livestream
+Kontakt
+Anfahrt
+Förderverein
+Die Website von Kölncampus verwendet JavaScript.
+Sollten einige Teile der Seite bei dir nicht funktionieren, dann aktiviere bitte JavaScript für unsere Seite in deinen Browsereinstellungen. Vielen Dank!
+Livestream
+Fragen zum Livestream?
+technik@koelncampus.com
+Für alle, die gerade kein Radio zur Hand haben, trotzdem aber nicht auf Kölncampus verzichten möchten, bietet der Livestream die Möglichkeit, Kölncampus direkt über das Internet zu hören.
+Am einfachsten klickt ihr einfach oben rechts auf
+PLAY
+und genießt direkt sorgenfrei Kölncampus.
+Für den Live Stream mit  dem
+VLC Player
+,
+Winamp
+,
+iTunes
+, oder
+Windows Media Player
+klickt einfach auf einen der Streams:
+[
+low-quality-stream mit 96 kbit/s 44.100kHz stereo mp3
+]
+[
+mid-quality-stream mit 160 kbit/s 44.100kHz stereo ogg/vorbis
+]
+[
+high-quality-stream mit 192 kbit/s 48.000kHz stereo mp3
+]
+On Air
+Heute auf Kölncampus
+08:00
+Frührausch
+Dance like nobody's watching
+13:00
+Nachdurst Klang
+Lieblingslieder für alle!
+20:00
+What Up!?
+MC Rene und Rap aus dem nahen Osten
+slowdive
+star roving
+To play the media you will need to either update your browser to a recent version or update your
+Flash plugin
+.
+Playlist
+23:10
+wilson, jenny
+opposition
+23:07
+portugal the man
+the sun
+Empfang
+Stream
+a href="/programm/livestream/popup.html" class="btn btn-default btn-sm" target="_blank">Stream im Fenster</a
+Playlist
+Technik
+Leitung:
+Renè Müller
+Redaktion:
+Aaron Chibb
+Jonas Ring
+Twitter
+Jetzt auf Kölncampus: What Up!?
+MC Rene und Rap aus dem nahen Osten https://t.co/Bv1kwBAs0I https://t.co/ROCOQZpl78
+15.02.2017 20:00
+Jetzt auf Kölncampus: Nachdurst Klang
+Lieblingslieder für alle!  https://t.co/gGHoDhNOfO https://t.co/rYRDt07Gn0
+15.02.2017 13:00
+Jetzt auf Kölncampus: Frührausch
+Dance like nobody's watching https://t.co/XEXdvQ5D20 https://t.co/BqwQgthmP9
+15.02.2017 08:00
+Auf Twitter öffnen
+Intern
+Presse
+RSS
+Datenschutz
+Impressum
+Sender
+Empfang
+Playlist
+Kontakt
+Programm
+Livestream
+Programmtipps
+Nachhören
+Mitmachen
+Ausbildung
+Erfahrungsberichte
+Fortbildung
+Veranstaltungen
+15. Hellfire Radio Birthday Bash
+Crossroads Festival - Das ureigene Rockpalast Festival
+Konzerttipps
+Partner

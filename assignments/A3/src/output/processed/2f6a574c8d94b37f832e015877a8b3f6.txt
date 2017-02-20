@@ -1,0 +1,303 @@
+[if IE 9]> 
+		<link rel="stylesheet" href="/Content/css/ie9.css?v=201606141745" type="text/css" />
+	<![endif]
+[if lte IE 8]>
+		<link rel="stylesheet" href="/Content/css/ie8.css?v=201606141745" type="text/css" />
+	<![endif]
+PageFair AdBlock Detection
+PageFair AdBlock Detection END
+Follow us on Facebook
+Follow us on Twitter
+Be connected with Linked In
+Follow us on Instagram
+<li><a class="icon-googleplus" href="http://www.lctmag.com/googleplus" target="_blank" title="Google+">Follow us on Google+</a></li>
+Add us to your Chrome Browser
+RSS Feed
+<ul class="member">
+                    <li><a id="topSignIn" href="http://www.lctmag.com/signin">Sign In</a></li>
+                    
+                </ul>
+                <div id="topSignInBox" class="sign-in-drop-down" style="display:none;">
+                    <div id="topSignInBox_MessageBox" class="error" style="display:none;margin-bottom:-6px;">
+                        <div id="topSignInBox_Message" class="message"></div>
+                        <div class="messageBottom"></div>
+                        <div class="margin-bottom-20"></div>
+                    </div>
+                    <div id="topSignInBox_BottomIn">
+                        <label for="username"><span class="font-bold">User Name</span></label>
+                        <div class="sign-in-drop-down-box margin-bottom-20">
+    	                    <input id="topSignInBox_Username" type="text" name="username" tabindex="1" maxlength="20" />
+                        </div>
+                        <label class="floatleft" for="password"><span class="font-bold">Password</span> (Case-sensitive)</label>
+                        <a class="link-11-dddddd-underline floatright" href="http://www.lctmag.com/forgotpassword">(Forgot Password?)</a>
+                        <div class="floatclear"></div>
+                        <div class="sign-in-drop-down-box margin-bottom-20">
+    	                    <input id="topSignInBox_Password" type="password" name="password" tabindex="2" maxlength="50" />
+                        </div>
+                        <div class="member-check-box margin-bottom-10 floatleft">
+                            <input type="checkbox" tabindex="3" name="rememberMe" id="topSignInBox_RememberMe">
+                            <label for="topSignInBox_RememberMe" class="font-bold">Remember Me</label>
+                        </div>
+                        <div class="floatclear"></div>
+                        <a id="topSignInBox_SignIn" class="btn-log-in" href="javascript:void(0);">Log In</a>
+                    </div>
+                </div>
+LCT Awards
+Subscribe
+Digital Edition
+Advertise with us
+About us
+LCT Limousine, Charter & Tour
+#1 Source for operators
+Free Subscription
+Free Digital
+News
+Vehicles
+People
+Money
+Operations
+Tech
+Regulations
+Research
+Events
+LCT Connect
+QUICK LINKS
+News
+Blogs
+Photos
+Videos
+How-To Guides & Whitepapers
+Magazine
+Supplier Directory
+Operations
+EmpireCLS Adds MCI Luxury Buses With 3-Point Seatbelts
+Posted on January 31, 2017
+Post a comment
+|
+Comments 0
+|
+(Photo from EmpireCLS press release)
+SECAUCUS, NJ —
+EmpireCLS
+has just taken delivery of new MCI 56-passenger luxury motorcoaches in which every seat is equipped with three-point lap shoulder belts.
+These are required by law for all motorcoaches built from November 2016 onward, according to the National Highway Traffic Safety Administration.
+The motorcoaches also feature all of the modern bells and whistles expected in today's tech-focused climate, such as high headroom, advanced A/V equipment for presentations en route, onboard facilities, high-speed wireless internet, A/C and USB outlets at every seat, 15-inch HD LCD monitors, oversized storage capacity, and leather trimmed seats.
+EmpireCLS press release here
+Tags:
+buses
+charter and tour
+corporate business
+corporate travel
+EmpireCLS
+MCI
+meetings and conventions
+motorcoaches
+View comments or post a comment on this story. (0 Comments)
+Previous
+Metris Makes Mommies Choose Luxury Service
+Next
+Staying Small Leads To Better Personalized Service
+More News
+Above All/Boston Car Service Buys Small Operation
+The acquisition helps the Boston-area large fleet company grow its service territory toward Cape Cod.
+Indiana Operator Adapts To Industry Disruption
+Gary Cooper of Affiliated Transportation invests in tech communication tools that impress affiliates and seal the deal with clients.
+Megabus Aims To Host Mega Unique Wedding
+WebXclusive: The company is hosting a contest to win a once-in-a-lifetime opportunity any motorcoach loving couple will want to say “I do” to.
+New Jersey Operator Ties Success To Simplicity
+WebXclusive: Sam Emam of Chauffeurs Limo credits his father’s work ethic and guidance as the key to running a thriving limo company.
+Police Release Video Of Limo Arson Suspects
+The fire happened around 10:20 a.m. Jan. 20 in the 1300 block of K Street during protests against the inauguration of President Donald Trump.
+See More News
+Facebook Comments (
+)
+Comments
+Comments (0)
+/Comments
+Leave Comment
+Post a Comment
+Please fill out all the fields to comment on story
+Name
+Email Address
+Comment
+Submit
+/Leave Comment
+<div class="premium-member">
+    <a href="/signup"><h1 class="lct-premium-member">Become a LCT Premium Member</h1></a>
+    
+    <ul class="lct-premium-member-list">
+        <li>Full access to the entire LCT archive of content</li>
+        <li>Full access to our entire library of statistics from our annual Fact Book editions</li>
+        <li>Detailed statistical data on the limousine and chauffeured transportation industry</li>
+    </ul>
+    <div class="margin-top-5">
+        Already a member? </span> <a class="link-11-777777-underline" href="http://www.lctmag.com/signin">Sign in</a>
+    </div>
+</div>
+LCT E-News
+Sign up for LCT's free e-newsletters.
+View the latest LCT E-Newsletters:
+LCT E-News
+LimoForSale Limo Showcase
+Affiliate Report
+Free Whitepapers
+Blogs
+Bad Driver Behavior Beckons A Driverless World
+Populist Peeps On The Rebound
+See More
+My Unofficial International LCT Show Agenda
+How To Practice Common Sense Customer Service
+See More
+How To Sell Your “Once Upon A Time…”
+Don’t Fall For Media Manipulation
+See More
+Regs Or No Regs? Trump Or Clinton Will Determine
+LCT East To Boost Industry Power In Numbers
+See More
+LCT Store
+LCT Magazine - January 2017
+$12.95
+THE MONEY ISSUE
+COVER STORY:
+* Dashboard Helps Steer Company Finances
+*  
+*
+<div>
+    <div class="floatclear"></div><br/>
+   <a style="padding-left:0;" class="biographies-searchbox-title" href="/biographies">biographies</a>
+    <div class="floatclear"></div>
+    Who's who of the Limousine, Charter and Tour industry? <a href="/biographies">Biographies</a> is the place to find out.<br/><br/>
+    <a id="MainContent_RightColumnContent_RightBiography1_hlName" class="link-16-blue" href="http://www.lctmag.com/people/biographies/40509/ty-bobit">Bobit, Ty</a>
+    <br/>
+    <a id="MainContent_RightColumnContent_RightBiography1_hlImage" href="http://www.lctmag.com/people/biographies/40509/ty-bobit"><img id="MainContent_RightColumnContent_RightBiography1_imgBio" src="http://images.lctmag.com/post/S-2003-15-1-1.jpg" /></a><br/>
+    <span id="MainContent_RightColumnContent_RightBiography1_lblBio">Ty Bobit is not only president and chief executive officer of Bobit Business Media, but he was LCT Magazine&rsquo;s first publisher and...</span> <a id="MainContent_RightColumnContent_RightBiography1_hlMore" href="http://www.lctmag.com/people/biographies/40509/ty-bobit">read more</a>
+    <br/><br/>
+</div>
+Popular Topics
+breaking news
+business travel
+Cadillac
+California operators
+customer service
+Fleet Vehicles
+industry events
+industry trends
+Jim Luff
+limo tradeshows
+mobile applications
+mobile technology
+motorcoaches
+new vehicles
+passenger safety
+premium luxury sedans
+regulatory enforcement
+Sales & Marketing
+TNCs
+Uber
+LCT Events Calendar
+Wisconsin Limousine Association (WLA)
+Feb 15, 2017
+North Carolina Limousine Association (NCLA)
+Feb 16, 2017
+Colorado Limousine Association (CLA)
+Feb 21, 2017
+West Florida Livery Association (WFLA)
+Feb 21, 2017
+Central Florida Limousine Association (CFLA)
+Feb 21, 2017
+More Upcoming Events
+Connect
+Experience the three annual industry events for networking for business, showcasing vehicles and products, and getting the tools for success.
+ILCT Show
+LCT East
+LCT Summit
+Read About Your Region
+What’s Happening Near You?
+Click on any state to see the latest industry news and events in that region.
+Popular Regions
+Read Other Regional News
+International Business
+International Farm-out
+Canadian Operators
+European Operators
+Asian Operators
+Select your region
+More from the worlds largest fleet publisher
+More From The World's Largest Fleet Publisher
+Automotive Fleet
+The Car and truck fleet and leasing management magazine
+Business Fleet
+managing 10-50 company vehicles
+Fleet Financials
+Executive vehicle management
+Government Fleet
+managing public sector vehicles & equipment
+TruckingInfo.com
+THE COMMERCIAL TRUCK INDUSTRY’S MOST IN-DEPTH INFORMATION SOURCE
+Work Truck Magazine
+The number 1 resource for vocational truck fleets
+Metro Magazine
+Serving the bus and passenger rail industries for more than a century
+Schoolbus Fleet
+Serving school transportation professionals in the U.S. and Canada
+Topics
+Home
+Vehicles
+People
+Money
+Operations
+Tech
+Regulations
+Research
+LCT Connect
+Uber
+Quick Links
+News
+Blogs
+Events Calendar
+Photo Galleries
+Videos
+How-To Articles
+Magazine
+Dealer Showroom
+Store
+Supplier Directory
+Fast 40
+Largest Fleets Lists
+Site Map
+Services
+Subscription Services
+Advertise
+About Us
+Contact Us
+Privacy Policy
+Events
+LCT Show
+LCT Show
+LCT East
+LCT East
+LCT Summit
+LCT Summit
+Other Related Sites
+Automotive Fleet
+Fleet Central
+Limo For Sale
+Driverless Vehicle News
+NLA
+© 2017 Limousine, Charter & Tour. All Rights Reserved.
+Please
+sign in
+or
+register
+to
+.
+Close
+Google Code for Main List
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup
+Default Insight Tag
+Cros Pixel LCTMag
+Cros Pixel LCTMag
+Piwik
+End Piwik Code
+BlueConic
+BlueConic

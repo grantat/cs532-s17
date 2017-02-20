@@ -1,0 +1,267 @@
+Skip navigation
+Sign in
+Search
+Aural Elixir
+Videos
+Playlists
+Channels
+Discussion
+About
+Home
+Trending
+History
+Get YouTube Red
+Best of YouTube
+Music
+Sports
+Gaming
+Movies
+TV Shows
+News
+Live
+Spotlight
+360° Video
+Browse channels
+Sign in now to see your channels and recommendations!
+Sign in
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Watch Later</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Watch Later</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription added</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription removed</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Saved to Playlists</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Playlists</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to playlist</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from playlist</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Liked videos</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Liked videos</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >You'll be reminded about this event</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Event reminder removed</span></span></div>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-visibility-tracking="" data-sessionlink="ei=GdGkWKuXEpKl8wTumKCwBA&amp;feature=g-playlists" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-playlists-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Saved to Playlists">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-visibility-tracking="" data-sessionlink="ei=GdGkWKuXEpKl8wTumKCwBA&amp;feature=g-playlists" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-mix-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Saved to Playlists">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-visibility-tracking="" data-sessionlink="ei=GdGkWKuXEpKl8wTumKCwBA&amp;feature=g-channel" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        
+  <img aria-hidden="true" data-ytimg="1" width="20" height="20" alt="" src="__THUMBNAIL_URL__" onload=";__ytRIL(this)" >
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Subscription added">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+Watch Queue
+Queue
+Watch Queue
+Queue
+Remove all
+Disconnect
+The next video is starting
+stop
+Loading...
+Watch Queue
+Queue
+__count__/__total__
+<p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+http://www.auralelixir.com
+Aural Elixir
+Subscribe
+Subscribed
+Unsubscribe
+Loading...
+Loading...
+Working...
+Home
+Videos
+Playlists
+Channels
+Discussion
+About
+► Play all
+NEW!
+Aural Elixir
+14 videos
+199 views
+Last updated on Jan 29, 2017
+Play all
+Share
+Loading...
+Save
+Sign in to YouTube
+Sign in
+Play next
+Play now
+NPR Music - Tiny Desk Contest 2017 - "Better" by Aural Elixir
+by
+Aural Elixir
+7:40
+Play next
+Play now
+"Perhaps" an original song by Aural Elixir
+by
+Aural Elixir
+3:17
+Play next
+Play now
+I Like Coffee! - an original song by Aural Elixir
+by
+Aural Elixir
+4:00
+Play next
+Play now
+We Smile 8 2016
+by
+Aural Elixir
+5:29
+Play next
+Play now
+Shades of Scarlet Conquering, a Joni Mitchell song
+by
+Aural Elixir
+3:33
+Play next
+Play now
+"Absinthe" an original song by Aural Elixir
+by
+Aural Elixir
+5:05
+Play next
+Play now
+Claim Your Land 8 2016
+by
+Aural Elixir
+8:00
+Play next
+Play now
+Eet- Aural Elixir covers a Regina Spektor song
+by
+Aural Elixir
+4:14
+Play next
+Play now
+Aural Elixir - Concert Window Highlight
+by
+Concert Window
+9:48
+Play next
+Play now
+"You've Changed" Aural Elixir Mardi Gras Leftovers Party 2016
+by
+Aural Elixir
+7:02
+Play next
+Play now
+Aural Elixir Alone In A Room - Concert Window Highlight
+by
+Concert Window
+10:01
+Play next
+Play now
+Playboy Mommy (8 2016) , a Tori Amos song covered by Aural Elixir
+by
+Aural Elixir
+5:21
+Play next
+Play now
+Aural Elixir - Concert Window Highlight
+by
+Concert Window
+4:28
+Play next
+Play now
+We Smile- an original song by Aural Elixir
+by
+Aural Elixir
+6:04
+Language:
+English
+Content location:
+United States
+Restricted Mode:
+Off
+History
+Help
+Loading...
+Loading...
+Loading...
+About
+Press
+Copyright
+Creators
+Advertise
+Developers
++YouTube
+Terms
+Privacy
+Policy & Safety
+Send feedback
+Test new features
+Loading...
+Working...
+Sign in
+to add this to Watch Later
+Add to
+Loading playlists...

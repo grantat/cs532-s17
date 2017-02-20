@@ -1,0 +1,101 @@
+[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]
+title
+#title
+[if lt IE 9]>
+
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    	<![endif]
+#head
+Aller au contenu principal
+Accueil
+Actualités
+Programmes
+Replay
+Derniers titres
+Sélection du mois
+Connexion
+Compte utilisateur
+start scroll
+VIDEO. Affaires Fillon : ces militants LR qui ne veulent plus faire campagne
+Etats-Unis : un ministre désigné par Trump forcé de se retirer
+Heurts à Paris en marge d'une manifestation non déclarée de soutien à Théo
+Macron qualifie la colonisation française de "crime contre l’humanité" et s'attire les foudres d'élus des Républicains et du FN
+VIDEO. Pour Baroin, "Macron, c'est une agence de voyages qui visite la France et qui la découvre"
+François Fillon cherche le soutien de Nicolas Sarkozy lors d'un déjeuner "chaleureux"
+end scroll
+<a title="Google+" href="https://plus.google.com/+Lesonuniquecom" target="_blank"><i class="fa fa-google-plus color-google"></i></a>
+<a title="Pinterest" href="" target="_blank"><i class="fa fa-pinterest color-pinterest"></i></a>
+<a title="Flickr" href="" target="_blank"><i class="fa fa-flickr color-flickr"></i></a><a title="Skype" href="" target="_blank"><i class="fa fa-skype color-skype"></i></a><a title="Tumblr" href="" target="_blank"><i class="fa fa-tumblr color-tumblr"></i></a><a title="Vimeo" href="" target="_blank"><i class="fa fa-vimeo-square color-vimeo"></i></a>
+#tn-container
+#tn-nav bar
+#logo
+En ce moment sur l'antenne de SUN
+23:10
+Soul II Soul
+A dreams a dream
+23:04
+A Taste Of Honey
+Boogie Oogie Oogie
+Écouter la radio
+#custom ads
+#header ads
+#main header
+#tn container
+#mobile nav wrap
+Accueil
+Actualités
+Infos locales
+Sport
+Culture
+Musique
+Programmes
+Replay
+Derniers titres
+Sélection du mois
+Connexion
+Formulaire de recherche
+#ajax search
+#main nav inner
+#tn container
+#main nav wrap
+# main nav
+#module ticker
+Accueil
+Love Foolosophy
+Ajout de "&& arg(0) != 'articles'" pour avoir Sidebar dans "Actualités"
+Musiques
+Love Foolosophy
+partager:
+Facebook
+Twitter
+Google +
+Titre:
+Love Foolosophy
+Artiste:
+Jamiroquai
+Album:
+funk odyssey
+Année:
+2001
+Durée:
+255.69
+Label:
+epic
+Parole:
+10901_paroles.html
+Vote
+j'aime
+55%
+J'aime pas
+45%
+Google Plus Un
+Like Facebook
+Partager sur Facebook
+Tweet Widget
+Ajouter à ma playlist
+s'authentifier
+#post content
+#single author wrap

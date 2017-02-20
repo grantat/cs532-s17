@@ -1,0 +1,703 @@
+Gallery and Video tag rel prev / next management
+Configuring the Viewport for mobile-optimized site
+Microformats http://microformats.org/profile/specs/
+Feed RSS
+Google Site Verification
+Facebook Open Graph Meta Tags
+Post & Video only
+Post only
+Twitter Meta Tags
+Post only
+Twitter disable Content Security Policy warnings on your site
+Itunes APP ID for Smart App Banners
+Favicons
+DNS Prefetch
+CRITICAL CSS
+CSS
+Fonts
+Js
+Old browser support
+[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]
+CHAMELEON AD JS
+Google Tag Manager
+End Google Tag Manager
+MOBILE MENU
+blogo
+NEWS
+SPORT
+ENTERTAINMENT
+TECH
+MOTORI
+DONNA&LIFESTYLE;
+BLOGO TV
+MAG
+custom fields
+#SmartCities360
+END MOBILE MENU
+wrapper #all-page
+header
+blogo
+Informazione libera e indipendente
+Menu Profile
+Menu Profile
+Entra
+Registrati
+End menu profile
+Top Nav
+NEWS
+SPORT
+ENTERTAINMENT
+TECH
+MOTORI
+DONNA&LIFESTYLE;
+BLOGO TV
+MAG
+custom fields
+#SmartCities360
+End Top nav
+Channel Nav
+TV
+Reality
+Cinema
+Musica
+Sconti
+End Channel nav
+SubChannel Nav
+End SubChannel nav
+Vertical Nav
+soundsblog
+Metal
+Amici 16
+content
+Frame1
+Top1
+Jamiroquai, Automaton: tracklist del nuovo album
+Post Info
+Di
+Alberto Graziola
+lunedì 30 gennaio 2017
+Automaton dei Jamiroquai esce il 31 marzo 2017. Leggi la tracklist del disco su Blogo.it
+post content
+Chameleon Ad | Blogo ENTERTAINMENT | ZID 711
+END Chameleon Ad Tag | ZID 711
+Automaton
+è il titolo dell'ottavo disco in studio dei
+Jamiroquai
+. Il gruppo soul funk elettronico, vincitore di un Grammy Award, torna con un album scritto e prodotto da Jay Kay e dal tastierista Matt Johnson nei negozi tradizionali e in digitale su etichetta VIRGIN EMI dal 31 marzo. Nelle scorse ore è uscita la prima traccia del disco, l'omonimo singolo Automaton, che potete ascoltare
+qui
+.
+Qui sotto, a seguire, la tracklist dell'album:
+“Shake It On”
+“Automaton”
+“Cloud 9”
+“Superfresh”
+“Hot Property"
+“Something About You”
+“Summer Girl”
+“Nights out in the Jungle”
+“Dr Buzz”
+“We Can Do It”
+“Vitamin”
+“Carla”
+La formazione dei Jamiroquai avviene nel 1992 da Jay Kay: sono diventati una delle maggiori realtà del mondo fin da disco di debutto “Emergency on Planet Earth”. Con uno stuolo di fan famosi come Chance the Rapper, The Black Madonna, Anderson.Paak, Pharrell, Tyler the Creator, Jungle, Redman, Stevie Wonder & The Internet, Jamiroquai hanno costantemente dimostrato a se stessi di essere una delle band più influenti e innovatrici del loro tempo. Nella loro carriera il gruppo annovera sette album che hanno raggiunto la Top10 inglese (e tre il 1 posto), un Grammy Award, più di 26 milioni di dischi venduti nel mondo e il Guinness Book of World Records per il disco funk che ha venduto di più di tutti i tempi.
+Francesco Gabbani, Occidentali's Karma: il significato
+Sanremo 2017... in classifica su iTunes
+Grammy 2017, tutti gli 84 vincitori
+Michele Torpedine VS Zucchero
+advplacedebug2
+desktop
+Leggi anche:
+News
+Novità discografiche
+Rating widget
+Vota l'articolo:
+4.00
+su
+5.00
+basato su
+3
+voti.
+Homepage
+News
+SOCIAL SHARE
+data-attribute = utilizzati in versione desktop
+href = utilizzati in versione mobile / no js
+shares
+Like
+Tweet
++1
+Mail
+END SOCIAL SHARE
+Notizie dalla rete
+BLOCK: /var/www/Private/HTML/BLOGO/Verticali-2014/block/widget_pulsantiera.php
+I Magazines di Blogo
+02blog
+06blog
+artsblog
+benessereblog
+autoblog
+bebeblog
+booksblog
+calcioblog
+cineblog
+clickblog
+comicsblog
+deluxeblog
+designerblog
+downloadblog
+ecoblog
+fashionblog
+gadgetblog
+gamesblog
+gossipblog
+gustoblog
+happyblog
+melablog
+mobileblog
+motoblog
+motorsportblog
+outdoorblog
+pinkblog
+queerblog
+soldiblog
+soundsblog
+toysblog
+travelblog
+tvblog
+crimeblog
+polisblog
+petsblog
+AdvPlace sidebar
+In Evidenza
+Chameleon Ad | Blogo ENTERTAINMENT | ZID 723
+END Chameleon Ad Tag | ZID 723
+END AdvPlace
+SCELTI PER VOI
+Luca Chiaravalli a Blogo: "Il mio Sanremo 2017 fra la...
+Grido a Blogo: "Io e J-Ax come i Gremlins: dalla provincia e...
+Amy Lee, Love Exists - La cover di L'amore esiste di...
+Categorie
+Categorie principali
+Live report
+Musica e
+News
+Noadv
+Novità discografiche
+Recensioni
+Sondaggio
+Varie
+Video
+All you need
+Fotografia & Arti Visive
+Guide
+Hardware
+Risorse
+Software
+Strumenti
+Tecnologia
+Tips&Trick
+Amici
+Amici 12
+Amici 13
+Amici 14
+Amici 15
+Amici 16
+Il concerto del vincitore
+Artisti
+5 Seconds of Summer
+A Great Big World
+Abba
+Adam Lambert
+Adele
+Adriano Celentano
+Aerosmith
+Airys
+Akon
+Al Bano
+Alanis Morissette
+Alessandra Amoroso
+Alessandro Casillo
+Alessio Bernabei
+Alex Britti
+Alexandra Burke
+Alexia
+Alice Paba
+Alicia Keys
+Alvaro Soler
+Amy Winehouse
+Anastacia
+Andrea Bocelli
+Animal collective
+Anna Tatangelo
+Annalisa
+Arctic Monkeys
+Ariana Grande
+Arisa
+Ashlee Simpson
+Avicii
+Avril Lavigne
+Azealia Banks
+Backstreet Boys
+Bastille
+Bat For Lashes
+Beck
+Ben Harper
+Benji e Fede
+Beyoncè
+Biagio Antonacci
+Bianca Atzei
+Bjork
+Black Eyed Peas
+Blink 182
+Bloc Party
+Blue
+Blur
+Bluvertigo
+Bob Dylan
+Bon Jovi
+Braschi
+Briga
+Britney Spears
+Bruce Springsteen
+Bruno Mars
+Brunori Sas
+Calvin Harris
+Caparezza
+Carly Rae Jepsen
+Carmen Consoli
+Carrie Underwood
+Celine Dion
+Cesare Cremonini
+Cher
+Cheryl Cole
+Chiara Galiazzo
+Chris Brown
+Christina Aguilera
+Ciara
+Claudio Baglioni
+Clean Bandit
+Clementino
+Club Dogo
+Cluster
+Coldplay
+Conor Maynard
+Craig David
+Daft Punk
+Daniele Silvestri
+Dari
+David Bowie
+David Guetta
+Dear Jack
+Deborah Iurato
+Demi Lovato
+Depeche Mode
+Dido
+Dj
+Dolcenera
+Drake
+Duffy
+Ed Sheeran
+Editors
+Elio e le Storie Tese
+Elisa
+Ellie Goulding
+Elodie
+Elton John
+Emeli Sande
+Eminem
+Emis Killa
+Emma Marrone
+Enrico Ruggeri
+Enrique Iglesias
+Ermal Meta
+Eros Ramazzotti
+Fabri Fibra
+Fabrizio Moro
+Fedez
+Fergie
+Finley
+Fiorella Mannoia
+Florence and the Machine
+Foo Fighters
+Francesca Michielin
+Francesco De Gregori
+Francesco Gabbani
+Francesco Guasti
+Francesco Renga
+Francesco Sarcina
+Franco Battiato
+Frank Ocean
+Franz Ferdinand
+G-Eazy
+Gemelli Diversi
+George Michael
+Gerardo Pulli
+Geri Halliwell
+Gianluca Grignani
+Gianna Nannini
+Gianni Morandi
+Gigi D'Alessio
+Giorgia
+Giovanni Allevi
+Giovanni Caccamo
+Girls Aloud
+Giulia Luzi
+Giusy Ferreri
+Gorillaz
+Green Day
+Gwen Stefani
+Hozier
+Iggy Azalea
+Il Volo
+Imagine Dragons
+Irene Fornaciari
+Irene Grandi
+J-Ax
+James Blunt
+James Morrison
+Jamie Lynn Spears
+Janet Jackson
+Jay-Z
+Jennifer Lopez
+Jessie J
+John Lennon
+John Mayer
+John Newman
+Jonas Brothers
+Jovanotti
+Justin Bieber
+Justin Timberlake
+Kanye West
+Kasabian
+Katy Perry
+Ke$ha
+Keane
+Kelly Clarkson
+Kelly Rowland
+Kiesza
+Kings of Leon
+Kylie Minogue
+L'Aura
+Lady Antebellum
+Lady Gaga
+Lana Del Rey
+Laura Pausini
+LCD Soundsystem
+Lea Michele
+Lele
+Lenny Kravitz
+Leona Lewis
+Leonardo Lamacchia
+Ligabue
+Lily Allen
+Linkin Park
+Litfiba
+Little Mix
+Lodovica Comello
+Lorde
+Loredana Errore
+Lorenzo Fragola
+Lost
+Luca Napolitano
+Lucio Dalla
+M.I.A.
+Madh
+Madonna
+Maldestro
+Malika Ayane
+Mannarino
+Marco Carta
+Marco Guazzone e Stag
+Marco Masini
+Marco Mengoni
+Mariah Carey
+Marianne Mirage
+Marilyn Manson
+Marina Rei
+Mario Biondi
+Mario Venuti
+Marlene Kuntz
+Maroon 5
+Max Gazzè
+Max Pezzali
+Meghan Trainor
+Melanie C
+Michael Bublé
+Michael Jackson
+Michele Bravi
+Michele Zarrillo
+Mika
+Miley Cyrus
+Mina
+Modà
+Moreno
+Morgan
+Mumford & Sons
+Muse
+My Bloody Valentine
+Natalie Imbruglia
+Nate Ruess
+Ne-Yo
+Neffa
+Negramaro
+Negrita
+Nek
+Nelly Furtado
+Nesli
+Niccolò Fabi
+Nickelback
+Nicki Minaj
+Nicole Scherzinger
+Nina Zilli
+Nirvana
+No Doubt
+Noel Gallagher
+Noemi
+Norah Jones
+Oasis
+One Direction
+Ornella Vanoni
+Ottavio De Stefano
+Ozzy Osbourne
+Paola e Chiara
+Paola Turci
+Paolo Nutini
+Paramore
+Passenger
+Patty Pravo
+Paul McCartney
+Pearl Jam
+Pentatonix
+Pharrell Williams
+Phil Collins
+Phoenix
+Pierdavide Carone
+Pink
+Pino Daniele
+Pitbull
+Placebo
+Pooh
+Povia
+Psy
+Pussycat Dolls
+Queen
+R.E.M.
+Radiohead
+Raige
+Raphael Gualazzi
+Red Hot Chili Peppers
+Renato Zero
+Ricky Martin
+Rihanna
+Rita Ora
+Robbie Williams
+Robin Thicke
+Robyn
+Rocco Hunt
+Rolling Stones
+Ron
+Saint Motel
+Sam Smith
+Samuel
+Samuele Bersani
+Scissor Sisters
+Selena Gomez
+Sergio Sylvestre
+Shakira
+Shania Twain
+Shawn Mendes
+Sia Furler
+Sigur Rós
+Skunk Anansie
+Smashing Pumpkins
+Sonic Youth
+Soundgarden
+Spice Girls
+Stadio
+Stereophonics
+Sting
+Subsonica
+Sugababes
+Suor Cristina
+Susan Boyle
+Syria
+Take That
+Taylor Swift
+The Bastard Sons of Dioniso
+The Beatles
+The Chainsmokers
+The Kolors
+The Vamps
+The Wanted
+Timbaland
+Tiromancino
+Tiziano Ferro
+Tokio Hotel
+Tommaso Pini
+Train
+Troye Sivan
+U2
+Valeria Farinacci
+Valerio Scanu
+Vampire Weekend
+Vasco Rossi
+Verdiana
+Virginio
+Whitney Houston
+Zayn Malik
+Zero Assoluto
+Zucchero
+Classifiche Musicali
+Album più venduti in Italia
+Singoli più venduti in Italia
+Vendite discografiche
+Discografie
+Rebel Heart
+Eventi
+Concerto Primo Maggio
+Concerto Radio Italia
+Eurovision Song Contest
+Giffoni Music Concept
+Grammy Awards
+Italia Loves Emilia
+Mtv Awards
+MTV Europe Music Awards
+MTV Video Music Awards 2012
+Music Summer Festival
+Olimpiadi 2012
+Premi Musicali
+Sanremo 2010
+Sanremo 2011
+Sanremo 2012
+Sanremo 2013
+Sanremo 2014
+Sanremo 2015
+Sanremo 2016
+Sanremo 2017
+Sonar
+Sonisphere
+Soundsblog Awards 2008
+Soundsblog Awards 2009
+Soundsblog Awards 2011
+Wind Music Awards
+Zecchino d'oro
+Generi
+Ambient
+Blues
+Canzoni estate
+Country
+Cover
+Dance
+Dark Industrial
+Elettronica
+Experimental
+Folk
+Funk
+Grunge
+Hard & Heavy
+Hip hop
+Indie
+Indie Pop
+Indie Rock
+Italians Do It Better
+Japan
+Jazz
+K-Pop
+Latin
+Lounge
+Mashup
+Metal
+Pop
+Punk
+R'n'B
+Reggae
+Rock
+Soul
+Sperimentale
+Trash & Cult
+Letture
+Gossip.net
+Interviste
+Libri
+Magazines
+Rassegna Stampa Musicale
+Radio
+Audiradio
+Kiss Kiss
+Popolare Network
+R101
+Radio 105
+Radio 24
+Radio Capital
+Radio Deejay
+Radio Italia
+Radio Monte Carlo
+Radio Rai
+RDS
+RTL 102.5
+Virgin Radio
+Webradio
+Rihanna
+Unapologetic
+Rubriche musicali
+Compilation
+Discografie
+Natale
+Soundsblog Amarcord
+Testi canzoni
+Sonar
+Sonar 2009
+Talent zone
+American Idol
+Ex Talent Show
+SoundsFactor
+The Voice of Italy
+The Voice Usa
+X Factor
+X Factor 10
+X Factor 4
+X Factor 6
+X Factor 7
+X Factor 8
+X Factor 9
+X factor Usa 2012
+X Factor Usa 2013
+Vedi tutte
+|
+Archivio
+Video Channel playlist
+I VIDEO DEL CANALE ENTERTAINMENT DI BLOGO
+footer
+Chi siamo
+Contatti
+Condizioni di utilizzo
+Privacy
+Archivi
+Categorie
+Cookie Policy
+RSS
+Facebook
+Twitter
+Apple Store
+Google Edicola
+Newsletter
+© 2004-2017 Blogo.it, alcuni diritti riservati sotto licenza Creative Commons.
+Per informazioni pubblicitarie e progetti speciali
+contattare la business unit commerciale di Blogo.it
+Soundsblog.it fa parte del Canale Blogo Entertainment ed è un supplemento alla testata Blogo.it registrata presso il Tribunale di Milano n. 487/06, P. IVA 04699900967.
+JS
+PLUGIN: Facebook
+PLUGIN: Twitter
+Start User-Sync stickyads
+End User-Sync stickyads
+Google Code for Remarketing tag
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup
+10.10.1.212
+Cookie Script
+AUDIWEB
+START Nielsen Online SiteCensus V6.0
+COPYRIGHT 2012 Nielsen Online
+END Nielsen Online SiteCensus V6.0

@@ -1,0 +1,486 @@
+CSS
+JS
+INLINE SCRIPTS
+Schema.org markup for Google+
+twitter script
+X
+Naročite se na naše slovice
+Email
+Izberite 3 različne kategorije
+Slovenija
+Svet
+Politika in Kronika
+Gospodarstvo
+Zdravje
+Kultura
+Znanost in Tehnologija
+Šport
+Zabava
+Ostalo
+Slovenija
+Svet
+Politika in Kronika
+Gospodarstvo
+Zdravje
+Kultura
+Znanost in Tehnologija
+Šport
+Zabava
+Ostalo
+Slovenija
+Svet
+Politika in Kronika
+Gospodarstvo
+Zdravje
+Kultura
+Znanost in Tehnologija
+Šport
+Zabava
+Ostalo
+Kdaj želite prejemati slovice?
+zjutraj
+opoldan
+popoldan
+Ni veljaven e-poštni naslov!
+Veljaven e-poštni naslov!
+NE, HVALA
+NAROČITE SE
+DATE
+15.02.2017.
+Arhiv
+Potrditev
+2017-02-15 23:08:19
+Email
+Geslo
+Zapomni si me
+Ste pozabili geslo?
+<a href="/lang/si">SLO</a>
+                                                                                                          <a href="/lang/en">ENG</a>
+<div class="clearfix"></div>
+        <span class="logoMoto" style="color:grey"><i>VSE NOVICE NA ENEM MESTU</i></span>
+start search
+KATEGORIJE
+Slovenija
+Svet
+Politika in Kronika
+Gospodarstvo
+Zdravje
+Kultura
+Znanost in Tehnologija
+Šport
+Zabava
+Ostalo
+Ljubljana
+DANES
+-4°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+16.feb.
+7°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+17.feb.
+7°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light snow</span>
+                        </div>
+                      </td>
+                    </tr>
+18.feb.
+5°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light snow</span>
+                        </div>
+                      </td>
+                    </tr>
+Maribor
+DANES
+-3°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+16.feb.
+8°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+17.feb.
+9°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light rain</span>
+                        </div>
+                      </td>
+                    </tr>
+18.feb.
+7°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light rain</span>
+                        </div>
+                      </td>
+                    </tr>
+Kranj
+DANES
+-1°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+16.feb.
+6°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+17.feb.
+3°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light snow</span>
+                        </div>
+                      </td>
+                    </tr>
+18.feb.
+4°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light snow</span>
+                        </div>
+                      </td>
+                    </tr>
+Koper
+DANES
+-1°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+16.feb.
+6°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+17.feb.
+3°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light snow</span>
+                        </div>
+                      </td>
+                    </tr>
+18.feb.
+4°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light snow</span>
+                        </div>
+                      </td>
+                    </tr>
+Novo Mesto
+DANES
+-4°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+16.feb.
+7°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">clear sky</span>
+                        </div>
+                      </td>
+                    </tr>
+17.feb.
+7°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light snow</span>
+                        </div>
+                      </td>
+                    </tr>
+18.feb.
+5°
+<tr>
+                      <td colspan="2">
+                        <div class="fe_temp">
+                          <span class="fe_dir">light snow</span>
+                        </div>
+                      </td>
+                    </tr>
+Slovenija
+Svet
+Politika in Kronika
+Gospodarstvo
+Zdravje
+Kultura
+Znanost in Tehnologija
+Šport
+Zabava
+Ostalo
+KATEGORIJE
+Slovenija
+Svet
+Politika in Kronika
+Gospodarstvo
+Zdravje
+Kultura
+Znanost in Tehnologija
+Šport
+Zabava
+Ostalo
+DOMOV
+ZADNJE
+NAROČI SE
+Pokaži vec
+2017-01-28 12:04:25
+2017-01-28 12:04:25
+VIDEO: Osveženi Jamiroquai za digitalne čase
+Zasedba Jamiroquai se je na čelu z pevcem Jayem Kayem vrnila na velika vrata, saj predstavlja svežo novo pesem Automation. Istoimenski album bo izšel konec marca. Vas zanima, ka...
+Delo
+Pokaži vec
+2017-02-15 21:00:00
+2017-02-15 21:00:00
+Malo pred pred ciljem še brez favorita
+Berlinale ima najbolj številno občinstvo med vsemi filmskimi festivali, vendar letos ni preveč zadovoljno. Štiri dni pred koncem festivala v glavnem tekmovalnem programu ni p...
+24ur
+Pokaži vec
+2017-02-15 20:31:00
+2017-02-15 20:31:00
+Tajkunski škandal v novem domačem filmu Anina provizija
+Tajkunski posli že nekaj časa burijo domišljijo Slovencev, vsa ta drama ter škandali pa so navdihnili tudi scenarista novega filma Anina provizija. Poleg Vesne Milek, Dejana Sp...
+Delo
+Pokaži vec
+2017-02-15 18:00:00
+2017-02-15 18:00:00
+Režijski prvenec Stingove žene
+Britanska igralka in producentka Trudie Styler je ta teden debitirala na berlinskem filmskem festivalu s filmom Freak Show o gejevskem ameriškem najstniku, ki se upre ustrahovan...
+STA
+Pokaži vec
+2017-02-15 17:05:24
+2017-02-15 17:05:24
+Znanih pet finalistov za nagrado Mies van der Rohe
+Znanih je pet finalistov za nagrado Mies van der Rohe 2017. To so stanovanjska kompleksa deFlat Kleiburg v Amsterdamu in Ely Court v Londonu, poslopje Kannikegarden v danskem mestu...
+Delo
+Pokaži vec
+2017-02-15 16:00:00
+2017-02-15 16:00:00
+Sviz ministru Peršaku: Uredite stanje v SF
+Sindikat Sviz poziva ministra za kulturo Toneta Peršaka, naj v okviru svojih pristojnosti poseže v dogajanje in poskrbi za ureditev stanja v Slovenski filharmoniji (SF). Orkest...
+STA
+Pokaži vec
+2017-02-15 15:34:35
+2017-02-15 15:34:35
+V Kranju premiera Lorencijevega avtorskega projekta po motivih drame Stenica
+Režiser Jernej Lorenci je zasnoval avtorski projekt po motivih pravljične komedije Stenica Vladimirja Vladimiroviča Majakovskega. Premiera koprodukcije Prešernovega gledališč...
+STA
+Pokaži vec
+2017-02-15 15:29:16
+2017-02-15 15:29:16
+Jamski človek na valentinovo zabeležil rekordno 700. ponovitev
+Predstava Jamski človek, v kateri nastopa Uroš Fürst, režirala pa jo je Nataša Barbara Gračner, je že 15 let neprekinjeno na sporedu. Ob tem je na valentinovo obeležila tud...
+STA
+Pokaži vec
+2017-02-15 15:24:15
+2017-02-15 15:24:15
+Sviz poziva ministra Peršaka, naj poskrbi za ureditev stanja v SF
+Sindikat Sviz poziva ministra za kulturo Toneta Peršaka, naj v okviru svojih pristojnosti poseže v dogajanje in poskrbi za ureditev stanja v Slovenski filharmoniji (SF). Orkestra...
+24ur
+Pokaži vec
+2017-02-15 15:18:01
+2017-02-15 15:18:01
+VIDEO in FOTO: Trentemøller zadovoljil vse navdušence nad eletronskimi ritmi
+Danski elektronski glasbenik Trentemøller je na razprodanem koncertu zadovoljil glasbene čute in pošteno "nakuril" vse tiste, ki so natanko vedeli, po kaj so prišli. Koncert pr...
+Delo
+Pokaži vec
+2017-02-15 15:00:00
+2017-02-15 15:00:00
+Umetniški stroj Noordung in njegova filozofija
+Umetniški opus reži­serja, umetnika in kandidata kozmonavta­ Dragana Živadinova, ki ga ta že nekaj časa oblikuje z Dunjo Zupančič in Miho Turšičem, je prav gotovo eden...
+Delo
+Pokaži vec
+2017-02-15 15:00:00
+2017-02-15 15:00:00
+Vikendov TV namig: Družinski film, TVS 1 ob 20.05
+Rodinny film. Koprodukcija, 2015. Režija: Olmo Omerzu. Igrajo: Daniel Kadlec, Jenovéfa Boková, Karel Roden. Drama. 95 minut. Mož in žena se odpravita na jadranje. S seboj vz...
+STA
+Pokaži vec
+2017-02-15 14:30:26
+2017-02-15 14:30:26
+Odstopila večina članov organizacijske ekipe za Evrovizijo v Ukrajini
+Večina članov ekipe, pristojne za organizacijo tekmovanja za pesem Evrovizije v Kijevu, je odstopila od priprav. Kot so zapisali v odstopnem pismu, so jim bile že decembra ob im...
+STA
+Pokaži vec
+2017-02-15 13:54:19
+2017-02-15 13:54:19
+Operna črna komedija Božji delec kot simbioza tolkal in glasu
+V sklopu festivala sodobne glasbe Unicum bo praizvedbo doživela operna črna komedija Božji delec. Libreto je napisal Milan Dekleva, avtor glasbe je Pavel Mihelčič. Uporabil je...
+24ur
+Pokaži vec
+2017-02-15 12:38:05
+2017-02-15 12:38:05
+VIDEO: Koncert skupine Pliš iz dnevne sobe
+Zasedba Pliš je za valentinovo svoje oboževalce razveselila s koncertom, ki so ga pripravili kar na kavču dnevne sobe. Celotno dogajanje so v živo prenašali prek Facebooka, kj...
+Delo
+Pokaži vec
+2017-02-15 12:00:00
+2017-02-15 12:00:00
+Harrison Ford med pilotiranjem skoraj trčil v letalo s 116 ljudmi
+Hollywoodski zvezdnik Harrison Ford je v ponedeljek med pilotiranjem lastnega letala na kalifornijskem letališču zgrešil pristajalno stezo in skoraj trčil v potniško letalo ...
+Delo
+Pokaži vec
+2017-02-15 12:00:00
+2017-02-15 12:00:00
+Štigličeva nagrada Filipu Robarju Dorinu
+Društvo slovenskih režiserjev (DSR) je letos nagrado Franceta Štiglica za življenjsko delo na področju filmske in televizijske režije podelilo Filipu Robarju Dorinu. Ta vel...
+STA
+Pokaži vec
+2017-02-15 11:27:33
+2017-02-15 11:27:33
+Štigličeva nagrada za življenjsko delo za Filipa Robarja Dorina
+Društvo slovenskih režiserjev (DSR) je letos nagrado Franceta Štiglica za življenjsko delo na področju filmske in televizijske režije podelilo Filipu Robarju Dorinu. Ta velja...
+24ur
+Pokaži vec
+2017-02-15 10:56:11
+2017-02-15 10:56:11
+Nenaden preobrat v seriji Usodno vino
+Verjeli ali ne, ampak v današnjem delu Usodnega vina se bodo stvari krepko spremenile. V Pomjanu se stvari zelo zapletajo, dogodki v Franciji pa bodo močno vplivali na potek zgod...
+STA
+Pokaži vec
+2017-02-15 10:51:28
+2017-02-15 10:51:28
+V Muzeju za arhitekturo in oblikovanje razstava Plečnik, Ravnikar in Moderna galerija
+V Muzeju za arhitekturo in oblikovanje je na ogled razstava Plečnik, Ravnikar in Moderna galerija. Edvard Ravnikar, učenec Jožeta Plečnika, je s svojimi deli močno zaznamoval ...
+STA
+Pokaži vec
+2017-02-15 10:36:59
+2017-02-15 10:36:59
+Ministrstvo za kulturo zanika zanemarjanje prostorske problematike Prirodoslovnega muzeja
+Na ministrstvu za kulturo so v odzivu na poziv strokovnega sveta Prirodoslovnega muzeja Slovenije, naj zagotovi prostorsko rešitev naravoslovnih zbirk muzeja, zapisali, da so z di...
+STA
+Pokaži vec
+2017-02-15 09:15:04
+2017-02-15 09:15:04
+Na Ptuju se danes začenja slikarsko-karnevalski ex-tempore
+Nekaj dni pred uradnim odprtjem letošnjega 57. Kurentovanja se danes na Ptuju začenja mednarodni slikarski ex-tempore, ki ga v sodelovanju z mestno občino in ptujskim zavodom za...
+Delo
+Pokaži vec
+2017-02-15 09:00:00
+2017-02-15 09:00:00
+Parki odsevajo metafiziko časa
+Narava je bila njegova delavnica. Delal je strastno in z vso smelostjo nadarjenega vrtnarja, ki je preživel življenje v ospredju svojega časa. Kako je sloviti André Le Nôtre...
+STA
+Pokaži vec
+2017-02-15 08:22:01
+2017-02-15 08:22:01
+V Striparni Pritličje razstava del Primoža Bertonclja
+V Striparni Pritličje bodo drevi ob 20. uri odprli razstavo avtorja stripov Primoža Bertonclja, ki redno objavlja v računalniškem zabavniku Joker. Na razstavi se bo predstavil ...
+STA
+Pokaži vec
+2017-02-15 08:10:01
+2017-02-15 08:10:01
+V Bežigrajski galeriji 1 skrite telesnosti Rajka Apollonia
+V Bežigrajski galeriji 1 bodo drevi odprli razstavo slik Rajka Apollonia. Pod naslovom Skrite telesnosti bo zajela umetnikovo ustvarjanje v obdobju med 2013 in 2016, ki bo predsta...
+24ur
+Pokaži vec
+2017-02-15 07:41:34
+2017-02-15 07:41:34
+T2 Trainspotting: Nadaljevanje filma, ki je zaznamoval generacijo
+Samo še deset dni nas ločuje od filmskega dogodka sezone. Od četrtka, 16. februarja bodo Renton, Spud, Sick Boy in Begbie prvič po dolgih 20 letih pristali na filmskih platnih ...
+24ur
+Pokaži vec
+2017-02-15 07:23:15
+2017-02-15 07:23:15
+Maša in medved na ledu - razkošna pravljica prvič v Sloveniji
+Maša in medved na letu že 24. in 25.2. v dvorani Stožice: Že 10 dni na prvem mestu prodaje; izjemna domača igralska zasedba pri sinhronizaciji tega licenčnega spektakla....
+24ur
+Pokaži vec
+2017-02-15 06:40:52
+2017-02-15 06:40:52
+Trump ga je navdihnil za nov film o serijskem morilcu
+Danski režiser Lars von Trier pripravlja nov film The House That Jack Built, v katerem obravnava idejo, da je "življenje zlobno in brez duše, kar je žal dokazal tudi nedavni vz...
+STA
+Pokaži vec
+2017-02-15 06:00:01
+2017-02-15 06:00:01
+V Slovenski kinoteki se bodo jubileju Jožeta Babiča poklonili z retrospektivo
+S filmom Po isti poti se ne vračaj se bo drevi v Slovenski kinoteki začela retrospektiva, posvečena 100. obletnici rojstva Jožeta Babiča. Do 25. februarja bodo prikazali še f...
+STA
+Pokaži vec
+2017-02-15 06:00:01
+2017-02-15 06:00:01
+Na današnji dan je pred 150 leti prvič zazvenel Straussov valček Na lepi modri Donavi
+Na današnji dan je pred 150 leti prvič zazvenel valček Johanna Straussa ml. Na lepi modri Donavi. Skladatelj ga je napisal po naročilu združenja Wiener Männergesang Verein. O...
+Delo
+Pokaži vec
+2017-02-15 06:00:00
+2017-02-15 06:00:00
+Deloskop izpostavlja: Koncertna vrnitev pianista Aleksandra Madžarja
+V Cankarjevem domu bo v okviru Srebrnega abonmaja nocoj ob 19.30 nastopil srbski pianist Aleksandar Madžar. V programu solističnega recitala bo izvedel Sonato za klavir op. 1 A...
+﻿
+«
+1
+2
+»
+naloži vec
+ARHIV - PRITISNI ZA DENES
+Za oglaševalce
+Kontakt
+Za uporabnike
+Piškotki
+O nas
+Pogoji uporabe
+Politika zasebnosti
+VIRI
+Spremljajte nas
+li><a href=""><i class="u_tube"> </i> </a></li
+Naročite se na naše slovice
+<div class="clearfix"> </div>
+         <span class="logoMoto" style="color:grey"><i>VSE NOVICE NA ENEM MESTU</i></span>

@@ -1,0 +1,72 @@
+POP
+        - SOFT ROCK - CLASSIC ROCK
+www.lacibleradio.net
+Sur votre Smartphone :
+ACCUEIL
+LES
+        DERNIERS TITRES DIFFUSES
+CONTACT
+!
+A
+                        LA UNE DE L'ACTUALITE
+L'ACTU
+                      EN FRANCE
+plus
+                    d'infos en France
+Votre navigateur ne supporte pas les IFrames
+L'ACTU
+                    EN BELGIQUE
+plus
+                    d'infos en Belgique
+Votre navigateur ne supporte pas les IFrames
+L'ACTU
+                    DANS LE MONDE
+plus
+                    d'infos dans le monde
+Votre navigateur ne supporte pas les IFrames
+L'ACTU
+                    INSOLITE
+plus
+                    d'infos insolites
+Votre navigateur ne supporte pas les IFrames
+METEO
+LE
+                      CIEL DE FRANCE
+debut code meteo region nord
+fin code meteo region nord
+LE
+                      CIEL DE BELGIQUE
+webbot
+                      bot="HTMLMarkup" startspan
+Carte du jour
+www.meteobelgique.be
+webbot bot="HTMLMarkup" endspan
+PROGAMME
+                      TV
+CE
+                      SOIR A LA TELEVISION
+ACTUELLEMENT
+A L'ANTENNE :
+Votre navigateur ne supporte pas les IFrames
+webbot
+bot="HTMLMarkup" startspan
+webbot bot="HTMLMarkup" endspan
+Ouvrir
+le lecteur
+pour les  radios wifi.
+APPLICATIONS
+MOBILES :
+DIFFUSEURS
+              PARTENAIRES :
+Votre navigateur ne supporte pas les IFrames
+LIENS
+              ALTERNATIFS :
+Notre
+                site alternatif
+Alternative
+                pour
+votre
+                lecteur habituel
+Notre
+                lecteur alternatif
+ooooooooooooooooooooooooooooooooo

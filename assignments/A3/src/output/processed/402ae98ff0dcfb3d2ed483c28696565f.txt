@@ -1,0 +1,206 @@
+// OPEN HEAD //
+// SITE TITLE //
+// SITE META //
+// PINGBACK & FAVICON //
+This site is optimized with the Yoast SEO plugin v4.2.1 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+WordPress Popular Posts v3.3.4
+End WordPress Popular Posts v3.3.4
+[if lt IE 9]><script data-cfasync="false" src="http://thevinylfactory.com/wp-content/themes/The-Stores/js/respond.js"></script><script data-cfasync="false" src="http://thevinylfactory.com/wp-content/themes/The-Stores/js/html5shiv.js"></script><script data-cfasync="false" src="http://thevinylfactory.com/wp-content/themes/The-Stores/js/excanvas.compiled.js"></script><![endif]
+Facebook Pixel Code
+End Facebook Pixel Code
+Google Tag Manager
+End Google Tag Manager
+// CLOSE HEAD //
+// OPEN BODY //
+Google Tag Manager (noscript)
+End Google Tag Manager (noscript)
+VF MENU
+News
+Features
+Films
+Events
+Records
+Magazine
+Label
+Venue
+Partnerships
+Plant
+Wishlist
+0
+Your wishlist is empty.
+View Wishlist
+// OPEN #container //
+// TOP BAR //
+// TOP BAR MENU OUTPUT //
+Magazine
+About
+Pressing Plant
+Record Label
+Partnerships
+Venue
+// LINKS AT THE END OF SOCIAL ICONS //
+About
+// TOP BAR NEWSLETTER //
+real people should not fill this in and expect good things - do not remove this or risk form bot signups
+Sign up - Your weekly guide to vinyl culture
+// HEADER //
+News
+Features
+Films
+Events
+Records
+CLOSE .row
+CLOSE .container
+// OPEN #main-container //
+Jamiroquai to release new album
+Automaton
+on vinyl
+Breadcrumb NavXT 5.6.0
+The Vinyl Factory
+>
+News
+>
+Jamiroquai to release new album
+Automaton
+on vinyl
+By
+Anton Spice
+January 27, 2017
+OPEN page
+OPEN article
+Jamiroquai to release new album
+Automaton
+on vinyl
+VIDEO
+END VIDEO
+TIMELINE
+END TIMELINE
+Written by
+Anton Spice
+Published on
+January 27, 2017
+Category
+News
+Share
+0
+0
+0
+Share
+0
+0
+0
+By
+Anton Spice
+January 27, 2017
+In
+News
+Stream the title track now.
+Having teased their new album last week, Jamiroquai have officially announced the release of their eighth studio album
+Automaton
+.
+A retro-futurist slice of Daft Punk-inspired robo-funk, the album’s title track features a video directed by Björk and Arcade Fire collaborator Charlie Lightening, and see’s Jay Kay don another piece of elaborate headgear, swapping virtual insanity for virtual reality.
+“The inspiration for
+Automaton
+is in recognition of the rise of artificial intelligence and technology in our world today and how we as humans are beginning to forget the more pleasant, simple and eloquent things in life and in our environment including our relationship with one another as human beings,” Jay Kay said.
+The 12-track LP
+Automaton
+will be released on double heavyweight vinyl via Virgin EMI on 31st March. Click
+here
+to pre-order yours now.
+Tracklisting:
+01. Shake It On
+02. Automaton
+03. Cloud 9
+04. Superfresh
+05. Hot Property
+06. Something About You
+07. Summer Girl
+08. Nights Out In The Jungle
+09. Dr Buzz
+10. We Can Do It
+11. Vitamin
+12. Carla
+Anton Spice
+More by Anton Spice
+Share
+0
+0
+0
+Tags
+automaton
+jamiroquai
+0
+0
+WordPress Popular Posts Plugin v3.3.4 [W] [weekly] [views] [regular]
+Popular Stories
+The 8 best budget valve amplifiers and how to avoid getting ripped off
+An introduction to Jimmy Jam and Terry Lewis in 10 deep cuts
+The 8 best vinyl subscription services to help grow your record collection
+Cover Versions: 25 of the best Andy Warhol record sleeves
+German brand unveils stunning new reel-to-reel tape machine and turntable
+End WordPress Popular Posts Plugin v3.3.4
+Your weekly guide to vinyl culture – sign up now
+real people should not fill this in and expect good things - do not remove this or risk form bot signups
+CLOSE article
+Latest Articles
+London record shop Phonica announces first full-length LP,
+Vuduwave
+by Niños Indigo
+By
+Anton Spice
+on February 15, 2017
+The 8 best mid-range turntables for upgrading your set-up
+By Paul Rigby on February 15, 2017
+Berghain’s Sven Marquadt on banned records, sexuality and punk kids in East Berlin
+By Henning Lahmann on February 15, 2017
+Ace Ventura: Pet Detective
+soundtrack released on vinyl for the first time
+By
+Anton Spice
+on February 15, 2017
+Experimental duo N.M.O. line up EP starring new alter-ego DaF
+By
+Amar Ediriwira
+on February 14, 2017
+!K7 to release archive videos from Berlin’s ’80s punk scene
+By
+Amar Ediriwira
+on February 14, 2017
+Watch a new documentary about the company that will press your ashes to vinyl
+By
+Anton Spice
+on February 14, 2017
+Orchestral reworking of Carl Craig classic ‘Sandstorms’ released on 12″
+By
+Anton Spice
+on February 14, 2017
+CLOSE page
+// CLOSE #main-container //
+// OPEN #footer //
+About
+The Vinyl Factory is the world’s foremost vinyl enterprise. It encompasses a record label, pressing plant and online magazine, and collaborates with artists and musicians to create stunning audio-visual shows.
+Read More
+Explore
+Magazine
+About
+Pressing Plant
+Record Label
+Partnerships
+Venue
+Contact
+The Vinyl Factory Limited
+16-18 Marshall Street
+London W1F 7BE
+Registered in England and Wales under no. 04184222.
+Contact
+// CLOSE #footer //
+// OPEN #copyright //
+©2016 The Vinyl Factory
+// CLOSE #copyright //
+// CLOSE #container //
+// BACK TO TOP //
+// FULL WIDTH VIDEO //
+// FRAMEWORK INCLUDES //
+// CLOSE BODY //
+// CLOSE HTML //

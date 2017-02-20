@@ -1,0 +1,108 @@
+Google Tag Manager
+End Google Tag Manager
+U.S.
+Editions
+Australia Edition
+China Edition
+India Edition
+Italy Edition
+Japan Edition
+Singapore Edition
+United Kingdom
+United States
+Feb 15, 5:08 PM EST
+Subscribe
+Everything You Need To Know, Right Now.
+Everything You Need To Know, Right Now.
+The IBT Pulse Newsletter keeps you connected to the biggest stories unfolding in the global economy.
+Please enter a valid email
+Search
+Search
+Business
+Technology
+World
+National
+Media & Culture
+Millennial Money
+Entertainment
+Sports
+Subscribe
+Technology
+Instagram Stories: Add Background Music To Your Story With These Simple Steps
+By
+Mike Luces
+On
+01/28/17 AT 9:38 PM
+Close
+Now that Instagram Stories will be available to everyone worldwide next week, there’s no excuse for users to come up with daily slideshows that are just too plain and boring. One of the ways to make stories more interesting is with the addition of background music. If you are still new to the platform or you just don’t know how to add songs to your slideshow, then you’re in luck. This guide will teach you how to put a soundtrack to your video using your iPhone.
+According to
+OS X Daily
+, adding music to Instagram Stories follows the same steps as how one would add songs to a Snapchat video. The very first thing one should consider is the song he or she is using for the slideshow. Instagram Stories supports songs found on the Music app and Spotify, so it’s best to store or look for the soundtrack from there. Before even opening the Instagram app, one should put his or her chosen song on cue either on the Music app or Spotify. When this is done, simply press the home button to exit any of the two apps.
+To add the background music, one should log into his or her account on the Instagram app. Then, one should tap the Camera logo/button that’s situated on the upper left corner of the app’s UI. This will launch the camera, allowing the user to record a video clip. Prior to recording anything however, one should swipe up on the camera UI to get access to the iOS Control Center.
+Related Stories
+Instagram Will Now Alert Users If You Screenshot Temporary Messages
+An Instagram Live Feed For GOP Debate
+Instagram Update: Instagram Adds Video Import Option In 4.1 Release
+When the Control Center is visible, one should swipe over to launch the Music screen that shows the song the user put on cue awhile ago. Next, simply press the Play button to start the track and return to the Instagram camera UI. This will now enable one to record an Instagram story with background music.
+Launched in August of last year,
+Instagram Stories
+is a feature that gives users a platform to share multiple photos and videos that are automatically pieced together to form a slideshow or a story. The photos and videos users share via this feature have a 24-hour expiry, so they disappear from the grid or the feed once a day has passed.
+Users of Instagram Stories are able to view the stories shared by their friends and those made by the popular accounts they are following on the photo-sharing app. Instagram Stories is also subject to the privacy settings of a user’s account. If the user set his or her account to private, the slideshow will only be visible to his or her followers.
+Early this week, Instagram announced that the new feature on the social network will become available to users around the world starting next week. The decision to bring the feature outside of the U.S. comes weeks after it was found out that up to 150 million people are using Stories every day, as per
+The Verge
+.
+Join the Discussion
+Most Read
+Stay connected to the biggest stories unfolding in technology.
+The IBTech Newsletter keeps you connected to the biggest stories unfolding in technology.
+Please enter a valid email
+Business
+The Price Of Trucks Could Skyrocket Under Trump
+The so-called "Big Three" automakers may be subject to a 25 percent tariff on the trucks they manufacture in Mexico for sale in the U.S.
+Technology
+How To Mute Facebook Auto-Playing Videos
+Facebook is going to start automatically playing video with audio for users on mobile devices. Here is how to disable Facebook's video sound.
+World
+Are Populist Politics Causing A Slowdown In Europe?
+Experts warn of economic ramifications associated with the upheavals behind "Brexit," "Frexit" and Donald Trump's election.
+National
+Starbucks Sweetens Up Its Menu By Offering Ice Cream With Coffee
+Nothing screams 10 a.m. pick-me-up like ice cream with coffee.
+© Copyright 2017
+IBT Media Inc.
+All Rights Reserved.
+IBT
+About Us
+Advertise with Us
+Media Kit
+Terms of Service
+Privacy Policy
+Editions
+Australia
+China
+India
+Italy
+Japan
+Singapore
+United Kingdom
+United States
+[if lte IE 9]>
+<script type="text/javascript" src="//s3.ibtimes.com/sites/www.ibtimes.com/files/advagg_js/js__DtRAlSz7t2HO_oKE45VDhkp0nNGDAiosTUemLIxhdzM__tRwlOopNzmtFNq_xCyh58JaWMG751LJ8YXhT6K1AYFQ__MYCPfnlmFcT9CmdKvAxrUxbVbT3lgIP27Mv6-XWUe1I.js#ie9-" onload="
+if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);};function advagg_mod_1(){advagg_mod_1.count=++advagg_mod_1.count||1;try{if(advagg_mod_1.count<=40){init_drupal_core_settings();advagg_mod_1.count=100;}}
+catch(e){if(advagg_mod_1.count>=40){throw e;}
+else{window.setTimeout(advagg_mod_1,1);}}}
+function advagg_mod_1_check(){if(window.init_drupal_core_settings&&window.jQuery&&window.Drupal){advagg_mod_1();}
+else{window.setTimeout(advagg_mod_1_check,1);}}
+advagg_mod_1_check();"></script>
+<![endif]
+[if gt IE 9]>
+<script type="text/javascript" src="//s3.ibtimes.com/sites/www.ibtimes.com/files/advagg_js/js__DtRAlSz7t2HO_oKE45VDhkp0nNGDAiosTUemLIxhdzM__tRwlOopNzmtFNq_xCyh58JaWMG751LJ8YXhT6K1AYFQ__MYCPfnlmFcT9CmdKvAxrUxbVbT3lgIP27Mv6-XWUe1I.js#ie10+" defer="defer" onload="
+if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);};function advagg_mod_1(){advagg_mod_1.count=++advagg_mod_1.count||1;try{if(advagg_mod_1.count<=40){init_drupal_core_settings();advagg_mod_1.count=100;}}
+catch(e){if(advagg_mod_1.count>=40){throw e;}
+else{window.setTimeout(advagg_mod_1,1);}}}
+function advagg_mod_1_check(){if(window.init_drupal_core_settings&&window.jQuery&&window.Drupal){advagg_mod_1();}
+else{window.setTimeout(advagg_mod_1_check,1);}}
+advagg_mod_1_check();"></script>
+<![endif]
+[if !IE]><!
+<![endif]

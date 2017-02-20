@@ -1,0 +1,429 @@
+<![endif]
+the "no-js" class is for Modernizr.
+Always force latest IE rendering engine (even in intranet) & Chrome Frame
+Fav icons/tiles
+Meta
+Sitewide styles go here.
+Optimizely
+[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="https://cdn.theatlantic.com/assets/static/a/common/js/ie8.polyfills.ba3cdde2f960.js"></script
+    <![endif]
+Skip to content
+The Atlantic
+Popular
+Latest
+Sections
+Sections
+Politics & Policy
+Culture
+Business
+Science
+Technology
+Health
+Education
+U.S.
+Global
+News
+Notes
+Photo
+Video
+Writers
+Projects
+Next America
+Magazine
+Magazine
+Current issue
+All issues
+Manage subscription
+Subscribe
+More
+More
+Create account
+Your account
+Sign in
+Sign out
+Newsletters
+Events
+Books
+Shop
+View all
+Subscribe
+mobile
+Search
+Search
+Quick Links
+James Fallows
+Ta Nehisi Coates
+Manage subscription
+desktop
+Quick Links
+James Fallows
+Ta Nehisi Coates
+Manage subscription
+Google Microdata
+Mobile only ad
+Article "Cover"
+Escape to the Future With Missy Elliott and Jamiroquai
+Two legends of music-video history are back with sci-fi visions.
+Google Metadata
+Missy Elliott
+Most Popular
+These 23 Republicans Passed on a Chance to Get Trump's Tax Returns
+Conor Friedersdorf
+9:28 AM ET
+Are Deep-State Leakers Defending Democracy or Corroding It?
+David A. Graham
+1:29 PM ET
+What Happens Next Is Up to Republicans
+David Frum
+2:20 PM ET
+Why the Puzder Nomination Fell Apart
+Alana Semuels
+3:40 PM ET
+American Institutions Are Pushing Back Against Trump
+Peter Beinart
+4:00 AM ET
+Spencer Kornhaber
+Jan 27, 2017
+Culture
+Share
+Tweet
+…
+LinkedIn
+Email
+Print
+Text Size
+Two icons of the music-video format have returned this Friday with light-up headpieces and underground post-apocalypse vibes and pretty catchy music. Do not call Missy Elliott and Jamiroquai nostalgia acts—they’re offering colorful and imaginative escape to the future.
+From the garbage-bag onesie of “The Rain (Supa Dupa Fly)” to the bee facial of “Work It” to the
+Terminator
+goop of “She’s a Bitch” to the boogying marionettes of 2015’s “WTF (Where They From),” Missy Elliott’s knack for memorable music has been equalled by her knack for insane images. Today brings not only a visual smorgasbord in the video for the new song “I’m Better,” but
+also a trailer
+for a forthcoming documentary about the rapper that confirms her televisual excellence hasn’t happened by accident. It opens with her saying, “It’s never just making a hot record—I can do that in my sleep. But visually I have to see what I’m going to do with that record when I perform it.”
+The “I’m Better” video, aided by her longtime directorial collaborator Dave Meyers and the producer Lamb, features dancers suspended from the back as if they’re puppets, wearing glowing riot masks on their heads, and grooving in white workout gear like cultists doing aerobics. The industrial setting they’re in at the start of the clip turns out to have a liquid portal in the floor; everyone falls through, and suddenly it’s an underwater performance. The song is minimal, tense, and in step with the trap sound ruling hip hop right now. The dancing accentuates the uneasy mood: “I didn’t want them to hit every beat of the track,” Elliott
+told
+Fact
+. “I wanted it to be art.” She raps that her man watches her like he watches
+Scandal
+, which is to say totally caught up—a relatable feeling for the viewer.
+Less abstract but similarly heady is the new clip from the British funk act Jamiroquai. The band’s 1996 song “Virtual Insanity” made for one of the most famous music videos ever, with frontman Jay Kay hanging out in a room whose floors moved around him, a spectacle that scrambled the viewers’ expectations about gravity and home decor. That clip and others, such as the one for 1999’s “Canned Heat,” also demonstrated Kay really likes to wear things on his head.
+For the new song “Automaton,” the advanced single to the band’s first album since 2010, Kay’s hat fetish remains, as does the interest in science fiction and things moving that aren’t supposed to move. The video opens with a mushroom cloud—
+topical!
+—and then introduces Kay wearing a prehensile, light-up headpiece. He explores human ruins, first underground and then above ground, and reports back his findings to some researcher-type. His cyborg-scout get-up is cool in a campy way, and it fits right in with the song’s sound: disco rock with heavy amounts of vocal manipulation à la Daft Punk.
+Both Elliott’s and Jamiroquai’s videos might be seen as timely thanks to their
+dystopian vibes
+. But the creativity on display is exactly of the sort that both artists have shown throughout their careers. If there’s a takeaway message, it’s bedazzled onto one of Missy Elliott’s excellent outfits: “Save the Humans.”
+Share
+Tweet
+Comments
+Latest Video
+What Does a Reformed Racist Look Like?
+In a short documentary, a former KKK leader reconnects with the African American woman who helped raise him.
+Nadine Ajaka
+4:56 PM ET
+About the Author
+Spencer Kornhaber
+is a staff writer at
+The Atlantic
+covering pop culture and music.
+Twitter
+Email
+Most Popular
+Presented by
+Kevin Lemarque / Reuters
+These 23 Republicans Passed on a Chance to Get Trump's Tax Returns
+Conor Friedersdorf
+Congress has a duty to make sure President Trump isn’t selling out the United States. These legislators are in more active dereliction of that duty than most.
+More than 800,000 Americans have
+signed a petition
+demanding the release of Donald Trump’s tax returns. Polls show that a majority of the country wants to see the documents.
+On April 15, tens of thousands plan to take to the streets in protest of the president’s refusal to release his tax returns to the public. Some worry Trump is hiding financial ties to Russia. Others want to understand all the conflicts of interest that flow from his failure to divest from his business interests. Twenty thousand people
+say they’re going
+to a Los Angeles protest. Eleven thousand are
+signed up to attend
+in New York City. Folks will
+protest
+in Boise, Indianapolis, St. Louis, Raleigh, Pittsburgh, Knoxville, Salt Lake City, and other municipalities throughout the U.S.
+Continue Reading
+Evan Vucci / AP
+Are Deep-State Leakers Defending Democracy or Corroding It?
+David A. Graham
+Is the gusher of leaks about the White House the work of bureaucrats who want to undermine the president? And if so, is that a good or bad thing?
+To paraphrase presidential candidate Donald Trump,
+somebody’s doing the leaking
+. But who, and why, and does it represent a defense of American democratic norms or a death knell for them?
+There’s no shortage of theories. Some of the damaging leaks are emerging from the White House, as part of internecine warfare between rival factions. But the more consequential ones, including the revelations that forced the resignation of National Security Adviser Michael Flynn Monday night, have hinged on information from the intelligence community.
+Trump has tried to change the focus away from the substance of the leaks and to their provenance. On Tuesday, he tweeted this:
+The real story here is why are there so many illegal leaks coming out of Washington? Will these leaks be happening as I deal on N.Korea etc?
+— Donald J. Trump (@realDonaldTrump)
+February 14, 2017
+Continue Reading
+J. Scott Applewhite / AP
+What Happens Next Is Up to Republicans
+David Frum
+If they don’t act decisively now, when will they?
+The immediate question raised by
+the latest information
+published by
+The New York Times
+is: What next? Will Congress investigate? Will it subpoena records, including the tax records that may clarify the financial obligations—if any—Donald Trump has to Russia? And since Congress is so dominated by one party, that first question raises a follow-up and more specific question: What will the leaders of the Republican Party in Congress do?
+In the first shock of the news about the Trump team’s communications with Russian spies, Republican leaders are expressing revulsion and resolve. They expressed similar emotions after the shock of the “grab them by the pussy” recording. Then they collapsed.
+Remember, the Republican rank-and-file remain much more intensely committed to Trump and the presidency than to their leaders in Congress. Fox News and talk radio are busily concocting rationalizations and distractions. Donald Trump will still be president a week from now—and he has many tools by which to retaliate against his perceived opponents in the intelligence services. Unless Congress revolts against him, he could well prevail, destroying the integrity and independence of law enforcement and counter-intelligence in the process.
+Continue Reading
+Carolyn Kaster / AP
+Why the Puzder Nomination Fell Apart
+Alana Semuels
+The fast-food mogul faced opposition from both liberal and conservative groups, though for different reasons.
+Updated on February 15, 2017 at 4:03 p.m. E.T.
+In the end, it wasn’t Andy Puzder’s track record on labor that tanked his bid for the job of labor secretary. Liberals were always unhappy with the Puzder nomination—his history of hostility toward labor regulations made him an unacceptable choice for the head of the agency tasked with enforcing the laws that protect workers, they felt. But what changed in recent days is an emerging focus not on Puzder’s professional history, but on his home life. And it was the liabilities there that ultimately made it hard for more moderate Republicans—particularly women—to support him.
+In divorce papers from three decades ago, Puzder’s ex-wife alleged that he abused her, and she once appeared in disguise on the Oprah Winfrey show to discuss those allegations (which Puzder denied). She has since retracted the allegations, but the tape of her visit to Oprah in 1990 was
+reportedly
+shown to senators this week. And earlier this month, Puzder
+admitted
+that he had employed an undocumented worker as a housekeeper for a few years, a fact that was at odds with Trump’s commitment to cracking down on undocumented workers. He had also failed to pay the required taxes at the time. On Wednesday, the conservative publication
+The National Review
+published an
+editorial
+opposing Puzder’s confirmation both because of the housekeeper revelations and because of his past support for immigration reform.  “The case for his confirmation has diminished to the point of disappearing,” the magazine argued.
+Continue Reading
+Carlos Barria / Reuters
+American Institutions Are Pushing Back Against Trump
+Peter Beinart
+The bureaucracy, the press, the judiciary, and the public are not only pushing back, they’re having some success.
+Nothing Donald Trump has done since becoming President is particularly surprising. The attacks on judges and the press, the clash of civilizations worldview, the ignorance of public policy, the blurring of government service and private gain, the endless lying, the incompetence, the chaos—all were vividly foreshadowed during the campaign. The Republican-led  Congress’ refusal to challenge Trump was foreseeable too. The number of Republicans willing to oppose Trump’s agenda pretty much equals the number who refused to endorse him once he became the GOP nominee.
+Less predictable has been the response of other elements of the American political system: The bureaucracy, the press, the judiciary and the public. Here, the news is good. So far, they’re not only pushing back, they’re having some success.
+Continue Reading
+Carolyn Kaster / AP
+The Nationalist Right Is Coming for Reince Priebus
+Rosie Gray
+Furious over the ouster of Mike Flynn, Trump loyalists in the right-wing media are blaming the former RNC chair for the administration's setbacks.
+Breitbart News
+has a target in its crosshairs following the departure of former National Security Adviser Mike Flynn from the White House in a cascade of scandal over his contacts with the Russian government: White House Chief of Staff Reince Priebus.
+Targeting Priebus, who leads the faction of Trump aides that is composed of experienced establishment political hands, is really just a stand-in for a larger conflict about the future of Trumpism in the White House.
+Breitbart News
+is treating Flynn’s ouster as the first salvo in a war against those in the administration they deem insufficiently loyal to Trump. Backing up
+Breitbart
+are legions of other Trump loyalists in the right-wing media sphere. And their angry reaction to Flynn’s exit signals the unpopularity of the move with a vocal segment of Trump’s base.
+Continue Reading
+Jeffrey Smith
+How to Build an Autocracy
+David Frum
+The preconditions are present in the U.S. today. Here’s the playbook Donald Trump could use to set the country down a path toward illiberalism.
+It’s 2021, and President Donald Trump
+will shortly be sworn in for his second term. The 45th president has visibly aged over the past four years. He rests heavily on his daughter Ivanka’s arm during his infrequent public appearances.
+Fortunately for him, he did not need to campaign hard for reelection. His has been a popular presidency: Big tax cuts, big spending, and big deficits have worked their familiar expansive magic. Wages have grown strongly in the Trump years, especially for men without a college degree, even if rising inflation is beginning to bite into the gains. The president’s supporters credit his restrictive immigration policies and his TrumpWorks infrastructure program.
+Listen to the audio version of this article:
+Download the Audm app
+for your iPhone to listen to more titles.
+Continue Reading
+Mike Segar / Reuters
+Scenes From the 2017 Westminster Dog Show
+Alan Taylor
+A total of 2,908 dogs were entered in this year’s 141st annual Westminster Kennel Club Dog Show, consisting of 200 different breeds or varieties.
+A total of 2,908 dogs were entered in this year’s 141st annual Westminster Kennel Club Dog Show, consisting of 200 different breeds or varieties. “Best in Show” was awarded yesterday to a German Shepherd named Rumor. Below are images from the two-day competition held in New York City’s Madison Square Garden.
+Continue Reading
+Mike Segar / Reuters
+Why Flynn's Resignation Matters
+David Frum
+A senior American official was compromised by his relationship with a foreign government. Who else has ties to the Russian state?
+Stop talking about the Logan Act.
+It was not the violation of this antique and ignored piece of anti-Jacobin legislation that has touched off the biggest foreign-policy scandal since Watergate.
+Nobody would care if an incoming national security adviser had confidential conversations with an ambassador of a hostile foreign government before Inauguration Day, if it were believed that the conversations served a legitimate and disinterested public purpose.
+But that is exactly what is doubted in this case.
+To put the story in simplest terms:
+1) Russian spies hacked Democratic Party communications in order to help elect Donald Trump.
+2) Donald Trump welcomed the help, used it, publicly solicited more of it—and was then elected president of the United States.
+Continue Reading
+© Gabriel Barathieu / UPY 2017
+The 2017 Underwater Photographer of the Year Contest
+Alan Taylor
+The organizers of the Underwater Photographer of the Year have just announced their winning photos for 2017.
+Organizers of the
+Underwater Photographer of the Year Contest
+have just announced their winning photos for 2017. The winner Gabriel Barathieu beat entrants from 67 different countries with his portrait of an octopus in the lagoon of the island of Mayotte. Prizes and commendations were also handed out in a number of categories, including Wide Angle, Macro, Wrecks, Behavior, Up & Coming, and, in British waters, Wide Angle, Compact, and Macro shots. UPY has been kind enough to share some of this year's honorees with us below. Captions written by the photographers.
+Continue Reading
+Can It Happen Here?
+Daniel Lombroso
+and
+David Frum
+David Frum on Donald Trump's authoritarian tendencies
+Watch Video
+Ruth Bader Ginsburg on the Perspective That Comes With Motherhood
+Daniel Lombroso
+,
+Jackie Lay
+, and
+Ryan Park
+In an animated interview, the Supreme Court justice describes her early career.
+Watch Video
+The Crippling Fear of Everlasting Life
+Caitlin Cadieux
+and
+Daniel Lombroso
+While many dream of an afterlife, people with apeirophobia are terrified of eternal existence.
+Watch Video
+More Popular Stories
+Show Comments
+Home
+Share
+Tweet
+Next story in
+Culture
+Subscribe
+Get 10 issues a year and save 65% off the cover price.
+State
+Alabama
+Alaska
+Alberta
+American Samoa
+APO/FPO-Africa
+APO/FPO-Canada
+APO/FPO-Europe
+APO/FPO-Middle East
+APO/FPO-Americas
+APO/FPO-Pacific
+Arizona
+Arkansas
+British Columbia
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Guam
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Manitoba
+Marshall Islands
+Maryland
+Massachusetts
+Michigan
+Micronesia
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Brunswick
+New Hampshire
+New Jersey
+New Mexico
+New York
+Newfoundland
+Newfoundland-Labrador
+North Carolina
+North Dakota
+Northern Mariana Isles
+Northwest Territories
+Nova Scotia
+Nunavut
+Ohio
+Oklahoma
+Ontario
+Oregon
+Palau
+Pennsylvania
+Prince Edward Island
+Puerto Rico
+Quebec
+Quebec
+Rhode Island
+Saskatchewan
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virgin Islands
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Yukon Territories
+Fraud Alert regarding The Atlantic
+Newsletters
++
+The Atlantic
+The Atlantic
+Daily
+This Week
+This Month
+New Photo Galleries
+Top Videos This Week
+Politics & Policy Daily
+CityLab
+Today’s Top Stories
+This Week's Most Popular Stories
+I want to receive updates from partners and sponsors.
+Follow
++
+Facebook
+Twitter
+LinkedIn
+Tumblr
+Pinterest
+RSS
+App Store
+About
++
+Masthead
+FAQ
+Press
+Jobs
+Shop
+Books
+Emporium
+Contact Us
+Privacy Policy
+Advertise
+Advertising Guidelines
+Terms and Conditions
+Manage Subscription
+Responsible Disclosure
+Site Map
+Copyright © 2017 by The Atlantic Monthly Group. All Rights Reserved.
+xml version="1.0" encoding="UTF-8"?
+svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+Close
+BEGIN: Welcome Screens
+Skip to article in
+Skip Ad >
+End welcome screen
+Close
+/DO NOT REMOVE/
+End SiteCatalyst code version: H.23.6.
+Omniture noscript counter
+/DO NOT REMOVE/
+Ads.
+Media.net and GPT Script
+Analytics, etc.
+Begin comScore Tag
+End comScore Tag
+START Nielsen Online SiteCensus V6.0
+COPYRIGHT 2012 Nielsen Online
+END Nielsen Online SiteCensus V6.0
+Google Analytics
+End Google Analytics
+Facebook Tracking Pixel
+End Facebook Tracking Pixel
+BEGIN Krux Control Tag
+END Krux Controltag
+Simplereach
+Quantcast Tag
+End Quantcast Tag
+Load social buttons last, so we don't care if they hang
+Twitter
+2017-02-15T17:15:14.996511
+PAGE_COMPLETED

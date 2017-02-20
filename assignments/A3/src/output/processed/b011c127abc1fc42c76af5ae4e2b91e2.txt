@@ -1,0 +1,293 @@
+pc/item20161025.html
+1119
+0710
+20161224
+1218
+20160219
+1218
+0826
+0530
+0325 head
+0625 review
+0721
+0721
+0721
+0721
+0730 preview
+0730 preview
+0408
+20161025
+0128
+20160608
+Legacy Scripts
+Kobo
+20140417
+20131130
+20131130
+20131130
+20131130
+0730 preview
+0730 preview
+0730 preview
+0730 preview
+0730 preview
+/Kobo
+/Legacy Scripts
+20160912
+Rakuten Group
+Event Notification
+0622
+for spux
+for spux
+/Rakuten Group
+pc/item20161025.html
+mbox.html
+/ mbox.html
+Event Notification
+/Event Notification
+<li><a href="http://music.rakuten.co.jp/?scid=wi_grp_gmx_boo_hetopbu_music" onclick="s.lidTrack('h-remoteNav-music')">Music</a></li>
+SHOWTIME
+/#rbhTopBelt
+/#rbhLogoArea
+/.rbhBasket
+/#rbhBasketArea
+/#myPageMenu
+/#rbhBasketHelp
+/Event Notification
+/Event Notification
+2
+/.rbhCmnUserRetBtn
+/#rbhBasketArea
+/#rbhHeader
+/.rbhWrap
+/#booksHeader
+CD
+CD
+BIGBANG
+AAA
+V6
+notice jm
+/div#header
+countdownTimer
+/countdownTimer
+all-notice-pc.html
+/div#productExtra
+>
+CD
+>
+>
+COLLAGE
+JAZZ COLLECTIVE
+0
+|
+/.productPrice
+get point area
+SPUx icon
+/SPUx icon
+SPUx point
+/SPUx point
+SPUx popup link
+/SPUx popup link
+/get point area
+SPUx popup
+/SPUx popup
+SPUx settings
+/SPUx settings
+#spux-point-disp-data
+/#spux-point-disp-data
+/div#productInfo
+/div#productWrapper item
+JAZZ COLLECTIVE
+,
+Keisuke Tanaka
+,
+Takashi Mochizuki
+OTCD-3722
+4526180170655
+/div#productDetailedDescription
+bta components.css and ui-carousel.js
+./ui-carousel-pagenation
+./ui-carousel-heading
+cafe lounge ICED MINT TEA
+/div.ui-carousel-media
+/div.ui-carousel-item
+NO.1 SWING Cats
+(V.A.)
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-list
+/div#ui-carousel-content
+./ui-carousel
+./bta-ui-carousel
+bta components.css and ui-carousel.js
+/div
+[Disc1]
+1.INTRO[0:30]
+2.
+REJOICE AGAIN
+[6:52]
+3.
+COLLAGE
+[7:02]
+4.
+DON'T CHANGE YOUR WAYS feat.Shea Soul
+[5:17]
+5.
+DAISY MAE
+[5:29]
+6.
+NIGHT BREEZE
+[5:45]
+7.
+FACE TO FACE
+[4:24]
+8.
+INTERLUDE 1
+[0:55]
+9.
+POWERS OF TEN
+[3:46]
+10.
+LOVE IS THE TRIUMPH
+[6:34]
+11.INTERLUDE 2[0:43]
+12.
+ISIS
+[7:16]
+13.
+WAY OF INDIGO
+[1:41]
+/div#editArea2
+monopolyAll
+./ui-carousel-pagenation
+./ui-carousel-heading
+./ui-carousel-nav
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-list
+/div.ui-carousel-content
+/div.ui-carousel
+/div.bta-ui-carousel
+/monopolyAll
+bta components.css and ui-carousel.js
+./ui-carousel-pagenation
+./ui-carousel-heading
+./ui-carousel-nav
+JAZZ COLLECTIVE
+JAZZ COLLECTIVE
+/div.ui-carousel-media
+/div.ui-carousel-item
+Prelude
+JAZZ COLLECTIVE
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-list
+/div.ui-carousel-content
+/div.ui-carousel
+/div.bta-ui-carousel
+bta components.css and ui-carousel.js
+/div.mainInner
+/div#status-note
+emptyPC
+booksnocard
+/.new_buyButton
+reg
+102
+eucjp
+213310
+16950303
+1
+true
+3.1.4_nrs
+/.purchaseBoxMain
+/.wrapper
+/.purchaseBox
+item_netoff.html
+/div.utility
+/div.partsRelated
+%%rank no%%
+1
+%%rank no%%
+2
+%%rank no%%
+3
+Ryu Miho
+%%rank no%%
+4
+(V.A.)
+%%rank no%%
+5
+Ryu Miho
+/div.partsRanking
+/div.partsRelated
+****************** AD-SPACE TAG ******************
+[Rak_Books_All_Banner] ?????? ??/?i???????????
+****************** /AD-SPACE TAG ******************
+/div#contents
+RAT
+RAT
+faqContents > div
+/.faqCLftInr
+/.faqcCntInr
+/faqContents > div
+-html/include/footer/common/link.html-
+-link.html-
+/footerAd
+****************** AD-SPACE TAG ******************
+****************** /AD-SPACE TAG ******************
+****************** AD-SPACE TAG ******************
+****************** /AD-SPACE TAG ******************
+/html/include/footer/common/bta.html
+<script>
+./ui-carousel-pagenation
+./ui-carousel-heading
+./ui-carousel-nav
+{% var index = ("00"+(i+1)).slice(-2); %}
+{{ item.text }}
+./ui-carousel-media
+./ui-carousel-item
+./ui-carousel-list
+./ui-carousel-content
+./ui-carousel
+class="partsMenu"
+class="content"
+class="container"
+</script>
+/html/include/footer/common/bta.html
+/pzd_contents/html/include/footer/oem/RBOOKS
+group service
+Rakuten Music
+/.rc-f-section-bar
+/.rc-f-section-content00
+/.rc-f-standard
+/group service
+/pzd_contents/html/include/footer/oem/RBOOKS
+company
+/.rc-f-section01
+/.rc-f-standard
+/company
+copyright
+© Rakuten, Inc.
+/.rc-f-section01
+/.rc-f-standard
+/copyright
+RAT Code
+/RAT Code
+SiteCatalyst code
+Copyright Omniture, Inc. More info available at
+http://www.omniture.com
+End SiteCatalyst code
+Google Code start
+Google Code finish
+Yahoo Tag Manager
+/Yahoo Tag Manager
+Rg cookie
+/Rg cookie
+/div#grpRakutenLinkArea
+/div#posi_center
+/div#footer
+/div#containerArea
+/div#contentsArea
+/div#container
+Instant Preview Modal
+content

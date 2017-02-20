@@ -1,0 +1,491 @@
+Google Tag Manager
+HTML5 element support for IE6-8
+[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]
+Abtasty
+[if IE 8]>
+  <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-4763169 node-type-article lt-ie9" >
+  <![endif]
+[if gt IE 8]><!
+Google Tag Manager (noscript)
+End Google Tag Manager (noscript)
+<![endif]
+L'édition du soir
+Obsèques
+Infolocale
+Bons plans
+Running
+Jeux
+dimoitou news
+La boutique Ouest-France
+‹
+›
+Météo
+Abonnez-vous à Ouest-France
+Nantes
+Rennes
+Angers
+Brest
+Le Mans
+Caen
+St-Nazaire
+Quimper
+Lorient
+Vannes
+Laval
+La Roche/Yon
+St-Brieuc
+Alençon
+St-Lô
+Rouen
+Le Havre
+Rechercher
+Monde - France
+Europe
+Région - Commune
+Sport
+Loisirs
+Étudiant
+Annonces
+Entreprises
+Services
+S'abonner
+Toute l'actualité
+Actualité
+en images
+Actualité
+en vidéos
+International
+Europe
+Politique
+Election présidentielle
+Résulats élections
+Sondages élections
+Économie
+Bourse
+Consommation
+Assurance
+Entreprises
+Société
+Religions
+Éducation
+Résultats examens 2016
+Résultats BAC
+Résultats Brevet
+Résultats BTS
+Résultats CAP
+Résultats BEP
+Résultats MC
+Santé
+Etudiant
+Faits divers
+Justice
+Insolite
+People
+Sciences
+Multimédia
+Agriculture
+Essais agricoles
+Lettre Agri-Agro
+Environnement
+L'édition du soir
+Commentaire
+Assises de la filière équine
+Assises de l’élevage et de l’alimentation
+Assises de la Normandie
+Bretagne
+Auray
+Brest
+Carhaix
+Châteaulin
+Concarneau
+Dinan
+Douarnenez
+Fougères
+Guingamp
+Lamballe
+Landerneau
+Lannion
+Lorient
+Loudéac
+Morlaix
+Paimpol
+Ploërmel
+Pontivy
+Pont-l'Abbé
+Quimper
+Quimperlé
+Redon
+Rennes
+Saint-Brieuc
+Saint-Malo
+Vannes
+Vitré
+Normandie
+Alençon
+Argentan
+Avranches
+Bayeux
+Caen
+Cabourg
+Cherbourg
+Coutances
+Deauville
+Evreux
+Falaise
+Flers
+Granville
+Honfleur
+Lisieux
+Le Havre
+Mont-St-Michel
+Rouen
+Saint-Lô
+Trouville
+Vire
+Pays de la Loire
+Ancenis
+Angers
+Challans
+Châteaubriant
+Château-Gontier
+Cholet
+Fontenay-le-Comte
+La Baule
+La Flèche
+La Roche/Yon
+Laval
+Le Mans
+Les Herbiers
+Les Sables
+Mayenne
+Nantes
+Noirmoutier
+Pornic
+Sablé/Sarthe
+St-Gilles-Croix-de-Vie
+Saint-Nazaire
+Saumur
+Segré
+Rechercher une autre commune
+Actualité
+Tous les résultats
+Football
+FC Nantes
+Stade Rennais
+FC Lorient
+EA Guingamp
+SM Caen
+Angers SCO
+Stade Brestois
+Stade Lavallois
+Le Havre AC
+Basket
+Le Mans SB
+Cholet Basket
+Hermine Nantes
+Nantes Rezé
+Mondeville
+UF Angers
+Angers BC
+La Roche VBC
+Handball
+HBC Nantes
+Cesson Rennes Métropole
+Nantes LA
+Angers Noyant
+Brest BH
+JS Cherbourg
+Caen HB
+Volley
+Nantes Rezé Métropole
+Rennes Volley 35
+Nantes VB
+Quimper Volley 29
+Cyclisme
+Voile
+Golf
+Tennis de table
+Hockey sur glace
+Hippisme
+Equitation
+Running
+Tennis
+Rugby
+RC Vannes
+Sports mécaniques
+Vendée Globe
+Tour de France 2016
+Jeux Olympiques
+Euro 2016
+24 Heures du Mans
+Spi Ouest-France
+Actualité
+Festivals
+Musique
+Agenda
+Associations
+Diaporamas
+Cinéma
+Télévision
+Séries
+Programme Télé
+Patrimoine
+Voyages
+Balades
+Cuisine
+Livres
+BD
+Quiz
+Tests
+Maison
+Jardin
+Bien-être
+Jeux
+Etudiant
+Bons plans
+Newsletters et alertes
+Votre compte
+Le journal
+Le journal numérique
+Gérez votre abonnement
+Abonnez-vous
+Ouest-France
+100% numérique
+La revue de presse professionnelle
+Ouest-France
+Qui sommes-nous ?
+Recrutement
+Visiter le journal
+Bilan des émissions
+de gaz à effet de serre
+Le journal dans l'Eure et en Seine Maritime
+Contact
+Les produits
+La boutique
+Ouest-France
+Les Éditions
+Ouest-France
+Nos applis mobiles
+Nos suppléments gratuits
+Autres services
+Meilleur en classe
+Presse-école
+Spécial avenir
+Vocale presse
+Infolocale
+Ouest Fraternité
+Obsèques / Dans
+nos coeurs
+Annonces Automobiles
+Annonces Immobilières
+Offres d'emploi
+Assurances et Mutuelles
+Emmaüs
+Bateaux
+Marchés publics
+Passez votre annonce
+Nos suppléments
+Codes promo
+En ce moment
+Affaire Fillon
+Hamon
+Donald Trump
+PSG-Barça
+Vendée Globe
+Grands formats
+Quiz
+Accueil
+/
+Culture
+/
+Musiques
+Recevez gratuitement notre newsletter générale
+Chaque jour, l'essentiel de l'actualité est dans votre boite mail.
+Je m'inscris !
+si on est sur la monet
+VIDEO. Jamiroquai est de retour : découvrez son nouveau morceau
+si on est sur la monet
+Modifié le
+27/01/2017 à 14:18
+|     
+          Publié le
+27/01/2017 à 14:06
+Écouter
+si on est sur la monet
+Le groupe britannique Jamiroquai et Jay Kay, son charismatique leader aux coiffes amérindiennes, feront leur grand retour en mars. | Archives Ouest-France/Jérôme Fouquet
+Facebook
+Twitter
+Google+
+Lire le journal
+numérique
+Le groupe britannique Jamiroquai et Jay Kay, son charismatique leader aux coiffes amérindiennes, feront leur grand retour sur scène avec une tournée qui débutera le 28 mars à Paris, trois jours avant la sortie de leur huitième album "Automaton".
+Ce concert parisien à la Salle Pleyel, le tout premier d'une tournée qui passera ensuite par l'Europe (Londres, Athènes, Florence...) et l'Asie, marque le come-back des Britanniques, sept ans après leur dernier disque
+« Rock Dust Light Star »
+.
+Une autre date française est annoncée, le 16 juillet en clôture du festival Musilac d'Aix-les-Bains, qui compte une affiche déjà relevée avec entre autres Phoenix, Sting, Justice, The Lumineers, Ibrahim Maalouf.
+Jamiroquai jouera aussi le 16 juillet en clôture du festival Musilac d'Aix-les-Bains, qui compte une affiche déjà relevée avec entre autres Phoenix, Sting, Justice, Ibrahim Maalouf. | DR
+Une forte teinte electro
+Avec
+« Automaton »
+, premier titre de l'album éponyme, Jamiroquai ajoute une forte teinte électro à sa pop dansante, dans laquelle cohabite également ce mélange de funk et d'acid jazz qui caractérise leur style depuis presque 25 ans.
+Groupe à succès des années 1990, avec des tubes comme
+« Cosmic Girl »
+,
+« You give me something »
+ou encore
+« Virtual Insanity »
+, Jamiroquai a écoulé plus de 35 millions d'albums dans le monde.
+Tags
+Culture
+Musiques
+Musiques
+16h27
+Son violon imprimé en 3D séduit les Américains
+16h13
+PNL. Le duo de rappeurs annonce sa prochaine tournée par SMS
+13/02
+Pourquoi a-t-on attendu sa mort pour primer David Bowie ?
+13/02
+Il joue de la guitare accompagné de sa machine à laver [VIDÉO]
+13/02
+Plagiat. Beyoncé accusée d'avoir utilisé la voix d'un rappeur décédé
++
+Services Ouest-France
+-
+Abonnés, découvrez vos privilèges
+-
+Abonnés, gérez votre abonnement
+-
+Achetez le journal numérique du jour (1€)
+-
+Abonnez-vous à partir de 1€/mois
+-
+La Boutique Ouest-France
+-
+Jeux
+-
+Annonces
+-
+Obsèques / Dans nos cœurs
++
+Les plus lus
+Les plus commentés
+La Corée du Nord tire un missile balistique : fureur de Séoul et Tokyo
+-
+Corée du Nord
+Neige et verglas : 21 départements en vigilance orange
+-
+Météo
+Emmanuel Macron. Ce qu'il gagne, ce qu'il possède
+-
+Politique
+Avalanche à Tignes. Trois vacanciers et leur moniteur trouvent la mort
+-
+Savoie
+Patrick Sébastien présente ses excuses pour "Le Grand Burlesque"
+-
+Télévision
+Incendie à la centrale nucléaire de Flamanville : ce que l’on sait
+Flamanville
+Présidentielle. La popularité de Fillon en chute libre
+François Fillon
+Le patrimoine de François Fillon : ce qu’il déclare
+François Fillon
+L’aéroport Nantes-Atlantique proche des 5 millions de passagers
+Nantes
+Tribune. La lettre aux Français de François Fillon
+François Fillon
+Jeux Ouest-France
+Manu Lanvin - La Luciole
+Festival Acoustic : Cocoon, Laura Gibson ...
++
+Codes promo
+[if (lt IE 9)]>
+<style>
+#OFI_content_Ann a.blocAnnOFI {
+    height: 70px;
+}
+#OFI_plus_Ann {
+    position: static;
+}
+</style>
+<![endif]
+11 photos
+Vente maison
+Theix 56
+259 000 €
+8 photos
+Vente maison
+Angers 49
+535 000 €
+Retrouvez toutes nos offres immobilières
+Les Tops articles sur : Musiques
+Avec "Hello", c'est la deuxième fois qu'Adele remporte le Grammy de la chanson de l'année, après "Rolling in the deep" en 2012. | Reuters
+"Hello" d'Adele décroche le Grammy de la chanson de l'année
+Le duel de superstars Adele et Beyoncé battait son plein dimanche lors d'une soirée des Grammy Awards ponctuée de moments politiques et où la légende rock David Bowie a reçu plusieurs prix posthumes.
+Jane Birkin est l’invitée du journal Ouest-France
+La chanteuse et comédienne Jane Birkin était l’invitée de la rédaction cette semaine, dans le cadre de sa tournée « Gainsbourg symphonique », où elle reprend des chansons de Serge Gainsbourg devant une soixantaine de musiciens. Retrouvez-la dans dimanche Ouest-France, où elle commente l’actualité et livre ses coups de cœur du moment.
+Victoires de la musique 2017. Jain, icône de cette édition
+Avec deux Victoires, dont celle de l’artiste féminine de l’année, Jain est la grande gagnante des Victoires de la musique 2017. La cérémonie se déroulait ce vendredi soir. Renaud, Biolay et Louise Attaque sont aussi primés.
+Miss Univers : "Je n'ai pas reçu de SMS de François Hollande"
+Iris Mittenaere revient dans un entretien au Parisien sur les coulisses de son sacre. Et affirme qu'elle se sent "épiée" par les paparazzis.
+L'essentiel de l'actualité
+Englué dans les affaires, Fillon appelle Sarkozy à la rescousse
+Emoi à droite et au FN après les propos de Macron sur la colonisation
+Pourquoi il ne faut pas s’enflammer pour le PSG
+Cancer du sein. Enquête sur des médicaments après des décès
+Etats-Unis. Chris Kennedy, neveu de JFK, se lance en politique
+Lamballe. 41 animaux et deux enfants dans un appartement insalubre
+Philippines. La femme du dictateur Marcos ne récupérera pas ses bijoux
+Bayrou « parle avec tout le monde », y compris avec Macron
+Israël-Palestine. Pour Trump, la solution à deux États n’est pas la seule
+FIN - global
+﻿
+Abonnement
+Retrouvez toutes nos offres
+à partir de
+1€ par mois
+Je m'abonne
+Déjà abonné au journal
+Gérez votre abonnement papier
+Profitez de l’offre 100% numérique
+Bénéficiez de vos privilèges abonné
+Suivez-nous
+Newsletter
+Je m'inscris !
+Sites d'actualités du groupe
+20 Minutes
+Courrier de l'Ouest
+Voiles et voiliers
+Le Journal
+Maine-libre
+Presse de la Manche
+Publihebdos
+Ouest-France Jeux
+Presse Océan
+Le Marin
+Chasse-Marée
+Codes promo Sixt
+Les autres sites du groupe
+dimoitou news
+Contactez-nous :
+Services Ouest-France
+/
+Abonnement
+/
+Diffuser votre annonce
+/
+Ecrivez-nous
+Mentions légales et cookies
+Qui sommes-nous ?
+Recrutement
+Charte utilisateur
+Plan du site
+Plan des élections
+Archives
+© Ouest-France
+Voir la version mobile du site
+Js pour détecter les AdBloqueurs
+DFP

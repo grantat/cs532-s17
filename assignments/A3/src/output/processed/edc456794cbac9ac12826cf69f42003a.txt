@@ -1,0 +1,83 @@
+Change lang="en" to the language of your site
+Don't remove this! Metadata is entered in Site Admin/Global settings.
+Relational links for interconnections between pages, good for accessibility and Search Engine Optmization
+[if lte IE 6]>
+<style type="text/css">
+#pagewrapper {width:expression(P7_MinMaxW(720,950));}
+#container {height: 1%;}
+</style>
+<![endif]
+The min and max page width for Internet Explorer is set here. For other browsers it's in the stylesheet "Layout: Left sidebar + 1 column"
+[if IE]>
+<script type="text/javascript" src="modules/MenuManager/CSSMenu.js"></script>
+<![endif]
+The above JavaScript is required for CSSMenu to work in IE
+Start Header, with logo image that links to the default start page. Logo image is changed in the stylesheet  "For template: Left menu + 1 column"
+Energy FM - Dance Music Radio
+End Header
+Start Playing
+Now Playing:
+End Playing
+Start Search
+SiteSearch Google
+Energy FM
+Internet
+End Search
+Start Breadcrumbs
+You are here:
+Home
+End Breadcrumbs
+Start Content (Navigation and Content columns)
+Start Sidebar
+Start Navigation
+Home
+Listen
+Schedule
+Shows & DJ Profiles
+Contact Us
+Twitter
+Links
+Legal
+End Navigation
+Website Monitoring
+Html blob 'social' does not exist
+End Sidebar
+Start Content Area
+Home
+Welcome to Energy FM. We play the best in House, Trance and Dance music with the world's top DJs.
+We also have our Old School Classics channel playing the best Disco, Dance, Soul, Funk and Pop!
+And our Non-Stop Mixes channel plays the best tracks in the mix 24 hours a day.
+Listen:
+Regular
+Energy FM
+Non-Stop
+Mixes
+Old School
+Classics
+<tr style="text-align: left;">
+<td style="text-align: center;"><a href="broadband.ram"><img title="RealPlayer" src="uploads/images/rplay.png" alt="" width="33" height="33" /></a></td>
+<td style="text-align: center;"><a href="mixes.ram"><img title="RealPlayer" src="uploads/images/rplay.png" alt="" width="33" height="33" /></a></td>
+<td style="text-align: center;"><a href="classics.ram"><img title="RealPlayer" src="uploads/images/rplay.png" alt="" width="33" height="33" /></a></td>
+</tr>
+Shows and DJ Profiles
+Start News Display Template
+Yousef presents 21st Century House Music
+BCM Radioshow
+K-Klass Action Radio Show
+Roger Shah pts Magic Island - Music for Balearic People
+Kings Of Clubs with Mikey Gallagher
+Moguai - Punx Up The Volume
+Micha Moor - House Sounds Radio Show
+Laurent Schark Selection
+D.O.N.S. in the Mix
+Peter K Mixshow
+End News Display Template
+Start relational links
+^ Top
+Next page:
+Listen
+The label parameter doesn't need to be there if you're using English, but is here to show how it's used if you don't want the English text "Previous page"
+End relational links
+© Energy FM
+Website Technology:
+CMSMS

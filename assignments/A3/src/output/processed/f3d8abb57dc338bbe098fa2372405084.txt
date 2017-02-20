@@ -1,0 +1,96 @@
+Start Tealium tag
+/ End Tealium tag
+START HEADER
+START: SHOW THIS SECTION FOR LOGGED OUT VISITORS
+Sign In
+Join
+END: SHOW THIS SECTION FOR LOGGED OUT VISITORS
+For logged out visitors do not include the CREDITS div
+END HEADER
+START MAIN SECTION (Kept within max of 1200px bounds)
+READER OVERLAY
+START READER CONTENT - THE WHITE AREA
+START COVER AND AUTHOR DETAILS
+This is placed before the Sidebars because some sidebars collapse in after this section on mobile
+My Last Lament
+James William Brown
+My Last Lament
+delivers a fitting eulogy to a way of life and provides a vivid portrait of a timeless Greek woman, whose story of love and loss is an eternal one.
+END COVER AND AUTHOR DETAILS
+START SIDEBAR SECTIONS
+sidebarItem class positions it and makes it collapse in mobile view
+The full sidebar is not contained in a div because some sections need 
+            to collapse into the main content area on resize. To this end the sidebar 
+            boxes are listed right along with the CenterContentBoxes which define sections that 
+            stay in the center and don't collapse to the sidebar
+START GALLEY ACTIVITY BOX
+END GALLEY ACTIVITY BOX
+Logged out, display after offer period and before book is on-sale
+Access the hottest new Penguin Random House books months before they hit the shelves.
+Sign In
+or
+Join Today
+START PRE-ORDER BOX
+Pre-Order a copy
+Pre-Order Button graphic
+Pre-Order
+end Pre-order button graphic
+Amazon
+Barnes & Noble
+Books A Million
+Hudson Booksellers
+IndieBound
+Powell's
+Target
+Walmart
+END PRE-ORDER BOX
+START TRENDING BOOKS BOX
+Featured Titles
+Gone Without a Trace
+Mary Torjussen
+The Devil's Feast
+The Night the Lights Went Out
+END TRENDING BOOKS BOX
+START AUTHOR ALERTS
+This section to be replaced with a widget
+SIGN UP
+Sign me up to receive news about James William Brown.
+END AUTHOR ALERTS BOX
+Place our blog button on your blog to let people know you are a member of this great program!
+END SIDEBAR SECTIONS
+There is no container tags for sidebar items
+START CENTER CONTENT SECTIONS
+Center Content sections are marked with class=centerContentBox and are also
+                         not wrapped in any containing DIV. These get listed directly after the sidebar sections. 
+                         The centerContentBox class does not collapse to the sidebar in mobile
+BOOK DESCRIPTION AREA
+A poignant and evocative novel of one Greek woman’s story of her own—and her nation’s—epic struggle in the aftermath of World War II.
+Aliki is one of the last of her kind, a lamenter who mourns and celebrates the passing of life. She is part of an evolving Greece, one moving steadily away from its rural traditions. To capture the fading folk art of lamenting, an American researcher asks Aliki to record her laments, but in response, Aliki sings her own story...
+It begins in a village in northeast Greece, where Aliki witnesses the occupying Nazi soldiers execute her father for stealing squash. Taken in by her friend Takis’s mother, Aliki is joined by a Jewish refugee and her son, Stelios. When the village is torched and its people massacred, Aliki, Takis and Stelios are able to escape just as the war is ending.
+Fleeing across the chaotic landscape of a postwar Greece, the three become a makeshift family. They’re bound by friendship and grief, but torn apart by betrayal, madness and heartbreak.
+Through Aliki’s powerful voice, an unforgettable one that blends light and dark with wry humor,
+My Last Lament
+delivers a fitting eulogy to a way of life and provides a vivid portrait of a timeless Greek woman, whose story of love and loss is an eternal one.
+END BOOK DESCRIPTION AREA
+START BONUS CONTENT SECTION
+END BONUS CONTENT SECTION
+START GALLEY REVIEW SECTION
+END GALLEY REVIEW SECTION
+START GALLEY REVIEW SECTION
+END GALLEY REVIEW SECTION
+Copy the following link
+<a href="http://www.firsttoread.com"><img alt="First To Read" src="http://www.firsttoread.com/Images/F2R_member.jpg"></a>
+START FOOTER
+About First to Read
+First to Read is a destination for readers and those who love to talk about and discover new books. First to Read provides members with the chance to be the first to read the best new books, before they hit the shelves.
+Terms of Use
+Privacy Policy
+Program Terms
+First to Read FAQ
+Download Instructions
+Contact Us
+Copyright © 2017 Penguin Random House
+END FOOTER
+END MAIN SECTION
+START OVERLAYS
+END OVERLAYS

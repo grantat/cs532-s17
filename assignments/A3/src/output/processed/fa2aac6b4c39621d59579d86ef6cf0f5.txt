@@ -1,0 +1,40 @@
+<![endif]
+[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]
+[if lte IE 9]>
+		<script src="//s3.amazonaws.com/content.sitezoogle.com/assets/history.iegte8.min-4d58c83f2678f3f74a34d395c04f3723.js"></script>
+	<![endif]
+Home
+About
+Calendar
+Featured Music
+Photos
+Videos
+Store
+Contact
+EPK
+Sharon Rae North
+Home
+About
+Calendar
+Featured Music
+Photos
+Videos
+Store
+Contact
+EPK
+this element is only here to fix an IE11 flexbox bug. see css for details.
+note it's up to the template designer to choose which icon (if any) they want to use
+temporary: so site_wide_my_sites show up in pages tab of controlpanel
+Welcome
+Thanks for stopping by.
+Take your time and enjoy your visit.
+Great news for the radio-release of my single "Lonely Nites" on January 30
+#1 Smoothjazz.com Most Added:
+#2 Billboard Smooth Jazz Chart Most Added (8 adds):
+#4 Groove Jazz Music Chart Most Added (12 adds)
+Return to form
+Please join our mailing list for the latest news
+Please prove that you are not a robot
+Powered by Bandzoogle

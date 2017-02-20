@@ -1,0 +1,221 @@
+<![endif]
+Google Chrome Frame for IE
+[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]
+mobile meta
+head extras
+This site is optimized with the Yoast SEO plugin v3.2.3 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 10]>
+<link rel='stylesheet' id='cb-ie-only-css'  href='http://www.modernists.fr/wp-content/themes/15zine/library/css/ie.css?ver=2.2.3' type='text/css' media='all' />
+<![endif]
+end custom css
+end head extras
+Qui sommes-nous ?
+L’AGENCE PAR MODERNISTS
+Contact
+Partenariats
+Idées d’articles ?
+Presse
+Accueil
+Mode
+Mode femme
+Mode Homme
+Mode Kids
+Art & Culture
+Art
+Cinéma
+Musique
+Photo
+TV / Séries / Videos
+Food & Shops
+Food & Restaurants & Bars
+Shops
+Home Style
+Décoration
+Mobilier
+Société
+Street
+Mot de passe oublié ?
+Accueil
+Mode
+Mode
+Tout voir
+SÉZANE X CARAVANE, LA COLLAB COMME UN HYMNE À L’ARTISANAT
+2017-02-15
+CONVERSE TOURNE UNE SÉRIE AVEC MILLIE BOBBIE BROWN DE STRANGER THINGS
+2017-02-14
+LA MARQUE DE SNEAKERS DE L.A CLAE PRÉSENTE SA COLLECTION CLAE FOR EVERYONE
+2017-02-14
+Mode femme
+Mode Homme
+Mode Kids
+Art & Culture
+Art & Culture
+Tout voir
+FASHION WEEK : LES HALLES DE PARIS EN 1979 PAR LE PHOTOGRAPHE GUY MARINEAU
+2017-02-15
+LE PROJET ARTISTIQUE DE SHIA LABEOUF CONTRE DONALD TRUMP EST ARRETÉ
+2017-02-15
+CAGOLE FOREVER, LE DOCUMENTAIRE CONSACRÉ À CETTE FÉMINITÉ OUTRANCIÈRE
+2017-02-15
+Art
+Cinéma
+Musique
+Photo
+TV / Séries / Videos
+Food & Shops
+Food & Shops
+Tout voir
+ANIMAL KITCHEN, QUAND LA CUISINE RENCONTRE LA MUSIQUE AU POINT ÉPHÉMÈRE
+2017-02-13
+ON DÉGUSTE GRAMGRAM ARTISANS TORREFACTEURS : LA PASSION DU BON CAFÉ
+2017-02-10
+BREAKING NEWS : CARAMBAR RÉVÈLE L’IDENTITÉ DE SON RÉDACTEUR DE BLAGUES
+2017-02-09
+Food & Restaurants & Bars
+Shops
+Home Style
+Home Style
+Tout voir
+SÉZANE X CARAVANE, LA COLLAB COMME UN HYMNE À L’ARTISANAT
+2017-02-15
+UNE REPLIQUE EXACTE DE LA LUNE, MOON ET SON SOLEIL EN 3D POUR ILLUMINER VOTRE INTERIEUR
+2017-02-01
+RETRO PATENTS PRINTS, AFFICHEZ EN POSTER VOTRE TECHNOLOGIE PRÉFÉRÉE
+2017-01-30
+Décoration
+Mobilier
+Société
+Société
+Tout voir
+LE PROJET ARTISTIQUE DE SHIA LABEOUF CONTRE DONALD TRUMP EST ARRETÉ
+2017-02-15
+CAGOLE FOREVER, LE DOCUMENTAIRE CONSACRÉ À CETTE FÉMINITÉ OUTRANCIÈRE
+2017-02-15
+VIDEO : VISITEZ LE POP-UP SHOP DE DAFT PUNK À LOS ANGELES
+2017-02-15
+Street
+Street
+Tout voir
+NIKE DÉVOILE SA NOUVELLE CAMPAGNE AVEC SES ATHLÈTES POUR L’ÉGALITÉ
+2017-02-13
+PARIS FACE CACHÉE, DES LIEUX CACHÉS DANS PARIS DU 27 AU 29 JANVIER
+2017-01-26
+SNEAKERS & CHILL VOUS OFFRE UNE SECONDE VIE À VOS SNEAKERS
+2017-01-13
+JAMIROQUAI DÉVOILE LE CLIP AUTOMATON EN INTEGRALITE
+Thomasd
+2017-01-27
+Art & Culture
+Musique
+On vous l’annonçait il y a une semaine,
+2017 signe le retour du groupe Jamiroquai
+avec son célèbre chanteur Jay Kay. Après un premier teaser de 20 secondes, c’est au tour du clip entier pour le titre Automaton de sortir. Mais la question est : Allez-vous aimer ?
+Il est vrai que déjà via le teaser de la semaine dernière, on notait un changement brutal dans la direction artistique du groupe. Plus électro, vers une musique plus futuriste avec notamment la célèbre coiffe de Jay Kay qui est devenue automatique et entièrement éclairé en LED.
+7 ans sans nouvelles, le groupe débarque donc avec fracas en changeant totalement le style de sa musique funk à la base pour quelque chose de plus électro avec des voix robotiques. Une prise de risque qui apparemment déçoit les fans « hardcore », mais nous qui sommes également de grands fans de ces faiseurs de tubes, nous aimons bien et nous attendons de voir la suite qui débarquera le 31 mars avec la sortie de l’album Automaton.
+Partager :
+Cliquez pour partager sur Twitter(ouvre dans une nouvelle fenêtre)
+Cliquez pour partager sur Facebook(ouvre dans une nouvelle fenêtre)
+Cliquez pour partager sur Google+(ouvre dans une nouvelle fenêtre)
+end article section
+Partager sur
+Tweet
+Publicité
+Thomasd
+Articles similaires
+LA BIBLIOTHEQUE PUBLIQUE DE NEW YORK MET EN LIGNE 180 000 IMAGES LIBRES DE DROIT
+Thomasd
+2017-01-13
+YOU AND MY BUDDY LE NOUVEAU DUO ELECTRO
+Thomasd
+2016-02-23
+LEICA DEVOILE LE M10 LE PLUS PLAT ET COMPACT APPAREIL PHOTO NUMÉRIQUE DE LA GAMME LEICA M
+Thomasd
+2017-01-19
+WOODKID EN 4D : Ce soir sur le plateau du Grand Journal
+charlotted
+2014-05-13
+LE PROFIL INSTAGRAM DE LA SEMAINE : SABRIBENY
+Thomasd
+2016-01-20
+CARS AND FILMS : ILLUSTRATIONS DES VOITURES CULTES DU CINEMA
+charlotted
+2014-06-02
+LE PROFIL INSTAGRAM DE LA SEMAINE : CLEMOBILE
+Thomasd
+2015-10-14
+MARK DAUMAIL DE COCOON NOUS RACONTE SON NOUVEL ALBUM WELCOME HOME
+Thomasd
+2016-06-07
+Ecrire un commentaire
+Annuler la réponse
+Votre adresse e-mail ne sera pas publiée.
+Commentaire
+Nom
+*
+E-mail
+*
+Site web
+MailChimp for WordPress v2.3.14 - https://mc4wp.com/
+Inscrivez-vous pour recevoir les dernières news Modernists
+/ MailChimp for WordPress
+Prévenez-moi de tous les nouveaux commentaires par e-mail.
+Prévenez-moi de tous les nouveaux articles par email.
+#respond
+end article footer
+end article
+end #main
+On se suit ?
+Vous avez aimé
+NOS 10 FILMS PRÉFÉRÉS DU NIKON FILM FESTIVAL 2017
+DEVENEZ UN PRO DU MASH-UP AVEC DES SONS DES ANNÉES 2000 SUR THE MAGIC IPOD
+SÉLECTION SAINT-VALENTIN : 10 IDÉES DE CADEAUX PAS CHERS
+LES SUPERBES PHOTOS DE KATE MOSS NUE POUR LE MAGAZINE W
+BREAKFAST CLUB, LA MARQUE ÉTENDARD DE LA CULOTTE EN COTON
+BREAKING NEWS : CARAMBAR RÉVÈLE L'IDENTITÉ DE SON RÉDACTEUR DE BLAGUES
+OCTOBRE EDITIONS, LA MARQUE MASCULINE PENSÉE PAR LA FONDATRICE DE SÉZANE
+SÉZANE X CARAVANE, LA COLLAB COMME UN HYMNE À L'ARTISANAT
+LA SEXTAPE DE KIM KARDASHIAN PEINTE PAR DEUX SŒURS ARTISTES
+CAGOLE FOREVER, LE DOCUMENTAIRE CONSACRÉ À CETTE FÉMINITÉ OUTRANCIÈRE
+Newsletter
+MailChimp for WordPress v2.3.14 - https://wordpress.org/plugins/mailchimp-for-wp/
+Mail :
+/ MailChimp for WordPress Plugin
+end #cb-content
+end #cb-container
+Modernists
+#FAIREDELAVIEUNEOEUVREDART
+Le Magazine traite de différents sujets de culture, de tendances, d’art.
+Notre souhait est de mettre en avant les talents créatifs d'aujourd'hui et de demain.
+Contact
+L’AGENCE PAR MODERNISTS
+Qui sommes-nous ?
+Partenariats
+Presse
+Idées d’articles
+Mentions légales
+Publicité
+On se suit ?
+Derniers Articles
+FASHION WEEK : LES HALLES DE PARIS EN 1979 PAR LE PHOTOGRAPHE GUY MARINEAU
+2017-02-15
+LE PROJET ARTISTIQUE DE SHIA LABEOUF CONTRE DONALD TRUMP EST ARRETÉ
+2017-02-15
+CAGOLE FOREVER, LE DOCUMENTAIRE CONSACRÉ À CETTE FÉMINITÉ OUTRANCIÈRE
+2017-02-15
+ON A VU DANS LA FORÊT, LE THRILLER INQUIÉTANT DE GILLES MARCHAND
+2017-02-15
+SÉZANE X CARAVANE, LA COLLAB COMME UN HYMNE À L’ARTISANAT
+2017-02-15
+L’AGENCE PAR MODERNISTS
+Qui sommes-nous ?
+Partenariats
+Presse
+Idées d’articles
+Mentions légales
+Modernists
+end footer
+end #cb-outer-container
+Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies.
+Ok
+En savoir plus

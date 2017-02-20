@@ -1,0 +1,119 @@
+/twitter seo
+[if (gte IE 6)&(lte IE 8)]>
+            <script type="text/javascript" src="/static/js/site/third_party/selectivizr-min.js"></script>
+            <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+        <![endif]
+HEADER
+xml version="1.0" encoding="utf-8"?
+BROWSE BAR
+Reactions
+Entertainment
+Sports
+Stickers
+Artists
+Categories
+GIPHY Studios
+Animals
+Holidays
+Food & Drink
+Memes
+Actions
+Emotions
+Anime
+Gaming
+Cartoons
+Stickers
+Trending
+GIPHY Studios
+Emojis
+Effects
+Reactions
+Apps
+GIPHY
+GIPHY for iMessage
+GIPHY Cam
+GIPHY Capture
+GIPHY Keys
+About
+Team
+Partnerships
+Studios
+API
+Labs
+FAQ
+Support
+Terms
+Privacy
+DMCA
+/BROWSE BAR
+CREATION BUTTONS
+Upload
+Create
+CREATION BUTTONS
+LOGIN PLACEHOLDER
+LOGIN PLACEHOLDER
+/HEADER
+SEARCH BAR
+Search all the GIFs
+Search all the GIFs
+/SEARCH BAR
+GIF
+This GIF has everything: swag, style, 70s, FUNK!
+Source
+vimeo.com
+Share
+Advanced
+Send
+Report this GIF
+Iframe Embed
+JS Embed
+HTML5 Embed
+Autoplay
+On
+Off
+Social Shares
+On
+Off
+Giphy links preview in Facebook and Twitter. HTML5 links autoselect optimized format.
+Giphy Link
+HTML5 Video
+Gif Download
+Download
+Upload GIF
+to Twitter
+http://gph.is/1sNmG90
+Log in
+Log out
+Tweet
+Short URLs redirect to a specified link while rendering a GIF preview on Facebook and Twitter.
+Gif Shortener
+Shorten
+TAGS
+Tags
+swag
+style
+70s
+funk
+soul
+african american
+black people
+black boy joy
+blackbirdsblackboyjoy
+black history month
+blackpeople
+soul train
+black history
+africanamerican
+decades
+james brown
+black boy
+/TAGS
+INFO BAR
+swag animated GIF
+Dimensions:
+480x357
+Size:
+6638KB
+Frames:
+77
+/INFO BAR

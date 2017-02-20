@@ -1,0 +1,597 @@
+<![endif]
+Load CSS Files
+Load JS files
+Facebook
+Google Recaptcha API, Will not work if a form using it is dynamically created. That would
+Require a different solution
+Google Analytics
+End Google Analytics
+/.menu-trigger-wrap
+/.inline-list
+/.trends
+/.header-left
+/.listplayer-wrap
+/.search-form-wrap
+/.player-outer-wrap
+Sign Up
+/
+Sign In
+/.logged-out
+/.account-box
+Upload
+/.header-upload-wrap
+/.inner-content
+/.header-inner
+/#header
+/.menu-trigger-wrap
+Browse Music
+All Genres
+Home
+Trending
+Top Songs
+Top Albums
+Top Playlists
+Recently Added
+/.sub-menu
+Hip-Hop/R&B
+Home
+Trending
+Top Songs
+Top Albums
+Top Playlists
+Recently Added
+/.sub-menu
+Electronic
+Home
+Trending
+Top Songs
+Top Albums
+Top Playlists
+Recently Added
+/.sub-menu
+Reggae
+Home
+Trending
+Top Songs
+Top Albums
+Top Playlists
+Recently Added
+/.sub-menu
+Podcast
+Home
+Trending
+Top Podcasts
+Recently Added
+/.sub-menu
+/.menu
+/.widget
+/.widgets-left
+Top Songs Today
+/.image
+Kodak Black
+No Flocking
+Uploaded by
+Kodak Black
+/.featured-info
+/.featured-item
+/.image
+Kodak Black
+There He Go
+Uploaded by
+Kodak Black
+/.featured-info
+/.featured-item
+/.image
+Kodak Black
+Skrt
+Uploaded by
+Kodak Black
+/.featured-info
+/.featured-item
+View more songs
+/.featured-loop
+/.widget
+Top Albums Today
+/.image
+Moneybagg Yo
+Heartless
+Uploaded by
+Mixtape Republic
+/.featured-info
+/.featured-item
+/.image
+Jacquees x Dej Loaf
+Fuck A Friend Zone
+Uploaded by
+DejLoaf
+/.featured-info
+/.featured-item
+/.image
+Quavo of Migos
+Quavo Huncho 2
+Uploaded by
+DJ Donka
+/.featured-info
+/.featured-item
+View more albums
+/.featured-loop
+/.widget
+/.group
+/.ad-block
+/.widgets-right
+/.menu-top
+Download our app on
+/.app-links
+Follow Audiomack on
+/.social-links
+/.menu-bottom
+/.container
+/.mega-menu
+/#nav-wrap
+/.banner-ad
+Share this page:
+/.facebook
+/.twitter
+/.gplus
+/.share-page
+/.background-image
+/.profile-image
+OG Dynasty Beats
+Like James Brown
+Uploaded On Dec 6, 2016
+Genre:
+Hip-Hop/R&B
+Added by:
+OG Dynasty
+Uploaded to Soundcloud by:
+OG Dynasty Beats
+/.details
+Follow
+/.profile-info
+Plays:
+13
+Favorites:
+1
+Ranking:
+N/A Today
+N/A This Week
+N/A This Month
+#523K All Time
+/.table-cell
+/.table
+/.profile-stats
+/.row
+/.profile-header
+OG Dynasty Beats
+Like James Brown
+13
+1
+Audiomack
+00:00
+/.slider
+/.slider-container
+00:00
+Loading the player...
+Recent tracks and albums from OG Dynasty
+/.top-bar
+/.share-icons
+/.cover
+Album
+Hip-Hop/R&B
+OG Dynasty
+Future x Drake Type Beats (Buy Beats Now)
+Producer: OG Dynasty
+Added on Feb 13, 2017
+									
+									by
+OG Dynasty
+/.uploaded
+/.flex-breaker
+/.item-content-inner
+/.feed-item-content
+Play (
+87
+)
+Fav (1)
+Re-Up (1)
+Buy
+/.track-interaction
+/.row
+01.
+OG Dynasty -Trap Magic
+02.
+OG Dynasty -All The Hype
+03.
+OG Dynasty -Alot Of Hate
+04.
+OG Dynasty -All My Killas
+05.
+OG Dynasty -Nights In LA
+06.
+OG Dynasty -Views From Uptown
+07.
+OG Dynasty -Trap Paradise (Mastered)
+08.
+OG Dynasty -Preach Greatness (Mastered)
+09.
+OG Dynasty -Still On Tour
+10.
+OG Dynasty -Just Like Guwop
+11.
+OG Dynasty -Premium Only
+12.
+OG Dynasty -Trap With A Passion
+13.
+OG Dynasty -Trap Flows
+14.
+OG Dynasty -Prime Suspect
+15.
+OG Dynasty -Trap Like Jeezy
+16.
+OG Dynasty -Stole My Drip
+17.
+OG Dynasty -Views From Uptown Part 2
+/.single-feed-item
+/.share-icons
+/.cover
+Album
+Hip-Hop/R&B
+OG Dynasty
+Lil Uzi Vert Type Beats (Buy Beats Now)
+Producer: OG Dynasty
+Added on Feb 12, 2017
+									
+									by
+OG Dynasty
+/.uploaded
+/.flex-breaker
+/.item-content-inner
+/.feed-item-content
+Play (
+47
+)
+Fav (1)
+Re-Up (0)
+Buy
+/.track-interaction
+/.row
+01.
+OG Dynasty -My Own Wave (Mastered)
+02.
+OG Dynasty -Trap Paradise (Mastered)
+03.
+OG Dynasty -Pursue The Sauce
+04.
+OG Dynasty -2-6 Coolin (Mastered)
+05.
+OG Dynasty -Still On Tour
+06.
+OG Dynasty -Feelin' Like Denzel
+07.
+OG Dynasty -Lavish Life (Mastered)
+08.
+OG Dynasty -Took Your Girl
+09.
+OG Dynasty -New Waves
+10.
+OG Dynasty -All My Killas
+11.
+OG Dynasty -Stole My Drip
+12.
+OG Dynasty -Whenever I Want
+13.
+OG Dynasty -Rawest Eva
+14.
+OG Dynasty -Downtown Atlanta
+15.
+OG Dynasty -Bring A Vibe
+16.
+OG Dynasty -Blessed With Sauce [Prod. OG Dynasty]
+17.
+OG Dynasty -Break A Hoe Heart
+18.
+OG Dynasty -Follow The Code
+19.
+OG Dynasty -All My Energy Part 2
+20.
+OG Dynasty -All I Ever Wanted
+21.
+OG Dynasty -Topple
+22.
+OG Dynasty -Real People Only (Mastered)
+23.
+OG Dynasty -Hype Up
+24.
+OG Dynasty -Party On A Weekday (Mastered)
+25.
+OG Dynasty -Luv vs. Rage
+/.single-feed-item
+/.share-icons
+/.cover
+Song
+Hip-Hop/R&B
+OG Dynasty
+Feel It In The Air
+Producer: OG Dynasty
+Added on Feb 12, 2017
+									
+									by
+OG Dynasty
+/.uploaded
+/.flex-breaker
+/.item-content-inner
+/.feed-item-content
+Play (
+4
+)
+Fav (2)
+Re-Up (0)
+Playlist (0)
+Buy
+/.track-interaction
+/.row
+/.single-feed-item
+/.share-icons
+/.cover
+Re-Upped by OG Dynasty
+Album
+Hip-Hop/R&B
+Montana Of 300
+No Surrender No Retreat
+Feat.
+$avage
+,
+Jalyn Sanders
+,
+TO3
+&
+No Fatigue
+Producer: Charisma808, 300Cam, TooBluntBeats, HollywoodBanger
+Added on Feb 10, 2017
+									
+									by
+DJ Donka
+/.uploaded
+/.flex-breaker
+/.item-content-inner
+/.feed-item-content
+Play (
+58.8K
+)
+Fav (706)
+Re-Up (87)
+Buy
+/.track-interaction
+/.row
+01.
+Montana Of 300 -Great (Ft. Montana Of 300 Talley Of 300, Jalyn Sanders, No Fatigue & Savage)
+02.
+Montana Of 300 -Stylin (Ft. Jalyn Sanders, No Fatigue & Montana Of 300)
+03.
+Montana Of 300 -Gassed (Ft. Talley Of 300, Montana Of 300 & Savage)
+04.
+Montana Of 300 -Only Time (Ft. Jalyn Sanders)
+05.
+Montana Of 300 -Bag (Ft. Montana Of 300, Jalyn Sanders & Talley Of 300)
+06.
+Montana Of 300 -No Excuses (Ft. Talley Of 300, No Fatigue & Savage)
+07.
+Montana Of 300 -FGE Cypher, Pt. 3 (Ft. No Fatigue, Talley Of 300, Montana Of 300 & Savage)
+08.
+Montana Of 300 -Know You Wanna (Ft. Montana Of 300, Talley Of 300, Jalyn Sanders, No Fatigue & Savage)
+09.
+Montana Of 300 -My Niggas (Ft. Montana Of 300, Talley Of 300, Don D & Savage)
+10.
+Montana Of 300 -Not Tonight (Ft. Jalyn Sanders, Talley Of 300, Montana Of 300 & Savage)
+11.
+Montana Of 300 -I'm Up Now (Ft. Jalyn Sanders, No Fatigue, Montana Of 300 & Savage)
+12.
+Montana Of 300 -No Mercy (Ft. Talley Of 300 & Savage)
+13.
+Montana Of 300 -Who TF Is You (Ft. Montana Of 300, No Fatigue & Savage)
+14.
+Montana Of 300 -How We Do It (Ft. Jalyn Sanders, Talley Of 300, Montana Of 300 & No Fatigue)
+/.single-feed-item
+/.share-icons
+/.cover
+Re-Upped by OG Dynasty
+Album
+Hip-Hop/R&B
+Jacquees x Dej Loaf
+Fuck A Friend Zone
+Added on Feb 10, 2017
+									
+									by
+DejLoaf
+/.uploaded
+/.flex-breaker
+/.item-content-inner
+/.feed-item-content
+Play (
+255K
+)
+Fav (1.35K)
+Re-Up (127)
+Download
+/.track-interaction
+/.row
+01.
+Jacquees x Dej Loaf -Fuck A Friend ZONE
+02.
+Jacquees x Dej Loaf -No Better Love
+03.
+Jacquees x Dej Loaf -At The Club
+04.
+Jacquees x Dej Loaf -Hold This
+05.
+Jacquees x Dej Loaf -Deeper
+06.
+Jacquees x Dej Loaf -Set It Off
+07.
+Jacquees x Dej Loaf -Your Body
+08.
+Jacquees x Dej Loaf -Want Your Sex
+09.
+Jacquees x Dej Loaf -Hold You Up
+10.
+Jacquees x Dej Loaf -Make You Fall In Love
+11.
+Jacquees x Dej Loaf -You Belong To Somebody Else
+12.
+Jacquees x Dej Loaf -Waves
+13.
+Jacquees x Dej Loaf -The World Along With You
+/.single-feed-item
+/.share-icons
+/.cover
+Re-Upped by OG Dynasty
+Song
+Hip-Hop/R&B
+Rick Ross
+Summer 17
+Added on Feb 09, 2017
+									
+									by
+renzel
+/.uploaded
+/.flex-breaker
+/.item-content-inner
+/.feed-item-content
+Play (
+80.2K
+)
+Fav (1.61K)
+Re-Up (135)
+Playlist (1.58K)
+/.track-interaction
+/.row
+/.single-feed-item
+/.share-icons
+/.cover
+Song
+Hip-Hop/R&B
+OG Dynasty
+All Night Every Night
+Producer: OG Dynasty
+Added on Feb 09, 2017
+									
+									by
+OG Dynasty
+/.uploaded
+/.flex-breaker
+/.item-content-inner
+/.feed-item-content
+Play (
+2
+)
+Fav (1)
+Re-Up (0)
+Playlist (0)
+Buy
+/.track-interaction
+/.row
+/.single-feed-item
+See more from OG Dynasty
+/.feed
+/.section-content
+/.recent-tracks
+/.left-content
+/.widget-content
+-/.widget
+Follow OG Dynasty
+/.top-bar
+/.widget-content
+/.artist-social
+/.right-content
+Footer - 728x90
+Audiomack
+Copyright © 2017 Audiomack LLC.
+All Rights Reserved.
+/.social
+/.company
+Home
+Trending
+Top Songs
+Top Albums
+Top Playlists
+/.widget
+Sign up / Sign In
+Legal & DMCA
+Privacy Policy
+Terms of Service
+Media Kit
+Contact / Support
+/.widget
+About
+Wordpress
+iOS App
+Android App
+/.widget
+/.menu-widgets
+/.widgets-wrap
+/.container
+×
+Create an Account
+/.logo-wrap
+Login / signup with Facebook
+* If you already have an account we will merge it with your existing account if the email address from Facebook matches your Audiomack account.
+/.button-group
+or
+New user sign up
+/.form-group
+/.form-group
+/.form-group
+/.form-group
+By signing up you agree to our
+terms of service
+/.form-group
+/.text-center
+/.signup-form
+Existing user login
+/.form-group
+/.form-group
+Forgot your password?
+Having trouble logging in?
+/.trouble-links
+/.text-center
+/.login-form
+Already have an account?
+Log in
+Don't have an account?
+Sign Up For Free
+/.loader
+/.overlay-loader
+/.modal-content
+/.modal-dialog
+×
+Embed This Song
+Large
+Standard
+Thin
+Wordpress
+Reload Embed
+<iframe src="https://www.audiomack.com/embed4-large/dienasty-beats/like-james-brown" scrolling="no" width="100%" height="250" scrollbars="no" frameborder="0"></iframe>
+<iframe src="https://www.audiomack.com/embed4/dienasty-beats/like-james-brown" scrolling="no" width="100%" height="110" scrollbars="no" frameborder="0"></iframe>
+<iframe src="https://www.audiomack.com/embed4-thin/dienasty-beats/like-james-brown" scrolling="no" width="100%" height="62" scrollbars="no" frameborder="0"></iframe>
+Wordpress.com (Hosted) users: Simply enter the url of the song or album you want to play on your site and it will automatically turn into an embed.
+https://www.audiomack.com/song/dienasty-beats/like-james-brown
+Wordpress.org (Self-Hosted) users: You have three options:
+Download our Wordpress Plugin
+https://wordpress.org/plugins/audiomack/
+. You can then paste the url or use the shortcode generator in the plugin.
+Install Jetpack (
+http://jetpack.me/
+). This doesnt have all the functionality of our plugin but it will allow you to embed by pasting the url.
+Use the iframe code - If you are an administrator of your account and have opted to "allow unfiltered html" in your posts, then you can use the iframe embed code on the other tabs of this modal.
+/#wordpress
+/.modal-content
+/.modal-dialog
+×
+/.logo
+/,modal-header
+Listen to the best new hip-hop, reggae, and electronic music on the Audiomack App.
+Download the Audiomack app
+/.button-group
+/.app-logos
+/.modal-content
+/.modal-dialog

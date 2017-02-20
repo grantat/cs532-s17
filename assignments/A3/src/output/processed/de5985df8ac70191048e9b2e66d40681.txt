@@ -1,0 +1,6 @@
+[if lt IE 9]>
+		<script src="http://www.jcbasimul.com/wordpress/wp-content/themes/jcbasimul/js/html5shiv.min.js"></script>
+		<script src="http://www.jcbasimul.com/wordpress/wp-content/themes/jcbasimul/js/respond.min.js"></script>
+	<![endif]
+begin radio analytics
+end  radio analytics

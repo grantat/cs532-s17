@@ -1,0 +1,80 @@
+[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]
+[if lt IE 7]>  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>      <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>あなたは旧式ブラウザをご利用中です</div>        <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>このウェブサイトを快適に閲覧するにはブラウザをアップグレードしてください。</div>      </div>      <div style='width: 75px; float: left;'><a href='http://www.mozilla.jp' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>      <div style='width: 75px; float: left;'><a href='http://www.microsoft.com/downloads/details.aspx?FamilyID=341c2ad5-8c3d-4347-8c03-08cdecd8852b&DisplayLang=ja' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>      <div style='width: 73px; float: left;'><a href='http://www.apple.com/jp/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>      <div style='float: left;'><a href='http://www.google.com/chrome?hl=ja' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>    </div>  </div>  <![endif]
+Home
+BIOGRAPHY
+Discography
+News
+Videos
+STORE
+Instagram
+Twitter
+YouTube
+Facebook
+iTunes
+Universal Music Japan
+ジャミロクワイ
+Menu
+Instagram
+Twitter
+YouTube
+Facebook
+iTunes
+Home
+BIOGRAPHY
+Discography
+News
+Videos
+STORE
+NEWS
+2017.01.18
+LIVE
+来日公演が決定！
+サマソニ以来5年ぶりの来日公演が決定。
+2017年5月25日(木)
+東京 国際フォーラム HALL A
+OPEN 18:00/ START 19:00
+TICKETS
+SS指定席￥18,000（税込）
+S指定席￥12,000（税込）
+チケット発売日：
+2017/2/18(土)
+INFO：クリエイティブマン 03-3499-6669
+主催：J-WAVE　協力：ユニバーサルミュージック
+企画・制作・招聘：クリエイティブマン
+※未就学児(6歳未満)のご入場をお断りさせていただきます。
+公演詳細はこちら：
+https://www.creativeman.co.jp/artist/2017/05jamiroquai/
+NEWS一覧に戻る
+TWITTER
+Tweets by @JamiroquaiHQ
+FACEBOOK
+Links
+OFFICIAL
+SITE
+STORE
+Label
+UNIVERSAL INTERNATIONAL
+Genre
+洋楽
+Instagram
+Twitter
+YouTube
+Facebook
+iTunes
+ページの先頭に戻る
+サイトTOPへ
+会社概要
+個人情報保護方針 / クッキーポリシー
+ウェブサイトにおける免責事項
+Copyright © 2017 UNIVERSAL MUSIC LLC All rights reserved.
+Google Code for Remarketing Tag
+------------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to set up the tag on: http://google.com/ads/remarketingsetup
+---------------------------------------------------------
+Google Tag Manager
+End Google Tag Manager
+Yahoo Tag Manager
+End Yahoo Tag Manager
+Eloqua tracking

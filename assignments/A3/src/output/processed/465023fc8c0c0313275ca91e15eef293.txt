@@ -1,0 +1,124 @@
+<![endif]
+[if lt IE 9]>
+	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]
+cargadorCss
+!cargadorCss
+cargadorLess
+!cargadorLess
+Loaders
+Loader paso 2 header_required
+Header
+Atributos meta cargados
+[if (gte IE 6)&(lte IE 8)]>
+	<script type="text/javascript" src="/concrete/js/selectivizr.min.js"></script>
+<![endif]
+Helper FONDO
+!Loaders
+Fondo y overlay
+!Fondo y overlay
+Logs
+!Logs
+Mas fondo y overlay
+!Mas fondo y overlay
+paxina
+cabeceira
+extras-cabeceira
+/extras-cabeceira
+navegacion
+Home
+Listen
+News
+Media
+Contact us
+/navegacion
+/cabeceira
+banner
+MOBILE APP RADIOLINE
+MOBILE APP RADIONOMY
+Stream from media player
+Embeed player in your webpage
+MOBILE APP TuneIN
+You can listen to Groove'n on iOS or Android from the
+Radio
+line
+mobile application. The names of the artists and titles of the songs are displayed along with album thumbnails, and the application is robust with a relatively smooth streaming.
+You can listen to Groove'n on iOS or Android from the
+Radionomy
+mobile application. Album covers, and the names of the artists and the titles of the songs are displayed.
+You can also listen to Groove'n Arrels from the media player of your computer by using the stream:
+http://listen.radionomy.com/groove-narrels.m3u
+- Tested on:
+VOX
+You can make people listen to Groove'n Arrels from your own webpage, by embeeding the player of the radio.
+Choose your preferred player, and copy the code:
+You can listen to Groove'n on iOS or Android from the
+TuneIn
+mobile application. The names of the artists and titles of the songs are not displayed, but the application is robust, and the streaming is smooth.
+An issue with the new Copyright Royalty Board (CRB) royalty rates is making Groove'n Arrels temporarily unavailable on TuneIn
+/banner
+corpo
+About Groove'n Arrels
+Groove'n Arrels is an Internet Radio project that started in 2014, in Barcelona. It is committed to spread open-minded, rebel, and high quality music. Music is often the reflection of one's soul, of a culture. Real music is alive and carries a world of sensations and messages that can stand for daily therapy or social weapon.
+Many sounds broadcasted on Groove'n Arrels are expressions of feelings for freedom and justice. They can appear as true calls for revolution, chanting down the dogma used to keep people in bondage for the benefits of oligarchies. Let us plant the seed of change in our minds. Let us do it in music, because music knows no boundary.
+How to support Groove'n Arrels
+If you like Groove'n Arrels, please support us so that we can continue broadcasting. Groove'n Arrels uses the Radionomy platform that covers the payment of Author's rights. In return, the radio must attract a minimum amount of audience, fixed by Radionomy in terms of listening hours.
+The more you listen to us, the more you help us to keep the radio alive
+.
+The probability of having Groove'n Arrels listened by people depends on the effective dissemination of the radio, and on whether the radio is recommended in the media.
+You can greatly help if you register and like / follow / recommend us on:
+Radionomy
+,
+Radioline
+, and
+Facebook
+. Of course, we also appreciate any direct recommendation to your friends. Just pass the beat, Thank you!
+Home
+Listen
+News
+Jazz Broadcast Update: Featuring the Debut Album of Mike Casey
+Broadcast Update: Africa, Asia, Australia, Europe and America!
+Peter Tosh & Bob Marley - Special Broadcast update December 10th: Human Rights Day
+One Blood on Groove'n Arrels: World Music Broadcast Update
+Pump up the bass! New broadcast update Acid Jazz, Funk, Afrobeat
+Broadcast Update Reggae: Roots and Natty Sounds
+Groove'n Arrels Presents: 12 Campanades - Rebel Music
+More Blue Notes on Groove'n Arrels
+Broadcast update World Music - One Heart!
+Tiken Jah Fakoly: Jamaican Soul & Mandingo instruments on Groove'n Arrels
+Broadcast Update: Funky Grooves
+Special Broadcast Update - La Panchita Records!
+Two additional hours of Jazz Broadcast. Featuring the sound of Mings and Craig
+New broadcast update: World Music!
+Groove'n Arrels temporarily unavailable on TuneIn
+Broadcast Update Funk Acid Jazz Afrobeat - Say it Loud!
+Broadcast Update Dub & Remixes
+Oceanic Suite: The debut album of Atlantis Jazz Ensemble - Mystic Jazz on Groove'n Arrels!
+Broadcast update World Music
+NES: Première on Groove'n Arrels
+Groove'n Arrels listed on Radioline!
+La Panchita Records Tape Series: Brother Wildman
+Broadcast Update Reggae
+Broadcast Update Funk
+Groove'n Arrels presents: A Tribute to Paris
+More reggae - Bun Dem All by ZZBU + Dub version are on Groove'n Arrels!
+The Afrobeat sound of Mampön is on Groove'n Arrels!
+Broadcast update - Happy New Year!
+Broadcast Update Jazz
+Music Lives On, Freedom Wins - Part II
+Music Lives On, Freedom Wins - Part I
+Groove'n Arrels Presents: A Message to You Ruler
+Broadcast Update (September 9th 2015)
+Fela Kuti - Coffin for Head of State (Part 2)
+Free Ganja - Tribute to Rico Rodriguez (September 7th 2015)
+Michel Legrand - Southern Routes - Impressive big band and dancefloor Jazz
+Carlos Miyares - Tumbao Pa'koki - Coltranian Latin Jazz
+Burning Spear - Lion: Remember Cecil
+Media
+Contact us
+/corpo
+pe
+Follow @GroovenArrels
+/pe
+2015 © CREOWEBS. Diseñamos y creamos
+/paxina

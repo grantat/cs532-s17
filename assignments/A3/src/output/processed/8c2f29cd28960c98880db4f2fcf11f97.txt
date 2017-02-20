@@ -1,0 +1,458 @@
+<![endif]
+=================================
+Style Sheets
+=================================
+Google Fonts
+Plugins CSS Files
+custom styles for Poison
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color1.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color2.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color3.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color4.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color5.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color6.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors/color7.css">
+=====================================
+Preloader
+========================================
+=================================
+    Vegas Slider Images 
+    =================================
+================
+     Banner
+    ====================
+=================================
+    JPlayer (Audio Player)
+    =================================
+Do not edit this section Unless you have to modify HTML structure of Playlist
+#
+artiste - titre
+1
+music row
+2
+music row
+3
+music row
+4
+music row
+5
+music row
+music_widget
+container
+//=============================================================
+        Edit or Modify Playist content in the following Hypertext
+        ==============================================================
+Add Songs In mp3 formate here
+Playlist ends
+little black bag pack
+controls
+audio-progress
+//banner
+=========================
+     Header
+    ===========================
+Qui sommes-nous ?
+Actu
+Programmation
+Podcasts
+Countdown
+Contact
+/.nav-collapse
+======================================
+    Team/Band Members
+    ==========================================
+Qui sommes-nous ?
+Présentation du projet.
+section_head_widget
+row
+Candidate à l’attribution d’une fréquence sur la RNT à LILLE (appel CSA de juin 2016). PLAYLOUD est une webradio, dont les locaux sont situés à Roubaix, qui met en avant la métropole Lilloise comme le carrefour qu’elle se doit d’être, pluriculturel, multilingue et cosmopolite.
+L’objectif principal de l’association est de fédérer autour de thèmes universels : la culture, la musique et l’art, une audience locale et extra-locale en faisant abstraction des frontières et des langues.
+La Radio Numérique Terrestre est, à la radio, ce que la TNT fut en son temps à la télévision.
+Son HD digital, accompagné de données associés, elle est le chainon manquant entre la FM D’hier et la radio numerique d’aujourd’hui qui s’écoute en IP via le WEB.
+La webradio comporte déjà à l’heure actuelle 6 heures de programmes animés par jour, le
+tout ponctué d’infos pratiques et culturelles sur les évènements à ne pas rater dans l’Eurozone. Des espaces quotidiens d’une heure de liberté musicale sont ouverts le soir à différents artistes locaux et/ou internationaux. 4 à 6 minutes par heure laissent place aux infos culturelles générales et locales, y compris dans les créneaux non-animés, rédigés par plusieurs rédacteurs/blogueurs locaux. Les interventions à l’antenne sont aujourd’hui à 90% en français, mais à caractère international, ponctuées par quelques intervenants anglophones et bientôt néerlandophones.
+Le format musical, est composé d’une majorité de productions indie européennes, à destination d’un public adulte/jeune adulte urbain et tendance. Cette programmation est un contrepied de la playlist des radios Top 40. A faible rotation, elle est composée à plus de 90% de nouveautés issues majoritairement des nouveaux circuits de production et de distribution. La ligne musicale Playloud c’est près de 1000 titres/semaine. Très éloigné de Yacast (qui règne en maitre sur l’offre musicale des radios en France), c’est un choix ciblé, mais éclectique, capable d’intéresser un public local, mais qui se doit d’être également formaté pour un auditeur étranger de passage.
+Géré par un collectif d’anciens ou d’actuels pro de la production musicale et/ou de la radio Commerciale comme associative, Playloud n’est pas juste un robinet à musique c’est un projet pensé, avec une ligne d’antenne, et un vrai format musical.
+Un Label est en cours de création, afin de faire profiter de jeunes artistes locaux innovants, de moyens et talents mutualisés, et d’une expérience solide sur les nouveaux circuits de distribution numérique.
+En plus de son site web, Playloud dispose également de son appli i-phone et android sur les stores correspondants.
+container
+================
+     News
+    ====================
+Actu
+Retrouvez ici les dernières actualités
+column
+row
+contaier
+controls
+//controls_wrapper//carousel_overlay
+SUR LA PISTE DES DINOSAURES
+par Thomas
+30-01-2017
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+MUSEE DU SLIP
+par Thomas
+30-01-2017
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+EXPO : LES PAYSAGES DU POSSIBLE
+par Quentin
+26-01-2017
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+NAME FESTIVAL D'HIVER
+par Quentin
+25-01-2017
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+DOUR FESTIVAL
+par Quentin
+25-01-2017
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+LES NUITS DE LA FILATURE
+par Quentin
+14-01-2017
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+DRAGONS
+par Thomas
+27-12-2016
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+SOULWAX à L'AERONEF
+par Quentin
+30-11-2016
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+PETER PETER EN CONCERT
+par Quentin
+30-11-2016
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+LES PARADIS ARTIFICIELS
+par Quentin
+30-11-2016
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+VINYL DEALER LILLE
+par Quentin
+27-11-2016
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+CECI N'EST PAS UNE COPIE
+par Thomas
+27-11-2016
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+ART UP 2017
+par Thomas
+13-11-2016
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+BUDAFABRIEK
+par Thomas
+07-07-2016
+//news_meta
+news_info
+//news_info_wrapper
+Lire l'article complet
+//hover
+//news_box bounceInUp animated
+//news_box bounceInUp animated
+//news_carousel
+//news_widget
+//News
+=============
+    Music Tracks
+    ===============
+Programmation
+Retrouvez ici l'agenda de vos émissions préférées
+section_head_widget
+row
+La Morninglist
+Chaque jour de 9h à 12h avec Thomas
+news_info
+//news_info_wrapper
+<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>
+//hover
+//news_box
+La Daylist
+Chaque jour de 14h à 16h avec Quentin
+news_info
+//news_info_wrapper
+<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>
+//hover
+//news_box
+Playloud Residents
+Chaque soir de 22h à 23h
+news_info
+//news_info_wrapper
+<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>
+//hover
+//news_box
+Silky Thursdays
+Chaque Jeudi de 20h à 21h avec Pierre
+news_info
+//news_info_wrapper
+<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>
+//hover
+//news_box
+Le Countdown
+Chaque Samedi de 16h à 17h
+news_info
+//news_info_wrapper
+<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>
+//hover
+//news_box
+Barry & Gibbs Disco Show
+Chaque Dimanche de 19h à 20h
+news_info
+//news_info_wrapper
+<div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a> </div>
+//hover
+//news_box
+=============================tracks-Details=========================
+======================================
+    Parallax/Testimonial Section
+    ==========================================
+======================================
+    Media Section
+    ==========================================
+Podcasts
+Retrouvez ici le replay de vos émissions préférées
+<div class="col-xs-12 col-sm-4 text-right">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    2014 <span class="fa fa-caret-down"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                  </ul>
+                </div>
+            </div>
+section_head_widget
+row
+hyperlink
+FUNDAMENTAL
+par Man Of Goodwill
+figure
+×
+Close
+FUNDAMENTAL
+2 épisodes
+AAA Episode 2, posté le 02-05-2016
+AAA Episode 1, posté le 01-05-2016
+Tweet
+896
+Like
+2k
+1+
+18
+poison itunes
+poison soundcloud
+poison youtube
+gallery-popup
+hyperlink
+NIGHTCALL
+par Johan
+figure
+×
+Close
+NIGHTCALL
+2 épisodes
+BBB Episode 2, posté le 03-05-2016
+BBB Episode 1, posté le 02-05-2016
+Tweet
+896
+Like
+2k
+1+
+18
+poison itunes
+poison soundcloud
+poison youtube
+gallery-popup
+hyperlink
+HUSTLE
+par Gibbs
+figure
+×
+Close
+HUSTLE
+2 épisodes
+CCC Episode 2, posté le 03-05-2016
+CCC Episode 1, posté le 02-05-2016
+Tweet
+896
+Like
+2k
+1+
+18
+poison itunes
+poison soundcloud
+poison youtube
+gallery-popup
+hyperlink
+SILKY THURSDAY
+par Pierre Thery
+figure
+×
+Close
+SILKY THURSDAY
+0 épisodes
+Tweet
+896
+Like
+2k
+1+
+18
+poison itunes
+poison soundcloud
+poison youtube
+gallery-popup
+hyperlink
+NUDISCO SENSATION
+par Mark Lower
+figure
+×
+Close
+NUDISCO SENSATION
+0 épisodes
+Tweet
+896
+Like
+2k
+1+
+18
+poison itunes
+poison soundcloud
+poison youtube
+gallery-popup
+hyperlink
+LOST IN MUSIC
+par Fred Rich
+figure
+×
+Close
+LOST IN MUSIC
+0 épisodes
+Tweet
+896
+Like
+2k
+1+
+18
+poison itunes
+poison soundcloud
+poison youtube
+gallery-popup
+hyperlink
+COUNTDOWN
+par Thomas
+figure
+×
+Close
+COUNTDOWN
+0 épisodes
+Tweet
+896
+Like
+2k
+1+
+18
+poison itunes
+poison soundcloud
+poison youtube
+gallery-popup
+Column / media item
+Column / media item
+container
+//media_section
+======================================
+    Tours Section
+    ==========================================
+Countdown
+Retrouvez ici le classement des titres de la semaine
+10 Jamiroquai – Automaton
+09 Pont point – A piece of sun
+08 Winston surfshirt – Be about you
+07 Dj Kojack – Party
+06 Yukseck fet Roman Rappak – Live alone
+05 The Black Madonna – He is the Voice that I hear
+04 Urban cone – old School
+03 Nora & Pure – Mak Me love you
+02 Data & Sacha Sieff – Melodie
+01 Deejay Astral – Let you go
+======================================
+    Footer
+    ==========================================
+=========================
+              Contact Form
+              ===========================
+Suivez-nous
+Message
+tab wrapper
+Twitter
+Facebook
+column
+column
+column
+column
+Envoyer
+column
+row
+Please Provide Valid Information
+© 2016
+Playloud
+.
+Developed by
+Alexandre
+container
+parallax_inner
+//parallax
+===================================================================
+Scripts
+====================================================================

@@ -1,0 +1,142 @@
+CRITEO HEADER TAG
+END CRITEO HEADER TAG
+[if lt IE 9]>
+        <script type="text/javascript" src="/v2/scripts/jquery.selectivizr.min.js"></script>
+        <script src="/v2/scripts/json2.js"></script>    
+    <![endif]
+Facebook Plugin
+/Facebook Plugin
+Welcome!
+Sign in
+to personalise your moshtix, or set your location here
+ACT
+NSW
+NT
+QLD
+SA
+TAS
+VIC
+WA
+All of Australia
+Showing events for
+ACT
+NSW
+NT
+QLD
+SA
+TAS
+VIC
+WA
+All of Australia
+/149682420/moshtix_news_leaderboard_top
+/149682420/moshtix_news_skin
+Home
+What's On
+News
+Gallery
+Venues
+Gift Vouchers
+Support
+Join / Sign in
+FEATURED GIGS
+SEARCH
+/149682420/moshtix_news_ticker
+Jamiroquai Announce First Album In Seven Years ‘Automaton’
+Written by Sam Murphy on 30th January, 2017
+radium one
+CHECK OUT THE LATEST
+Featured Articles
+Animal Collective Announce New EP, Unveil First Single ‘Kinda Bonkers’
+...more
+There’s A New Courtney Barnett Song On The Way
+...more
+Here’s Why Bag Raiders’ Song ‘Shooting Stars’ Is A Meme Now
+...more
+Gig Reviews
+Laneway Festival 2017, Brisbane Showgrounds, Brisbane – 26/01/2017
+...more
+PJ Harvey, Sydney Myer Music Bowl, Melbourne – 21/01/2017
+...more
+Sugar Mountain Festival 2017, Victorian College of the Arts, Melbourne – 21/01/2017
+...more
+Album Reviews
+Cloud Nothings
+Life Without Sound
+...more
+Run The Jewels
+Run the Jewels 3
+...more
+Thundamentals
+Everyone We Know
+...more
+Jamiroquai
+are once again giving us something, announcing their first album in seven years
+Automaton
+, after
+teasing it
+throughout the week.
+The British band headed by Jay Kay will release the new record on 31st March and they’ve preceded it with the funky title track.
+Jamiroquai released their last record
+Rock Dust Light Star
+back in 2010 before going quiet for a little while.
+They’re back in full swing now though announcing 13 live dates on top of the album. Unfortunately, Australia isn’t included in those dates but hopefully it won’t be long before you love fools get to see Jamiroquai in the flesh.
+“The inspiration for Automaton is in recognition of the rise of artificial intelligence and technology in our world today and how we as humans are beginning to forget the more pleasant, simple and eloquent things in life and in our environment including our relationship with one another as human beings,” Kay said about the record.
+Hear the new single below.
+Watch: Jamiroquai – ‘Automaton’
+radium one
+FOR MORE MUSIC NEWS
+CLICK HERE
+Subscribe to the weekly moshguide!
+Please enter a valid email address
+Moshtix on Facebook
+Moshtix on Twitter
+/149682420/moshtix_news_mrec_top
+Recommendations
+Watch & view...
++ more galleries +
+UNDEROATH (USA)
+The Gov, Hindmarsh
+/149682420/moshtix_news_mrec_bottom
+/#content
+/149682420/moshtix_news_leaderboard_bottom
+Connect
+Create an account
+Subscribe to the gig guide
+Find us on Facebook
+Follow us on Twitter
+Info for Buyers
+Buying Tickets
+Outlets
+Apple Passbook
+FAQs
+Privacy Policy
+Terms & Conditions
+Selling Tickets?
+List your event with us
+Control Room Login
+Moshtix
+About
+Contact
+Advertise
+Careers
+Feedback
+Gift Vouchers
+More Links
+NSW
+VIC
+QLD
+WA
+ACT
+TAS
+Amex and Paypal payment methods may vary by event. Copyright © 2017 moshtix Pty Ltd - ABN 72 076 980 955. Your privacy is important -
+read more
+. Site version 9000.143.
+/#container
+/#wrapper
+JS assets
+TODO: seperate logic that requires this social media script to be in the layout file
+<script type="text/javascript" src="assets/js/jquery.locationselection.js"></script>
+Google Tag Manager
+End Google Tag Manager
+RADIUMONE POST BEACON TAG
+END OF TAG

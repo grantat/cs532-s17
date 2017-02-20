@@ -1,0 +1,283 @@
+<![endif]
+Google Chrome Frame for IE
+mobile meta (hooray!)
+icons & favicons (for more: http://themble.com/support/adding-icons-favicons/)
+wordpress head functions
+[if lt IE 9]>
+<link rel='stylesheet' id='wpkn-ie-only-css'  href='http://www.wpkn.org/wp-content/themes/wpkn/library/css/ie.css' type='text/css' media='all' />
+<![endif]
+end of wordpress head
+drop Google Analytics Here
+end analytics
+Listen Now
+Archives
+📻 PODCASTS
+Appear in responsive only
+Listen Now
+PODCASTS
+Archives
+Donate
+end
+Appear in responsive only
+Now Playing
+4:00pm
+Tom Makucev
+end
+MENU
+Programming
+PODCASTS
+Archives
+Favorite Tracks
+Schedule
+Hosts
+Hosts by Genre
+Shows
+Shows by Genre
+Community
+Get Involved
+Events Calendar
+Events List
+Post an Event
+Past Events
+Nonprofits
+Health
+Food
+Vote
+Sandy Hook Promise
+Support
+Donate
+Donate A Vehicle
+Volunteer
+Underwriting
+Friends of WPKN
+About
+About Us
+History
+Playlists, etc.
+Vision/Mission
+Station Management
+Contact Info
+Newsletter
+Web Admin
+Shop
+Products
+View Cart
+My Account
+Subscribe
+DONATE
+HELP KEEP COMMUNITY RADIO ALIVE
+$
+One Time
+Sustaining Supporter
+The word "Sustaining" added to "Monthly" 05-12-15; "Monthly" changed to "Supporter" 09-27-15 d.appel
+On Now
+Now Playing
+4:00 pm
+The Music Never Stopped
+Host:
+Martha Nachman
+"by" changed to an italic "Host:" 01-12-15 d.appel
+Up Next
+7:00 pm
+Evening News
+with
+The WPKN News Staff
+"by" changed to an italic "with" 01-12-15 d.appel
+View Extended Schedule
+Sponsors/Underwriters & Friends
+Become a WPKN Sponsor/Underwriter
+1. Begin Category Loops (4, 5, & 6 added 06/10/14; 7, 8, 9, 10, & 11 added 08/10/14- d.appel)
+DONATE YOUR CAR TO WPKN
+2.
+Not just a law firm... Your law firm.
+What’s happening in Fairfield County!
+Power of philanthropy to transform lives
+3.
+Enriching community thru the arts.
+Contemporary Art • Encourage Thought
+Shape The Future Of Audio
+Enriching lives with thin crust pizza
+4.
+80 E Ridge • Ridgefield • 203-438-5795
+Premier Concerts/Manic Productions
+The Bijou Theatre, Bridgeport, CT
+238 College Street, New Haven, CT
+Ridgefield Visiting Nurse Association
+5.
+the center for creativity and culture
+The Best of Independent Cinema
+Feat. Smooth Jazz Every Monday Night
+Here's to taking the Road less traveled
+...Advocacy for Business & Individuals
+6.
+ARTS: Exhibitions • Programs • Classes
+Supporting & fostering cultural growth
+the side door jazz club at Old Lyme Inn
+Transforming Lives Through Music Ed.
+Voices Café
+7.
+Downtown Special Services District
+Built for musicians, by musicians.
+Paintings•Public Art•Murals•Videos...
+Artspace is free and open to the public
+827 Whalley Avenue • New Haven CT
+8.
+Not just a health food store!
+Good ingredients for a better world
+Quality Art Supplies Since 1985
+Park City Carpet & Floors•Bridgeport, CT
+9.
+A Long Island Concert & Event Space
+Riverhead, Suffolk County, New York
+Your downtown destination for the arts
+...for handmade acoustic instruments
+10.
+Come enjoy our famous ambiance
+Ives Concert Park • Celebrating 40 Years
+Canio's Books Canio's Books Canio's
+old school vinyl shop, New London, CT
+11.
+Call us for organic landscape supplies.
+370 New York Ave, Huntington, NY
+Lit., Music, Art, Science, Humanities...
+You don't have to go far to get away
+12.
+12 Knight Street, Norwalk, Connecticut
+9-11 Wall Street, Norwalk, Connecticut
+The Greenburgh Nature Center
+End Category Loops
+program edited, additional social media links added 01-21-15 d.appel
+<img src="http://www.wpkn.org/wp-content/themes/wpkn/library/images/record.png" alt="record" />
+meta slider
+// meta slider
+WPKN’s Favorite Albums of 2016
+♥
+WPKN’s Favorite Tracks of the Week
+Weekly Newsletter
+(PDF)
+•
+Monthly Newsletter
+•
+WPKN Local News
+WINTER 2017 Programming Schedule Grid
+(PDF)
+•
+TODAY on WPKN
+The Broadcast Schedule for Wednesday, February 15, 2017
+3rd Wednesday
+11 PM (Tuesday):
+Sean Corvino
+(fill-in for
+The Relay
+:
+Jason Bischoff Wurstle)
+2 AM:
+The Peak Of The Night:
+Alex Panda
+6 AM:
+Democracy Now!
+Amy Goodman and Juan Gonzalez
+7 AM:
+Ebong Udoma
+9 AM:
+The Carl J. Frano Show:
+Carl J. Frano
+12 Noon:
+Kathy’s Corner:
+Kathy Connor
+1 PM:
+Music, Sacred, and Profane
+:
+Nick Jacobs
+4 PM:
+The Music Never Stopped
+:
+Martha Nachman
+6:55 PM:
+WPKN Local News:
+for Connecticut and Long Island
+7 PM:
+WPKN Evening News Report:
+National and International News
+7:30 PM:
+A Writer’s Voice Extra: Sojourner Truth
+:
+Francesca Rheannon
+We examine the life of nineteenth century abolitionist and former slave Sojourner Truth and what she means to us. We talk with
+Jacqueline Sheehan
+about her novel about Sojourner Truth,
+The Comet’s Tale
+; with historian
+Nell Irvin Painter
+, author of
+Sojourner Truth, A Life, A Symbol
+; and listen to a portion of the Enchanted Circle Theater musical play,
+Sojourner’s Truth: I Will Shake Every Place I Go To
+. A complete version of this program is at
+www.writersvoice.net/2012/12/sojourner-truth-ma-humanities
+8 PM:
+Shaki Presents
+11 PM:
+Bruce Swan
+(fill-in for
+DJ Mondavi
+)
+2 AM (Thursday):
+Soundprint: Asia
+:
+Joseph Celli
+Community Events
+Upcoming Events
+Friday,Feb 17 at 1:00 pm - 3:00 pm
+Mattatuck Museum- Drumming Session
+Details Here
+Friday,Feb 17 at 7:30 pm
+Yale Concert Band – A Winter Concert
+Details Here
+Saturday,Feb 18 at 2pm- 3:30pm
+Bridgeport Library- Memoir Writing Workshop
+Details Here
+News and Public Affairs
+WPKN White Rose Political Calendar – February 13, 2017
+Welcome to this week’s edition of the White Rose Political Calendar. The calendar takes its name from the White Rose, a resistance group in Nazi…
+Read More
+Connect With Us
+facebook
+Recent Activity
+Amanda Fetzer
+on February 15, 2017 21:14
+30 in 30 Club Talent Show, Storytelling & Appreciation Night Thursday Feb 23rd at The Outer Space!...
+Amanda Fetzer
+on February 15, 2017 21:14
+Treadwell, Keep it Quiet + more Friday Feb 24 at The Outer Space!...
+Members (25)
+See All
+social media
+Twitter
+Tweets by @WPKNradio
+Black History Month
+Faces In 'America's' Black History
+WPKN Feature Event
+WPKN Celebrates Black History — A month long celebration of Black History   Schedule for the month*   Week…
+More
+<div class="footer_content">
+<div class="footer_left">
+<div class="subscribe_blk">
+<h4><a href="http://visitor.r20.constantcontact.com/manage/optin?v=001gYuebWlSSZOC8LzDrgr37H4x4sWQUV8yYzWKEBeGikBUe1lE6WQaWCe2MsCvbSYGbp749PaU2uF7qjenrWvUKHQqDtVg75IrQ-RasscGKBM%3D" target="_blank">Subscribe to the WPKN Newsletter</a></h4>
+commented out 02-10-15 d.appel
+</div>
+</div>
+<div class="footer_right">
+<div class="footer_links">
+</div>
+</div>
+</div>
+<div class="footer_right">The WPKN Radio station broadcasting at 89.5-FM from Bridgeport, Connecticut, is 100% non-commercial, listener-supported;
+		<br>with programming streaming live on the internet and selected shows in podcast format at <strong>WPKN Community Radio</strong>.</div>
+100% non-commercial listener-supported WPKN Radio at 89.5-FM, Bridgeport, CT, Independent community radio serving: Fairfield, New Haven, & Litchfield,
+Counties in Connecticut, and Suffolk County, New York. And streaming live on the internet, with PODCASTS of selected shows at
+WPKN Community Radio
+.
+© Copyright 2013-2017 WPKN, Inc.
+All rights reserved.
+</div>

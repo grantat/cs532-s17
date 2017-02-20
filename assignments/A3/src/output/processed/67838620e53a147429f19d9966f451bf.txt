@@ -1,0 +1,261 @@
+본문 바로가기
+GNB
+엠넷공통 GNB
+facebook
+twitter
+Make the Movement, 엠넷닷컴
+엠넷 앱
+엠튠 앱
+웹플레이어
+M플레이어
+ON-AIR
+로그인전
+회원가입
+ID
+/
+비번찾기
+로그인
+//엠넷공통 GNB
+header
+Header Top Area (S)
+Mnet
+Search Area (S)
+Mnet Search
+닫기
+서제스트 펼치기
+검색
+Search Area (E)
+Header Top Area (E)
+Mnet 1Depth Menu
+TV
+TV홈
+프로그램
+다시보기
+다운로드
+On Air
+/
+편성표
+챠트
+종합 차트
+span class="new_icon">New</span
+장르별 차트
+아티스트 차트
+앨범 차트
+엠카운트다운 차트
+인디 차트
+힙합 차트
+뮤직
+최신음악
+장르음악
+레전드100
+뮤직스타일러
+li><a href="http://www.mnet.com/playlist/"><span class="menu_ti">공개앨범</span></a></li
+공개플레이리스트
+뮤직비디오
+<li><a href="http://mnet.com/tv/livecasting/"><span class="menu_ti">M GIGS</span></a></li>
+매거진
+커버스토리
+뮤직
+TV
+공연
+뉴스
+M GIGS
+Hot 라이브
+M GIGS
+Tune up
+//Mnet 1Depth Menu
+이용권 관련 메뉴
+멤버십 혜택
+201509
+이용권 구매
+이용권 등록
+//이용권 관련 메뉴
+//header
+//GNB
+container
+content
+배너이벤트
+/배너이벤트
+앨범정보 (s)
+Cloud 9
+a href="javascript:;" class="btn_put" mid="mnet_plugin" mtype="bookmark" mval="0202_1758840">담기</a
+<a href="#" class="btn_put">담기</a>
+TODAY
+2
+|
+통계
+앨범소개
+SNS (s) //
+통합 SNS 버튼 교체
+SNS (e) //
+아티스트
+Jamiroquai
+발매일
+2017.02.10
+앨범종류
+싱글
+|
+1CD
+음악장르
+팝 > 팝
+기획사
+Jamiroquai Limited, under exclusive licence to Virgin EMI Records
+유통사
+Universal
+좋아요 카운트 가로 확장형
+//좋아요 카운트 가로 확장형
+이전 앨범
+다음 앨범
+UK 애시드 재즈의 상징, 자미로콰이(Jamiroquai)의 새 싱글 'Cloud 9'
+'97년 그래미 어워드, MTV 어워드 수상, '가장 많은 세일즈를 기록한 Funk 앨범'으로 기네스 레코드에 오르기도 하며, 아직까지도 그 신선함과 식지 않는 명성을 자랑하고 있는 자미로콰이.
+펑크와 소울, 재즈, 디스코 음악을 기반으로 다...
+UK 애시드 재즈의 상징, 자미로콰이(Jamiroquai)의 새 싱글 'Cloud 9'
+'97년 그래미 어워드, MTV 어워드 수상, '가장 많은 세일즈를 기록한 Funk 앨범'으로 기네스 레코드에 오르기도 하며, 아직까지도 그 신선함과 식지 않는 명성을 자랑하고 있는 자미로콰이.
+펑크와 소울, 재즈, 디스코 음악을 기반으로 다양한 장르의 음악 양식을 결합한 자미로콰이의 음악은 본국인 영국뿐만 아니라 유럽과 아시아 등 전 세계적으로 높은 인기를 누리고 있으며 전 세계 2천 5백만장 이상의 앨범 세일즈 기록을 보유하며 많은 사랑을 받고 있다.
+이번 싱글 ‘Cloud 9’은 세련된 비트와 깔끔한 멜로디 라인이 어우러지며 재즈풍의 사운드로 가득 차 새로움을 전하고 있으며 정규앨범 [Automaton]의 다채로운 음악적 색채를 기대하게 만든다.
+앨범소개 더보기
+앨범정보 (e)
+//2012-01-12 프로모션 배너
+2012-09-04 남윤화 추가 시작 09월 18일 이후 사라질거임
+<div class="b_promo">
+			<img src="/images/temp/1997_01.jpg" alt="" />
+		</div>
+		
+		<!-- 2012-09-04 남윤화 추가 끝 09월 18일 이후 사라질거임
+수록곡 (s)
+수록곡
+ㅣ
+1CD
+(
+2
+)
+전체듣기
+듣기
+다운로드
+마이앨범에 담기
+재생목록에 추가
+a href="javascript:;" onclick="goBuyAlbum('1758840')" class="btn_down_all"><span>전곡 다운로드 14,000원</span></a>
+						<span class="floatR gubun_db">l</span
+트랙순
+제목순
+Cloud 9 앨범 수록곡
+모두선택
+번호
+곡정보 / 곡명
+아티스트
+추천
+담기
+영상
+다운로드
+원음
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+1
+Cloud 9 - 곡정보
+Cloud 9
+타이틀
+곡추가
+좋아요
+Jamiroquai
+추천
+16414979
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+2
+Automaton - 곡정보
+Automaton
+곡추가
+좋아요
+Jamiroquai
+추천
+16394932
+영상
+MP3
+수록곡 (e)
+뮤직비디오 (s)
+뮤직비디오
+(
+1
+)
+New
+New
+00:05:01
+영상 재생
+시청등급 12
+Automaton
+Jamiroquai
+dd class="date">2017.01.27</dd
+뮤직비디오 (e)
+댓글 (s)
+댓글 (e)
+//content
+aside_right
+aside_right
+이 앨범의 아티스트
+Jamiroquai
+남성
+|
+그룹
+팝
+>
+댄스, 훵크
+l
+재즈
+>
+애시드/누 재즈
+l
+일렉트로니카
+>
+트립합, 클럽/댄스
+Virtual Insanity
+Cloud 9
+Virtual Insanity
+Love Foolosophy
+Talullah
+이 아티스트의 다른앨범
+(
+58
+)
+[싱글]
+						Cloud 9
+2017.02.10
+[앨범]
+						The Return Of The Space Cowboy (Collector`s Edition)
+2013.03.22
+[앨범]
+						Emergency On Planet Earth (Collector`s Edition)
+2013.03.21
+[앨범]
+						Travelling Without Moving (Collector`s Edition)
+2013.03.20
+[싱글]
+						Blue Skies
+2011.01.10
+[정규]
+						Discover Jamiroquai - EP
+2010.11.09
+[정규]
+						Rock Dust Light Star
+2010.11.01
+[앨범]
+						Rock Dust Light Star (Deluxe Ver.)
+2010.11.01
+[정규]
+						Rock Dust Light Star (International Standard Ver.)
+2010.11.01

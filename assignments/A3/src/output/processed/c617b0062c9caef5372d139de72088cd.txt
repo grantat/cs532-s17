@@ -1,0 +1,2276 @@
+FB tags
+<meta property="og:url" content="https://www.allaboutjazz.com/index_new.php" />
+<meta property="fb:app_id" content="228288063973092" /> this requires enabling the app
+Favicon
+Styles
+<link rel="stylesheet" href="//www.allaboutjazz.com/css/critical.min.css" media="all" />
+[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<link rel="stylesheet" href="//www.allaboutjazz.com/css/ie/ie8.css">
+<![endif]
+JS Head
+[if (!IE)|(gt IE 8)]><!
+<![endif]
+[if lte IE 8]>
+<script src="//www.allaboutjazz.com/js2/jquery-1.9.1.min.js"></script>
+<![endif]
+Google search
+For Sortable
+Google Captcha
+commented out on January 15, 2017 <script id="cointent_td" type="text/javascript" data-publisher-id="1624" src="https://connect.cointent.com/gumshoe.0.2.js"></script>
+All About Jazz
+Albums
+Articles
+Downloads
+Events
+Gallery
+Musicians
+News
+/.nav-collapse
+Sign Up
+Sign In
+Home
+»
+Articles
+»
+CD/LP/Track Review
+ADVERTISE
+4
+recommend
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f95330f62b4f870" async="async"></script>
+Go to www.addthis.com/dashboard to customize your tools
+<a title="Return to previous article" href="//www.allaboutjazz.com/mariah-parkers-indo-latin-jazz-live-in-concert-mariah-parkers-indo-latin-jazz-ancient-futurecom-records-review-by-david-becker.php" class="btn btn-xs btn-success"><i class="fa fa-chevron-circle-left"></i> Prev</a>
+<a title="Forward to next article" href="//www.allaboutjazz.com/up-and-coming-john-abercrombie-ecm-records-review-by-mark-sullivan.php" class="btn btn-xs btn-success">Next <i class="fa fa-chevron-circle-right"></i></a>
+Responsive top
+Joëlle Léandre: A Woman's Work...
+By
+MARK CORROTO
+January 30, 2017
+in Italian
+Removed (!isset($_GET['width']) || $_GET['width']>740)
+Sign in
+to view read count
+How do you sum up the career of an improvising artist like
+Joëlle Léandre
+? Do you reissue a package of recordings from her 40 years of performance? That is probably not possible, given the multiple labels and the location and ownership of the masters. Besides, free improvisation, almost by definition, dissipates (or probably should dissipate) upon performance. Recordings contain only a fraction of the whole experience. When it comes to Léandre's oeuvre, total immersion in her music is the only way, apart from experiencing her perform, to get a sense of her presence on the bandstand. She is a performer who commands the same attention as her peers
+Peter Brötzmann
+,
+Joe McPhee
+, and
+Anthony Braxton
+.
+Born in Provence, she studied with John Cage, Morton Feldman, and Giacinto Scelsi. Her adoption of free improvised music found her in the company of
+Derek Bailey
+, Anthony Braxton,
+Lol Coxhill
+, and
+George Lewis
+. More importantly, she found her contemporaries in the bassists
+William Parker
+,
+Barry Guy
+,
+Barre Phillips
+, and
+Peter Kowald
+. Like her fellows who have had significant retrospective boxsets, Kowald's
+Discography
+(Jazzwerkstatt, 2014), and the documentation of Parker's early works
+Centering: Unreleased Early Recordings 1976-1987
+NoBusiness, 2012) and
+Solo Bass: Crumbling In The Shadows Is Fraulein Miller's Stale Cake
+(AUM/Centering, 2011), this 8-CD set allows for an immersion in Léandre's music. That is, at least her activities for the past 10 years. No collection could possibly embrace the depth of her career, especially the ephemeral nature that is improvised music.
+Caution. Stepping into this stream of her career is habit-forming and can lead the listener back-and-forth through her hundreds of recordings and four decades of performance.
+This set kicks off with a performance by the group Les Diaboliques, a trio of Léandre, British vocalist Maggie Nicols and Swiss pianist Iréne Schweizer. Their quarter of a century collaboration is part cabaret/part improvisation. This selection of their work comes from a concert in Moscow in 2015, and the trio's feminist leanings are one display. That is, if the listener harbors any doubts as to women's role in free improvisation, a genre historically dominated by men. Listening to the strength of Schweizer's playing (cue her solo on the untitled 5th track) eliminates any doubts as to her place among modern improvisers. Maybe it is not an issue these days, okay let's pray it is not an issue these days (as it might have been in the 1960s), for these three woman to take the stage at a Company Week or Freedom In The City series. Nicols' wordless vocals and Leandre's arco bow work speak a strange and beautiful new dialect.
+Disc two finds the bassist in a duo setting with violinist
+Mat Maneri
+. Recorded in Paris 2011, this is the first documentation of the pair in this setting. Together they recorded as the Judson Trio with
+Gerald Cleaver
+and The Stone Quartet with
+Roy Campbell
+and
+Marilyn Crispell
+. This two-stringed approach works well as both a gentle, alluring bowed meditation and a noisy scraping abrade-fest. Of all the discs included, this duo exhibits the greatest range between low and high ends. Maneri and Léandre developed into a perfect complement to so many artists of late, this duo begs for more performances.
+Disc three finds Léandre in company of American avant-garde vocalist Lauren Newton. Recorded in Besançon in 2016, the music swoops between a wordless new language and sung lyrics. Newton has the ability to imitate both the arco and pizzicato bowing techniques Léandre employs. Highlights here include the bassist joining Newton in vocals and also the final story of an old woman trying to coax a pig home from the market, an explosive Old MacDonald song.
+In November of 2015, Léandre performed with French trumpeter Jean-Luc Cappozzo. It appears this was the first time the pair have recorded together. His playing has the vocal agility of
+Peter Evans
+' trumpet mixed with the stateliness of (dare I say?)
+Wynton Marsalis
+. Under the firm bow of Léandre's hand, the pair produce an imagined soundtrack to silent movies, making this the most unanticipated of the discs.
+If the Cappozzo duo was unexpected, Léandre's work with the guitarist
+Fred Frith
+is like coming home to a familiar meal. Their duets are the most casually agreeable of the eight discs. Agreeable, but not necessarily the calmest. The pair make both the most intimate and the most raucous sound here. At times they sound as if they are scoring the soundtrack for a Warner Brothers' cartoon and then they are spinning the dials on a sort of radio that flows from folk to ambient to noise.
+Spread over two discs are Léandre's collaboration with saxophonist
+Evan Parker
+, pianist
+Agusti Fernandez
+, and drummer/percussionist Zlatko Kaucic. This assembled supergroup, one suspects the brainchild of Not Two records, was presented at the 2015 Krakow Jazz Festival. This session could have easily been recorded as a part of Derek Bailey's Company Week. Combining players is a tricky task, but these four are more than compatible. They are the definition of kindred spirits. They play as a quartet for two of the seven tracks, the other five are duos. Parker gets two tracks with Leandre, as does Kaucic. Léandre's magic is revealed here, especially in the duos. She has the ability, as all great bassists do, to push the sound in different directions, control the volume and emotion of the music, all done in a very covert way. Her presence looks large in the company of each musician and together in quartet.
+Of course she must be presented solo in the boxset. The producer selected a 2005 Paris concert as a summing up of Léandre in this context. The five tracks present a multifaceted artist in full bloom. She plays with the same passion we hear in Barry Guy's music and creates the same energies William Parker finds. It's her vocalizations, among other things, that distinguish this performance. Because this medium is only one of sound, the physicality of her performance must be felt and not seen. Léandre is a dynamic performer, combining her inexhaustible energy with meditative quietude. These performances have a charismatic feel, even when she is riffing in French. Léandre's inexhaustible energy does create fatigue, though. It is best consumed in small doses over a long, enjoy-the-ride, long period of time.
+Track Listing: CD 1: Les Diaboliques - Irene Schweizer / Joelle Leandre / Maggie Nicols Trio;
+CD 2: Joëlle Léandre & Mat Maneri Duet; CD 3:
+Joëlle Léandre & Lauren Newton Duet; CD 4: Joëlle Léandre & Jean-Luc
+Cappozzo Duet; CD 5: Joëlle Léandre & Fred Frith Duet; CD 6: Joëlle Léandre
+Solo; CD 7: Joëlle Léandre / Zlatko Kaučič / Evan Parker / Agustí Fernández
+Quartet; CD 8: Joëlle Léandre Duos with Zlatko Kaučič / Evan Parker / Agustí
+Fernández.
+Personnel: Joëlle Léandre: double bass, voice; Evan Parker: tenor saxophone; Jean-Luc
+Cappozzo: trumpet; Agusti Fernandez: piano; Iréne Schweizer: piano; Fred
+Frith: guitar; Mat Maneri: violin; Zlatko Kaucic: drums, percussion; Lauren
+Newton: voice; Maggie Nicols: vocals.
+Year Released: 2016 
+	
+			| Record Label:
+Not Two Records
+Shop
+Responsive bottom
+limit output to six for free version; 12 for premium version.
+<div class="pull-right">
+			</div>
+About Joëlle Léandre
+Articles
+Discography
+Links
+CD/LP/Track Review
+A Woman's Work...
+by Mark Corroto
+That Overt Desire Of Object
+by Mark Redlefsen
+Read more articles
+A Woman's Work...
+Not Two Records
+2017
+buy
+[no cover]
+Sisters Where
+2014
+buy
+[no cover]
+Evidence
+2013
+buy
+That Overt Desire Of...
+Relative Pitch Records
+2012
+buy
+[no cover]
+Wols Circus
+2012
+buy
+[no cover]
+Trans
+2012
+buy
+More Articles
+Recent
+Popular
+Random
+CD/LP/Track Review
+Post Cool: Vol 1 The Night Shift
+by
+Hrayr Attarian
+Published: February 15, 2017
+CD/LP/Track Review
+Salt Task
+by
+Mark Corroto
+Published: February 15, 2017
+CD/LP/Track Review
+The Catfish
+by
+Chris Mosey
+Published: February 15, 2017
+CD/LP/Track Review
+Heavy Weather
+by
+Sacha O'Grady
+Published: February 15, 2017
+CD/LP/Track Review
+Carol Morgan Quartet - Post Cool Vol. 1 The Night Shift
+by
+C. Michael Bailey
+Published: February 14, 2017
+CD/LP/Track Review
+The Quest: Live at the A.P.C.
+by
+Jim Trageser
+Published: February 14, 2017
+Under the Radar
+Jazz Education: The Next Generation, Part 2
+by
+Karl Ackermann
+Published: February 9, 2017
+CD/LP/Track Review
+Caipi
+by
+Roger Farbey
+Published: February 9, 2017
+Extended Analysis
+Chicago (Steven Wilson Remix)
+by
+John Kelman
+Published: February 12, 2017
+CD/LP/Track Review
+Swiss Radio Days, Vol. 40 - Zurich 1959
+by
+Dan Bilawsky
+Published: February 9, 2017
+Live Reviews
+Kronos Festival 2017
+by
+Harry S. Pariser
+Published: February 12, 2017
+DVD/Film Reviews
+Man of the World: The Peter Green Story
+by
+Jim Trageser
+Published: February 11, 2017
+CD/LP/Track Review
+Soundscapes
+by
+Dan Bilawsky
+Published: April 4, 2016
+CD/LP/Track Review
+The Julian Hartwell Project
+by
+Edward Blanco
+Published: March 18, 2016
+CD/LP/Track Review
+To The Universe
+by
+Dave Wayne
+Published: July 14, 2016
+CD/LP/Track Review
+Windows
+by
+Dan McClenaghan
+Published: September 12, 2016
+CD/LP/Track Review
+Shipwreck 4
+by
+Glenn Astarita
+Published: October 13, 2016
+CD/LP/Track Review
+As it Was
+by
+Karl Ackermann
+Published: July 18, 2016
+Editorial comments and other private information
+Post a comment
+Please enable JavaScript to view the
+comments powered by Disqus.
+comments powered by
+Disqus
+Near Krakow
+View your local jazz calendar
+Email your local jazz calendar
+Download the Jazz Near You app
+Showcase
+feat-cont-box
+Buy Now
+Up and Coming
+by
+John Abercrombie
+Buy Now
+Chris Thile & Brad Mehldau
+by
+Brad Mehldau
+Buy Now
+Sanguinaria (Hopefulsongs)
+by
+Brad Myers
+Buy Now
+My Foolish Heart
+by
+Ralph Towner
+Buy Now
+Piano Song
+by
+Matthew Shipp
+Buy Now
+Daylight Ghosts
+by
+Craig Taborn
+//github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties
+About Jazz Story
+Jazz Stories
+I discovered Jazz in  1996 after watching a Skateboard Video called Mouse. Guy Mariano had Herbie's Watermelon Man as a 
+track under his part. I grew up in Athens, Greece at the time and was 12 years old
+Read more
+I discovered Jazz in  1996 after watching a Skateboard Video called Mouse. Guy Mariano had Herbie's Watermelon Man as a 
+track under his part. I grew up in Athens, Greece at the time and was 12 years old. I went to my local record store and told 
+them: I am looking for something were nobody sings and with flutes.
+Show less
+By
+Hagen Moller
+Member since:2017
+Shop Amazon
+300x250 top
+<div id="ad-bottom" class="adblock_300x250">
+300x250_Right_Bottom
+300x600 Wide
+Featured Albums
+buy
+Piano Song
+Matthew Shipp
+Thirsty Ear Recordings
+, 2016
+buy
+Up and Coming
+John Abercrombie
+ECM Records
+, 2017
+buy
+Chris Thile & Brad Mehldau
+Brad Mehldau
+Nonesuch Records
+, 2017
+buy
+Salt Wind
+Elsa Nilsson
+Self Produced
+, 2017
+buy
+Song
+Jobic Le Masson
+Enja Records
+, 2016
+buy
+Daylight Ghosts
+Craig Taborn
+ECM Records
+, 2017
+buy
+Sanguinaria (Hopefulsongs)
+Brad Myers
+Colloquy Records
+, 2017
+buy
+My Foolish Heart
+Ralph Towner
+ECM Records
+, 2017
+.container prime-content-container
+#main
+Sponsor:
+ECM Records
+|
+BUY NOW
+visit our partner website
+jazz events, festivals, and venues
+Follow Us
+Jazz Near You App
+Community
+Welcome
+Join Us
+Staff Directory
+Member Benefits
+Forum
+Services
+Musician Toolkit
+Add Event
+Add Business
+Event Distribution
+On Demand Calendar
+Get in touch
+Partner Up!
+Make Suggestion
+Report Bug
+FAQ
+Contact Us
+Advertise
+Place Order
+Rates and Options
+About
+Demographics
+.footer-top
+© 2017 All About Jazz |
+Privacy Policy
+We exist to inform jazz fans and alert them to local shows. And while we're at it, we're improving audience attendance and building active jazz communities worldwide.
+.footer-bottom
+Modal
+×
+Member Authorization
+Already a member? Sign in
+Not a member? Sign up
+Email address
+Password
+Reset your password
+Sign in
+First name
+and
+Last name
+First name only
+Email address
+It will remain
+private
+Country
+Albania
+Algeria
+Andorra
+Angola
+Anguilla
+Antigua / Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia / Herzegowina
+Botswana
+Brazil
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chile
+China
+Colombia
+Congo
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czechia
+Denmark
+Djibouti
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Estonia
+Ethiopia
+Fiji
+Finland
+France
+French Polynesia
+Germany
+Ghana
+Gibraltar
+Greece
+Grenada
+Guadeloupe
+Guatemala
+Guyana
+Haiti
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran (Islamic Republic of)
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Kazakhstan
+Kenya
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Liechtenstein
+Lithuania
+Luxembourg
+Macau
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Mali
+Malta
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia (Federated States of)
+Moldova, Republic of
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Namibia
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Nigeria
+North Korea
+Norway
+Oman
+Pakistan
+Panama
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russian Federation
+Rwanda
+Samoa
+San Marino
+Saudi Arabia
+Senegal
+Serbia, Republic of
+Seychelles
+Singapore
+Slovakia
+Slovenia
+Somalia
+South Africa
+South Korea
+Spain
+Sri Lanka
+Sudan
+Swaziland
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan, Province of China
+Tajikistan
+Tanzania, United Republic of
+Thailand
+Togo
+Trinidad / Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vatican City State (Holy See)
+Venezuela
+Viet Nam
+Virgin Islands (British)
+Virgin Islands (U.S.)
+Yemen
+Yugoslavia
+Zaire
+Zambia
+Zimbabwe
+State
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+District Of Columbia
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+City
+Albany
+Beacon
+Buffalo
+New York City
+Poughkeepsie
+Rochester
+Syracuse
+Password
+Enter 6+ characters and enter it twice
+Try Jazz Near You
+A weekly guide to local events
+Verification code
+Submit
+Email address
+Reset Password Now
+Modal
+×
+One moment, you will be redirected shortly.
+×
+Search and Sitemap
+Welcome
+Albums
+Articles
+Downloads
+Events
+Gallery
+Musicians
+News
+Get Started
+Welcome
+Sign Up
+Sign In
+General
+First Timer?
+FAQ
+Staff Directory
+Contact Us
+Join Us
+Privacy Policy
+My Content
+Membership has its privileges! Sign up or sign in to gain full access to both All About Jazz and Jazz Near You.
+Learn more
+.
+Advertise & Partner
+Place Order
+Rates and Options
+About Us
+Demographics
+Partner Up!
+Jazz Near You Partners
+Search
+by
+title
+by
+Musician
+by
+Record Label
+by
+Year
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+1995
+1994
+1993
+1992
+1991
+1990
+1989
+1988
+1987
+1986
+1985
+1984
+1983
+1982
+1981
+1980
+1979
+1978
+1977
+1976
+1975
+1974
+1973
+1972
+1971
+1970
+1969
+1968
+1967
+1966
+1965
+1964
+1963
+1962
+1961
+1960
+1959
+1958
+1957
+1956
+1955
+1954
+1953
+1952
+1951
+1950
+1949
+1948
+1947
+1946
+1945
+1944
+1943
+1942
+1941
+1940
+1939
+1938
+1937
+1936
+1935
+1934
+1933
+1932
+1931
+1930
+Find!
+Links
+Jazz Albums
+Jazz Discographies
+Search
+by
+musician
+by
+title
+by
+record label
+by
+author
+by
+type
+AAJ PRO
+Advice to new listeners...
+African Jazz
+Afrobeat Diaries
+Airplay 101
+All About Jazz: South Africa
+Anatomy of a Standard
+Artist Tribute
+Ask Ken
+Audio High Product Profile
+Audio Reviews
+Back Roads Beat
+Bailey's Bundles
+Behind the Lens With...
+Best of / Year End
+Big Band Caravan
+Big Band in the Sky
+Big Band Report
+Big Jazz Nerd
+Bill Anschell's Notes from the Lobby
+Biographies
+Book Excerpts
+Book Reviews
+Building a Jazz Library
+Built to Sound
+Catching Up With
+CD/LP/Track Review
+Compare & Contrast
+Confessions of a Piano Player
+Contemporary Vibes
+Contributor News
+Cool Vic Files
+Cymbalism
+Dan's Den
+Desert Island List
+Digital Music
+Discography
+Download Reviews
+Drum Addiction
+DVD/Film Reviews
+Extended Analysis
+First Impressions
+First Time I Saw
+Forgotten Finds
+Fre-Formation
+From Far and Wide
+From the Inside Out
+Future Jazz
+Future Theory, Future Practice
+General Articles
+Genius Guide to Jazz
+Getting Into Jazz
+Gnome Notes
+Guitarist's Rendezvous
+Hardly Strictly Jazz
+Hi-Res Jazz
+Highly Opinionated
+History of Jazz Timeline
+I Love Jazz!
+Improvise!
+In 10
+In the Artist's Own Words
+In The Biz
+In the Studio
+Interviews
+Jazz and the Net
+Jazz Art
+Jazz Biofiles
+Jazz Ed
+Jazz Emerges
+Jazz Fiction
+Jazz For Kids
+Jazz From The Vinyl Junkyard
+Jazz Humor
+Jazz in the Aquarian Age
+Jazz Journal
+Jazz Near Me
+Jazz Poetry
+Jazz Primer
+Jazz Raconteurs
+Jazz That Scratches, Swings and Pops
+Jazz Uncorked
+Jazzin' Around Europe
+JazzLife UK
+Journey into Jazz
+Late Night Thoughts on Jazz
+Liner Notes
+Listen To This!
+Live From New York
+Live From Philadelphia
+Live Reviews
+London Calling
+Making Music
+Meet the Staff
+Megaphone
+Mentoring the Millennials
+Misterioso
+Mixed Tape
+Mr. P.C.'s Guide to Jazz Etiquette...
+Multiple Reviews
+Muse From the Front
+Music and the Creative Spirit
+Music Biz 101
+Music Theory
+Musings In Cb
+Musings of a Jazz Piano Teacher
+Must Hear Review
+My Blue Note Obsession
+My Favourite Things
+New & Noteworthy
+New Discovery
+New York @ Night
+New York Beat
+Nite & Disk
+Nordic Sounds
+Not For Sale
+Old, New, Borrowed and Blue
+On and Off the Grid
+On the Road With...
+One LP
+Open Ears
+Opinion
+Opinion/Editorial
+Out and About: The Super Fans
+Out-of-Print
+Philosophisticated Lady
+Podcast
+Previews
+Product Reviews
+Profiles
+Race and Jazz
+Radio Playlist
+Readers Write Back
+Reassessing
+Record Label Profiles
+Rediscovery
+Reminisce
+Rethinking Jazz Cultures
+Rhythm In Every Guise
+Roads Less Travelled
+Scumbles
+Shrinktunes
+Spirit of '76
+Straight From The Vault
+Stretch Movement
+Swing Set
+Take Five With...
+Talkin' Blues
+Talking 2 Musicians
+Tell Me More
+The 10 CDs in the CD player of...
+The Art and Science of Jazz
+The Art Of The Artist To Fan Relationship
+The Audiophile
+The best show I ever attended was...
+The Big Question
+The Business of Jazz
+The Cool Vic Files
+The Doorman's Diary
+The first jazz record I bought was...
+The First Time I Discovered Jazz...
+The Low End
+The Millenaissance
+The Moment's Energy
+The Mort Report
+The Vinyl Post
+The Write Stuff
+Top Ten List
+Under the Radar
+Unsung Heroes
+Video
+Video Feature
+Vinyl Vibe
+We Travel the Spaceways
+Website News
+What I'm Listening to Now List
+What is Jazz?
+Wide Open Jazz and Beyond
+Working Out to Jazz
+Order By
+Date published
+Most read
+Most recommended
+Find!
+General
+Album Reviews
+Articles
+Featured
+Popular
+Recommended
+Future
+Article Stats
+16,147 Articles
+39,507 Album Reviews
+1,015 Contributors
+My Content
+Sign in
+or
+sign up
+to build your personalized All About Jazz experience!
+Community
+Jazz Stories
+Users Dig All About Jazz!
+Staff Directory
+Search
+by
+musician
+Find!
+General
+Featured Videos
+Most Recommended
+Top Downloads - Last 30 days
+Top Downloads - Last 60 days
+Top Downloads - Last 90 days
+Top Downloads - 2017
+Top 200 All-Time
+Pro Links
+Sign in
+or
+sign up
+to upload your MP3 for "Download of the Day" consideration.
+Near You
+<li><a href="//jazznearyou.com/">Jazz Near You</a></li>
+Upcoming Events
+Venues
+Businesses
+News
+Options
+About Jazz Near You App
+Download Android App
+Download Apple App
+Events On Demand
+Calendar Widgets
+Event Distribution Explained
+View All Cities
+Pro Links
+Sign in
+or sign up to upload your events.
+Learn more
+.
+Upload Events
+Search
+by
+photo tag
+Find!
+General
+Featured
+This Week
+Popular
+Recommended
+Professional Galleries
+Active Visual Artists
+Pro Links
+Sign in
+or
+sign up
+to upload and share your publicity or live event photos.
+Gallery Stats
+144,331 Images
+200 Visual Artists
+11,436 Uploaders
+Search
+by
+name
+by
+instrument
+accordion
+arranger
+author
+bass
+bass, acoustic
+bass, electric
+band/orchestra
+banjo
+bandoneon
+bongos
+bassoon
+clarinet
+clarinet, bass
+cello
+clave
+composer/conductor
+congas
+cornet
+cymbal
+drums
+drum programming
+drums, steel
+digital transfer
+electronics
+engineer
+english horn
+euphonium
+flute
+fender rhodes
+flugelhorn
+french horn
+guitar
+guitar, 8-string
+guitar, 12-string
+guitar, acoustic
+guitar, cello
+guitar, electric
+guitar, slide
+guitar, steel
+harmonica
+h'arpeggione
+harp
+keyboard
+kora
+koto
+live sampling
+lute
+lyricist
+mandolin
+melodica
+multi-instrumentalist
+organ, Hammond B3
+oboe
+oud
+piano
+piano, electric
+pandeiro
+percussion
+piccolo
+poet/spoken word
+producer
+programming
+reeds
+saxophone
+sax, alto
+sax, baritone
+sax, soprano
+sax, sopranino
+sax, tenor
+samples/effects
+sequencing
+sitar
+sousaphone
+synthesizer
+trumpet
+trumpet, bass
+trumpet, piccolo
+tumpet, soprano
+tablas
+trombone
+tuba
+turntable
+ukulele
+vocalist
+various
+vibraphone
+viola
+violin
+Find!
+View Lists
+by
+profile
+Recently Updated
+Recently Added
+Most Viewed
+Most Followers
+Recently Deceased
+Premium Profiles
+Show!
+General
+All Musician Profiles
+Musician by Location
+Teacher by Location
+Birthday Calendar
+Born Today
+Musicians Dig All About Jazz!
+Pro Links
+Sign in
+or
+sign up
+to create or claim your musician profile page. Review our
+musician toolkit page
+.
+Search
+by
+title
+by
+type
+Advocacy
+Award / Grant
+Birthday
+Book / Magazine
+Career
+Contest Giveaway
+Crowdfunding Campaign
+Economics
+Education
+Event
+Festival
+For Sale
+Interview
+Job Posting
+Looking For...
+Music Industry
+Obituary
+Opinion
+Performance
+Radio
+Recording
+Rights
+Social Gathering
+Special Offers
+Technology
+Trends
+TV / Film
+Video / DVD
+Website
+by
+source
+"Compositions and Concepts" Book
+"Sunny Live Music" blog
+'stache Media
+104 Weeks
+1888 Media
+250 Jazz Patterns
+2media
+319 Public Relations
+4961 Polemics
+A & R Marketing
+A Dope Jazz Blog
+Aabacus Agency
+Abstract Logix
+ADA Creative Communications
+Affinity Public Relations
+Agency Nouveau
+Air Patrol
+Airborne Jazz Blog
+AirMTM
+All About Jazz @ Spinner
+All About Jazz Blog
+All About Jazz Publicity
+All That Jazz - Portuguese
+All the Things... New York Jazz and More
+Allegro Media
+Allen/James Design
+Alta LeCompte
+Alzy Trio
+Ambersingleton
+American Tune Tribune, The
+AmJamJazz
+AMP3 Public Relations
+AMT Public Relations
+Amy Bakari Public Relations
+An (Occasional) Jazz Blog
+An Introduction To Jazz by Michael Ramirez
+Andre' Jenkins Public Relations
+Andrew Boscardin: Composer and Musician
+Andrew McIntosh
+Angelmeds.com
+Anita Wong
+Ann Forster
+Anne Leighton
+Anne Smith
+Annie Jennings PR
+Annuaire Pages Blanches
+Anthology of American Folk Music
+Arcos Communications
+Ariel Publicity Artist Relations and Cyber Promotions
+Arlene Kriv Public Relations
+Ars Nova Workshop
+Art and Style Magazine
+Art Pepper Publicity
+Artistic Sound
+Artistry In Jazz
+Artists Recording Collective, LLC
+Ask QTP
+ASR Records - Publicity Division
+AUDIENCE LOGIC-arts marketing
+Aural Addict
+Australian JazzScene Magazine
+Avant Coast
+Žan Anderle
+B. T. Entertainment
+B3Jazz.com
+Backstage with Steinway
+Balding Lion Productions
+BAMM Music
+Bandzoogle Tips
+Barcelona Music
+Bass Player Magazine
+BayTaper.com
+be.jazz
+Beautiful Planning
+Bebop is Not a Cowboy
+Bebop Memories
+bebopified
+Benjamin Scholz Productions
+Bennett Alliance
+Best. Saxophone. Website. Ever.
+Between Sound and Space - An ECM Records Resource
+Between the Grooves with Philip Booth
+Big Bad Music
+Big Hassle
+BigDaddyBlues.com
+Bill Hartzell
+Billboard Magazine
+BiLLfOoLeRy.CoM
+Bird is the Worm
+Bird Lives
+Bisson Barcelona
+Black History Guide
+Blak's Lair
+Blitz Media
+Blue Isle Jazz
+Blue Rhythm- Uncovering the Story of Jazz in India
+BlueGal 110
+blueplate pr
+Blues & Rhythm Changes in All Keys
+Blues in the Digital Age
+Bluprint Media
+Bob Gluck
+Bob Van Eekhout
+Bobby Hackett-Legendary Jazz Musician
+BoingBoing
+Bop and Beyond
+Boss Sounds
+Bottomless Cup Music
+Boyd Tamney Cross Public Relations
+Braithwaite & Katz Communications
+Brave New World Media Group
+Breachmedia
+Brian McCoy
+Brilliant Corners, a Boston Jazz Blog
+Britznbeatz
+Brock Woerner Blog/ News
+Brody PR
+Brooklyn Radio
+Bullhorn Media
+Bustin' Thru Entertainment
+Buzzword PR
+Cadence Magazine
+Cahl's Juke Joint
+Calabro Music
+Canary Promotion + Design
+Canberra Jazz blog
+Candy Hawke
+Caren West PR
+CaribPR.com
+Carla Oehmd Jazz Group
+Carolina Jazz Connection
+Carolrx
+Carolyn McClair Public Relations
+Casa Valdez Jazz
+Catalyst Adgroup
+Cave 17
+Center of the Indie Label Universe
+Central Brooklyn Jazz Consortium PR
+Chang Management
+Charlie Wright
+CHC Network
+cheatsgaming
+Cheryl Duncan & Company
+Cheryl Hughey Promotions
+Chez Janie
+Chicago Jazz Magazine
+Chillout Productions
+Christina Jensen PR, LLC
+Chronicles of a Cruise Ship Musician
+Chuck Anderson Jazz Guitar Blog
+Cindy Byram PR
+CineMedia Promotions
+Circle of One Marketing
+Cirillo World
+CJO Notes
+Clauss Park
+CODA
+Cohn Dutcher Associates
+Colehour+Cohen
+Coltrane Changes
+Complete Communion
+Conor McDonough's We Got the Jazz
+conqueroo
+Cosmos Clinic
+Costa Communications
+Creality Communications
+Creative Mind Entertainment
+Creative Service Company
+Creativity in Music
+Cromarty & Co.
+CSP-Media
+Cultchas
+Curtis Macdonald
+CWJEF Music Publications
+Dalmath Associates Inc.
+Damore Public Relations
+Dan Klores Communications
+Daniel Kassell - Authentic Marketing
+Darcy James Argue's Secret Society
+Dave Douglas / Greenleaf Music
+David Marriott / Red Raspus Music
+Davis & Associates Public Relations
+Dawn Singh Publicity
+Dünya Küçük "Göç Yollarında Karşılaşmalar"
+De Lafayette  Encyclopedia
+Dean Lofton
+DeBlaze & Associates
+Deborah Radel
+Debra Mercado Public Relations
+DeLafayette World Media
+Dernier PR
+Derringer Media LLC
+des annonces immobilieres
+Destination: OUT
+Detlev Schilke Photographie
+Diacritical
+Diane Hadley Public Relations
+Diane Payes
+Digital Cowboys By Dave Kusek
+Digital Divas
+Digital Music News
+DIY Mummy
+Dizzy Plays Parker
+DL Media
+Dmitry Kiselev
+Do The Math
+Don't Explain
+Donald Elfman - Ride Symbol
+DooBeeDooBeeDoo
+Doorcare
+Doug Deutsch Publicity Services
+Douglas Norström (Swedish jazz critic and journalist)
+Downbeat
+Downbeat Magazine
+DP Public Relations
+Dr. Jazz Operations
+Dravin Belly
+DSF Communications
+Dusty Wright's Culture Catch
+Dwight Hansen
+Dylan Kay
+EastWest Media
+ECM Records
+Ed Bride Associates
+Eda Kalkay Public Relations
+Eh Joinery
+Elefante Rosso Label & Club Venue
+Elements of Jazz
+Elise Brown, Drummer PR
+Ellen Jacobs Associates
+Elly Wininger
+Emma Perry Publicity
+Entertainment PR
+entertainmentPR
+Entire Productions LLC
+Epiphany Marketing
+EQ Magazine
+Eric Kahi / Chillout Productions
+Errand Girl For Jazz
+Esalazioni etiliche
+Estuary Public Relations
+Etnobofin
+European Guide
+European Latin Jazz Foundation
+eViewsandNews.com
+Evolver.fm
+extempore
+Eye Magnet Group
+Falco Ink.
+FAP Stage Sound
+FCEtier
+Feathersound Media
+Fen Castro
+Festival International de Jazz de Montreal
+Fine & Mellow Music
+Fiona Bloom
+First Take PR & Consulting
+Flamenco Express
+Flauto Jazz
+Fletcher Henderson Museum
+FlipswitchPR, LLC
+Fojazz: The Blog
+FortyThree PR
+Frank Abay
+Freddies World by Frederick Bernas
+Frederick Bernas - portfolio
+Free And Expressive Art Music Show
+Free Background Music - Whisperings!
+Free Energy Media
+Free Jazz by Stef Gijssels
+Free Jazz Lessons
+Free Piano Sheet Music in the New Age Style
+Fresno Media
+Fretterverse.com
+Friends of Cape May Jazz, Inc.
+From Riches to Ragtime: Peter Cobb
+Frozen Sky Records
+Fully Altered Media
+Fumi Tomita
+FYI Communications, Inc.
+G.A.S. Experiences
+Gapplegate Guitar and Bass Blog
+Gapplegate Music Review by Grego Edwards
+Generation Media
+Georgia Gould-Lyle
+Giant Noise
+Giant Step
+Giant Step
+Gina Vodegel Writing Affairs
+Girlie Action Media and Marketing
+Glass Onyon PR - William James
+Glyn Jones
+GNUStar - Talent Services Division
+Goings on @ Urban Nerds
+GoMedia PR
+Gorgeous PR, Inc
+Graffiti PR
+Grassroots Jazz
+Graycat Productions
+Graziella PR
+Great Scott P.R.oductions
+Greater Love Productions
+Green Galactic
+Green Type of Tube
+Greenhouse Publicity
+Greg Hester Jazz
+Groove Notes
+Groove Therapy Records
+Groshelle Communications
+GruvAvenue
+Guia de Jazz SobreSites
+Guitar Player
+Gurtman and Murtha Artists
+H. S. Communication
+Hands On Public Relations and Marketing
+Hard Pressed Publicity
+Helen Maleed
+Hello Wendy
+Hemant Sareen
+Hemispherical
+Here We Go Agency
+Hollis Group
+Hot House Jazz Magazine
+House of Blues Concerts Canada
+Howpk
+hubtone PR
+Hudson Media Services
+Hummingbird Publicity
+HypeBot
+I Was Doing All Right
+Ian
+Ideal PR, LLC
+Ignite Media Consulting
+Illinois Blues
+Imaginary Friends
+imajinnWEST
+Impress Media - Jennifer Niederhoffer
+IMPro
+Improvisations on a Theme
+Improvised Communications
+In A Mellow Tone
+In the Groove, Jazz and Beyond
+Indaba Music Artist in Residence with Greg Osby
+Indian Music
+Indiana Avenue And Beyond
+Indianapolis Symphony Orchestra
+INDIEgo Promotions
+Infinite Records
+Inner Merit
+Inque Public Relations
+Instagram Hack
+International News Agency
+Inverted Garden by Eric Benson
+IrwinPR LLC
+Isabella Schrammel - Isilistening
+ISL Public Relations
+Island Jazz
+J-B Associates
+J.P. Stevens
+J:>)azZClefs#
+Jam Magazine
+JamaicaMusic Offbeat
+JamBase
+James Armstrong Music
+James Watkins, Jr.
+Jan Matthies Music Management
+Janice Miller
+JANLYN PR - Jana La Sorte
+Jason Byrne, Red Cat Publicity
+Jason Parker Music
+jazz  fotografie
+Jazz & Blues Florida
+Jazz & Blues Report
+Jazz (Jazzers Jazzing) by Carl L. Hager
+Jazz Addict
+Jazz Advice
+Jazz and Blues Music Reviews
+Jazz and Blues USA
+Jazz and Draw
+Jazz at Night
+Jazz At Ronnie Scotts
+Jazz Authority
+Jazz Beyond Borders
+Jazz Beyond Jazz by Howard Mandel
+Jazz Bird
+Jazz Blog
+jAzZ Blog
+Jazz Blog (Germany)
+Jazz By Net
+Jazz Chronicles
+Jazz Club Jury
+Jazz Doll PR
+Jazz DVD Marketing
+Jazz Elements
+Jazz En Dominicana
+Jazz en Dominicana by Fernando Rodriguez
+Jazz Evolution
+Jazz for the Asking
+Jazz Frisson
+Jazz from Gallery 41
+Jazz Gazetal
+Jazz Goa
+Jazz Goa blog
+Jazz Guide
+Jazz Improv Magazine
+Jazz in India
+Jazz In London
+Jazz In Perspective
+Jazz in Queens
+Jazz in the Village
+Jazz Journal
+Jazz Listeners Guide
+Jazz Lives by Michael Steinman
+Jazz Loft Project by Sam Stephenson
+Jazz Loft Publicity
+Jazz Mechanica
+Jazz Moods
+Jazz My Two Cents Worth
+Jazz N Blues Entertainment Magazine
+Jazz no pais do Improviso!
+Jazz North of 49
+Jazz Note SDP
+Jazz on Stage
+Jazz Online By Joseph Vella
+Jazz på Svenska (Jazz in Swedish)
+Jazz Perspectives
+Jazz Photos
+Jazz Photos and Chronicles
+Jazz Podium
+Jazz Quarterly Magazine
+Jazz Report Magazine
+Jazz Review
+Jazz Scene Ireland
+Jazz Science by Brian Prunka
+Jazz Special
+Jazz Suite
+Jazz Talk With J-Sug
+Jazz thing
+Jazz Thinks
+Jazz Today
+Jazz Toilet
+Jazz Trumpet Licks
+Jazz UK
+Jazz Underneath
+jazz unDone
+Jazz upon a time
+Jazz Vocalist and All About Jazz
+Jazz, ese ruido
+Jazz-Propaganda
+Jazz: The Music of Unemployment
+Jazz@Rochester
+Jazzamatazz by Alan Bryson
+Jazzblog
+Jazzblog.ca by Peter Hum
+Jazzblogg (N)
+JazzBrew - A Musician's Online Journal
+Jazzchops
+JazzClinic Media
+JazzEDge
+Jazzenzo e-zine
+Jazzevangelist
+Jazzflute
+JazzINK by Andrea Canter
+JAZZIZ Magazine
+Jazzline
+JazzListening
+JazzMando.com
+Jazzmogul Blog
+JazzNyt on Jazzspecial.dk
+jazzofonikjamaica
+Jazzpages
+JazzPDX
+JazzPortraits
+JazzPress
+Jazzseen
+JazzSpecial
+JazzStage Productions
+JazzStage.net
+Jazzthetik
+Jazzthing
+JazzTimes Magazine
+JazzTO.ca
+JazzTonic
+JazzWax by Marc Myers
+JazzWeek
+Jazzwise Magazine
+Jazzword
+JazzWriter
+Jazzy Jazz
+JAZZzology by Richard Watters
+JBPR/Joanne Barrett Public Relations
+JCM Media
+Jeff Newelt
+Jeff Rzepiela Public Relations
+Jeffrey James Arts Consulting
+Jenine Baines
+Jeremy Bonaventura
+Jerry Zigmont Blog
+Jessica Fagan
+Jim Eigo, Jazz Promo Services
+Jim Goyjer Associates
+Jim Pepper Lives!
+Jizel Music
+JM Creative
+Jo Morello, Inc.
+John Wesley Reed Jr
+Johnson Music
+Jona Rapoport Artist Management/PR
+Jonas Music Services
+Jonathan Kantor - Blue Note Jazz Club
+JP Cutler Media
+Judi Kerr Public Relations
+Juliet Kelly
+Jus' Jazz
+Jussi Halttunen
+Just Roots PR
+Karen Sloan
+Kari-On Productions
+Karin Haerter
+Kate Ross / KR Publicity
+Kayos Productions, Inc.
+KCJazzLark By Larry Kopitnik
+Keep Swinging
+Ken Franckling's Jazz Notes
+Keyboard
+Killerbees@Waid's Blog
+Kim Smith Public Relations
+Kim Taylor PR
+Kimmel Center for the Performing Arts
+KJPR Publicity and Artist Relations
+Klein Lawyers LLP
+Kluger Media Group, LLC
+KMP, Inc.
+Krakower Poling PR Corp
+Kristalyn van de Water
+Kultur
+La Belle Usine Productions
+La Femme Magazine
+LA Music / Louie Austen Music
+LA Weekly
+Ladbury PR
+Lampkin Publicity Service
+Landon Music Company
+Larry's Improv Page
+Latest Mailing Database
+Latin Perspective by Tony Vasquez
+Latin Perspective-Latin Jazz Blog
+Laura Henrich
+Le son du grisli
+Leading Edge Consulting
+Leah Grammatica Public Relations
+Leah's Blog
+Learning Secrets
+Leciyatawn
+Lee Walter Associates
+LenMar Promotions
+Leonardo
+Leonardo Pavkovic
+Lerterland
+LGB Media
+Liberty Hill Music
+Liberty Media Group, Inc.
+Like Rain Whispers Mist
+Linda S Froiland
+Lip Service Media
+Lisa Bautista, Public Relations
+Lisa Cooney Carter
+Lisa Reedy Promotions
+Lisa St Cyr
+Listen & Be Heard
+LKS Associates
+LMC Media
+LondonJazz by Sebastian Scotney
+Looking Glass Media
+Lori Hehr Public Relations
+Loronix
+Lorraine Tucci
+Lost In Transposition
+Lotos Nile Media and Marketing
+LRI Publicity
+Lubricity
+LUCK Media & Marketing, Inc.
+Lura Belle Productions
+Ly-chi
+Lynk PR
+Madison House Publicity
+MAKIS - Jazznotes -Mykonos Greece
+MangoMatter
+Mantra Public Relations
+Marble Arch PR
+Marc Antomattei Productions
+Margaret Davis Grimes
+Mark Jonson
+Mark Pucci Media
+MarketPlan
+Marseille & Company Management
+Marshall Lamm Promotions & Public Relations
+Marvelous Public Relations
+Mary Curtin Productions
+MaryLenore Arsenault, BopStar-PR
+Mason Jar Media
+Massive Music
+MassJazz
+MassJazz: Jazz in Massachusetts
+Master Music Teacher Blog
+Master of a Small House
+Matthew
+Matthew Kassel: Cold Jazz
+Maven Communications
+Mcfadden & Mcfadden Entertainment P.r.
+McGuckin Entertainment PR
+McMullen & Company Public Relations
+MCRN - Public Relations
+Media Maverick by by Greg Sandoval
+Media Monster Communications
+Media Stew Public Relations
+Mel Bay Publications
+Melomag Magazine
+Mensch & Company, Inc.
+MFA - Mitchell Feldman Associates
+MG Consultants
+Mi Bulin
+Michael Bloom Media Relations
+Michael Purdy
+Michelle Hall Public Relations & Marketing
+Michelle Roche Media Relations
+MidemNet
+Midwest Coast
+Miles Davis Online
+Miles High Productions
+Miller Wright & Associates
+Milos Jazz Cuarteto
+minds on song with Gordon Marshall
+Mingus Lives
+Mississippi Rag
+Mix Management, Bonnie Ahl
+Mixed Media
+MM Entertainment Publicity
+Mobile Technologies Changes
+Mobile Technologies Changes Today
+Modern Drummer
+Mondo Jazz
+Mone Consulting
+Monifa Brown
+Monterey Jazz Festival
+Monthly Herald
+Mooney Marketing
+More Better Jazz
+Moses Supposes
+Mosnar Communications, Inc
+Mostly jazz, mostly from Italy
+Mostly Music by Ronan Guilfoyle
+Motormouthmedia
+Mouthpiece Music
+Mozilla Firefox Blog
+Mt Crested Butte Town Center Community Association
+MTN Media Relations
+Mulligan Productions LLC
+Muse Media
+Music and More by Tim Niland
+Music Book World
+Music City News Media & Marketing
+Music Notes From Wonder Of Sound
+Musica es, entre otras cosas, musica
+Musical Missing Piece
+MusicDish
+MusicDish Network
+musicgrafias - goio villanueva jazz concerts photographer
+Musicians of El Paso - Past and Present
+MusicianWages.com
+Musick
+Musick by George Sessum
+Musik International
+Musikverlag Christoph Dohr
+MusiMedia, L.L.C.
+My Jazz Explorations
+My Jazz World
+My Job
+My PR Music Wire
+My Publicist
+Myers Productions
+Mykonos - Greece /  A Jazz Listener / by Makis
+MyMusicSuccess.com
+Nancy Edwards Entertainment
+Nathan J. Silverman Company
+New Album Latin Jazz "como Suena"
+New Day
+New Jazz Audience Media
+New Jazz Noises
+New Orleans jazz band-Hotstompers-BLOG
+New York Jazz Academy Publicity
+Ni Kantu by Clifford Allen
+Night After Night
+Night Lights Classic Jazz
+nilesh Ahu
+Nina Gordon Public Relations
+Nina Lesowitz
+Nippertown!
+Noble PR
+Nonesuch Publicity
+Notes on Jazz by Ralph A. Miriello
+Novol
+Now Forward Music
+Nu Jazz Entertainment
+Nu Jazz in a Nu Time
+Nu Jazz Publicity
+Nu-Jazz International
+O&M; Co.
+Obie Joe Media
+Oceanbound Entertainment Inc.
+Off Minor
+Offbeat Music Magazine
+Olios Music Page
+Omni Eye & Vision
+On Target Media Group
+On The Fringe Of Jazz
+On Wax Intimate Portrait Of Chanda Rule
+One Creative Publicist & Management
+One Working Musician by Jason Parker
+Optfirst Inc
+Orange Grove Publicity
+orange moon
+Orloff/Williams Advertising & Public Relations
+other-now.
+Outerglobe
+OUTHOUSE pr
+Outside Organisation
+Oxford University Press
+Palmetto Records
+Paperwork Media
+Paradigm Shift PR
+Paris Loves Jazz
+Pat Courtemanche
+Patricia Adams Ensembles
+Paul Collins Artist Management International
+Paula Lavitz - PR, Management & Booking
+Paula Maya: A Brazilian Living In Austin, Tx
+PC Magazine
+PCS Management
+Perfect Sounds
+Peter McDowell Arts Consulting
+Peter Pearson
+Photonality Jazz Series
+Phred, Inc.
+Piano Music by Paul Toboey
+Piano Today
+Piano y Jazz-Flamenco
+pianologist
+Picaro Press
+Pitch Perfect PR
+PKPR
+Plastic Sax
+PlaybillArts.com
+PlayJazzNow PR
+Polish Jazz
+Pop Dose
+Porão do Jazz
+Pork Pie Jazz
+Powderfinger Promotions
+Prague Jazz
+Prana Marketing
+PRemiere Public Relations
+Press Dept
+Press Junkie PR
+Pressat
+Prog Sphere
+Protege
+PRThatRocks.com
+Public Emily
+PublicEye
+Purpose Media Management
+PUSH Revolution
+Quiet + Loud PR
+Quintaesencia
+Radio Jazz Guy
+RadioCast Marketing
+Rainmaker Public Relations
+Randex Communications
+Rebecca Bell Sorensen
+Rebecca Davis PR
+Red Hot Jazz
+Redhouse Jazz
+Reflections of a Jazz Theologian
+Rehearsing The Blues
+Relix Magazine
+Renee Priemon
+Reva Cooper
+Reviews and All That Jazz
+RGillettPR
+Rhino Digital Printing Inc.
+Richard Underhill Promotions
+Rick McLaughlin's Listen
+Riffs on Jazz by John Anderson
+Rifftides by Doug Ramsey
+RioVida Networks
+RJ Johnson's Modern Music
+RJ on Jazz by R.J. DeLuke
+RL Productions
+Robert Neeson
+Robert Rucker Project
+Robert Rucker Project
+rock paper scissors, inc.
+Rocket Words
+Rockonola
+Rockyoumentally
+Rogers & Cowan
+Rolling Stone
+Rolling Thunder PR
+Ron Moss's Blog
+Ron Ross
+Ron s Audio Blog
+Rooftop Promotion
+RoseKing Productions
+Rouse Public Relations
+RV IT Group
+RVAjazz
+Ryan Xzavier Public Relations
+Ryko
+Sacks and Co.
+Sally Fischer Public Relations
+SaskJazzJam
+SASSAS
+Saxindia
+Schell Barkley
+Science and Music
+Scott Thompson Public Relations
+Scott Yanow
+Scratch My Brain
+Scullyone Productions
+Seattle Jazz Scene
+See! Hear! by Richard Kamins
+Seeing Jazz
+seoworkblog
+Services for Artists
+Seth Cohen PR
+Settled in Shipping
+SF Media
+Shannon Butcher Sings
+Sheba Media PR
+Shikshanow
+Shira Gilbert PR
+Shore Fire Media
+Shout Marketing and Media Relations
+ShrumV
+Shuttercraft Bristol
+Shuttercraft Cambridge
+Shuttercraft Cheshire
+Sibiu People
+Siddhartha Mitter
+Signal to Noise
+Silkworks
+Simply Elegant
+Simply Jazz
+Sing
+Sirius Satellite Radio
+SIX media marketing inc
+Skip's Live Journal
+SloaneView
+Smooth-Jazz-Band Indigo mit neuem Album
+So What
+SobreSites Jazz Guide
+SoCal Creative Music
+SOJAZZ
+Something Else!
+Sony Music Entertainment/Legacy
+Sortiesjazznights.com PR
+Soul on Track
+Soulstice Marketing
+Sound Insights by Doug Payne
+Sound Slope
+Sound Unities by Chris Rich
+Sound Visions Media
+Speakin' the Blues
+Special Ops Media
+Sphinx Publicity
+Spinergy Group
+Spinning in Air
+Spirit Of New Orleans Productions
+Spoony's Music Diary
+St. Louis Jazz Notes by Dean Minderman
+STAR PR
+Stax Museum of American Soul Music
+Stephan Earl - The Art of Expression
+Steve Carter
+Steve Griggs Music
+Steven Smith
+Stop and Hear the Music
+Straight No Chaser
+StraightOut Media & Marketing
+Sub Par Publicity
+Sue Auclair Promotions
+Suezenne Fordham Chamber Jazz LA
+Sunnyside Records
+Support Buddy
+Survival Of The Cool: Jazz and everything.
+Susan Blond, Inc.
+Susan Marie Public Relations
+Susan O'Kane
+Swing Journal
+Swing, Jazz and Blues
+Sydney Jazz Blog
+Sylvain Music Notes
+SZPR, Inc.
+Take Five Music
+Take The "A" Train
+Tampa Jazz Scene
+Tanisha Jackson
+Tapping PR
+TD Entertainment
+Tehillah Enterprises, LLC
+Tellef Øgrim
+Tellem Worldwide
+Tenfour Communications
+Teresa Conboy PR
+Terri Hinte
+Texoma Living! Magazine Jazz Series
+That Jazz
+The Aroengbinang Project
+The Attention Group
+The Augmented Ear by John Patten
+The B Company
+the BandA ecLectics
+The Brokaw Company
+The Business Musician by Craig M. Cortello
+The Chill Vibe Experience/Infinite Rhythms
+The Cinarae Group
+The Daily Jazz
+The Domino Theory by Jeff Winbush
+The Ear of the Mind
+The Ferraro Group
+The Folk Who Feel Jazz
+The Frank Agency
+The Golden Era of Jazz
+THE GREAT AMERICAN SONGBOOK BLOG
+The Guitar Channel
+The Hi De Ho Blog
+The HUSH Foundation Public Relations Dept.
+The Independent Ear by Willard Jenkins
+The Jazz 89.5 Blog
+The Jazz Clinic
+The Jazz Guitarist
+The Jazz Line
+The Jazzcat
+The Jessamine Vine
+The Judy Nelon Group
+The Klein Group, Inc.
+The Latin Jazz Corner by Chip Boaz
+The Mantle
+The Melodic Drummer
+The Miles Davis Movie
+The Mirror Group, LLC Events
+The Mix
+The New York Times
+The Next Level PR & Events - Sue McCallum
+The Opulent Influence Agency
+The Outward Spiral
+The Phillips Agency
+The Practice Room
+The Ring Modulator by Adrian Stevenson
+The SideMan
+The Stringslinger
+The Torch Singer
+The Wattree Chronicle By Eric L. Wattree
+The Working Musician
+Theater League
+theloneliestmonk
+ThinkKing Media, Inc.
+ThinkTank Marketing
+This Shape of Jazz
+Thomas Pena
+Tijuana Gift Shop
+Times Square Press
+TMA E-Marketing
+Tokyo Nights
+Tom Abbott
+Tom Estey Publicity & Promotion
+Tom La Meche's jazz Blog
+Tom Powers Jazz House
+Tom Tallitsch Productions, LLC
+Tomorrow Jazz
+Toni Ballard PR
+Tony Flood's House of Hard Bop
+Toolshed
+Total Marketing Solution
+Tracey Miller and Associates
+Tracy's Musical Exploratorium
+Translantis Media Group
+Translantis Music
+Trivitt Public Relations, Inc.
+Tsunami Publicity
+Tulip Songs International
+Tune Up
+Two for the Show Media
+Two Sheps That Pass
+ugEXPLODE
+Ulverston Jazz Blog
+underyourskin
+Universal Music Group
+University of the Arts, Media Relations
+Unlimited Resources, Inc.
+Urban Fuzhen Enterprises
+Usa Imaging Supplies
+USA News Trends
+Valon kuvia - Blogi
+Verbronics Enterprises
+Verve Music Group
+Visa Views
+Vision Song
+Vita-dent Clinic
+Vivo Musique Internationale
+Vjm's Jazz & Blues Mart
+Vocal Jazz
+VocalJazzJournal
+Voll-Damm Festival Internacional De Jazz De Barcelona
+W3 Public Relations
+Walkabout
+Watch Jazz Happen by Dan Kassell
+We All Make Music
+WeareFlex
+What Is Life
+Wildfire Publicity
+Winged Flight Publicity
+Wiredset
+Wolfgang's Vault
+World Art Celebrities Journal
+World Improvised Music
+World Who's Who in Jazz Cabaret Music and Entertainment
+Wreckhouse Jazz & Blues
+Writers House
+Wynton Marsalis Enterprises, Inc.
+Ximen Reed
+Yoon Choi's "What's Cooking?"
+You And Whose Army Media
+Zarmedia
+zeblog
+Zerodimension
+Zzzing Agency
+Find!
+General
+Local
+Industry
+Website
+Popular
+Recommended
+Press Release Distribution
+Sign in
+or
+sign up
+to upload your press release.
+Learn more
+and read our
+FAQ
+.
+All website search options
+or search with Google
+Support All About Jazz's Future
+We need your help and we have a deal. Contribute $20 and we'll hide the six Google ads that appear on every page for a full year!
+I want to help
+<p class="caption-text bottom-20"><br /><a target="_blank" href="http://bit.ly/2kquJpV" title="Please support out sponsor">support our sponsor</a></p>

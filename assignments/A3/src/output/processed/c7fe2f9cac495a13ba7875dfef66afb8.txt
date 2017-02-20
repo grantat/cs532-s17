@@ -1,0 +1,285 @@
+<![endif]
+Google Chrome Frame for IE
+[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]
+mobile meta
+head functions
+This site is optimized with the Yoast SEO plugin v4.3 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 9]>
+<link rel='stylesheet' id='cb-ie-only-css'  href='https://artistrack.com/wp-content/themes/valenti/library/css/ie.css?ver=5.4' type='text/css' media='all' />
+<![endif]
+This site uses the Better Analytics plugin.  https://marketplace.digitalpoint.com/better-analytics.3354/item
+Body BG
+Facebook Pixel Code
+DO NOT MODIFY
+End Facebook Pixel Code
+end custom css
+end head functions
+Submit
+ArtistRack is one of the best music blogs, submit music to our music blog
+Secondary Menu
+Latest
+Daily Ites beats
+Flak - Young Chasers
+K.tothe.A.Y. Ft. SpaceBoy Pola - Do It
+/Secondary Menu
+end header
+Featured Music
+Flak – Young Chasers
+Dylan Skyler – Sauce
+Faiza – Body Babe
+G Moneybagzz Ft. King Ray – Bad And Ratchet
+RichSoFresh Ft. Prophecy – I Try So Hard
+Kamilo – Pull 10 Style
+Richard Robinson – Worst Behavior
+B2.0 / 2.0Sound I GO HAMMER AGAIN / GIANT KILLER
+K-Son Judah – Before The Greenlight Mixtape
+Jayden Martelle – Baptized
+Featured Videos
+K.tothe.A.Y. Ft. SpaceBoy Pola – Do It
+K.tothe.A.Y. Ft. SpaceBoy Pola - Do It:
+
+K.tothe.A.Y. is an eclectic East Coast artist whose sound embraces a wide ran
+...
+Read More...
+Papa Pretty – Let It Go
+Papa Pretty - Let It Go:
+
+Hailing from Jamaica Queens, NY, Papa Pretty, (AKA Papa Doc), defines authentic Hip Hop ente
+...
+Read More...
+Lawless Hearts – All My Troubles
+Lawless Hearts – All My Troubles:
+
+Lawless Hearts continues their blitzkrieg of pure, classic, hard rock and roll with
+...
+Read More...
+Fernando Triff – Risk Tak3r
+Fernando Triff - Risk Tak3r: Award winner hit #1 artist on MTV featured recently on The Hype Magazine and so much more!
+...
+Read More...
+Lil Voss – Pray For Me
+Pray For Me by Lil Voss, produced by Supa Green. You can find this track on the Introspective EP by Voss available for d
+...
+Read More...
+And We Should Die Of That Roar – Blood On Our Hands
+And We Should Die Of That Roar - Blood On Our Hands: 
+
+Swedish blues-punk-noir phenomenon And We Should Die Of That Ro
+...
+Read More...
+Li63rty(LIberty) – Stained
+Li63rty(LIberty) brings to us his Hip Hop music video 'Stained'
+
+ 
+
+PURCHASE HERE
+
+FOLLOW ON: TWITTER | FACEB
+...
+Read More...
+Something Arbitrary – Driveway View
+Something Arbitrary - Driveway View: Something Arbitrary's debut album Full Half Glass will release on 3/3/2017. New mus
+...
+Read More...
+Mothertapes – Do Make Say
+Mothertapes - Do Make Say:
+
+Sophisticated special effects in music videos are so widespread that audiences have grown
+...
+Read More...
+World War IX – Have You Seen My Drugs?
+World War IX - Have You Seen My Drugs?:
+
+Brooklyn’s World War IX carries the banner of vintage American punk
+...
+Read More...
+Connor Byers – Like Oh
+Connor Byers - Like Oh
+
+ 
+
+For many artists, 15 years old is about the time that they start taking their first
+...
+Read More...
+Con – Free Dreams
+Con “Free Dreams”
+
+We are excited to bring you Con and his newest video, “Free Dreams.” Venturing into solo artistry f
+...
+Read More...
+Featured Articles
+Tori V will be releasing new album ‘American Beauty’
+Tori and her team are now about to release her album called 'American Beauty.' Her inspirations are Cher Lloyd, Nicki Mi
+...
+Read More...
+Introducing Canada based Allan Soberman
+Allan Soberman is a singer/songwriter/musician and cantor’s son based in Toronto, Canada. He started his career as a bas
+...
+Read More...
+Introducing London’s own Blazay
+Introducing London's own Blazay:
+
+We have a characteristic approach to modern electronic music, yet on the other hand
+...
+Read More...
+Introducing San Diego based Savannah Philyaw
+Hello friend! I’m Savannah and I’m a 21 year old Americana-Pop singer-songwriter from San Diego, California. Music has a
+...
+Read More...
+Interview with Miss Tun Pickney
+Miss Tun Pickney is on a mission to produce new reggae, no covers, no re-releases of classic 'riddims'. Check
+...
+Read More...
+Introducing VBlock Dutch
+Established in 2004, Brooklyn transplant Vblock Dutch also known as Dutch Diamond have drawn notable comparisons to Noto
+...
+Read More...
+Introducing Heather Christie
+Introducing Heather Christie: Deemed a 'vocal tour de force', this singer, producer and songwriter conjures comparisons
+...
+Read More...
+Craymo Wins Best Song for Anti-Bullying Anthem in Worldwide Music Contest
+Craymo Wins Best Song for Anti-Bullying Anthem in Worldwide Music Contest with his single 'Be Myself'
+
+Winning anti-bu
+...
+Read More...
+Interview with Georgia Motor
+Georgia Motor is a 23 year old Denver artist. His music is a mix between core hip hop and the new wave of music that is
+...
+Read More...
+Introducing Jenn Connor
+Standing out among today's pop artists, Jenn Connor is bringing a fresh look and innovative sound that is turnin
+...
+Read More...
+Interview with CeeGramz
+CeeGramz grew up in Camden, NJ and started writing lyrics at a young age. After a few run ins with the law, he joined th
+...
+Read More...
+View More
+View More
+We are one of the Best Music Blogs online, we support indie music artist and help them reach the ears of 1000's. Our Music Blog is followed by Record Labels, Music Taste makers, Local Clubs, Radios and Dj's. Submit your music now to one of the top music blogs and be part of our indie music blogs.
+SUBMIT
+ArtistRack is one of the best music blogs, we are not your typical music blog, we also promote your music to our large fan base on our social media accounts and all featured music is included in our monthly newsletter which is sent out to music lovers, record labels, radios, Dj's and more. Submit Music now and be part of the top music blogs.
+Latest Music
+Flak – Young Chasers
+Plateau – Failure (Failure)
+Dylan Skyler – Sauce
+Joshua Francis – Now The Time’s Come Around
+Faiza – Body Babe
+G Moneybagzz Ft. King Ray – Bad And Ratchet
+CKENT – You Know CKENT (EP)
+RichSoFresh Ft. Prophecy – I Try So Hard
+Kamilo – Pull 10 Style
+DEMOND – PEPPER (CAYANNE MIX)
+Latest Videos
+K.tothe.A.Y. Ft. SpaceBoy Pola – Do It
+Papa Pretty – Let It Go
+Lawless Hearts – All My Troubles
+Fernando Triff – Risk Tak3r
+Lil Voss – Pray For Me
+And We Should Die Of That Roar – Blood On Our Hands
+Li63rty(LIberty) – Stained
+Something Arbitrary – Driveway View
+Mothertapes – Do Make Say
+World War IX – Have You Seen My Drugs?
+Latest Articles
+Tori V will be releasing new album ‘American Beauty’
+Introducing Canada based Allan Soberman
+Introducing London’s own Blazay
+Introducing San Diego based Savannah Philyaw
+Interview with Miss Tun Pickney
+Introducing VBlock Dutch
+Introducing Heather Christie
+Craymo Wins Best Song for Anti-Bullying Anthem in Worldwide Music Contest
+Introducing Canadian Producer @BigBobPattison
+K.tothe.A.Y. – Bodega Soul
+ArtistRack is one of the best music blogs, we promote all music genres, submit music and be part of our music blog.
+ArtistRack promotes all genre's of music and music videos, submit your music now and feature on our indie music blogs
+Submit Music
+Submit Video
+Artist Interview
+Artist Submission
+Music Video Promotion
+Music Review
+Tags
+Artist
+EDM
+EDM Music Videos
+Featured (Artist)
+Featured (Music)
+Featured (Video)
+Gospel
+HipHop | Rap
+HipHop | Rap
+Hip Hop | Rap Music Videos
+Music
+Other
+Pop
+Pop
+Pop
+RnB | Soul
+RnB | Soul
+Rock
+Rock
+Video
+© 2015-2016
+ThinkSmart Innovation Ltd
+t/a
+ArtistRack
+About
+Reviews
+Contact
+Terms and conditions
+Privacy Policy
+end footer
+end #cb-container
+end #cb-outer-container
+showcasing the best music talent
+Home
+Artist
+Alternative
+Country
+EDM
+Gospel
+HipHop | Rap
+Jazz
+Other
+Pop
+Reggae
+RnB | Soul
+Rock
+Music
+Alternative
+Country
+EDM
+Gospel
+HipHop | Rap
+Instrumental | Beats
+Jazz
+Other
+Pop
+Reggae
+Rock
+RnB | Soul
+Video
+Alternative
+Country
+EDM Music Videos
+Gospel
+Hip Hop | Rap Music Videos
+Jazz
+Other
+Pop
+Reggae Music Videos
+RnB | Soul
+Rock
+Submit
+Music
+Video
+Artist/Press Release
+Interview
+Music Review
+INSERT HERE
+CUSTOM CONTENT HERE

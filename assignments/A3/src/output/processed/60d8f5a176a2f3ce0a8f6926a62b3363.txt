@@ -1,0 +1,3 @@
+[if lt IE 9]>
+  <script src="/common/js/IE9.js"></script>
+  <![endif]

@@ -1,0 +1,180 @@
+OPENING GRAND DIV Start
+LOGO Start
+<a href="/">
+</a>
+LOGO Finish
+DATE OF PUBLICATION Start
+DATE OF PUBLICATION Finish
+NEWSLETTER MASTHEAD Start
+NEWSLETTER MASTHEAD Finish
+MAIN CONTENT Start
+BODY Start
+content begin
+Begin Table For Two Column Layout
+February 10, 2017
+Change Date!
+Begin Market Commentary
+Market Commentary
+by Scott J. Brown, Ph.D., Chief Economist
+The economic data calendar was thin. December trade figures were roughly in line with expectations. The University of Michigan Consumer Sentiment Index fell in the mid-February estimate.
+Stock market investors were encouraged by the prospect for tax cuts following comments by President Trump. In contrast, the bond market, recognizing that the process for cutting taxes will be contentious and lengthy, is less fearful of a large boost to the federal budget deficit (hence, bond yields have backed down over the past month).
+Next week, there are several economic reports, but January figures are subject to a number of seasonal distortions. More importantly, Fed Chair Janet Yellen will deliver her semiannual monetary policy testimony on Tuesday and Wednesday. We may not learn much new regarding the outlook for rate increases (still expected to be gradual). Monetary policy will remain data-dependent. Lawmakers will likely try to pull Yellen into a discussion of fiscal policy (infrastructure spending and tax cuts), but she will steer clear of that. Many may see Yellen as something of a lame duck. Her term as Fed chair ends February 3, 2018. However, she will almost certainly have a lot to say about financial regulation.
+End Market Commentary
+Begin Indices
+Indices
+Last
+Last Week
+YTD return %
+DJIA
+20172.40
+19884.91
+2.07%
+NASDAQ
+5715.18
+5636.20
+6.17%
+S&P 500
+2307.87
+2280.85
+3.08%
+MSCI EAFE
+1734.20
+1736.42
+2.98%
+Russell 2000
+1378.53
+1360.54
+1.58%
+End Indices
+Begin Consumer Money Rates
+Consumer Money Rates
+Last
+1 year ago
+Prime Rate
+3.75
+3.50
+Fed Funds
+0.66
+0.37
+30-year mortgage
+4.13
+3.65
+End Consumer Money Rates
+Begin Currencies
+Currencies
+Last
+1 year ago
+Dollars per British Pound
+1.250
+1.452
+Dollars per Euro
+1.066
+1.129
+Japanese Yen per Dollar
+113.25
+113.35
+Canadian Dollars per Dollar
+1.315
+1.393
+Mexican Peso per Dollar
+20.350
+18.938
+End Currencies
+Begin Commodities
+Commodities
+Last
+1 year ago
+Crude Oil
+53.00
+27.45
+Gold
+1236.80
+1194.60
+End Commodities
+Begin Bond Rates
+Bond Rates
+Last
+1 month ago
+2-year treasury
+1.19
+1.18
+10-year treasury
+2.43
+2.36
+10-year municipal (TEY)
+3.51
+3.35
+End Bond Rates
+Begin Treasury yield curve
+Treasury Yield Curve
+– 02/10/2017
+As of close of business 02/09/2017
+End Treasury yield curve
+Begin S&P Sector Performance Charts
+S&P Sector Performance (YTD)
+– 02/10/2017
+As of close of business 02/09/2017
+End S&P Sector Performance Charts
+Begin economic calendar
+Economic Calendar
+February 14
+—
+Small Business Optimism Index (January)
+Producer Price Index (January)
+Yellen Monetary Policy Testimony (Senate)
+February 15
+—
+Consumer Price Index (January)
+Retail Sales (January)
+Industrial Production (January)
+Yellen Monetary Policy Testimony (House)
+February 16
+—
+Jobless Claims (week ending February 11)
+Building Permits, Housing Starts (January)
+February 17
+—
+Leading Economic Indicators (January)
+February 20
+—
+Presidents Day (markets closed)
+March 10
+—
+Employment Report (February)
+March 15
+—
+FOMC Policy Decision (Yellen press conference)
+End economic calendar
+Begin Disclaimers --
+	
+	======= NO DISCLAIMERS NEEDED UPADTE THE DATE in the email.asp & email1.asp FILES ===========
+
+	<p class="disclaimer">Past performance is not a guarantee of future results. There are special risks involved with global investing related to market and currency fluctuations, economic and political instability, and different financial accounting standards. There is no assurance that any trends mentioned will continue in the future. While interest on municipal bonds is generally exempt from federal income tax, it may be subject to the federal alternative minimum tax, state or local taxes. In addition, certain municipal bonds (such as Build America Bonds) are issued without a federal tax exemption, which subjects the related interest income to federal income tax. Also municipal bonds may be subject to capital gains taxes if sold or redeemed at a profit. Investing involves risk and investors may incur a profit or a loss.</p>
+
+    <p class="disclaimer">US government bonds and treasury bills are guaranteed by the US government and, if held to maturity, offer a fixed rate of return and guaranteed principal value. US government bonds are issued and guaranteed as to the timely payment of principal and interest by the federal government. Treasury bills are certificates reflecting short-term (less than one year) obligations of the US government.</p>
+
+    <p class="disclaimer">Commodities trading is generally considered speculative because of the significant potential for investment loss. Markets for commodities are likely to be volatile and there may be sharp price fluctuations even during periods when prices overall are rising. Specific sector investing  can be subject to different and greater risks than more diversified investments.</p>
+
+    <p class="disclaimer">Tax Equiv Muni yields (TEY) assumes a 35% tax rate. Municipal securities may lose their tax-exempt status if certain legal requirements are not met, or if tax laws change.</p>
+
+    <p class="disclaimer">Material prepared by Raymond James for use by its financial advisors. All expressions of opinion reflect the judgment of the Research Department of Raymond James & Associates, Inc. and are subject to change. There is no assurance any of the forecasts mentioned will occur. Investing involves risks including the possible loss of capital.  </p>
+
+    <p class="disclaimer">Data source: Bloomberg, as of close of business February 9, 2017.</p>
+
+    End Disclaimers
+content end
+BODY Finish
+MAIN CONTENT Finish
+SECONDARY NAVIGATION Start
+SECONDARY NAVIGATION Finish
+FOOTER Start
+©2017 Raymond James & Associates, Inc. member
+New York Stock Exchange
+/
+SIPC
+.
+FOOTER Finish
+OPENING GRAND DIV Finish
+JAVASCRIPT BOTTOM Start
+<script type="text/javascript" src="bottom.js"></script>
+JAVASCRIPT BOTTOM Start

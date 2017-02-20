@@ -1,0 +1,291 @@
+<![endif]
+WP Header
+Social Warfare v2.2.1 http://warfareplugins.com
+Social Warfare v2.2.1 http://warfareplugins.com
+This site is optimized with the Yoast SEO plugin v4.3 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+Site Meta From Theme
+HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]
+End Site Meta From Theme
+Facebook Integration
+End Facebook Integration
+Theme's Custom CSS
+End Theme's Custom CSS
+BEGIN GADWP v4.9.6 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/
+END GADWP Universal Tracking
+End WP Header
+Begin comScore Tag
+End comScore Tag
+Facebook Pixel Code
+DO NOT MODIFY
+End Facebook Pixel Code
+Site Wrapper
+Top Bar
+Top Menu
+Conciertos
+CRÓNICAS / CRITICAS
+DISCOS
+CINE Y TV
+LIBROS
+TODOINDIE PLAYLIST
+AGENDA DE CONCIERTOS
+End Top Menu
+End Top Bar
+Site Header : Left Logo
+Logo
+Site Logo
+Retina Site Logo
+End Logo
+Main Menu
+NOTICIAS
+NOTICIAS FESTIVALES
+ENTREVISTAS
+AGENDA DE FESTIVALES 2017
+Contacto
+End Main Menu
+Mobile Menu
+NOTICIAS
+NOTICIAS FESTIVALES
+ENTREVISTAS
+AGENDA DE FESTIVALES 2017
+Contacto
+End Mobile Menu
+End Site Header : Left Logo
+Home
+»
+NOTICIAS
+»
+Jamiroquai comparte el primer single de su nuevo disco
+Internacional
+/
+NOTICIAS
+Jamiroquai comparte el primer single de su nuevo disco
+Todoindie
+2017-01-30
+Todoindie
+/
+30 enero, 2017
+/
+0
+0
+Shares
+Facebook
+Twitter
+Pinterest
+Google+
+Share
+30
+Tweet
++1
+1
+Pin
+Shares
+31
+Jamiroquai comparte el primer single de su nuevo disco, “Atomaton”
+El artista británico anuncia su regreso con su octavo álbum de estudio titulado
+“Automaton”
+. Compuesto por Jay Kay y co-producido junto a su profesor de piano, Matt Johnson. Este nuevo trabajo verá la luz el
+31 de Marzo
+a través del sello Virgin EMI.
+Tras la vorágine que ha causado el pasado lunes entre sus fans de todo el mundo la edición de “Automaton Transmission 001”,
+Jamiroquai
+comparte el
+primer single
+de su nuevo disco que da título al álbum. El vídeo, dirigido por Charlie Lightening (Arcade Fire, Bjork) con dirección creativa del líder de la banda, Jay Kay, es un ejemplo de cine negro novel y ciencia ficción.
+Según Jay Kay,
+“Automaton está inspirado en el alza de la inteligencia artificial y de la tecnología en nuestro mundo actual y en como los seres humanos empiezan a olvidar las cosas más satisfactorias, sencillas y relevantes de la vida y nuestro entorno, incluyendo nuestras relaciones con las demás personas “
+.
+★
+★
+★
+★
+★
+Jamiroquai comparte el primer single de su nuevo disco
+,
+5
+/
+5
+(
+1
+votos)
+Necesitas activar Javascript para votar
+Share
+30
+Tweet
++1
+1
+Pin
+Shares
+31
+Tags:
+Automaton
+Jamiroquai
+NUEVO DISCO
+#post-##
+Related Posts
+Todoindie
+Concierto de Enric Montefusco en Murcia
+Todoindie
+Neuman publicará nuevo disco en mayo
+Todoindie
+Escucha “Piedad”, nueva canción de Viva Suecia
+Todoindie
+Belle and Sebastian añaden nuevas fechas a la gira
+No Comment
+Leave a reply
+Cancelar respuesta
+Tu dirección de correo electrónico no será publicada.
+Los campos obligatorios están marcados con
+*
+#respond
+Más noticias
+FESTIVALES
+/
+NOTICIAS
+Primeros nombres para el Rototom Sunsplash 2017
+Todoindie
+/
+15 febrero, 2017
+Internacional
+/
+NOTICIAS
+Ed Is Dead estrena sello, Idioteque
+Todoindie
+/
+15 febrero, 2017
+FESTIVALES
+Nuevas confirmaciones para Cabo de Plata 2017
+Todoindie
+/
+15 febrero, 2017
+FESTIVALES
+/
+NOTICIAS
+No Sin Música 2017 confirma tres nuevas bandas
+Todoindie
+/
+15 febrero, 2017
+Conciertos
+Concierto de Enric Montefusco en Murcia
+Todoindie
+/
+15 febrero, 2017
+TODOINDIE PLAYLIST
+Playlist de enero 2017
+Todoindie
+/
+15 febrero, 2017
+Site Footer
+Site Footer Sidebar
+TU MUSICA EN CATEGORIAS
+CINE Y TV
+Conciertos
+CRÓNICAS / CRITICAS
+DISCOS
+EMERGENTES
+ENTREVISTAS
+FESTIVALES
+GRUPOS INDIE
+Internacional
+LIBROS
+Nacional
+NOTICIAS
+OPINIÓN
+Quiz
+Sos 4.8
+TODOINDIE PLAYLIST
+Uncategorized
+Festivales 2016
+Wem Music Festival
+Electrosplash
+Festivales
+Madrid Popfest
+Primavera Trompetera Festival
+Esmorga Fest
+SanSan Festival
+FIV
+Gijón Sound Festival
+Viña rock
+Viñarock
+SOS 4.8
+Territorios Sevilla
+Primavera Sound
+Festival De Les Arts
+Festival de los sentidos
+PortAmérica Rías Baixas
+Sónar
+Mulafest
+Polifonik Sound
+Emdiv Music Festival
+Azkena Rock
+Anfirock
+Animal Sound Festival
+Palencia Sonora
+SonoraCC Festival
+Mad Cool Festival
+Fardelej
+Ojeando Festival
+Weekend Beach Festival
+Bilbao BBK Live
+Cruilla Barcelona
+Resurreccion Fest
+Barcelona Beach Festival
+Alrumbo Festival
+FIB
+Low Festival
+Low Cost Festival
+Mundaka Festival
+Santander Music Festival
+Canet Rock Festival
+Marenostrum music festival
+Pulpop Festival
+Iboga Summer Festival
+Granirock Revolution Fest
+No sin Música Festival
+Starlite
+Arenal Sound
+-
+Sonorama Ribera
+Medusa Sunbeach
+Rototom sunsplash
+DreamBeach Villaricos
+Aquasella
+-
+Shikillo Festival
+Prestoso Fest
+Leyendas del Rock 2016
+Cabo de Plata Festival
+V de Valarés 2016
+Osa do Mar Festival
+Ebrovision  Miranda de Ebro
+Gigante Festival
+Granada Sound
+Dcode Festival
+BAM
+Monkey Week 2016
+TOMORROWLAND
+FESTIVAL
+Nos Alive
+Se el primero en enterarte de las ultimas noticias de tu Festival favorito
+!!SUSCRIBETE!! Somos más 4000 !!
+SUSCRIBETE!!
+End Site Footer Sidebar
+Bottom Bar
+Todoindie Copyright ©2017
+End Bottom Bar
+End Site Footer
+End Site Wrapper
+WP Footer
+HTML del pié de página
+Uso de cookies
+Este sitio web utiliza cookies para que usted tenga la mejor experiencia de usuario. Si continúa navegando está dando su consentimiento para la aceptación de las mencionadas cookies y la aceptación de nuestra
+política de cookies
+, pinche el enlace para mayor información.
+CERRAR
+SHARE
+Jamiroquai comparte el primer single de su nuevo disco
+End WP Footer

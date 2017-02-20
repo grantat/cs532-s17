@@ -1,0 +1,141 @@
+<![endif]
+Skip to main content
+before top
+Google Tag Manager
+End Google Tag Manager
+before page
+Gallery
+Authors
+Blog
+Resources
+Activity
+Sign In
+My Profile
+Settings
+Download the App
+Sign Out
+xx
+of
+10GB
+used
+Search form
+Search
+Gallery
+December 21, 2016
+1 month
+ago
+Subscribe
+Tweet
+/.easy_social_box
+G.O.A.T Music
+Author:
+Matthew Farkas
+Originally Published on:
+Tableau Public
+Matthew Farkas analyzes music by genre and decade in this 2016 Student Viz winner.
+Select a bubble to see the songs fitting that genre and decade or use the drop-down to select genre, check boxes to select decade(s), and buttons to select audio features. Use the sliders to indicate rank and popularity.
+Greatest Hits
+Viz of the Day
+© 2017 Tableau Software, Incorporated and its licensors.
+All Rights Reserved
+Products
+Tableau Desktop
+Tableau Server
+Tableau Online
+Tableau Public
+Free
+Tableau Reader
+Free
+Legal
+Privacy Policy
+Data Policy
+Terms of Service
+Patents & IP
+About
+Current Status
+FAQ
+Careers
+Contact Us
+English
+简体中文
+English
+Français
+Deutsch
+日本語
+한국어
+Português
+Español
+This div is to hold error messages in login modal like "Please activate your account..."
+Email
+Password
+Keep me signed in
+Forgot your password?
+Don't have a profile yet?
+Create one now for free
+Create a Profile
+Name
+Real names are important to us and build a sense of community.
+Email
+Use your email to sign in to Tableau Public. Nobody sees this but us. We promise
+never
+to rent, sell, or barter your personal information to anyone.
+This email is unavailable.
+Password
+Must be a minimum of 6 characters.
+Confirm
+Review the Legal
+I've read and agree to the
+Terms of Service
+Success! Check for an email in your inbox for the activation code.
+Something went wrong.
+Settings
+Defaults
+Email & Password
+Profile URL
+Account Management
+Viz Toolbar
+Show share controls
+Allow viz data to be downloaded (workbook, crosstab, data)
+Show Tableau Logo
+When Saving...
+Set my vizzes to hidden.
+Save Changes
+Email
+Current Email
+Current Password
+New Email
+Confirm
+Password
+Current Password
+Forgot your password?
+New Password
+Must be a minimum of 6 characters.
+Confirm
+You can customize your profile URL. It must be between 4-64 characters and only use lowercase letters, numbers, and periods. So long as it's not taken, it's yours.
+https://public.tableau.com/profile/
+current.profile.name
+Edit
+Available Space
+xx
+of
+10GB
+used
+Sign Out of All Sessions
+If you chose the 'Keep Me Signed In' option during Sign In, you may be Signed In to multiple devices or locations. You can Sign Out of all sessions here.
+Sign Out of All Sessions
+Delete Account
+We think Public is better with you. But if you must go, we'll make it as painless as possible.
+This means the immediate and permanent deletion of your profile data and vizzes. Any links/embeds will cease to work when you delete your account.
+Delete My Account
+Password
+Confirm
+Password Reset
+Enter the email associated with your account and we'll send you a link to reset your password.
+Email
+Password Reset
+Password
+Confirm
+This is to hold the reset password code to submit/validate reset password flow
+Recover code
+before page_bottom
+after page_bottom

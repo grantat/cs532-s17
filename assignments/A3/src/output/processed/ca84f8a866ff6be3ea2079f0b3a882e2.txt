@@ -1,0 +1,554 @@
+nav-config-asset-injection IT::desktop::standard::78426:C::auiDebug=0::isSecure=1 navc-qgq51LmpyteHU93BuMmcYDbvV8AiJSj/T7xaz7L150Em2rBeo4yoNzdFfQFk9Qfn rid-5SBE8P090VPEA5V6CSPN seq-162 (Wed Feb 15 21:23:34 2017) **CACHED-BY-NCCC**
+doctype html
+BeginNav
+nav-config-asset-injection IT::desktop::standard::78426:C::auiDebug=0::isSecure=1 navc-qgq51LmpyteHU93BuMmcYDbvV8AiJSj/T7xaz7L150Em2rBeo4yoNzdFfQFk9Qfn rid-5SBE8P090VPEA5V6CSPN seq-162 (Wed Feb 15 21:23:34 2017) **CACHED-BY-NCCC**
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/29/gno/sprites/global-sprite_bluebeacon-v1._CB308130941_.png);
+  }
+endif
+if gt IE 6
+Amazon.it
+Iscriviti a Prime
+Musica Digitale
+Tutte le categorie
+Abbigliamento
+Alimentari e cura della casa
+Amazon Pantry
+Amazon Warehouse Deals
+App e Giochi
+Auto e Moto
+Bellezza
+Buoni Regalo
+Cancelleria e prodotti per ufficio
+Casa e cucina
+CD e Vinili
+Elettronica
+Fai da te
+Film e TV
+Giardino e giardinaggio
+Giochi e giocattoli
+Gioielli
+Handmade
+Illuminazione
+Industria e Scienza
+Informatica
+Kindle Store
+Libri
+Libri in altre lingue
+Moda
+Musica Digitale
+Orologi
+Prima infanzia
+Salute e cura della persona
+Scarpe e borse
+Software
+Sport e tempo libero
+Strumenti musicali e DJ
+Valigeria
+Videogiochi
+VAI
+Scegli per
+categoria
+Ciao. Accedi
+Il mio account
+Iscriviti a
+Prime
+Le tue
+Liste
+Carrello
+0
+Il mio Amazon.it
+Offerte
+Buoni Regalo
+Vendere
+Aiuto
+Musica Digitale
+Applicazioni
+La mia Libreria Musicale
+Bestseller
+Novità e prossime uscite
+CD e Vinili
+Aiuto
+Ricerca avanzata
+La mia Libreria Musicale
+Carrello MP3
+Hai superato il numero massimo di brani nel carrello. Clicca qui per modificare il contenuto del tuo carrello.
+aggiunto al carrello
+Portrait In Jazz
+Bill Evans Trio
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+16 mar 2011
+4.5 su 5 stelle
+11 recensioni clienti
+Price display
+Visualizza tutti i 34 formati e le edizioni
+Nascondi altri formati ed edizioni
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Prezzo Amazon
+Nuovo a partire da
+Usato da
+Do not show expander when DVD_redesign weblab is in treatment
+Musica MP3, 21 mar 2011
+"Ti preghiamo di riprovare"
+EUR 4,19
+EUR 4,19
+—
+Do not show expander when DVD_redesign weblab is in treatment
+CD audio, Import, 15 apr 2013
+"Ti preghiamo di riprovare"
+EUR 6,09
+EUR 3,13
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Vinile, 17 nov 2016
+"Ti preghiamo di riprovare"
+EUR 15,44
+EUR 12,53
+—
+MP3
+EUR 4,19
+CD audio
+EUR 6,09
+5 Nuovo
+da
+EUR 3,13
+Vinile
+EUR 15,44
+4 Nuovo
+da
+EUR 12,53
+Riproduci album
+Acquista l'album Digitale a
+EUR 4,19
+Aggiungi l'album al carrello MP3
+Album nel carrello
+Visualizza il carrello
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Immettere un Buono Regalo o codice promozionale Amazon
+Aggiungi alla Lista dei desideri
+Condividi
+Facebook
+Twitter
+Pinterest
+Aggiungi alla Lista Desideri
+Il tuo account Amazon Music non è al momento associato a questo paese. Per approfittare dei vantaggi offerti da Prime Music, accedi alla Libreria musicale e trasferisci il tuo account su  Amazon.it (IT).
+Aggiungi alla libreria musicale
+v
+Ascolto Tracklist
+0:00
+/
+0:00
+1
+Come Rain or Come Shine
+Come Rain or Come Shine
+3:21
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+2
+Autumn Leaves
+Autumn Leaves
+5:58
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+3
+Witchcraft
+Witchcraft
+4:34
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+4
+When I Fall In Love
+When I Fall In Love
+4:54
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+5
+Peri's Scope
+Peri's Scope
+3:14
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+6
+What Is This Thing Called Love?
+What Is This Thing Called Love?
+4:36
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+7
+Spring Is Here
+Spring Is Here
+5:06
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+8
+Some Day My Prince Will Come
+Some Day My Prince Will Come
+4:54
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+9
+Blue In Green
+Blue In Green
+5:24
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+10
+Autumn Leaves (Monaural)
+Autumn Leaves (Monaural)
+5:24
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+11
+Blue In Green (Take 2)
+Blue In Green (Take 2)
+4:28
+Ascolta ora
+Acquista:
+EUR 1,29
+Nel carrello Musica Digitale
+Visualizza il carrello
+Venduto da Amazon Media EU   S.à r.l..
+Effettuando l'ordine di acquisto, accetti le
+Condizioni Generali d'Uso dello Store Musica Digitale Amazon e del Servizio Libreria Musicale Amazon
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Chi ha acquistato questo articolo ha acquistato anche
+Pagina
+1
+di
+1
+Pagina iniziale
+Pagina 1 di 1
+Questa funzione di acquisto consentirà di continuare a caricare gli articoli. Per accedere agli articoli non presenti su questo nastro trasportatore, utilizza il tasto di scelta rapida relativo alle intestazioni per accedere all'intestazione precedente o successiva.
+Indietro
+Sunday At The Village Vanguard
+Bill Evans Trio
+5,0 su 5 stelle
+7
+EUR 9,99
+Waltz For Debby [Original Jazz Classics Remasters] (OJC Remaster)
+Bill Evans Trio
+4,7 su 5 stelle
+27
+EUR 9,99
+I Will Say Goodbye
+Bill Evans Trio
+4,4 su 5 stelle
+5
+EUR 8,99
+Explorations
+Bill Evans Trio
+4,5 su 5 stelle
+2
+EUR 5,99
+Moanin'
+Art Blakey & The Jazz
+4,8 su 5 stelle
+14
+EUR 5,94
+Time Remembered (Remastered)
+Bill Evans Trio
+5,0 su 5 stelle
+1
+EUR 8,99
+Successivo
+Dettagli prodotto
+Data di uscita:
+16 marzo 2011
+Data di uscita:
+21 marzo 2011
+Etichetta:
+Jazzland
+Copyright:
+Play
+Lunghezza totale:
+51:53
+Generi:
+Jazz
+ASIN:
+B008RWAQ7K
+Media recensioni:
+4.5 su 5 stelle
+11 recensioni clienti
+Posizione nella classifica Bestseller di Amazon:
+n. 3.897 in Album Musica digitale (
+Visualizza i Top 100 nella categoria Album Musica digitale
+)
+n.232
+in
+Musica Digitale
+>
+Album Musica digitale
+>
+Jazz
+Recensioni clienti
+4.5 su 5 stelle
+11
+4.5 su 5 stelle
+5 stelle
+7
+4 stelle
+3
+3 stelle
+1
+2 stelle
+0
+1 stella
+0
+Vedi tutte le 11 recensioni cliente
+Condividi la tua opinione con altri clienti
+Scrivi una recensione cliente
+Principali recensioni dei clienti
+4.0 su 5 stelle
+Forse il migliore pianista di tutti i tempi.
+Di
+Pierantonio
+il 4 maggio 2013
+Formato: Vinile
+Acquisto verificato
+Portrait in jazz non e' un vinile da 180 o 200 grammi e neppure un vinile "audiophayl" pero',credetemi la qualita' del vinile e' ai massimi livelli nessun errore di stampa,nessun rumore di fondo niente di niente.Scrivo questo perche' non e' la prima volta che aquisto dei vinili OJC (original jazz classic) e devo dire che la casa americana non mi ha mai deluso cosa che non posso dire di altrettante case discografiche che non cito che propongono vinili pesanti o "audiophayl" con un sacco di difetti e che di "audiophayl"non hanno proprio un bel niente tranne il prezzo.Per quel che riguarda la musica di Bill Evans beh lui ha un tocco che gli altri non hanno,e' accanto a Scott La Faro (basso) e Paul Motian (batteria) ed ha ottimi brani come: Autumm Leaves,Come Rain or Come Shin,When I Fall in Love,Spring Is Here. Che altro dire,brava OJC,bravo BILL,compratelo che non costa poi cosi' tanto.
+1 commento
+4 persone l'hanno trovato utile. Questa recensione ti è stata utile?
+Sì
+No
+Invio feedback...
+Grazie del feedback.
+Spiacenti, non siamo stati in grado di registrare il voto. Provare di nuovo.
+Segnala un abuso
+5.0 su 5 stelle
+ancora e ancora lui, il GRANDISSIMO....
+Di
+steve
+il 30 gennaio 2013
+Formato: Audio CD
+Bill Evans e' stato uno dei piu' prolifici autori di musica jazz dell'intero panorama musicale mondiale, per certi versi io lo considero un vero genio perche' ha saputo esplorare tutte le varianti del jazz, il suo stile minimale e assai raffinato ha sempre sortito una sorta di attrazione verso gli innumerevoli artisti che negli anni hanno suonato con lui. A riprova di questo basta ascoltare le sue composizioni  per rendersi conto che il nostro musicista con il suo stile e' stato uno dei pianisti jazz per eccellenza. In questo straordinario lavoro edito dall'etichetta storica "RIVERSIDE" ci regala dei brani molto scorrevoli, queste musiche si fanno amare per il loro intimo messaggio,  il bello di Bill Evans e che quando suona non cerca mai degli accordi difficili, il suo dolce pianismo scorre come un piccolo ruscello di montagna, fresco e pulito, ed e' per questo che alla fine ha sempre affascinato moltissimi appassionati.
+Commento
+7 persone l'hanno trovato utile. Questa recensione ti è stata utile?
+Sì
+No
+Invio feedback...
+Grazie del feedback.
+Spiacenti, non siamo stati in grado di registrare il voto. Provare di nuovo.
+Segnala un abuso
+5.0 su 5 stelle
+inegwagliabol
+Di
+Grandmaster Nat King Cole Porter Stomp
+RECENSORE TOP 1000
+il 13 settembre 2013
+Formato: Audio CD
+Ripeto quanto già detto dagli altri: come tutti i dischi di Bill Evans del periodo è un capolavoro.
+Evans è inegwagliabol nel palleggiare note con una maestria unica tra battito e levare e infilando la linea melodica in intervalli che solo lui sa gestire così. What Is This Thing Called Love? ne è un lampante esempio e basterebbe a giustificare l'acquisto di questo album.
+Poi c'è il navigato tema di Biancaneve (strasuonato anche da Miles), le versioni del pezzo di Evans già inciso su Kind of Blue e altri standard eseguiti con la consueta sensibilità e con un senso del blues solidissimo e monumentale ma che si percepisce solo bendandosi e camminando in punta di orecchie.
+Mai si elogerà adeguatamente il senso del blues di Bill Evans e la sua capacità di fare partire dei drive da spettino quando necessario: vedasi l'assolo in "All About Rosie" di George Russell.
+Commento
+3 persone l'hanno trovato utile. Questa recensione ti è stata utile?
+Sì
+No
+Invio feedback...
+Grazie del feedback.
+Spiacenti, non siamo stati in grado di registrare il voto. Provare di nuovo.
+Segnala un abuso
+4.0 su 5 stelle
+Bill Evans
+Di
+David
+RECENSORE TOP 1000
+il 13 giugno 2016
+Formato: Audio CD
+Acquisto verificato
+Ho sempre adorato quello che Evans è riuscito a trasmettere in dischi come "Kind of Blue" e quel meraviglioso tocco nell' appoggiare gli accordi,  quindi la premessa è che si tratta di un eccezionale musicista e che il gusto personale fa la differenza, ma le esecuzioni sono decisamente freddine e forse mancano di espressione, tutto è al suo posto in una perfezione che risulta quasi meccanica. Comunque un disco da avere e riascoltare.
+Commento
+Una persona l'ha trovato utile. Questa recensione ti è stata utile?
+Sì
+No
+Invio feedback...
+Grazie del feedback.
+Spiacenti, non siamo stati in grado di registrare il voto. Provare di nuovo.
+Segnala un abuso
+5.0 su 5 stelle
+Mamma che disco!
+Di
+Damiano
+il 6 giugno 2013
+Formato: Audio CD
+Acquisto verificato
+Mamma che disco! un capolavoro. Un pezzo di storia. Bisogna averlo nella propria discoteca privata se si ama un determinato tipo di musica!
+Amazon che dire, puntualità, precisione, packaging...tutto al posto giusto!
+Commento
+2 persone l'hanno trovato utile. Questa recensione ti è stata utile?
+Sì
+No
+Invio feedback...
+Grazie del feedback.
+Spiacenti, non siamo stati in grado di registrare il voto. Provare di nuovo.
+Segnala un abuso
+5.0 su 5 stelle
+Capolavoro
+Di
+Daniela Cazzaniga Tommaso Fara
+il 31 marzo 2013
+Formato: Audio CD
+Questo album è talmente bello in ogni suo aspetto che trovo ogni commento superfluo. Musica di altissimo livello e suoni curati nonostante l'età che ormai ha questo lavoro.
+Commento
+3 persone l'hanno trovato utile. Questa recensione ti è stata utile?
+Sì
+No
+Invio feedback...
+Grazie del feedback.
+Spiacenti, non siamo stati in grado di registrare il voto. Provare di nuovo.
+Segnala un abuso
+Vedi tutte le 11 recensioni cliente (dalla più recente)
+Scrivi una recensione cliente
+Le più recenti tra le recensioni dei clienti
+4.0 su 5 stelle
+Bello!
+Non il miglior lavoro di Bill Evans ma, per chi lo ama come me, da tenere sicuramente nella collezione di Vinili a suo nome.
+Pubblicato 28 giorni fa da Keypink
+5.0 su 5 stelle
+Grande, da portare sempre con se
+Trasporto assoluto, una musica che ti entra nell'anima e non ti abbandona. Vado su altre musiche del grande Bill ma torno sempre a Portrait...
+Pubblicato 5 mesi fa da Francesco Ciccarino
+5.0 su 5 stelle
+super!
+La cosa più bella che abbia mai sentito. In alcuni momenti il suo essere didattico lo rende anche comprensibile nelle sue dinamiche, ma per me è geniale.
+Ulteriori informazioni
+Pubblicato il 16 dicembre 2014 da claudio
+5.0 su 5 stelle
+Evans en uno de sus mejores trabajos
+No puede faltar en una discoteca que se precie, el vinilo suena realmente bien y hace honor a su época.
+Pubblicato il 1 dicembre 2013 da Walter Cainelli
+3.0 su 5 stelle
+Bill Evans
+Per me, ottima musica di sottofondo, quella musica che serve quando si vuole gustare del buon cibo in felice compagnia.
+Pubblicato il 16 aprile 2013 da Maurizio
+Ricerca recensioni cliente
+Ricerca
+Ricerca articoli simili per categoria
+Jazz
+Consegne illimitate in 1 giorno
+Iscriviti ad Amazon Prime: consegne in 1 giorno senza costi aggiuntivi, accesso anticipato alle Offerte Lampo di Amazon.it e agli eventi di Amazon BuyVIP e spazio di archiviazione per le foto illimitato
+>
+Scopri
+Al momento, è presente un problema nel caricamento di questo menu.
+Ulteriori informazioni su Amazon Prime.
+Articoli visualizzati di recente e suggerimenti in primo piano
+›
+Visualizza o modifica la cronologia di navigazione
+Dopo aver visualizzato le pagine di dettaglio del prodotto, guarda qui per trovare un modo facile per tornare alle pagine che ti interessano.
+Articoli visualizzati di recente e suggerimenti in primo piano
+›
+Visualizza o modifica la cronologia di navigazione
+Dopo aver visualizzato le pagine di dettaglio del prodotto, guarda qui per trovare un modo facile per tornare alle pagine che ti interessano.
+Torna su
+Per conoscerci meglio
+Opportunità di lavoro
+About Amazon
+Guadagna con Amazon
+Vendi su Amazon
+Diventa affiliato
+Logistica di Amazon
+Diventa fornitore di Amazon
+Pubblica con noi da indipendente
+Promuovi i tuoi prodotti
+›
+Tutti i servizi
+Metodi di pagamento Amazon
+Metodi di pagamento
+Convertitore di Valuta Amazon
+Buoni Regalo
+Codici d'acquisto
+Ricarica il tuo account
+Bisogno di aiuto?
+Visualizza o traccia un ordine
+Costi e modalità di spedizione
+Amazon Prime
+Restituisci o sostituisci articoli
+I miei contenuti e dispositivi
+App Amazon Mobile
+Amazon Assistant
+Aiuto
+IVA e fatturazione
+Garanzia legale
+Brasile
+Canada
+Cina
+Francia
+Germania
+Giappone
+India
+Australia
+Messico
+Paesi Bassi
+Regno Unito
+Spagna
+Stati Uniti
+AbeBooks
+Libri, arte
+& articoli da collezione
+Amazon Web Services
+Servizi Cloud
+Scalabili
+Amazon BuyVIP
+Lo Shopping Club
+di Amazon
+Amazon Warehouse Deals
+I nostri prodotti usati e ricondizionati
+Book Depository
+Libri con spedizione
+gratuita 
+in tutto il mondo
+Kindle Direct Publishing
+Pubblica i tuoi libri
+in formato elettronico
+Prime Now
+Consegna gratis
+in finestre di 2 ore
+Shopbop
+Designer, Marche,
+Fashion e stile
+Condizioni generali di uso e vendita
+Informativa sulla privacy
+Area legale
+Cookie e Pubblicità su Internet
+© 2010-2017, Amazon.com, Inc. o società affiliate.
+whfh-ulQRpNns4Ym9xWnmqbuEuEDV8gR3wWfWoVExnXiLcFrfZQ/bMdIMtA== rid-9SH725GXGP6GQDFHA1E2
+AMZNJQFINAL

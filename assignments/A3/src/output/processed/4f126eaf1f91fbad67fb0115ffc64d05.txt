@@ -1,0 +1,53 @@
+smart / midnight
+[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<![endif]
+EMS FRAMEWORK
+HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+[if lt IE 9]>
+        <script src="//888-radio.e-monsite.com/medias/static/themes/ems_framework/js/html5shiv.min.js"></script>
+        <script src="//888-radio.e-monsite.com/medias/static/themes/ems_framework/js/respond.min.js"></script>
+        <![endif]
+NAV
+oldies rock classic !
+Accueil
+l'info à la Réunion
+web radio en ligne
+webcam volcan Réunion
+gîte de la Réunion
+rencontre Réunion
+télécharger musique gratuit
+Contact
+HEADER
+//HEADER
+WRAPPER
+MAIN
+Bienvenue sur 888 RADIO (oldies rock station).
+Depuis L'ile de la Réunion, une web radio pour les amateurs de bonne musique, ici pas de hit, mais de la musique pour vous accompagner toute la journée au son du jazz, la musique rock oldies des années 60' & 70', musique du monde, salsa, bossa nova et également les rares galettes funk . Toute l'équipe vous souhaite une bonne écoute. Contact SMS : 0692 333 888.
+Follow @888radionline
+PARTENAIRES MEDIAS
+Radio Online
+loveradios.net
+loveradios.net
+888 Radio vous plonge dans le Live At Last: A Wonder Summer's Night de Stevie Wonder !
+photo sat océan indien (dom-tom)
+Submit Your Website to Scrub The Web
+//MAIN
+SIDEBAR
+oldies rock classic !
+Menu
+commentaires
+Coordonnées
+partenaires médias
+derniers titres jouer
+agenda 888 radio concert
+player 888 radio
+news music
+vidéos news
+//SIDEBAR
+//WRAPPER
+FOOTER
+Créer un site gratuit
+avec e-monsite
+Signaler un contenu illicite sur ce site
+//FOOTER

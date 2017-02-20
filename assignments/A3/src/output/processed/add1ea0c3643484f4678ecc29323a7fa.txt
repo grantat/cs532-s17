@@ -1,0 +1,50 @@
+HEADER
+HEADER STARTS
+LOGO START
+LOGO END
+MENU START
+MOBILE MENU START
+MOBILE MENU END
+Inicio
+Flamenco y Coros Rocieros
+Batucada y Grupos de Samba
+Grupos de Jazz
+Grupos De Rock
+Otros Estilos
+Música Clasica
+Contacto
+LOAD THE HEADR SOCIAL LINKS
+MENU END
+HEADER ENDS
+layer_wrapper class END
+Slider START
+HACEMOS QUE SU EVENTO SEA SONADO
+Organización y producción de eventos con artistas
+y músicos profesionales de cualquier genero.
+Descubre Más
+Slider END
+FRONTPAGE WIDGET AREA
+Music-Events
+En Music-Events descubrirás la mejor opción de música para tus eventos. Tanto si está considerando contratar un grupo de jazz, un grupo de flamenco tradicional, un cuarteto de cuerda, una discoteca móvil, un coro Gospel,  un grupo de danza o algo realmente exclusivo, ésta es su empresa.
+Contactenos
+FLAMENCO Y COROS ROCIEROS
+GRUPOS DE ROCK
+MÚSICA CLASICA
+GRUPOS DE JAZZ
+BATUCADA
+OTROS ESTILOS
+Vídeos de nuestros artistas y eventos
+Vídeos
+layer_wrapper class END
+Footer Start
+Copyright Footer START
+Site Copyright Text START
++34 647 67 22 77
+<div class="copytext"></div>
+Site Copyright Text END
+SOCIAL ICONS START
+SOCIAL ICONS END
+Center END
+Copyright Footer END
+Footer END
+layer_wrapper class END

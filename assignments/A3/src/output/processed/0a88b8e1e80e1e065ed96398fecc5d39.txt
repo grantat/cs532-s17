@@ -1,0 +1,390 @@
+Skip navigation
+Sign in
+Search
+Steve Raybine
+Videos
+Playlists
+Channels
+Discussion
+About
+Home
+Trending
+History
+Get YouTube Red
+Best of YouTube
+Music
+Sports
+Gaming
+Movies
+TV Shows
+News
+Live
+Spotlight
+360° Video
+Browse channels
+Sign in now to see your channels and recommendations!
+Sign in
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Watch Later</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Watch Later</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription added</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription removed</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Saved to Playlists</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Playlists</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to playlist</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from playlist</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Liked videos</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Liked videos</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >You'll be reminded about this event</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Event reminder removed</span></span></div>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="ei=D9SkWM6EOuyp8gTyybCYAg&amp;feature=g-playlists" data-visibility-tracking="" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-playlists-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Saved to Playlists">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="ei=D9SkWM6EOuyp8gTyybCYAg&amp;feature=g-playlists" data-visibility-tracking="" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-mix-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Saved to Playlists">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="ei=D9SkWM6EOuyp8gTyybCYAg&amp;feature=g-channel" data-visibility-tracking="" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        
+  <img aria-hidden="true" data-ytimg="1" width="20" alt="" height="20" onload=";__ytRIL(this)" src="__THUMBNAIL_URL__" >
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Subscription added">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+Watch Queue
+Queue
+Watch Queue
+Queue
+Remove all
+Disconnect
+The next video is starting
+stop
+Loading...
+Watch Queue
+Queue
+__count__/__total__
+<p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+Official Steve Raybine website
+Steve Raybine
+Subscribe
+Subscribed
+Unsubscribe
+39
+Loading...
+Loading...
+Working...
+Home
+Videos
+Playlists
+Channels
+Discussion
+About
+Grid
+List
+Date added (newest)
+Most popular
+Date added (oldest)
+Uploads
+0:24
+Play next
+Play now
+Steve Raybine Recommendation Letters
+- Duration: 24 seconds.
+38 views
+4 months ago
+0:22
+Play next
+Play now
+Steve Raybine Recommendations
+- Duration: 22 seconds.
+38 views
+4 months ago
+30:11
+Play next
+Play now
+Music Motivation
+- Duration: 30 minutes.
+47 views
+4 months ago
+3:14
+Play next
+Play now
+Steve Raybine "Night and Day" clinic performance
+- Duration: 3 minutes, 14 seconds.
+66 views
+4 months ago
+3:58
+Play next
+Play now
+Music 4 Life Posters
+- Duration: 3 minutes, 58 seconds.
+15 views
+5 months ago
+3:58
+Play next
+Play now
+Steve Poster Movie September 25
+- Duration: 3 minutes, 58 seconds.
+212 views
+5 months ago
+2:20
+Play next
+Play now
+Steve Raybine: Coffee And Jazz
+- Duration: 2 minutes, 20 seconds.
+84 views
+6 months ago
+2:17
+Play next
+Play now
+Cold Duck Time
+- Duration: 2 minutes, 17 seconds.
+224 views
+7 months ago
+21:10
+Play next
+Play now
+Steve Raybine: "MUSIC:  EXPLORING CREATIVITY AND PURSUING YOUR PASSION"
+- Duration: 21 minutes.
+38 views
+8 months ago
+18:58
+Play next
+Play now
+Jim Clark interview with Steve Raybine
+- Duration: 18 minutes.
+125 views
+1 year ago
+28:55
+Play next
+Play now
+Steve Raybine Art Exhibit Talk
+- Duration: 28 minutes.
+48 views
+1 year ago
+2:25
+Play next
+Play now
+Steve Raybine: Willow Weep For Me
+- Duration: 2 minutes, 25 seconds.
+124 views
+2 years ago
+4:12
+Play next
+Play now
+Steve Raybine: While My Guitar Gently Weeps
+- Duration: 4 minutes, 12 seconds.
+140 views
+2 years ago
+4:51
+Play next
+Play now
+Steve Raybine: Tree of Life
+- Duration: 4 minutes, 51 seconds.
+129 views
+2 years ago
+1:34
+Play next
+Play now
+Steve Raybine: Take The A Train
+- Duration: 94 seconds.
+448 views
+2 years ago
+1:50
+Play next
+Play now
+Steve Raybine: Summertime(Part 2)
+- Duration: 110 seconds.
+94 views
+2 years ago
+0:43
+Play next
+Play now
+Steve Raybine: Summertime(Part 1)
+- Duration: 43 seconds.
+48 views
+2 years ago
+2:13
+Play next
+Play now
+Steve Raybine: Night and Day
+- Duration: 2 minutes, 13 seconds.
+151 views
+2 years ago
+16:42
+Play next
+Play now
+Steve Raybine Music Education Interview
+- Duration: 16 minutes.
+98 views
+2 years ago
+2:11
+Play next
+Play now
+Steve Raybine: Hummingbird
+- Duration: 2 minutes, 11 seconds.
+118 views
+2 years ago
+5:07
+Play next
+Play now
+Steve Raybine:Tree of Life
+- Duration: 5 minutes, 7 seconds.
+175 views
+3 years ago
+4:46
+Play next
+Play now
+Steve Raybine: Bop City
+- Duration: 4 minutes, 46 seconds.
+57 views
+3 years ago
+3:21
+Play next
+Play now
+Steve Raybine: Jonathan's Dream
+- Duration: 3 minutes, 21 seconds.
+21 views
+3 years ago
+1:36
+Play next
+Play now
+Steve Raybine: Breckenridge Blue
+- Duration: 96 seconds.
+33 views
+3 years ago
+6:36
+Play next
+Play now
+Steve Raybine  Bad Kat Karma
+- Duration: 6 minutes, 36 seconds.
+46 views
+3 years ago
+2:12
+Play next
+Play now
+Steve Raybine : Sugar
+- Duration: 2 minutes, 12 seconds.
+770 views
+3 years ago
+3:15
+Play next
+Play now
+Steve Raybine performing Night and Day
+- Duration: 3 minutes, 15 seconds.
+104 views
+3 years ago
+1:52
+Play next
+Play now
+Steve Raybine Jazz on the Green 2011:Tree of Life/Coffee Break
+- Duration: 112 seconds.
+43 views
+3 years ago
+4:58
+Play next
+Play now
+Steve Raybine Jazz on the Green 2011 :San Diego Surf
+- Duration: 4 minutes, 58 seconds.
+259 views
+3 years ago
+3:07
+Play next
+Play now
+Steve Raybine Jazz on the Green 2011: Introduction
+- Duration: 3 minutes, 7 seconds.
+33 views
+3 years ago
+Loading...
+Load more
+Language:
+English
+Content location:
+United States
+Restricted Mode:
+Off
+History
+Help
+Loading...
+Loading...
+Loading...
+About
+Press
+Copyright
+Creators
+Advertise
+Developers
++YouTube
+Terms
+Privacy
+Policy & Safety
+Send feedback
+Test new features
+Loading...
+Working...
+Sign in
+to add this to Watch Later
+Add to
+Loading playlists...

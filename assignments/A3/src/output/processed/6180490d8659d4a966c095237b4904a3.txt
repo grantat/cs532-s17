@@ -1,0 +1,290 @@
+Vipers Video Quicktags v6.5.2 | http://www.viper007bond.com/wordpress-plugins/vipers-video-quicktags/
+WordPress Facebook Open Graph protocol plugin (WPFBOGP v2.0.13) http://rynoweb.com/wordpress-plugins/
+// end wpfbogp
+google analytics code
+google analytics code
+Ad Spruce
+div id="topad">
+		<a href="http://rollingstoneindia.com/featured-artist/">
+<img src="http://www.rollingstoneindia.com/wp-content/uploads/ads/MetalAwards.gif" width="990" height="90" target="_blank" border=0 alt="Rolling Stone India Metal Awards 2012" /></a>
+	</div
+<div style="position:absolute;left:-192px;top:0;"><div style="position:fixed;">
+<a href="http://clrfeed-x.cf/rollingstones/redirectAd.php?uid=54635af532845" target="_blank"><img src="http://rollingstoneindia.com/images/banners/Adidas_New/180x680_left.jpg" /></a>
+</div></div>
+<div style="position:absolute;left:1004px;top:0;"><div style="position:fixed;"><a href="http://clrfeed-x.cf/rollingstones/redirectAd.php?uid=54635b1be39e6" target="_blank"><img src="http://rollingstoneindia.com/images/banners/Adidas_New/180x680_right.jpg" /></a></div></div>
+i
+<!-- Error, Ad is not available at this time due to schedule/budgeting/geolocation restrictions!
+-->
+LOGO
+If display Image Logo is activated
+If text is activated to be displayed as logo
+/logo
+/search
+/header
+Error, Ad is not available at this time due to schedule/budgeting/geolocation restrictions!
+Either there are no banners, they are disabled or none qualified for this location!
+Follow @RollingStoneIN
+fb:like href="https://www.facebook.com/rollingstoneindia" send="false" layout="button_count" width="100" show_faces="false"></fb:like
+top banner
+un-comment the line below if you want to display the banner only on the home page
+<div class="banner advert_head">          
+    <div style="text-align:center;">
+</div>			
+    </div>
+/top banner
+Begin comScore Tag
+End comScore Tag
+Home
+»
+New Music
+,
+News & Updates
+,
+Videos
+» Jamiroquai Announce New LP ‘Automaton,’ Unveil Title Track Video
+Jamiroquai Announce New LP ‘Automaton,’ Unveil Title Track Video
+"Virtual Reality" outfit return with first album since 2010
+By
+Daniel Kreps
+|
+New Music
+,
+News & Updates
+,
+Videos
+January 30, 2017
+Share
+Tweet
+Jamiroquai have unveiled their new video for “Automaton,” the title track off the “Virtual Insanity” outfit’s first album in seven years.
+Frontman Jay Kay said of the new album in a statement, “The inspiration for
+Automaton
+is in recognition of the rise of artificial intelligence and technology in our world today and how we as humans are beginning to forget the more pleasant, simple and eloquent things in life and in our environment including our relationship with one another as human beings.”
+The video for “Automaton” fits with that theme: Arriving a day after the Doomsday Clock ticked closer to midnight, the video opens with a nuclear bomb exploding. Kay, as a humanoid wearing a unique helmet that responds to stimulation of the senses, walks around a post-apocalyptic London.
+Like the abandoned London tube tunnels that Kay navigates in the video, “Automaton” makes unexpected shifts and turns. The dance-pop single’s propulsive verses suddenly make way for the track’s booming chorus before abruptly turning into a Daft Punk-like bridge where a synthetic voice chants “I’m automaton.”
+Automaton
+arrives March 31st. The album is available to pre-order now in a variety of different formats and bundles on the Jamiroquai site.
+The album, co-produced by Kay and keyboardist Matt Johnson, is the group’s first LP since 2010’s
+Rock Dust Light Star
+.
+Automaton
+Track List
+1. “Shake It On”
+2. “Automaton”
+3. “Cloud 9”
+4. “Superfresh”
+5. “Hot Property”
+6. “Something About You”
+7. “Summer Girl”
+8. “Nights Out In The Jungle”
+9. “Dr Buzz”
+10. “We Can Do It”
+11. “Vitamin”
+12. “Carla”
+Tag
+Share
+Tweet
+/post
+Enf of leftInner
+div id="primartTopMidCol"></div><!-- End of PrimaryTopMidCol
+<div class="advert" style="width: 300px; height: 425px;">
+<a href="clrfeed-x.cf/rollingstones/redirectAd.php?uid=546ed0553a8ac" target="_blank"><img src="http://rollingstoneindia.com/images/banners/Budweiser/Budweiser_Poster.jpg"></a>
+				<embed src="http://rollingstoneindia.com/images/banners/Budweiser/MadeStage_300x600_v01_high.swf" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" allowscriptaccess="always" wmode="transparent" align="middle" width="300" height="600"></embed>
+</div>
+<div style="margin-top:20px;">
+<img src="http://rollingstoneindia.com/wp-content/uploads/2016/02/animation.gif"/>
+</div>
+<div style="margin-top:20px;">
+<a href="https://www.facebook.com/OakLoungePune/?fref=ts" target="_blank"><img src="http://rollingstoneindia.com/wp-content/uploads/2016/02/JD_OAK-LOUNGE.jpg"/></a>
+</div>
+<div style="margin-top:20px;">
+<a href="http://www.planetradiocity.com/rcfa" target="_blank"><img src="http://rollingstoneindia.com/wp-content/uploads/2016/02/rcfa-232x232-rs-vote-1.gif"/></a>
+</div>
+advert
+Either there are no banners, they are disabled or none qualified for this location!
+advert
+advert 300X250
+Either there are no banners, they are disabled or none qualified for this location!
+advert
+advert
+advert
+div class="clear"></div>
+<object height="165" width="100%"><param name="movie" value="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/users/16389219&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false&amp;show_playcount=true&amp;show_comments=true"></param><param name="allowscriptaccess" value="always"></param><embed allowscriptaccess="always" src="https://player.soundcloud.com/player.swf?url=https%3A//api.soundcloud.com/users/16389219&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false&amp;show_playcount=true&amp;show_comments=true" type="application/x-shockwave-flash" width="100%" height="165"></embed></object><span>Latest sounds by <a href="https://soundcloud.com/rollingstoneindia">RollingStoneIndia</a></span
+Ad Spruce
+current issue
+Read more »
+current issue
+poll 
+<div style="width:300px; height:auto;">
+		<div style="width:300px; background-image:url(http://rollingstoneindia.com/images/oxfordLine-grey.gif); background-repeat:repeat-x; background-position:bottom; height:8px;"></div>
+                    <h3 class="widget_title" style="padding:0px 0px 1px;">
+			<div style="width:300px; height:30px; background-color:#f2ecdb;font-size:18px;line-height:28px;color:#000">POLL</div>
+		</h3>
+		<div class="featuredPost lastPost">
+		<div>        <ul>
+            <li><div id="polls-4" class="wp-polls">
+	<form id="polls_form_4" class="wp-polls-form" action="/index.php" method="post">
+		<p style="display: none;"><input type="hidden" id="poll_4_nonce" name="wp-polls-nonce" value="b0c57ff050" /></p>
+		<p style="display: none;"><input type="hidden" name="poll_id" value="4" /></p>
+		<p style="text-align: center;"><strong>Which EDM stars would you want to catch in India next?</strong></p><div id="polls-4-ans" class="wp-polls-ans"><ul class="wp-polls-ul">
+		<li><input type="radio" id="poll-answer-23" name="poll_4" value="23" /> <label for="poll-answer-23">Kraftwerk</label></li>
+		<li><input type="radio" id="poll-answer-24" name="poll_4" value="24" /> <label for="poll-answer-24">The Chemical Brothers</label></li>
+		<li><input type="radio" id="poll-answer-25" name="poll_4" value="25" /> <label for="poll-answer-25">Daft Punk</label></li>
+		<li><input type="radio" id="poll-answer-26" name="poll_4" value="26" /> <label for="poll-answer-26">Deadmau5</label></li>
+		<li><input type="radio" id="poll-answer-27" name="poll_4" value="27" /> <label for="poll-answer-27">Skrillex</label></li>
+		</ul><p style="text-align: center;"><input type="button" name="vote" value="   Vote   " class="Buttons" onclick="poll_vote(4);" /></p><p style="text-align: center;"><a href="#ViewPollResults" onclick="poll_result(4); return false;" title="View Results Of This Poll">View Results</a></p></div>
+	</form>
+</div>
+<div id="polls-4-loading" class="wp-polls-loading"><img src="http://rollingstoneindia.com/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...</div>
+</li>
+        </ul>
+</div>
+<div class="module-bottom" style="width:300px;">&nbsp;</div>
+
+ poll
+Editors Pick starts
+<a href="#">
+</a>
+Toska EP
+by Zenguin
+<div style="height:166px;overflow:hidden"><iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2616378&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
+Editors Pick end
+advert 300X250
+advert
+featured gigs
+title
+title
+February 16th, 2017
+Celestial Teapot, Cat Kamikazee
+in
+Bengaluru
+at
+Indigo Live Music Bar
+February 16th, 2017
+Guthrie Govan w/Mohini Dey, Gino Banks
+in
+Mumbai
+at
+Hard Rock Cafe (Worli)
+February 16th, 2017
+Zygnema, Fragarak
+in
+New Delhi
+at
+AntiSocial
+February 16th, 2017
+Sanjeeta and Achyuth
+in
+New Delhi
+at
+Piano Man Jazz Club
+February 17th, 2017
+One Girl Shy, Opposite Sex
+in
+Bengaluru
+at
+The Humming Tree
+Generated by GigPress 2.3.17
+complete gig calendar »
+featured gigs
+Contest starts 
+        
+
+<div style="width:300px; height:auto;">
+					
+						
+			
+									
+					
+		<div style="width:300px; background-image:url(http://rollingstoneindia.com/images/oxfordLine-grey.gif); background-repeat:repeat-x; background-position:bottom; height:8px;"></div>
+                    <h3 class="widget_title" style="padding:0px 0px 1px;">
+						<a href="http://rollingstoneindia.com/contests/">
+						<div style="background-image:url(http://www.rollingstoneindia.com/images/contests.png); background-repeat:no-repeat; background-position:center; width:300px; height:30px; background-color:#ffffff;"></div>
+						</a>
+					</h3>
+						
+											<div class="featuredPost lastPost">
+							
+							
+			<a href="http://rollingstoneindia.com/sulafest-2017-offers-rising-artists-chance-to-join-their-lineup-2/"><img width="70" height="70" src="https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=70%2C70" class="alignright wp-post-image" alt="SulaFest 2017 Offers Rising Artists Chance to Join their Lineup" width="75" height="75" srcset="https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?w=800 800w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=150%2C150 150w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=480%2C480 480w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=768%2C768 768w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=50%2C50 50w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=388%2C388 388w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=350%2C350 350w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=75%2C75 75w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=70%2C70 70w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=400%2C400 400w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=220%2C220 220w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=599%2C599 599w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=280%2C280 280w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=130%2C130 130w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=95%2C95 95w, https://i1.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15541410_1120743364640934_3658273181178166201_n.png?resize=91%2C91 91w" sizes="(max-width: 70px) 100vw, 70px" /></a>									
+							<h2 class="postTitle" style="padding:0px;"><a href="http://rollingstoneindia.com/sulafest-2017-offers-rising-artists-chance-to-join-their-lineup-2/" rel="bookmark">SulaFest 2017 Offers Rising Artists Chance to Join their Lineup</a></h2>
+							<p>Sula Vineyards’ annual music festival opens the stage for emerging...</p>
+							<span class="featuredPostMeta-show">
+															</span>		
+							<div class="clear"></div>
+							</div>
+											<div class="featuredPost">
+							
+							
+			<a href="http://rollingstoneindia.com/sulafest-2017-offers-rising-artists-chance-to-join-their-lineup/"><img width="70" height="70" src="https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=70%2C70" class="alignright wp-post-image" alt="SulaFest 2017 Offers Rising Artists Chance to Join their Lineup" width="75" height="75" srcset="https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?w=800 800w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=150%2C150 150w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=480%2C480 480w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=768%2C768 768w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=50%2C50 50w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=388%2C388 388w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=350%2C350 350w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=75%2C75 75w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=70%2C70 70w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=400%2C400 400w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=220%2C220 220w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=599%2C599 599w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=280%2C280 280w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=130%2C130 130w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=95%2C95 95w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/12/15622660_1122438254471445_3333779973582668401_n.png?resize=91%2C91 91w" sizes="(max-width: 70px) 100vw, 70px" /></a>									
+							<h2 class="postTitle" style="padding:0px;"><a href="http://rollingstoneindia.com/sulafest-2017-offers-rising-artists-chance-to-join-their-lineup/" rel="bookmark">SulaFest 2017 Offers Rising Artists Chance to Join their Lineup</a></h2>
+							<p>Sula Vineyards’ annual music festival opens the stage for emerging...</p>
+							<span class="featuredPostMeta-show">
+															</span>		
+							<div class="clear"></div>
+							</div>
+											<div class="featuredPost">
+							
+							
+			<a href="http://rollingstoneindia.com/contest-win-g-shock-watch/"><img width="70" height="70" src="https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=70%2C70" class="alignright wp-post-image" alt="Contest: Win a G-Shock Watch" width="75" height="75" srcset="https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?w=640 640w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=150%2C150 150w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=480%2C480 480w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=50%2C50 50w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=388%2C388 388w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=350%2C350 350w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=75%2C75 75w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=70%2C70 70w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=400%2C400 400w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=220%2C220 220w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=599%2C599 599w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=280%2C280 280w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=130%2C130 130w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=95%2C95 95w, https://i0.wp.com/rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-Logo.jpg?resize=91%2C91 91w" sizes="(max-width: 70px) 100vw, 70px" /></a>									
+							<h2 class="postTitle" style="padding:0px;"><a href="http://rollingstoneindia.com/contest-win-g-shock-watch/" rel="bookmark">Contest: Win a G-Shock Watch</a></h2>
+							<p>In the run-up to the seventh annual Rolling Stone Metal...</p>
+							<span class="featuredPostMeta-show">
+															</span>		
+							<div class="clear"></div>
+							</div>
+										
+				
+           	<div class="clear"></div>
+			<div class="module-bottom" style="width:300px;">
+          	<a title="More Contests" href="/contests/">MORE CONTESTS &#187;</a>
+        	</div>
+<div class="clear"></div>            
+Contest ends
+New Contest starts
+<div><span style="font-size: 14px; line-height:16px; font-weight: bold;">Contest: Win a G-Shock Watch</span><br /><br />
+<a href="http://rollingstoneindia.com/contest-win-g-shock-watch/"><img src="http://rollingstoneindia.com/wp-content/uploads/2016/02/RSMA-16-contest1.jpg" /></a></div>
+Coming Soon
+div><b><i>Contest ends on March 27th, 2014</i></b></div
+PREVIOUS CONTESTS »
+New Contest end
+Tweets about "@RollingStoneIN"
+subscribe to newsletter box
+RSS FEED
+rss feed
+subscribe to newsletter box
+End of primaryTopSidebar
+End of PrimaryWrapper (Featured block + Mid colum block + primaryTopSidebar ad)
+end of wrapper
+Ad Spruce
+Channels
+Features
+Featured Artist
+Gig Calendar
+News & Updates
+Reviews
+Photos
+Videos
+Contact
+Follow Us
+Facebook
+Twitter
+YouTube
+Instagram
+RSS
+Festival Review: Vh1 Supersonic 2017
+New Music: From Guwahati Electropop to New Delhi Psychedelic
+Best New Metal Acts
+10 Best Metal Releases
+/footer
+© 2017
+Rolling Stone India
+. All Rights Reserved.
+ngg_resource_manager_marker
+AdRotate JS
+/AdRotate JS
+a href="/wp-admin/edit.php">Manage</a> -
+	<a href="/wp-admin/post-new.php">Write New Post</a> - 	
+	<!--Supported by <a href="http://frontiernxt.com/" title="Frontiernxt">Frontiernxt</a>
+START Parse.ly Include: Standard
+Powered by the Parse.ly Publisher Platform (P3).
+END Parse.ly Include

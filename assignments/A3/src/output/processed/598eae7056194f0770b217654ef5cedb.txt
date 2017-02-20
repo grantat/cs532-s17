@@ -1,0 +1,595 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Click to call our Disability Customer Support line, or reach us directly at 1-888-283-1678
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+My Foolish Heart
+Ralph Towner
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+February 3, 2017
+5.0 out of 5 stars
+3 customer reviews
+Price display
+See all 2 formats and editions
+Hide other formats and editions
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Price
+New from
+Used from
+Do not show expander when DVD_redesign weblab is in treatment
+MP3 Music, February 3, 2017
+"Please retry"
+$11.49
+$11.49
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Audio CD, February 3, 2017
+"Please retry"
+$18.97
+$14.97
+$15.00
+MP3
+$11.49
+Listen with our
+Free App
+Audio CD
+$18.97
+4 Used
+from
+$15.00
+10 New
+from
+$14.97
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Buy MP3 Album
+$11.49
+Add to MP3 Cart
+Album in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Buy CD + free MP3 album
+$18.97
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+Pilgrim
+Pilgrim
+4:31
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+2
+I'll Sing To You
+I'll Sing To You
+4:32
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+3
+Saunter
+Saunter
+5:01
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+4
+My Foolish Heart
+My Foolish Heart
+3:51
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+5
+Dolomiti Dance
+Dolomiti Dance
+4:24
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+6
+Clarion Call
+Clarion Call
+4:40
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+7
+Two Poets
+Two Poets
+2:04
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+8
+Shard
+Shard
+0:54
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+9
+Ubi Sunt
+Ubi Sunt
+1:20
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+10
+Biding Time
+Biding Time
+1:29
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+11
+Blue As In Bley
+Blue As In Bley
+3:53
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+12
+Rewind
+Rewind
+3:43
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Customers Also Bought These Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+Aziza (feat. Dave Holland, Chr...
+Aziza
+17
+Stream
+or buy for
+$7.92
+Next
+Product Details
+Original Release Date:
+February 3, 2017
+Release Date:
+February 3, 2017
+Label:
+ECM Records
+Copyright:
+℗© 2017 ECM Records GmbH under exclusive license to Deutsche Grammophon GmbH, Berlin
+Record Company Required Metadata:
+Music file metadata contains unique purchase identifier.
+Learn more
+.
+Total Length:
+40:22
+Genres:
+Jazz
+ASIN:
+B01NAK1A25
+Average Customer Review:
+5.0 out of 5 stars
+3 customer reviews
+Amazon Best Sellers Rank:
+#4,223 Paid in Albums (
+See Top 100 Paid in Albums
+)
+#119
+in
+MP3 Downloads
+>
+Albums
+>
+Jazz
+Customer Reviews
+5.0 out of 5 stars
+3
+5.0 out of 5 stars
+for popover_trigger
+for declarative_action
+5 star
+100%
+4 star
+0%
+3 star
+0%
+2 star
+0%
+1 star
+0%
+See all verified purchase reviews
+Share your thoughts with other customers
+Write a customer review
+Top Customer Reviews
+5.0 out of 5 stars
+KALEIDOSCOPIC
+By
+Steve Wyzard
+on February 7, 2017
+Format: Audio CD
+Verified Purchase
+What could Ralph Towner possibly have to add to his deep catalog in 2017, after 40+ years with ECM Records? Plenty, it turns out, and while some will grumble about the 40:28 running time, My Foolish Heart is proof positive that his unfettered guitar greatness has not even remotely diminished with age.
+Towner's albums (even in the CD age) have never run long, and have rarely included a liner note like this one does. He tells us that the title track (and the Evans/LeFaro/Motian version in particular) had an "immeasurable impact" upon his formation as a musician, and that he "decided to pay a visit" to this "reverent musical space". It's one of this album's true highlights, and the only cover version among the other eleven which are his own compositions.
+Long time listeners will recognize all of the classic Towner trademarks, from the angular, jagged lines of "Pilgrim" to the unbridled vigor of "Rewind". Everything is played with an overwhelming authority, and the impressionistic "wide-open-spaces-under-a-wild-sky" atmosphere is always present. This is familiar, well-trodden ground, but Towner's intuitive intellect always gives us something original and he continues to turn new pages. The relentless subtlety of "Dolomiti Dance" is this album's "wow-inspiring" stunner, but don't overlook the haunting nostalgia of "I'll Sing to You" or the searching ruminations of the shorter pieces. "Saunter", the longest track at 5:01, begins whimsically, but soon ventures toward probing bent notes and intense slides that are truly awe-inspiring.
+Read more ›
+Comment
+5 people found this helpful. Was this review helpful to you?
+Yes
+No
+Sending feedback...
+Thank you for your feedback.
+Sorry, we failed to record your vote. Please try again
+Report abuse
+5.0 out of 5 stars
+Another Excellent Solo Guitar Recording by Ralph Towner
+By
+K. Schmidt
+on February 6, 2017
+Format: Audio CD
+Verified Purchase
+My Foolish Heart continues Ralph Towner's series of excellent solo guitar recordings.  While there are many great guitarists, he has a unique combination of classical guitar, outstanding compositions, and improvisation.  I enjoy his recordings with Oregon and with other collaborators, but the solo recordings exhibit his talents best.
+Comment
+3 people found this helpful. Was this review helpful to you?
+Yes
+No
+Sending feedback...
+Thank you for your feedback.
+Sorry, we failed to record your vote. Please try again
+Report abuse
+5.0 out of 5 stars
+A stunning set of Towner solo guitar- an instant classic and an audiophile recording
+By
+Brian Whistler
+VINE VOICE
+on February 6, 2017
+Format: Audio CD
+Verified Purchase
+This may very well be Towner's strongest solo album yet. The ever prolific master has gifted us with 10 new originals, most written in his neo-classical style.  His playing is in top form- indeed Towner is one of those artists who has only improved with age. what you have here is a very listenable album, a kind of rainy day music for thoughtful listeners. It is anything but background music, although I suppose it could be listened to as such-repeated listenings reveal hidden depths.
+The opening piece, Pilgrim, sets the tone for this mostly introspective set. It's all there: a strong melodic classical piece tinged with contemporary harmony and rhythm,  that familiar and specific world that only Towner seems to inhabit. There are two tunes on which Ralph plays his signature 12 string. It's great to hear that unique sound again. His reading of My Foolish Heart is as sweet and tender as Bill Evans's classic version. To close out the set, he plays a solo version of his Oregon composition, Rewind.
+I just want to add that this may very well be the best recording yet of Ralph's custom nylon string. It's almost as if he's playing in my living room, with just the right amount of hall ambience to give the recording some needed space around the luscious notes.
+Towner has done it again. An instant classic.
+Comment
+4 people found this helpful. Was this review helpful to you?
+Yes
+No
+Sending feedback...
+Thank you for your feedback.
+Sorry, we failed to record your vote. Please try again
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Search Customer Reviews
+Search
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/redirect-overlay/redirect-overlay-lte-ie9._CB336734515_.css"><![endif]
+Your Recently Viewed Items and Featured Recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your Recently Viewed Items and Featured Recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+Australia
+Brazil
+Canada
+China
+France
+Germany
+India
+Italy
+Japan
+Mexico
+Netherlands
+Spain
+United Kingdom
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+BeautyBar.com
+Prestige Beauty
+Delivered
+Book Depository
+Books With Free
+Delivery Worldwide
+Casa.com
+Kitchen, Storage
+& Everything Home
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+Diapers.com
+Everything
+But The Baby
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Prime Photos
+Unlimited Photo Storage
+Free With Prime
+Shopbop
+Designer
+Fashion Brands
+Soap.com
+Health, Beauty &
+Home Essentials
+TenMarks.com
+Math Activities
+for Kids & Schools
+Wag.com
+Everything
+For Your Pet
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Woot!
+Deals and
+Shenanigans
+Yoyo.com
+A Happy Place
+To Shop For Toys
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-9VEfzPDWN8Nckb35DE5HI4HBvhe8Lspa3rgbeBkZd0IqGGLwWcN0LCQrhYf6UGl1 rid-6F031Y0PGAFA953W482T

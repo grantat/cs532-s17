@@ -1,0 +1,95 @@
+[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]
+END // modal-search
+END // logo-image
+END // header
+Malandar
+Agenda Conciertos
+Contacto
+END // navigation
+END // navigation-mobile-button
+Malandar
+Agenda Conciertos
+Contacto
+END // navigation-mobile
+Twitter
+Facebook
+Instagram
+Search ...
+END // socials
+END // toolbar
+Jamiroquai Experience
+END // page-header
+END // post-image
+END // one-half | one-entire
+07/04/2017
+END // post-meta-line
+Apertura / Inicio
+Apertura 22:00h.
+END // post-time
+Lugar
+Sala Malandar
+END // post-venue
+Dirección
+Torneo, 43. Sevilla
+END // post-location
+Precio
+8€ Anticipadas TotemTanz, eventum365.com y entradium
+END // post-price
+END // post-meta-table
+Entradium.com
+END // post-meta
+JAMIROQUAI EXPERIENCE con SPACE COWBOYS es una noche de funk, baile y diversión con las mejores canciones del sexteto británico liderado por Jay Kay y en este caso por Space Cowboys: una banda residente en Madrid con músicos de renombre a nivel nacional e internacinal, acompañada por una sección de vientos y dos grandes cantantes a los coros. Todo un espectáculo!
+Canciones como Virtual Insanity, Love foolosophy, Allright, Canned heat, Too young to die, Starchild, y muchas más sonarán la noche del 7 de Abril en Sala Malandar
+CONCIERTO 22:30h. Apertura puertas 22h.
+Cuéntaselo a tus amigos y venid a disfrutar de una noche llena de ritmo.
+END // post-content
+Share
+END // one-half | one-entire
+END // post
+END // content
+END // grid
+END // canvas
+Próximos Conciertos
+16/02/2017
+END // post-date
+COLDPLAY Tribute by Green Covers
+END // post-title
+Sala Malandar
+END // post-venue
+Torneo, 43. Sevilla
+END // post-location
+END // recent-event
+17/02/2017
+END // post-date
+DEPEDRO
+END // post-title
+Sala Malandar
+END // post-venue
+Torneo, 43. Sevilla
+END // post-location
+END // recent-event
+END // wa-footer-first
+Dirección
+Av/ Torneo, 43.
+SEVILLA · 41002
+954 217 702
+END // wa-footer-second
+Contacto
+Programación
+Alberto Cañizares
+alberto@spyromusic.com
+Móvil: 690 953 912
+END // wa-footer-third
+END // grid
+Copyright © 2017
+Malandar
+END // copyright
+Twitter
+Facebook
+Instagram
+Search ...
+END // socials
+END // footer-absolute
+END // back-to-top

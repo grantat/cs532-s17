@@ -1,0 +1,2 @@
+Include Bugsnag before all other JS includes
+Google Analytics

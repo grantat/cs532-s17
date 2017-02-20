@@ -1,0 +1,154 @@
+This site is optimized with the Yoast SEO plugin v3.5 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+This site uses the Google Analytics by MonsterInsights plugin v5.5.2 - Universal disabled - https://www.monsterinsights.com/
+/ Google Analytics by MonsterInsights
+[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.elenanorabioso.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]
+[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.elenanorabioso.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]
+Música
+Nacional
+Internacional
+Festivales
+Crónicas
+Discos
+Entrevistas
+Reportajes
+Cine y TV
+Películas
+Series
+Tendencias
+Moda
+Videojuegos
+Internet
+Cómics
+Tecnología
+Blogs
+El rincón del Zuri
+Las fiestas del mañana
+Radio El Enano Rabioso
+Only for Fixed Sidebar Layout
+.social-icons
+.fixed-button
+.mag-content
+.container
+.header
+.header-wrapper
+Begin Main Wrapper
+Escucha “Automaton”, el nuevo tema de Jamiroquai
+Internacional
+Música
+Por
+El Último de la Fila
+3 semanas
+atrás
+0
+.post-header
+Hace una semana os contábamos
+los planes de Jay Kay
+de reactivar su proyecto de
+Jamiroquai
+tras siete años de silencio. En aquel momento solo sabíamos que
+Automaton
+sería el título del octavo trabajo de estudio del británico, y ahora sabemos cuándo saldrá el álbum y además podemos escuchar el primer avance del mismo.
+“Atomaton” es la carta de presentación de un álbum, que se publicará el 31 de marzo, y la verdad que no suena nada mal. Ritmos electrónicos y melodías pegadizas marca de la casa para que no le dejemos en el baúl de los recuerdos.
+Además hemos conocido que a las diez fechas anunciadas se le suman dos nuevas: una en París y otra en Londres a finales de marzo, coincidiendo con el lanzamiento del disco.
+* Martes 28 de marzo:
+PARÍS
+(La Sall Pleyel)
+* Viernes 31 de marzo:
+LONDRES
+(The Roundhouse)
+* Jueves 25 de mayo:
+TOKIO
+(Tokyo International Forum)
+* Domingo 28 de mayo:
+SEÚL
+(Seoul Jazz Festival)
+* Sábado 17 de junio:
+ATENAS
+(Release Athens Festival)
+* Domingo 9 de julio:
+RÓTERDAM
+(North Sea Jazz Festival)
+* Martes 11 de julio:
+FLORENCIA
+(Firenze Summer Festival)
+* Viernes 14 de julio:
+PORI
+(Pori Jazz)
+* Domingo 16 de julio:
+AIX-LES-BAINS
+(Musilac)
+* Martes 18 de julio:
+LOCARNO
+(Moon & Stars)
+* Sábado 22 de julio:
+OSTRAVA
+(Colours of Ostrava)
+* Sábado 5 de agosto:
+ZAMBUJEIRA DO MAR
+(Sudoeste Festival)
+.post-content
+Tags:
+Jamiroquai
+0
+SHARES
+Compartir
+Twittear
+Publicidad
+Últimas entradas
+Arcade Fire anuncian gira europea
+1 día
+atrás
+The Wave Pictures en Microsonidos de Murcia 2017
+1 día
+atrás
+El Low Festival 2017 sigue confirmando
+1 día
+atrás
+El Tomavistas confirma a Hercules & Love Affair
+1 día
+atrás
+Nuevo EP de Animal Collective
+2 días
+atrás
+Tab content
+.main-content
+.main-wrapper
+#content
+Footer
+Acerca de nosotros
+Aviso legal
+El contenido de este sitio está protegido bajo una licencia Creative Commons. Consulte los detalles de
+nuestra licencia
+El Enano Rabioso Magazine
+Nos vamos al mainstream
+Diseño de identidad por
+elfrio
+. Web realizada por
+Rafael Tovar
+.
+End Footer
+End Main
+Mobile Menu
+Música
+Nacional
+Internacional
+Festivales
+Crónicas
+Discos
+Entrevistas
+Reportajes
+Cine y TV
+Películas
+Series
+Tendencias
+Moda
+Videojuegos
+Internet
+Cómics
+Tecnología
+Blogs
+El rincón del Zuri
+Las fiestas del mañana
+Radio El Enano Rabioso
+Buscar:

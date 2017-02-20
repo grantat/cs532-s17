@@ -1,0 +1,678 @@
+<![endif]
+[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/3.20.5/orb/4/style/orb-ie.min.css">
+<![endif]
+orb.ws.require.lib
+Nav Analytics : 62
+[if (lte IE 7)&(!IEMobile)]>
+    <link rel="stylesheet" href="http://static.bbci.co.uk/gelstyles/0.12.0/style/core-ie7.css" />
+  <![endif]
+BBCDOTCOM template: responsive webservice
+BBCDOTCOM head
+Searchbox:126
+[if IE 8]>
+  <script type="text/javascript" src="//nav.files.bbci.co.uk/searchbox/1.0.0-126/script/html5shiv.min.js"></script>
+  <script type="text/javascript">window['searchboxIEVersion'] = 8;</script>
+  <link rel="stylesheet" href="//nav.files.bbci.co.uk/searchbox/1.0.0-126/css/ie8.css">
+<![endif]
+[if IE 9]>
+  <script type="text/javascript">window['searchboxIEVersion'] = 9;</script>
+<![endif]
+NavID:0.2.0-143
+[if IE 8]><link href="//static.bbc.co.uk/id/0.36.25/style/ie8.css" rel="stylesheet"/> <![endif]
+BRANDINGID: br-05288
+[if (gt IE 8)|!(IE)]><!
+<![endif]
+[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" href="//branding.files.bbci.co.uk/branding/live/css/e096f21d876377ef1d92af4eb7ccba85.css" />
+        <![endif]
+[if (lt IE 9) & (!IEMobile)]>
+        <link rel="stylesheet" href="https://static.bbc.co.uk/musicnav/276/2.3.0.276/css/modules/musicnav/style-ie8.css">
+        <link rel="stylesheet" href="https://static.bbc.co.uk/musicnav/276/2.3.0.276/css/modules/search/style-ie8.css">
+        <link rel="stylesheet" href="https://static.bbc.co.uk/musicnav/276/2.3.0.276/css/modules/search-results/style-ie8.css">
+    <![endif]
+[if (gt IE 8) | (IEMobile)]><!
+Include Maxymiser library here to keep it in the head of the document
+<![endif]
+morph head
+[if IE 8]><script type="text/javascript">Morph.isIE8=true;</script><![endif]
+[if lte IE 8]>
+<link rel="stylesheet" href="http://static.bbci.co.uk/music_events/5.2.35/style/legacyie.css"/>
+<![endif]
+[if gt IE 8 | !IE]><!
+<![endif]
+[if IE 6]>
+        <script src="http://static.bbci.co.uk/music_events/5.2.35/script/util/pngFix.js"></script>
+    <![endif]
+[if lte IE 7]>
+        <link rel="stylesheet" href="http://static.bbci.co.uk/music_events/5.2.35/style/ie.css" />
+    <![endif]
+[if lte IE 8]>
+<script type="text/javascript">
+    browserCheck.isLteIE8 = true;
+</script>
+<![endif]
+facebook meta data
+For non-Retina iPhone, iPod Touch, and Android 2.2+ devices:
+For first-generation iPad:
+For iPhone 4 with high-resolution Retina display:
+BBCDOTCOM bodyFirst
+Begin iStats 20100118 (UX-CMC 1.1009.3)
+End iStats (UX-CMC)
+[if (gt IE 8) | (IEMobile)]><!
+<![endif]
+[if (lt IE 9) & (!IEMobile)]> <![if (IE 8)]> <header id="orb-banner" role="banner" class="orb-old-ie orb-ie8"> <![endif]> <![if (IE 7)]> <header id="orb-banner" role="banner" class="orb-old-ie orb-ie7"> <![endif]> <![if (IE 6)]> <header id="orb-banner" role="banner" class="orb-old-ie orb-ie6"> <![endif]> <![endif]
+Accessibility links
+Accessibility Help
+BBC iD
+Notifications
+BBC navigation
+News
+News
+Sport
+Weather
+Shop
+Earth
+Travel
+Capital
+iPlayer
+Culture
+Autos
+Future
+TV
+Radio
+CBBC
+CBeebies
+Food
+iWonder
+Bitesize
+Travel
+Music
+Earth
+Arts
+Make It Digital
+Taster
+Nature
+Local
+Menu
+Search
+Search the BBC
+Search the BBC
+Styling hook for shared modules only
+Music
+Tracks
+Performances
+Playlists
+Artists
+More
+My Music
+Menu
+My Music
+Home
+Tracks
+Popular
+Find a Track
+Recommended
+Performances
+Popular
+All
+Recommended
+Playlists
+Featured
+All
+Recommended
+Artists
+Popular
+All
+Recommended
+More
+BBC Music News LIVE
+BBC Music My Generation
+BBC Introducing
+BBC Music in iPlayer
+BBC Proms
+Glastonbury
+BBC Performing Groups
+Sound Of 2017
+My Music
+My Tracks
+My Performances
+My Interviews
+My Playlists
+My Artists
+[if lt IE 7]> <div id="blq-content" class="blq-clearfix ie6 oldie" role="main"> <![endif]
+[if IE 7]>    <div id="blq-content" class="blq-clearfix ie7 oldie" role="main"> <![endif]
+[if IE 8]>    <div id="blq-content" class="blq-clearfix ie8 oldie" role="main"><![endif]
+[if IE 9]>    <div id="blq-content" class="blq-clearfix ie9" role="main"><![endif]
+Consider adding an manifest.appcache: h5bp.com/d/Offline
+[if gt IE 9]><!
+<![endif]
+morph body
+Media player
+Close player
+Music News LIVE: Jamiroquai back with a brand new hat
+30 Jan 2017
+30 Jan 2017
+Got a TV Licence?
+You need one to watch live TV on any channel or device, and BBC programmes on iPlayer. It’s the law.
+Find out more
+I have a TV Licence. Watch now.
+I don’t have a TV Licence.
+Summary
+News updates for 30 January 2017
+Jamiroquai back with new music video and gig news
+Phil Collins and Blondie to play Hyde Park
+John Legend and Rihanna condemn Donald Trump over muslim ban
+Zara Larsson and Catfish join IoW lineup
+Live Updates
+Related to this event
+Live Updates
+By Kev Geoghegan & Paul Glynn
+All times stated are UK
+Get involved
+Get involved
+Twitter:
+Follow
+@BBCMusic
+Facebook:
+Follow us on Facebook
+Goodbye Betsy, I'm goin' away...
+Posted at
+15:45
+30 Jan
+AFP
+Cheers Iggy, you always know just what to say.
+And we, dear friends, are heading off too.
+But scroll down for new music from Jamiroquai, Skott and Paul Weller, Ed Sheeran's new video, news on The Jacksons and James Blunt's guide to dealing with Twitter trolls.
+We'll see you crazy kids tomorrow.
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Manchester band PINS on their collaboration with Iggy Pop
+BBC 6 Music
+Posted at
+15:35
+30 Jan
+BBC
+Manchester band
+PINS
+have been telling 6 Music about their new track with punk rock royalty Iggy Pop.
+The track Aggrophobe is part of a new EP Bad Thing out on 24 February.
+Sophie and Faith from the band said it was as simple as writing a letter.
+"We had the idea that we wanted someone with a good speaking voice as well as a good singing voice and Iggy was our first choice so we just wrote him a letter.
+"His manager just said he would put it front of him and it would be up to him. And he said 'Yes!'"
+Not a great story then but a decent ending...
+View more on
+youtube
+...and the trailer doesn't reveal too much either, so let's wait and see shall we.
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+There will be 'slight changes' to the UK's Eurovision song
+Posted at
+15:27
+30 Jan
+Eurovision: There will be 'slight changes' to UK entry
+Eurovision hopeful Lucie Jones has admitted that there will be a little light tinkering made to her entrance into this year's competition in Kiev.
+Apparently it comes from listening to what fans on social media are saying about the uber-ballad Never Give Up On You.
+So, a verse from Stormzy perhaps?...Or maybe the return of Katrina and the Waves on backing vocals?
+Stay tuned.
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+It's all gone (right for) Pete Tong
+Posted at
+15:13
+30 Jan
+PA
+Like a great dance tune beat 'drop', he's had to wait for it...but
+Pete Tong
+has finally landed his first number one album.
+His latest collection Classic House, which reworks Ibiza rave 'choons' with the help of the Heritage Orchestra and conductor Jules Buckley, was released nine weeks ago and took its time in getting to top spot on Friday.
+Ed Sheeran held on to top spot in the singles charts (scroll down for more on Ed including a new video).
+Here's Pete hosting Radio 1's Ibiza Prom at the Albert Hall in 2015, where no doubt the seed for the record was sewn.
+Warning: May contain ads.
+View more on
+youtube
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Paul Weller shares new song from Jawbone soundtrack
+NME
+Posted at
+15:01
+30 Jan
+Getty Images
+The Modfather
+has announced the tracklist for a six song soundtrack he's written for new boxing film Jawbone.
+The opening track, a beautiful acoustic number The Ballad Of Jimmy McCabe below is taken from the semi-autobiographical movie about former youth boxing champion Jimmy McCabe who is "desperately in search of hope but looking in all the wrong places”.
+The soundtrack will be released on 10 March, with the film set to hit the big screens a week later and the tracklist is as follows.
+The Ballad Of Jimmy McCabeJawboneBottle*Jawbone TrainingMan On FireEnd Fight Sequence
+*Track four has montage written all over it doesn't it
+Warning: Third party content, may contains ads.
+View more on
+youtube
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+John Legend condemns Trump's muslim ban
+Rolling Stone magazine
+Posted at
+14:40
+30 Jan
+Getty Images
+US Crooner-come-La La Land actor
+John Legend
+has hit out at new President Donald Trump over his executive order banning immigration from seven countries.
+During a speech at the
+Producers Guild of America awards in LA on Saturday
+, the indignant singer said: "Our vision of America is directly antithetical to that of President Trump,"
+"I want to specifically tonight reject his vision and affirm that America has to be better than that.
+Los Angeles is the home of so many immigrants, so many creative people, so many dreamers... Our America is big, it is free and it is open to dreamers of all races, all countries, all religions."
+BBC
+Other big names from around the music world including Rihanna, Win Butler of Arcade Fire and Questlove have also voiced their disapproval at Trump's decision to ban citizens and refugees from seven predominantly Muslim countries from entering the United States.
+Rihanna said she is "disgusted"
+and described the move as "devastating".
+Fellow female pop stars Grimes and Sia are
+encouraging their fans to donate money to help civil rights organisations
+in light of the news, saying they will match any donations.
+Read more.
+View more on
+twitter
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Skott goes glittery and glossy on new track
+Posted at
+14:21
+30 Jan
+Chess Club
+Scandi-newcomer
+Skott
+is back with her latest offering.
+The singer played a short gig for Huw Stephens on Radio 1 In November last year and returns with Glitter & Gloss.
+She's due to play London’s Omeara in March and The Great Escape in Brighton in May.
+View more on
+Soundcloud
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+US fan criticises gig violence after her jaw is broken
+BBC Newsbeat
+Posted at
+13:48
+30 Jan
+Facebook/Emily Hoffman
+An American woman who was in intensive care after having her jaw smashed at a gig has criticised violence at music shows.
+Emily Hoffman says she was assaulted at a gig by Code Orange in Salt Lake City, Utah.
+"Some guy was there who decided to wear steel toe boots.
+"He round house kicked me in the face. He hit my jaw so hard that it moved the entire thing to one side breaking it in two places on each side," Emily wrote on her
+Facebook page
+.
+"When you hit someone in the face then you see her unconscious and you run off to not get caught. You're something else, I really don't have the words for what you are."
+The hardcore band say they're talking to Emily and her family about what happened at their gig.
+Read more
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Ed Sheeran has his own Rocky montage in new video
+Posted at
+13:23
+30 Jan
+Ed Sheeran
+explores his inner prizefighter in the new video for Shape of You.
+We get to see his bestest Rocky Balboa impersonation is all its tattooed glory as he get into shape himself in what we expect will be a boxing match.
+Only, things aren't everything they appear to be so you'll need to watch until the end.
+In the wise words of Team America, we're gonna need a montage.
+Warning: Third party content, may contain ads.
+View more on
+youtube
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Former X Factor contestant to represent UK at Eurovision
+Posted at
+13:05
+30 Jan
+Lucie Jones, a one-time contestant on The X Factor, is set to compete on the UK's behalf at this year's Eurovision.
+The Welsh singer will perform Never Give Up On You (how apt) at the competition in Kiev, Ukraine in May.
+It was co-written by Danish singer-songwriter Emmelie de Forest, who won the song contest in 2013.
+Lucie Jones's Eurovision: You Decide Song
+Lucie can use all help she can get - the best the UK has done recently was
+Blue's effort in 2011
+which came.. wait for it... 11th...
+Joe and Jake finished second to bottom last year...and that was before Brexit.
+So bon chance Lucie.
+View more on
+instagram
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+The Jacksons to mark 50th anniversary with UK gig
+Posted at
+12:49
+30 Jan
+Joe Baxter
+The Jacksons
+are to play a show at Blenheim Palace in Oxfordshire on Sunday 18 June to mark their 50th year in showbiz.
+Brothers Jermaine, Tito, Jackie and Marlon will perform renditions of all the group's hits and will be supported by 70s R&B; kings Kool & The Gang.
+The family band were formed in 1964 in Gary Indiana and released their first recordings in 1967.
+Their first number one was I Want You Back in 1970, with young Michael on lead vocals.
+Warning: Third party content, may contain ads.
+View more on
+youtube
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Watch Steve Lamacq re-visit the venue where he saw his first ever gig
+BBC 6 Music
+Posted at
+12:15
+30 Jan
+Independent Venue Week wrapped up yesterday, completing seven days of celebrations of grassroots music venues.
+As part of his Indie tour, 6 Music's Steve Lamacq re-visited some old haunts in his old patch Chelmsford, Essex and pondered the future of the music scene if smaller venues keep closing down.
+His journey begins at Evoke, which was the old Chancellor Hall where, in September 1978, he saw his first ever live band...namely The Lurkers, aka "Britain's answer to the Ramones."
+And the first ever band to sing to the Beggars Banquets label - the future home of artists like Gary Numan and Biffy Clyro.
+As part of his Indie Venues tour, Steve catches up with the music scene in Chelmsford.
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Steve Mason breathes fresh life into Beta Band anthems at Barbican
+Paul Glynn
+Music News LIVE reporter
+Posted at
+11:58
+30 Jan
+Elspeth Moore
+What was your favourite folktronica album of last year?  I bet some of you haven't even got one have you? Be honest...
+If you haven't dabbled in the genre before then don't be alarmed.  It's basically an acoustic singer-songwriter using something electronic, like a drum machine and/or sampler.
+Since you asked my favourite was
+Steve Mason
+'s Meet The Humans.  So I was intrigued to see how some of those songs would translate at the grand setting of the beautiful Barbican theatre in the City of London.
+"Last time I was here was for a star wars convention!" says Steve.
+Some of these songs are a bit tricky to play live. You either have to use a sampler...or this lot..."
+Elspeth Moore
+By 'this lot' he means his own band, accompanied for this special performance by a string and brass section, a harpist, two drummers (three at times when Steve bangs his bongos) and a trio of gospel vocalists - all expertly conducted by Manchester composer Joe Duddell.
+Joe has previously given similar orchestral treatments to the likes of Elbow and New Order and his arrangement helps the former Beta Band and King Biscuit Time man (who shuns the smart theatre dress code in favour of a hoodie) to breathe new life into a career-straddling set.
+Highlights of the first half include re-workings of Run Away, Hardly Go Through and Alive from his latest solo album, with the latter drawing a cry of "Choose life" from one wit in the crowd - a reference to the similarly life-affirming Trainspotting sequel released that evening which will have meant so much to a generation of fellow Scots like Steve.
+Elspeth Moore
+Like many people I first came across Steve's work in the
+Beta Band courtesy of cult indie music film High Fidelity.
+And the second half sees him (after a much-needed outfit change) run through a series of crowd-pleasing old BB favourites like Dr Baker and She's The One, written during a dark time time when the singer was "obsessed with Tony Blair"...and not in a good way.
+A polite all-seated crowd sit obediently nodding (and shamefully shushing in some quarters) for the most part, perhaps confused by seeing their indie hero in such a theatrical setting.
+However the joyous refrain of "Daydream, I fell asleep amid the flowers" from Squares sees the first signs of fans getting up on their feet.
+Only with the euphoric call of the classic penultimate track Dry The Rain do tonight's theatre-goers break free of their shackles, spill out into the aisles and truly let go.
+"If there's something inside that you wanna say, say it out loud it will be ok."
+In these deeply divided political times, those roaringly empathetic chorus lines never felt more relevant.
+View more on
+twitter
+View more on
+twitter
+View more on
+twitter
+View more on
+twitter
+View more on
+twitter
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+James Blunt's guide to dealing with Twitter trolls
+BBC Radio 2
+Posted at
+11:40
+30 Jan
+As he demonstrated last week
+with the announcement
+of his new album,
+James Blunt
+is the undisputed King of Twitter.
+Now he's been giving his tips on how to deal with the inevitable trolling that goes hand in hand with having an active social media account with more than 1.3m readers
+"Don't be very emotional about it," he told Chris Evans on his Radio 2 Breakfast show earlier, "Because they are complete strangers who are tweeting from the privacy of their own home and they probably are lonely people".
+Hear more below.
+James on beating Twitter trolls and coming back with his brand new album The Afterlove.
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Zara Larsson and Catfish join IoW lineup
+Posted at
+11:07
+30 Jan
+BBC
+Zara Larsson
+and
+Catfish and the Bottlemen
+have been added to the lineup for this year's
+Isle of Wight festival
+.
+Also just announced are The Vamps and Clean Bandit, who will join the bill alongside headliners Arcade Fire, Rod Stewart, David Guetta and Run DMC (fun for the whole family on that list).
+BBC
+Judging by social media reeaction, it seems that the additions of Zara and Catfish could be enough to tempt some of you to part with your hard-earned cash and jump aboard a ferry this summer.
+View more on
+twitter
+View more on
+twitter
+View more on
+twitter
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Jamiroquai are back, with a new and improved cyber Jay Kay
+Posted at
+10:37
+30 Jan
+It's been seven years since the last album by Brit funk-acid jazzsters
+Jamiroquai
+and now they are back with a krautrock-inspired new sound in the track Automaton.
+The impressive video sees frontman Jay Kay wandering around disused tube stations with an incredibly distracting new bit of headgear.
+He's ditched the slightly-culturally appropriated native American headdress for a new hi-tech version which moves of its own accord.
+The track is taken from the band's forthcoming eighth studio album and they are heading out on a whistle-stop European tour, which includes a UK date at London's Roundhouse.
+Warning: Third party content, may contain ads.
+View more on
+youtube
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Black Sabbath's Geoff Nicholls dies aged 68
+Posted at
+10:18
+30 Jan
+View more on
+twitter
+Tributes have been paid to
+Black Sabbath
+keyboardist Geoff Nicholls (above left) who died on Saturday at the age of 68 after a battle with lung cancer.
+Bandmates like Ozzy Osbourne and Tony Iommi (above) have lead the tributes, with the guitarist saying: “I’m so saddened to hear the loss of one of my dearest and closest friends..."
+Geoff played with the seminal Brummie metal band for 25 years, joining in 1979 and making his first recorded appearance on
+1980 record Heaven and Hell.
+Frontman Ozzie Osbourne adds that his friend will be "greatly missed."
+Ozzy said: "Geoff Nicholls was a great friend of mine for a long time... I am very saddened by the news."
+View more on
+twitter
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Phil Collins and Blondie: Together at last
+Posted at
+9:50
+30 Jan
+PA
+It's another day in classic rock/pop paradise as New Yorkers
+Blondie
+, led by the irrepressible Debbie Harry, are to support Phil Collins at his British Summer Time gig at Hyde Park in London on 30 June.
+Also on the bill are Phil's one-time Genesis bandmates Mike and the Mechanics and Starsailor.
+Getty Images
+Tickets are on sale now.
+Debbie and the gang are also set to support Phil as part of his morbidly comically-named Not Dead Yet tour in Ireland.
+View more on
+twitter
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+What were David Beckham's Desert Island discs?
+Posted at
+9:29
+30 Jan
+BBC
+Former England football captain David Beckham talked the nation through the soundtrack to his life yesterday as he appeared as a special guest
+on BBC Radio 4's Desert Island Discs
+.
+Beckham joined presenter Kirsty Young to help celebrate the show's 75th anniversary and selected a mix of indie, rock and pop hits.
+The former Manchester United boyhood star clearly hasn't forgot his roots though as
+Manc legends The Stone Roses feature
+, while the appearance of Spanish singer Alejandro Sanz seems to point to his time at Real Madrid.
+On the show Becks rubbished claims that he and wife 'Posh Spice' Victoria stay together because of "brand Beckham".
+He may be in trouble with the Mrs yet though as you'll notice a distinct lack of any Spice Girls material his list of selected discs below.
+Every Time We Say Goodbye,
+Ella Fitzgerald
+What A Fool Believes,
+Michael McDonald
+I am the resurrection,
+The Stone Roses
+Something About The Way You Look Tonight,
+Sir Elton John
+No es lo mismo,
+Alejandro Sanz
+Wild Horses,
+The Rolling Stones
+The Girl Is Mine,
+Michael Jackson and Paul McCartney
+Si tu vois ma mère
+, Sidney Bechet
+Read more.
+Kirsty Young talks to former professional footballer David Beckham.
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+One way or another...
+Posted at
+9:04
+30 Jan
+BBC
+...you'll have to drag yourselves out of bed and back to work this morning guys.
+Most of us will anyway.
+To ease the blow we'll bring you news of Blondie and Phil Collins playing a UK park this summer and tell you which Desert Island discs David Beckham selected.
+Also tributes have been paid to Black Sabbath keyboardist Geoff Nicholls who has died age 68, the Jacksons are to mark their 50th anniversary with a show at Blenheim Palace in Oxfordshire plus new music from Dev Hynes and Jamiroquai.
+For now though remind yourselves of the
+5 Things We Learnt last week on Music News LIVE
+.
+You never stop learning though and this week is no different, so let's get to it.
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Back to top
+Related to this event
+Tues 14 Feb
+Katy Perry sets sights on the Brits
+Related to this event
+Sun 12 Feb
+Adele trumps Beyonce to five Grammy awards
+Related to this event
+Fri 10 Feb
+Katy Perry is back in the Rhythm
+Related to this event
+Thurs 9 Feb
+Controversy over Radiohead gig in Israel
+Related to this event
+Weds 8 Feb
+'No doubt' Steve Aoki and Louis Tomlinson will release more music
+Related to this event
+Cymraeg
+Gaeilge
+Gàidhlig
+morph foot!
+#blq-content
+.b-g-p
+BrandingProjectId: "5288", ThemeVersionId: "877", NavigationVersionId: "7428". Published on 2017-02-15T01:28:40+00:00
+Explore the BBC
+News
+News
+Sport
+Weather
+Shop
+Earth
+Travel
+Capital
+iPlayer
+Culture
+Autos
+Future
+TV
+Radio
+CBBC
+CBeebies
+Food
+iWonder
+Bitesize
+Travel
+Music
+Earth
+Arts
+Make It Digital
+Taster
+Nature
+Local
+Terms of Use
+About the BBC
+Privacy Policy
+Cookies
+Accessibility Help
+Parental Guidance
+Contact the BBC
+Advertise with us
+Ad choices
+Copyright © 2017 BBC.
+The BBC is not responsible for the content of external sites.
+Read about our approach to external linking.
+BBCDOTCOM bodyLast
+BBCDOTCOM all code in page
+Sign in
+to the BBC,
+or
+Register
+"
+"
+Added, go to
+My Music
+to see full list.
+More from

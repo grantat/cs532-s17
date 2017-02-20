@@ -1,0 +1,370 @@
+pc/item20161025.html
+1119
+0710
+20161224
+1218
+20160219
+1218
+0826
+0530
+0325 head
+0625 review
+0721
+0721
+0721
+0721
+0730 preview
+0730 preview
+0408
+20161025
+0128
+20160608
+Legacy Scripts
+Kobo
+20140417
+20131130
+20131130
+20131130
+20131130
+0730 preview
+0730 preview
+0730 preview
+0730 preview
+0730 preview
+/Kobo
+/Legacy Scripts
+20160912
+Rakuten Group
+Event Notification
+0622
+for spux
+for spux
+/Rakuten Group
+pc/item20161025.html
+mbox.html
+/ mbox.html
+Event Notification
+/Event Notification
+<li><a href="http://music.rakuten.co.jp/?scid=wi_grp_gmx_boo_hetopbu_music" onclick="s.lidTrack('h-remoteNav-music')">Music</a></li>
+SHOWTIME
+/#rbhTopBelt
+/#rbhLogoArea
+/.rbhBasket
+/#rbhBasketArea
+/#myPageMenu
+/#rbhBasketHelp
+/Event Notification
+/Event Notification
+2
+/.rbhCmnUserRetBtn
+/#rbhBasketArea
+/#rbhHeader
+/.rbhWrap
+/#booksHeader
+CD
+CD
+BIGBANG
+AAA
+V6
+notice jm
+/div#header
+countdownTimer
+/countdownTimer
+all-notice-pc.html
+/div#productExtra
+>
+CD
+>
+>
+0
+|
+/.productPrice
+get point area
+SPUx icon
+/SPUx icon
+SPUx point
+/SPUx point
+SPUx popup link
+/SPUx popup link
+/get point area
+SPUx popup
+/SPUx popup
+SPUx settings
+/SPUx settings
+#spux-point-disp-data
+/#spux-point-disp-data
+/div#productInfo
+/div#productWrapper item
+UICW-10011
+4988031213131
+/div#productDetailedDescription
+bta components.css and ui-carousel.js
+./ui-carousel-pagenation
+./ui-carousel-heading
+DADAISM
+DADARAY
+/div.ui-carousel-media
+/div.ui-carousel-item
+Jamiroquai
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+LUNATIQUE
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+THE KIDS
+Suchmos
+/div.ui-carousel-media
+/div.ui-carousel-item
+MINT CONDITION
+Suchmos
+/div.ui-carousel-media
+/div.ui-carousel-item
+Suchmos
+/div.ui-carousel-media
+/div.ui-carousel-item
+LOVE&VICE;
+Suchmos
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+THE BAY
+Suchmos
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+(V.A.)
+/div.ui-carousel-media
+/div.ui-carousel-item
+Bruno Mars
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-list
+/div#ui-carousel-content
+./ui-carousel
+./bta-ui-carousel
+bta components.css and ui-carousel.js
+/div
+[Disc1]
+1.Shake It On[5:14]
+2.Automaton[4:47]
+3.Cloud 9[3:56]
+4.Superfresh[3:48]
+5.Hot Property[4:31]
+6.Something About You[3:58]
+7.Summer Girl[5:31]
+8.Nights Out In The Jungle[5:09]
+9.Dr Buzz[6:01]
+10.We Can Do It[4:06]
+11.Vitamin[4:26]
+12.Carla[5:33]
+13.Nice And Spicy[4:40]
+/div#editArea2
+monopolyAll
+./ui-carousel-pagenation
+./ui-carousel-heading
+./ui-carousel-nav
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-list
+/div.ui-carousel-content
+/div.ui-carousel
+/div.bta-ui-carousel
+/monopolyAll
+CD
+CD
+bta components.css and ui-carousel.js
+./ui-carousel-pagenation
+./ui-carousel-heading
+./ui-carousel-nav
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+DJ NAOtheLAIZA
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-media
+/div.ui-carousel-item
+/div.ui-carousel-list
+/div.ui-carousel-content
+/div.ui-carousel
+/div.bta-ui-carousel
+bta components.css and ui-carousel.js
+/div.mainInner
+/div#status-note
+emptyPC
+booksnocard
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+/.new_buyButton
+reg
+102
+eucjp
+213310
+18356435
+1
+true
+3.1.4_nrs
+/.purchaseBoxMain
+/.wrapper
+/.purchaseBox
+/div.utility
+/div.partsRelated
+%%rank no%%
+1
+25
+%%rank no%%
+2
+%%rank no%%
+3
+%%rank no%%
+4
+%%rank no%%
+5
+/div.partsRanking
+/div.partsRelated
+****************** AD-SPACE TAG ******************
+[Rak_Books_All_Banner] ?????? ??/?i???????????
+****************** /AD-SPACE TAG ******************
+/div#contents
+RAT
+RAT
+faqContents > div
+/.faqCLftInr
+/.faqcCntInr
+/faqContents > div
+-html/include/footer/common/link.html-
+-link.html-
+/footerAd
+****************** AD-SPACE TAG ******************
+****************** /AD-SPACE TAG ******************
+****************** AD-SPACE TAG ******************
+****************** /AD-SPACE TAG ******************
+/html/include/footer/common/bta.html
+<script>
+./ui-carousel-pagenation
+./ui-carousel-heading
+./ui-carousel-nav
+{% var index = ("00"+(i+1)).slice(-2); %}
+{{ item.text }}
+./ui-carousel-media
+./ui-carousel-item
+./ui-carousel-list
+./ui-carousel-content
+./ui-carousel
+class="partsMenu"
+class="content"
+class="container"
+</script>
+/html/include/footer/common/bta.html
+/pzd_contents/html/include/footer/oem/RBOOKS
+group service
+Rakuten Music
+/.rc-f-section-bar
+/.rc-f-section-content00
+/.rc-f-standard
+/group service
+/pzd_contents/html/include/footer/oem/RBOOKS
+company
+/.rc-f-section01
+/.rc-f-standard
+/company
+copyright
+© Rakuten, Inc.
+/.rc-f-section01
+/.rc-f-standard
+/copyright
+RAT Code
+/RAT Code
+SiteCatalyst code
+Copyright Omniture, Inc. More info available at
+http://www.omniture.com
+End SiteCatalyst code
+Google Code start
+Google Code finish
+Yahoo Tag Manager
+/Yahoo Tag Manager
+Rg cookie
+/Rg cookie
+/div#grpRakutenLinkArea
+/div#posi_center
+/div#footer
+/div#containerArea
+/div#contentsArea
+/div#container
+Instant Preview Modal
+content

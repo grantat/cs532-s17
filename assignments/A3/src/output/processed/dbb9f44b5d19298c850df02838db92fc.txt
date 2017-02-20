@@ -1,0 +1,365 @@
+[if (gte IE 6)&(lte IE 8)]>
+    <link rel="stylesheet" src="/assets1/lt9.css">
+    <script src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/assets1/lt9.js"></script>
+    <![endif]
+Home
+Login
+About
+Help
+Chart
+News
+Menu
+SPINITRON
+home
+Feb
+2017
+S
+M
+T
+W
+T
+F
+S
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+Current playlist
+Program schedule
+KAOS's web site
+Browse
+Artists
+·
+Disks
+·
+Labels
+Search
+the selected month
+Artists
+Disks
+Songs
+KAOS
+DECOY DEEJAY - Overnight Mix - Monday Morning
+KAOS Admin
+KAOS Olympia 89.3FM
+KAOS Community Radio
+DECOY DEEJAY - Overnight Mix - Monday Morning
+(Music)
+With
+KAOS Admin
+Mon Jan 30th 2017 2.00am–5.00am
+R
+=listener request.
+N
+=music new at the station.
+L
+=local music.
+Your
+	purchases using the
+Buy it!
+links
+	help support the station.
+Time zone: pacific
+2:06am
+Daemon
+“Mr Longevity”
+from
+Entrance To Hell
+(
+Kissing Spell
+1970)
+2:10am
+Shadrack Chameleon
+“Don't Let It Get You Down”
+from
+Forge Your Own Chains: Heavy Psychedelic Ballads and Dirges 1968-1974
+(
+Now Again Records
+2009)
+2:15am
+J.K. & Co.
+“Fly”
+from
+Suddenly One Summer
+Album
+(
+White Whale Records
+1968)
+2:20am
+Embryo
+“Radio Marrakesch  Orient Express”
+from
+Krautrock Music For Your Brain
+(2005)
+2:30am
+Jay Som
+“Our Red Door”
+from
+Turn Into
+Album
+(
+Polyvinyl
+2016)
+2:34am
+He 6
+“4/4 For Guitar”
+from
+Go Go Sound '71 Vol.1
+(1971)
+2:40am
+King Crimson
+“21st Century Schizoid Man/Mirrors”
+from
+In the Court of the Crimson King
+(1969)
+2:48am
+Unknown Mortal Orchestra
+“Multi-Love”
+Album
+(
+Jagjaguwar
+2015)
+2:52am
+Panom Nopporn
+“Sao Ban Pok Pab”
+from
+Sound of Siam - Leftfield Luk Thung, Jazz & Molam in Thailand 1964-1975 (Soundway Records)
+(2010)
+2:55am
+Rajesh Roshan
+“Marjaban Too Kuthe Part 2”
+from
+Bollywood Bloodbath
+Comp
+(
+Finders Keepers Records
+2011)
+2:58am
+Jefferson Airplane
+“Embryonic Journey”
+from
+Surrealistic Pillow
+Album
+(
+RCA Victor
+1967)
+3:00am
+Love
+“Bummer In The Summer”
+from
+Forever Changes
+Album
+(
+Elektra
+1967)
+3:03am
+Drosselbart
+“Engel des Todes”
+from
+Krautrock - Music For Your Brain Vol. 4
+(2009)
+3:07am
+A.R. & Machines
+“I'll Be Your Singer You'll Be My Song”
+from
+Krautrock - Music For Your Brain Vol. 4
+(2009)
+3:10am
+Ash Ra Tempel
+“Traummaschine”
+from
+Ash Ra Tempel
+(
+Ohr
+1971)
+3:36am
+Ike & Tina Turner
+“Shame Shame Shame”
+from
+Back In the Day
+(
+32 R&B
+)
+3:39am
+The Isley Brothers
+“All Because I Love You”
+from
+20th Century Masters: The Millennium Collection: Best of The Isley Brothers-The Motown Years
+(
+Universal
+2001)
+3:42am
+The Radiants
+“My Sunshine Girl”
+from
+Eccentric Soul: Twinight's Lunar Rotation
+(
+Numero Group
+1971)
+3:45am
+Roy Ayers
+“Love Will Bring Us Back Together”
+from
+20th Century Masters: The Millennium Collection: Best Of Roy Ayers
+(
+Motown
+1979)
+3:51am
+The Love Dogs
+“Nobody's Dog <part 2>”
+from
+Heavy Petting
+(
+Tone-Cool Records
+1998)
+3:52am
+Al Smith Combo
+“Fooling Around Slowly”
+from
+Vee-Jay: The Definitive Collection, Disc 1
+(
+Shout! Factory
+2007)
+3:55am
+James Brown & Afrika Bambaataa
+“Unity, Pt. 1”
+from
+Star Time
+Album
+(
+Polydor
+2007)
+3:59am
+Bing Ji Ling
+“Hypnotized”
+from
+Shadow to Shine
+Album
+(
+Lovemonk
+2011)
+4:02am
+Amel Larrieux
+“All I Got 2”
+from
+Bravebird
+(
+Blisslife
+2004)
+4:05am
+James Brown
+“It's A Man's World”
+from
+The Great James Brown: Live At The Apollo 1995
+(
+Polydor
+1999)
+4:17am
+Le Ry-Co Jazz
+“Mambo Ry-Co”
+from
+Golden Afrique, Vol. 2
+(2005)
+4:21am
+Orchestre Abass
+“Awula Bo Fee Ene”
+from
+Afro-Beat Airways: West African Shock Waves - Ghana & Togo 1972-1978
+(2010)
+4:25am
+Mahlathini & Mahotella Queens
+“Kazet”
+from
+The Rough Guide To African Disco
+(2013)
+4:29am
+The Quavers
+“Kitch”
+from
+Highlife on the Move: Selected Nigerian & Ghanaian Recordings from London & Lagos 1954-66
+(2015)
+4:31am
+Amanaz
+“I Am Very Far”
+from
+Africa
+(
+Now Again Records
+1975)
+4:35am
+Paa Kow's By All Means Band
+“Ɔban Tokuro”
+from
+Hand Go Hand Come
+Album
+(
+Paa Kow's By All Means Band
+2012)
+4:39am
+Letta Mbulu
+“Nkedama”
+from
+In The Village The Music Never Ends
+Album
+(
+Be With Records
+2015)
+4:44am
+Martin Denny
+“Was It Really Love”
+from
+Exotic Moog
+Album
+(
+Liberty
+1969)
+4:48am
+Alan Hawkshaw & Brian Bennett
+“Funky Chicken”
+from
+Synthesizer And Percussion - TIM 1012
+(
+Themes International Music
+1970)
+4:50am
+Walter Wegmüller
+“Die Welt”
+from
+Tarot
+(1973)
+4:59am
+William Onyeabor
+“Ride On Baby”
+from
+Crashes In Love (Original Version)
+(
+Luaka Bop
+1977)
+Like everything else, times are approximate.
+Spinitron and this station are not liable for errors or omissions.
+Copyright © 2013 Spinitron, LLC. All rights reserved.

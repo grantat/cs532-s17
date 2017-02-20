@@ -1,0 +1,32 @@
+SHOUTcast Stream Status
+SHOUTcast Server v2.4.7.256/posix(linux x86)
+Status
+|
+Played History
+|
+Listen
+|
+Website
+|
+Stream Login
+|
+Server Login
+Current Stream Information
+Server Status:
+Stream is currently up and public
+Stream Status:
+Stream is up at 128 kbps with 4 of 999 listeners (3 unique)
+Listener Peak:
+45
+Average Listen Time:
+1 day 9 hours 19 minutes 56 seconds
+Stream Name:
+Neuron Radio
+Content Type:
+audio/mpeg
+Stream Genre(s):
+House
+Website:
+http://neuronradio.net
+Current Song:
+Ugnaught - Simple Things

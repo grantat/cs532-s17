@@ -1,0 +1,545 @@
+[if gte IE 8]><!
+<![endif]
+[if gte IE 9]><!
+<![endif]
+[if lt IE 9]><script type="text/javascript" src="//www.redditstatic.com/reddit-init-legacy.en.s5srvs8z9lQ.js"></script><![endif]
+jump to content
+my subreddits
+announcements
+Art
+AskReddit
+askscience
+aww
+blog
+books
+creepy
+dataisbeautiful
+DIY
+Documentaries
+EarthPorn
+explainlikeimfive
+food
+funny
+Futurology
+gadgets
+gaming
+GetMotivated
+gifs
+history
+IAmA
+InternetIsBeautiful
+Jokes
+LifeProTips
+listentothis
+mildlyinteresting
+movies
+Music
+news
+nosleep
+nottheonion
+OldSchoolCool
+personalfinance
+philosophy
+photoshopbattles
+pics
+science
+Showerthoughts
+space
+sports
+television
+tifu
+todayilearned
+TwoXChromosomes
+UpliftingNews
+videos
+worldnews
+WritingPrompts
+edit subscriptions
+popular
+-
+all
+-
+random
+|
+AskReddit
+-
+pics
+-
+funny
+-
+worldnews
+-
+news
+-
+todayilearned
+-
+gifs
+-
+gaming
+-
+videos
+-
+movies
+-
+mildlyinteresting
+-
+aww
+-
+Music
+-
+Showerthoughts
+-
+Jokes
+-
+nottheonion
+-
+LifeProTips
+-
+television
+-
+space
+-
+OldSchoolCool
+-
+science
+-
+sports
+-
+photoshopbattles
+-
+Futurology
+-
+personalfinance
+-
+food
+-
+UpliftingNews
+-
+TwoXChromosomes
+-
+explainlikeimfive
+-
+IAmA
+-
+tifu
+-
+GetMotivated
+-
+EarthPorn
+-
+dataisbeautiful
+-
+Art
+-
+WritingPrompts
+-
+books
+-
+creepy
+-
+nosleep
+-
+askscience
+-
+DIY
+-
+gadgets
+-
+Documentaries
+-
+history
+-
+listentothis
+-
+philosophy
+-
+InternetIsBeautiful
+-
+announcements
+-
+blog
+more »
+Music
+comments
+other discussions (1)
+Want to join?
+Log in or sign up
+in seconds.
+|
+English
+limit my search to /r/Music
+use the following search parameters to narrow your results:
+subreddit:
+subreddit
+find submissions in "subreddit"
+author:
+username
+find submissions by "username"
+site:
+example.com
+find submissions from "example.com"
+url:
+text
+search for "text" in url
+selftext:
+text
+search for "text" in self post contents
+self:yes (or self:no)
+include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+include (or exclude) results marked as NSFW
+e.g.
+subreddit:aww site:imgur.com dog
+see the search faq for details.
+advanced search: by author, subreddit...
+this post was submitted on
+31 Jan 2017
+20
+points
+(86% upvoted)
+shortlink:
+remember me
+reset password
+login
+submit music or a link
+start a discussion
+Music
+unsubscribe
+subscribe
+13,953,783
+readers
+1,064
+users here now
+Menu
+Filter
+No YouTube
+Only New
+Only Music
+Remove Filter
+Info
+FAQ
+Music Subreddits
+/r/ListenToThis
+/r/WeAreTheMusicMakers
+/r/ElectronicMusic
+/r/ListenToConcerts
+/r/Metal
+/r/HipHopHeads
+/r/ClassicalMusic
+Full List of Music Subreddits
+Social
+Discord
+Chatroom
+Last.fm group
+Twitter
+Facebook
+Instagram
+Listen
+radd.it
+radio reddit
+Are you a musician?
+Read our guide to promoting your music.
+fridays
+: discussions only
+saturdays
+: new and original music only
+Top Posts Today
+Music
+Non-Music
+News
+Follow us on twitter
+for AMA announcements and a selection of top links.
+Want to discover new music?
+Click here
+IRC: Server: Snoonet.org Channel: #Music
+Web
+Discord invite link:
+http://discord.gg/music
+Upcoming AMAs
+Schedule an AMA
+** Hardwell and Jay Sean (
+/r/music
+)**
+15 Feb @ 1pm ET
+BIG Something (
+/r/music
+)
+15 Feb @ 1:30pm ET
+Ed Nash (
+/r/music
+)
+23 Feb @ 1pm ET
+See More
+Guidelines
+/r/Music Posting Rules
+No music from the
+Hall of Fame
+No images
+Instead post to
+one of these subreddits
+.
+Artist - Title [Genre]
+Optional text
+All submissions of streaming songs and albums must follow this format or will be removed.
+Optional additional text may only be included after this part of the title. No ALL CAPS.
+No artist reposts for 30 days if the previous post broke 100 points
+No clickbait titles or asking for votes
+Music should stand on its own. If you have an interesting story behind the music, you can add this in the comments or as self-post text.
+Fridays are text post only
+Friday is for interesting discussions, not streaming music. If your post is "low effort" or looks like just another way of posting streaming music, then it will be removed. Bad discussion posts are subject to removal on
+any day
+.
+Saturdays are for fresh and original music
+Dedicated to underground artists, your original compositions, and new releases by known artists. Well known tracks will be removed at mod discretion.
+Submitters
+: For original music, use the "
+I Made This
+" flair. For new releases, use "
+New Release
+". You can select your flair beneath your link after posting.
+No
+/r/ifyoulikeblank
+or
+/r/tipofmytongue
+style posts
+For recommendations of new artists similar to those you already like, use
+/r/ifyoulikeblank
+. For help with identifying a song, use
+/r/tipofmytongue
+or
+/r/namethatsong
+.
+Must link to official artist channels
+Exceptions are made for exclusive releases or tracks not available on an artist's official channel.
+No crowd funding sites
+No links to unauthorized music leaks or promotion of piracy
+Discussions and Articles should be directly relevant to music, music technology, or the music business itself
+Articles / Tweets discussing statements by musicians not relevant to their work are not allowed. Articles discussing events in musician's lives are subject to mod discretion.
+Follow
+reddiquette
+at all times.
+Friends
+a community for
+9 years
+message the moderators
+MODERATORS
+Factran
+Raerth
+Raerth
+octatone
+octatone
+Skuld
+Skuld
+StompingBrokenGlass
+StompinBroknGla
+kaptain_carbon
+r/vintageobscura
+empw
+https://open.spotify.com/user/121005385
+multi-mod
+Flashynuff
+Flashynuff
+arghdos
+...and 18 more »
+discussions in
+/r/Music
+<
+>
+X
+3663
+·
+370 comments
+Buckethead - Soothsayer (Live) [Rock]
+861
+·
+62 comments
+Bad Religion - American Jesus (1993) [punk rock]
+111
+·
+319 comments
+We are DJ/producer Hardwell and recording artist Jay Sean – Ask Us Anything!
+36
+·
+5 comments
+Courtney Barnett - Nobody Really Cares If You Don't Go To The Party [Indie]
+57
+·
+15 comments
+Rush's First Album with Neil Peart was released 42 years ago today -- Fly By Night
+176
+·
+15 comments
+Reggie Watts - Fuck Shit Stack [Hip Hop]
+52
+·
+13 comments
+Youth Killed It - Popstar [Indie]
+28
+·
+145 comments
+We are rock band BIG Something - and we're here to chat with YOU about our new album Tumbleweed! Ask Us Anything!
+·
+2 comments
+George Thorogood - One Bourbon, One Scotch, One Beer [Blues Rock]
+20
+·
+4 comments
+Anderson .Paak & The Free Nationals - Come Down [Funk]
+19
+20
+21
+music streaming
+Gerry Rafferty - Baker Street [Jazz Rock]
+(
+youtube.com
+)
+submitted
+15 days ago
+by
+KingEuronIIIGreyjoy
+Spotify
+4 comments
+share
+all 4 comments
+sorted by:
+best
+top
+new
+controversial
+old
+random
+q&a
+live (beta)
+[–]
+DJ_Spam
+[
+M
+]
+1 point
+2 points
+3 points
+15 days ago
+(0 children)
+Gerry Rafferty
+artist pic
+Gerald Rafferty (born on April 16, 1947, in Paisley, UK, and died on 4 January 2011) was a Scottish singer-songwriter. In his early years, Rafferty earned money by the formerly illegal practice of busking on the London Underground. Poetically, his biggest hit, 1978's "Baker Street", discusses busking at a tube station and being a part of the street life. After working with Billy Connolly (now better known as a comedian) in an obscure outfit known as The Humblebums, he released his first solo album, called 'Can I Have My Money Back', in 1971. That collection of folk inspired tunes gained some notice for its deliberately 'old-timey' cover art.
+In 1972, Rafferty and his old school friend Joe Egan formed the outfit Stealers Wheel, a group that proved beset by legal wranglings yet brimming with talent. They had a huge hit with "Stuck in the Middle With You", a pop/rock track deliberately aping the style of Bob Dylan that has had massive airplay for decades. That song also was immortalized in the infamous torture scene in the motion picture 'Reservoir Dogs', the film's soundtrack introducing the group to a new generation. Despite their knack for The Beatles-like melodic rock, Stealers Wheel disbanded in 1975.
+Rafferty spent quite a while in a sort of forced legal limbo before he could record again, spending his time wisely as he developed his sound. In 1978, Rafferty cut a solo album, 'City to City', which would catapult him right into international stardom. Earning praise from many music critics, the release included the song with which he remains most associated: "Baker Street". Known for its gripping lyrics and haunting saxophone solo by Raphael Ravenscroft, the single reached #3 in the U.K. and #2 in the U.S. The album itself also received a boost as another single, "Right Down the Line", picked up major attention.
+"Baker Street" has remained a mainstay of radio airplay for decades and popped up several times in popular culture, an example being its placement in the 'Good Will Hunting' soundtrack. Notable cover versions include a release by Undercover that also made the Top 3 in the U.K .singles chart in 1992. American rockers Foo Fighters also made their own version, swapping the saxophone solo for a guitar solo.
+His next album, Night Owl, also did well, and the title track was a UK No. 5 hit in 1979. The follow-up single "Get It Right Next Time", made the UK Top 40.
+Subsequent albums, such as Snakes and Ladders (1980), Sleepwalking (1982), and North and South (1988) all fared less well, due partly to Rafferty's general reluctance to perform live. "Don't Give Up On Me", from his 1992 collection On A Wing and a Prayer, is a much-featured oldie on BBC Radio 2.
+DISCOGRAPHY
+With the Humblebums
+First Collection of Merry Melodies  (1969)
+The New Humblebums (1969)
+Open Up The Door (1970)
+With Stealers Wheel
+Stealers Wheel (1973)
+Ferguslie Park (1974)
+Right Or Wrong (1975)
+Solo
+Can I Have My Money Back? (1971)
+City To City (1978)
+Night Owl (1979)
+Snakes And Ladders (1980)
+Sleepwalking (1981)
+North And South (1988)
+On A Wing And A Prayer (1992)
+Over My Head (1994)
+Another World (2000)  Read more on Last.fm.
+last.fm
+: 329,769 listeners, 2,329,040 plays
+tags:
+classic rock, soft rock, singer-songwriter, 70s
+Please
+downvote
+if
+incorrect!
+Self-deletes
+if
+score
+is
+0.
+permalink
+embed
+save
+report
+give gold
+reply
+[–]
+durbshas
+1 point
+2 points
+3 points
+15 days ago
+(0 children)
+Unreal cruising song
+permalink
+embed
+save
+report
+give gold
+reply
+[–]
+pabange
+0 points
+1 point
+2 points
+15 days ago
+(0 children)
+One of my favorite songs. A fantastic example of polished, 70's pop at it's best. Rafferty had such a uniquely sweet voice that really took on a special dynamic when double-tracked. Every time I listen to Baker Street I hear different things - behind the fantastic vocal, absolutely EPIC Sax hook and the scorching guitar lead are many gorgeous layers of orchestra, acoustic guitar, synth, lots of percussion, even some backwards guitar in there too - an epic song that for me will forever be the Jersey Shore, 1978 - timeless perfection.
+permalink
+embed
+save
+report
+give gold
+reply
+[–]
+ardvarcus
+0 points
+1 point
+2 points
+15 days ago
+(0 children)
+It's a brilliant song, unlike anything else out there. It was genius to use the sax in the way it was used, but very daring for the time because when the song came out pop music consisted of nothing but electric guitars. Saxophones were considered a relic of the 1950s rock and roll scene.
+Rafferty did two other really epic songs --
+Stuck in the Middle with You
+and
+Right Down the Line
+.
+permalink
+embed
+save
+report
+give gold
+reply
+about
+blog
+about
+source code
+advertise
+jobs
+help
+site rules
+FAQ
+wiki
+reddiquette
+transparency
+contact us
+apps & tools
+Reddit for iPhone
+Reddit for Android
+mobile website
+buttons
+<3
+reddit gold
+redditgifts
+Use of this site constitutes acceptance of our
+User Agreement
+and
+Privacy Policy (updated)
+. © 2017 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+Advertise - entertainment
+π
+Rendered by PID 16824 on  app-414  at 2017-02-15 22:18:42.679191+00:00 running f435f81 country code: US.

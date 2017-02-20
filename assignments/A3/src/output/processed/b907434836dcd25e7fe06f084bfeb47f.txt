@@ -1,0 +1,145 @@
+<![endif]
+<link type="text/css" href="js/social/css/social.css" rel="stylesheet" />
+[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js" ></script><![endif]
+<script type="text/javascript" src="js/social/js/social.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+Programmation
+Archives
+Infos Pratiques
+Le New
+<li><a class="text-menu" id="nav-responsive-galeries" href="galeries" data-role="ajax">Photos</a></li>
+Vidéos
+♫ New Morning Radio
+<li><a class="text-menu" id="nav-responsive-archives" href="archives" data-role="ajax">Ils y ont joué</a></li>
+Programmation
+Infos Pratiques
+<<
+Retour sur le site du New Morning
+Jeudi 16 Février
+Billy Cobham
+Diffusion du concert sur New Morning Radio !
+Jeudi 16 Février
+Billy Cobham
+Diffusion du concert sur New Morning Radio !
+Play !
+Grille des programmes
+Emissions
+Replay
+La radio
+Nous ecouter
+C'était quoi ce titre ?
+Suivre @NMRNowPlays
+Vos prochains rendez-vous
+Soundcheck
+Billy Cobham
+Jeu 16 Feb ► 19h00
+Warmup
+DJ Set by ATN
+Jeu 16 Feb ► 20h00
+35 ANS du NEW !
+Live @ New Morning
+Jeu 16 Feb ► 21h00
+Damn Right In Ya Ears
+La playlist de Real Muzul
+Sam 18 Feb ► 12h00
+Mo'Jazz
+DJ Set by Dick d'Alaise
+Dim 19 Feb ► 12h00
+Jazz Attitudes & Funk Habitudes
+DJ Set by Psycut
+Dim 19 Feb ► 13h00
+Bag of goodies
+DJ Set by Emanuela De Luca
+Dim 19 Feb ► 15h00
+My Silent Way
+DJ Set by Lionel Eskenazi
+Dim 19 Feb ► 17h00
+Music, Food & Cinema
+DJ Set by ATN
+Dim 19 Feb ► 18h00
+Music, Food & Cinema
+DJ Set by ATN
+Dim 19 Feb ► 19h00
+Soundcheck
+Chlorine Free
+Jeu 23 Feb ► 19h00
+Soundcheck
+Vaudou Game
+Ven 24 Feb ► 19h00
+Soundcheck
+John Mclaughlin & The 4th Dimension
+Mer 01 Mar ► 19h00
+Soundcheck
+Black Milk & Nat Turner
+Ven 03 Mar ► 19h00
+Soundcheck
+Nguyên Lê & Ngô Hong Quang
+Lun 06 Mar ► 19h00
+Soundcheck
+Fanga
+Mar 07 Mar ► 19h00
+Soundcheck
+Joe Lovano Classic Quartet
+Jeu 09 Mar ► 19h00
+Soundcheck
+Hadouk
+Mar 21 Mar ► 19h00
+Soundcheck
+John Scofield
+Mer 22 Mar ► 19h00
+Soundcheck
+Charles X
+Jeu 23 Mar ► 19h00
+Soundcheck
+Bim Bam Orchestra
+Lun 27 Mar ► 19h00
+Soundcheck
+Tuck & Patti
+Mar 04 Apr ► 19h00
+Soundcheck
+José James
+Lun 24 Apr ► 19h00
+Soundcheck
+Martha High & The Soul Cookers
+Mer 26 Apr ► 19h00
+TELECHARGER L'APPLICATION
+Télécharger l'application
+Actuellement
+Groove Is In The Heart
+A suivre
+'Round Midnight
+00h00
+Tell Me A Bedtime Story
+01h00
+The Big Blender
+03h00
+A New Morning
+07h00
+What's New
+09h00
+<section id="side-webcam">
+					<div class="titre">Live</div>
+					<div class="titre"><img id="webcam" src="newmorningradio/webcam/cam_1.jpg" width="290" height="218" alt="Live" /></div>
+				</section>
+Suivez-nous sur Facebook !
+New Morning - Radio
+<section id="side-twitter">
+					<div class="titre">Twitter</div>
+					<a class="twitter-timeline" href="https://twitter.com/hashtag/newmorningradio" data-widget-id="590505972357062657">Tweets sur #newmorningradio</a>
+				</section>
+<section id="side-fb">
+					<div class="titre">Facebook</div>
+					
+
+				</section>				
+			</section>
+			<script type="text/javascript">
+			setInterval(function(){
+				$("#webcam").each(function(){
+				   var timeStamp = (new Date()).getTime();
+				   $(this).attr("src", "newmorningradio/webcam/cam_1.jpg?" + timeStamp );
+				});
+			}, 10000);
+			</script>
+Copyright©2017 - New Morning
+Powered by Axone Médias

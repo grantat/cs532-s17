@@ -1,0 +1,256 @@
+<![endif]
+It is taking longer than expected to fetch the next song to play.
+			The music should be playing soon.
+			If you get tired of waiting, you can try reloading your browser.
+Please check our
+Help page
+for information about troubleshooting Pandora on your browser.
+Please ensure you are using the latest
+Flash Player
+.
+If you are unable or do not wish to upgrade your Flash Player,
+please try a different browser.
+Please check our
+Help page
+for information about troubleshooting Pandora on your browser.
+Close
+x
+account_message_close_txt
+account_message_close
+Your Pandora Plus
+subscription
+will expire
+shortly
+.
+More Info
+No Thanks
+Your Pandora Plus trial will expire
+shortly
+.
+Restore
+Close
+Your Pandora Plus trial subscription will expire
+shortly
+.
+Upgrade to continue unlimited, ad-free listening.
+Upgrade Now
+You've listened to
+hours of Pandora this month. Consider upgrading to Pandora Plus.
+More Info
+No Thanks
+Hi
+.
+Pandora
+is using Facebook to personalize your experience.
+Learn More
+–
+No Thanks
+Top Navigation
+Branding Bar
+Upgrade
+sign up
+|
+log in
+|
+help
+Settings
+My Profile
+Help
+Sign out
+no href
+|
+Player Bar
+I’m tired
+of this track
+Move
+track to another station
+New Station
+from
+Song
+from
+Artist
+/cd_menu
+by
+on
+/nowplaying
+/rightcolumn
+Type in artist, genre or composer
+-0:00
+0:00
+Change Skin
+Free personalized radio that
+plays the music you love
+Your Ad Here
+skip
+why ads?
+//ad_container"
+Now Playing
+Music Feed
+My Profile
+Date
+A - Z
+/promobox
+Pandora for your
+/platformPromo
+Live Now
+by
+on
+Your music will be right back…
+Message From
+Publish
+Share...
+Buy
+Video:
+presents
+.
+watch now
+Audio ads help pay our bills. For an entirely ad-free experience, you can
+upgrade
+.
+/home
+track_detail_cached.vm
+Create a Station
+//int-icon-2 i-create-1
+//btn_bg
+Undo like
+Play Sample
+Play Sample
+Share
+Buy
+I Got You (I Feel Good)
+by
+James Brown
+on
+The Best Of James Brown - 20th Century Masters - The Millennium Collection
+Lyrics
+Whoa-oa-oa! I feel good, I knew that I would, now
+I feel good, I knew that I would, now
+So good, so good, I got you
+Whoa! I feel nice, like sugar and spice
+full lyrics
+Whoa-oa-oa! I feel good, I knew that I would, now
+I feel good, I knew that I would, now
+So good, so good, I got you
+Whoa! I feel nice, like sugar and spice
+full lyrics
+Comments
+Leave a comment…
+Report as inappropriate
+bdsmdama63
+I'm feeling it oh so good
+18 days ago
+Report as inappropriate
+Barry N Jamison
+One of James favorite!
+19 days ago
+Report as inappropriate
+frankathreew
+i
+t
+So good
+27 days ago
+Report as inappropriate
+diamondnique
+8
+6
+Love you
+27 days ago
+Report as inappropriate
+a.elydrissi_
+f
+a
+m
+i
+r
+This is my jam;)
+2 years ago
+content_right
+int-1
+track_detail_rCol
+Don't have a Pandora account?
+Sign up
+Already have a Pandora account?
+Log In
+footer
+About
+Advertising
+Gifts
+Businesses
+Submit Your Music
+Blog
+Jobs
+Investor
+Press
+Privacy
+Terms
+Ad Preferences
+© 2017 Pandora Media, Inc., All Rights Reserved.
+				Pandora and the Music Genome Project are registered trademarks of Pandora Media, Inc.
+//mainContainer
+Publish to Facebook - On
+Publish to Facebook - Off
+Options
+We're sorry, but a browser plugin or firewall may be preventing Pandora from loading.
+In order to use Pandora internet radio, please upgrade to a more current browser.
+[if lt IE 7 ]>
+			<p>Internet Explorer users can try installing <a href="https://www.google.com/chromeframe/">Chrome Frame</a></p>
+		<![endif]
+Please check our
+Help page
+for more information.
+It looks like your browser does not support modern SSL/TLS. Please upgrade your browser.
+If you need help, please email:
+pandora-support@pandora.com
+.
+In order to use Pandora internet radio, please upgrade to a more current browser
+or install a newer version of
+Flash
+(v.10 or later).
+In order to use Pandora internet radio, please install
+Adobe Flash
+(v.10 or later).
+skinContainer
+I’m tired
+of this track
+Why
+was this track selected?
+Move
+track to another station
+New Station
+from
+Song
+from
+Artist
+It’s offensive.
+It’s not interesting or relevant.
+I don’t want to hear messages from artists.
+Share this station
+People who also like this
+Station details
+Rename this station
+Delete this station
+Dismiss this station
+Individual song slide
+Container for a stations song slides
+[89, 69, 100, 76, 79, 103, 73, 120, 92, 122, 83, 82, 100, 101, 97, 92, 72, 83, 108, 107, 98, 96, 67, 65, 92, 65, 110, 93, 116, 85, 106, 113, 64, 86, 125, 108, 93, 124, 120, 68, 74, 78, 83, 65, 80, 103, 102, 101, 109, 66, 111, 75, 118, 86, 82, 87, 120, 102, 71, 90, 124, 108, 98, 126, 103, 122, 107, 80, 69, 65, 101, 93, 125, 78, 73, 76, 119, 118, 71, 76, 110, 74, 126, 69, 97, 86, 124, 74, 114, 115, 72, 118, 82, 90, 119, 67, 65, 116, 84, 112, 70, 120, 76, 96, 71, 88, 101, 65, 110, 74, 124, 111, 88, 103, 100, 70, 97, 107, 110, 80, 106, 79, 74, 111, 121, 102, 65, 85, 94, 71, 89, 79, 84, 82, 100, 72, 124, 115, 122, 71, 71, 93, 75, 64, 90, 71, 116, 118, 104, 70, 98, 101, 125, 117, 70, 124, 78, 87, 88, 65, 122, 70, 68, 124, 112, 113, 84, 78, 115, 106, 94, 112, 68, 109, 115, 106, 96, 105, 73, 81, 106, 89, 94, 96, 98, 85, 93, 71, 125, 126, 118, 124, 113, 107, 87, 113, 65, 69, 71, 90, 127, 83, 95, 66, 100, 64, 67, 111, 110, 81, 92, 115, 87, 94, 94, 110, 69, 97, 80, 127, 98, 81, 126, 92, 66, 76, 67, 114, 104, 86, 112, 110, 123, 89, 65, 115, 90, 117, 107, 104, 83, 99, 113, 118, 69, 76, 127, 71, 66, 121, 126, 94, 109, 106, 101, 65, 124, 70, 65, 79, 85, 94, 107, 90, 127, 109, 80, 103, 99, 93, 113, 123, 83, 74, 87, 121, 66, 126, 93, 84, 107, 77, 84, 73, 109, 82, 122, 64, 118, 75, 77, 89, 86, 90, 84, 110, 117, 120, 107, 86, 84, 96, 97, 109, 116, 83, 117, 121, 95, 83, 111, 81, 102, 74, 68, 100, 97, 115, 72, 70, 106, 109, 74, 73, 107, 104, 124, 117, 83, 121, 115, 123, 116, 99, 100, 112, 122, 80, 125, 92, 93, 117, 82, 77, 88, 70, 108, 66, 113, 88, 101, 124, 100, 65, 73, 84, 78, 84, 75, 109, 113, 95, 117, 102, 90, 71, 82, 78, 69, 103, 93, 70, 85, 85, 87, 120, 102, 127, 74, 72, 107, 77, 82, 87, 87, 75, 110, 109, 73, 123, 72, 73, 77, 82, 106, 93, 85, 91, 100, 71, 105, 117, 88, 97, 64, 89, 65, 78, 67, 74, 88, 105, 103, 84, 76, 126, 122, 116, 71, 122, 118, 94, 74, 111, 98, 123, 122, 91, 81, 114, 110, 91, 90, 88, 100, 117, 127, 64, 64, 71, 89, 97, 119, 89, 116, 121, 109, 74, 84, 86, 115, 112, 83, 69, 83, 65, 111, 116, 90, 93, 81, 100, 110, 123, 94, 71, 105, 105, 122, 106, 99, 103, 125, 91, 71, 86, 100, 118, 120, 96, 76, 76, 72, 110, 125, 83, 83, 96, 85, 121, 96, 81, 94, 120, 99, 101, 72, 93, 69, 93, 72, 96, 127, 85, 118, 67, 73, 110, 105, 124, 65, 111]
+Template for a section in the track detail area (no content, just a heading)
+Template for a section in the track detail area that has no content (i.e. no lyrics available)
+Item content for the new station narrative
+Remove this template once AAM Flagging V2 makes it to production
+Item content for the "why this song?" narrative
+Item content for the lyrics section
+Item content for the "About Artist" section
+Individual item for the "Related Artist" section
+Full lyrics credits
+popup menu for the buy button
+Item content for the "About the Episode" section
+Item content for the "About the Episode" section
+Individual item for the "Related Artist" section
+Individual item for the Thumbprint details section
+Inline css is needed so that the print page keeps the format.
+Displayed when the user is logged in
+Authenticated user lands here
+In order to use Pandora internet radio, please enable your browser's JavaScript support.
+BEGIN Krux Control Tag for "pandora.com"
+Source: /snippet/controltag?confid=J85o7FMm&site=pandora.com&edit=1
+END Krux Controltag

@@ -1,0 +1,444 @@
+[if lt IE 7]> <html class="no-js ie6 oldie" lang="fr"> <![endif]
+[if IE 7]>    <html class="no-js ie7 oldie" lang="fr"> <![endif]
+[if IE 8]>    <html class="no-js ie8 oldie" lang="fr"> <![endif]
+[if gt IE 8]> <html class="no-js" lang="fr"> <![endif]
+indication langues alternatives disponnibles
+fin indication langues alternatives
+* A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+This is website logo
+Navigation button, visible on small resolution
+Main navigation
+Écouter
+Programmes
+Top 20
+L'Équipe
+Artistes
+Podcasts
+Newsletter
+Contacts
+code liste déroulante langues
+-
+Langues
+Francais
+Anglais
+Allemand
+fin code liste déroulante langues
+End main navigation
+Start home section
+Start cSlider
+mask elemet use for masking background image
+All slides centred in container element
+Start first slide
+Depuis 2009 sur internet!
+BMC THE FUNKLOPEDIK RADIO
+Votre radio 100% Funk Groove Disco Soul, partout en Françe et dans le monde, 24 hrs sur 24, 7 jours sur 7.
+End first slide
+Start second slide
+100% Pur FUNK!
+Ici la FUNK est dans tous ses états!
+Notre philosophie: Dès lors qu'un titre est GROOVY vous etes susceptible de l'entendre sur nos ondes, peu importe la décennie, le style musical, la provenance...
+En savoir plus
+insert page _playing de SAM-B
+fin insert page_playong SAMB
+End second slide
+Start third slide
+Il a 15 minutes...
+Playlist des 3 titres venant
+d'être diffusés.
+Vous avez kiffé un morceau ? N'hésitez-pas à nous contacter pour obtenir les références du titre et de l'artiste. (Notez bien la date et l'heure du passage).
+Nous contacter
+code Last played Tracks from SAM-B _playingfull
+fin insertion code last played
+End third slide
+Start fourth slide
+Le mur du son !
+Depuis 1975 nous collectionnons
+tout vinyl funk et bien plus.
+N'hesitez pas à nous contacter pour tout renseignements, recherches, et conseils pour enrichir vos collections.
+Nous contacter
+End fourth slide
+Start fifth slide
+Tous les samedi soir !
+Nous rendons hommage à B.SCHU
+Un animateur légendaire qui fût avance sur son temps. Retrouvez l'esprit de B.SCHU dans "William Remets Tes Lunettes".
+Le site Bernard SCHU
+End fifth slide
+Start sixth slide
+BMC sur Facebook
+Rejoignez la page FB de nos projets:
+radio et encyclopedie funk.
+Derniers messages et réactions sur notre facebook, n'hésitez pas, c'est fait pour cela, rejoignez la famille "Masterfunk"...
+La page Facebook BMC
+End sixth slide
+Start cSlide navigation arrows
+End cSlide navigation arrows
+End home section
+Service section start
+Start title section
+Pour nous écouter utilisez ce player...
+lien page player 2015
+fin include player 2015
+partie bouton pop-up player
+fin code yourmuze
+Let's get funky, cliquez sur le bouton "play"
+fin code bouton pop-up player
+début insertion code vote
+Exprimez-vous !...
+Votre navigateur ne prend pas en charge les cadres insérés ou est actuellement configuré pour ne pas les afficher.
+fin insertion code vote titres
+Section's title goes here
+Vous avez un Smartphone ? 
+					Écoutez-nous avec notre
+application gratuite "Player Black-Music-Collectors" disponible 
+					sur :
+Free
+Android
+BMC App...
+Free
+iTunes
+BMC App...
+Où utilisez un des moyens d'écoute ci-dessous :
+Simple description for section goes here.
+flux 128
+Écoutez BMC avec Winamp
+en Haute-Définition.
+Flux 128 Kps (m3u).
+Écoutez BMC avec Windows Média Player en Haute-Définition.
+Flux 128 Kps (pls).
+Écoutez BMC avec iTunes
+en Haute-Définition.
+Flux 128 Kps (asx).
+flux 64
+Écoutez BMC avec Winamp
+en bas-débit.
+Flux 64 Kps (m3u).
+Écoutez BMC avec Windows Média Player en bas-débit.
+Flux 64 Kps (pls).
+Écoutez BMC avec iTunes
+en bas-débit.
+Flux 64 Kps (asx).
+Service section end
+Notre programmation
+BLACK MUSIC COLLECTORS diffuse depuis 2008 sur le web. Tous les titres 
+					diffusés, sont issus de 
+					nos collections vinyles et digitales personnelles, fortes de plus de 15.000 pièces.
+Prêts pour une expérience musicale FUNKTASTIQUE ? Écoutez, appréciez, partagez, revenez...
+Au programme...
+Programmation Funk
+Autres styles programmés
+Nos partenaires
+Start details for portfolio project 1
+BMC c'est de la "méga-funk" dans ta 
+									face!
+Artistes FUNK diffusés sur BMC, entre autre: Cameo, T-Connection, 
+								Slave, Steve Arrington, General Kane, Dayton, 
+								Switch, Chocolate Milk, Earth, Wind & Fire, 
+								James Brown, Prince, André Cymone, Average White 
+								Band, Bohannon, Brick, Chic, Dazz Band, Fatback, 
+								Graham Central Station, Mass Production, MTume, 
+								One Way, Shock, Roy Ayers, et plein plein d'autres...
+End details for portfolio project 1
+Start details for portfolio project 2
+"The BEAT"!
+Le rap "old school", c'est l'ancêtre du rap 
+								moderne et du hip-hop. Tout à débuté en 1978, et 
+								nous vous proposons de (re) découvrir la plupart 
+								des classiques de ces années allant de 1978 à 
+								1982, mais aussi de vous faire écouter de 
+								nombreux titres Rap inconnus en France, car 
+								extrêmement difficiles à trouver à l'époque..
+Vous pourrez donc écouter ici; Afrika Bambaataa, C.C. Crew, Camelot 
+								II, Captain Sky, Count Coolout, Doctor Ice, 
+								DougE. FResh, Grandmaster Flash, Grandmaster 
+								Melle Mel, Jimmy Spicer, Kurtis Blow, Master 
+								Jay, Phase II, Spoonie Gee, The Disco Four, The 
+								Treacherous Three, Warp 9 et d'autres petites 
+								pépites...
+Le catalogue incontournable SUGAR HILL records est bien 
+									évidemment de la partie.
+End details for portfolio project 2
+Start details for portfolio project 3
+La Masterfunk Family.
+La MasterFunk Familly c'est un concept qui 
+								remonte au début des années 1980, et à 
+								l'émergence des radios libres en France. Masterfunk c 'est avant tout une émission de 
+								radio animée par Mike Mini, qui à pu renaître de 
+								ses cendres grâce à BMC sur les ondes en mode 
+								internet depuis 2015.
+MasterFunk c'est aussi un collectif qui 
+									gravite dans le monde musical, et notamment 
+									via la Musique Académie Internationale de 
+									Nancy, mais aussi dans l'art et la culture Hip-Hop.
+En savoir plus sur la M.A.I de NANCY
+End details for portfolio project 3
+Start details for portfolio project 4
+Périodiquement des focus sur des 
+									Artistes et groupes
+BMC à pour vocation de faire découvrir au 
+								travers des titres programmés, la discographie 
+								d'artistes et groupes Funk, majeurs, mais aussi 
+								de mettre en avant celles d'artistes moins 
+								connus, pour lesquels nous estimons qu'il faut 
+								réparer l'oubli.
+A titre d'exemple, nous avons déjà fait 
+									des programmations spéciales sur: Cameo, 
+									Bohannon, Foxy, The Reddings, Larry Graham, ... Prince
+End details for portfolio project 4
+Start details for portfolio project 5
+Say What ?
+La Go-Go, c'est un style musical bien 
+								trempé, 
+								délimité à une zone géographique bien définie; 
+								Washington D.C.
+Vous adorez la basse, les percussions, 
+									les rythmes répétitifs et envoutant, ... 
+									restez sur BMC , et vous entendrez les 
+									artistes de ce mouvements musical tel que 
+									bien évidemment Chuck Brown, Trouble Funk, 
+									Experience Unilimited, Mass Extension, mais 
+									aussi Northeast Groovers, Optymistic Tribe, 
+									Rare Essence...et bien d'autres de la scène 
+									locale de Washington.
+End details for portfolio project 5
+Start details for portfolio project 6
+Retrouvez les interviews de SoulInterviews.com.
+Depuis, février 2017, retrouvez chaque 
+								semaine les interviews exclusifs réalisé par DJ 
+								Soulswede !
+Depuis 2008, plus de 75 interviews ont 
+									été réalisés auprès d'artistes légendaires, 
+									dont certains d'entre-eux nous ont 
+									malheureusement quitté depuis.
+En partenariat avec
+http://www.soulinterviews.com/
+(Syndication), retrouvez tous les LUNDI matin à 
+								04h00 (CET+0) ces interviews (En Anglais).
+End details for portfolio project 6
+Start details for portfolio project 7
+Les Labels légendaires sont sur BMC !
+BMC met également en avant le catalogues des 
+								plus emblématiques maisons de disque Funk, et 
+								Groove-Funk de New York et des des U.S.
+Retrouvez donc sur nos ondes des titres 
+									issus des catalogues devenus incontournables 
+									au cours des décennies tels que, SALSOUL, 
+									PRELUDE, WEST-END, SOLAR, TABU et bien 
+									évidemment MOTOWN et PHILADELPHIA 
+									INTERNATIONAL.
+End details for portfolio project 7
+Start details for portfolio project 8
+De la DISCO mais pas que...!
+Le week-end, comme à la grande époque du 
+								DISCO, c'est le temps d'aller au "Boogie Palace" 
+								comme aurait dis Ace dans "Funky Cops".
+Le samedi nous programmons des classiques 
+									du Disco, mais nous vous proposons 
+									également d'écouter des morceaux plus rares 
+									que nous classons pour notre part dans le 
+									genre "Disco Obscure" ou "Disco improbable", 
+									et aussi des titres datant des années 
+									charnières 1973 et 1974, titres 
+									qui à l'époque n'étaient pas estampillés 
+									Disco mais qui ont contribué à son essor.
+Le week-end c'est "Party Time" sur BMC 
+									radio!
+End details for portfolio project 8
+Start details for portfolio project 9
+"ICEMOSIS" qu'est-ce que s'est?
+Imaginez un film sur l'histoire du groupe 
+								CAMEO ? De sa formation, en passant par ses 
+								premiers enregistrements, sa signature du contrat 
+								avec un major et ses premiers concerts ? bref un 
+								film sur l'histoire de la FUNK... et de 
+								CAMEO.
+Et bien, c'est le projet ICEMOSIS, initié 
+									par Nate C. Williams, et que nous espérons 
+									ardemment voir aboutir. C'est pourquoi, nous 
+									ici on le soutient depuis des années. Vous pourrez au gré de notre 
+									programmation entendre les trois titres 
+									enregistrés par ce groupe fictif, mais 
+									réellement écrit, et interprétés par nul 
+									autre que Tomi 
+									Jenkins !!!
+End details for portfolio project 9
+BMC, de la méga-Funk dans ta face
+7 jours sur 7 , 24 heures sur 24...
+BMC, du rap Ol' School style
+Des galettes rap et hip-hop rares...
+BMC, c'est la MasterFunk family
+Notre radio est un des projets MASTERFUNK...
+BMC, c'est des Discographies
+Des programmations dédiées à des Artistes...
+BMC, c'est de la Go-Go
+Nous, on adore cela et on vous en fait profiter...
+BMC et Soulinterviews.com
+En exclusivité les interviews de DJ Soulswede...
+BMC, c'est SASLOUL, PRELUDE...
+Et d'autres labels légendaires programmés...
+BMC, est aussi D I S C O
+Le Studio 54, c'est le week-end...
+BMC et le projet ICEMOSIS
+Un projet cinématographique inédit...
+Portfolio section end
+About us section start
+L'Équipe BMC radio
+Une équipe réduite, des collectionneurs fous, un 
+					maximum de sons improbables à vous offrir !
+"Masterfunk" Mike
+Responsable Technique
+Ingénieur du son, animation, réalisation de jingles, montages vidéo, et Responsable des Emissions "MasterFunk On Radio", "MasterFunk On TV" et de la "Bass Battle" de la MAI...
+Laurent" "12:25"
+Directeur des programmes
+Fondateur de la webradio. Responsable technique de la plateforme "Live". En charge de l'émission "Funklopedik Masters Series". Responsable communication et espaces publicitaires.
+Bernard "K"
+Programmation Musicale, Remasterisation des morceaux, archivages numériques
+Animation de l'émission "Witness Of My Soul"
+A propos de la l'équipe de la radio BMC:
+Remontons le temps... En fait on s'est tous rencontré 
+					autour des années 1980, par le biais de notre passion 
+					naissante...la musique, FUNK. Nous avons tous les trois 
+					participé également à l'éclosion de plusieurs radio-libres 
+					sur NANCY dès les années 1980 (
+Vitamin' 101, Agora Fm,...
+), et c'est 
+					d'ailleurs là, que la vocation 
+					de
+Mike
+est née pour la radio FM. Il a ensuite travaillé pour 
+					le groupe NRJ à Nancy pendant plus de 15 années.
+Bernard
+, à l'origine, lui a officié en tant que D.J. dans 
+						un club connu à NANCY (
+Le Kent
+) et  à longtemps été dans le cercle des 
+						magasins de disque, en indépendant (
+Orphée Musique
+) ou en tant que 
+						collaborateur sur la région EST (
+Le Hall Du Livre, 
+						Nuggets à Nancy
+).
+Quant à
+laurent
+, même si professionnellement il s'est 
+						orienté vers un tout autre horizon, sa passion musicale 
+						à toujours été là et exponentielle. La collectionnite 
+						aigue l'a d'ailleurs frappé !
+Alors, lorsqu'en 2008, la start-up "
+Radionomy
+" basée à Bruxelles, à 
+						lancé son projet , on y a tout de suite cru, et 
+						on a aussitôt postulé pour créer notre radio BMC, radio qui fût 
+						l'une des première à être acceptée. Depuis l'aventure sur 
+						les "ondes" ou plutôt sur internet continue, et nous sommes fiers de pouvoir 
+						partager tous ces grooves à travers le monde entier.
+Les ingrédients de notre programmation:
+100% funk garanti
+Une majorité de titres des années 1975-1985
+Du Rap et de la Go-GO
+Une dose de titres de la Detroit-MOTOWN de de la Philadelphia.
+Autres programmations
+Bien sûr, une grosse majorité de notre 
+							programmation est issue de titres enregistrés aux 
+							États-Unis. Mais ce n'est pas notre source unique 
+							d'inspiration. 
+							Nous diffusons aussi des artistes originaires d'Angleterre, 
+							de France, d'Allemagne, 
+							ou d'Afrique, car La FUNK est internationale et 
+							universelle.
+Si toutefois vous souhaitez nous demander un 
+								titre à inclure dans la programmation, n'hésitez 
+							pas !
+Contactez-nous
+About us section end
+GROOVE (Def.) Une sensation et une énergie spécifique appliquée à un rythme régulier.
+Client section start
+Client section start
+Artistes Diffusés
+Galettes funk en rotation...
+Price section start
+Les derniers Podcasts
+Les podcasts de la Masterfunk Family.
+debut liste des trois derniers podcasts
+Tribute 2 SCHU
+Volume 2016.05
+Publié par:
+Laurent "12:25"
+Durée:
+01:54:28
+PLAY
+INFO
+M.A.I Bass Battle '16
+Publié par:
+"MasterFunk" Mike
+Durée:
+00:47:09
+PLAY
+INFO
+Tribute 2 SCHU
+Volume 2016.01
+Publié par:
+Laurent "12:25"
+Durée:
+01:31:30
+PLAY
+INFO
+fin de liste des 3 derniers podcasts
+bouton acces podcasts
+Tous les Podcasts sur notre site
+Tous nos Podcasts sur iTunes
+fin boutons acces aux podcasts
+Price section end
+Newsletter section start
+Newsletter
+Well done!
+You successfully subscribet to our newsletter.
+Vous avez la possibilité de vous inscrire à notre 
+						newsletter pour rester informé quant à nos projets : radio et 
+						publications médias...
+Please provide valid email address.
+S'INSCRIRE
+SE DÉSINSCRIRE
+Newsletter section end
+Contact section start
+Des questions
+? des commentaires ?...
+Envoyez-nous vos remarques à l'aide du formulaire ci-dessous.
+Chargement du plan...
+Nous envoyer un message
+Bien joué!
+Votre message a bien été énvoyé.
+Une erreur est survenue.
+Veuillez saisir votre NOM.
+Veuillez saisir une adresse courriel valide.
+Veuillez ajouter votre message.
+Envoyer
+BMC - The Funklopedik Radio
+™
+contact@black-music-collectors.com
+Partagez notre radio...
+Devenez accro au Funk!
+Intégrez la famille MasterFunk.
+Contact section edn
+Footer section start
+Radio Locale
+-
+Infogérance
+Alexandre Thiebaut / Créations logos
+© 2013 Theme by
+GraphBerry
+,
+Documentation
+© 2016/Today, Adapté par le BMC Crew.
+Footer section end
+ScrollUp button start
+ScrollUp button end
+Include javascript
+Load google maps api and call initializeMap function defined in app.js
+css3-mediaqueries.js for IE8 or older
+[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]

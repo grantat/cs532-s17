@@ -1,0 +1,231 @@
+endif
+Favicons - the standard .ico file is uploaded to the theme root and automatically pulled in by Drupal
+[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <link type="text/css" rel="stylesheet" href="/sites/all/themes/bournemouth/assets/css/ie.css">
+    <![endif]
+Selectivizr for nth-child support in older IE
+[if (gte IE 6)&(lte IE 8)]>
+      <script type="text/javascript" src="/sites/all/themes/bournemouth/assets/js/selectivizr-min.js"></script>
+    <![endif]
+Google Tag Manager
+End Google Tag Manager
+googleoff: index
+googleoff: snippet
+Skip to main content
+Bournemouth University
+utility.tpl.php
+Students
+Staff
+Alumni
+Home
+Why BU?
+Employability
+Fusion
+Local area
+Student life
+Student wellbeing
+SportBU
+Clubs and societies
+Accommodation
+BU Events
+Study
+Undergraduate
+Postgraduate
+Postgraduate research
+International
+Continuing Professional Development and Training
+Research
+Themes
+Centres
+Impact
+Environment
+Postgraduate
+Our latest research
+Research Chronicle
+British Conference of Undergraduate Research
+Collaborate
+Community
+Business
+Partnerships
+Teachers and advisers
+AFC Bournemouth
+Alumni
+Support BU
+Student Project Bank
+Global BU
+About Global BU
+Global engagement
+Student mobility opportunities
+Global Talent Programme
+Student stories
+Global BUzz
+About
+Our people
+Our faculties
+Vision and values
+Regional engagement
+Sustainability
+Professional Services
+Governance
+Awards
+Jobs
+News & Events
+Contact us
+Students
+Careers and employability
+Health & wellbeing
+Things to do
+Learning
+Help & advice
+Log-in services
+Academic dates
+Library
+Services on campus
+Postgraduate researchers
+Res Life
+Contact us
+More+
+Accommodation
+Alumni
+Courses
+Jobs
+Library
+Services to business
+Staff Profiles
+Students
+//.wrapper
+//.page-header
+Home
+About
+News & Events
+Events
+Jazz and Swing Concert
+node_title.tpl.php
+Feb
+1
+Jazz and Swing Concert
+Appears in the sidebar on news pages
+googleon: index
+googleon: snippet
+markup-sidebar--node-event.tpl.php
+An evening of jazz and swing with University Music Big Band and Southampton University Big Band.
+At Dylans’ Bar, Poole House, Talbot Campus, 8.30pm on Wednesday 1 February.
+Open to all. Admission free.
+Visit the website for more information about the
+University Music Big Band
+or download the
+Spring 2017 events programme
+.
+Jazz & Swing concert 1 February 2017
+Date
+Wednesday, 01 February 2017 20:30
+Event type
+Concert
+Other upcoming events
+See all upcoming events
+Jan
+16
+- Feb
+25
+Wrecked at BU
+An exhibition of the current and past projects of the Marine Archaeology department, includes 3D models, 3D prints, objects from a number of underwater and intertidal sites and both underwater and aerial footage.
+Feb
+15
+ALS Workshop: MatchWare MindView
+Additional Learning Support are running a workshop for students who use the MatchWare MindView software. You will be using your own device to learn the basics of organisation and planning your work.
+Feb
+15
+ALS Workshop: Enhance your personal skills for employment
+Additional Learning Support are running a workshop to help to identify and enhance your personal skills and qualities for employment.
+Feb
+15
+Meet the Entrepreneur: Olly Whittle (BudiPay)
+Dorset Entrepreneur, Ollie Whittle, founder of mobile payment app 'BudiPay', will be talking about his experiences as a business owner and how to fund and grow an innovative business
+googleoff: snippet
+googleoff: index
+/main
+About
+Vision
+Jobs
+News
+Events
+Governance
+People
+Research
+Quick links
+myHub
+Attend an open day
+Accommodation
+Courses
+Request a prospectus
+Our faculties
+Academic dates
+Charitable status
+Modern Slavery and Human Trafficking Statement
+Get in touch
+Contact us
+Visit us
+Information for:
+Applicants
+Arriving students
+Alumni
+Businesses
+Current students
+Parents and carers
+Staff
+Care leavers
+LinkedIn
+Google+
+Facebook
+Twitter
+Bournemouth University, Fern Barrow, Poole, Dorset, BH12 5BB, United Kingdom
+Tel: +44 (0)1202 524111 Fax: +44 (0)1202 962736 Email: askBU@bournemouth.ac.uk
+© Bournemouth University 2006 - 2017. All rights reserved.
+Charitable status
+Website privacy & cookies
+Copyright and terms of use
+Undergraduate
+Undergraduate courses
+Fees and funding
+How to apply
+Meet us
+Accommodation
+Prospectus
+Entry requirements
+Academic dates
+Information for parents and carers
+Postgraduate
+Postgraduate courses
+Fees and funding
+How to apply
+Meet us
+Accommodation
+Prospectus
+Entry requirements
+Courses starting in January
+Postgraduate research
+Postgraduate research courses
+Fees and funding
+How to apply
+PhD Studentships
+Research at BU
+The Graduate School
+International
+BU in your country
+Fees and funding
+English language requirements
+Preparatory programmes
+Immigration
+International entry requirements
+International students already in the UK
+Meet us
+Continuing Professional Development and Training
+CPD and training
+CPD for health care professionals
+Short courses
+Faculties
+Faculty of Health & Social Sciences
+Faculty of Management
+Faculty of Media & Communication
+Faculty of Science & Technology

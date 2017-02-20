@@ -1,0 +1,170 @@
+[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://playfm.nl/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]
+[if IE  8]><link rel="stylesheet" type="text/css" href="http://playfm.nl/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]
+QT STYLES DYNAMIC CUSTOMIZATIONS ===================================================================
+QT STYLES DYNAMIC CUSTOMIZATIONS END ===================================================================
+CSS styles added by QT Subpages Plugin
+Home
+Nieuws
+Programmering
+Hitlijsten
+Uitzending Gemist
+Adverteren
+VACATURES
+Contact
+100
+<i class="mdi-av-volume-down"></i>
+PlayFM
+Home
+Nieuws
+Programmering
+Hitlijsten
+Uitzending Gemist
+Adverteren
+VACATURES
+Contact
+Share this page on:
+Twitter
+Facebook
+Google+
+Pinterest
+Now On Air
+NIGHTSHIFT
+[...]
+Discover More
+Upcoming shows
+NIGHTSHIFT
+00:00
+06:00
+PLAY THE MORNING
+06:00
+09:00
+BACK TO THE 00'S
+09:00
+10:00
+NONSTOP
+10:00
+12:00
+GIVE ME THE SUMMER
+12:00
+13:00
+NIGHTSHIFT
+00:00
+06:00
+PLAY THE MORNING
+06:00
+09:00
+BACK TO THE 00'S
+09:00
+10:00
+NONSTOP
+10:00
+12:00
+GIVE ME THE SUMMER
+12:00
+13:00
+NIGHTSHIFT
+00:00
+06:00
+PLAY THE MORNING
+06:00
+09:00
+BACK TO THE 00'S
+09:00
+10:00
+NONSTOP
+10:00
+12:00
+Mitchell.FM (Herhaling)
+12:00
+14:00
+qt-headerbar
+qt-headerbar-end
+================================================================================ end header.php ==============================================================
+WE PLAY THE MUSIC
+DOWNLOAD OOK ONZE APP
+PlayFM NIEUWS
+Read more
+Céline Dion komt weer naar Nederland
+View more
+Céline Dion komt weer naar Nederland
+Read more
+Martin Garrix in actie voor War Child
+View more
+Martin Garrix in actie voor War Child
+Read more
+Dua Lipa wint publieksprijs
+View more
+Dua Lipa wint publieksprijs
+Read more
+Ariana Grande en John Legend in Beauty and the Beast
+View more
+Ariana Grande en John Legend in Beauty and the Beast
+Read more
+Justin Bieber en Usher komen er goed vanaf
+View more
+Justin Bieber en Usher komen er goed vanaf
+Read more
+9e editie Eurovisionconcert uitverkocht
+View more
+9e editie Eurovisionconcert uitverkocht
+Read more
+Liam bevestigd dat One Direction weer bij elkaar komt
+View more
+Liam bevestigd dat One Direction weer bij elkaar komt
+Read more
+Ook Martin Garrix en Kings of Leon staan op Pinkpop
+View more
+Ook Martin Garrix en Kings of Leon staan op Pinkpop
+Read more
+Dotan start zijn eigen platenlabel
+View more
+Dotan start zijn eigen platenlabel
+Read more
+Meghan Trainor kan niet meer optreden
+View more
+Meghan Trainor kan niet meer optreden
+Read more
+Ook Waylon plukt de vruchten
+View more
+Ook Waylon plukt de vruchten
+Read more
+Madonna aan de karaoke
+View more
+Madonna aan de karaoke
+Play FM MEGAHIT
+JP Cooper - September Song
+TOP 10
+Read more
+TOP 10 03-02-2017
+View more
+TOP 10 03-02-2017
+Read more
+TOP 10 27-01-2017
+View more
+TOP 10 27-01-2017
+Read more
+TOP 10 20-01-2017
+View more
+TOP 10 20-01-2017
+Read more
+TOP 10 13-01-2017
+View more
+TOP 10 13-01-2017
+Read more
+TOP 10 06-01-2017
+View more
+TOP 10 06-01-2017
+Read more
+TOP 10 30-12-2016
+View more
+TOP 10 30-12-2016
+Read more
+TOP 10 30-09-2016
+View more
+TOP 10 30-09-2016
+Read more
+TOP 10 16-09-2016
+View more
+TOP 10 16-09-2016
+ALLE HITLIJSTEN
+Copyright ©2016-2017 Play FM - ALL RIGHTS RESERVED

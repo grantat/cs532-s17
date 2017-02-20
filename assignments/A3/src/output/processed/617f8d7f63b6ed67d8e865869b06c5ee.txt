@@ -1,0 +1,348 @@
+[if IE]>
+        <link rel="stylesheet" href="https://www.etsy.com/ac/primary/css/listings3/ie.20170111162340.css" type="text/css"  />
+    <![endif]
+additive with the og: tags
+[if lt IE 9]>
+        <script src="https://site.etsystatic.com/ac/primary/js/polyfill/html5shiv.20170111162341.js" type="text/javascript" crossorigin></script>
+    <![endif]
+[if lte IE 8]>
+    <body
+    class="transitional-wide
+     
+    wide-extended gradient-bg    reduced-webfonts guest  no-touch en-US is-global-nav
+ lte-ie8"
+    data-language="en-US"    >
+<![endif]
+[if IE 9]>
+    <body
+    class="transitional-wide
+     
+    wide-extended gradient-bg    reduced-webfonts guest  no-touch en-US is-global-nav
+ ie9"
+    data-language="en-US"    >
+<![endif]
+[if gt IE 9]><!
+<![endif]
+Close
+Beginning of a dialog window, including tabbed navigation to register an account or sign in to an existing account. Both registration and sign in support using google and facebook accounts.  Escape will close this window.
+Register
+Sign in
+Get started
+Continue with Facebook
+Continue with Google
+We'll never post without your permission.
+OR
+Enter your email
+Have an account?
+Sign in
+Just one more step…
+Create your Etsy password
+Create Your Etsy Account
+Continue with Facebook
+Continue with Google
+We'll never post without your permission.
+OR
+First Name
+Names on Etsy are public, but optional.
+Last Name
+Email
+Your confirmation will be sent to your email address.
+Your confirmation will be sent to %email%.
+Password
+Confirm Password
+Username
+Other suggestions:
+Use our suggestion or enter your own
+I want to receive Etsy Finds, an email newsletter of fresh trends and editors' picks.
+By clicking Register, you agree to Etsy's
+Terms of Use
+and
+Privacy Policy
+. Etsy may send you communications; you may change your preferences in your account settings.
+Uh oh! You need to have cookies enabled to sign in.
+Welcome back
+Nice—you already have an Etsy account.
+Sign in with Facebook
+Sign in with Google
+OR
+Email or Username
+Password
+Stay signed in
+Forgot your password?
+Forgot your username or email?
+Reopen your account?
+[if lte IE 7]>
+<div id="gnav-header" class="global-nav clear lte-ie7" data-count-ajax=true>
+<![endif]
+Etsy
+Search
+Search for items or shops
+Search
+Skip to Content
+Sell on Etsy
+Sell
+Register
+Sign in
+Cart
+Clothing & Accessories
+Jewelry
+Craft Supplies & Tools
+Weddings
+Entertainment
+Home & Living
+Kids & Baby
+Vintage
+More
+Clothing & Accessories
+Jewelry
+Craft Supplies & Tools
+Weddings
+Entertainment
+Home & Living
+Kids & Baby
+Vintage
+Take full advantage of our site features by enabling JavaScript.
+Learn more
+[if IE 7]>
+        <div></div>
+    <![endif]
+Close
+Whoa! You can't favorite your own shop.
+Close
+Whoa! You can't buy your own item.
+Close
+Whoa! You can't favorite your own item.
+Close
+Whoa! You can't add your own item to a list.
+Close
+Full!
+Add this item to a treasury!
+Close
+You don't have any treasuries yet. Enter a title below to create one.
+You must select an existing treasury or provide a name for your new treasury.
+Treasury
+New Treasury
+Treasury Title
+Add
+Loading...
+Close
+This item has been added.
+View your treasury.
+WolfiesBindery
+Favorite shop
+278
+items
+Favorite
+Favorited
+Like this item?
+Add it to your favorites to revisit it later.
+Main Image
+◅
+▻
+🔎
+zoom
+Item details
+5 out of 5 stars.
+(814)
+reviews
+Shipping & Policies
+Journal for Those Who "Write in Tune"
+For the Musician and Composer
+A Number of My Clever Customers Have Repurposed These As Wedding Guest Books.
+All book cases are completely HANDMADE using traditional methods & materials. They are finished in a marvelous antique cast iron bookpress.
+Music Staff Paper Book 40 double sided pages
+Approximate Size: 10 x 7
+Text Block: Handmade • Folded Sewn Signatures • Reinforced Spine • Woven Headband • Fountain pen friendly cream paper • Blocks are printed with staffs to write music notation• Satin Ribbon Marker
+Cover: IItalian Paper "ALL that JAZZ".  French Blue Asahi Spine.
+Choose a Free Bookplate and add your selection to NOTES at checkout.
+Traditionally Bookplates are attached to the first page of a book with the owner's name.
+These are all vintage bookplates. You just add your name, I do not inscribe the bookplates.
+Custom inquiries welcomed.
+MUSIC
+Meet
+the
+owner
+of
+WolfiesBindery
+Learn more about the shop and process
+Robin Chevalier
+.right
+Music Staff Paper Book All that JAZZ
+Ask a question
+$25.00
+Only 1 available
+Add to cart
+<h3>Item Overview</h3>
+Overview
+Handmade item
+Materials:
+Music Staff Paper Book, Italian Decorative Paper, Antioch Bookplate, Binders Board, Woven Headband, Bookcloth, Satin Ribbon, READY TO SHIP
+Ships from
+United States
+to
+select countries
+.
+Feedback:
+814 reviews
+This shop accepts Etsy gift cards
+#cart
+Favorite
+Favorited
+Add to
+Added
+Tweet
+Pin It
+Share on Tumblr
+#share
+WolfiesBindery
+in
+Katonah, New York
+Music Staff Paper Book SHEET MUSIC
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Music Staff Paper Book Silver Arabesque
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Music Staff Paper Book Dandelions and Queen Anne's Lace
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Music Staff Paper Book Trios Reserved
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Music Staff Paper Book Tarantella
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Music Staff Paper Book A Delicate Filigree
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Music Staff Paper Book CARIBBEAN SUNRISE
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Music Staff Paper Book FULL BLOOM
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Related to this item
+Books, Movies & Music
+Books
+Blank Books
+Journals & Notebooks
+Blank Book Music
+Blank Journal Music
+Blank Music
+Blank Book Notebook
+Music guestbook
+guestbook wedding
+Wedding guestbook
+music notebook
+music journal
+repurposed guestbook
+Music composition
+Music Staff Lines
+Music Teacher
+Listed on Jan 17, 2017
+100 views
+Report this item to Etsy
+Ships to
+United States
+Canada
+Footer
+Get top trends and fresh editors' picks in your inbox with Etsy Finds.
+Subscribe
+Please enter a valid email address.
+Looks like you already have an account! Please
+Log in
+to subscribe.
+You've already signed up for some newsletters, but you haven't confirmed your address.
+Register
+to confirm your address.
+You've been successfully signed up!
+Great! We've sent you an email to confirm your subscription.
+There was a problem subscribing you to this newsletter.
+New to Etsy?
+Register
+Sign in
+Turn your passion into a business
+Open a shop
+Sell on Etsy
+Open a shop
+Seller Handbook
+Etsy credit card reader
+Manufacturing
+Join the community
+Teams
+Forums
+Upcoming events
+Affiliates
+Etsy Local
+Discover and shop
+Gift cards
+Blog
+Mobile apps
+Gift registries
+Wholesale
+Search
+Editors’ Picks
+Get to know us
+About
+Policies
+Careers
+Press
+Developers
+Investors
+Follow Etsy
+Facebook
+Twitter
+Pinterest
+Instagram
+United States
+English (US)
+$
+            (USD)
+© 2017 Etsy, Inc.
+Legal
+Privacy
+Interest-based ads
+Help
+web0011.ny2.etsy.com at Wed 15 02 17:08:21 2017 in 213 ms
+Begin mPulse
+End mPulse

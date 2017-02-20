@@ -1,0 +1,36 @@
+This site is optimized with the Yoast SEO plugin v4.3 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+Main Menu
+Música
+Lo más reciente
+Playlists
+Reseñas de Discos
+Entrevistas
+Propuestas Freim
+Editorial
+Editoriales
+Freim Quiz
+Letras
+Archivo
+Revista
+Festivales
+Vive Latino
+Carnaval de Bahidorá
+Festival Ceremonia
+Festival NRMAL
+Corona Capital
+Tropico
+H&H Fest
+Gigs
+Cine, Series y TV
+Tendencias
+Tatuajes
+Próximos Conciertos
+Calendario
+Venues
+Freim TV
+top-nav
+top-bar
+logo open
+logo close
+nav open
