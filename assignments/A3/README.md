@@ -1,11 +1,10 @@
-# Assignment 2
+# Assignment 3
 
 Written in python 3.6.
 
 Dependencies used:
 
-- tweepy
-- requests
+- beautifulsoup
 
 To install dependencies use the following command:
 
