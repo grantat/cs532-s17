@@ -4,14 +4,7 @@ Links & Descriptions
 Beautiful soup ref: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 beautiful soup can parse the document
 
-tweepy usage for filtering
-http://adilmoujahid.com/posts/2014/07/twitter-analytics/
-
-requests python library usage - Kenneth Reitz,Cory Benfield, Ian Cordasco
-http://docs.python-requests.org/en/master/
-
-sort/uniq in python
-http://stackoverflow.com/questions/19764655/sort-and-get-uniq-lines-of-file-in-python
+http://www.worldwidewebsize.com/
 
 --------
 Notes
@@ -19,3 +12,24 @@ Notes
 
 303 See Other from nytimes post
 
+prchecker:
+https://www.youtube.com/watch?v=_6mtcKN1o-E
+9
+http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/?utm_campaign=shareaholic&utm_medium=twitter&utm_source=socialnetwork
+6
+http://www.lapetitemortgallery.com/nyc-artist-james-brown-drawing/
+4
+http://www.newslocker.com/en-us/music/r-and-b-hip-hop-news/see-this-amazing-nj-teen-blend-hop-hop-jazz-and-rampb-on-youtube-njcom/
+2
+https://www.youtube.com/watch?v=jbe_1sNGQ2o
+9
+http://www.lctmag.com/operations/news/719804/empirecls-adds-mci-luxury-buses-with-3-point-seatbelts?utm_source=dlvr.it&utm_medium=twitter
+5
+https://www.talkbass.com/threads/fender-marcus-miller-mij-jazz-with-j-east-preamp.1266114/?utm_source=dlvr.it&utm_medium=twitter
+4
+https://www.theatlantic.com/entertainment/archive/2017/01/missy-elliott-im-better-jamiroquai-automaton-videos/514736/?utm_source=twb
+8
+http://thesop.org/story/20170131/judyth-piazza-interviews-renowned-jazz-vocalist-jan-daley.html
+4
+https://www.youtube.com/watch?v=C7uYx1J0hzU
+9
