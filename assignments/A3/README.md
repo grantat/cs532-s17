@@ -1,6 +1,6 @@
 # Assignment 3
 
-Written in python 3.6.
+Written in python 3.6. Report found [here](./docs/assignment3.pdf).
 
 Dependencies used:
 
@@ -11,6 +11,12 @@ To install dependencies use the following command:
 ```shell
 $ pip3 install -r requirements.txt
 ```
+
+There is also an R dependency used for this assignment:
+
+- Kendall
+
+Used to calculate Kendall Tau_b.
 
 # Assignment Details
 

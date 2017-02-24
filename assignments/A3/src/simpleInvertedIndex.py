@@ -1,3 +1,6 @@
+"""
+TAKEN DIRECTLY FROM: http://rosettacode.org/wiki/Inverted_index#Simple_inverted_index
+"""
 from pprint import pprint as pp
 from glob import glob
 try: reduce

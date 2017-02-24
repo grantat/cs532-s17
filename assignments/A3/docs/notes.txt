@@ -6,12 +6,25 @@ beautiful soup can parse the document
 
 http://www.worldwidewebsize.com/
 
+http://rosettacode.org/wiki/Inverted_index#Simple_inverted_index
+
 --------
 Notes
 --------
 
 303 See Other from nytimes post
 
+
+Inverted Index notes:
+Numbers over 4 digits were generally not often found. While single digits ,especially 1 standalone, was found very frequently in documents.
+
+Emojis were scarce but atleast they were found.
+
+Overall what can be taken away from my Inverted index is that the longer a word or phrase was, the least likely it was to be repeated in a document.
+
+Full years like 2010, 2011, 2012 up to 2017, actuaully showed a correlation of rising occurence in documents. The closer the year was to the current year, 2017, it was more likely to be shown.
+
+==============
 prchecker:
 https://www.youtube.com/watch?v=_6mtcKN1o-E
 9
