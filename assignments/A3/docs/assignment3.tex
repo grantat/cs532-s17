@@ -343,7 +343,7 @@ where
 
 Basically this creates a correlation between the paired values. The $tau$ value can have a coefficient between -1 to 1. Any value less that 1, meant there is a negative correlation and that page rank is the opposite of the TFIDF value. Any value greater than 1 means that there is a positive correlation showing that the correlation between page rank and TFIDF are similar, if its at 1 it represents a perfect match. If the value is at zero or very close to zero this means that there is no correlation between the page rank and TFIDF. I stated before that I thought they actually correlated fairly well, and Dr. Nelson would say, ``That's an engineer's answer.''
 
-Therefore using the stackoverflow post mentioned in the question, I found an R library called Kendall which computes the Kendall $Tau_b$ value \cite{stackoverflowpostref}. The code to generate this value is below in Listing \ref{lst:q4kendall}.
+Therefore using the stackoverflow post mentioned in the question, I found an R library called Kendall which computes the Kendall $Tau_b$ value \cite{stackoverflowpostref}. Using the table from question 3, I made a CSV file to hold this data called \textbf{pageRankTfidf.csv}. I then imported this data into R to use. The code to generate this Kendall $Tau_b$ value is below in Listing \ref{lst:q4kendall}.
 
 \lstinputlisting[frame=single,caption={R script to calculate Kendall $Tau_b$ between page rank and TFIDF from previous 10 URIs},label=lst:q4kendall,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/kendall-tau.R}
 
