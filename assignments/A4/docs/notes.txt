@@ -1,35 +1,20 @@
 --------
 Links & Descriptions
 --------
-Beautiful soup ref: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-beautiful soup can parse the document
+https://twitter.com/phonedude_mln
+for reference
 
-http://www.worldwidewebsize.com/
+https://dev.twitter.com/rest/reference/get/followers/list
+docs for page json
 
 --------
 Notes
 --------
 
-303 See Other from nytimes post
 
-prchecker:
-https://www.youtube.com/watch?v=_6mtcKN1o-E
-9
-http://www.patheos.com/blogs/poptheology/2017/01/shuffled-selections-january-22-28/?utm_campaign=shareaholic&utm_medium=twitter&utm_source=socialnetwork
-6
-http://www.lapetitemortgallery.com/nyc-artist-james-brown-drawing/
-4
-http://www.newslocker.com/en-us/music/r-and-b-hip-hop-news/see-this-amazing-nj-teen-blend-hop-hop-jazz-and-rampb-on-youtube-njcom/
-2
-https://www.youtube.com/watch?v=jbe_1sNGQ2o
-9
-http://www.lctmag.com/operations/news/719804/empirecls-adds-mci-luxury-buses-with-3-point-seatbelts?utm_source=dlvr.it&utm_medium=twitter
-5
-https://www.talkbass.com/threads/fender-marcus-miller-mij-jazz-with-j-east-preamp.1266114/?utm_source=dlvr.it&utm_medium=twitter
-4
-https://www.theatlantic.com/entertainment/archive/2017/01/missy-elliott-im-better-jamiroquai-automaton-videos/514736/?utm_source=twb
-8
-http://thesop.org/story/20170131/judyth-piazza-interviews-renowned-jazz-vocalist-jan-daley.html
-4
-https://www.youtube.com/watch?v=C7uYx1J0hzU
-9
+--------
+notes hw 5
+certain nodes go one way when they should have gone another.
+
+tell why the algorithm doesn't go the way we expected
+

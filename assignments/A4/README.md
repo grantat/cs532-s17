@@ -4,7 +4,8 @@ Written in python 3.6.
 
 Dependencies used:
 
-- beautifulsoup
+- tweepy
+- pygraphml
 
 To install dependencies use the following command:
 
