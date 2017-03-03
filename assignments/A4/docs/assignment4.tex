@@ -137,7 +137,7 @@ then use my twitter account "phonedude_mln".
 \clearpage
 \subsection*{Answer}
 
-Since my twitter account had no followers, I used Dr. Nelson's twitter account $``phonedude\_mln$'' for this problem. I wrote a script in python 3.6 using the Tweepy dependency to communicate with Twitter's api as shown in Listing \ref{lst:twitterpy}. 	
+Since my twitter account had no followers, I used Dr. Nelson's twitter account $``phonedude\_mln$'' for this problem. I wrote a script in python 3.6 using the Tweepy dependency to communicate with Twitter's api as shown in Listing \ref{lst:twitterpy}. I used the pages option instead of the items option to reduce number of API calls, where pages return more json information per request. I retrieved this data and save the names of the users and their follower counts to a CSV file named \textbf{twitterFollowers.csv}.
 
 I then wrote a script in R called \textbf{twitterFriendship.R} to plot these values in an ascending order based on follower count. In the plot shown in Figure \ref{fig:q1facebookplot}, you can see that Dr. Nelson still has many followers with higher follower counts than him, with his count being 624 (not including himself). Therefore, the friendship paradox does hold for Dr. Nelson's Twitter account for followers. I also used this R script to compute the Mean, Standard Deviation and Median of Dr. Nelson's Facebook friend counts shown in Table \ref{table:q2summary}. 
 
@@ -193,7 +193,7 @@ other words, are the people I am following following more people?
 \clearpage
 \subsection*{Answer}
 
-The Twitter API labels the connection between a user following another user a ``friend'' which just means I had to switch a value in my \textbf{twitterFriendship.py} script to check for friends rather than followers, this is shown above in Listing \ref{lst:twitterpy}, which is the same script as earlier just with an extra function \cite{twitterapi}. For this problem I used practically the same R script, \textbf{twitterFollowing.R}, from problem 2 as shown in Listing \ref{lst:q3rscript}. This time I just interchanged the file names being used for data, as well as the labels. The CSV file is again read into the script taking both twitter usernames but this time with count of number of people they are following.
+The Twitter API labels the connection between a user following another user a ``friend'' which just means I had to switch a value in my \textbf{twitterFriendship.py} script to check for friends rather than followers, this is shown above in Listing \ref{lst:twitterpy}, which is the same script as earlier just with an extra function \cite{twitterapi}. I retrieved this data and save the names of the users and their follower counts to a CSV file named \textbf{twitterFollowing.csv}. For this problem I used practically the same R script, \textbf{twitterFollowing.R}, from problem 2 as shown in Listing \ref{lst:q3rscript}. This time I just interchanged the file names being used for data, as well as the labels. The CSV file is again read into the script taking both twitter usernames but this time with count of number of people they are following.
 
 Again this graph shows that Dr. Nelson is following people who also seem to follow more people than him, showing that the Friendship paradox is also true in this case as well.
 
