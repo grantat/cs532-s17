@@ -77,30 +77,36 @@ like this (for 1 friend):
 It is in GraphML format: http://graphml.graphdrawing.org/
 \end{verbatim}
 
+\clearpage
 \subsection*{Answer}
 
-It should be noted that the number of nodes that the \textbf{mln.graphml} file provided was 165, but you'll notice my graph only goes up to 155. This is taken from the fact that some of the nodes in the xml file didn't have a friend count so they weren't included in this set.
+To solve this problem I wrote a script in python 3.6 called \textbf{facebookFriendship.py}, using the pygraphml dependency to help parse the xml in the \textbf{mln.graphml} file provided to us for this assignment \cite{pygraphml}. I previously tried using the in-built xml library python offers, but found this library to be much quicker to use. 
 
-To handle the first part of this problem, downloading the 1000 URIs collected from Assignment \#2, I decided to write a shell script as shown in Listing \ref{lst:q1download}. The script first starts by creating directories if the directory is not found and a CSV file to store key pairs of URI and md5 hash value calculated later. It then iterates through each URI in my collection and is eventually saved to a folder containing all 1000 URIs html content. 
+This python script goes through each node, which was a friend of Dr. Nelson on Facebook from 2013, and picks out the friend count for each user assigning that value to a dictionary with the key being the user's name. After iterating through all the nodes, Dr. Nelson was assigned a value of the total number of nodes in the file. It should be noted that there were 11 users that did not have a friend count, possibly due to privacy reason. The 11 users were: James Florance, Joy Gooden, Kim Beveridge, Alfredo Sánchez, Sarah Shreeves, Sally Mauck, Dan Swaney, Robert Gordeaux, Joseph Kaplan, Michael Milner and Catherine Kemble Cronin. After this data was created I saved it to a csv called \textbf{facebookFriends.csv}.
 
-For each URI in the collection it will: 
-\begin{enumerate}
-    \item Create an md5 hash for the URI
-    \item Add the URI and md5 hash to a CSV
-    \item Perform a curl HTTP get request to get the html content
-    \item Save the html content to file named by the md5 hash and ``.html'' extension
-\end{enumerate}
+It should also be noted that the number of nodes that the \textbf{mln.graphml} file provided was 165, but you'll notice my graph only goes up to 155. This is taken from the fact that some of the nodes in the xml file didn't have a friend count so they weren't included in this set.
 
-It should be noted that the curl HTTP get request used the User-Agent ``Mozilla/5.0'' along with the \emph{-L} and \emph{-m} arguments. I decided to add -L, which follows redirects, to this script because I noticed that some links have actually already changed locations and resulted in a 303 response, location change, when requested. I also added the -m argument, which sets the maximum time a connection can last, mainly due to the fact that some of these URIs were actually streaming data like live music or some radio station and it would continually retrieve data \cite{curlref}. I set the maximum time to 3 seconds to retrieve the necessary information
+I then wrote a script in R called \textbf{friendshipParadox.R} to plot these values in an ascending order passed on friend count. In the plot shown in Figure \ref{fig:q1facebookplot}, you can see that Dr. Nelson has many friends with higher friend counts than him, with his count being 154 (not including himself). Therefore, the friendship paradox does hold for Dr. Nelson's Facebook account. I also used this R script to compute the Mean, Standard Deviation and Median of Dr. Nelson's Facebook friend counts shown in Table \ref{table:q1summary}.
 
-\lstinputlisting[frame=single,caption={Shell script for downloading 1000 URI html content},label=lst:q1download,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/downloadHtml.sh}
+\begin{table}[htb]
+\centering
+\begin{tabular}{ | l | l | l |}
+\hline
+\textbf{Mean} & \textbf{Standard Deviation} & \textbf{Median} \\
+\hline
+357.6645 & 370.7427 & 259 \\
+\hline
+\end{tabular}
+\caption{Mean, Standard Deviation and Median generated from R Script for Facebook friend counts}
+\label{table:q1summary}
+\end{table}
 
-For the second part of this problem I decided to write a script in python 3.6 using the dependency BeautifulSoup for html parsing. The script starts by iterating through the files in the html directory created in part 1 of this problem. Using code provided from a Stackoverflow.com post, I created a list of lines that were derived from the encapsulated text in each html element \cite{}. I would then iterate through each of these lines and saved them to a new file with the same md5 hash name as the file it received this information from, this time saving it with the ``.txt'' extension. If the lines created were blank I ignored them and didn't add them to this new file. This script, processHtml.py, is shown in Listing \ref{lst:q1process}.
-
-As mentioned before some of these websites were actually streaming data which also resulted in the html content to not always be the same encoding type. A majority of the documents used UTF-8 encoding while some didn't. Therefore to compensate for this, I checked the exception that the text retrieved might not be UTF-8 and simply discarded it if it was not. 
-
-\lstinputlisting[frame=single,caption={Python script for removing duplicates in data files},label=lst:q1process,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/processHtml.py}
-
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{facebookPlot.pdf}
+\caption{Plot of Dr. Nelson's Facebook friends vs. friend counts}
+\label{fig:q1facebookplot}
+\end{figure}
 
 \clearpage
 
@@ -128,11 +134,28 @@ If you do not have followers on Twitter (or don't have more than 50),
 then use my twitter account "phonedude_mln".
 \end{verbatim}
 
+\clearpage
 \subsection*{Answer}
 
-Since my twitter account had no followers, I used Dr. Nelson's twitter account ``phonedude_mln'' for this problem. 		
+Since my twitter account had no followers, I used Dr. Nelson's twitter account $``phonedude\_mln$'' for this problem. 		
 
 
+%\lstinputlisting[frame=single,caption={R Script for generating graph of friends},label=lst:q1process,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/twitterFriendship.R}
+
+\begin{table}[htb]
+\centering
+\begin{tabular}{ | l | l | l |}
+\hline
+\textbf{Mean} & \textbf{Standard Deviation} & \textbf{Median} \\
+\hline
+1510.395 & 10150.67 & 310 \\
+\hline
+\end{tabular}
+\caption{Mean, Standard Deviation and Median generated from R Script for twitter follower count}
+\label{table:summaryExtra}
+\end{table}
+
+\lstinputlisting[frame=single,caption={Python script for receiving twitter followers and friends from Dr. Nelson's twitter},label=lst:twitterpy,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/twitterFriendship.py}
 
 \clearpage
 
@@ -154,6 +177,20 @@ other words, are the people I am following following more people?
 \clearpage
 \subsection*{Answer}
 
+The Twitter API labels the connection between a user following another user a ``friend'' which just means I had to switch a value in my \textbf{twitterFriendship.py} script to check for friends rather than followers, this is shown above in Listing \ref{}, which is the same script as earlier just with an extra function. For this problem I used the same R script, \textbf{twitterFriendship.R}, from problem 2 as shown in Listing \ref{}. This time I just interchanged the file name to \textbf{twitterFollowing.csv} to be used for it. The CSV file is again read into the script taking both twitter usernames but this time with count of number of people they are following.
+
+\begin{table}[htb]
+\centering
+\begin{tabular}{ | l | l | l |}
+\hline
+\textbf{Mean} & \textbf{Standard Deviation} & \textbf{Median} \\
+\hline
+853.8164 & 4868.175 & 256 \\
+\hline
+\end{tabular}
+\caption{10 URIs found containing \emph{California}, with calculations TFIDF, TF and IDF}
+\label{table:summaryExtra}
+\end{table}
 
 \clearpage
 

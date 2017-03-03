@@ -7,6 +7,7 @@ def parseXML():
     parser = GraphMLParser()
     graph = parser.parse("output/mln.graphml")
     friends = {}
+    counter = 0
     print("Total Nodes:",len(graph.nodes()))
     
     for node in graph.nodes():
@@ -15,10 +16,11 @@ def parseXML():
         try:
             friendCount = node["friend_count"]
             friends[name] =  friendCount
+            counter += 1
         except:
             print("No friend count for:",name)
 
-    friends["Michael Nelson"] = len(graph.nodes())
+    friends["Michael Nelson"] = counter
     return friends
 
 
