@@ -86,7 +86,7 @@ This python script goes through each node, which was a friend of Dr. Nelson on F
 
 It should also be noted that the number of nodes that the \textbf{mln.graphml} file provided was 165, but you'll notice my graph only goes up to 155. This is taken from the fact that some of the nodes in the xml file didn't have a friend count so they weren't included in this set.
 
-I then wrote a script in R called \textbf{friendshipParadox.R} to plot these values in an ascending order passed on friend count. In the plot shown in Figure \ref{fig:q1facebookplot}, you can see that Dr. Nelson has many friends with higher friend counts than him, with his count being 154 (not including himself). Therefore, the friendship paradox does hold for Dr. Nelson's Facebook account. I also used this R script to compute the Mean, Standard Deviation and Median of Dr. Nelson's Facebook friend counts shown in Table \ref{table:q1summary}.
+I then wrote a script in R called \textbf{friendshipParadox.R} to plot these values in an ascending order based on friend count. In the plot shown in Figure \ref{fig:q1facebookplot}, you can see that Dr. Nelson has many friends with higher friend counts than him, with his count being 154 (not including himself). Therefore, the friendship paradox does hold for Dr. Nelson's Facebook account. I also used this R script to compute the Mean, Standard Deviation and Median of Dr. Nelson's Facebook friend counts shown in Table \ref{table:q1summary}.
 
 \begin{table}[htb]
 \centering
@@ -137,10 +137,9 @@ then use my twitter account "phonedude_mln".
 \clearpage
 \subsection*{Answer}
 
-Since my twitter account had no followers, I used Dr. Nelson's twitter account $``phonedude\_mln$'' for this problem. 		
+Since my twitter account had no followers, I used Dr. Nelson's twitter account $``phonedude\_mln$'' for this problem. I wrote a script in python 3.6 using the Tweepy dependency to communicate with Twitter's api as shown in Listing \ref{lst:twitterpy}. 	
 
-
-%\lstinputlisting[frame=single,caption={R Script for generating graph of friends},label=lst:q1process,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/twitterFriendship.R}
+I then wrote a script in R called \textbf{twitterFriendship.R} to plot these values in an ascending order based on follower count. In the plot shown in Figure \ref{fig:q1facebookplot}, you can see that Dr. Nelson still has many followers with higher follower counts than him, with his count being 624 (not including himself). Therefore, the friendship paradox does hold for Dr. Nelson's Twitter account for followers. I also used this R script to compute the Mean, Standard Deviation and Median of Dr. Nelson's Facebook friend counts shown in Table \ref{table:q2summary}. 
 
 \begin{table}[htb]
 \centering
@@ -152,8 +151,25 @@ Since my twitter account had no followers, I used Dr. Nelson's twitter account $
 \hline
 \end{tabular}
 \caption{Mean, Standard Deviation and Median generated from R Script for twitter follower count}
-\label{table:summaryExtra}
+\label{table:q2summary}
 \end{table}
+
+\lstinputlisting[frame=single,caption={R Script for generating plot of twitter followers},label=lst:q2process,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/twitterFriendship.R}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{twitterFollowers.pdf}
+\caption{Plot of Dr. Nelson's Twitter followers vs. follower counts}
+\label{fig:q2followers}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{logTwitterFollowers.pdf}
+\caption{Natural log plot of Dr. Nelson's Twitter followers vs. follower counts}
+\label{fig:q2logfollowers}
+\end{figure}
+
 
 \lstinputlisting[frame=single,caption={Python script for receiving twitter followers and friends from Dr. Nelson's twitter},label=lst:twitterpy,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/twitterFriendship.py}
 
@@ -177,7 +193,9 @@ other words, are the people I am following following more people?
 \clearpage
 \subsection*{Answer}
 
-The Twitter API labels the connection between a user following another user a ``friend'' which just means I had to switch a value in my \textbf{twitterFriendship.py} script to check for friends rather than followers, this is shown above in Listing \ref{}, which is the same script as earlier just with an extra function. For this problem I used the same R script, \textbf{twitterFriendship.R}, from problem 2 as shown in Listing \ref{}. This time I just interchanged the file name to \textbf{twitterFollowing.csv} to be used for it. The CSV file is again read into the script taking both twitter usernames but this time with count of number of people they are following.
+The Twitter API labels the connection between a user following another user a ``friend'' which just means I had to switch a value in my \textbf{twitterFriendship.py} script to check for friends rather than followers, this is shown above in Listing \ref{lst:twitterpy}, which is the same script as earlier just with an extra function \cite{twitterapi}. For this problem I used practically the same R script, \textbf{twitterFollowing.R}, from problem 2 as shown in Listing \ref{lst:q3rscript}. This time I just interchanged the file names being used for data, as well as the labels. The CSV file is again read into the script taking both twitter usernames but this time with count of number of people they are following.
+
+Again this graph shows that Dr. Nelson is following people who also seem to follow more people than him, showing that the Friendship paradox is also true in this case as well.
 
 \begin{table}[htb]
 \centering
@@ -185,13 +203,28 @@ The Twitter API labels the connection between a user following another user a ``
 \hline
 \textbf{Mean} & \textbf{Standard Deviation} & \textbf{Median} \\
 \hline
-853.8164 & 4868.175 & 256 \\
+853.816 & 4868.175 & 256 \\
 \hline
 \end{tabular}
-\caption{10 URIs found containing \emph{California}, with calculations TFIDF, TF and IDF}
+\caption{Mean, Standard Deviation and Median generated from R Script for twitter following count}
 \label{table:summaryExtra}
 \end{table}
 
+\lstinputlisting[frame=single,caption={R Script for generating plot of twitter followers},label=lst:q3rscript,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/twitterFollowing.R}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{twitterFollowing.pdf}
+\caption{Plot of Dr. Nelson's Facebook Twitter following vs. following counts}
+\label{fig:q2followers}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{logTwitterFollowing.pdf}
+\caption{Natural log plot of Dr. Nelson's Facebook Twitter following vs. following counts}
+\label{fig:q2logfollowers}
+\end{figure}
 \clearpage
 
 % =================================
@@ -203,12 +236,8 @@ The Twitter API labels the connection between a user following another user a ``
 Nelson, Michael. ``Facebook Friends GraphML.'' cs532-s17 Github Repository. N.p., 1 March. 2017. Web. 1 March 2017.\url{https://github.com/grantat/cs532-s17/blob/master/assignments/A3/src/output/mln.graphml}.
 \bibitem{pygraphml}
 Mary, Hadrien. ``pygraphml – API documentation.''N.p., n.d. Web. 1 March 2017 \url{http://hadim.fr/pygraphml/reference.html}.
-\bibitem{eyedomainref}
-``Check last known Google PageRank.'' eyedomain. EyeDomain, n.d. Web. 22 Feb. 2017. \url{http://pr.eyedomain.com/}.
-\bibitem{worldwidewebsizeref}
-Kunder, Maurice. ``The size of the Dutch World Wide Web'' worldwidwebsize. N.p., n.d. Web. 22 Feb. 2017.\url{http://www.worldwidewebsize.com/}.
-\bibitem{curlref} 
-Stenberg, Daniel. ``Curl.1 the Man Page.'' Curl - How To Use. N.p., n.d. Web. 24 Jan. 2017. \url{https://curl.haxx.se/docs/manpage.html}.
+\bibitem{twitterapi}
+``Twitter Developer Documentation''. Twitter. Twitter, n.d. Web. 1 March 2017. \url{https://dev.twitter.com/rest/reference/get/followers/list}.
 \end{thebibliography}
 
 \end{document}
