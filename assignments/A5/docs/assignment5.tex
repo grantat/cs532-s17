@@ -104,13 +104,13 @@ http://igraph.org/python/doc/igraph-pysrc.html#Graph.community_edge_betweenness
 \clearpage
 \subsection*{Answer}
 
-I first attempted to solve this problem using python with networkx's library for graphing and created a script called \textbf{karateClub.py}. I later stopped attempting to use this because I learned that it didn't provide visual graphs without installing mathplotlib. Therefore I switched to using R and wrote script called \textbf{karateClub.R}, namely because using the igraph library and igraphdata, which provided the karate club dataset, was vastly easier and simpler to use with graphs.
+I first attempted to solve this problem using python with networkx's library for graphing and created a script called \textbf{karateClub.py}. I later stopped attempting to use this because I learned that it didn't provide visual graphs without installing mathplotlib. Therefore I switched to using R and wrote script called \textbf{karateClub.R} shown Listing \ref{lst:rscript}, namely because using the igraph library and igraphdata, which provided the karate club dataset, was vastly easier and simpler to use with graphs.
 
 To prove that the result of this graph split could have been predicted, I decided to use the edge betweenness algorithm provided by the igraph library, which actually used the Girvan-Newman algorithm \cite{commref}. The Girvan-Newman algorithm at each step in the graph checks if: an edge has the highest ``betweenness'' it would be removed from the graph and the modularity of the graph would then be recomputed. I decided to use the $cluster\_edge\_betweenness$ function to cluster them nicely based on their strongly or weakly connections with each other actor.
 
 The H and A nodes, as shown in Figure \ref{fig:q1orig}, represent Mr. Hi and John A respectively. It shows how they are at the center of each of their factions. Its assumed that after running the graph through the Girvan-Newman algorithm until a certain number of groups had been made with zero connections left to the other groups, that it would match fairly well like Figure \ref{fig:q1desired}. Luckily, the igraph library automatically calculated the betweenness for me and stored it an a variable that I could access and then manually delete the edges with the highest betweenness. I then checked if the number of components, or disconnected groups, was 2. 
 
-What I found was that my actual split was 94\% accurate with with two actors being sent to the wrong group, actors 3 and 14 were grouped wrongly with John A's officer faction as shown in Figure \ref{fig:q1outcome}.
+What I found was that my actual split was 94\% accurate with with two actors being sent to the wrong group. Actors 3 and 14, making it 2/33 were grouped wrongly with John A's officer faction as shown in Figure \ref{fig:q1outcome}. This shows that this model does represent reality quite well and only missed a single actor compared to Zachary Wayne's model prediction of 97\% accuracy \cite{zachref}.
 
 \begin{figure}[h]
 \centering
@@ -126,10 +126,12 @@ What I found was that my actual split was 94\% accurate with with two actors bei
 \label{fig:q1desired}
 \end{figure}
 
+\lstinputlisting[frame=single,caption={R script for splitting groups using Girvan-Newman algorithm},label=lst:rscript,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/karateClub.R}
+
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.6]{predictedSplit2.pdf}
-\caption{Predicted Group split with Girvan-Newman }
+\caption{Actual predicted group split with Girvan-Newman from karateClub.R}
 \label{fig:q1outcome}
 \end{figure}
 
@@ -153,6 +155,29 @@ look like if they split into groups of 3, 4, and 5?
 
 \clearpage
 \subsection*{Answer}
+
+For this question I approached it the exact same as the first question. I again used the R script as shown in Listing \ref{lst:rscript} to split the karate club into further groups. In the the script I simply changed the base case for the while loop up to 3, 4 and 5, which signified how many groups were required until it would cease deleting edges. For a 3 group split this is shown in Figure \ref{fig:split3}. For a 4 group split this is shown in Figure \ref{fig:split4}. For a 5 group split this is shown in Figure \ref{fig:split5}. I didn't attempt to verify the accuracy of these group splits as I couldn't find more information regarding a split to these degrees.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{predictedSplit3.pdf}
+\caption{Group split of 3 with Girvan-Newman algorithm from karateClub.R}
+\label{fig:split3}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{predictedSplit4.pdf}
+\caption{Group split of 4 with Girvan-Newman algorithm from karateClub.R}
+\label{fig:split4}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{predictedSplit5.pdf}
+\caption{Group split of 5 with Girvan-Newman algorithm from karateClub.R}
+\label{fig:split5}
+\end{figure}
 
 %\begin{figure}[h]
 %\centering
@@ -178,6 +203,8 @@ Csardi, Gabor. ``Package `graphdata' '' iGraphData. Cran-R-Project, 13 July 2015
 Csardi, Gabor, ``Package `igraph' '' iGraph. Cran-R-Project, 13 July 2015. Web. 16 March 2017. \url{http://igraph.org/r/doc/igraph.pdf}.
 \bibitem{commref}
 Rodrigues, David.``Finding Communities in networks with R and igraph'' N.p., n.d. Web. 16 March 2017. \url{http://www.sixhat.net/finding-communities-in-networks-with-r-and-igraph.html}.
+\bibitem{zachref}
+W. W. Zachary, An information flow model for conflict and fission in small groups, Journal of Anthropological Research 33, 452-473 (1977).
 \end{thebibliography}
 
 \end{document}

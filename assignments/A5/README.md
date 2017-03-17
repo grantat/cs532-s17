@@ -1,16 +1,10 @@
 # Assignment 4
 
-Written in python 3.6.
+Written in R. karateClub.py is just testing, not main script.
 
-Dependencies used:
+R Dependencies used:
 
-- tweepy
-- pygraphml
+- igraph
+- igraphdata
 
-To install dependencies use the following command:
 
-```shell
-$ pip3 install -r requirements.txt
-```
-
-# Assignment Details
