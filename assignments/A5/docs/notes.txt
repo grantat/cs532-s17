@@ -1,0 +1,42 @@
+--------
+Links & Descriptions
+--------
+* Original paper
+
+http://aris.ss.uci.edu/~lin/76.pdf
+
+* Slides
+
+http://www-personal.umich.edu/~ladamic/courses/networks/si614w06/ppt/lecture18.ppt
+
+http://clair.si.umich.edu/si767/papers/Week03/Community/CommunityDetection.pptx
+
+* Code and data
+
+https://networkx.readthedocs.io/en/stable/examples/graph/karate_club.html
+
+http://nbviewer.ipython.org/url/courses.cit.cornell.edu/info6010/resources/11notes.ipynb
+
+http://stackoverflow.com/questions/9471906/what-are-the-differences-between-community-detection-algorithms-in-igraph/9478989#9478989
+
+http://stackoverflow.com/questions/5822265/are-there-implementations-of-algorithms-for-community-detection-in-graphs
+
+http://konect.uni-koblenz.de/networks/ucidata-zachary
+
+http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm#zachary
+
+https://snap.stanford.edu/snappy/doc/reference/CommunityGirvanNewman.html
+
+http://igraph.org/python/doc/igraph-pysrc.html#Graph.community_edge_betweenness
+
+--------
+Notes
+--------
+
+
+--------
+notes hw 5
+certain nodes go one way when they should have gone another.
+
+tell why the algorithm doesn't go the way we expected
+
