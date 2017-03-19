@@ -75,11 +75,10 @@ example:
 
 Table 1. 10 Hits for the term "shadow", ranked by TFIDF.
 
-TFIDF	TF	IDF	URI
------	--	---	---
-0.150	0.014	10.680	http://foo.com/
-0.044	0.008	10.680	http://bar.com/
-
+|TFIDF|TF|IDF|URI|
+|:--------:|:---:|:------:|:------:|
+|0.150|0.014|10.680|http://foo.com/|
+|0.044|0.008|10.680|http://foo.com/|
 
 You can use Google or Bing for the DF estimation.  To count the
 number of words in the processed document (i.e., the deonminator
@@ -115,10 +114,11 @@ Create a table similar to Table 1:
 
 Table 2.  10 hits for the term "shadow", ranked by PageRank.
 
-PageRank	URI
---------	---
-0.9		http://bar.com/
-0.5		http://foo.com/
+|PageRank|URI|
+|:--------:|:---:|
+|0.9|http://bar.com/|
+|0.5|http://foo.com/|
+
 
 Briefly compare and contrast the rankings produced in questions 2
 and 3.

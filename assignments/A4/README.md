@@ -38,6 +38,7 @@ I will email to the list the XML file that contains my Facebook
 friendship graph ca. Oct, 2013.  The interesting part of the file looks
 like this (for 1 friend):
 
+```html
 <node id="Johan_Bollen_1448621116">
         <data key="Label">Johan Bollen</data>
         <data key="uid"><![CDATA[1448621116]]></data>
@@ -45,6 +46,7 @@ like this (for 1 friend):
         <data key="mutual_friend_count"><![CDATA[37]]></data>
         <data key="friend_count"><![CDATA[420]]></data>
 </node>
+```
 
 It is in GraphML format: http://graphml.graphdrawing.org/
 

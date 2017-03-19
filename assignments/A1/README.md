@@ -44,6 +44,7 @@ http://www9.org/w9cdrom/160/160.html
 
 Now consider the following graph:
 
+```shell
 A --> B
 B --> C
 C --> D
@@ -60,12 +61,15 @@ M --> N
 N --> D
 O --> A
 P --> G
+```
 
 For the above graph, give the values for:
 
+```shell
 IN: 
 SCC: 
 OUT: 
 Tendrils: 
 Tubes: 
 Disconnected:
+```
