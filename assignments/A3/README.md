@@ -1,6 +1,6 @@
 # Assignment 3
 
-Written in python 3.6. Report found [here](./docs/assignment3.pdf).
+Written in python 3.6.
 
 Dependencies used:
 
@@ -22,9 +22,9 @@ Used to calculate Kendall Tau_b.
 
 Due: 11:59pm February 23
 
-1.  Download the 1000 URIs from assignment #2.  "curl", "wget", or
-"lynx" are all good candidate programs to use.  We want just the
-raw HTML, not the images, stylesheets, etc.
+## 1.  Download the 1000 URIs from assignment #2.  
+
+"curl", "wget", or "lynx" are all good candidate programs to use.  We want just the raw HTML, not the images, stylesheets, etc.
 
 from the command line:
 
@@ -61,10 +61,9 @@ are going to be perfect.
 Keep both files for each URI (i.e., raw HTML and processed). 
 Upload both sets of files to your github account.
 
-2.  Choose a query term (e.g., "shadow") that is not a stop word
-(see week 5 slides) and not HTML markup from step 1 (e.g., "http")
-that matches at least 10 documents (hint: use "grep" on the processed
-files).  If the term is present in more than 10 documents, choose
+## 2.  Choose a query term (e.g., "shadow") that is not a stop word (see week 5 slides) and not HTML markup from step 1 (e.g., "http") that matches at least 10 documents (hint: use "grep" on the processed files).  
+
+If the term is present in more than 10 documents, choose
 any 10 from your list.  (If you do not end up with a list of 10
 URIs, you've done something wrong).
 
@@ -98,9 +97,7 @@ digits!
 
 https://en.wikipedia.org/wiki/Significant_figures#Rounding_and_decimal_places
 
-3.  Now rank the same 10 URIs from question #2, but this time 
-by their PageRank.  Use any of the free PR estimaters on the web,
-such as:
+## 3.  Now rank the same 10 URIs from question #2, but this time by their PageRank.  Use any of the free PR estimaters on the web, such as:
 
 http://pr.eyedomain.com/
 http://www.prchecker.info/check_page_rank.php
@@ -127,9 +124,7 @@ Briefly compare and contrast the rankings produced in questions 2
 and 3.
 
 
-====================================================
-======Question 4 is for 3 points extra credit=======
-====================================================
+## Question 4 is for 3 points extra credit
 
 4.  Compute the Kendall Tau_b score for both lists (use "b" because
 there will likely be tie values in the rankings).  Report both the
@@ -140,25 +135,21 @@ http://stackoverflow.com/questions/2557863/measures-of-association-in-r-kendalls
 http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Tau-b
 http://en.wikipedia.org/wiki/Correlation_and_dependence
 
-====================================================
-======Question 5 is for 3 points extra credit=======
-====================================================
+## Question 5 is for 3 points extra credit
 
 5.  Compute a ranking for the 10 URIs from Q2 using Alexa information
 (see week 4 slides).  Compute the correlation (as per Q4) for all
 pairs of combinations for TFIDF, PR, and Alexa.
 
-====================================================
-======Question 6 is for 2 points extra credit=======
-====================================================
+
+## Question 6 is for 2 points extra credit
 
 6.  Give an in-depth analysis, complete with examples, 
 graphs, and all other pertinent argumentation for 
 Kristen Stewart's (of "Twilight" fame) Erdos-Bacon number.
 
-====================================================
-======Question 7 is for 2 points extra credit=======
-====================================================
+
+## Question 7 is for 2 points extra credit
 
 7.  Build a simple (i.e., no positional information) inverted file
 (in ASCII) for all the words from your 1000 URIs.  Upload the entire

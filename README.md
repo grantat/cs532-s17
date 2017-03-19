@@ -6,8 +6,9 @@ This repository is for Web Science (CS532) class at Old Dominion University. Cod
 
 |Assignment|Source Code|Report|
 |:--------:|:---:|:------|
-|[1](./assignments/A1/a1.txt)| [python,shell,php](./assignments/A1/src)|[pdf](./assignments/A1/docs/assignment1.pdf)| 
-|[2](./assignments/A2/a2.txt)| [python,shell,R](./assignments/A2/src)|[pdf](./assignments/A2/docs/assignment2.pdf)| 
-|[3](./assignments/A3/a3.txt)| [python,shell,R](./assignments/A3/src)|[pdf](./assignments/A3/docs/assignment3.pdf)| 
-|[4](./assignments/A4/a4.txt)| [python,R](./assignments/A4/src)|[pdf](./assignments/A4/docs/assignment4.pdf)| 
-|[5](./assignments/A5/a5.txt)| [python,R](./assignments/A5/src)|[pdf](./assignments/A5/docs/assignment5.pdf)| 
+|[1](./assignments/A1/)| [python,shell,php](./assignments/A1/src)|[pdf](./assignments/A1/docs/assignment1.pdf)| 
+|[2](./assignments/A2/)| [python,shell,R](./assignments/A2/src)|[pdf](./assignments/A2/docs/assignment2.pdf)| 
+|[3](./assignments/A3/)| [python,shell,R](./assignments/A3/src)|[pdf](./assignments/A3/docs/assignment3.pdf)| 
+|[4](./assignments/A4/)| [python,R](./assignments/A4/src)|[pdf](./assignments/A4/docs/assignment4.pdf)| 
+|[5](./assignments/A5/)| [python,R](./assignments/A5/src)|[pdf](./assignments/A5/docs/assignment5.pdf)| 
+|[6](./assignments/A6/)| [python,javascript](./assignments/A6/src)|[pdf](./assignments/A6/docs/assignment6.pdf)| 
