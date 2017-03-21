@@ -1,42 +1,17 @@
 --------
 Links & Descriptions
 --------
-* Original paper
+twitter friendship 1 to 1
+https://dev.twitter.com/rest/reference/get/friendships/show
 
-http://aris.ss.uci.edu/~lin/76.pdf
-
-* Slides
-
-http://www-personal.umich.edu/~ladamic/courses/networks/si614w06/ppt/lecture18.ppt
-
-http://clair.si.umich.edu/si767/papers/Week03/Community/CommunityDetection.pptx
-
-* Code and data
-
-https://networkx.readthedocs.io/en/stable/examples/graph/karate_club.html
-
-http://nbviewer.ipython.org/url/courses.cit.cornell.edu/info6010/resources/11notes.ipynb
-
-http://stackoverflow.com/questions/9471906/what-are-the-differences-between-community-detection-algorithms-in-igraph/9478989#9478989
-
-http://stackoverflow.com/questions/5822265/are-there-implementations-of-algorithms-for-community-detection-in-graphs
-
-http://konect.uni-koblenz.de/networks/ucidata-zachary
-
-http://vlado.fmf.uni-lj.si/pub/networks/data/ucinet/ucidata.htm#zachary
-
-https://snap.stanford.edu/snappy/doc/reference/CommunityGirvanNewman.html
-
-http://igraph.org/python/doc/igraph-pysrc.html#Graph.community_edge_betweenness
 
 --------
 Notes
 --------
 
+Twitter Friendship response between two users:
 
---------
-notes hw 5
-certain nodes go one way when they should have gone another.
-
-tell why the algorithm doesn't go the way we expected
-
+(Friendship
+(_api=<tweepy.api.API object at 0x102cabd68>, id=151901549, id_str='151901549', screen_name='phonedude_mln', following=True, followed_by=True, live_following=False, following_received=None, following_requested=None, notifications_enabled=None, can_dm=True, blocking=None, blocked_by=None, muting=None, want_retweets=None, all_replies=None, marked_spam=None), 
+Friendship(_api=<tweepy.api.API object at 0x102cabd68>, id=75550501, id_str='75550501', screen_name='weiglemc', following=True, followed_by=True, following_received=None, following_requested=None)
+)
