@@ -1,2 +1,2 @@
 tweepy
-pygraphml
+gender-detector

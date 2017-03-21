@@ -1,11 +1,17 @@
 # Assignment 6
 
-Written in R. karateClub.py is just testing, not main script.
+Written in Python 3.6.
 
-R Dependencies used:
+Python Dependencies used:
 
-- igraph
-- igraphdata
+- tweepy
+- gender-detector
+
+To install dependencies use the following command:
+
+```shell
+$ pip3 install -r requirements.txt
+```
 
 # Assignment Details
 
@@ -41,6 +47,7 @@ and programatically determine if the user is male or female.  Some
 sites that might be useful:
 
 https://genderize.io/
+
 https://pypi.python.org/pypi/gender-detector/0.0.4
 
 Create a table of Twitter users and their likely gender.  List any 
