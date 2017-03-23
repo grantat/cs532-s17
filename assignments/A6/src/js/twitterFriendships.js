@@ -1,27 +1,12 @@
 // select node data for name,screen_name,image show
 // d3.select(your_node).datum();
-$(function(ready){
-	$( ".select-graph" ).change(function() {
-	  // alert( "Handler for .change() called." );
-	  var val = $(this).val();
-	  console.log("Selcted graph:",val);
-	  // clear current svg content
-	  svg.selectAll("*").remove();
+// $(function(ready){
 
-	  switch(val){
-	  	case 0:
-	  		// Followers of phonedude
-	  		break;
-	  	case 1:
-	  		// Friendships of phonedude followers
-	  		break;
-	  	default:
-		  	break;
-	  }
-	});
-
-		// get the data
+	// get the data
 	// $(".svg-section").width();
+
+	function drawGraph(filename,checkFriendships){
+
 	var width = $(".svg-section").width(),
 	    height = 700;
 
@@ -29,13 +14,14 @@ $(function(ready){
 	    .attr("width", width)
 	    .attr("height", height);
 
+
 	var force = d3.layout.force()
 	    .gravity(.05)
 	    .distance(100)
 	    .charge(-100)
 	    .size([width, height]);
 
-	d3.json("data/friendships.json", function(error, json) {
+	d3.json(filename, function(error, json) {
 	  	var edges = [];
 	    json.links.forEach(function(e) { 
 		    var sourceNode = json.nodes.filter(function(n) { return n.id === e.source; })[0],
@@ -43,8 +29,7 @@ $(function(ready){
 		    	
 		    edges.push({source: sourceNode, target: targetNode, value: e.Value});
 	    });
-	    
-	    console.log(edges);
+
 	  force
 	      .nodes(json.nodes)
 	      .links(edges)
@@ -69,7 +54,10 @@ $(function(ready){
 			   content += '<h6>Name:</br> ' + d.name + '</span></h6>';
 			   content += '<h6>Screen Name:</br> ' + d.id + '</span></h6></br>';
 			   content += '<div class="row"><div class="col-sm-12"><a target="_blank" href="https://twitter.com/'+d.id+'"><img src=' + d.image + 
-			   ' alt="" class="center-element" style="max-width:100%;max-height:50px;"></a></div><div class="col-sm-12"><h5>Following:</h5>';
+			   ' alt="" class="center-element" style="max-width:100%;max-height:50px;"></a></div>';
+			  if(checkFriendships){
+			  	content += '<div class="col-sm-12"><h5>Following:</h5>';
+
 			  var followedBy = [];
 			  for(var i in edges){
 	      		var tempID = edges[i]["source"]["id"];
@@ -86,7 +74,11 @@ $(function(ready){
 			  for(var i in followedBy){
 			  	content+=followedBy[i]+'</br>';
 			  }
+
 			  content += '</div></div>'
+			}else{
+				content += '</div>';
+			}
 			  $("#user-popup").html(content);
 			  $("#user-popup").show();
 	      })
@@ -124,6 +116,9 @@ $(function(ready){
 	      .attr("r", 8);
 	}
 
-});
-});
+	});
+}
+// drawGraph("data/allFollowersGraph.json",false);
+
+// });
 

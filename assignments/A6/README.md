@@ -1,6 +1,6 @@
 # Assignment 6
 
-Written in Python 3.6.
+Written in Python 3.6 and Javascript. Javascript dependencies are already inside this repository, the main script being twitterFriendships.js.
 
 Python Dependencies used:
 
