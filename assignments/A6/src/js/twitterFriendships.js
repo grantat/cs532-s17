@@ -23,7 +23,7 @@ $(function(ready){
 		// get the data
 	// $(".svg-section").width();
 	var width = $(".svg-section").width(),
-	    height = 600;
+	    height = 700;
 
 	var svg = d3.select(".svg-section").append("svg")
 	    .attr("width", width)
@@ -48,7 +48,7 @@ $(function(ready){
 	  force
 	      .nodes(json.nodes)
 	      .links(edges)
-	      .linkDistance(100)
+	      .linkDistance(200)
 	      .start();
 
 	  var link = svg.selectAll(".link")
@@ -64,46 +64,47 @@ $(function(ready){
 	      		  d3.select(this).select("circle").transition()
 			      .duration(750)
 			      .attr("r", 16);
-
-			  var follows = [];
-			  console.log(edges);
-			  // for(var i in edges){
-			  // 	for(var j in i){
-			  // 		if(j["source"]["id"] == d.id){
-			  // 		follows.push(i["target"]["name"]);
-			  // 	}
-			  // 	}
-			  // }
-			  console.log(follows);
-			  var content = '<h5>Last Hovered Node</h5>'
-			   content += '<h6>User Name:</br> ' + d.name + '</span></h6>';
-			   content += '<h6>User Name:</br> ' + d.id + '</span></h6></br>';
-			   content += '<div class="row"><div class="col-sm-8"><a target="_blank" href="https://twitter.com/'+d.id+'"><img src=' + d.image + 
-			   ' alt="Stuff" style="max-width:100%;max-height:50px;"></a></div><div class="col-sm-4"></div></div>';
 			  
+			  var content = '<h5>Last Hovered Node</h5>'
+			   content += '<h6>Name:</br> ' + d.name + '</span></h6>';
+			   content += '<h6>Screen Name:</br> ' + d.id + '</span></h6></br>';
+			   content += '<div class="row"><div class="col-sm-12"><a target="_blank" href="https://twitter.com/'+d.id+'"><img src=' + d.image + 
+			   ' alt="" class="center-element" style="max-width:100%;max-height:50px;"></a></div><div class="col-sm-12"><h5>Following:</h5>';
+			  var followedBy = [];
+			  for(var i in edges){
+	      		var tempID = edges[i]["source"]["id"];
+	      		var tempTargetID = edges[i]["target"]["id"];
+	      		if(tempID == d.id){
+	      			content+= edges[i]["target"]["id"]+'</br>';
+	      		}
+	      		if(tempTargetID == d.id){
+	      			followedBy.push(edges[i]["source"]["id"])
+	      		}
+		      }
+
+			  content+= '</div><div class="col-sm-12"><h5>Followed By:</h5>';
+			  for(var i in followedBy){
+			  	content+=followedBy[i]+'</br>';
+			  }
+			  content += '</div></div>'
 			  $("#user-popup").html(content);
 			  $("#user-popup").show();
 	      })
 		  .on("mouseout", mouseout)
 	      .call(force.drag);
 
-	  // node.append("circle")
-	  //     .attr("class", "node")
-	  //     .attr("r", 5);
-
 	  node.append("image")
       .attr("xlink:href", function(d){return d.image;})
       .attr("x", -8)
       .attr("y", -8)
-      .attr("width", 16)
-      .attr("height", 16);
+      .attr("width", 24)
+      .attr("height", 24);
 
-	  node.append("svg:a")
-	      .attr("xlink:href", function(d){return d.image;})
-	      .append("text")
-	      .attr("dx", 12)
-	      .attr("dy", ".35em")
-	      .text(function(d) { return d.name})
+	  // node.append("svg:p")
+	  //     .append("text")
+	  //     .attr("dx", 12)
+	  //     .attr("dy", ".35em")
+	  //     .text(function(d) { return d.name})
 
 	  
 	  force.on("tick", function() {

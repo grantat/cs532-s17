@@ -9,46 +9,19 @@ h1{
 
 #user-popup {
 
-    /* fixed within viewport */
-    /*position: fixed;*/
-
-    /* set position */
-/*    top: 20px;
-    right: 30px;*/
-
     /* must have dimension */
     position: fixed;
     width: 200px;
     border-radius: 25px;
     border: 2px solid #73AD21;
     padding: 20px;
-    float: right; 
+    float: right;
+    overflow-y: scroll;
+    /*height: 300px;*/
+    max-height: 80%;
+    white-space:nowrap;
     display: none;
 }
-
-
-/*svg{
-	border-radius: 25px;
-	border: 2px solid #73AD21;
-}*/
-
-/*path.link {
-  fill: none;
-  stroke: #666;
-  stroke-width: 1.5px;
-}
-
-circle {
-  fill: #ccc;
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
-text {
-  fill: #000;
-  font: 10px sans-serif;
-  pointer-events: none;
-}*/
 
 svg {
     /*background-color: antiquewhite;*/
