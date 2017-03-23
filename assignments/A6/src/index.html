@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS532 Assignment 6 - D3.js Graph Visualizations</title>
+    <link type="text/css" rel="stylesheet"  href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet"  href="css/bootstrap-social.css">
+    <link type="text/css" rel="stylesheet"  href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet"  href="css/style.css">
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/twitterFriendships.js"></script>
+</head>
+<body>
+<div id="container" class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>CS532 Assignment 6 - D3.js v4 Graph Visualizations</h1>
+        </div>
+    </div>
+    <div id="linkShow" class="control">
+        <h3></h3>
+        <select class="center-element select-graph">
+            <option value=0>Michael Nelson's Followers</option>
+            <option value=1>Friendships of Michael Nelson's Followers</option>
+            <option value=2>Gender Homophily</option>
+            <option value=3>Karate Club Graph Split</option>
+        </select>
+    </div>
+    <div class="row">
+        <!-- graph section -->
+        <div class="col-sm-8 svg-section">
+            <!-- <svg width="960" height="600"></svg> -->
+        </div>
+        <!-- selected node section -->
+        <div class="col-sm-4">
+        <div id="user-popup"></div>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="vis"></div>
+</div>
+</body>
+</html>

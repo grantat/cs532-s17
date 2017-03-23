@@ -1,0 +1,128 @@
+// select node data for name,screen_name,image show
+// d3.select(your_node).datum();
+$(function(ready){
+	$( ".select-graph" ).change(function() {
+	  // alert( "Handler for .change() called." );
+	  var val = $(this).val();
+	  console.log("Selcted graph:",val);
+	  // clear current svg content
+	  svg.selectAll("*").remove();
+
+	  switch(val){
+	  	case 0:
+	  		// Followers of phonedude
+	  		break;
+	  	case 1:
+	  		// Friendships of phonedude followers
+	  		break;
+	  	default:
+		  	break;
+	  }
+	});
+
+		// get the data
+	// $(".svg-section").width();
+	var width = $(".svg-section").width(),
+	    height = 600;
+
+	var svg = d3.select(".svg-section").append("svg")
+	    .attr("width", width)
+	    .attr("height", height);
+
+	var force = d3.layout.force()
+	    .gravity(.05)
+	    .distance(100)
+	    .charge(-100)
+	    .size([width, height]);
+
+	d3.json("data/friendships.json", function(error, json) {
+	  	var edges = [];
+	    json.links.forEach(function(e) { 
+		    var sourceNode = json.nodes.filter(function(n) { return n.id === e.source; })[0],
+		    targetNode = json.nodes.filter(function(n) { return n.id === e.target; })[0];
+		    	
+		    edges.push({source: sourceNode, target: targetNode, value: e.Value});
+	    });
+	    
+	    console.log(edges);
+	  force
+	      .nodes(json.nodes)
+	      .links(edges)
+	      .linkDistance(100)
+	      .start();
+
+	  var link = svg.selectAll(".link")
+	      .data(edges)
+		  .enter().append("line")
+	      .attr("class", "link");
+
+	  var node = svg.selectAll(".node")
+	      .data(json.nodes)
+	    .enter().append("g")
+	      .attr("class", "node")
+	      .on("mouseover", function(d){
+	      		  d3.select(this).select("circle").transition()
+			      .duration(750)
+			      .attr("r", 16);
+
+			  var follows = [];
+			  console.log(edges);
+			  // for(var i in edges){
+			  // 	for(var j in i){
+			  // 		if(j["source"]["id"] == d.id){
+			  // 		follows.push(i["target"]["name"]);
+			  // 	}
+			  // 	}
+			  // }
+			  console.log(follows);
+			  var content = '<h5>Last Hovered Node</h5>'
+			   content += '<h6>User Name:</br> ' + d.name + '</span></h6>';
+			   content += '<h6>User Name:</br> ' + d.id + '</span></h6></br>';
+			   content += '<div class="row"><div class="col-sm-8"><a target="_blank" href="https://twitter.com/'+d.id+'"><img src=' + d.image + 
+			   ' alt="Stuff" style="max-width:100%;max-height:50px;"></a></div><div class="col-sm-4"></div></div>';
+			  
+			  $("#user-popup").html(content);
+			  $("#user-popup").show();
+	      })
+		  .on("mouseout", mouseout)
+	      .call(force.drag);
+
+	  // node.append("circle")
+	  //     .attr("class", "node")
+	  //     .attr("r", 5);
+
+	  node.append("image")
+      .attr("xlink:href", function(d){return d.image;})
+      .attr("x", -8)
+      .attr("y", -8)
+      .attr("width", 16)
+      .attr("height", 16);
+
+	  node.append("svg:a")
+	      .attr("xlink:href", function(d){return d.image;})
+	      .append("text")
+	      .attr("dx", 12)
+	      .attr("dy", ".35em")
+	      .text(function(d) { return d.name})
+
+	  
+	  force.on("tick", function() {
+	    link.attr("x1", function(d) { return d.source.x; })
+	        .attr("y1", function(d) { return d.source.y; })
+	        .attr("x2", function(d) { return d.target.x; })
+	        .attr("y2", function(d) { return d.target.y; });
+
+
+	    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+	  });
+
+
+	function mouseout() {
+	  d3.select(this).select("circle").transition()
+	      .duration(750)
+	      .attr("r", 8);
+	}
+
+});
+});
+

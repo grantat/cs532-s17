@@ -1,0 +1,69 @@
+h1{
+	text-align: center;
+}
+
+.center-element{
+	margin:0 auto;
+	display: block;
+}
+
+#user-popup {
+
+    /* fixed within viewport */
+    /*position: fixed;*/
+
+    /* set position */
+/*    top: 20px;
+    right: 30px;*/
+
+    /* must have dimension */
+    position: fixed;
+    width: 200px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    float: right; 
+    display: none;
+}
+
+
+/*svg{
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+}*/
+
+/*path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}*/
+
+svg {
+    /*background-color: antiquewhite;*/
+}
+
+.node circle {
+    fill: steelblue;
+}
+.node text {
+    font: bold 12px sans-serif;
+    fill: darkred;
+    text-shadow: 0 1px 0 #fff;
+}
+.link {
+    fill: none;
+    stroke: #211;
+    stroke-opacity: 1;
+}
