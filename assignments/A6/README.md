@@ -2,10 +2,13 @@
 
 Written in Python 3.6 and Javascript. Javascript dependencies are already inside this repository, the main script being twitterFriendships.js.
 
+D3 Visualizations hosted here (takes a few seconds for graphs to center):
+
+https://cdn.rawgit.com/grantat/cs532-s17/b410d0d7/assignments/A6/src/index.html
+
 Python Dependencies used:
 
 - tweepy
-- gender-detector
 
 To install dependencies use the following command:
 

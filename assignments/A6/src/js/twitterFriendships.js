@@ -1,11 +1,5 @@
-// select node data for name,screen_name,image show
-// d3.select(your_node).datum();
-// $(function(ready){
 
-	// get the data
-	// $(".svg-section").width();
-
-	function drawGraph(filename,checkFriendships){
+function drawGraph(filename,checkFriendships){
 
 	var width = $(".svg-section").width(),
 	    height = 700;
@@ -118,7 +112,5 @@
 
 	});
 }
-// drawGraph("data/allFollowersGraph.json",false);
 
-// });
 
