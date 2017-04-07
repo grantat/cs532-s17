@@ -148,6 +148,7 @@ for the two mementos is 30 days + 365 days = 385 days.
 Note: the URIs in the MovieLens data redirect, be sure to use
 the final values as URI-Rs for the archives:
 
+```shell
 $ curl -i -L --silent "http://us.imdb.com/M/title-exact?Top%20Gun%20(1986)" 
 HTTP/1.1 301 Moved Permanently
 Date: Wed, 16 Mar 2016 18:37:06 GMT
@@ -177,3 +178,4 @@ Content-Type: text/html;charset=UTF-8
 Content-Language: en-US
 Vary: Accept-Encoding,User-Agent
 [deletia...]
+```
