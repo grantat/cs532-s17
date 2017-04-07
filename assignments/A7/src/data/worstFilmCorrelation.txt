@@ -1,0 +1,12 @@
+Lowest Scores:
+[(-1.000000000000004, 'Across the Sea of Time (1995)'),
+ (-1.0000000000000018, '8 Heads in a Duffel Bag (1997)'),
+ (-1.0000000000000007, 'Swan Princess, The (1994)'),
+ (-1.0, '8 Seconds (1994)'),
+ (-1.0, 'Aparajito (1956)')]
+Highest Scores:
+[(1.0, 'Winter Guest, The (1997)'),
+ (1.0, 'Wonderful, Horrible Life of Leni Riefenstahl, The (1993)'),
+ (1.0, "Wooden Man's Bride, The (Wu Kui) (1994)"),
+ (1.000000000000004, 'Kaspar Hauser (1993)'),
+ (1.000000000000004, 'Palmetto (1998)')]

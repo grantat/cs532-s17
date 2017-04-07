@@ -1,0 +1,21 @@
+--------
+Links & Descriptions
+--------
+
+--------
+Notes
+--------
+
+K-means can kind of just guess number of clusters wanted
+
+Movies found that I don't like:
+http://us.imdb.com/M/title-exact?Anaconda%20%281997%29
+
+SubstitueMe = 868
+
+Favorite movie:
+134 Citizen Kane (1941)
+Worst Movie:
+235 Mars Attacks! (1996)
+
+

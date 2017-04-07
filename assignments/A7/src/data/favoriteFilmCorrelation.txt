@@ -1,0 +1,12 @@
+Lowest Scores:
+[(-1.000000000000004, 'Maya Lin: A Strong Clear Vision (1994)'),
+ (-1.0000000000000004, 'Free Willy 3: The Rescue (1997)'),
+ (-1.0, 'Bad Girls (1994)'),
+ (-1.0, 'Big Bully (1996)'),
+ (-1.0, 'Colonel Chabert, Le (1994)')]
+Highest Scores:
+[(1.0, 'Newton Boys, The (1998)'),
+ (1.0, 'Palmetto (1998)'),
+ (1.0, 'Savage Nights (Nuits fauves, Les) (1992)'),
+ (1.0, 'Wild America (1997)'),
+ (1.0000000000000027, 'Heavy (1995)')]
