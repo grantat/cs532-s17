@@ -12,7 +12,6 @@ http://indietop20.blogspot.com/feeds/posts/default
 http://stonehillsketchbook.blogspot.com/feeds/posts/default
 http://cuzmusicrocks.blogspot.com/feeds/posts/default
 http://glipress.blogspot.com/feeds/posts/default
-https://norecordshopsleft.blogspot.com/feeds/posts/default
 http://truthfulmood.blogspot.com/feeds/posts/default
 http://www.sunstockmusic.com/feeds/posts/default
 http://markfishers-musicreview.blogspot.com/feeds/posts/default
@@ -28,7 +27,6 @@ http://www.chrisanne-grise.com/feeds/posts/default
 http://momentarilymusical.blogspot.com/feeds/posts/default
 http://maggotcaviar.blogspot.com/feeds/posts/default
 http://stephanieveto.blogspot.com/feeds/posts/default
-https://chemical-robert.blogspot.com/feeds/posts/default
 http://mondaywakeup.blogspot.com/feeds/posts/default
 http://www.mpcfilmco.com/feeds/posts/default
 http://justwordsnomeaning.blogspot.com/feeds/posts/default
@@ -48,7 +46,6 @@ http://abueveryday.blogspot.com/feeds/posts/default
 http://doyouneedatv.blogspot.com/feeds/posts/default
 http://srkikiblog.blogspot.com/feeds/posts/default
 http://bleakbliss.blogspot.com/feeds/posts/default
-https://urockradio.blogspot.com/feeds/posts/default
 http://dancingincirclesnow.blogspot.com/feeds/posts/default
 http://ridingaborrowedbike.blogspot.com/feeds/posts/default
 http://www.hipindetroit.com/feeds/posts/default
@@ -56,7 +53,6 @@ http://marshwiggle.blogspot.com/feeds/posts/default
 http://sixeyes.blogspot.com/feeds/posts/default
 http://encorenorthernireland.blogspot.com/feeds/posts/default
 http://johnandmaureensanto.blogspot.com/feeds/posts/default
-http://lastnightadjsavemylife.blogspot.com/feeds/posts/default
 http://franbrighton.blogspot.com/feeds/posts/default
 http://mtjrrantsravesonmusic.blogspot.com/feeds/posts/default
 http://turnitupjack.blogspot.com/feeds/posts/default
@@ -75,7 +71,6 @@ http://avidsblog.blogspot.com/feeds/posts/default
 http://atozappa.blogspot.com/feeds/posts/default
 http://ps-music.blogspot.com/feeds/posts/default
 http://primitiveofferings.blogspot.com/feeds/posts/default
-None
 http://markeortega.blogspot.com/feeds/posts/default
 http://londynsky.blogspot.com/feeds/posts/default
 http://somecallitnoise.blogspot.com/feeds/posts/default
@@ -89,7 +84,6 @@ http://www.thestarkonline.com/feeds/posts/default
 http://dana9morgan.blogspot.com/feeds/posts/default
 http://hellomynameisjustin.blogspot.com/feeds/posts/default
 http://paradoxical-era.blogspot.com/feeds/posts/default
-https://mymusicworld-surf60.blogspot.com/feeds/posts/default
 http://pithytitlehere.blogspot.com/feeds/posts/default
 http://myopiamuse.blogspot.com/feeds/posts/default
 http://jamiemclelland.blogspot.com/feeds/posts/default

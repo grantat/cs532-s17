@@ -25,7 +25,7 @@ def deleteNoFeedFiles():
     d = f.readlines()
     f.seek(0)
     for i, line in enumerate(d):
-        if 'None' == line:
+        if 'None' in line:
             noneLines.append(i)
         else:
             f.write(line)
