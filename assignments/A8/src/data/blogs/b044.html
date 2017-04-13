@@ -1,386 +1,456 @@
 <!DOCTYPE html>
-<html class='v2' dir='ltr'>
+<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
+<meta content='0; url=http://hazelcills.com' http-equiv='refresh'/>
 <meta content='width=1100' name='viewport'/>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
 <meta content='blogger' name='generator'/>
-<link href='http://kidchair.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
-<link href='http://kidchair.blogspot.com/' rel='canonical'/>
-<link rel="alternate" type="application/atom+xml" title="KiDCHAIR - Atom" href="http://kidchair.blogspot.com/feeds/posts/default" />
-<link rel="alternate" type="application/rss+xml" title="KiDCHAIR - RSS" href="http://kidchair.blogspot.com/feeds/posts/default?alt=rss" />
-<link rel="service.post" type="application/atom+xml" title="KiDCHAIR - Atom" href="https://www.blogger.com/feeds/2337102872485247761/posts/default" />
-<link rel="me" href="https://www.blogger.com/profile/07256944324969696938" />
+<link href='http://bonjourgirl.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://bonjourgirl.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Bonjour Girl - Atom" href="http://bonjourgirl.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Bonjour Girl - RSS" href="http://bonjourgirl.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Bonjour Girl - Atom" href="https://www.blogger.com/feeds/3696128507483946762/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/14395348376318806095" />
 <link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
-<link rel="openid.delegate" href="http://kidchair.blogspot.com/" />
+<link rel="openid.delegate" href="http://bonjourgirl.blogspot.com/" />
 <!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3883790047-ieretrofit.js"></script>
 <![endif]-->
-<meta content='http://kidchair.blogspot.com/' property='og:url'/>
-<meta content='KiDCHAIR' property='og:title'/>
+<meta content='http://bonjourgirl.blogspot.com/' property='og:url'/>
+<meta content='Bonjour Girl' property='og:title'/>
 <meta content='' property='og:description'/>
 <!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
-<title>KiDCHAIR</title>
+<title>Bonjour Girl</title>
 <link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1691512649-css_bundle_v2.css' />
-<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2337102872485247761&amp;zx=e7dfc983-ed13-497d-b118-76955e32d7fd' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=3696128507483946762&amp;zx=e5da3746-65a1-4a61-b573-36888d42ca9b' />
 <style id='page-skin-1' type='text/css'><!--
 /*
 -----------------------------------------------
 Blogger Template Style
 Name:     Simple
-Designer: Blogger
-URL:      www.blogger.com
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
 ----------------------------------------------- */
-
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="#ffffff"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#0000ff"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#888888"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#0000ff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#3399bb" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#777777" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#999999"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color"
+default="#666666"/>
+<Variable name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/>
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/>
+<Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999"/>
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="#ffffff"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee"/>
+<Variable name="image.text.color" description="Caption Text Color" type="color" default="#666666"/>
+</Group>
+<Group description="Accents" selector=".content-inner">
+<Variable name="body.rule.color" description="Separator Line Color" type="color" default="#eeeeee"/>
+<Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="transparent"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#ffffff" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default=""/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background Color Selector" type="string" default=".content-inner"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="10px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal Padding" type="length" default="10px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="40px"/>
+<Variable name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)" type="length" default="5px"/>
+<Variable name="content.shadow.spread.ie" description="Content Shadow Spread (IE)" type="length" default="10px"/>
+<Variable name="main.border.width" description="Main Border Width" type="length" default="0"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url" default="none"/>
+<Variable name="header.shadow.offset.left" description="Header Shadow Offset Left" type="length" default="-1px"/>
+<Variable name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length" default="-1px"/>
+<Variable name="header.shadow.spread" description="Header Shadow Spread" type="length" default="1px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="30px"/>
+<Variable name="header.border.size" description="Header Border Size" type="length" default="1px"/>
+<Variable name="header.bottom.border.size" description="Header Bottom Border Size" type="length" default="1px"/>
+<Variable name="header.border.horizontalsize" description="Header Horizontal Border Size" type="length" default="0"/>
+<Variable name="description.text.size" description="Description Text Size" type="string" default="140%"/>
+<Variable name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" />
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length" default="30px" />
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="tabs.border.width" description="Tabs Border Width" type="length" default="1px"/>
+<Variable name="tabs.bevel.border.width" description="Tabs Bevel Border Width" type="length" default="1px"/>
+<Variable name="date.header.padding" description="Date Header Padding" type="string" default="inherit"/>
+<Variable name="date.header.letterspacing" description="Date Header Letter Spacing" type="string" default="inherit"/>
+<Variable name="date.header.margin" description="Date Header Margin" type="string" default="inherit"/>
+<Variable name="post.margin.bottom" description="Post Bottom Margin" type="length" default="25px"/>
+<Variable name="image.border.small.size" description="Image Border Small Size" type="length" default="2px"/>
+<Variable name="image.border.large.size" description="Image Border Large Size" type="length" default="5px"/>
+<Variable name="page.width.selector" description="Page Width Selector" type="string" default=".region-inner"/>
+<Variable name="page.width" description="Page Width" type="string" default="auto"/>
+<Variable name="main.section.margin" description="Main Section Margin" type="length" default="15px"/>
+<Variable name="main.padding" description="Main Padding" type="length" default="15px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px"/>
+<Variable name="main.padding.bottom" description="Main Padding Bottom" type="length" default="30px"/>
+<Variable name="paging.background"
+color="#ffffff"
+description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/>
+<Variable name="footer.bevel" description="Bevel border length of footer" type="length" default="0"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.background.size" description="Mobile Background Size" type="string" default="auto"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
 /* Content
 ----------------------------------------------- */
 body {
-font: normal normal 12px 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
-color: #333333;
-background: #dddddd none repeat scroll top left;
-padding: 0 0 0 0;
-}
-html body .region-inner {
-min-width: 0;
-max-width: 100%;
-width: auto;
-}
-h2 {
-font-size: 22px;
+background:#ffffff;
+margin:0;
+color:#000000;
+font:x-small Courier;
+font-size/* */:/**/small;
+font-size: /**/small;
 }
 a:link {
+color:#0000ff;
 text-decoration:none;
-color: #2288bb;
 }
 a:visited {
+color:#000000;
 text-decoration:none;
-color: #2288bb;
 }
 a:hover {
+color:#0000ff;
 text-decoration:underline;
-color: #68b9f2;
 }
-.body-fauxcolumn-outer .fauxcolumn-inner {
-background: transparent none repeat scroll top left;
-_background-image: none;
-}
-.body-fauxcolumn-outer .cap-top {
-position: absolute;
-z-index: 1;
-height: 400px;
-width: 100%;
-}
-.body-fauxcolumn-outer .cap-top .cap-left {
-width: 100%;
-background: transparent none repeat-x scroll top left;
-_background-image: none;
-}
-.content-outer {
--moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
--webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
--goog-ms-box-shadow: 0 0 0 #333333;
-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
-margin-bottom: 1px;
-}
-.content-inner {
-padding: 10px 40px;
-}
-.content-inner {
-background-color: #dddddd;
+a img {
+border-width:0;
 }
 /* Header
+-----------------------------------------------
+*/
+#header-wrapper {
+width:800px;
+margin:0 auto 0px;
+border:none;
+}
+#header {
+margin:none;
+border:none;
+text-align: left;
+color:#000000;
+}
+#header h1 {
+margin:none
+padding:none;
+line-height:1.5em;
+text-transform:uppercase;
+text-decoration:underline;
+letter-spacing:.1em;
+font: Courier, monospace;
+font-size: 45px;
+}
+#header a {
+color:#000000;
+text-decoration:none;
+}
+#header a:hover {
+color:#000000;
+}
+#header .description {
+margin:0 5px 5px;
+padding:none;
+max-width:1100px;
+text-transform:uppercase;
+letter-spacing:.1em;
+line-height: 1.4em;
+font: normal normal 78% Courier;
+color: #000000;
+}
+/* Outer-Wrapper
 ----------------------------------------------- */
-.header-outer {
-background: transparent none repeat-x scroll 0 -400px;
-_background-image: none;
+#outer-wrapper {
+margin:0 auto;
+padding:5px;
+text-align:left;
+background-color: white;
 }
-.Header h1 {
-font: normal normal 40px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
-color: #000000;
-text-shadow: 0 0 0 rgba(0, 0, 0, .2);
+#main-wrapper {
+margin-right: 3%;
+width: 640px;
+float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+display: inline;       /* fix for doubling margin in IE */
 }
-.Header h1 a {
-color: #000000;
-}
-.Header .description {
-font-size: 18px;
-color: #000000;
-}
-.header-inner .Header .titlewrapper {
-padding: 22px 0;
-}
-.header-inner .Header .descriptionwrapper {
-padding: 0 0;
-}
-/* Tabs
------------------------------------------------ */
-.tabs-inner .section:first-child {
-border-top: 0 solid transparent;
-}
-.tabs-inner .section:first-child ul {
-margin-top: -1px;
-border-top: 1px solid transparent;
-border-left: 1px solid transparent;
-border-right: 1px solid transparent;
-}
-.tabs-inner .widget ul {
-background: transparent none repeat-x scroll 0 -800px;
-_background-image: none;
-border-bottom: 1px solid transparent;
-margin-top: 0;
-margin-left: -30px;
-margin-right: -30px;
-}
-.tabs-inner .widget li a {
-display: inline-block;
-padding: .6em 1em;
-font: normal normal 12px 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
-color: #000000;
-border-left: 1px solid #dddddd;
-border-right: 1px solid transparent;
-}
-.tabs-inner .widget li:first-child a {
-border-left: none;
-}
-.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
-color: #000000;
-background-color: #eeeeee;
-text-decoration: none;
-}
-/* Columns
------------------------------------------------ */
-.main-outer {
-border-top: 0 solid transparent;
-}
-.fauxcolumn-left-outer .fauxcolumn-inner {
-border-right: 1px solid transparent;
-}
-.fauxcolumn-right-outer .fauxcolumn-inner {
-border-left: 1px solid transparent;
+#sidebar-wrapper {
+margin-left: 2%;
+width: 170px;
+float: left;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
 }
 /* Headings
 ----------------------------------------------- */
-div.widget > h2,
-div.widget h2.title {
-margin: 0 0 1em 0;
-font: normal bold 11px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
-color: #000000;
-}
-/* Widgets
------------------------------------------------ */
-.widget .zippy {
-color: #999999;
-text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
-}
-.widget .popular-posts ul {
-list-style: none;
+h2 {
+margin:1.5em 0 .75em;
+font:normal normal 124% Courier;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.1em;
+color:#000000;
 }
 /* Posts
------------------------------------------------ */
+-----------------------------------------------
+*/
 h2.date-header {
-font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
-}
-.date-header span {
-background-color: #bbbbbb;
-color: #ffffff;
-padding: 0.4em;
-letter-spacing: 3px;
-margin: inherit;
-}
-.main-inner {
-padding-top: 35px;
-padding-bottom: 65px;
-}
-.main-inner .column-center-inner {
-padding: 0 0;
-}
-.main-inner .column-center-inner .section {
-margin: 0 1em;
+margin:1.5em 0 .5em;
 }
 .post {
-margin: 0 0 45px 0;
+margin:.5em 0 1.5em;
+border-bottom:1px dotted #000000;
+padding-bottom:1.5em;
 }
-h3.post-title, .comments h4 {
-font: normal normal 22px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
-margin: .75em 0 0;
+.post h3 {
+margin:.25em 0 0;
+padding:0 0 6px;
+text-transform:uppercase;
+letter-spacing:.1em;
+line-height:1.3em;
+color:#000000;
 }
-.post-body {
-font-size: 110%;
-line-height: 1.4;
-position: relative;
+.post h3 a, .post h3 a:visited, .post h3 strong {
+text-decoration:none;
+color:#000000;
+font-weight:normal;
 }
-.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
-.BlogList .item-thumbnail img {
-padding: 2px;
-background: transparent;
-border: 1px solid #ffffff;
--moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
--webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+.post h3 strong, .post h3 a:hover {
+color:#000000;
+text-decoration:underline;
 }
-.post-body img, .post-body .tr-caption-container {
-padding: 5px;
-}
-.post-body .tr-caption-container {
-color: #333333;
-}
-.post-body .tr-caption-container img {
-padding: 0;
-background: transparent;
-border: none;
--moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
--webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
-}
-.post-header {
-margin: 0 0 1.5em;
-line-height: 1.6;
-font-size: 90%;
+.post p {
+margin:0 0 .75em;
+line-height:1.5em;
 }
 .post-footer {
-margin: 20px -2px 0;
-padding: 5px 10px;
-color: #666666;
-background-color: #eeeeee;
-border-bottom: 1px solid #eeeeee;
-line-height: 1.6;
-font-size: 90%;
+margin: 0em 0;
+color:#000000;
+padding: 10px;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal  Courier;
+line-height: 1.3em;
 }
-#comments .comment-author {
-padding-top: 1.5em;
-border-top: 1px solid transparent;
-background-position: 0 1.5em;
+.comment-link {
+margin-left:0em;
 }
-#comments .comment-author:first-child {
-padding-top: 0;
-border-top: none;
+.post img {
+padding:none;
+border:none;
 }
-.avatar-image-container {
-margin: .2em 0 0;
+.post blockquote {
+margin:1em 20px;
 }
-#comments .avatar-image-container img {
-border: 1px solid #ffffff;
+.post blockquote p {
+margin:.75em 0;
 }
 /* Comments
 ----------------------------------------------- */
-.comments .comments-content .icon.blog-author {
-background-repeat: no-repeat;
-background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
-}
-.comments .comments-content .loadmore a {
-border-top: 1px solid #999999;
-border-bottom: 1px solid #999999;
-}
-.comments .comment-thread.inline-thread {
-background-color: #eeeeee;
-}
-.comments .continue {
-border-top: 2px solid #999999;
-}
-/* Accents
----------------------------------------------- */
-.section-columns td.columns-cell {
-border-left: 1px solid transparent;
-}
-.blog-pager {
-background: transparent url(//www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center;
-}
-.blog-pager-older-link, .home-link,
-.blog-pager-newer-link {
-background-color: #dddddd;
-padding: 5px;
-}
-.footer-outer {
-border-top: 1px dashed #bbbbbb;
-}
-/* Mobile
------------------------------------------------ */
-body.mobile  {
-background-size: auto;
-}
-.mobile .body-fauxcolumn-outer {
-background: transparent none repeat scroll top left;
-}
-.mobile .body-fauxcolumn-outer .cap-top {
-background-size: 100% auto;
-}
-.mobile .content-outer {
--webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
-}
-.mobile .tabs-inner .widget ul {
-margin-left: 0;
-margin-right: 0;
-}
-.mobile .post {
-margin: 0;
-}
-.mobile .main-inner .column-center-inner .section {
-margin: 0;
-}
-.mobile .date-header span {
-padding: 0.1em 10px;
-margin: 0 -10px;
-}
-.mobile h3.post-title {
-margin: 0;
-}
-.mobile .blog-pager {
-background: transparent none no-repeat scroll top center;
-}
-.mobile .footer-outer {
-border-top: none;
-}
-.mobile .main-inner, .mobile .footer-inner {
-background-color: #dddddd;
-}
-.mobile-index-contents {
-color: #333333;
-}
-.mobile-link-button {
-background-color: #2288bb;
-}
-.mobile-link-button a:link, .mobile-link-button a:visited {
-color: #ffffff;
-}
-.mobile .tabs-inner .section:first-child {
-border-top: none;
-}
-.mobile .tabs-inner .PageList .widget-content {
-background-color: #eeeeee;
+#comments h4 {
+margin:0em 0;
+font-weight: normal;
+line-height: 1.5em;
+text-transform:none;
+letter-spacing:.1em;
 color: #000000;
-border-top: 1px solid transparent;
-border-bottom: 1px solid transparent;
 }
-.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
-border-left: 1px solid transparent;
+#comments-block {
+margin:1em 0 1.5em;
+line-height:1.6em;
+}
+#comments-block .comment-author {
+margin:.5em 0;
+}
+#comments-block .comment-body {
+margin:.25em 0 0;
+}
+#comments-block .comment-footer {
+margin:-.25em 0 2em;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
+#comments-block .comment-body p {
+margin:0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.feed-links {
+display: none;
+clear: both;
+line-height: 2.5em;
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar {
+color: #000000;
+line-height: 1.5em;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 0;
+padding:0 0 0;
+}
+.sidebar li {
+margin:0;
+color: #0000ff;
+padding:0 0 .25em 15px;
+text-indent:-15px;
+line-height:1.5em;
+}
+.sidebar .widget, .main .widget {
+border-bottom:1px dotted #000000;
+margin:0 0 1.5em;
+padding:0 0 1.5em;
+}
+.main .Blog {
+border-bottom-width: 0;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin: 0 5px 5px 0;
+padding: 4px;
+border: 1px solid #000000;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 74% Courier;
+color: #000000;
+font-weight: bold;
+line-height: 1.6em;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+.profile-link {
+font: normal normal 74% Verdana, sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+width:660px;
+clear:both;
+margin:0 auto;
+padding-top:15px;
+line-height: 1.6em;
+text-transform:uppercase;
+letter-spacing:.1em;
+text-align: center;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #header {
+margin-left: 0px;
+margin-right: 0px;
 }
 
 --></style>
 <style id='template-skin-1' type='text/css'><!--
 body {
-min-width: 700px;
+min-width: 900px;
 }
 .content-outer, .content-fauxcolumn-outer, .region-inner {
-min-width: 700px;
-max-width: 700px;
-_width: 700px;
+min-width: 900px;
+max-width: 900px;
+_width: 900px;
 }
 .main-inner .columns {
 padding-left: 0px;
-padding-right: 0px;
+padding-right: 340px;
 }
 .main-inner .fauxcolumn-center-outer {
 left: 0px;
-right: 0px;
+right: 340px;
 /* IE6 does not respect left and right together */
 _width: expression(this.parentNode.offsetWidth -
 parseInt("0px") -
-parseInt("0px") + 'px');
+parseInt("340px") + 'px');
 }
 .main-inner .fauxcolumn-left-outer {
 width: 0px;
 }
 .main-inner .fauxcolumn-right-outer {
-width: 0px;
+width: 340px;
 }
 .main-inner .column-left-outer {
 width: 0px;
@@ -388,8 +458,8 @@ right: 100%;
 margin-left: -0px;
 }
 .main-inner .column-right-outer {
-width: 0px;
-margin-right: -0px;
+width: 340px;
+margin-right: -340px;
 }
 #layout {
 min-width: 0;
@@ -402,17 +472,11 @@ width: 800px;
 min-width: 0;
 width: auto;
 }
-body#layout div.add_widget {
-padding: 8px;
-}
-body#layout div.add_widget a {
-margin-left: 32px;
-}
 --></style>
 <script type="text/javascript">function a(){var b=window.location.href,c=b.split("?");switch(c.length){case 1:return b+"?m=1";case 2:return 0<=c[1].search("(^|&)m=")?null:b+"&m=1";default:return null}}var d=navigator.userAgent;if(-1!=d.indexOf("Mobile")&&-1!=d.indexOf("WebKit")&&-1==d.indexOf("iPad")||-1!=d.indexOf("Opera Mini")||-1!=d.indexOf("IEMobile")){var e=a();e&&window.location.replace(e)};
 </script></head>
-<body class='loading variant-simplysimple'>
-<div class='navbar section' id='navbar' name='Navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+<body class='loading'>
+<div class='navbar section' id='navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
         window.addEventListener('load',
@@ -428,7 +492,7 @@ margin-left: 32px;
       gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
         if (gapi.iframes && gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d2337102872485247761\x26blogName\x3dKiDCHAIR\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://kidchair.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://kidchair.blogspot.com/\x26vt\x3d-964927132039420780',
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d3696128507483946762\x26blogName\x3dBonjour+Girl\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://bonjourgirl.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://bonjourgirl.blogspot.com/\x26vt\x3d5875321668091013695',
               where: document.getElementById("navbar-iframe-container"),
               id: "navbar-iframe"
           });
@@ -446,7 +510,7 @@ head.appendChild(script);
 </script>
 </div></div>
 <div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
-<meta content='KiDCHAIR' itemprop='name'/>
+<meta content='Bonjour Girl' itemprop='name'/>
 </div>
 <div class='body-fauxcolumns'>
 <div class='fauxcolumn-outer body-fauxcolumn-outer'>
@@ -500,10 +564,10 @@ head.appendChild(script);
 <div class='fauxborder-left header-fauxborder-left'>
 <div class='fauxborder-right header-fauxborder-right'></div>
 <div class='region-inner header-inner'>
-<div class='header section' id='header' name='Header'><div class='widget Header' data-version='1' id='Header1'>
+<div class='header section' id='header'><div class='widget Header' data-version='1' id='Header1'>
 <div id='header-inner'>
-<a href='http://kidchair.blogspot.com/' style='display: block'>
-<img alt='KiDCHAIR' height='228px; ' id='Header1_headerimg' src='http://2.bp.blogspot.com/-AbtFrxrZCSI/UFZ-z9tiY1I/AAAAAAAACyM/GSHa1acWD-8/s620/KiDCHAIR-header.png' style='display: block' width='620px; '/>
+<a href='http://bonjourgirl.blogspot.com/' style='display: block'>
+<img alt='Bonjour Girl' height='99px; ' id='Header1_headerimg' src='http://4.bp.blogspot.com/-xlyGbfR0BHA/USWzbEx4biI/AAAAAAAADrI/G_IS8ogcw0I/s1600/Screen%2Bshot%2B2013-02-21%2Bat%2B12.40.40%2BAM.png' style='display: block' width='292px; '/>
 </a>
 </div>
 </div></div>
@@ -523,8 +587,8 @@ head.appendChild(script);
 <div class='fauxborder-left tabs-fauxborder-left'>
 <div class='fauxborder-right tabs-fauxborder-right'></div>
 <div class='region-inner tabs-inner'>
-<div class='tabs no-items section' id='crosscol' name='Cross-Column'></div>
-<div class='tabs no-items section' id='crosscol-overflow' name='Cross-Column 2'></div>
+<div class='tabs no-items section' id='crosscol'></div>
+<div class='tabs no-items section' id='crosscol-overflow'></div>
 </div>
 </div>
 <div class='tabs-cap-bottom cap-bottom'>
@@ -590,368 +654,52 @@ head.appendChild(script);
 <div class='columns-inner'>
 <div class='column-center-outer'>
 <div class='column-center-inner'>
-<div class='main section' id='main' name='Main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
 <div class='blog-posts hfeed'>
 
           <div class="date-outer">
         
-<h2 class='date-header'><span>Saturday, January 28, 2017</span></h2>
+<h2 class='date-header'><span>Friday, November 8</span></h2>
 
           <div class="date-posts">
         
 <div class='post-outer'>
-<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
-<meta content='https://1.bp.blogspot.com/-ZVO9LYQSgp0/WIxupxO6K9I/AAAAAAAADsQ/xzR7AygJC-QvLmRlx1oYGPiSmlUl_zGYACLcB/s1600/Header4.jpg' itemprop='image_url'/>
-<meta content='2337102872485247761' itemprop='blogId'/>
-<meta content='1665080690824409442' itemprop='postId'/>
-<a name='1665080690824409442'></a>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='3696128507483946762' itemprop='blogId'/>
+<meta content='8307051892545325013' itemprop='postId'/>
+<a name='8307051892545325013'></a>
 <h3 class='post-title entry-title' itemprop='name'>
-<a href='http://kidchair.blogspot.com/2017/01/favorite-albums-of-2016.html'>Favorite Albums of 2016</a>
+<a href='http://bonjourgirl.blogspot.com/2013/11/blob-b-b-bb.html'>blob b b bb</a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
-<div class='post-body entry-content' id='post-body-1665080690824409442' itemprop='description articleBody'>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-ZVO9LYQSgp0/WIxupxO6K9I/AAAAAAAADsQ/xzR7AygJC-QvLmRlx1oYGPiSmlUl_zGYACLcB/s1600/Header4.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-ZVO9LYQSgp0/WIxupxO6K9I/AAAAAAAADsQ/xzR7AygJC-QvLmRlx1oYGPiSmlUl_zGYACLcB/s1600/Header4.jpg" /></a></div>
+<div class='post-body entry-content' id='post-body-8307051892545325013' itemprop='description articleBody'>
+<span style="font-size: x-large;"><a href="http://hazelcills.com/">hazelcills.com</a></span><br />
+<span style="font-size: x-large;"><a href="http://hazelcills.com/">hazelcills.com</a></span><br />
+<span style="font-size: x-large;"><a href="http://hazelcills.com/">hazelcills.com</a></span><br />
+I don't blog here anymore ! go there ^^^<br />
 <br />
-So it took me awhile, but I have finally written up my favorite albums of The Worst Year. I don't have a lot to say introduction wise, I kind of did that on my song's list (found <a href="http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html" target="_blank">HERE</a>.) But, needless to say, this was a very rough year, and I'm thankful for all the musics, both sad and sadder (some were happy).<br />
-<br />
-BE SURE TO CLICK ON DEM LINKS!<br />
-First off, some miscellaneousness...<br />
-<br />
-<a href="http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html" target="_blank"><b>FAVORITE SONGS</b></a> (again)<br />
-<br />
-<u><b>FAVORITE CONCERTS OF 2016</b></u><br />
-1. Radiohead - Los Angeles, Shrine Auditorium<br />
-2. Sigur Ros - Salt Lake City, Kingsbury Hall<br />
-3. Deftones - Salt Lake City, The Great Saltair<br />
-4. Tool - Salt Lake City, Maverick Center<br />
-5. Smashing Pumpkins - Salt Lake City, Kingsbury Hall<br />
-6. Nothing - Salt Lake City, Kilby Court<br />
-7. Peter Bjorn and John - Ogden, Ogden Amphitheater<br />
-8. Washed Out - Ogden, Ogden Amphitheater<br />
-<br />
-<u><b>FAVORITE FILM SCORE</b></u><br />
-<i><a href="https://www.youtube.com/watch?v=kXEGLDM-M2Y" target="_blank">Kubo and the Two Strings</a></i> \\ Dario Marianelli<br />
-<br />
-Runner Up<br />
-<i><a href="https://www.youtube.com/watch?v=F0ahB25FJ6o" target="_blank">Arrival</a> </i>\\ Johann Johannson<br />
-<br />
-<u><b>FAVORITE SOUNDTRACK OF ORIGINAL SONGS</b></u><br />
-<i><a href="https://www.youtube.com/watch?v=fuWTcmjnEGY" target="_blank">Sing Street</a></i><br />
-<br />
-Runner Up<br />
-<i><a href="https://www.youtube.com/watch?v=s1ynqmyL_q0" target="_blank">La La Land</a></i><br />
-<br />
-<u><b>FAVORITE E.P.</b></u><br />
-<i><a href="https://www.youtube.com/watch?v=ZEP-Qpw3lHg" target="_blank">Cheetah EP</a></i> \\ Aphex Twin<br />
-<br />
-Runner Up<br />
-<i><a href="https://www.youtube.com/watch?v=jEjdwhVuW74" target="_blank">Future Present Past</a></i> \\ The Strokes<br />
-<br />
-<br />
-<div style="text-align: left;">
-<a href="https://3.bp.blogspot.com/-FFAw3dGDO5c/WHnfOVwzF-I/AAAAAAAADpo/l_BW04JiDisWJPmQuCpBzMX4sOBztfeyQCLcB/s1600/30.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-FFAw3dGDO5c/WHnfOVwzF-I/AAAAAAAADpo/l_BW04JiDisWJPmQuCpBzMX4sOBztfeyQCLcB/s200/30.jpg" width="200" /></a></div>
-30.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=0SsrpAtpllk" target="_blank">Magik*Magik</a> </i>\\<b>&nbsp;Magik*Magik</b></span><br />
-<br />
-Melodic and sad. Kind of a shoe-in theme for this year<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-TaJGi7Jq2g4/WHngiNcUFfI/AAAAAAAADp0/9TzVDtT4ELwRBGa6xE5AcpZhL0U0WhUZQCLcB/s1600/29.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-TaJGi7Jq2g4/WHngiNcUFfI/AAAAAAAADp0/9TzVDtT4ELwRBGa6xE5AcpZhL0U0WhUZQCLcB/s200/29.jpg" width="200" /></a></div>
-29.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=ACinCwmWalY" target="_blank">Freetown Sound</a>&nbsp;</i>\\<b>&nbsp;Blood Orange</b></span><br />
-<br />
-Preachy records can be a hard sell. But this one feels more sincere than many of the higher profile records with similar themes. And the grooves are more memorable.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-npQYWbGtle0/WHng64I5J6I/AAAAAAAADp4/vFUPqeYDwIos1afkZOgZjDq76fP6xqyTQCLcB/s1600/28.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-npQYWbGtle0/WHng64I5J6I/AAAAAAAADp4/vFUPqeYDwIos1afkZOgZjDq76fP6xqyTQCLcB/s200/28.jpg" width="200" /></a></div>
-28.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=thLjQ0kYfss" target="_blank">Tidals</a>&nbsp;</i>\\<b>&nbsp;Spotlight</b></span><br />
-<br />
-They opened for Deftones, and I said "Alright, sir." One of the better opening acts I've seen for awhile.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-wxq6ZTZDpDU/WHnhIy6HJrI/AAAAAAAADrE/Qy5yfwzP5G0LF3UWbogMziaWoM8mO5duQCEw/s1600/27.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-wxq6ZTZDpDU/WHnhIy6HJrI/AAAAAAAADrE/Qy5yfwzP5G0LF3UWbogMziaWoM8mO5duQCEw/s200/27.jpg" width="200" /></a></div>
-27.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=H_9uS39YHyQ" target="_blank">Is the Is Are</a>&nbsp;</i>\\<b>&nbsp;DIIV</b></span><br />
-<br />
-Melancholy dream pop. I think it's the bass player that gets me.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-fIXa5G403NI/WHnhIpi6xcI/AAAAAAAADrI/a6K181inunclH-xjUKqpSZDSQ_Q1B_cCwCEw/s1600/26.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-fIXa5G403NI/WHnhIpi6xcI/AAAAAAAADrI/a6K181inunclH-xjUKqpSZDSQ_Q1B_cCwCEw/s200/26.jpg" width="200" /></a></div>
-26.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=0UC7n07acNQ" target="_blank">Who Really Cares</a>&nbsp;</i>\\<b>&nbsp;TV Girl</b></span><br />
-<br />
-Addictive dance songs about sex that aren't subtle about the dancing or the sex. And they kinda sound like The Go! Team. I know, right?<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-ODSymiVJyNo/WHnhIld3dcI/AAAAAAAADrA/_OsFEbUhG0kpn52bd0yplHC_SlOySs0QwCEw/s1600/25.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-ODSymiVJyNo/WHnhIld3dcI/AAAAAAAADrA/_OsFEbUhG0kpn52bd0yplHC_SlOySs0QwCEw/s200/25.jpg" width="200" /></a></div>
-25.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=qnkTIjjtqrU" target="_blank">If You See Me, Say Yes</a>&nbsp;</i>\\<b>&nbsp;Flock of Dimes</b></span><br />
-<br />
-Wye Oak singer has a side project? Alright, ma'am.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-UtwSY9pJPr8/WHnhIZ8TZRI/AAAAAAAADq8/IQ6WMP3A5_sSwkrJGmHlJLsyJbVAKfc7ACEw/s1600/24.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-UtwSY9pJPr8/WHnhIZ8TZRI/AAAAAAAADq8/IQ6WMP3A5_sSwkrJGmHlJLsyJbVAKfc7ACEw/s200/24.jpg" width="200" /></a></div>
-24.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=OSVV0KV4a0o" target="_blank">Der Klang der Offenbarung des Gottlichen</a>&nbsp;</i>\\<b>&nbsp;Kjarten Sveinsson</b></span><br />
-<br />
-Former Sigur Ros multi-instrumentalist has an opera album? Alright, sir.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-uEiNADa2zBg/WHnhIRSb8xI/AAAAAAAADq4/hnMv3uJPsWgWoaJqcAvd5Tsz-dmV51hYACEw/s1600/23.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-uEiNADa2zBg/WHnhIRSb8xI/AAAAAAAADq4/hnMv3uJPsWgWoaJqcAvd5Tsz-dmV51hYACEw/s200/23.jpg" width="200" /></a></div>
-23.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=kszLwBaC4Sw" target="_blank">Blackstar</a>&nbsp;</i>\\<b>&nbsp;David Bowie</b></span><br />
-<br />
-I wanted to like this one more than I did, because it's objectively one of the most powerfully brave musical statements of all time.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-YTCrtz7g_14/WHnhIOuRjPI/AAAAAAAADq0/rwh34_KnaFEQ9zUhhRh9SkDs4L6GrlWtQCEw/s1600/22.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-YTCrtz7g_14/WHnhIOuRjPI/AAAAAAAADq0/rwh34_KnaFEQ9zUhhRh9SkDs4L6GrlWtQCEw/s200/22.jpg" width="200" /></a></div>
-22.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=vO2Su3erRIA" target="_blank">We got it from Here...Thank You 4 Your service</a> </i>\\<b>&nbsp;A Tribe Called Quest</b></span><br />
-<br />
-The greatest rap group of all time returns with Phife's swan song. The best album (of the many) to tackle the racial tension in our country this last year.<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-9aGrZa2pnvg/WHnhH5NlFYI/AAAAAAAADqw/pGIDsLEDMygRwHTlQD718xnD1dKFSWVRwCEw/s1600/21.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-9aGrZa2pnvg/WHnhH5NlFYI/AAAAAAAADqw/pGIDsLEDMygRwHTlQD718xnD1dKFSWVRwCEw/s200/21.jpg" width="200" /></a></div>
-21.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=DTEKT5c4-To&amp;list=PLvV7AzWbml08nBznkwK6_zpFFfoxSOV6L&amp;index=3" target="_blank">Sirens</a>&nbsp;</i>\\<b>&nbsp;Nicolas Jaar</b></span><br />
-<br />
-Simultaneously some of the best ambient and best dance music of the year. And mini-Jaar speaking Espanish is a bonus treat that adds a surprising level of intimacy.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-C80uE9nsfdM/WHnhH6Fl-GI/AAAAAAAADqs/muAqNim7QGEboG8V4kHKPOgnl8DmDYJWQCEw/s1600/20.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-C80uE9nsfdM/WHnhH6Fl-GI/AAAAAAAADqs/muAqNim7QGEboG8V4kHKPOgnl8DmDYJWQCEw/s200/20.jpg" width="200" /></a></div>
-20.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=H1gUHiDIPW4" target="_blank">Puberty 2</a>&nbsp;</i>\\<b>&nbsp;Mitski</b></span><br />
-<br />
-Mitski's more subdued and personal approach to the unease of being a minority in America may not be as powerful or as urgent as others this year, but it might be more relateable. And certainly more enjoyable.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-pemYYiBnqM8/WHnhHk00LyI/AAAAAAAADqk/gYBPchnBSnUvRJ-ZhlC9vi96N3eRnkOewCEw/s1600/19.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-pemYYiBnqM8/WHnhHk00LyI/AAAAAAAADqk/gYBPchnBSnUvRJ-ZhlC9vi96N3eRnkOewCEw/s200/19.jpg" width="200" /></a></div>
-19.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=yaWesK-nWts" target="_blank">99.9%</a>&nbsp;</i>\\<b>&nbsp;Kaytranada</b></span><br />
-<br />
-The hip-hop version of Disclosure? Alright, sir.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-znYooc_wrz4/WHnhHu_gbeI/AAAAAAAADqg/KsDhTxTxU-o7dq9AjEkZdPGfTcgfcexdQCEw/s1600/18.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-znYooc_wrz4/WHnhHu_gbeI/AAAAAAAADqg/KsDhTxTxU-o7dq9AjEkZdPGfTcgfcexdQCEw/s200/18.jpg" width="200" /></a></div>
-18.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=Vs4gvn-jXJc&amp;list=PLLAym-igPkH9YVbtUpGThcxVzNutmiscO&amp;index=2" target="_blank">Painting With</a>&nbsp;</i>\\<b>&nbsp;Animal Collective</b></span><br />
-<br />
-Not as impressive as albums past, but these guys still churn out audio gold better than almost anyone working today. Headphones were invented for albums like this.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-q8aqZnO7oa8/WHnhHR1bKnI/AAAAAAAADqc/HcX1bGAH9JYQIqPqFYvHNROti29t6vJvACEw/s1600/17.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://4.bp.blogspot.com/-q8aqZnO7oa8/WHnhHR1bKnI/AAAAAAAADqc/HcX1bGAH9JYQIqPqFYvHNROti29t6vJvACEw/s200/17.jpg" width="200" /></a></div>
-17.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=mR2qwkRt11I" target="_blank">Hum</a>&nbsp;</i>\\<b>&nbsp;Eerie Wanda</b></span><br />
-<br />
-A surprise dream pop debut with and old school 60's flair. Beautifully calm and hypnotizing.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-DPvUajnW0bU/WHnhHNeHMHI/AAAAAAAADrs/mdHIlVkpUJQdguitjHSavxEZPGKABZVuwCEw/s1600/16.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-DPvUajnW0bU/WHnhHNeHMHI/AAAAAAAADrs/mdHIlVkpUJQdguitjHSavxEZPGKABZVuwCEw/s200/16.jpg" width="200" /></a></div>
-16.<br />
-<span style="font-size: large;"><i><a href="https://mesita.bandcamp.com/track/montana" target="_blank">With Love, from Laniakea</a>&nbsp;</i>\\<b>&nbsp;Mesita</b></span><br />
-<br />
-A deliciously depressing one-man show of rock-tronica that somehow sounds like the good parts of the late 90's. This guy is an unknown now, but I anxiously await his career from here.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-TkdarZMh9Uc/WHnhG5sbrVI/AAAAAAAADrs/HtWssTLJerkp7n0neK-6XJcGdtdXZwT1QCEw/s1600/15.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://2.bp.blogspot.com/-TkdarZMh9Uc/WHnhG5sbrVI/AAAAAAAADrs/HtWssTLJerkp7n0neK-6XJcGdtdXZwT1QCEw/s200/15.jpg" width="200" /></a></div>
-15.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=nWr4iwkz6Ko" target="_blank">Running Out of Love</a>&nbsp;</i>\\<b>&nbsp;The Radio Dept.</b></span><br />
-<br />
-The Swedes are finally back! This album finds them looking up from their shoes for a bit of political synth-pop. And wouldn't ya know? It works. Still dreamtastic as always.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-0RwCouATtKs/WHnhG_6ICuI/AAAAAAAADrs/48IY0AmBajItZ0w38u_QJw-GCeV9R8ipQCEw/s1600/14.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-0RwCouATtKs/WHnhG_6ICuI/AAAAAAAADrs/48IY0AmBajItZ0w38u_QJw-GCeV9R8ipQCEw/s200/14.jpg" width="200" /></a></div>
-14.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=C0QTaULDRXI" target="_blank">The Bride</a>&nbsp;</i>\\<b>&nbsp;Bat For Lashes</b></span><br />
-<br />
-Natasha Khan's concept album about a bride who loses her groom to a car crash on their wedding day manages to find a surprising amount of honest emotion packed within its melodramatic fiction. I think it rained every time I listened to it. Felt like it anyway.<br />
-<div>
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-8RB5rmSaOzc/WHnhGmeZ8YI/AAAAAAAADrs/QqRNNVsUvaU52eop91r8Yb_CjTXEJtrJQCEw/s1600/13.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://3.bp.blogspot.com/-8RB5rmSaOzc/WHnhGmeZ8YI/AAAAAAAADrs/QqRNNVsUvaU52eop91r8Yb_CjTXEJtrJQCEw/s200/13.jpg" width="200" /></a></div>
-<div>
-13.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=x2AOjb9HW2E" target="_blank">Nothing's Real</a>&nbsp;</i>\\<b>&nbsp;Shura</b></span><br />
-<br />
-After slowly sharing half of the album's tunes over the last few years (two of which made my lists in '14 and '15), Shura finally graced us with a full length debut pop bliss. And it didn't disappoint. Admittedly, the impact was muffled slightly having already heard much of its best moments. But the album was definitely worth the wait. Rookie of the year!</div>
-<div>
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-xnyKO3uc1oM/WHnhGYTE2OI/AAAAAAAADrs/TTXuUdJcu9MS0W62pkxKxH3xGTmeyXWiwCEw/s1600/12.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-xnyKO3uc1oM/WHnhGYTE2OI/AAAAAAAADrs/TTXuUdJcu9MS0W62pkxKxH3xGTmeyXWiwCEw/s200/12.jpg" width="200" /></a></div>
-<div>
-12.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=TEvlklSRtv4&amp;list=PLgpoFs1ERXyQapuSbVeURv4oChPg62wJd" target="_blank">False Readings On</a>&nbsp;</i>\\<b>&nbsp;Eluvium</b></span><br />
-<br />
-Matthew Cooper is the Grandmaster of Ambience. The Sultan of Soothe. And this lush collection of godly sighs couldn't have come at a better time. My soul needed this in 2016. So did yours, trust me.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-xETJDZN5a_8/WHnhGNSGJUI/AAAAAAAADrs/-w4iLuXjS8EmRB3DT6AFtHx_R8-G9tlnQCEw/s1600/11.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="200" src="https://1.bp.blogspot.com/-xETJDZN5a_8/WHnhGNSGJUI/AAAAAAAADrs/-w4iLuXjS8EmRB3DT6AFtHx_R8-G9tlnQCEw/s200/11.jpg" width="200" /></a></div>
-11.<br />
-<span style="font-size: large;"><i><a href="https://www.youtube.com/watch?v=m46Z0-HXySo" target="_blank">Hardwired...To Self-Destruct</a>&nbsp;</i>\\<b>&nbsp;Metallica</b></span><br />
-<br />
-I am ecstatic that this album was as good as it was. The good ole' boys must've known they were tapping into the veins of yesterdecade, because they thought it was a good idea to throw out a double album. Well, they probably could've shaved it to one and had themselves a collection of perfection. Nonetheless, the first disc alone is enough to merit this spot, just shy of my Top 10.<br />
-<br />
-<div style="text-align: center;">
-<br /></div>
-<div style="text-align: center;">
-</div>
-<div style="text-align: center;">
-<br /></div>
-<div style="text-align: center;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-pkW-xioNhCI/WHnhGRbdo2I/AAAAAAAADrs/ZvXVnJFPx_c6eJxA5fo9rySDR-ll026MwCEw/s1600/10.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://3.bp.blogspot.com/-pkW-xioNhCI/WHnhGRbdo2I/AAAAAAAADrs/ZvXVnJFPx_c6eJxA5fo9rySDR-ll026MwCEw/s400/10.jpg" width="400" /></a></div>
-<div style="text-align: left;">
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">10.</span><span style="font-size: x-large;">&nbsp;</span><i style="font-size: x-large;"><a href="https://www.youtube.com/watch?v=FnuMMkDGjmE" target="_blank">Jessica Rabbit</a>&nbsp;</i><span style="font-size: x-large;">\\</span><b style="font-size: x-large;">&nbsp;Sleigh Bells</b></div>
-<br />
-<div style="text-align: left;">
-I was worried about these two. I thought maybe they'd burned through their shtick with 2013 album <i><a href="https://www.youtube.com/watch?v=Cr-ahiFDkts&amp;list=PLZqsyBiYZFQ2zoIlOOGMx8bze1_hbHbzA" target="_blank">Bitter Rivals</a></i>. But 2016 found them roaring back to life and doing what they do best... and then some. Alexis Krauss has never sounded better as she wails over Derek Miller's reliably vicious riffs. They actually sound a little angry, which suits them (and me). There's an element of fighting to stay alive, almost as though they sensed their number might be up. It's a welcome urgency that I related to quite a bit this year. &nbsp;</div>
-<div style="text-align: left;">
-<br /></div>
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-oMKJe-ItV3Y/WHnhJ2CnlkI/AAAAAAAADrs/PrNmryuRDaMj2Scc3M7zNO7yn03QPEOLgCEw/s1600/9.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://3.bp.blogspot.com/-oMKJe-ItV3Y/WHnhJ2CnlkI/AAAAAAAADrs/PrNmryuRDaMj2Scc3M7zNO7yn03QPEOLgCEw/s400/9.jpg" width="400" /></a></div>
-<div style="text-align: left;">
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">9.&nbsp;</span><i style="font-size: x-large;"><a href="https://www.youtube.com/watch?v=W4F0eeFqiU4" target="_blank">Tired of Tomorrow</a>&nbsp;</i><span style="font-size: x-large;">\\</span><b style="font-size: x-large;">&nbsp;Nothing</b></div>
-<br />
-These guys made the album Yuck should have made this year: a near flawless execution of 90's soaked shoegaze euphoria with a bit of heat. <i>Tired of Tomorrow </i>is draped in the exact kind of exhausted sadness you'd expect from such a melancholy title. Even when it's rockin' (and, boy, does it rock), frontman Domenic Palermo never brings his voice beyond a defeated sigh with lines like "<a href="https://www.youtube.com/watch?v=2k5GaXTafzA" target="_blank">I'm living in a dream world \\ Life's a nightmare \\ and I don't ever want to wake</a>." It's remarkably consistent yet refreshingly varied for the genre - lush ballads join crushing face-melters and combine for a beautifully dark but energetic experience.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-23ciDm76w7o/WHnhJk_YYmI/AAAAAAAADrs/hgkhqE41QtIu2-ufW8vaUrfkPOpbc2WRgCEw/s1600/8.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://2.bp.blogspot.com/-23ciDm76w7o/WHnhJk_YYmI/AAAAAAAADrs/hgkhqE41QtIu2-ufW8vaUrfkPOpbc2WRgCEw/s400/8.jpg" width="400" /></a></div>
-<div style="text-align: left;">
-<span style="font-size: x-large; text-align: left;"><br /></span>
-<span style="font-size: x-large; text-align: left;">8.&nbsp;</span><i style="font-size: x-large; text-align: left;"><a href="https://www.youtube.com/watch?v=K1BqwONm4TE" target="_blank">Heads Up</a>&nbsp;</i><span style="font-size: x-large; text-align: left;">\\</span><b style="font-size: x-large; text-align: left;">&nbsp;Warpaint</b></div>
-<br />
-Warpaint has one of my favorite rhythm sections in music these days. Jenny Lee Lindberg's bass kills me. She also happens to be the sister of actress <a href="https://en.wikipedia.org/wiki/Shannyn_Sossamon" target="_blank">Shannon Sossamon</a> and wife of one of my favorite video artists, <a href="https://en.wikipedia.org/wiki/Chris_Cunningham" target="_blank">Chris Cunningham</a> (of Aphex Twin and Bjork fame), but it's her bass that does it. However, it took me awhile to warm up to this record. On a personal level,&nbsp;<i>Heads Up</i>&nbsp;exists somewhere in that in-between stage of grief. After the initial shock, but before the trauma of it all truly hits you. It feels emotionally numb, almost like audio avoidance behavior - covered by impeccable groove and thick atmosphere. But it is there, just under the surface. It's a hidden pain that somehow feels like both sides of a sad story. Even on "<a href="https://www.youtube.com/watch?v=gg_OThhfXh0" target="_blank">New Song</a>," sonically and thematically the most upbeat track, there's a sense of longing. Almost like slowly dancing the night away with your friends is all you can manage for the time being.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-IrI0msAmYdw/WHnhJTl7veI/AAAAAAAADrs/aXpfpIItPHAJ6IX-0Rnv5NMOS0qCMaQrQCEw/s1600/6.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://3.bp.blogspot.com/-IrI0msAmYdw/WHnhJTl7veI/AAAAAAAADrs/aXpfpIItPHAJ6IX-0Rnv5NMOS0qCMaQrQCEw/s400/6.jpg" width="400" /></a></div>
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">7.&nbsp;</span><i style="font-size: x-large;"><a href="https://www.youtube.com/watch?v=nXERkp-NQEQ" target="_blank">Ouroboros</a>&nbsp;</i><span style="font-size: x-large;">\\</span><b style="font-size: x-large;">&nbsp;Ray LaMontagne</b><br />
-<br />
-In a year that seemed dominated by a craving for the sad and the sap, <i>Ouroboros </i>remained one of the bright stars in a dark year. One of the few albums that truly lifted my spirits and calmed my soul. It helps that Ray possesses one of my all-time favorite voices. How can I not perk up a bit by the sound of that soulful croon? With the help of My Morning Jacket mastermind Jim James, Ray concocts quite the Led Zeppelin tribute on this record. Plenty of psychedelia, and plenty of bluesy riffage, but a good helping of quiet intimacy to go with it. I've always been a fan of LaMontagne's, but that fandom was usually anchored in his voice more than the songwriting. Having said that,&nbsp;<i>Ouroboros </i>may be his finest collection of songs. It's the first album of his to truly deliver from start to finish with such astounding results.<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-m5bnFRKu2Zg/WHnhJQCS8dI/AAAAAAAADrs/sIGB5nCu9kgQ9nHzXsoDITKp0CdpNlo0QCEw/s1600/7.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://2.bp.blogspot.com/-m5bnFRKu2Zg/WHnhJQCS8dI/AAAAAAAADrs/sIGB5nCu9kgQ9nHzXsoDITKp0CdpNlo0QCEw/s400/7.jpg" width="400" /></a></div>
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">6.&nbsp;</span><i style="font-size: x-large;"><a href="https://www.youtube.com/watch?v=ISCEilPMNak" target="_blank">22, A Million</a>&nbsp;</i><span style="font-size: x-large;">\\</span><b style="font-size: x-large;">&nbsp;Bon Iver</b><br />
-<br />
-<i>22, A Million</i>&nbsp;is like an old teddy bear that has been worn with age and use - rough on the surface, but there's something charming and warm underneath the grime. And it's this juxtaposition that gives it its distinctive personality. The record is also somehow very brave yet completely expected. Justin Vernon isn't doing anything particularly new here - all the audio tricks are things artists like <a href="https://www.youtube.com/watch?v=2NQ8woXu07c" target="_blank">Radiohead</a>, <a href="https://www.youtube.com/watch?v=0bsDXLluUGM" target="_blank">James Blake</a>, <a href="https://www.youtube.com/watch?v=k7-9QSwll0o" target="_blank">Bjork</a> and <a href="https://www.youtube.com/watch?v=mnEreuedh8M" target="_blank">Vernon himself </a>&nbsp;have dabbled in for years. But fused with his backwood sensibilities, it's a beautifully welcome sensory experience and one of the most sonically pleasing albums all year. He's managed to marry the intimacy of his first album with the grandiosity of his second. And sure, Vernon still seems like his picture would sit prominently next to the dictionary definition of "pretentious." But he also comes across as being ridiculously sincere. And it's because of that sincerity that I can draw very real emotion out of his cryptically nonsensical lyrics and love the hell out of every damn saxophone on this album. Of which there are many. And so, I am a fan once again.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-UyWn6PWcYD8/WHnhJDCBcRI/AAAAAAAADrs/JxHdiNdAKj0wOE6lkbf4YJUCF8MQ0eB9ACEw/s1600/5.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://1.bp.blogspot.com/-UyWn6PWcYD8/WHnhJDCBcRI/AAAAAAAADrs/JxHdiNdAKj0wOE6lkbf4YJUCF8MQ0eB9ACEw/s400/5.jpg" width="400" /></a></div>
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">5.&nbsp;<i><a href="https://www.youtube.com/watch?v=jgrgCaSo8e4" target="_blank">A Mineral Love</a>&nbsp;</i>\\<b>&nbsp;Bibio</b></span><br />
-<br />
-Well, Bibio has consistently managed to reach my top ten with every official album he's released since 2009's remarkable&nbsp;<i><a href="https://www.youtube.com/watch?v=skh7HunJ-iA&amp;list=PL1yYEMwtFZHOx3hpkNTx_eoJxusmPNgNo" target="_blank">Ambivalence Avenue</a>. </i>I think it's safe to say Stephen Wilkinson is one of my favorites at this point. This was a particularly light and airy release, and like <i>Ouroboros</i>, one of the few albums to truly lighten my spirits this year. There are occasional hints of melancholy within his poetic imagery, but overall there's a joyful and welcome old-school bounce to his audio collage, as if the sad memories are in the past.<br />
-<br />
-The most noticeable deviation this time around, is the absence of any glitch heavy electronic tracks. Instead we get organic old school numbers like the funky "<i><a href="https://www.youtube.com/watch?v=NO6mA4jJvAg" target="_blank">Town and Country</a>.</i>" It used to be that the skittering electronica pieces were the highlights of his albums, but <i>A Mineral Love </i>picks up where 2014's dreamy&nbsp;<i><a href="https://www.youtube.com/watch?v=4XodP5HsopU&amp;list=PL2gPWZzBSZWTK7KJpOydJAyb209CPO1W3" target="_blank">Silver Wilkinson</a> </i>left off and further opens up for a more organic sound and lyrical approach. "The way your Polaroid appears \\ She wrote a song about it yesterday," he softly sings on the oh-so-lovely "<a href="https://www.youtube.com/watch?v=QZ0x-AXpmn4&amp;list=PLC6F50D1CD6FE84EF" target="_blank">Raxeira</a>." It's these moments that keep Bibio in my top ten, right where he belongs.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-9kRt9So115k/WHnhJGHqT7I/AAAAAAAADrs/zPpDkZZojMEA4IB6RoTImAvrcVVMwDM3QCEw/s1600/4.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://3.bp.blogspot.com/-9kRt9So115k/WHnhJGHqT7I/AAAAAAAADrs/zPpDkZZojMEA4IB6RoTImAvrcVVMwDM3QCEw/s400/4.jpg" width="400" /></a></div>
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">4.&nbsp;<i><a href="https://www.youtube.com/watch?v=2FlHCmEwRkw" target="_blank">Atomic</a>&nbsp;</i>\\<b>&nbsp;Mogwai</b></span><br />
-<br />
-The record was originally conceived as a score to the BBC documentary called&nbsp;<i><a href="https://www.youtube.com/watch?v=ftGGevf_fZk" target="_blank">Atomic: Living in Dread and Promise</a>,</i> which they reworked to release as an album, and recently I watched Mogwai perform it live, in-sync with the film itself. I purposely waited to have that experience before I put my thoughts of this album to words. The film was moving - terrifying and amazing at the same time. And accentuating the terror and amazement were Mogwai. It was one of the more unique concert experiences I've had, and confirmation that this is one of the band's best moments, "soundtrack" or no. For my money, it is the best Mogwai work since 2003's classic&nbsp;<i><a href="https://www.youtube.com/watch?v=q8psR9I1pwg">Happy Songs for Happy People</a>.&nbsp;</i><br />
-<br />
-Appropriately, the album scales both macro and micro with moments like the monstrous "<a href="https://www.youtube.com/watch?v=_HNUTYSVvTI" target="_blank">Bitterness Centrifuge</a>" and the delicate "<a href="https://www.youtube.com/watch?v=eVbpP5tY1vY" target="_blank">Are You A Dancer?</a>" Not only is my perception of it's intended emotion significantly augmented since seeing it live, but this was a record that perfectly matched the destructive chaos of emotion I experienced in 2016. Being an instrumental album, I was able to mold it to my moods (which also happened to scale the extremes of macro and micro), and that's something I needed. Sometimes words just won't do, and it takes a certain kind of Scottish post-rock to soundtrack the inner splitting of atoms, whether literally or metaphorically.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-vAstH2haz0o/WHnhI0dufpI/AAAAAAAADrs/oZRml3rRRK4LZ5hQl7xqMhu5skKvYuFTQCEw/s1600/3.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://1.bp.blogspot.com/-vAstH2haz0o/WHnhI0dufpI/AAAAAAAADrs/oZRml3rRRK4LZ5hQl7xqMhu5skKvYuFTQCEw/s400/3.jpg" width="400" /></a></div>
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">3.&nbsp;<i><a href="https://www.youtube.com/watch?v=TTglDb7qjvQ" target="_blank">The Colour In Anything</a>&nbsp;</i>\\<b>&nbsp;James Blake</b></span><br />
-<br />
-James Blake typically works in a collage of sound and thought. Pieces of emotion chopped up and sampled, punctuating rather than explaining. Across 17 tracks and 76 minutes of futuristic rhythm and blues, <i>The Colour In Anything</i> manages to touch on nearly every emotion of the devastation of true heartbreak. Certainly, my heartbreak. But not just mine. There are two sides to every sad story, and as I let this album sink in, I felt the emotions of both. This isn't a "woe is me" cry, it's a "woe is us." "<a href="https://www.youtube.com/watch?v=ew63HMMeB58" target="_blank">But giving up is hard to do</a>," he sings. I found so many of the spliced declarations of this record drawing eerily close to my situation, at times more so than any record this year.<br />
-<br />
-Most recently, a moment in standout track "<a href="https://www.youtube.com/watch?v=oT_GfzTjNkk" target="_blank">Modern Soul</a>" hit me particularly hard as I heard its meaning encapsulate the record as a whole. He opens the track with the line "I know crossroads when I see them," and repeats the refrain "I want it to be over, I want it to be over" throughout. It's a cry for respite - for relief from the pain of waking up and no longer seeing "<a href="https://www.youtube.com/watch?v=jjOBp-d8Z7Q" target="_blank">the colour in anything</a>," and the pain of losing your place ("<a href="https://www.youtube.com/watch?v=q2BfWQG8muE" target="_blank">Where is my beautiful life? \\ &nbsp;I don't live here anymore</a>"). From the pain of uncertainty ("<a href="https://www.youtube.com/watch?v=Ad5Vp9y1_pg" target="_blank">I hope I'm right when I'm speaking my mind</a>"), and the pain of realizing that the person you used to share the world with is "<a href="https://www.youtube.com/watch?v=-r_HN5LHAq0" target="_blank">sadly no longer her</a>." Blake ends the album with a defeated sigh: "All those songs that came before \\ They were once awaiting \\&nbsp;<a href="https://www.youtube.com/watch?v=XzGgredU05g" target="_blank">Music can't be everything.</a>" And so ends a truly magnificent collection of musical devastation. I needed this album.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-V8voGsgmmgA/WHnhH1UnclI/AAAAAAAADrs/_B0wcUcOJUU2-VAPn2CTxJOaVr3hna2ZwCEw/s1600/2.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://2.bp.blogspot.com/-V8voGsgmmgA/WHnhH1UnclI/AAAAAAAADrs/_B0wcUcOJUU2-VAPn2CTxJOaVr3hna2ZwCEw/s400/2.jpg" width="400" /></a></div>
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">2.&nbsp;<i><a href="https://www.youtube.com/watch?v=NJbvSmRuV_w" target="_blank">Gore</a>&nbsp;</i>\\<b>&nbsp;Deftones</b></span><br />
-<br />
-"<a href="https://www.youtube.com/watch?v=JAmt6zN9vOk" target="_blank">There's a new strange \\ godless demon awake inside me</a>..." begins the eighth studio album by tenacious veterans Deftones. It's a simple phrase that announces the theme of what's to follow in their dream-metal opus. <i>Gore </i>is the other side of heartbreak: terror, exhaustion, rage, escape, rebirth. But beyond that, it's the sound of unleashing a primal will to survive in the face of certain destruction. Basically, it's the sound of&nbsp;<a href="https://www.youtube.com/watch?v=YG3TW5JbzJw&amp;t=4s" target="_blank">turning Super Saiyan</a>. It was this explosive euphoria that set it apart from virtually every other album I listened to this year. There is a sadness to it, for sure, expressed with an evocative gothic flair that comes natural to Chino Moreno. But it doesn't let itself stay there. It refuses to be held down.<br />
-<br />
-I was surprised that this album ended up being the "positive" one. More than any other Deftones record to date, it finds beauty in the chaos, a trait mirrored in it's stunning cover art. Chino's lyrics represented my experiences as closely as anything this year, but in a way that inspired a burning perseverance I didn't get from any other artist. Survival is sometimes violent and messy, but&nbsp;<i>Gore&nbsp;</i>revels in the explosive rebirth, like a phoenix from the ashes. Or maybe a flamingo.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-KETImw3aYAU/WHnhGIeMyXI/AAAAAAAADrs/KzZZAkqiBgUpGqGaV8Li-X8hfChH2iNuQCEw/s1600/1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="https://2.bp.blogspot.com/-KETImw3aYAU/WHnhGIeMyXI/AAAAAAAADrs/KzZZAkqiBgUpGqGaV8Li-X8hfChH2iNuQCEw/s400/1.jpg" width="400" /></a></div>
-<span style="font-size: x-large;"><br /></span>
-<span style="font-size: x-large;">1.&nbsp;<i><a href="https://www.youtube.com/watch?v=TTAU7lLDZYU" target="_blank">A Moon Shaped Pool</a>&nbsp;</i>\\<b>&nbsp;Radiohead</b></span><br />
-<br />
-Yes, I have a <a href="https://www.google.com/search?q=radiohead+bear&amp;espv=2&amp;biw=1213&amp;bih=712&amp;tbm=isch&amp;imgil=qAb8DzRERHclOM%253A%253BBfndxAt2H33NNM%253Bhttps%25253A%25252F%25252Fen.wikipedia.org%25252Fwiki%25252FFile%25253ARHbear.svg&amp;source=iu&amp;pf=m&amp;fir=qAb8DzRERHclOM%253A%252CBfndxAt2H33NNM%252C_&amp;usg=__ittfSp4jhYLwS98kKdo348_Ck2Y%3D&amp;ved=0ahUKEwjVvKKPnOPRAhVB22MKHcCkDQIQyjcIJw&amp;ei=9LSLWNXyIcG2jwPAybYQ#imgrc=_" target="_blank">bear </a>sticker on my car. But for the record, this is the first time a Radiohead album has topped my end of year list since 2003's <i><a href="https://www.youtube.com/watch?v=7AQSLozK7aA" target="_blank">Hail to the Thief</a></i>. So chew on that a bit before you roll your eyes at this seeming inevitability.<br />
-<br />
-Grammatically, the album title seems to refer to a pool shaped <i>by </i>the&nbsp;moon, not a pool shaped <i>like </i>the&nbsp;moon. When I first listened to <i>A Moon Shaped Pool</i>, it was raining. I was in a car and the windshield looked like the cover. It was Mother's Day, and I was still married. I had no idea just how important this album would be to me, but - like a moon shaping a pool - I could feel its gravity. I knew it was constructed amidst loss; producer and "sixth member" Nigel Godrich had lost his father, and Thom Yorke had dissolved his nearly 25 year relationship with the mother of his children. Those heavy emotions, combined with the band's special brand of prophetic paranoia, are all present. But it was saturated with another emotion - exhaustion. For the first time, Radiohead sound almost...old. And that's not a slight, it's just an observation. There's not a whole lot of experimenting going on as they've essentially taken the last three tracks of <i><a href="https://vimeo.com/78951064" target="_blank">The King Of Limbs</a></i> and built an album off them. It's simply the best band in the world being the best band in the world. The truth is, they <i>are </i>getting old. They've spent a lot of years being <a href="https://www.youtube.com/watch?v=sPLEbAVjiLA" target="_blank">paranoid android</a>s (besides U2 they have the <a href="http://www.rollingstone.com/music/features/is-u2-the-longestrunning-band-on-the-planet-20141104" target="_blank">longest-tenured original lineup</a> in popular music), and this album has the faint feeling of throwing in the towel to the world in a sad-but-powerful way. I couldn't help but think that if this ended up being the band's swan song (knock on wood), it would somehow feel appropriate.<br />
-<br />
-As the horror of this year rolled on, I found myself astounded at the fact that my favorite band had seemingly made an album just for me. As Thom bared his heart, it was as though he was baring mine as well. I was also exhausted and heartbroken. I was also throwing in the towel. The world around me was going to shit, and Radiohead had soundtracked it. "<a href="https://vimeo.com/169944306" target="_blank">You really messed things up</a>," "<a href="https://www.youtube.com/watch?v=TTAU7lLDZYU" target="_blank">and it's too late, the damage is done.</a>" "<a href="https://www.youtube.com/watch?v=yI2oS2hoL0k" target="_blank">This is a low-flying panic attack</a>" "<a href="https://vimeo.com/172230833" target="_blank">and there's nowhere to hide.</a>" <i>Gore</i> may have been the sound of rising from the ashes, but <i>A Moon Shaped Pool</i> was the sound of seeing the end, closing my eyes, and just letting it happen. "<a href="https://www.youtube.com/watch?v=6hgVihWjK2c" target="_blank">As my world comes crashing down, I'll be dancing. Deaf, dumb, and blind.</a>" The ying and yang of these two albums was crucial to me. In fact, there were times I thought maybe&nbsp;<i>Gore's </i>positivity deserved the top spot. But, though I am in the process of rising, the damage was done. And when I remember the worst year of my life, I will forever connect it to this album, for better and worse. I can admit it's not my favorite album of theirs. But it may be the most important one they've ever given me.<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br /></div>
 <div style='clear: both;'></div>
 </div>
 <div class='post-footer'>
-<div class='post-footer-line post-footer-line-1'>
-<span class='post-author vcard'>
-Posted by
-<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
-<meta content='https://www.blogger.com/profile/07256944324969696938' itemprop='url'/>
-<a class='g-profile' href='https://www.blogger.com/profile/07256944324969696938' rel='author' title='author profile'>
-<span itemprop='name'>I am Chree-uz.</span>
-</a>
-</span>
-</span>
-<span class='post-timestamp'>
-at
-<meta content='http://kidchair.blogspot.com/2017/01/favorite-albums-of-2016.html' itemprop='url'/>
-<a class='timestamp-link' href='http://kidchair.blogspot.com/2017/01/favorite-albums-of-2016.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2017-01-28T03:13:00-07:00'>3:13 AM</abbr></a>
-</span>
-<span class='reaction-buttons'>
-</span>
-<span class='post-comment-link'>
-<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=2337102872485247761&postID=1665080690824409442' onclick=''>
+<div class='post-footer-line post-footer-line-1'><span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=3696128507483946762&postID=8307051892545325013&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=640,height=500"); return false;'>
 No comments:
     </a>
 </span>
-<span class='post-backlinks post-comment-link'>
-<a class='comment-link' href='http://kidchair.blogspot.com/2017/01/favorite-albums-of-2016.html#links'>Links to this post</a>
-</span>
 <span class='post-icons'>
-<span class='item-control blog-admin pid-2069083391'>
-<a href='https://www.blogger.com/post-edit.g?blogID=2337102872485247761&postID=1665080690824409442&from=pencil' title='Edit Post'>
+<span class='item-control blog-admin pid-196788845'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3696128507483946762&postID=8307051892545325013&from=pencil' title='Edit Post'>
 <img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
 </a>
 </span>
 </span>
-<div class='post-share-buttons goog-inline-block'>
 </div>
-</div>
-<div class='post-footer-line post-footer-line-2'>
-<span class='post-labels'>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
 </span>
 </div>
-<div class='post-footer-line post-footer-line-3'>
-<span class='post-location'>
-</span>
-</div>
+<div class='post-footer-line post-footer-line-3'></div>
 </div>
 </div>
 </div>
@@ -961,469 +709,157 @@ No comments:
 
           <div class="date-outer">
         
-<h2 class='date-header'><span>Thursday, January 5, 2017</span></h2>
+<h2 class='date-header'><span>Saturday, August 31</span></h2>
 
           <div class="date-posts">
         
 <div class='post-outer'>
-<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
-<meta content='https://3.bp.blogspot.com/-pmijj8zsxk0/WGxlllrV3WI/AAAAAAAADn8/e4hrjUC7DZYu4ZaymoXhuSEFEhPVXRiyACLcB/s1600/Chino1.png' itemprop='image_url'/>
-<meta content='2337102872485247761' itemprop='blogId'/>
-<meta content='1559655701310904132' itemprop='postId'/>
-<a name='1559655701310904132'></a>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://4.bp.blogspot.com/-ZnC-4pDtJlU/UiCex40e0WI/AAAAAAAAD98/AluAQQ3c__8/s400/Screen+shot+2013-08-28+at+4.54.24+PM.png' itemprop='image_url'/>
+<meta content='3696128507483946762' itemprop='blogId'/>
+<meta content='4195664072863771995' itemprop='postId'/>
+<a name='4195664072863771995'></a>
 <h3 class='post-title entry-title' itemprop='name'>
-<a href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html'>Favorite Songs of 2016</a>
+<a href='http://bonjourgirl.blogspot.com/2013/08/closet-project-olivia-bee.html'>Closet Project: Olivia Bee</a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
-<div class='post-body entry-content' id='post-body-1559655701310904132' itemprop='description articleBody'>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<span style="font-size: large;"><b><i>The best songs of the worst year.</i></b></span><br />
+<div class='post-body entry-content' id='post-body-4195664072863771995' itemprop='description articleBody'>
+<a href="http://4.bp.blogspot.com/-ZnC-4pDtJlU/UiCex40e0WI/AAAAAAAAD98/AluAQQ3c__8/s1600/Screen+shot+2013-08-28+at+4.54.24+PM.png" imageanchor="1"><img border="0" height="295" src="http://4.bp.blogspot.com/-ZnC-4pDtJlU/UiCex40e0WI/AAAAAAAAD98/AluAQQ3c__8/s400/Screen+shot+2013-08-28+at+4.54.24+PM.png" width="400" /></a><br />
 <br />
-The running joke is that 2016 was kind of a dick to everyone (except the Chicago Cubs). Culturally, there were quite a few things to scowl at: A plethora of iconic deaths, wars and rumors of wars, election nonsense, a refugee crisis, dogs and cats living together...mass hysteria. Some superficial, some not so superficial. It was a rough 12 months for the general public, and it doesn't look to really be getting better.<br />
-<br />
-But the sad and selfish truth is, I had a pretty rough year despite all those things. Some of these hardships I've talked about in public and social media, but I've mostly stayed pretty brief. I lost a job, lost a grandparent, and lost my marriage, which in turn led to the very dissolution of life as I've known it. It's a torture that still plagues me every waking day, and probably will for a long time. On top of that, I've also watched helplessly as some closest to me went through tragedies of their own. Needless to say, my life has been torn apart, and I've spent the better part of the last 6 months picking up the pieces as best I can. Little by little.<br />
-<br />
-<div style="text-align: center;">
--------------------------------------------------------------</div>
-<div style="text-align: center;">
-<br /></div>
-<b><i>All along the way, there were the tunes.</i></b> The respite found in the comfort of a glorious piece of music never ceases to amaze me. I found catharsis in the mutual heartache of some of my favorite artists of all time this year. Whether it was during the long commutes home from my new job, or buried between my headphones late at night, I shed more tears than I ever have before, with many of the following songs scoring the sorrow.<br />
-<br />
-As a disclaimer, I can't promise this collection of audio nuggets won't depress the hell out of you. Then again, if you're looking for that then by all means, indulge! And if not, don't worry, they aren't&nbsp;<i>all&nbsp;</i>sad sap (just most of them). Rest assured, when the occasional lighthearted number did find its way into lifting my spirits this year, you can bet your ass it deserved recognition on this list.<br />
-<br />
-Anyway. Sorry for the intro. <b><i>T<span style="font-weight: bold;">hese </span></i></b><i style="font-weight: bold;">are the songs that scored one of the most life-altering years of my existence, and the hardest span of time in my life. </i><span style="font-weight: bold;">It f</span>elt like they deserved a bit of introducing.<br />
-<br />
-<b><span style="color: #6fa8dc; font-size: large;">And this year I decided to draw tributes to my Top 5. So those get the juicy presentation below.</span></b><br />
-<br />
-<b>Each song links to a video of it when available. Dig in.<br /><span style="font-size: large;">Here's the rest if you want:&nbsp;</span></b><br />
-<span style="font-size: x-large;"><b><a href="http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016-25-6.html" target="_blank">25-6</a></b></span><b><span style="font-size: medium;">&nbsp; &nbsp;(regular nerd extras)</span></b><br />
-<b><span style="font-size: x-large;"><a href="http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016.html" target="_blank">50-26</a>&nbsp; (ultra nerd deep cuts)</span></b><br />
-<br />
-<a href="https://3.bp.blogspot.com/-pmijj8zsxk0/WGxlllrV3WI/AAAAAAAADn8/e4hrjUC7DZYu4ZaymoXhuSEFEhPVXRiyACLcB/s1600/Chino1.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="https://3.bp.blogspot.com/-pmijj8zsxk0/WGxlllrV3WI/AAAAAAAADn8/e4hrjUC7DZYu4ZaymoXhuSEFEhPVXRiyACLcB/s1600/Chino1.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a><a href="https://3.bp.blogspot.com/-pmijj8zsxk0/WGxlllrV3WI/AAAAAAAADn8/e4hrjUC7DZYu4ZaymoXhuSEFEhPVXRiyACLcB/s1600/Chino1.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-pmijj8zsxk0/WGxlllrV3WI/AAAAAAAADn8/e4hrjUC7DZYu4ZaymoXhuSEFEhPVXRiyACLcB/s1600/Chino1.png" /></a><br />
-<div class="" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">5\\<a href="https://www.youtube.com/watch?v=SFvHMgTkr6A" target="_blank">(L)MIRL</a>\\by Deftones</span></div>
-<br />
-When Chino starts with "I don't miss you, I don't care where you are now," I get the feeling he doesn't really believe that. He wants it to be true, but he knows it isn't. At least that's what my own experience has taught me. Regardless, the important part is rebirth. He understands there needs to be painful death before glorious resurrection. The song shifts moods from dark and bass driven to skybound and hopeful after declaring "When I reawake, I'll reawake in the waves." Then the chorus dives head first into the waves triumphantly. Already one of the most powerful and melodic tracks in their impressive discography.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-zt4Ooc_7-RY/WGxmxstNJHI/AAAAAAAADoI/bBBES2Gs3PgB0QHC19TLNkyPD8xiAfq_ACLcB/s1600/JimNJust2.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-zt4Ooc_7-RY/WGxmxstNJHI/AAAAAAAADoI/bBBES2Gs3PgB0QHC19TLNkyPD8xiAfq_ACLcB/s1600/JimNJust2.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">4\\</span><a href="https://www.youtube.com/watch?v=sAJgs1P-uUE" style="font-size: x-large;" target="_blank">I Need a Forest Fire</a><span style="font-size: x-large;">\\by James Blake&nbsp;</span></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">(ft. Justin Vernon)</span></div>
-<br />
-I didn't think much of this song the first time I heard it. In fact, I almost forgot it existed until I revisited the album months later, with a new perspective. Suddenly the line "I need a forest fire" exploded in my psyche. Burning away the dead and regrowing something better and more fertile from the ashes. And this song takes place in the depths of that realization. It's not exactly a positive discernment, but surely a necessary one. It's not "I think I could use a forest fire..." or "May I have a forest fire?" It's "I <b>NEED </b>A FOREST FIRE." Once again, death is needed for rebirth. Pain is needed for growth. I always thought these two had similar voices, and somehow I never imagined I'd hear them fusing to perfection like this. But I wouldn't mind if they started their own band and kicked my heart in the ass like this now and then.<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-0zygKkBnoQY/WGxwXza-iKI/AAAAAAAADpA/RyxuLPbzPHongO5JpAl1KxjQ8RCFAX2_ACLcB/s1600/Bat3.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-0zygKkBnoQY/WGxwXza-iKI/AAAAAAAADpA/RyxuLPbzPHongO5JpAl1KxjQ8RCFAX2_ACLcB/s1600/Bat3.png" /></a></div>
-<br />
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">3\\<a href="https://www.youtube.com/watch?v=3EI4WAJcSyM" target="_blank">I Will Love Again</a>\\by Bat For Lashes</span></div>
-<br />
-The first time I listened to this song in its entirety, I just sat in my car and cried. About everything. It's amazing how perfectly a piece of art can attach to you when you need it most. And usually it just requires being in a certain place to truly catch it. Natasha Khan always has had a flair for the melodramatic, especially on&nbsp;<i>The Bride.&nbsp;</i>But it was this simple, silent whisper of affirmation that stood out miles above the rest of the album and shed some light on the darkest hours of this dark year.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-Zd_3l7gDeJo/WGxrrVbvT2I/AAAAAAAADog/VEJYF1OSvn8hgGVPEI2OIICVDSK0jAeUACLcB/s1600/Thom4.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-Zd_3l7gDeJo/WGxrrVbvT2I/AAAAAAAADog/VEJYF1OSvn8hgGVPEI2OIICVDSK0jAeUACLcB/s1600/Thom4.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">2\\</span><a href="https://vimeo.com/172230833" style="font-size: x-large;" target="_blank">Decks Dark</a><span style="font-size: x-large;">\\by Radiohead</span></div>
-<div>
-<span style="border: 0px; font-family: inherit; font-size: inherit; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: baseline;" title="Edited"><br /></span></div>
-<div>
-<span style="border: 0px; font-family: inherit; font-size: inherit; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: baseline;" title="Edited">Not to wax blasphemous or anything, but I accidentally made Thom look like Jesus, and somehow that seems very appropriate this year. I ain't even mad. Other songs on this album may have connected to my heartache a little more personally this year, but it was this one's quiet doom and gloom that was the perfect all-encompassing umbrella for the general shit show that was 2016. Thom likens the darkness to a spacecraft blocking out the sky. And there is no escape. "You run to the back and you cover your ears \\ but it's the loudest sound you've ever heard." The truly sad part of this is that he seems completely ambivalent to oblivion. "This dread still covers us \\ You gotta be kidding me \\ the grass grows over me." That's it. It's over. There's no more fight left. This, of course, is all over the top of one of the most gorgeously understated grooves the band has ever produced. Collin Greenwood's bassline rolls right along, just takin' a walk through the dark. It all comes to an end with some wonderfully bluesy piano and Thom whispering "So dark... so dark" into the shadows. "We are helpess to resist \\ in your darkest hour." Couldn't have said it better myself, Thomas.</span></div>
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-rHUhx7sl7RY/WGxvtewZJBI/AAAAAAAADo4/mLqJUjOomCIhXiCkqP9ATDDswEZb_BBaQCLcB/s1600/James.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-rHUhx7sl7RY/WGxvtewZJBI/AAAAAAAADo4/mLqJUjOomCIhXiCkqP9ATDDswEZb_BBaQCLcB/s1600/James.png" /></a></div>
-<div class="separator" style="clear: both; text-align: center;">
-<br /></div>
-<span style="font-size: x-large;">1\\<a href="https://www.youtube.com/watch?v=jjOBp-d8Z7Q" target="_blank">The Colour In Anything</a></span><span style="font-size: x-large;">\\by James Blake</span><br />
-<div>
-<br /></div>
-<div>
-Back in <a href="http://kidchair.blogspot.com/2012/01/figured-i-may-as-well-share-some-tunes.html" target="_blank">2011</a>, James Blake released my favorite song of that year with "Lindisfarne I/II," barely edging out Radiohead's "Give Up the Ghost." I mentioned that the song (from his debut album) had me eagerly awaiting this young talent's inevitably wonderful career. Little did I know that five years later, Mr. Blake would once again edge out my favorite band of all time to produce a song that could not have channeled my broken soul better had I written it myself. I also didn't expect it would be in the form of a simple piano ballad. Blake is a minimalist master, and as a primarily electronic artist that empty space pulls you in that much more with a song this organic.&nbsp;</div>
-<div>
-<br /></div>
-<div>
-This is a man laying his bleeding heart on the table and lamenting the loss of someone he intended to have forever. But it has to go both ways. At some point you "listen to the sounds" and realize there's nothing more you can offer a person. "You must not be looking \\ you must not be trying like I'm trying." These were emotions that tore me in half. In my life, no pain has been greater than failing to find "the colour in anything" after trying so hard to paint a worthy story together. This song put those emotions to music. Sometimes I wonder if I can even come back to songs like this as the years go on - as the colour comes back. I suppose I'm looking forward to finding out one day.&nbsp;</div>
-<br />
+Did this "<a href="http://blog.urbanoutfitters.com/features/olivia_bee?cm_re=Blog_Banner-_-A1-_-olivia_bee">Closet Project</a>" for UO on Olivia Bolles' awesome style. Olivia's a rad photographer, but she's also got one of the cutest wardrobes I've ever seen, so this was really fun. Also, Mike Bailey Gates shot the photos and they're perfect.
 <div style='clear: both;'></div>
 </div>
 <div class='post-footer'>
-<div class='post-footer-line post-footer-line-1'>
-<span class='post-author vcard'>
-Posted by
-<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
-<meta content='https://www.blogger.com/profile/07256944324969696938' itemprop='url'/>
-<a class='g-profile' href='https://www.blogger.com/profile/07256944324969696938' rel='author' title='author profile'>
-<span itemprop='name'>I am Chree-uz.</span>
-</a>
-</span>
-</span>
-<span class='post-timestamp'>
-at
-<meta content='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html' itemprop='url'/>
-<a class='timestamp-link' href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2017-01-05T01:10:00-07:00'>1:10 AM</abbr></a>
-</span>
-<span class='reaction-buttons'>
-</span>
-<span class='post-comment-link'>
-<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=2337102872485247761&postID=1559655701310904132' onclick=''>
-1 comment:
+<div class='post-footer-line post-footer-line-1'><span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=3696128507483946762&postID=4195664072863771995&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=640,height=500"); return false;'>
+4 comments:
     </a>
 </span>
-<span class='post-backlinks post-comment-link'>
-<a class='comment-link' href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html#links'>Links to this post</a>
-</span>
 <span class='post-icons'>
-<span class='item-control blog-admin pid-2069083391'>
-<a href='https://www.blogger.com/post-edit.g?blogID=2337102872485247761&postID=1559655701310904132&from=pencil' title='Edit Post'>
+<span class='item-control blog-admin pid-196788845'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3696128507483946762&postID=4195664072863771995&from=pencil' title='Edit Post'>
 <img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
 </a>
 </span>
 </span>
-<div class='post-share-buttons goog-inline-block'>
 </div>
-</div>
-<div class='post-footer-line post-footer-line-2'>
-<span class='post-labels'>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+///
+<a href='http://bonjourgirl.blogspot.com/search/label/fashion' rel='tag'>fashion</a>,
+<a href='http://bonjourgirl.blogspot.com/search/label/olivia%20bee' rel='tag'>olivia bee</a>,
+<a href='http://bonjourgirl.blogspot.com/search/label/urban%20outfitters' rel='tag'>urban outfitters</a>
 </span>
 </div>
-<div class='post-footer-line post-footer-line-3'>
-<span class='post-location'>
-</span>
+<div class='post-footer-line post-footer-line-3'></div>
 </div>
 </div>
 </div>
-</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Wednesday, June 5</span></h2>
+
+          <div class="date-posts">
+        
 <div class='post-outer'>
-<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
-<meta content='https://2.bp.blogspot.com/-nAZUugIa1Og/WGoVN5ZLROI/AAAAAAAADk8/FGo4RIqZrvIJx5t9tVzuhFzO_7BegZw9gCLcB/s1600/25.png' itemprop='image_url'/>
-<meta content='2337102872485247761' itemprop='blogId'/>
-<meta content='6149018549287626549' itemprop='postId'/>
-<a name='6149018549287626549'></a>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://3.bp.blogspot.com/-B6aPkUpSBZU/Ua4fXa7dmWI/AAAAAAAAD4Q/KmBWBuOK9sg/s400/tumblr_mng56fpmoK1qa8soio1_400-1.jpg' itemprop='image_url'/>
+<meta content='3696128507483946762' itemprop='blogId'/>
+<meta content='1447364746915638116' itemprop='postId'/>
+<a name='1447364746915638116'></a>
 <h3 class='post-title entry-title' itemprop='name'>
-<a href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016-25-6.html'>Favorite Songs of 2016: 25-6</a>
+<a href='http://bonjourgirl.blogspot.com/2013/06/christina-aguilera-evolution-of-style.html'>Christina Aguilera: Evolution of a Style Icon</a>
 </h3>
 <div class='post-header'>
 <div class='post-header-line-1'></div>
 </div>
-<div class='post-body entry-content' id='post-body-6149018549287626549' itemprop='description articleBody'>
+<div class='post-body entry-content' id='post-body-1447364746915638116' itemprop='description articleBody'>
 <div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<b>Each song links to a video of it when available. Dig in.</b><br />
-<b><span style="font-size: large;">Here's the rest if you want:&nbsp;</span></b><br />
-<b><span style="font-size: large;"><a href="http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016.html" target="_blank">50-26</a></span></b><br />
-<b><span style="font-size: large;"><a href="http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html" target="_blank">Top 5</a></span></b><br />
-<b><span style="font-size: large;"><br /></span></b>
+<a href="http://3.bp.blogspot.com/-B6aPkUpSBZU/Ua4fXa7dmWI/AAAAAAAAD4Q/KmBWBuOK9sg/s1600/tumblr_mng56fpmoK1qa8soio1_400-1.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-B6aPkUpSBZU/Ua4fXa7dmWI/AAAAAAAAD4Q/KmBWBuOK9sg/s400/tumblr_mng56fpmoK1qa8soio1_400-1.jpg" width="332" /></a></div>
 <br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-nAZUugIa1Og/WGoVN5ZLROI/AAAAAAAADk8/FGo4RIqZrvIJx5t9tVzuhFzO_7BegZw9gCLcB/s1600/25.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-nAZUugIa1Og/WGoVN5ZLROI/AAAAAAAADk8/FGo4RIqZrvIJx5t9tVzuhFzO_7BegZw9gCLcB/s1600/25.png" /></a></div>
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-<span style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em; text-align: left;"><span style="font-size: x-large;">25\\<a href="https://play.spotify.com/track/27D809YEzcMcPp2dItxfkL?play=true&amp;utm_source=open.spotify.com&amp;utm_medium=open" target="_blank">Gasoline and Mirrors</a>\\by Bibio (ft. Wax Stag)</span></span><span style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em; text-align: left;"><i><b>"In the sunlight you shimmer \\&nbsp;</b></i><i><b>like gasoline stains in the wells of rain"</b></i></span><span style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em; text-align: left;">Hard to choose a favorite off of this album, but this wonderfully bubbly number builds to some worthy synth-phoria. (That's right, "synth-phoria." I think that's a good thing.)</span><span style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em; text-align: left;"><br /></span></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-gcKl4LVgrLw/WGoWldEktuI/AAAAAAAADlI/-5-GwcuizdoTHq4AlACxJAomikKBbdX4ACLcB/s1600/24.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-gcKl4LVgrLw/WGoWldEktuI/AAAAAAAADlI/-5-GwcuizdoTHq4AlACxJAomikKBbdX4ACLcB/s1600/24.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">24\\<a href="https://www.youtube.com/watch?v=2EouQz8uUJg" target="_blank">Gore</a></span><span style="font-size: x-large;">\</span><span style="font-size: x-large;">\</span><span style="font-size: x-large;">by Deftones</span></div>
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: left;">
-<i><b>"We lay in the gore of our vices \\&nbsp;</b></i><i><b>Oh, we writhe in them"</b></i></div>
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: left;">
-One of the heavier tracks on the album of the same name. The slow motion churn of that grand finale is one of 2016's more epic moments. Seeing it live was pleasantly cell shattering.</div>
-<br />
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-Y7pQBCwYack/WGoYB9G20oI/AAAAAAAADlU/ByqXxrQ7IHsYMRRyduab9bU3NR4n43RkQCLcB/s1600/23.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-Y7pQBCwYack/WGoYB9G20oI/AAAAAAAADlU/ByqXxrQ7IHsYMRRyduab9bU3NR4n43RkQCLcB/s1600/23.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">23\\</span><a href="https://www.youtube.com/watch?v=cuoIvNFUY7I" style="font-size: x-large;" target="_blank">FloriDada</a><span style="font-size: x-large;">\\by Animal Collective</span></div>
-<br />
-<b><i>"Oh let's go get lost in the image \\&nbsp;</i></b><b><i>I made of the everywhere place&nbsp;</i></b><br />
-<b><i>I see the lads from Osaka \\&nbsp;</i></b><b><i>Died in FloriDada"</i></b><br />
-<br />
-A welcome moment of euphoric insanity by some of the dudes that do it best. That's about it.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-02qbQR-gmSo/WGoY__pDzkI/AAAAAAAADlc/rTiuHVqFOj8B8uLRyEDZtey2udyDeLKXwCLcB/s1600/22.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-02qbQR-gmSo/WGoY__pDzkI/AAAAAAAADlc/rTiuHVqFOj8B8uLRyEDZtey2udyDeLKXwCLcB/s1600/22.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">22\\</span><a href="https://www.youtube.com/watch?v=ZvPjJ2zC_9Q" style="font-size: x-large;" target="_blank">The Changing Man</a><span style="font-size: x-large;">&nbsp;(pt1) </span><a href="https://www.youtube.com/watch?v=USiR-8VcSe0" style="font-size: x-large;" target="_blank">While It Still Beats</a><span style="font-size: x-large;"> (pt 2)\\by Ray LaMontagne</span></div>
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: left;">
-<b><i>"So ends the game, so ends the chase \\&nbsp;</i></b><b><i>There's only one way to get out of this race"</i></b></div>
-<div>
-<br />
-Technically two tracks, but nobody has any business listening to one without the other. This one two punch is one of the most convincing Zeppelin imitations you'll hear. And that's a good thing. Such a good thing.<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-NWdYfBFWmg0/WGobIh70jMI/AAAAAAAADlo/lV2BkmA-Myoloce9-iprpTiy6zRyiF9VwCLcB/s1600/21.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-NWdYfBFWmg0/WGobIh70jMI/AAAAAAAADlo/lV2BkmA-Myoloce9-iprpTiy6zRyiF9VwCLcB/s1600/21.png" /></a></div>
-<br />
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">21\\<a href="https://www.youtube.com/watch?v=9utVR5Q67_k" target="_blank">29 #Strafford APTS</a></span><span style="font-size: x-large;">\\by Bon Iver</span></div>
-<br />
-<i><b>"Threw the meaning out the door (Now could you be a friend)&nbsp;</b></i><br />
-<i><b>There ain't no meaning anymore (Come and kiss me here again)"</b></i><br />
-<br />
-Easily one of the most beautiful things Justin Vernon has put to record. I love the vocal presentation here, digital manipulations juxtaposed with a pretty straight forward acoustic ballad. And of course, a gang of sax players dressing it all up. Can't quite tell if it's happy or sad, but it always seemed to fit no matter my mood.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-Db1NT_K-hTU/WGodHr2MOCI/AAAAAAAADl0/z-nJXMFQsu8MR4RWz91p3NjY4ljUi6RagCLcB/s1600/20.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-Db1NT_K-hTU/WGodHr2MOCI/AAAAAAAADl0/z-nJXMFQsu8MR4RWz91p3NjY4ljUi6RagCLcB/s1600/20.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">20\\</span><a href="https://www.youtube.com/watch?v=IxE6kaNuNB8" style="font-size: x-large;" target="_blank">Doomed User</a><span style="font-size: x-large;">\\by Deftones</span></div>
-<i><b><br /></b></i>
-<i><b>"I've been scarred \\&nbsp;</b></i><i><b>Fucking repulsed by this \\&nbsp;</b></i><i><b>My only tale is one I can't stand</b></i><br />
-<i><b>Now I've become torn and I rot and wilt \\&nbsp;</b></i><i><b>My heart is black and I will never feel"</b></i><br />
-<br />
-My buddy Greg says the big difference in our musical tastes lies in the fact that he has hidden sadness and I have hidden anger. And while I wouldn't say "anger" was a prominent component of my trials this year, it's always just below the surface. It sure did help to have a scorcher like this to ignite my soul and channel it now and then.<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-1V_uO7dKXN0/WGok-vntyCI/AAAAAAAADmE/5HUNubsQ_cgdh63jrgwn87LWHk5XUtlZQCLcB/s1600/19.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-1V_uO7dKXN0/WGok-vntyCI/AAAAAAAADmE/5HUNubsQ_cgdh63jrgwn87LWHk5XUtlZQCLcB/s1600/19.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">19\\</span><a href="https://www.youtube.com/watch?v=9jjnBQeYl5U" style="font-size: x-large;" target="_blank">I Just Can't Stand You Anymore</a><span style="font-size: x-large;">\\by Sleigh Bells</span></div>
-<br />
-<i><b>"Sometimes we come out all wrong \\&nbsp;</b></i><i><b>Cause I was blind half of the time</b></i><br />
-<i><b>Paralyzed, the fault is mine"</b></i></div>
-<div>
-<br />
-Despite what it seems, this song wasn't necessarily a thematic anthem for me as much as I just think its a near perfect pop/rock beast. Alexis Krauss has never sounded better, and Derek Miller's guitars blaze to glory with perfection. They still got it, and that makes me happy.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-95dtHT0J5Wc/WGon5cSpjgI/AAAAAAAADmM/wW5iAbfugKYrCFK9w9MYa7iwVCCIrDFCACLcB/s1600/18.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-95dtHT0J5Wc/WGon5cSpjgI/AAAAAAAADmM/wW5iAbfugKYrCFK9w9MYa7iwVCCIrDFCACLcB/s1600/18.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">18\\</span><a href="https://www.youtube.com/watch?v=eVbpP5tY1vY" style="font-size: x-large;" target="_blank">Are You a Dancer?</a><span style="font-size: x-large;">\\by Mogwai</span></div>
-Another delicately constructed instrumental gem by the band. Found myself closing my eyes in somber meditation quite a bit to this one.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-wnnMXi-nvdo/WGoo5ypJbXI/AAAAAAAADmU/wzBvxfOXc2sbkCMeIpAjbLvz2aSKbkaoQCLcB/s1600/17.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-wnnMXi-nvdo/WGoo5ypJbXI/AAAAAAAADmU/wzBvxfOXc2sbkCMeIpAjbLvz2aSKbkaoQCLcB/s1600/17.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">17\\</span><a href="https://vimeo.com/173238457" style="font-size: x-large;" target="_blank">Identikit</a><span style="font-size: x-large;">\\by Radiohead</span></div>
-<br />
-<i><b>"When I see you messing me around \\&nbsp;</b></i><i><b>I don't want to know \\ I don't want to know"</b></i><br />
-<br />
-A song I first heard years ago as a live bootleg (and subsequently in concert in 2012), the studio version immediately stood out as an early highlight. It's minimal groove and offbeat tempo is so choice. And Thom's manic wailing of "Broken hearts make it rain" hits home every time.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-O2pTYluK32g/WGorDaLLDTI/AAAAAAAADmg/VtyRk7VTl507IvGOZnwCYv2lC-pedf8XQCLcB/s1600/16.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-O2pTYluK32g/WGorDaLLDTI/AAAAAAAADmg/VtyRk7VTl507IvGOZnwCYv2lC-pedf8XQCLcB/s1600/16.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">16\\</span><a href="https://mesita.bandcamp.com/album/with-love-from-laniakea" style="font-size: x-large;" target="_blank">Chronolorado</a><span style="font-size: x-large;">\\by Mesita</span></div>
-<br />
-<b><i>"All the time we spent here doesn't really matter&nbsp;</i></b><br />
-<b><i>All that we went through here has been lost forever"</i></b><br />
-<br />
-A beautifully heartbroken tune I related to all too well on occasion. It's that final repeat of the line "Keep on carrying on" that brings it out of hopelessness. For those times you find yourself hanging in there, even when you're not sure you have it in you anymore.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-RSbErxjmgvs/WGqSsDEfCmI/AAAAAAAADmw/cVoz5Ohj1Rg2TnOrbILYMLJ-k9W4HjJ2QCLcB/s1600/15.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-RSbErxjmgvs/WGqSsDEfCmI/AAAAAAAADmw/cVoz5Ohj1Rg2TnOrbILYMLJ-k9W4HjJ2QCLcB/s1600/15.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">15\\</span><a href="https://www.youtube.com/watch?v=u_hDHm9MD0I" style="font-size: x-large;" target="_blank">Your Best American Girl</a><span style="font-size: x-large;">\\by Mitski</span></div>
-<br />
-<i><b>"Your mother wouldn't approve of how my mother raised me \\&nbsp;</b></i><i><b>But I do, I finally do"</b></i><br />
-<br />
-The best Smashing Pumpkins song to come out since Silversun Pickups "Lazy Eye" (just kidding, Billy, I loved&nbsp;<i>Oceania</i>). A simple but poignant song about trying to overcome different backgrounds and cultures to find love. It doesn't seem to workout in the tune, but half-Japanese singer/songwriter Mitski Miyawaki embraces her roots by eventually admitting she "finally" approves of how her "mother raised her." Your loss, white boy.<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-G4zzsViG_yw/WGqZlKyRWII/AAAAAAAADnA/FhYO6juplqYBEb4xroBYkkLWhsOTGL8CQCLcB/s1600/14.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-G4zzsViG_yw/WGqZlKyRWII/AAAAAAAADnA/FhYO6juplqYBEb4xroBYkkLWhsOTGL8CQCLcB/s1600/14.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">14\\</span><a href="https://www.youtube.com/watch?v=4tdKl-gTpZg" style="font-size: x-large;" target="_blank">Moth Into the Flame</a><span style="font-size: x-large;">\\by Metallica</span></div>
-<i><b><br /></b></i>
-<i><b>"Guarantee your name, you go and kill yourself &nbsp;\\&nbsp;</b></i><i><b>The vultures feast around you still&nbsp;</b></i><br />
-<i><b>Overdose on shame and insecurity \\&nbsp;</b></i><i><b>If one won't do, that fistfull will"</b></i><br />
-<br />
-This is the kind of song Metallica built their career on. And somehow it doesn't seem like a front for these mega-rich old dudes in one of the biggest bands of all time to light up the fame monster that plagues our American youth culture. These dudes have been around the block, and prove they still got it with this face-melter.<br />
-<br />
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-M0EJLMSJj-k/WGqdlIDGg1I/AAAAAAAADnM/-j4g4GWk80cS_o4MVmSmHrV7ITcrXbTrwCLcB/s1600/13.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-M0EJLMSJj-k/WGqdlIDGg1I/AAAAAAAADnM/-j4g4GWk80cS_o4MVmSmHrV7ITcrXbTrwCLcB/s1600/13.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">13\\</span><a href="https://www.youtube.com/watch?v=TTAU7lLDZYU" style="font-size: x-large;" target="_blank">Daydreaming</a><span style="font-size: x-large;">\\by Radiohead</span></div>
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: left;">
-<i><b>"This goes \\&nbsp;</b></i><i><b>Beyond me \\&nbsp;</b></i><i><b>Beyond you"</b></i></div>
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: left;">
-Is it about a failed relationship? Is it about climate change? Probably both. It's Thom Yorke, so your guess is as good as mine. But this dreary and tired lament hit me right where it needed to. When Thom's warped voice melts into Johnny's haunted strings, you can almost hear the sound of being too tired to fight anymore.</div>
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-tNqN9oii5Hs/WGqdsMHTsjI/AAAAAAAADn0/86dgemYHw3sSSr60Cqm3tLdt431cL6ZrQCEw/s1600/12.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-tNqN9oii5Hs/WGqdsMHTsjI/AAAAAAAADn0/86dgemYHw3sSSr60Cqm3tLdt431cL6ZrQCEw/s1600/12.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">12\\</span><a href="https://www.youtube.com/watch?v=ASXriqyKQlk" style="font-size: x-large;" target="_blank">In My Own Way</a><span style="font-size: x-large;">\\by Ray LaMontagne</span></div>
-<i><b><br /></b></i>
-<i><b>"All the plans \\&nbsp;</b></i><i><b>That were made \\&nbsp;</b></i><i><b>Let them die \\&nbsp;</b></i><i><b>Let them fade</b></i><br />
-<i><b>I'll spend the day in my own way"</b></i><br />
-<br />
-One of the few songs that could soothe my tortured soul this year. Doesn't mean I didn't break down listening to it. But it was a quiet reminder to take time for myself and let the troubles fade, however long it takes.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://4.bp.blogspot.com/-PnJFEXxuFV0/WGqdrX_AsvI/AAAAAAAADn0/hHibk8F5g3UlpExYyEzZoxfuPvfnI3GcwCEw/s1600/11.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-PnJFEXxuFV0/WGqdrX_AsvI/AAAAAAAADn0/hHibk8F5g3UlpExYyEzZoxfuPvfnI3GcwCEw/s1600/11.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">11\\</span><a href="https://www.youtube.com/watch?v=HNy7VtSsmu8" style="font-size: x-large;" target="_blank">10 d E A T h b R E a s T &#9860; &#9860; </a><span style="font-size: x-large;">\\by Bon Iver</span></div>
-<i><b><br /></b></i>
-<i><b>"Well I'll wrap you up \\&nbsp;</b></i><i><b>And I take it by the touch \\&nbsp;</b></i><i><b>Darlin', don't a failure fright"</b></i><br />
-<br />
-I think I'm on an island with this being my favorite tune on Bon Iver's superb<i> 22, a million.</i>&nbsp;And I get it, definitely not the most digestible morsel on the album. It isn't the prettiest, in fact it may be the ugliest. But I think that's why I like it. The first time I heard it my eyebrows went up and I thought, "Woah..." And that doesn't happen a ton these days. In fact, until that moment, I had almost given up on Justin Vernon (he'd been gone awhile, and the luster of his last album had faded quite a bit for me). But this tune renewed my faith and excitement for the artist, and still puts a little death in my breast (By the way..."Beth/Rest"..."deathbreast".... get it?). Anyway, mad props.<br />
-<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-T7Yh5qGrUjk/WGqdrGNk4cI/AAAAAAAADn0/LtLFq-JGyWA4tunsGsIZReyyDvBQRj3jACEw/s1600/10.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-T7Yh5qGrUjk/WGqdrGNk4cI/AAAAAAAADn0/LtLFq-JGyWA4tunsGsIZReyyDvBQRj3jACEw/s1600/10.png" /></a></div>
-<div class="" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">10\\</span><a href="https://www.youtube.com/watch?v=IeWlMB4Q8ew" style="font-size: x-large;" target="_blank">True Love Waits</a><span style="font-size: x-large;">\\by Radiohead</span></div>
-<br />
-<i><b>"I'm not living \\ I'm just killing time \\&nbsp;</b></i><i><b>Your tiny hands \\ your crazy-kitten smile</b></i><br />
-<i><b>Just don't leave \\&nbsp;</b></i><i><b>Don't leave"</b></i><br />
-<br />
-This song has already been bringing me to tears for years as a live fan favorite, but its surprise studio resurrection as the melted piano closer of&nbsp;<i>A Moon Shaped Pool </i>was a heart-wrenching godsend, especially with the personal heartbreak Thom brought to the album. The stripped comparison to an already well-known fan favorite solidified the record's aura of exhausted sadness with a quiet sigh. Suddenly an old plea took new meaning, youthful fears became aged reality. I had the chance to see it live just as my own emotions began to unravel this year. I watched in silence, mesmerized and heartbroken, with tears in my eyes once again. Right then, I connected with my favorite musician of all time more than I ever have before.<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: left;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<a href="https://1.bp.blogspot.com/-Lyw6E4AUGcE/WGqdrrtBbBI/AAAAAAAADn0/tZOfGANGJAAUbP2xhL5KBxdfnqowU9J-gCEw/s1600/9.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-Lyw6E4AUGcE/WGqdrrtBbBI/AAAAAAAADn0/tZOfGANGJAAUbP2xhL5KBxdfnqowU9J-gCEw/s1600/9.png" /></a><span style="font-size: x-large;"><br /></span>
-<br />
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">9\\<a href="https://www.youtube.com/watch?v=gg_OThhfXh0" target="_blank">New Song</a>\\by Warpaint</span></div>
-<br />
-<i><b>"You are the sun, you are the sun \\&nbsp;</b></i><i><b>That leads me babe, to where I belong</b></i><br />
-<i><b>Where I come from \\&nbsp;</b></i><i><b>Because of you, I know where I belong"</b></i><br />
-<br />
-Did I mention I had a rough year? Well, it wasn't entirely bad. Out of a lot of pain I was able to explore my place in life with the help of some very special people. In fact, one in particular has gone out of her way to "lead me back to where I belong." And just like that, this righteously groovy tune by Warpaint brought me to tears in some very unexpected ways. It's fun, it's inspiring, it's redemptive. It's a new song, baby.<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://3.bp.blogspot.com/-A-FMpGFpGEg/WGqdrgj3FzI/AAAAAAAADn0/SgZd-xkcAtEmgPiU0yDE6obJn6-WYIDQACEw/s1600/8.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-A-FMpGFpGEg/WGqdrgj3FzI/AAAAAAAADn0/SgZd-xkcAtEmgPiU0yDE6obJn6-WYIDQACEw/s1600/8.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">8\\<a href="https://www.youtube.com/watch?v=WjM0SRPXSUo" target="_blank">Vertigo Flowers</a>\\by Nothing</span></div>
-<br />
-<i><b>"Watch out for those \\&nbsp;</b></i><i><b>Who dare to say \\&nbsp;</b></i><i><b>That everything \\&nbsp;</b></i><i><b>Will be okay"</b></i><br />
-<br />
-A dark melancholy sits above the entirety of Nothing's&nbsp;<i>Tired of Tomorrow, </i>and there's no exception here. Euphoric, fuzzy guitars shoegaze their way through a lyric of discontent: it's a simple song that seems to be about not being satisfied with outside attempts to lift your spirits. Sometimes nothing anyone can say will help, despite the best of intentions. Sometimes the onslaught of flowers makes you dizzy. Sometimes you just want to be left alone with your sadness. And sometimes that's a good thing.<br />
-<br />
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-Lk6fGOBlpsY/WGqdrbIYvFI/AAAAAAAADn0/8O9KMl-yUlYGMGAq6kADrZDSRqQURNVMACEw/s1600/7.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-Lk6fGOBlpsY/WGqdrbIYvFI/AAAAAAAADn0/8O9KMl-yUlYGMGAq6kADrZDSRqQURNVMACEw/s1600/7.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">7\\</span><a href="https://www.youtube.com/watch?v=xoKqHWkSF60" style="font-size: x-large;" target="_blank">Tongue Tied</a><span style="font-size: x-large;">\\by Shura</span></div>
-<i><b><br /></b></i>
-<i><b>"I love that we're different \\&nbsp;</b></i><i><b>You got something that I'm missing</b></i><br />
-<i><b>You keep playing so cool \\&nbsp;</b></i><i><b>Wish I could be like you"</b></i><br />
-<br />
-This is the third year in a row Shura has made my list, as she's been releasing singles for <i>Nothing's Real</i> for a few years now. In fact, that's the only reason two or three more songs of hers didn't appear, because they actually <a href="https://www.youtube.com/watch?v=x2AOjb9HW2E" target="_blank">already</a>&nbsp;<a href="https://www.youtube.com/watch?v=zpZCRfrVI48" target="_blank">did</a>. This might be the best of the bunch, though. It's a straight forward pop song about two people overcoming insecurities to connect with each other. The chorus kicks it up a notch with shimmering synths and a plea to "Just say that you want me." It's more out of a fear to admit it herself, rather than a declaration of impatience. As if to say, "I think I like you but... YOU SAY IT FIRST!" By the numbers, pure pop bliss.<br />
-<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://2.bp.blogspot.com/-EPELr-ZvHgE/WG3CLnhcLGI/AAAAAAAADpY/sEnFYv5D-WQEAwWy4O_9np_sziR5UE_9gCLcB/s1600/6.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-EPELr-ZvHgE/WG3CLnhcLGI/AAAAAAAADpY/sEnFYv5D-WQEAwWy4O_9np_sziR5UE_9gCLcB/s1600/6.png" /></a></div>
-<div class="separator" style="clear: both; text-align: left;">
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div class="separator" style="clear: both; text-align: left;">
-<span style="font-size: x-large;">6\\</span><a href="https://www.youtube.com/watch?v=6hgVihWjK2c" style="font-size: x-large;" target="_blank">Present Tense</a><span style="font-size: x-large;">\\by Radiohead</span></div>
-<br />
-<i><b>"As my world \\&nbsp;</b></i><i><b>Comes crashing down \\&nbsp;</b></i><i><b>I'll be dancing&nbsp;</b></i><br />
-<i><b>Freaking out \\&nbsp;</b></i><i><b>Deaf, dumb, and blind"</b></i><br />
-<br />
-Radiohead made songs just for me this year. When it hit me just how close to home this was, I was a bit overwhelmed. In fact, I was almost anxious to see it live when I finally did. To me, it's a song of avoidance. Of denial. The disbelief as everything is falling apart right before your eyes. "This dance is like a weapon of self defense against the present tense," Thom sings, recognizing his own inability to sit still and accept fate. "Keep it light, keep it moving, I'm doing no harm," he continues. But there's also the insistence that there's no going back - "I won't turn around when the penny drops, I won't stop now." He knows it has to be this way. This is the present he faces, even if he insists on facing it "deaf, dumb, and blind" just to survive. It's a song that hits me on a level too deep to truly divulge. It's still hard to listen to. But it's also incredible. And that's Radiohead for you.<br />
-<br />
-<b><span style="font-size: large;"><a href="http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html" target="_blank">Top 5</a></span></b><br />
-<br /></div>
+Wrote about the outrageous but totally beautiful <a href="http://noisey.vice.com/blog/christina-aguilera-the-style-evolution-of-a-diva">style evolution of Christina Aguilera</a> for Noisey's Style Stage. Girl has gone through a bajillion looks. And yes, I want to bring back crimped hair ASAP. C h e c k it out.
 <div style='clear: both;'></div>
 </div>
 <div class='post-footer'>
-<div class='post-footer-line post-footer-line-1'>
-<span class='post-author vcard'>
-Posted by
-<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
-<meta content='https://www.blogger.com/profile/07256944324969696938' itemprop='url'/>
-<a class='g-profile' href='https://www.blogger.com/profile/07256944324969696938' rel='author' title='author profile'>
-<span itemprop='name'>I am Chree-uz.</span>
-</a>
-</span>
-</span>
-<span class='post-timestamp'>
-at
-<meta content='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016-25-6.html' itemprop='url'/>
-<a class='timestamp-link' href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016-25-6.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2017-01-05T01:00:00-07:00'>1:00 AM</abbr></a>
-</span>
-<span class='reaction-buttons'>
-</span>
-<span class='post-comment-link'>
-<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=2337102872485247761&postID=6149018549287626549' onclick=''>
-No comments:
+<div class='post-footer-line post-footer-line-1'><span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=3696128507483946762&postID=1447364746915638116&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=640,height=500"); return false;'>
+11 comments:
     </a>
 </span>
-<span class='post-backlinks post-comment-link'>
-<a class='comment-link' href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016-25-6.html#links'>Links to this post</a>
-</span>
 <span class='post-icons'>
-<span class='item-control blog-admin pid-2069083391'>
-<a href='https://www.blogger.com/post-edit.g?blogID=2337102872485247761&postID=6149018549287626549&from=pencil' title='Edit Post'>
+<span class='item-control blog-admin pid-196788845'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3696128507483946762&postID=1447364746915638116&from=pencil' title='Edit Post'>
 <img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
 </a>
 </span>
 </span>
-<div class='post-share-buttons goog-inline-block'>
 </div>
-</div>
-<div class='post-footer-line post-footer-line-2'>
-<span class='post-labels'>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+///
+<a href='http://bonjourgirl.blogspot.com/search/label/christina%20aguilera' rel='tag'>christina aguilera</a>,
+<a href='http://bonjourgirl.blogspot.com/search/label/fashion' rel='tag'>fashion</a>,
+<a href='http://bonjourgirl.blogspot.com/search/label/music' rel='tag'>music</a>,
+<a href='http://bonjourgirl.blogspot.com/search/label/noisey' rel='tag'>noisey</a>
 </span>
 </div>
-<div class='post-footer-line post-footer-line-3'>
-<span class='post-location'>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, May 18</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://2.bp.blogspot.com/-e3ZV5HqtPtY/UZb8Ay8BHaI/AAAAAAAAD3k/WytfpKdH2jU/s400/1368693453scoutniblettmain.jpg' itemprop='image_url'/>
+<meta content='3696128507483946762' itemprop='blogId'/>
+<meta content='7648459055272574560' itemprop='postId'/>
+<a name='7648459055272574560'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://bonjourgirl.blogspot.com/2013/05/scout-niblett-doesnt-want-scrub.html'>Scout Niblett Doesn't Want A Scrub</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7648459055272574560' itemprop='description articleBody'>
+<a href="http://2.bp.blogspot.com/-e3ZV5HqtPtY/UZb8Ay8BHaI/AAAAAAAAD3k/WytfpKdH2jU/s1600/1368693453scoutniblettmain.jpg" imageanchor="1"><img border="0" height="270" src="http://2.bp.blogspot.com/-e3ZV5HqtPtY/UZb8Ay8BHaI/AAAAAAAAD3k/WytfpKdH2jU/s400/1368693453scoutniblettmain.jpg" width="400" /></a><br />
+Rookie premiered the breathtaking Scout Niblett cover of TLC's "No Scrubs" this week along with a Q&amp;A I did with Niblett about her new album,<i> It's Up To Emma</i>. The record is absolutely amazing and literally heartbreaking; it's the only thing I've been listening to lately.&nbsp;<a href="http://rookiemag.com/2013/05/scout-niblett/">Check out the cover and Q&amp;A!</a>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=3696128507483946762&postID=7648459055272574560&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=640,height=500"); return false;'>
+6 comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-196788845'>
+<a href='https://www.blogger.com/post-edit.g?blogID=3696128507483946762&postID=7648459055272574560&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
 </span>
 </div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+///
+<a href='http://bonjourgirl.blogspot.com/search/label/music' rel='tag'>music</a>,
+<a href='http://bonjourgirl.blogspot.com/search/label/rookie' rel='tag'>rookie</a>,
+<a href='http://bonjourgirl.blogspot.com/search/label/scout%20niblett' rel='tag'>scout niblett</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
 </div>
 </div>
 </div>
@@ -1433,15 +869,15 @@ No comments:
 </div>
 <div class='blog-pager' id='blog-pager'>
 <span id='blog-pager-older-link'>
-<a class='blog-pager-older-link' href='http://kidchair.blogspot.com/search?updated-max=2017-01-05T01:00:00-07:00&amp;max-results=5' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+<a class='blog-pager-older-link' href='http://bonjourgirl.blogspot.com/search?updated-max=2013-05-18T17:02:00%2B13:00&amp;max-results=4' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
 </span>
-<a class='home-link' href='http://kidchair.blogspot.com/'>Home</a>
+<a class='home-link' href='http://bonjourgirl.blogspot.com/'>Home</a>
 </div>
 <div class='clear'></div>
 <div class='blog-feeds'>
 <div class='feed-links'>
 Subscribe to:
-<a class='feed-link' href='http://kidchair.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+<a class='feed-link' href='http://bonjourgirl.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
 </div>
 </div>
 <script type='text/javascript'>
@@ -1459,6 +895,185 @@ Subscribe to:
 <div class='column-right-outer'>
 <div class='column-right-inner'>
 <aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget Text' data-version='1' id='Text1'>
+<h2 class='title'>hello</h2>
+<div class='widget-content'>
+<img src="http://4.bp.blogspot.com/-ukGuajqQ9F8/UTGgS81JSXI/AAAAAAAADtU/TK5_yfC4Nno/s760/tumblr_mewdf9hbH71qa8soio1_250.gif" alt="some text" width="HEIGHT=" /><br/><br/><span style="font-size:100%;">I'm Hazel Cills and this is my blog. I write for </span><a href="http://rookiemag.com/author/Hazel/" style="font-size: 100%;"><span style="color:#3333ff;">Rookie</span></a><span style="font-size:100%;">, the </span><a href="http://blog.urbanoutfitters.com/blog/category/bonjour_girl" style="font-size: 100%;"><span style="color:#3333ff;">Urban Outfitters blog</span></a>, and <a href="http://bonjourgirl.blogspot.com/p/work.html" style="font-size: 100%;"><span style="color:#3333ff;">other places</span></a>. I'm currently a student at NYU.<div style="font-family: Georgia, serif; font-size: 100%; font-style: normal; font-variant: normal; font-weight: normal; line-height: normal;"><br/></div>Say hi at hazelcills@gmail.com !
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=Text&widgetId=Text1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Text1"));' target='configText1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-1'><div class='widget LinkList' data-version='1' id='LinkList1'>
+<h2>short cut</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://bonjourgirl.blogspot.com/search/label/art'>art</a></li>
+<li><a href='http://bonjourgirl.blogspot.com/search/label/fashion'>fashion</a></li>
+<li><a href='http://bonjourgirl.blogspot.com/search/label/music'>music</a></li>
+<li><a href='http://bonjourgirl.blogspot.com/search/label/movies'>movies</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' data-version='1' id='LinkList4'>
+<h2>internet presence</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='https://twitter.com/#!/hazelcills'>twitter</a></li>
+<li><a href='http://blog.urbanoutfitters.com/blog/category/bonjour_girl'>uo</a></li>
+<li><a href='http://rookiemag.com/author/Hazel/'>rookie</a></li>
+<li><a href='http://reading.am/hazelcills'>reading</a></li>
+<li><a href='http://8tracks.com/bonjourgirl'>8tracks</a></li>
+<li><a href='http://mubi.com/users/61854'>mubi</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=LinkList&widgetId=LinkList4&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList4"));' target='configLinkList4' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Image' data-version='1' id='Image1'>
+<div class='widget-content'>
+<img alt='' height='150' id='Image1_img' src='http://2.bp.blogspot.com/-qSvw0_zOd8Q/Toj0wHOzU3I/AAAAAAAACbA/AcQg5iATiTs/s150/nige1.jpg' width='110'/>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=Image&widgetId=Image1&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image1"));' target='configImage1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' data-version='1' id='Image3'>
+<div class='widget-content'>
+<a href='http://www.booooooom.com/the-booooooom-emerging-art-design-photography-blog-network/'>
+<img alt='' height='170' id='Image3_img' src='http://1.bp.blogspot.com/-busxfuLAlaE/T80zy3k2hpI/AAAAAAAADLU/4iR5BMwaiYg/s170/boomnetwork-200.png' width='170'/>
+</a>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=Image&widgetId=Image3&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image3"));' target='configImage3' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-2'>
+<div class='widget LinkList' data-version='1' id='LinkList3'>
+<h2>cool places</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.apartamentomagazine.com/current.php'>apartamento</a></li>
+<li><a href='http://bookcoverarchive.com/'>book cover archive</a></li>
+<li><a href='http://dazeddigital.com/Default.aspx'>dazed and confused</a></li>
+<li><a href='http://exactitudes.com/'>exactitudes</a></li>
+<li><a href='http://www.thehauntedinternet.com/'>haunted internet</a></li>
+<li><a href='http://www.hel-looks.com/'>hel looks</a></li>
+<li><a href='http://www.mcsweeneys.net/tendency/'>mcsweeneys</a></li>
+<li><a href='http://mikemillsweb.com/'>mike mills</a></li>
+<li><a href='http://www.moma.org/'>moma</a></li>
+<li><a href='http://www.papermag.com/'>paper magazine</a></li>
+<li><a href='http://www.newrafael.com/websites/'>rafael rozendaal</a></li>
+<li><a href='http://rookiemag.com/'>rookie</a></li>
+<li><a href='http://stylelikeu.com/'>stylelikeu</a></li>
+<li><a href='http://blog.urbanoutfitters.com/'>urban outfitters</a></li>
+<li><a href='http://www.wornjournal.com/html/'>worn journal</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=LinkList&widgetId=LinkList3&action=editWidget&sectionId=sidebar-right-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList3"));' target='configLinkList3' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' data-version='1' id='LinkList2'>
+<h2>cool blogs</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.booooooom.com/'>booooooom</a></li>
+<li><a href='http://dragonauttt.blogspot.com/'>dragonauttt</a></li>
+<li><a href='http://emilypgaudette.blogspot.com/'>echo india</a></li>
+<li><a href='http://fashionpirates.blogspot.com/'>fashion pirates</a></li>
+<li><a href='http://twelveoclocke.blogspot.com/'>gabby twelveoclocke</a></li>
+<li><a href='http://www.geometricsleep.com/'>geometric sleep</a></li>
+<li><a href='http://heystellaaaaahhh.blogspot.com/'>hey stellaaaaahhh</a></li>
+<li><a href='http://hipstermusings.blogspot.com/'>hipster musings</a></li>
+<li><a href='http://www.itsnicethat.com/'>it's nice that</a></li>
+<li><a href='http://jellybones.net/blog'>jellybones</a></li>
+<li><a href='http://www.kbdrecords.com/'>killed by death records</a></li>
+<li><a href='http://skelemitz.wordpress.com/'>mafia hunt</a></li>
+<li><a href='http://mermaidens.blogspot.com/'>mermaidens</a></li>
+<li><a href='http://ponylandia.tumblr.com/'>pony landia</a></li>
+<li><a href='http://snakecharmer.tumblr.com/'>snakecharmer</a></li>
+<li><a href='http://www.thestylerookie.com/'>style rookie</a></li>
+<li><a href='http://teenagebedroom.tumblr.com/'>teenage bedroom</a></li>
+<li><a href='http://theemmaedition.blogspot.com/'>the emma edition</a></li>
+<li><a href='http://thejuvenilia.com/'>the juvenilia</a></li>
+<li><a href='http://tigerkiddo.blogspot.com/'>tiger kiddo</a></li>
+<li><a href='http://feelslikewhitelightning.blogspot.com/'>white lightning</a></li>
+<li><a href='http://womanhouse.tumblr.com/'>womanhouse</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=LinkList&widgetId=LinkList2&action=editWidget&sectionId=sidebar-right-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList2"));' target='configLinkList2' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' data-version='1' id='HTML1'>
+<div class='widget-content'>
+<a href="http://www.bloglovin.com/blog/210832/?claim=5fyt4prj2pq">Follow my blog with Bloglovin</a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar-right-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='sidebar no-items section' id='sidebar-right-3'></div>
 </aside>
 </div>
 </div>
@@ -1483,1020 +1098,69 @@ Subscribe to:
 <div class='fauxborder-left footer-fauxborder-left'>
 <div class='fauxborder-right footer-fauxborder-right'></div>
 <div class='region-inner footer-inner'>
-<div class='foot section' id='footer-1'><div class='widget Profile' data-version='1' id='Profile1'>
-<h2>About Me</h2>
-<div class='widget-content'>
-<a href='https://www.blogger.com/profile/07256944324969696938'><img alt='My photo' class='profile-img' height='80' src='//2.bp.blogspot.com/-bW6hZZoBG3Y/Tv_OOn-6ELI/AAAAAAAACgQ/DHaRCxUbGdA/s80/chrishead.jpg' width='77'/></a>
-<dl class='profile-datablock'>
-<dt class='profile-data'>
-<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/07256944324969696938' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
-I am Chree-uz.
-</a>
-</dt>
-<dd class='profile-textblock'>Behold. This is my blog. It began as a simple thing. Then it was abandoned just as simply. And now I revive it for my pleasure. But please, feel free to also take pleasure in it at your leisure. My wife has a much prettier and better blog at "cassidilla.blogspot.com" so please look there for more meaningful use of the bloggish realm. And so it is...</dd>
-</dl>
-<a class='profile-link' href='https://www.blogger.com/profile/07256944324969696938' rel='author'>View my complete profile</a>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2337102872485247761&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget LinkList' data-version='1' id='LinkList3'>
-<h2>Greatest Hits</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='http://kidchair.blogspot.com/2008/04/rest-in-peace-brantly-steve-kirkham.html'>Brantly Steve Kirkham: June 3rd 1989-April 3rd 2008</a></li>
-<li><a href='http://kidchair.blogspot.com/2008/08/clab-my-hands.html'>Clap My Hands.</a></li>
-<li><a href='http://kidchair.blogspot.com/2009/01/good-famliy-fun-tv.html'>American Idol</a></li>
-<li><a href='http://kidchair.blogspot.com/2010/08/for-my-lovely-wife.html'>For My Lovely Wife</a></li>
-<li><a href='http://kidchair.blogspot.com/2008/11/50-things-i-love-about-my-cass.html'>50 Things I Love About My Cass</a></li>
-<li><a href='http://kidchair.blogspot.com/2010/01/back-to-100-76-back-to-75-51-back-to-50.html'>100 Favorite Albums of the 00's</a></li>
-<li><a href='http://kidchair.blogspot.com/2009/12/100-favorite-songs-of-00s-10-1.html'>100 Favorite Songs of 00's</a></li>
-<li><a href='http://kidchair.blogspot.com/2008/04/my-top-10-sidekicks.html'>Top 10 Sidekicks</a></li>
-<li><a href='http://kidchair.blogspot.com/2008/03/rage-against-machines-essay-on-my.html'>Rage Against the Machines: An essay on my condition.</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2337102872485247761&widgetType=LinkList&widgetId=LinkList3&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList3"));' target='configLinkList3' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
-<h2>Blog Archive</h2>
-<div class='widget-content'>
-<div id='ArchiveList'>
-<div id='BlogArchive1_ArchiveList'>
-<ul class='hierarchy'>
-<li class='archivedate expanded'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy toggle-open'>
-
-        &#9660;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2017/'>
-2017
-</a>
-<span class='post-count' dir='ltr'>(4)</span>
-<ul class='hierarchy'>
-<li class='archivedate expanded'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy toggle-open'>
-
-        &#9660;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2017/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(4)</span>
-<ul class='posts'>
-<li><a href='http://kidchair.blogspot.com/2017/01/favorite-albums-of-2016.html'>Favorite Albums of 2016</a></li>
-<li><a href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016_5.html'>Favorite Songs of 2016</a></li>
-<li><a href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016-25-6.html'>Favorite Songs of 2016: 25-6</a></li>
-<li><a href='http://kidchair.blogspot.com/2017/01/favorite-songs-of-2016.html'>Favorite Songs of 2016: 50-26</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2016/'>
-2016
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2016/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2015/'>
-2015
-</a>
-<span class='post-count' dir='ltr'>(3)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2015/12/'>
-December
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2015/02/'>
-February
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2015/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2014/'>
-2014
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2014/12/'>
-December
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2014/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2013/'>
-2013
-</a>
-<span class='post-count' dir='ltr'>(5)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2013/12/'>
-December
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2013/02/'>
-February
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2013/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2012/'>
-2012
-</a>
-<span class='post-count' dir='ltr'>(8)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2012/11/'>
-November
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2012/09/'>
-September
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2012/07/'>
-July
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2012/04/'>
-April
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2012/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(3)</span>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2010/'>
-2010
-</a>
-<span class='post-count' dir='ltr'>(5)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2010/08/'>
-August
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2010/03/'>
-March
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2010/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/'>
-2009
-</a>
-<span class='post-count' dir='ltr'>(25)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/12/'>
-December
-</a>
-<span class='post-count' dir='ltr'>(9)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/11/'>
-November
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/09/'>
-September
-</a>
-<span class='post-count' dir='ltr'>(3)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/08/'>
-August
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/07/'>
-July
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/04/'>
-April
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/03/'>
-March
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/02/'>
-February
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2009/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(5)</span>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/'>
-2008
-</a>
-<span class='post-count' dir='ltr'>(50)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/12/'>
-December
-</a>
-<span class='post-count' dir='ltr'>(4)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/11/'>
-November
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/10/'>
-October
-</a>
-<span class='post-count' dir='ltr'>(3)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/09/'>
-September
-</a>
-<span class='post-count' dir='ltr'>(1)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/08/'>
-August
-</a>
-<span class='post-count' dir='ltr'>(2)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/07/'>
-July
-</a>
-<span class='post-count' dir='ltr'>(5)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/06/'>
-June
-</a>
-<span class='post-count' dir='ltr'>(4)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/05/'>
-May
-</a>
-<span class='post-count' dir='ltr'>(4)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/04/'>
-April
-</a>
-<span class='post-count' dir='ltr'>(6)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/03/'>
-March
-</a>
-<span class='post-count' dir='ltr'>(5)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/02/'>
-February
-</a>
-<span class='post-count' dir='ltr'>(4)</span>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2008/01/'>
-January
-</a>
-<span class='post-count' dir='ltr'>(10)</span>
-</li>
-</ul>
-</li>
-</ul>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2007/'>
-2007
-</a>
-<span class='post-count' dir='ltr'>(4)</span>
-<ul class='hierarchy'>
-<li class='archivedate collapsed'>
-<a class='toggle' href='javascript:void(0)'>
-<span class='zippy'>
-
-        &#9658;&#160;
-      
-</span>
-</a>
-<a class='post-count-link' href='http://kidchair.blogspot.com/2007/12/'>
-December
-</a>
-<span class='post-count' dir='ltr'>(4)</span>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2337102872485247761&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=footer-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div></div>
-<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-3'>
-<tbody>
-<tr>
-<td class='first columns-cell'>
-<div class='foot section' id='footer-2-1'><div class='widget LinkList' data-version='1' id='LinkList1'>
-<h2>Spots of fancy</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='http://www.chrisbachalo.net/'>Art of Chris Bachalo</a></li>
-<li><a href='http://www.jimmyturrell.com/'>Art of Jimmy Turrell</a></li>
-<li><a href='http://comicartcommunity.com/gallery/'>Comic artists galleries</a></li>
-<li><a href='http://www.justsayah.com/'>Just Say Ah!: The Art of Adam Hughes</a></li>
-<li><a href='http://english.kaikaikiki.co.jp/'>KaiKai Kiki</a></li>
-<li><a href='http://www.marvel.com/'>MARVEL comics</a></li>
-<li><a href='http://metacritic.com/'>Metacritic</a></li>
-<li><a href='http://www.pitchfork.com/'>Pitchfork</a></li>
-<li><a href='http://radiohead.com/'>Radiohead</a></li>
-<li><a href='http://www.rollingstone.com/'>Rolling Stone</a></li>
-<li><a href='http://www.stereogum.com/'>Stereogum</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2337102872485247761&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=footer-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div></div>
-</td>
-<td class='columns-cell'>
-<div class='foot section' id='footer-2-2'><div class='widget LinkList' data-version='1' id='LinkList2'>
-<h2>Peops</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='http://theabbottfam.blogspot.com/'>Abbott Clan</a></li>
-<li><a href='http://sketchadventure.blogspot.com/'>Anthony-sama</a></li>
-<li><a href='http://lovemeavers.blogspot.com/'>Avery and Joe</a></li>
-<li><a href='http://bentoller.blogspot.com/'>Benji Toll</a></li>
-<li><a href='http://lifeonapl8.blogspot.com/'>Blair</a></li>
-<li><a href='http://brendo08.blogspot.com/'>Brendo</a></li>
-<li><a href='http://lifeongoldplates.blogspot.com/'>Brother Blairseph</a></li>
-<li><a href='http://jeffisnotartsyfartsy.blogspot.com/'>Call chan</a></li>
-<li><a href='http://cassidilla.blogspot.com/'>Cassiblog</a></li>
-<li><a href='http://myspace.com/cassidilla'>Cassidiller @ myspace</a></li>
-<li><a href='http://mormonfaithandfacts.blogspot.com/'>Cousin Jeff's Mormon Faith & Facts</a></li>
-<li><a href='http://scottchristensenfam.blogspot.com/'>Cousin Nicole and Scott</a></li>
-<li><a href='http://lifeinlogan.blogspot.com/'>Crystal</a></li>
-<li><a href='http://skidzj.blogspot.com/'>Danus</a></li>
-<li><a href='http://bonofiededge.blogspot.com/'>Gregorious</a></li>
-<li><a href='http://robobrain.blogspot.com/'>Hansef</a></li>
-<li><a href='http://oneluckygal.blogspot.com/'>Hope & Brett</a></li>
-<li><a href='http://utahkingfam.blogspot.com/'>Jaclyn</a></li>
-<li><a href='http://jenstevetoller.blogspot.com/'>Jenni Fer</a></li>
-<li><a href='http://joleenkremin.blogspot.com/'>Jo Jo the Wonder Cuz</a></li>
-<li><a href='http://jordangotsablog.blogspot.com/'>Jordante</a></li>
-<li><a href='http://karlaehlers.blogspot.com/'>Karla Ehlers</a></li>
-<li><a href='http://mckarlie.blogspot.com/'>Karlie McKarl</a></li>
-<li><a href='http://kerstinp.blogspot.com/'>Kerstin n' Jason</a></li>
-<li><a href='http://spitcake.blogspot.com/'>Matt @ Spitcake</a></li>
-<li><a href='http://mpandholly.blogspot.com/'>Micky P and Hollz</a></li>
-<li><a href='http://bradymillerbergfam.blogspot.com/'>Millerbergs</a></li>
-<li><a href='http://mindyfamilyknudsen.blogspot.com/'>Mindy & Kevin Fam</a></li>
-<li><a href='http://settledintexas.blogspot.com/'>Mindy and fam</a></li>
-<li><a href='http://myspace.com/chuckykirk'>My Space</a></li>
-<li><a href='http://natehealyart.blogspot.com/'>Nate-o-matic Healy</a></li>
-<li><a href='http://nkhodge.blogspot.com/'>Nick Hodge Podge</a></li>
-<li><a href='http://cutelilhansenclan.blogspot.com/'>Nickolie & Kyface</a></li>
-<li><a href='http://brianneandrob.blogspot.com/'>Rob and Bri</a></li>
-<li><a href='http://sayamafam.blogspot.com/'>Rory and Lori</a></li>
-<li><a href='http://aleesefamily.blogspot.com/'>Scott n' Aleese</a></li>
-<li><a href='http://skyandstephchugg.blogspot.com/'>Steph and Sky</a></li>
-<li><a href='http://mkjacobs.blogspot.com/'>Take it simple mel and lee</a></li>
-<li><a href='http://fawnholmes.blogspot.com/'>The Lovely Fawn</a></li>
-<li><a href='http://timodland.blogspot.com/'>Tim</a></li>
-<li><a href='http://themuirbunch.blogspot.com/'>Whit & Jon</a></li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2337102872485247761&widgetType=LinkList&widgetId=LinkList2&action=editWidget&sectionId=footer-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList2"));' target='configLinkList2' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div></div>
-</td>
-<td class='columns-cell'>
-<div class='foot section' id='footer-2-3'><div class='widget Label' data-version='1' id='Label1'>
-<h2>Labels</h2>
-<div class='widget-content list-label-widget-content'>
-<ul>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/ABC'>ABC</a>
-<span dir='ltr'>(1)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/art'>art</a>
-<span dir='ltr'>(7)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/best%20of%202007'>best of 2007</a>
-<span dir='ltr'>(6)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/Brantly%20Kirkham'>Brantly Kirkham</a>
-<span dir='ltr'>(2)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/Cass'>Cass</a>
-<span dir='ltr'>(1)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/comedy'>comedy</a>
-<span dir='ltr'>(1)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/Fav%20Albums%20of%20th%20Decade'>Fav Albums of th Decade</a>
-<span dir='ltr'>(6)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/Fav%20Songs%20of%20the%20Decade'>Fav Songs of the Decade</a>
-<span dir='ltr'>(5)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/Favorite%20songs%20of%202013'>Favorite songs of 2013</a>
-<span dir='ltr'>(3)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/Horny%20Leprechauns'>Horny Leprechauns</a>
-<span dir='ltr'>(1)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/Me'>Me</a>
-<span dir='ltr'>(3)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/movies'>movies</a>
-<span dir='ltr'>(7)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/music'>music</a>
-<span dir='ltr'>(6)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/NBA'>NBA</a>
-<span dir='ltr'>(3)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/radiohead'>radiohead</a>
-<span dir='ltr'>(1)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/top%20ten%20sidekicks'>top ten sidekicks</a>
-<span dir='ltr'>(1)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/top%20ten%20songs%20of%202007'>top ten songs of 2007</a>
-<span dir='ltr'>(1)</span>
-</li>
-<li>
-<a dir='ltr' href='http://kidchair.blogspot.com/search/label/tv'>tv</a>
-<span dir='ltr'>(1)</span>
-</li>
-</ul>
-<div class='clear'></div>
-<span class='widget-item-control'>
-<span class='item-control blog-admin'>
-<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2337102872485247761&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=footer-2-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
-<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
-</a>
-</span>
-</span>
-<div class='clear'></div>
-</div>
-</div></div>
-</td>
-</tr>
-</tbody>
-</table>
+<div class='foot no-items section' id='footer-1'></div>
 <!-- outside of the include in order to lock Attribution widget -->
-<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' data-version='1' id='Attribution1'>
+<div class='foot section' id='footer-3'><div class='widget Attribution' data-version='1' id='Attribution1'>
 <div class='widget-content' style='text-align: center;'>
-Simple theme. Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
 </div>
 <div class='clear'></div>
 <span class='widget-item-control'>
 <span class='item-control blog-admin'>
-<a class='quickedit' href='//www.blogger.com/rearrange?blogID=2337102872485247761&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML3'>
+<h2 class='title'>:: ABOUT ::</h2>
+<div class='widget-content'>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4240662; 
+var sc_invisible=0; 
+var sc_partition=34; 
+var sc_click_stat=1; 
+var sc_security="47027b43"; 
+</script>
+
+<script src="http://www.statcounter.com/counter/counter_xhtml.js" type="text/javascript"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/" title="web analytics"><img alt="web analytics" src="http://c.statcounter.com/4240662/0/47027b43/0/" class="statcounter"/></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4446961; 
+var sc_invisible=1; 
+var sc_partition=55; 
+var sc_click_stat=1; 
+var sc_security="170f12ef"; 
+</script>
+
+<script src="http://www.statcounter.com/counter/counter_xhtml.js" type="text/javascript"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/blogger/" title="counter to blogspot"><img alt="counter to blogspot" src="http://c.statcounter.com/4446961/0/170f12ef/1/" class="statcounter"/></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+<a href="http://tracker.icerocket.com/project.info.php?pid=29207&rid=pbl"><img heigth="0" border="0" width="0" src="http://tracker.icerocket.com/s/29207.png"/></a>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=4240662; 
+var sc_invisible=0; 
+var sc_security="47027b43"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="website
+statistics" href="http://statcounter.com/"
+target="_blank"><img class="statcounter" 
+src="http://c.statcounter.com/4240662/0/47027b43/0/" 
+alt="website statistics" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=3696128507483946762&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
 <img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
 </a>
 </span>
@@ -2529,18 +1193,21 @@ Simple theme. Powered by <a href='https://www.blogger.com' target='_blank'>Blogg
 
 <script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2403248619-widgets.js"></script>
 <script type='text/javascript'>
-window['__wavt'] = 'AOuZoY5pGu24PfM3d1anp2IZQulbyyw47Q:1492094015191';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2337102872485247761','//kidchair.blogspot.com/','2337102872485247761');
-_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '2337102872485247761', 'title': 'KiDCHAIR', 'url': 'http://kidchair.blogspot.com/', 'canonicalUrl': 'http://kidchair.blogspot.com/', 'homepageUrl': 'http://kidchair.blogspot.com/', 'searchUrl': 'http://kidchair.blogspot.com/search', 'canonicalHomepageUrl': 'http://kidchair.blogspot.com/', 'blogspotFaviconUrl': 'http://kidchair.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22KiDCHAIR - Atom\x22 href\x3d\x22http://kidchair.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22KiDCHAIR - RSS\x22 href\x3d\x22http://kidchair.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22KiDCHAIR - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/2337102872485247761/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/07256944324969696938\x22 /\x3e\n', 'openIdOpTag': '\x3clink rel\x3d\x22openid.server\x22 href\x3d\x22https://www.blogger.com/openid-server.g\x22 /\x3e\n\x3clink rel\x3d\x22openid.delegate\x22 href\x3d\x22http://kidchair.blogspot.com/\x22 /\x3e\n', 'mobileHeadScript': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'ieCssRetrofitLinks': '\x3c!--[if IE]\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.blogger.com/static/v1/jsbin/3883790047-ieretrofit.js\x22\x3e\x3c/script\x3e\n\x3c![endif]--\x3e', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/4183ba16445b5c2c', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Share to Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'jumpLinkMessage': 'Read more &#187;', 'pageType': 'index', 'pageName': '', 'pageTitle': 'KiDCHAIR'}}, {'name': 'features', 'data': {'enhancedSourcesets': 'true', 'unsupported_browser_message': 'false'}}, {'name': 'messages', 'data': {'linkCopiedToClipboard': 'Link copied to clipboard!', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'Simple', 'localizedName': 'Simple', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': false, 'variant': 'simplysimple', 'variantId': 'simplysimple', 'variantName': 'Simply Simple', 'localizedVariantName': 'Simply Simple'}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'KiDCHAIR', 'description': '', 'url': 'http://kidchair.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
+window['__wavt'] = 'AOuZoY4BWwS3p24osIEV_7v4MMhj2_-zeQ:1492097541113';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3696128507483946762','//bonjourgirl.blogspot.com/','3696128507483946762');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '3696128507483946762', 'title': 'Bonjour Girl', 'url': 'http://bonjourgirl.blogspot.com/', 'canonicalUrl': 'http://bonjourgirl.blogspot.com/', 'homepageUrl': 'http://bonjourgirl.blogspot.com/', 'searchUrl': 'http://bonjourgirl.blogspot.com/search', 'canonicalHomepageUrl': 'http://bonjourgirl.blogspot.com/', 'blogspotFaviconUrl': 'http://bonjourgirl.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': false, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Bonjour Girl - Atom\x22 href\x3d\x22http://bonjourgirl.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Bonjour Girl - RSS\x22 href\x3d\x22http://bonjourgirl.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Bonjour Girl - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/3696128507483946762/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/14395348376318806095\x22 /\x3e\n', 'openIdOpTag': '\x3clink rel\x3d\x22openid.server\x22 href\x3d\x22https://www.blogger.com/openid-server.g\x22 /\x3e\n\x3clink rel\x3d\x22openid.delegate\x22 href\x3d\x22http://bonjourgirl.blogspot.com/\x22 /\x3e\n', 'mobileHeadScript': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'ieCssRetrofitLinks': '\x3c!--[if IE]\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.blogger.com/static/v1/jsbin/3883790047-ieretrofit.js\x22\x3e\x3c/script\x3e\n\x3c![endif]--\x3e', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/4183ba16445b5c2c', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Share to Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'jumpLinkMessage': '++++++ READ MORE! ++++++', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Bonjour Girl'}}, {'name': 'features', 'data': {'enhancedSourcesets': 'true', 'unsupported_browser_message': 'false'}}, {'name': 'messages', 'data': {'linkCopiedToClipboard': 'Link copied to clipboard!', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Bonjour Girl', 'description': '', 'url': 'http://bonjourgirl.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
 _WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/2977042004-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'footer-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList3', 'footer-1', null, document.getElementById('LinkList3'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'footer-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading\x26hellip;'}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'footer-2-1', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2', 'footer-2-2', null, document.getElementById('LinkList2'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'footer-2-3', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'sidebar-right-1', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar-right-2-1', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList4', 'sidebar-right-2-1', null, document.getElementById('LinkList4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1', 'sidebar-right-2-1', null, document.getElementById('Image1'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image3', 'sidebar-right-2-1', null, document.getElementById('Image3'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList3', 'sidebar-right-2-2', null, document.getElementById('LinkList3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2', 'sidebar-right-2-2', null, document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar-right-2-2', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
 _WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'footer-3', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
 </script>
 </body>
 </html>

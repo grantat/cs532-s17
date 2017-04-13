@@ -2,6 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 import feedparser
+import os
 
 
 def getFeed(filename):
@@ -18,6 +19,35 @@ def getFeed(filename):
         return None
 
 
+def deleteNoFeedFiles():
+    noneLines = []
+    f = open("data/feedList.txt", "r+")
+    d = f.readlines()
+    f.seek(0)
+    for i, line in enumerate(d):
+        if 'None' == line:
+            noneLines.append(i)
+        else:
+            f.write(line)
+    f.truncate()
+    f.close()
+
+    print(noneLines)
+    f = open("data/blogList.txt", "r+")
+    d = f.readlines()
+    f.seek(0)
+    for i, line in enumerate(d):
+        if i in noneLines:
+            # delete file
+            fileToDelete = line.split(' ')[0]
+            print("Deleting:", fileToDelete)
+            os.remove("data/blogs/" + fileToDelete)
+        else:
+            f.write(line)
+    f.truncate()
+    f.close()
+
+
 if __name__ == "__main__":
 
     with open("data/blogList.txt") as f, open("data/feedList.txt", 'w') as out:
@@ -25,3 +55,5 @@ if __name__ == "__main__":
             filename = line.split(' ')[0]
             feed = getFeed(filename)
             print(feed, file=out)
+
+    deleteNoFeedFiles()

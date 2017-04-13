@@ -1,0 +1,3201 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr'>
+<head>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://steel-city-rust.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://steel-city-rust.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Steel City Rust - Atom" href="http://steel-city-rust.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Steel City Rust - RSS" href="http://steel-city-rust.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Steel City Rust - Atom" href="https://www.blogger.com/feeds/5048423396199606903/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/06540466274893689316" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://steel-city-rust.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3357874291-ieretrofit.js"></script>
+<![endif]-->
+<meta content='http://steel-city-rust.blogspot.com/' property='og:url'/>
+<meta content='Steel City Rust' property='og:title'/>
+<meta content='' property='og:description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Steel City Rust</title>
+<link href="https://fonts.googleapis.com/css?kit=sT7RR53zpvXTBOvcwUqpvw" rel="stylesheet" type="text/css"><link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1691512649-css_bundle_v2.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5048423396199606903&amp;zx=63d87223-4c21-4499-aa2e-0f2bfba49ae5' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #cccccc;
+background: #335d6e none repeat scroll top left;
+padding: 0 40px 40px 40px;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+h2 {
+font-size: 22px;
+}
+a:link {
+text-decoration:none;
+color: #2288bb;
+}
+a:visited {
+text-decoration:none;
+color: #888888;
+}
+a:hover {
+text-decoration:underline;
+color: #33aaff;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/simple/body_gradient_tile_light.png) repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/simple/gradients_light.png) repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 10px #333333;
+box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+margin-bottom: 1px;
+}
+.content-inner {
+padding: 10px 10px;
+}
+.content-inner {
+background-color: #336633;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: transparent none repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.Header h1 {
+font: normal bold 60px Allerta;
+color: #335d6e;
+text-shadow: -1px -1px 1px rgba(0, 0, 0, .2);
+}
+.Header h1 a {
+color: #335d6e;
+}
+.Header .description {
+font-size: 140%;
+color: #777777;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 30px;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 30px;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 1px solid #eeeeee;
+}
+.tabs-inner .section:first-child ul {
+margin-top: -1px;
+border-top: 1px solid #eeeeee;
+border-left: 0 solid #eeeeee;
+border-right: 0 solid #eeeeee;
+}
+.tabs-inner .widget ul {
+background: #f5f5f5 url(https://resources.blogblog.com/blogblog/data/1kt/simple/gradients_light.png) repeat-x scroll 0 -800px;
+_background-image: none;
+border-bottom: 1px solid #eeeeee;
+margin-top: 0;
+margin-left: -30px;
+margin-right: -30px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .6em 1em;
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #999999;
+border-left: 1px solid #336633;
+border-right: 1px solid #eeeeee;
+}
+.tabs-inner .widget li:first-child a {
+border-left: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+background-color: #eeeeee;
+text-decoration: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid #eeeeee;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 1px solid #eeeeee;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 1px solid #eeeeee;
+}
+/* Headings
+----------------------------------------------- */
+div.widget > h2,
+div.widget h2.title {
+margin: 0 0 1em 0;
+font: normal normal 11px Allerta;
+color: #000000;
+}
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+.date-header span {
+background-color: transparent;
+color: #cccccc;
+padding: inherit;
+letter-spacing: inherit;
+margin: inherit;
+}
+.main-inner {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.main-inner .column-center-inner {
+padding: 0 15px;
+}
+.main-inner .column-center-inner .section {
+margin: 0 15px;
+}
+.post {
+margin: 0 0 25px 0;
+}
+h3.post-title, .comments h4 {
+font: normal normal 24px Allerta;
+margin: .75em 0 0;
+}
+.post-body {
+font-size: 110%;
+line-height: 1.4;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 2px;
+background: transparent;
+border: 1px solid #000000;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 5px;
+}
+.post-body .tr-caption-container {
+color: #cccccc;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #cccccc;
+background-color: transparent;
+border-bottom: 1px solid transparent;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid #eeeeee;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid #000000;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+.comments .comment-thread.inline-thread {
+background-color: transparent;
+}
+.comments .continue {
+border-top: 2px solid #999999;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-left: 1px solid #eeeeee;
+}
+.blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #336633;
+padding: 5px;
+}
+.footer-outer {
+border-top: 0 dashed #bbbbbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .body-fauxcolumn-outer .cap-top {
+background-size: 100% auto;
+}
+.mobile .content-outer {
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+.mobile .tabs-inner .widget ul {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .post {
+margin: 0;
+}
+.mobile .main-inner .column-center-inner .section {
+margin: 0;
+}
+.mobile .date-header span {
+padding: 0.1em 10px;
+margin: 0 -10px;
+}
+.mobile h3.post-title {
+margin: 0;
+}
+.mobile .blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.mobile .footer-outer {
+border-top: none;
+}
+.mobile .main-inner, .mobile .footer-inner {
+background-color: #336633;
+}
+.mobile-index-contents {
+color: #cccccc;
+}
+.mobile-link-button {
+background-color: #2288bb;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .section:first-child {
+border-top: none;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background-color: #eeeeee;
+color: #000000;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #eeeeee;
+}
+.post-body img {
+display: inline-block !important;
+}
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1050px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1050px;
+max-width: 1050px;
+_width: 1050px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 275px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 275px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("275px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 275px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 275px;
+margin-right: -275px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+body#layout div.add_widget {
+padding: 8px;
+}
+body#layout div.add_widget a {
+margin-left: 32px;
+}
+--></style>
+<script type="text/javascript">function a(){var b=window.location.href,c=b.split("?");switch(c.length){case 1:return b+"?m=1";case 2:return 0<=c[1].search("(^|&)m=")?null:b+"&m=1";default:return null}}var d=navigator.userAgent;if(-1!=d.indexOf("Mobile")&&-1!=d.indexOf("WebKit")&&-1==d.indexOf("iPad")||-1!=d.indexOf("Opera Mini")||-1!=d.indexOf("IEMobile")){var e=a();e&&window.location.replace(e)};
+</script></head>
+<body class='loading variant-pale'>
+<div class='navbar section' id='navbar' name='Navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d5048423396199606903\x26blogName\x3dSteel+City+Rust\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://steel-city-rust.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://steel-city-rust.blogspot.com/\x26vt\x3d-1014786816612819667',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='Steel City Rust' itemprop='name'/>
+</div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header' name='Header'><div class='widget Header' data-version='1' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+Steel City Rust
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>
+</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs no-items section' id='crosscol' name='Cross-Column'></div>
+<div class='tabs no-items section' id='crosscol-overflow' name='Cross-Column 2'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main' name='Main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sunday, January 1, 2017</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='5048423396199606903' itemprop='blogId'/>
+<meta content='6193302215516189513' itemprop='postId'/>
+<a name='6193302215516189513'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://steel-city-rust.blogspot.com/2017/01/and-i-know-its-my-fault-cause-i-opened.html'>And I Know It's My Fault, Cause I Opened Up The Vault</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-6193302215516189513' itemprop='description articleBody'>
+So it's the end of the year, and here is where the most played list on my iPod stands now (starting with most played):<br />
+<br />
+1. <a href="https://youtu.be/Tp4fkrumLXM">13 MPH And I'm Speeding - McFadden's Parachute</a><br />
+2. <a href="https://youtu.be/m86ae_e_ptU">The Writing's On The Wall - OK Go</a><br />
+3. <a href="https://youtu.be/PqG9hsjLf3M">Lemon Eyes - Meg Myers</a><br />
+4. <a href="https://youtu.be/1An2pjS4mKE">Half Asleep - School Of Seven Bells</a><br />
+5. <a href="https://youtu.be/IlZlst4NBVw">Game Of Pricks - Guided By Voices</a><br />
+6. <a href="https://youtu.be/Y8wifV5RYr8">Sedona - Houndmouth</a><br />
+7. <a href="https://youtu.be/FaTcIzLk880">Kill Your Television - Ned's Atomic Dustbin</a><br />
+8. <a href="https://youtu.be/vgjnHdsQFZM">Sample and Hold - Neil Young</a><br />
+9. <a href="https://youtu.be/seZN86hLOiw">Bullet In The Brain - The Black Keys</a><br />
+10. <a href="https://youtu.be/2AxIA4042WA">Waterfall - Ex Hex</a><br />
+11. <a href="https://youtu.be/NLvjJZgxsVM">Rolling Down The Hills - Glass Candy</a><br />
+12. <a href="https://youtu.be/bESGLojNYSo">Poker Face - Lady Gaga</a><br />
+13. <a href="https://youtu.be/Mo2nB2KGQOU">Zesshou - Lolita Dark</a><br />
+14. <a href="https://youtu.be/KAkhzJCzDTc">Exo-Politics - Muse</a><br />
+15. <a href="https://youtu.be/ZAn3JdtSrnY">Archie, Marry Me - Alvvays</a><br />
+16. <a href="https://youtu.be/Yam5uK6e-bQ">Dreams - The Cranberries</a><br />
+17. <a href="https://youtu.be/JTTwlAT_AwU">Destroy Everything You Touch - Ladytron</a><br />
+18. <a href="https://youtu.be/_WD5c4qlPGE">I Follow You - Melody's Echo Chamber</a><br />
+19. <a href="https://youtu.be/fEtgRtZ1fD0">Endless Shore - Melody's Echo Chamber</a><br />
+20. <a href="https://youtu.be/raULr_uE_vc">Mind's Eye - The Myrrors</a><br />
+21. <a href="https://youtu.be/98kqh1COayg">Shift Operator - Obits</a><br />
+22. <a href="https://youtu.be/3PRnUW0d91g">Feather Of Forgiveness - Polvo</a><br />
+23. <a href="https://youtu.be/d020hcWA_Wg">Clocks - Coldplay</a><br />
+24. <a href="https://youtu.be/gLZ-i2hu6GA">4th And Roebling - The Districts</a><br />
+25. <a href="https://youtu.be/yPv4Xary0yc">My Valuable Hunting Knife - Guided By Voices</a>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+By
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/06540466274893689316' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' title='author profile'>
+<span itemprop='name'>Derek Ralph</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+At
+<meta content='http://steel-city-rust.blogspot.com/2017/01/and-i-know-its-my-fault-cause-i-opened.html' itemprop='url'/>
+<a class='timestamp-link' href='http://steel-city-rust.blogspot.com/2017/01/and-i-know-its-my-fault-cause-i-opened.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2017-01-01T16:40:00-05:00'>4:40 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=5048423396199606903&postID=6193302215516189513' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://steel-city-rust.blogspot.com/2017/01/and-i-know-its-my-fault-cause-i-opened.html#links'>Links to this post</a>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=6193302215516189513&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=6193302215516189513&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=6193302215516189513&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=6193302215516189513&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=6193302215516189513&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://steel-city-rust.blogspot.com/2017/01/and-i-know-its-my-fault-cause-i-opened.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Thematics:
+<a href='http://steel-city-rust.blogspot.com/search/label/Lists' rel='tag'>Lists</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Music' rel='tag'>Music</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/My%20Life' rel='tag'>My Life</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, December 26, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://2.bp.blogspot.com/-Lg9jc13BGG0/WGFy7GIBOTI/AAAAAAAACpU/WMPXJk4KtIAQibsmioEyqv8x0DrjHtpcACLcB/s400/Scan10016.BMP' itemprop='image_url'/>
+<meta content='5048423396199606903' itemprop='blogId'/>
+<meta content='1162017417342190289' itemprop='postId'/>
+<a name='1162017417342190289'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://steel-city-rust.blogspot.com/2016/12/my-mazerati-does-185-i-lost-my-license.html'>My Mazerati Does 185, I Lost My License And Now I Don't Drive</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-1162017417342190289' itemprop='description articleBody'>
+I hope everyone had a good Christmas holiday! This was one of my better ones. I got a Ferrari LaFerrari and a McLaren P1.<br />
+<br />
+That's a bit misleading. They're built out of Legos. But still! They're neat little models, for minifig-scale supercars. Lego has a new theme called Speed Champions (which the Ferrari and McLaren belong to) that's actually pretty nice. All the cars are real, and very good likenesses for the size and using preexisting Lego pieces. I learned about it by stopping into a Toys 'R Us with my sister's friends one day; they had the mustang, and I liked the look of it enough to say hell with it and pick it up. I've built the LaFerrari already and it was a pretty clever build.<br />
+<br />
+But while building it, I noticed something interesting on the back of the second (yes, there's enough steps involded that the LaFerrari needs two booklets) manual. Look at the lineup of the three cars - middle row, right side.<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-Lg9jc13BGG0/WGFy7GIBOTI/AAAAAAAACpU/WMPXJk4KtIAQibsmioEyqv8x0DrjHtpcACLcB/s1600/Scan10016.BMP" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="400" src="https://2.bp.blogspot.com/-Lg9jc13BGG0/WGFy7GIBOTI/AAAAAAAACpU/WMPXJk4KtIAQibsmioEyqv8x0DrjHtpcACLcB/s400/Scan10016.BMP" width="256" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Ha ha! All the engine blocks are the same size! Get it? GET IT!?</td></tr>
+</tbody></table>
+They are, from left to right, the Lego versions of the Porsche 918, the McLaren P1, and the Ferrari LaFerrari. Hmmm... Where have I seen such a lineup before?<br />
+<br />
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/OL_eIZjiLUk" width="560"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/nSqzp3kdAm4" width="560"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/C_E3bSFi8lI" width="560"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: left;">
+Oh. Right.&nbsp;</div>
+<div style="text-align: left;">
+<br /></div>
+<div style="text-align: left;">
+Yes, Clarkson, May, and Hammond were working on an epic shootout between these three incredible cars on the Top Gear track, but as Ferrari and McLaren were coming around to the idea, Clarkson was booted and May and Hammond elected to follow. As they have a new show of their own on Amazon TV called The Grand Tour, I'm told they managed to organize the competition in their first episode. Still haven't seen it, or have any idea which car won. Even so...&nbsp;</div>
+<div style="text-align: left;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/u86OpA3Py7U" width="560"></iframe></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+By
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/06540466274893689316' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' title='author profile'>
+<span itemprop='name'>Derek Ralph</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+At
+<meta content='http://steel-city-rust.blogspot.com/2016/12/my-mazerati-does-185-i-lost-my-license.html' itemprop='url'/>
+<a class='timestamp-link' href='http://steel-city-rust.blogspot.com/2016/12/my-mazerati-does-185-i-lost-my-license.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-12-26T15:09:00-05:00'>3:09 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=5048423396199606903&postID=1162017417342190289' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://steel-city-rust.blogspot.com/2016/12/my-mazerati-does-185-i-lost-my-license.html#links'>Links to this post</a>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=1162017417342190289&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=1162017417342190289&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=1162017417342190289&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=1162017417342190289&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=1162017417342190289&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://steel-city-rust.blogspot.com/2016/12/my-mazerati-does-185-i-lost-my-license.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Thematics:
+<a href='http://steel-city-rust.blogspot.com/search/label/Cars' rel='tag'>Cars</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Clip%20Show' rel='tag'>Clip Show</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Lego' rel='tag'>Lego</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Television' rel='tag'>Television</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/That%27s%20Cool%20Totes%20Legit' rel='tag'>That&#39;s Cool Totes Legit</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/The%20Photographic%20Record' rel='tag'>The Photographic Record</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Friday, December 23, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://img.youtube.com/vi/u8WQv22OMbg/hqdefault.jpg' itemprop='image_url'/>
+<meta content='5048423396199606903' itemprop='blogId'/>
+<meta content='4886390780218066419' itemprop='postId'/>
+<a name='4886390780218066419'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://steel-city-rust.blogspot.com/2016/12/theres-digital-snow-on-frozen-pianos.html'>There's Digital Snow On The Frozen Pianos</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-4886390780218066419' itemprop='description articleBody'>
+<div style="text-align: left;">
+Merry Christmas, everybody.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/u8WQv22OMbg" width="560"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/CPfG-Gp2GZ0" width="560"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/pB2l6UESSyo" width="560"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/tMmuZjsrRtY" width="560"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/OvJ1HlJCd9Y" width="560"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/rhc2DSsDhG0" width="560"></iframe></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+By
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/06540466274893689316' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' title='author profile'>
+<span itemprop='name'>Derek Ralph</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+At
+<meta content='http://steel-city-rust.blogspot.com/2016/12/theres-digital-snow-on-frozen-pianos.html' itemprop='url'/>
+<a class='timestamp-link' href='http://steel-city-rust.blogspot.com/2016/12/theres-digital-snow-on-frozen-pianos.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-12-23T09:55:00-05:00'>9:55 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=5048423396199606903&postID=4886390780218066419' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://steel-city-rust.blogspot.com/2016/12/theres-digital-snow-on-frozen-pianos.html#links'>Links to this post</a>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=4886390780218066419&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=4886390780218066419&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=4886390780218066419&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=4886390780218066419&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=4886390780218066419&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://steel-city-rust.blogspot.com/2016/12/theres-digital-snow-on-frozen-pianos.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Thematics:
+<a href='http://steel-city-rust.blogspot.com/search/label/Christmas' rel='tag'>Christmas</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Random%20Playlist' rel='tag'>Random Playlist</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, September 13, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://lh3.googleusercontent.com/-AStFmi8RW9k/V38Lo7L7aeI/AAAAAAAACnc/hdwzeG2w--I/s640/20160706_211911.jpg' itemprop='image_url'/>
+<meta content='5048423396199606903' itemprop='blogId'/>
+<meta content='3663228056304357589' itemprop='postId'/>
+<a name='3663228056304357589'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://steel-city-rust.blogspot.com/2016/09/maybe-im-just-being-mean-but-theres.html'>Flying Machines In Pieces On The Ground</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-3663228056304357589' itemprop='description articleBody'>
+<div dir="ltr">
+Maybe I'm just being mean, but there's something I find endlessly amusing about this warning label I saw at work. </div>
+<div dir="ltr">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://lh3.googleusercontent.com/-AStFmi8RW9k/V38Lo7L7aeI/AAAAAAAACnc/hdwzeG2w--I/s1600/20160706_211911.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"> <img border="0" src="https://lh3.googleusercontent.com/-AStFmi8RW9k/V38Lo7L7aeI/AAAAAAAACnc/hdwzeG2w--I/s640/20160706_211911.jpg" /> </a> </div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Right in the face!</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Just as good is this one from my friend Mike. It's out of a power plant he did some contractor work at. At which he did some contractor work.&nbsp;</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://lh3.googleusercontent.com/-6FIFh3eeIDM/V7nl2v65ASI/AAAAAAAACn4/LtnAMv7UuU0/s1600/20150514_161840.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"> <img border="0" src="https://lh3.googleusercontent.com/-6FIFh3eeIDM/V7nl2v65ASI/AAAAAAAACn4/LtnAMv7UuU0/s640/20150514_161840.jpeg" /> </a> </div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Sproing, motherfucker!</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+By
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/06540466274893689316' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' title='author profile'>
+<span itemprop='name'>Derek Ralph</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+At
+<meta content='http://steel-city-rust.blogspot.com/2016/09/maybe-im-just-being-mean-but-theres.html' itemprop='url'/>
+<a class='timestamp-link' href='http://steel-city-rust.blogspot.com/2016/09/maybe-im-just-being-mean-but-theres.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-09-13T02:25:00-04:00'>2:25 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=5048423396199606903&postID=3663228056304357589' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://steel-city-rust.blogspot.com/2016/09/maybe-im-just-being-mean-but-theres.html#links'>Links to this post</a>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=3663228056304357589&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=3663228056304357589&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=3663228056304357589&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=3663228056304357589&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=3663228056304357589&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://steel-city-rust.blogspot.com/2016/09/maybe-im-just-being-mean-but-theres.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Thematics:
+<a href='http://steel-city-rust.blogspot.com/search/label/Random' rel='tag'>Random</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Silliness' rel='tag'>Silliness</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/The%20Photographic%20Record' rel='tag'>The Photographic Record</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Travails%20Of%20Employment' rel='tag'>Travails Of Employment</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-YodjtMX_AbM/V12_b03SB7I/AAAAAAAACis/ilVXthhJhUITN09LZHAtuEgdfH36tSf4ACLcB/s640/20150122_184521.jpg' itemprop='image_url'/>
+<meta content='5048423396199606903' itemprop='blogId'/>
+<meta content='5374153135004120500' itemprop='postId'/>
+<a name='5374153135004120500'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://steel-city-rust.blogspot.com/2016/09/she-spread-her-wings-and-then-she-was.html'>She Spread Her Wings, And Then She Was Gone</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5374153135004120500' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: left;">
+Various times and places.&nbsp;</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+I've no idea what possessed me to assemble this collection.&nbsp;</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-YodjtMX_AbM/V12_b03SB7I/AAAAAAAACis/ilVXthhJhUITN09LZHAtuEgdfH36tSf4ACLcB/s1600/20150122_184521.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://4.bp.blogspot.com/-YodjtMX_AbM/V12_b03SB7I/AAAAAAAACis/ilVXthhJhUITN09LZHAtuEgdfH36tSf4ACLcB/s640/20150122_184521.jpg" width="360" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-s5Oyk5kd1QM/V12_b-cLneI/AAAAAAAACio/KWF2f1_m5S0T0ColD68X-0LWTvTrXvbbACLcB/s1600/20150523_224816.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="360" src="https://2.bp.blogspot.com/-s5Oyk5kd1QM/V12_b-cLneI/AAAAAAAACio/KWF2f1_m5S0T0ColD68X-0LWTvTrXvbbACLcB/s640/20150523_224816.jpg" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-exa843lsW2E/V12_b-DnkzI/AAAAAAAACik/k5IE6X99nGQCnFtWNwxKCoMsM5Nf07lDwCLcB/s1600/20150531_001550.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://2.bp.blogspot.com/-exa843lsW2E/V12_b-DnkzI/AAAAAAAACik/k5IE6X99nGQCnFtWNwxKCoMsM5Nf07lDwCLcB/s640/20150531_001550.jpg" width="360" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-nlCdd4rbis8/V2FU2PBDdcI/AAAAAAAACl8/cAosEt6wMCEXrrQycjBj3jf8WAkdLj6_QCLcB/s1600/20150604_210634.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://3.bp.blogspot.com/-nlCdd4rbis8/V2FU2PBDdcI/AAAAAAAACl8/cAosEt6wMCEXrrQycjBj3jf8WAkdLj6_QCLcB/s640/20150604_210634.PNG" width="542" /></a></div>
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-fIT1Uj42C9E/V12_cVTnWqI/AAAAAAAACi0/eeecAJN-4VgctjuvhDbaJ1rf1878vXC5gCLcB/s1600/20151030_020153.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://1.bp.blogspot.com/-fIT1Uj42C9E/V12_cVTnWqI/AAAAAAAACi0/eeecAJN-4VgctjuvhDbaJ1rf1878vXC5gCLcB/s640/20151030_020153.jpg" width="360" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-hhPz2mriEWA/V12_cpG2CMI/AAAAAAAACi4/rjzAeG1pGsM1iOieKXjXE1ZN3WU_TAgjwCLcB/s1600/20151205_214253.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://3.bp.blogspot.com/-hhPz2mriEWA/V12_cpG2CMI/AAAAAAAACi4/rjzAeG1pGsM1iOieKXjXE1ZN3WU_TAgjwCLcB/s640/20151205_214253.jpg" width="360" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-X7zt2zArDns/V2FTZWpb1WI/AAAAAAAAClw/cTpC74tbyicQXGwajlht463ShZQuDZZPgCLcB/s1600/DSC_0023.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://1.bp.blogspot.com/-X7zt2zArDns/V2FTZWpb1WI/AAAAAAAAClw/cTpC74tbyicQXGwajlht463ShZQuDZZPgCLcB/s640/DSC_0023.JPG" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-jJw10Nmnk80/V12_cv6AtYI/AAAAAAAACjA/dMYQCGxvUWYWZ_Zc6WTZ0aGxMpIudk2zwCLcB/s1600/20151208_142536.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://3.bp.blogspot.com/-jJw10Nmnk80/V12_cv6AtYI/AAAAAAAACjA/dMYQCGxvUWYWZ_Zc6WTZ0aGxMpIudk2zwCLcB/s640/20151208_142536.jpg" width="360" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-glrCwtkJRhg/V12_dH4MkzI/AAAAAAAACjE/cuCtAx_GhI0nXDa4vJV10iySSGUbgiitACLcB/s1600/20160226_232015.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://1.bp.blogspot.com/-glrCwtkJRhg/V12_dH4MkzI/AAAAAAAACjE/cuCtAx_GhI0nXDa4vJV10iySSGUbgiitACLcB/s640/20160226_232015.jpg" width="360" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-WQxioqsjGtM/V12_dPDFZNI/AAAAAAAACjI/Cf2ssRcFKEoVxP4PaUD-dNReicuKTSX-ACLcB/s1600/20160305_134218.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="360" src="https://1.bp.blogspot.com/-WQxioqsjGtM/V12_dPDFZNI/AAAAAAAACjI/Cf2ssRcFKEoVxP4PaUD-dNReicuKTSX-ACLcB/s640/20160305_134218.jpg" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-KOZWsdrgzm4/V12_dbMzJKI/AAAAAAAACjQ/OiaSRqIF1xQgcr6l8S6_mPN_ZR3M6MgWACLcB/s1600/20160522_202703.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://1.bp.blogspot.com/-KOZWsdrgzm4/V12_dbMzJKI/AAAAAAAACjQ/OiaSRqIF1xQgcr6l8S6_mPN_ZR3M6MgWACLcB/s640/20160522_202703.jpg" width="360" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-LJA9w75TrbY/V12_dvgncfI/AAAAAAAACjY/JZBlV7hQIbsUSI3IwYx-5FReKb-ci2WOQCLcB/s1600/20160608_231618.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="360" src="https://4.bp.blogspot.com/-LJA9w75TrbY/V12_dvgncfI/AAAAAAAACjY/JZBlV7hQIbsUSI3IwYx-5FReKb-ci2WOQCLcB/s640/20160608_231618.jpg" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-9FfG_O_W6tQ/V13A8VQqcCI/AAAAAAAACjk/KyeI6CIKPo8iB3DWoHLYoEyyNQfcpaeQQCLcB/s1600/DSC_0101.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://2.bp.blogspot.com/-9FfG_O_W6tQ/V13A8VQqcCI/AAAAAAAACjk/KyeI6CIKPo8iB3DWoHLYoEyyNQfcpaeQQCLcB/s640/DSC_0101.JPG" width="424" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-wLvumyFLEpA/V13Bq0EonbI/AAAAAAAACjs/ONfNZL_3itcc4PLCkPBLp62eOb1wWjNLwCLcB/s1600/20160522_154113.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="360" src="https://3.bp.blogspot.com/-wLvumyFLEpA/V13Bq0EonbI/AAAAAAAACjs/ONfNZL_3itcc4PLCkPBLp62eOb1wWjNLwCLcB/s640/20160522_154113.jpg" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="640" src="https://4.bp.blogspot.com/-geOYstTSpzQ/V12_dcgix8I/AAAAAAAACjU/Ysjvbo5U_XcH7IkkY-ZiRHyHSTSfs70GACLcB/s640/20160522_181707.jpg" width="360" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-YjtxniKZGSI/V13Fy2ktgTI/AAAAAAAACkk/zwvZTjbm2jwkUaRx52OFIVqFqElUUaHIACLcB/s1600/DSC_0003.JPG" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" height="424" src="https://3.bp.blogspot.com/-YjtxniKZGSI/V13Fy2ktgTI/AAAAAAAACkk/zwvZTjbm2jwkUaRx52OFIVqFqElUUaHIACLcB/s640/DSC_0003.JPG" width="640" /></a><a href="https://4.bp.blogspot.com/-5L8Bae01FpY/V13EL2X6AZI/AAAAAAAACj8/Sh-Z2F13CrA9UY6b33LG7pbu38LSnSRuQCLcB/s1600/DSC_0145.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://4.bp.blogspot.com/-5L8Bae01FpY/V13EL2X6AZI/AAAAAAAACj8/Sh-Z2F13CrA9UY6b33LG7pbu38LSnSRuQCLcB/s640/DSC_0145.JPG" width="424" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-pCHZOchdv5s/V13FKxbfz0I/AAAAAAAACkI/1ENjQRi4hlUfK5zQb-ICQc_qEgG-z7YJQCLcB/s1600/DSC_0146.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="419" src="https://1.bp.blogspot.com/-pCHZOchdv5s/V13FKxbfz0I/AAAAAAAACkI/1ENjQRi4hlUfK5zQb-ICQc_qEgG-z7YJQCLcB/s640/DSC_0146.JPG" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-gJMOBRkkhz0/V13FLLnRnVI/AAAAAAAACkM/NPCl_0ZDqtgKCR_9Suz_o0ZI0II3z_f8QCLcB/s1600/DSC_0026.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://3.bp.blogspot.com/-gJMOBRkkhz0/V13FLLnRnVI/AAAAAAAACkM/NPCl_0ZDqtgKCR_9Suz_o0ZI0II3z_f8QCLcB/s640/DSC_0026.JPG" width="419" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-he4rT_5uivQ/V13G4nJL_vI/AAAAAAAACk0/hCzBpADmnBAHLC3YcewlxUctmRlm5QeZQCLcB/s1600/DSC_0068.bmp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="https://3.bp.blogspot.com/-he4rT_5uivQ/V13G4nJL_vI/AAAAAAAACk0/hCzBpADmnBAHLC3YcewlxUctmRlm5QeZQCLcB/s640/DSC_0068.bmp" width="640" /></a></div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+By
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/06540466274893689316' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' title='author profile'>
+<span itemprop='name'>Derek Ralph</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+At
+<meta content='http://steel-city-rust.blogspot.com/2016/09/she-spread-her-wings-and-then-she-was.html' itemprop='url'/>
+<a class='timestamp-link' href='http://steel-city-rust.blogspot.com/2016/09/she-spread-her-wings-and-then-she-was.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-09-13T02:22:00-04:00'>2:22 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=5048423396199606903&postID=5374153135004120500' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://steel-city-rust.blogspot.com/2016/09/she-spread-her-wings-and-then-she-was.html#links'>Links to this post</a>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5374153135004120500&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5374153135004120500&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5374153135004120500&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5374153135004120500&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5374153135004120500&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://steel-city-rust.blogspot.com/2016/09/she-spread-her-wings-and-then-she-was.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Thematics:
+<a href='http://steel-city-rust.blogspot.com/search/label/Pittsburgh' rel='tag'>Pittsburgh</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Precious%20Sincerity' rel='tag'>Precious Sincerity</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Puerto%20Rico' rel='tag'>Puerto Rico</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/The%20Photographic%20Record' rel='tag'>The Photographic Record</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Friday, July 8, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://lh3.googleusercontent.com/-ct072V_ZDCQ/V32VxcQumPI/AAAAAAAACnM/njhP56U-3zs/s640/20160706_130359.jpg' itemprop='image_url'/>
+<meta content='5048423396199606903' itemprop='blogId'/>
+<meta content='8031584083683980793' itemprop='postId'/>
+<a name='8031584083683980793'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://steel-city-rust.blogspot.com/2016/07/some-girls-they-like-fried-green.html'>Some Girls They Like Fried Green Tomatoes </a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-8031584083683980793' itemprop='description articleBody'>
+<div dir="ltr">
+Really? Fifteen years ago Kings' food was good. Not great, but good. Five years ago, it was kind of mediocre. These days it roils my stomach, and it all has the same aftertaste, which tastes like failure. I have no idea why my grandfather likes the place so much.<br />
+<br />
+But this? </div>
+<div dir="ltr">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://lh3.googleusercontent.com/-ct072V_ZDCQ/V32VxcQumPI/AAAAAAAACnM/njhP56U-3zs/s1600/20160706_130359.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"> <img border="0" src="https://lh3.googleusercontent.com/-ct072V_ZDCQ/V32VxcQumPI/AAAAAAAACnM/njhP56U-3zs/s640/20160706_130359.jpg" /> </a> </div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<span style="text-align: start;">This is a new low. Is Kings' marketing department just whatever second-grade class is nearest? Is this an April Fools' prank that got lost in the shuffle until now? Why, oh why, does the placard say "Money Back Guaranteed" at the bottom? What a terrible restaurant.&nbsp;</span>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+By
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/06540466274893689316' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' title='author profile'>
+<span itemprop='name'>Derek Ralph</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+At
+<meta content='http://steel-city-rust.blogspot.com/2016/07/some-girls-they-like-fried-green.html' itemprop='url'/>
+<a class='timestamp-link' href='http://steel-city-rust.blogspot.com/2016/07/some-girls-they-like-fried-green.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-07-08T01:52:00-04:00'>1:52 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=5048423396199606903&postID=8031584083683980793' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://steel-city-rust.blogspot.com/2016/07/some-girls-they-like-fried-green.html#links'>Links to this post</a>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=8031584083683980793&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=8031584083683980793&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=8031584083683980793&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=8031584083683980793&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=8031584083683980793&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://steel-city-rust.blogspot.com/2016/07/some-girls-they-like-fried-green.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Thematics:
+<a href='http://steel-city-rust.blogspot.com/search/label/Food' rel='tag'>Food</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/NERD%20RAGE' rel='tag'>NERD RAGE</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Random' rel='tag'>Random</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/The%20Photographic%20Record' rel='tag'>The Photographic Record</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/YIKES' rel='tag'>YIKES</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, July 5, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-nxPd_JC-1ko/V3u--rbFnqI/AAAAAAAACmk/Ido5EW9oYJcbpBxmIFFIiKQNodcXRcPfACLcB/s640/DSC_0009.JPG' itemprop='image_url'/>
+<meta content='5048423396199606903' itemprop='blogId'/>
+<meta content='967282997131421781' itemprop='postId'/>
+<a name='967282997131421781'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://steel-city-rust.blogspot.com/2016/07/running-blue-going-so-fast-whatll-i-do.html'>Running Blue, Going So Fast, What'll I Do?</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-967282997131421781' itemprop='description articleBody'>
+<div class="separator" style="clear: both; text-align: left;">
+I had a stroke of luck on Sunday. While my grandfather and I were at breakfast that morning, I checked the Heritage Units website to see if anything interesting was in the area. It turned out that we'd missed the Interstate unit while we were eating; but the site also revealed that the Conrail unit was on its way west at the point of an intermodal train!</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-nxPd_JC-1ko/V3u--rbFnqI/AAAAAAAACmk/Ido5EW9oYJcbpBxmIFFIiKQNodcXRcPfACLcB/s1600/DSC_0009.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://3.bp.blogspot.com/-nxPd_JC-1ko/V3u--rbFnqI/AAAAAAAACmk/Ido5EW9oYJcbpBxmIFFIiKQNodcXRcPfACLcB/s640/DSC_0009.JPG" width="640" /></a></div>
+<br />
+Before anything else, I happened to catch this intermodal train eastbound.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-bu-hXdcLtDs/V3u-8ayXelI/AAAAAAAACmU/qaDJDv8330kgu35SCsC2t3rqQUyknF8NQCLcB/s1600/DSC_0013.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://4.bp.blogspot.com/-bu-hXdcLtDs/V3u-8ayXelI/AAAAAAAACmU/qaDJDv8330kgu35SCsC2t3rqQUyknF8NQCLcB/s640/DSC_0013.JPG" width="640" /></a></div>
+<br />
+The trailing units were of note; a shiny, freshly rebuilt SD60E and an uncommon standard-cab C44-9. The standard-cab Dash-9s will likely be getting rare soon, as Norfolk Southern will use them as the basis for DC-to-AC rebuilds, including new wide cabs. I also made a couple new friends - Phil (pictured) and Victoria. They live downtown. I'm a bit jealous.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-q3Zch3PJnmY/V3u-8tfyh7I/AAAAAAAACmY/DRJ_fnRV6zgjJCm2xk2MrAVptjYCV4jAQCLcB/s1600/DSC_0018.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://1.bp.blogspot.com/-q3Zch3PJnmY/V3u-8tfyh7I/AAAAAAAACmY/DRJ_fnRV6zgjJCm2xk2MrAVptjYCV4jAQCLcB/s640/DSC_0018.JPG" width="640" /></a></div>
+<br />
+Then a couple of autorack trains came by.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://2.bp.blogspot.com/-kURxTYIqPL0/V3u--zNdSoI/AAAAAAAACmc/KPr_b-TGKyksK77XrZVwcczG4Jc_KusYwCLcB/s1600/DSC_0034.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://2.bp.blogspot.com/-kURxTYIqPL0/V3u--zNdSoI/AAAAAAAACmc/KPr_b-TGKyksK77XrZVwcczG4Jc_KusYwCLcB/s640/DSC_0034.JPG" width="640" /></a></div>
+<br />
+Strangely, my best shot of this one was a going-away shot.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-fZiIVeSVAXc/V3u-_Fv31yI/AAAAAAAACmg/ZaN7-PTzuxgzAmKnnlZNGv9ie460Ux0AgCLcB/s1600/DSC_0044.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://4.bp.blogspot.com/-fZiIVeSVAXc/V3u-_Fv31yI/AAAAAAAACmg/ZaN7-PTzuxgzAmKnnlZNGv9ie460Ux0AgCLcB/s640/DSC_0044.JPG" width="640" /></a></div>
+<br />
+I actually ended up waiting about an hour and a half for the Conrail unit to arrive, and here she is! I'd seen her previously with NKP 765 and the Pennsy unit on that horseshoe curve excursion a few years back, but seeing her on the road and on the point was a perfect catch.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-t353xkoFtwM/V3u_AY5y0mI/AAAAAAAACmo/XwM4XED-oSE2O67bOjfycjmNbQb3Rb9OQCLcB/s1600/DSC_0046.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://1.bp.blogspot.com/-t353xkoFtwM/V3u_AY5y0mI/AAAAAAAACmo/XwM4XED-oSE2O67bOjfycjmNbQb3Rb9OQCLcB/s640/DSC_0046.JPG" width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+I don't know why, but seeing the Heritage units start to get a little weathered, a little dusty makes seeing them more interesting. And after all, NS didn't buy them just for show - they're stock locomotives just like their more drab cousins and NS is gonna work them just as hard!&nbsp;</div>
+<br />
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+By
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/06540466274893689316' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' title='author profile'>
+<span itemprop='name'>Derek Ralph</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+At
+<meta content='http://steel-city-rust.blogspot.com/2016/07/running-blue-going-so-fast-whatll-i-do.html' itemprop='url'/>
+<a class='timestamp-link' href='http://steel-city-rust.blogspot.com/2016/07/running-blue-going-so-fast-whatll-i-do.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-07-05T11:33:00-04:00'>11:33 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=5048423396199606903&postID=967282997131421781' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://steel-city-rust.blogspot.com/2016/07/running-blue-going-so-fast-whatll-i-do.html#links'>Links to this post</a>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=967282997131421781&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=967282997131421781&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=967282997131421781&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=967282997131421781&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=967282997131421781&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://steel-city-rust.blogspot.com/2016/07/running-blue-going-so-fast-whatll-i-do.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Thematics:
+<a href='http://steel-city-rust.blogspot.com/search/label/Pittsburgh' rel='tag'>Pittsburgh</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/The%20Photographic%20Record' rel='tag'>The Photographic Record</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Trains' rel='tag'>Trains</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+          </div></div>
+        
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, June 13, 2016</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-8G7qkky_7mA/V17j8WN_9HI/AAAAAAAAClM/8LhVl8YezzYKd8E2Qea4PkQtvAqvOqlIwCLcB/s640/DSC_0004.JPG' itemprop='image_url'/>
+<meta content='5048423396199606903' itemprop='blogId'/>
+<meta content='5077628010349321070' itemprop='postId'/>
+<a name='5077628010349321070'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://steel-city-rust.blogspot.com/2016/06/platform-ticket-restless-diesels.html'>Platform Ticket, Restless Diesels, Goodbye Windows</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5077628010349321070' itemprop='description articleBody'>
+I received something in my Christmas stocking this past holiday that threw me for a bit of a loop. It's this train pull-back toy.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-8G7qkky_7mA/V17j8WN_9HI/AAAAAAAAClM/8LhVl8YezzYKd8E2Qea4PkQtvAqvOqlIwCLcB/s1600/DSC_0004.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://4.bp.blogspot.com/-8G7qkky_7mA/V17j8WN_9HI/AAAAAAAAClM/8LhVl8YezzYKd8E2Qea4PkQtvAqvOqlIwCLcB/s640/DSC_0004.JPG" width="640" /></a></div>
+<br />
+The reason I did a double-take when I saw it was its uncanny - and as we will see, surprisingly accurate - resemblance to an <a href="https://en.wikipedia.org/wiki/EMD_SDP35">EMD SDP35</a>. For a cheap kids' toy, it's a most irregular choice of subject. I say this chiefly because the SDP35 was not widely produced; intended to replace older passenger locomotives and still run as a freight unit if necessary, it only sold 35 units during 1964 and '65. Meanwhile, the standard SD35 sold 360 units in a similar timeframe. (The successive SDP40 and SDP45 models only sold 20 and 18 each, respectively; the 34 'SDP45s' sold to Erie Lackawanna were without steam generators, in order to equip a larger fuel tank than the standard SD45.) Union Pacific ordered ten; finding them inadequate for passenger train service, they used them for freight until their retirement and kept their fleet of EMD E8 passenger locomotives in use until all passenger services were assumed by Amtrak in 1971.<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-Dz4q_0JHIAM/V0IqLLHzVdI/AAAAAAAACeM/LVILsOG3kwYNXbEP51YI10vQOXJ-SodxwCLcB/s1600/up1409ajs.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="358" src="https://3.bp.blogspot.com/-Dz4q_0JHIAM/V0IqLLHzVdI/AAAAAAAACeM/LVILsOG3kwYNXbEP51YI10vQOXJ-SodxwCLcB/s640/up1409ajs.jpg" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><a href="http://www.rr-fallenflags.org/">George Elwood</a></td></tr>
+</tbody></table>
+<br />
+I mention UP's locomotives because this toy is painted reminiscent of UP's color scheme. While logos, lettering and numbering are all a work of fiction, the gray top portion and yellow body are correct, even to the red stripe that separates them (it should, however, be a single stripe, not the paired one on the toy). And 'Power Pacific'? They got it three-quarters right, actually! I count 'Power' for partial credit since Union Pacific was once the buyer of many imposingly massive and powerful locomotives, both steam and diesel.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-c2q_SMaqoYg/V17kIFsJAvI/AAAAAAAAClY/nv7QCceqgIAMQg5Aq6qTw_57ZV2IHlAYwCLcB/s1600/DSC_0005.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://4.bp.blogspot.com/-c2q_SMaqoYg/V17kIFsJAvI/AAAAAAAAClY/nv7QCceqgIAMQg5Aq6qTw_57ZV2IHlAYwCLcB/s640/DSC_0005.JPG" width="640" /></a></div>
+<br />
+But better yet is how closely this toy actually matches the real SDP35. Starting with the wheels, it has the early Flexicoil 'C' trucks, and heavy braking option (with one cylinder for each axle on each side - correct for the UP units); while the nose and cab aren't perfect, they are identifiably EMD designs; the traction motor blower duct and hood bulge, as well as the bulge in the steam generator compartment at rear are all present on the fireman's side; and the air intakes, dynamic brake blister at the top center of the hood, radiator shutters and vents for the steam generator at the top rear are all correct as well. The only real glaring error I can see is the radiator fans. The prototype had two larger fans with one smaller fan between them; this has three large fans like the SD40 was built with. The two dynamic brake fans are correct.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-N7sQPkf37H4/V17kH3SsBhI/AAAAAAAAClU/k7XA7HhOYbYwW_R0W2IZB7kKg_vkz0tJwCLcB/s1600/DSC_0006.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="424" src="https://4.bp.blogspot.com/-N7sQPkf37H4/V17kH3SsBhI/AAAAAAAAClU/k7XA7HhOYbYwW_R0W2IZB7kKg_vkz0tJwCLcB/s640/DSC_0006.JPG" width="640" /></a></div>
+<br />
+Of course, only a complete nerd like me would even notice, but I do find it very interesting that such an obscure prototype was picked for such a relatively unimportant-seeming kid's toy. I know I've seen more than a few based on EMD's much more widely produced F-unit locomotives, which makes more sense - with over <i>7000</i>&nbsp;of all F-unit models built, they were a much more common sight on the American railroad scene well into the 1980's. The SDP35 is all but extinct by comparison.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+By
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/06540466274893689316' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' title='author profile'>
+<span itemprop='name'>Derek Ralph</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+At
+<meta content='http://steel-city-rust.blogspot.com/2016/06/platform-ticket-restless-diesels.html' itemprop='url'/>
+<a class='timestamp-link' href='http://steel-city-rust.blogspot.com/2016/06/platform-ticket-restless-diesels.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-06-13T12:58:00-04:00'>12:58 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='https://www.blogger.com/comment.g?blogID=5048423396199606903&postID=5077628010349321070' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-backlinks post-comment-link'>
+<a class='comment-link' href='http://steel-city-rust.blogspot.com/2016/06/platform-ticket-restless-diesels.html#links'>Links to this post</a>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5077628010349321070&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5077628010349321070&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5077628010349321070&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5077628010349321070&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=5048423396199606903&postID=5077628010349321070&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block google-plus-share-container'><g:plusone source='blogger:blog:plusone' href='http://steel-city-rust.blogspot.com/2016/06/platform-ticket-restless-diesels.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Thematics:
+<a href='http://steel-city-rust.blogspot.com/search/label/Fun%20With%20Models' rel='tag'>Fun With Models</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Oddities' rel='tag'>Oddities</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/The%20Photographic%20Record' rel='tag'>The Photographic Record</a>,
+<a href='http://steel-city-rust.blogspot.com/search/label/Trains' rel='tag'>Trains</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://steel-city-rust.blogspot.com/search?updated-max=2016-06-13T12:58:00-04:00&amp;max-results=8' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://steel-city-rust.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://steel-city-rust.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type='text/javascript'>
+    window.___gcfg = { 'lang': 'en' };
+  </script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget Profile' data-version='1' id='Profile1'>
+<h2>Dossier</h2>
+<div class='widget-content'>
+<a href='https://www.blogger.com/profile/06540466274893689316'><img alt='My photo' class='profile-img' height='58' src='//2.bp.blogspot.com/-q9mrM0Wvlkw/VLxo-OZv9JI/AAAAAAAAA2g/i3toP_DCba4/s80/*' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/06540466274893689316' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+Derek Ralph
+</a>
+</dt>
+<dd class='profile-data'>Pittsburgh, PA, United States</dd>
+<dd class='profile-textblock'>I had some stuff I couldn't store in stolen milk crates; so I bring it here when I get the chance.
+<br>
+In addition to blogger, Derek Ralph is a railfan and toy train enthusiast, vinyl collecting music nerd, and an old-fashioned Pittsburgh millhunky.
+<br>
+<a href="mailto:kilroyleader@yahoo.com">Contact Me</a></dd>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/06540466274893689316' rel='author'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Subscribe' data-version='1' id='Subscribe1'>
+<div style='white-space:nowrap'>
+<h2 class='title'>Subscribe To</h2>
+<div class='widget-content'>
+<div class='subscribe-wrapper subscribe-type-POST'>
+<div class='subscribe expanded subscribe-type-POST' id='SW_READER_LIST_Subscribe1POST' style='display:none;'>
+<div class='top'>
+<span class='inner' onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<img class='subscribe-dropdown-arrow' src='https://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='https://img1.blogblog.com/img/icon_feed12.png'/>
+Posts
+</span>
+<div class='feed-reader-links'>
+<a class='feed-reader-link' href='https://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fsteel-city-rust.blogspot.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='https://img1.blogblog.com/img/widgets/subscribe-netvibes.png'/>
+</a>
+<a class='feed-reader-link' href='https://add.my.yahoo.com/content?url=http%3A%2F%2Fsteel-city-rust.blogspot.com%2Ffeeds%2Fposts%2Fdefault' target='_blank'>
+<img src='https://img1.blogblog.com/img/widgets/subscribe-yahoo.png'/>
+</a>
+<a class='feed-reader-link' href='http://steel-city-rust.blogspot.com/feeds/posts/default' target='_blank'>
+<img align='absmiddle' class='feed-icon' src='https://img1.blogblog.com/img/icon_feed12.png'/>
+                  Atom
+                </a>
+</div>
+</div>
+<div class='bottom'></div>
+</div>
+<div class='subscribe' id='SW_READER_LIST_CLOSED_Subscribe1POST' onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<div class='top'>
+<span class='inner'>
+<img class='subscribe-dropdown-arrow' src='https://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<span onclick='return(_SW_toggleReaderList(event, "Subscribe1POST"));'>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='https://img1.blogblog.com/img/icon_feed12.png'/>
+Posts
+</span>
+</span>
+</div>
+<div class='bottom'></div>
+</div>
+</div>
+<div class='subscribe-wrapper subscribe-type-COMMENT'>
+<div class='subscribe expanded subscribe-type-COMMENT' id='SW_READER_LIST_Subscribe1COMMENT' style='display:none;'>
+<div class='top'>
+<span class='inner' onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<img class='subscribe-dropdown-arrow' src='https://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='https://img1.blogblog.com/img/icon_feed12.png'/>
+All Comments
+</span>
+<div class='feed-reader-links'>
+<a class='feed-reader-link' href='https://www.netvibes.com/subscribe.php?url=http%3A%2F%2Fsteel-city-rust.blogspot.com%2Ffeeds%2Fcomments%2Fdefault' target='_blank'>
+<img src='https://img1.blogblog.com/img/widgets/subscribe-netvibes.png'/>
+</a>
+<a class='feed-reader-link' href='https://add.my.yahoo.com/content?url=http%3A%2F%2Fsteel-city-rust.blogspot.com%2Ffeeds%2Fcomments%2Fdefault' target='_blank'>
+<img src='https://img1.blogblog.com/img/widgets/subscribe-yahoo.png'/>
+</a>
+<a class='feed-reader-link' href='http://steel-city-rust.blogspot.com/feeds/comments/default' target='_blank'>
+<img align='absmiddle' class='feed-icon' src='https://img1.blogblog.com/img/icon_feed12.png'/>
+                  Atom
+                </a>
+</div>
+</div>
+<div class='bottom'></div>
+</div>
+<div class='subscribe' id='SW_READER_LIST_CLOSED_Subscribe1COMMENT' onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<div class='top'>
+<span class='inner'>
+<img class='subscribe-dropdown-arrow' src='https://img2.blogblog.com/img/widgets/arrow_dropdown.gif'/>
+<span onclick='return(_SW_toggleReaderList(event, "Subscribe1COMMENT"));'>
+<img align='absmiddle' alt='' border='0' class='feed-icon' src='https://img1.blogblog.com/img/icon_feed12.png'/>
+All Comments
+</span>
+</span>
+</div>
+<div class='bottom'></div>
+</div>
+</div>
+<div style='clear:both'></div>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=Subscribe&widgetId=Subscribe1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Subscribe1"));' target='configSubscribe1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget LinkList' data-version='1' id='LinkList1'>
+<h2>Weblogs</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://samanthashorey.blogspot.com'>Ashore</a></li>
+<li><a href='http://kidicarus222.blogspot.com/'>Back Of The Cereal Box</a></li>
+<li><a href='http://jessinsafrica.blogspot.com/'>Jess In South Africa</a></li>
+<li><a href='http://tywkiwdbi.blogspot.com/'>TYWKIWDBI</a></li>
+<li><a href='http://thefoolspeakswords.blogspot.com/'>The Fool Speaks</a></li>
+<li><a href='http://thriftburgher.blogspot.com/'>Thriftburgher</a></li>
+<li><a href='http://www.verbal-vomit.com/'>Verbal Vomit</a></li>
+<li><a href='http://doyoufancy-leshia.blogspot.com/'>do you fancy.</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=LinkList&widgetId=LinkList1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget PopularPosts' data-version='1' id='PopularPosts1'>
+<h2>Trending</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-content'>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2013/10/i-want-new-duck-mallard-i-think.html'>I Want A New Duck, A Mallard I Think</a></div>
+<div class='item-snippet'>  Giant rubber ducky quacking tonight in Pittsburgh      It&#39;s the wrong end of the year for April Fool&#39;s, so it must be true. This i...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://steel-city-rust.blogspot.com/2015/07/narrow-streets-of-cobblestone.html' target='_blank'>
+<img alt='' border='0' src='http://2.bp.blogspot.com/-GSLRTYeaEEg/VBSn_c7hhHI/AAAAAAAAAtU/C7T3z0SlmTI/w72-h72-p-k-no-nu/lincoln_kiebler.png'/>
+</a>
+</div>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2015/07/narrow-streets-of-cobblestone.html'>Narrow Streets Of Cobblestone</a></div>
+<div class='item-snippet'>I&#39;ve noticed that there are some really weirdly-named roads in my area.       Along Route 366 there exist Lincoln Beach and Kiebler Beac...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2014/04/might-as-well-go-for-soda-nobody-hurts.html'>Might As Well Go For A Soda, Nobody Hurts And Nobody Cries</a></div>
+<div class='item-snippet'>    There&#39;s a cool quiz on Buzzfeed  on 200 classic movies from the past 100 years right now - basically a &#39;how-many-have-you-seen&#...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2013/03/shes-coming-in-1230-flight.html'>She's Coming In 12:30 Flight</a></div>
+<div class='item-snippet'>A friend of a friend is currently on a mission trip in South Africa, and is having quite the experience during her stay. Check out&#160; Jess In ...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts1"));' target='configPopularPosts1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' data-version='1' id='Followers1'>
+<h2 class='title'>Followers</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<div><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<div id="followers-iframe-container"></div>
+<script type="text/javascript">
+    window.followersIframe = null;
+    function followersIframeOpen(url) {
+      gapi.load("gapi.iframes", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          window.followersIframe = gapi.iframes.getContext().openChild({
+            url: url,
+            where: document.getElementById("followers-iframe-container"),
+            messageHandlersFilter: gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER,
+            messageHandlers: {
+              '_ready': function(obj) {
+                window.followersIframe.getIframeEl().height = obj.height;
+              },
+              'reset': function() {
+                window.followersIframe.close();
+                followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d5048423396199606903\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaBmNjY2NjYyIGMjI4OGJiKgYzMzY2MzMyBjAwMDAwMDoGY2NjY2NjQgYyMjg4YmJKBjk5OTk5OVIGMjI4OGJiWgt0cmFuc3BhcmVudA%3D%3D\x26pageSize\x3d21\x26origin\x3dhttp://steel-city-rust.blogspot.com/");
+              },
+              'open': function(url) {
+                window.followersIframe.close();
+                followersIframeOpen(url);
+              },
+              'blogger-ping': function() {
+              }
+            }
+          });
+        }
+      });
+    }
+    followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d5048423396199606903\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaBmNjY2NjYyIGMjI4OGJiKgYzMzY2MzMyBjAwMDAwMDoGY2NjY2NjQgYyMjg4YmJKBjk5OTk5OVIGMjI4OGJiWgt0cmFuc3BhcmVudA%3D%3D\x26pageSize\x3d21\x26origin\x3dhttp://steel-city-rust.blogspot.com/");
+  </script></div>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Followers1"));' target='configFollowers1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>Archives</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2017-01-01T00:00:00-05:00&amp;updated-max=2018-01-01T00:00:00-05:00&amp;max-results=1'>
+2017
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2017_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://steel-city-rust.blogspot.com/2017/01/and-i-know-its-my-fault-cause-i-opened.html'>And I Know It&#39;s My Fault, Cause I Opened Up The Va...</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2016-01-01T00:00:00-05:00&amp;updated-max=2017-01-01T00:00:00-05:00&amp;max-results=29'>
+2016
+</a>
+<span class='post-count' dir='ltr'>(29)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2016_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2015-01-01T00:00:00-05:00&amp;updated-max=2016-01-01T00:00:00-05:00&amp;max-results=50'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(58)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2015_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2014-01-01T00:00:00-05:00&amp;updated-max=2015-01-01T00:00:00-05:00&amp;max-results=34'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(34)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2014_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2013-01-01T00:00:00-05:00&amp;updated-max=2014-01-01T00:00:00-05:00&amp;max-results=50'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(69)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_06_01_archive.html'>
+June
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_03_01_archive.html'>
+March
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2013_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2012-01-01T00:00:00-05:00&amp;updated-max=2013-01-01T00:00:00-05:00&amp;max-results=50'>
+2012
+</a>
+<span class='post-count' dir='ltr'>(56)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2012_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(17)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2012_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2012_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2012_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2012_08_01_archive.html'>
+August
+</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2012_07_01_archive.html'>
+July
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2012_05_01_archive.html'>
+May
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2012_04_01_archive.html'>
+April
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2011-01-01T00:00:00-05:00&amp;updated-max=2012-01-01T00:00:00-05:00&amp;max-results=1'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2011_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2008-01-01T00:00:00-05:00&amp;updated-max=2009-01-01T00:00:00-05:00&amp;max-results=4'>
+2008
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2008_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2008_09_01_archive.html'>
+September
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2008_02_01_archive.html'>
+February
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2008_01_01_archive.html'>
+January
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/search?updated-min=2007-01-01T00:00:00-05:00&amp;updated-max=2008-01-01T00:00:00-05:00&amp;max-results=10'>
+2007
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2007_12_01_archive.html'>
+December
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2007_11_01_archive.html'>
+November
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://steel-city-rust.blogspot.com/2007_10_01_archive.html'>
+October
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Label' data-version='1' id='Label1'>
+<h2>Thematics</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Music'>Music</a>
+<span dir='ltr'>(105)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/The%20Photographic%20Record'>The Photographic Record</a>
+<span dir='ltr'>(59)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Hipsterism'>Hipsterism</a>
+<span dir='ltr'>(48)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Silliness'>Silliness</a>
+<span dir='ltr'>(45)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Random'>Random</a>
+<span dir='ltr'>(41)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/My%20Life'>My Life</a>
+<span dir='ltr'>(37)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Trains'>Trains</a>
+<span dir='ltr'>(36)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Writing'>Writing</a>
+<span dir='ltr'>(32)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/YIKES'>YIKES</a>
+<span dir='ltr'>(29)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Oddities'>Oddities</a>
+<span dir='ltr'>(28)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Random%20Playlist'>Random Playlist</a>
+<span dir='ltr'>(25)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Pittsburgh'>Pittsburgh</a>
+<span dir='ltr'>(23)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Friends'>Friends</a>
+<span dir='ltr'>(22)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Art'>Art</a>
+<span dir='ltr'>(21)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Precious%20Sincerity'>Precious Sincerity</a>
+<span dir='ltr'>(20)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/OHSHI-'>OHSHI-</a>
+<span dir='ltr'>(18)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/College'>College</a>
+<span dir='ltr'>(17)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Jukebox%20Terrorism'>Jukebox Terrorism</a>
+<span dir='ltr'>(17)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Lists'>Lists</a>
+<span dir='ltr'>(16)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/NERD%20RAGE'>NERD RAGE</a>
+<span dir='ltr'>(15)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Vinyl%20Listening%20Party'>Vinyl Listening Party</a>
+<span dir='ltr'>(15)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Television'>Television</a>
+<span dir='ltr'>(14)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/That%27s%20Cool%20Totes%20Legit'>That&#39;s Cool Totes Legit</a>
+<span dir='ltr'>(12)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/B.U.I.'>B.U.I.</a>
+<span dir='ltr'>(11)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Bars'>Bars</a>
+<span dir='ltr'>(11)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Clip%20Show'>Clip Show</a>
+<span dir='ltr'>(11)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/New%20Stuff%20CDs'>New Stuff CDs</a>
+<span dir='ltr'>(11)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Movies'>Movies</a>
+<span dir='ltr'>(10)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Food'>Food</a>
+<span dir='ltr'>(9)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Alcohol'>Alcohol</a>
+<span dir='ltr'>(8)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Literature'>Literature</a>
+<span dir='ltr'>(8)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Christmas'>Christmas</a>
+<span dir='ltr'>(7)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Failure'>Failure</a>
+<span dir='ltr'>(7)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Middle-Earth'>Middle-Earth</a>
+<span dir='ltr'>(7)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Musical%20Archaeology'>Musical Archaeology</a>
+<span dir='ltr'>(7)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Somewhat%20Suggestive'>Somewhat Suggestive</a>
+<span dir='ltr'>(7)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Anime'>Anime</a>
+<span dir='ltr'>(6)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Lego'>Lego</a>
+<span dir='ltr'>(6)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Comiiics'>Comiiics</a>
+<span dir='ltr'>(5)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Fun%20With%20Models'>Fun With Models</a>
+<span dir='ltr'>(5)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Cars'>Cars</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Dreaming%20Is%20Free'>Dreaming Is Free</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Mysterious'>Mysterious</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Other%20People%27s%20Thought%20Processes'>Other People&#39;s Thought Processes</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Puerto%20Rico'>Puerto Rico</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Thanks%20Japan'>Thanks Japan</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Adult%20Swim'>Adult Swim</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Shows'>Shows</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Things%20Mechanical'>Things Mechanical</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Wikipedia'>Wikipedia</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Daily%20Synopsis'>Daily Synopsis</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Sports'>Sports</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Star%20Wars'>Star Wars</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Travails%20Of%20Employment'>Travails Of Employment</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Astrology'>Astrology</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Egypt'>Egypt</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Fighter%20Jets'>Fighter Jets</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Friggin%20Technorati'>Friggin Technorati</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Halloween'>Halloween</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Radio'>Radio</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/THE%20NEWS'>THE NEWS</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Thrift%20Stores'>Thrift Stores</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://steel-city-rust.blogspot.com/search/label/Year%20In%20Review'>Year In Review</a>
+<span dir='ltr'>(1)</span>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=Label&widgetId=Label1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget PopularPosts' data-version='1' id='PopularPosts2'>
+<h2>Classics</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2014/10/going-off-of-rails-on-crazy-train.html'>Going Off Of The Rails On A Crazy Train</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://steel-city-rust.blogspot.com/2014/10/all-other-kids-with-pumped-up-kicks.html' target='_blank'>
+<img alt='' border='0' src='http://3.bp.blogspot.com/-wYMU9oNHHaU/VCptWPFQeHI/AAAAAAAAAv8/i9VOcSTklqA/w72-h72-p-k-no-nu/DSC_0025.JPG'/>
+</a>
+</div>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2014/10/all-other-kids-with-pumped-up-kicks.html'>All The Other Kids With The Pumped Up Kicks</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://steel-city-rust.blogspot.com/2014/10/found-in-wreck-with-his-hand-on-throttle.html' target='_blank'>
+<img alt='' border='0' src='https://4.bp.blogspot.com/-cceK96n_kWU/VxsJxHtppmI/AAAAAAAACdQ/tA1d6Sf9xmE3vUYQZ6nC7xE0vhFt_SBuACLcB/w72-h72-p-k-no-nu/sp1294-mcfaden.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2014/10/found-in-wreck-with-his-hand-on-throttle.html'>Found In The Wreck With His Hand On The Throttle</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://steel-city-rust.blogspot.com/2012/08/can-you-live-this-fantasy-life.html' target='_blank'>
+<img alt='' border='0' src='https://img.youtube.com/vi/MUL_VgxxYus/default.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2012/08/can-you-live-this-fantasy-life.html'>Can You Live This Fantasy Life?</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://steel-city-rust.blogspot.com/2014/09/breaking-free-from-all-spells-chained.html' target='_blank'>
+<img alt='' border='0' src='http://4.bp.blogspot.com/-f-whpr3pFEY/VCb1XUXK3fI/AAAAAAAAAvc/v6hpPc7hnM0/w72-h72-p-k-no-nu/1321088-bigthumbnail.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2014/09/breaking-free-from-all-spells-chained.html'>Breaking Free From All The Spells Chained To My Head</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://steel-city-rust.blogspot.com/2013/03/he-must-be-happy-in-his-world.html' target='_blank'>
+<img alt='' border='0' src='https://img.youtube.com/vi/gXNhL4J_S00/default.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2013/03/he-must-be-happy-in-his-world.html'>He Must Be Happy In His World</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2014/09/gonna-have-lot-of-fun-gonna-hit-home-run.html'>Gonna Have A Lot Of Fun, Gonna Hit A Home Run</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://steel-city-rust.blogspot.com/2012/12/cant-get-pawprints-out-of-henhouse-now.html' target='_blank'>
+<img alt='' border='0' src='https://img.youtube.com/vi/oiMZa8flyYY/default.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2012/12/cant-get-pawprints-out-of-henhouse-now.html'>Can't Get The Pawprints Out Of The Henhouse Now</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-thumbnail'>
+<a href='http://steel-city-rust.blogspot.com/2014/08/one-wound-up-punch-of-intuition.html' target='_blank'>
+<img alt='' border='0' src='http://4.bp.blogspot.com/-K7d-ZD65k2s/U-nIMYJpj1I/AAAAAAAAAqc/U2Hu-Mxu6UQ/w72-h72-p-k-no-nu/DSC_0024.JPG'/>
+</a>
+</div>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2014/08/one-wound-up-punch-of-intuition.html'>One Wound Up Punch Of Intuition</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-thumbnail-only'>
+<div class='item-title'><a href='http://steel-city-rust.blogspot.com/2014/08/oh-what-wonder-oh-what-waste.html'>Oh, What A Wonder; Oh, What A Waste</a></div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=PopularPosts&widgetId=PopularPosts2&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts2"));' target='configPopularPosts2' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot no-items section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot no-items section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot no-items section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3' name='Footer'><div class='widget Attribution' data-version='1' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Simple theme. Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=5048423396199606903&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/684395354-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY5F2haVIfY6vP45KdgbkrYZJ6eaRA:1489668308413';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5048423396199606903','//steel-city-rust.blogspot.com/','5048423396199606903');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '5048423396199606903', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Steel City Rust', 'pageType': 'index', 'url': 'http://steel-city-rust.blogspot.com/', 'canonicalUrl': 'http://steel-city-rust.blogspot.com/', 'homepageUrl': 'http://steel-city-rust.blogspot.com/', 'searchUrl': 'http://steel-city-rust.blogspot.com/search', 'canonicalHomepageUrl': 'http://steel-city-rust.blogspot.com/', 'blogspotFaviconUrl': 'http://steel-city-rust.blogspot.com/favicon.ico', 'hasCustomDomain': false, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': '', 'pageTitle': 'Steel City Rust', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Steel City Rust - Atom\x22 href\x3d\x22http://steel-city-rust.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Steel City Rust - RSS\x22 href\x3d\x22http://steel-city-rust.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Steel City Rust - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/5048423396199606903/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/06540466274893689316\x22 /\x3e\n', 'openIdOpTag': '\x3clink rel\x3d\x22openid.server\x22 href\x3d\x22https://www.blogger.com/openid-server.g\x22 /\x3e\n\x3clink rel\x3d\x22openid.delegate\x22 href\x3d\x22http://steel-city-rust.blogspot.com/\x22 /\x3e\n', 'mobileHeadScript': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'ieCssRetrofitLinks': '\x3c!--[if IE]\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.blogger.com/static/v1/jsbin/3357874291-ieretrofit.js\x22\x3e\x3c/script\x3e\n\x3c![endif]--\x3e', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/4183ba16445b5c2c', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Share to Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'jumpLinkMessage': 'Read more &#187;'}}, {'name': 'features', 'data': {'enhancedSourcesets': 'true', 'unsupported_browser_message': 'false'}}, {'name': 'messages', 'data': {'linkCopiedToClipboard': 'Link copied to clipboard!', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'Simple', 'localizedName': 'Simple', 'variant': 'pale', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': false}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Steel City Rust', 'description': '', 'url': 'http://steel-city-rust.blogspot.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3027357017-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SubscribeView', new _WidgetInfo('Subscribe1', 'sidebar-right-1', null, document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar-right-1', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar-right-1', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar-right-1', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar-right-1', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts2', 'sidebar-right-1', null, document.getElementById('PopularPosts2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>
