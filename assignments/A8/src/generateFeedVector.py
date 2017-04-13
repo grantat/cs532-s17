@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 import feedparser
 import re
+from nltk.corpus import stopwords
 
+stops = stopwords.words("english")
 
 def getwordcounts(url):
     '''
@@ -23,8 +25,9 @@ def getwordcounts(url):
         # Extract a list of words
         words = getwords(e.title + ' ' + summary)
         for word in words:
-            wc.setdefault(word, 0)
-            wc[word] += 1
+            if word not in stops:
+                wc.setdefault(word, 0)
+                wc[word] += 1
 
     return (d.feed.title, wc)
 
