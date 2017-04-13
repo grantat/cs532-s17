@@ -1,22 +1,28 @@
 # Assignment 7
 
 Written in Python 3.6.
-<!-- 
+
 Python Dependencies used:
 
-- idk
+- feedparser
+- beautifulsoup4
+- nltk
 
 To install dependencies use the following command:
 
 ```shell
 $ pip3 install -r requirements.txt
-``` -->
+```
+
+When using nltk, the stopwords corpus is required. To install this it must be done manually with the following commands:
+
+```shell
+$ python3
+>>> import nltk
+>>> nltk.download()
+```
 
 # Assignment Details
-
-CS 432/532 Web Science
-Spring 2017
-http://phonedude.github.io/cs532-s17/
 
 Assignment #8
 Due: 11:59pm April 13 2017

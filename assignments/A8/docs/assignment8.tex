@@ -76,9 +76,7 @@ Remember that blogs are paginated.
 \clearpage
 \subsection*{Answer}
 
-First approaching this problem I decided to use the tweepy library for python 3.6 to retrieve a json formatted list of Dr. Nelson's followers, which for me at the time was 634 followers, which was then saved to a file named \textbf{phonedudeFollowers.json} using the python script \textbf{getFollowers.py} shown in Listing \ref{lst:getFollowers.py}. Then I decided to reduce the number of friendships to check since checking friendships between all 634 followers would have been fairly time consuming. Therefore I created another script called \textbf{chooseUsers.py} which would pick 100 random integers for numbers between 1 and 634, which would act as which line numbers I would choose to sample from the json followers I retrieved earlier. This method actually worked out very well because I ended up getting quite a few members that were actually at Old Dominion University, as shown in Table \ref{table:q1userschosen}, without me tampering with it at all - however I may have run it a few times to test it.
 
-I then took the 100 followers I had just chosen, added Dr. Nelson's user name $phonedude\_mln$, and continued to use tweepy again to check friendships between this list of users using the python script \textbf{findFriendships.py} shown in Listing \ref{lst:friendships.py}. It should be noted that I first decided to minimize the number of api calls by reducing the pairs I had to check. This was done by the \textit{minimizeConnections} function, which mapped all users as keys with values of every other user that was not already a key. This reduced the number of api calls from 10100 to 5150, with more logic explained in that function starting on line 14. This script took a several hours due to Twitter's rate limits. When it was completed all the friendships to each other user was saved to \textbf{friendships.csv} in the format of:
 
 \begin{table}[htb]
 \centering
@@ -91,9 +89,6 @@ I then took the 100 followers I had just chosen, added Dr. Nelson's user name $p
 \label{table:q1csvtable}
 \end{table}
 
-Finally to utilize D3.js to its utmost, I decided to convert the csv data and json data saved earlier, to create a new formatted json data with two main keys: nodes and links. To accomplish this I created a script named \textbf{createGraphJson.py}, so the data could properly represent a force directed graph. The all followers graph shown in Figure \ref{fig:q1allfollwersgraph} and the friendship graph of the 100 users generated shown in Figure \ref{fig:q1friendshipgraph} were generated using D3 using the \textit{drawGraph} function defined in \textbf{twitterFriendship.js} shown in Listing \ref{lst:q1javascript}. On hover a side bar should appear showing the user's name, user id, and profile image which links to the associated account. It should be noted that 1 user on the friendship graph is disconnected because when tweepy checked the account it was actually suspended by the time it got to it, making friendships impossible to establish. These two visualizations can be found here:
-
-\url{https://cdn.rawgit.com/grantat/cs532-s17/b410d0d7/assignments/A6/src/index.html}
 
 
 \clearpage
@@ -104,19 +99,6 @@ Finally to utilize D3.js to its utmost, I decided to convert the csv data and js
  \label{fig:q1friendshipgraph}
  \end{figure}
 
-\clearpage
- \begin{figure}[h]
- \centering
- \includegraphics[scale=0.4]{d3friendshipGraph.png}
- \caption{Friendships graph of 100 selected users}
- \label{fig:q1allfollwersgraph}
- \end{figure}
-
- \lstinputlisting[frame=single,caption={Python script to retrieve Dr. Nelson's followers},label=lst:getFollowers.py,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/getFollowers.py}
-
- \lstinputlisting[frame=single,caption={Python script to check twitter friendships},label=lst:friendships.py,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/findFriendships.py}
-
- \lstinputlisting[frame=single,caption={Javascript to create force directed graphs},label=lst:q1javascript,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/js/twitterFriendships.js}
 
 \clearpage
 
@@ -289,6 +271,8 @@ the 98 "targeted" blogs.
 \begin{thebibliography}{9}
 \bibitem{github}
 Atkins, Grant. ``CS532 Assignment 8 Repository'' Github. N.p., 23 March 2017. Web. 23 March 2017.\url{https://github.com/grantat/cs532-s17/tree/master/assignments/A8}.
+\bibitem{beautifulsoupref} 
+Richardson, Leonard. "Beautiful Soup Documentation." Beautiful Soup Documentation - Beautiful Soup 4.4.0 Documentation. N.p., n.d. Web. 24 Jan. 2017. \url{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}.
 \bibitem{collectiveIntell}
 Segaran, Toby. ``Programming Collective Intelligence''. O' Reilly, 2007. Web. 6 April 2017. \url{http://shop.oreilly.com/product/9780596529321.do}.
 \end{thebibliography}

@@ -29,7 +29,7 @@ of occurrence.  Essentially you are replicating the format of the
 "blogdata.txt" file included with the PCI book code.  Limit the
 number of terms to the most "popular" (i.e., frequent) 1000 terms,
 this is *after* the criteria on p. 32 (slide 7) has been satisfied.
-Remember that blogs are paginated.  
+Remember that blogs are paginated. 
 
 2.  Create an ASCII and JPEG dendrogram that clusters (i.e., HAC)
 the most similar blogs (see slides 12 & 13).  Include the JPEG in

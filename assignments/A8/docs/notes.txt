@@ -2,11 +2,57 @@
 Links & Descriptions
 --------
 
+nltk stopwords:
+http://www.nltk.org/book/ch02.html
+
 
 
 --------
 Notes
 --------
 
+Tossed these out
 
+Failed to parse feed https://norecordshopsleft.blogspot.com/feeds/posts/default
 
+Failed to parse feed https://chemical-robert.blogspot.com/feeds/posts/default
+
+Failed to parse feed https://urockradio.blogspot.com/feeds/posts/default
+
+Failed to parse feed http://lastnightadjsavemylife.blogspot.com/feeds/posts/default
+
+Failed to parse feed https://mymusicworld-surf60.blogspot.com/feeds/posts/default
+
+Finally truncated it down to 100 by removing extras:
+
+feedList:
+http://dustandwaterstudios.blogspot.com/feeds/posts/default
+http://everythingflowsglasgow.blogspot.com/feeds/posts/default
+http://theidealcopy.blogspot.com/feeds/posts/default
+http://palmiraapistatres.blogspot.com/feeds/posts/default
+http://klavierspielerman.blogspot.com/feeds/posts/default
+http://rantsfromthepants.blogspot.com/feeds/posts/default
+http://mts-dailythemes.blogspot.com/feeds/posts/default
+http://thefastbreakofchampions.blogspot.com/feeds/posts/default
+http://nonsensealamode.blogspot.com/feeds/posts/default
+http://guardtheguardians.blogspot.com/feeds/posts/default
+http://kaleidoscopekanvas-kk.blogspot.com/feeds/posts/default
+http://simonegoes.blogspot.com/feeds/posts/default
+http://castironsongs.blogspot.com/feeds/posts/default
+http://theonionfield.blogspot.com/feeds/posts/default
+
+blogList:
+b179.html http://dustandwaterstudios.blogspot.com/?expref=next-blog
+b181.html http://everythingflowsglasgow.blogspot.com/?expref=next-blog
+b182.html http://theidealcopy.blogspot.com/?expref=next-blog
+b183.html http://palmiraapistatres.blogspot.com/?expref=next-blog
+b184.html http://klavierspielerman.blogspot.com/?expref=next-blog
+b186.html http://rantsfromthepants.blogspot.com/?expref=next-blog
+b187.html http://mts-dailythemes.blogspot.com/?expref=next-blog
+b188.html http://thefastbreakofchampions.blogspot.com/?expref=next-blog
+b189.html http://nonsensealamode.blogspot.com/?expref=next-blog
+b190.html http://guardtheguardians.blogspot.com/?expref=next-blog
+b191.html http://kaleidoscopekanvas-kk.blogspot.com/?expref=next-blog
+b195.html http://simonegoes.blogspot.com/?expref=next-blog
+b197.html http://castironsongs.blogspot.com/?expref=next-blog
+b200.html http://theonionfield.blogspot.com/?expref=next-blog
