@@ -4,6 +4,7 @@ from PIL import Image, ImageDraw
 from math import sqrt
 import random
 
+
 def readfile(filename):
     lines = [line for line in file(filename)]
 
@@ -35,7 +36,7 @@ def pearson(v1, v2):
   # Calculate r (Pearson score)
     num = pSum - sum1 * sum2 / len(v1)
     den = sqrt((sum1Sq - pow(sum1, 2) / len(v1)) * (sum2Sq - pow(sum2, 2)
-               / len(v1)))
+                                                    / len(v1)))
     if den == 0:
         return 0
 
@@ -51,7 +52,7 @@ class bicluster:
         right=None,
         distance=0.0,
         id=None,
-        ):
+    ):
         self.left = left
         self.right = right
         self.vec = vec
@@ -73,7 +74,7 @@ def hcluster(rows, distance=pearson):
     # loop through every pair looking for the smallest distance
         for i in range(len(clust)):
             for j in range(i + 1, len(clust)):
-        # distances is the cache of distance calculations
+                # distances is the cache of distance calculations
                 if (clust[i].id, clust[j].id) not in distances:
                     distances[(clust[i].id, clust[j].id)] = \
                         distance(clust[i].vec, clust[j].vec)
@@ -105,16 +106,16 @@ def hcluster(rows, distance=pearson):
 def printclust(clust, labels=None, n=0):
   # indent to make a hierarchy layout
     for i in range(n):
-        print ' ',
+        print(' '),
     if clust.id < 0:
-    # negative id means that this is branch
-        print '-'
+        # negative id means that this is branch
+        print('-')
     else:
-    # positive id means that this is an endpoint
+        # positive id means that this is an endpoint
         if labels == None:
-            print clust.id
+            print(clust.id)
         else:
-            print labels[clust.id]
+            print (labels[clust.id])
 
   # now print the right and left branches
     if clust.left != None:
@@ -166,7 +167,7 @@ def drawdendrogram(clust, labels, jpeg='clusters.jpg'):
         h / 2,
         scaling,
         labels,
-        )
+    )
     img.save(jpeg, 'JPEG')
 
 
@@ -177,7 +178,7 @@ def drawnode(
     y,
     scaling,
     labels,
-    ):
+):
     if clust.id < 0:
         h1 = getheight(clust.left) * 20
         h2 = getheight(clust.right) * 20
@@ -193,7 +194,7 @@ def drawnode(
 
     # Horizontal line to right item
         draw.line((x, bottom - h2 / 2, x + ll, bottom - h2 / 2), fill=(255, 0,
-                  0))
+                                                                       0))
 
     # Call the function to draw the left and right nodes
         drawnode(
@@ -203,7 +204,7 @@ def drawnode(
             top + h1 / 2,
             scaling,
             labels,
-            )
+        )
         drawnode(
             draw,
             clust.right,
@@ -211,9 +212,9 @@ def drawnode(
             bottom - h2 / 2,
             scaling,
             labels,
-            )
+        )
     else:
-    # If this is an endpoint, draw the item label
+        # If this is an endpoint, draw the item label
         draw.text((x + 5, y - 7), labels[clust.id], (0, 0, 0))
 
 
@@ -232,11 +233,11 @@ def kcluster(rows, distance=pearson, k=4):
 
   # Create k randomly placed centroids
     clusters = [[random.random() * (ranges[i][1] - ranges[i][0]) + ranges[i][0]
-                for i in range(len(rows[0]))] for j in range(k)]
+                 for i in range(len(rows[0]))] for j in range(k)]
 
     lastmatches = None
     for t in range(100):
-        print 'Iteration %d' % t
+        print('Iteration',t)
         bestmatches = [[] for i in range(k)]
 
     # Find which centroid is the closest for each row
@@ -265,7 +266,7 @@ def kcluster(rows, distance=pearson, k=4):
                     avgs[j] /= len(bestmatches[i])
                 clusters[i] = avgs
 
-    return bestmatches
+    return bestmatches, t
 
 
 def tanamoto(v1, v2):
@@ -295,11 +296,11 @@ def scaledown(data, distance=pearson, rate=0.01):
 
     lasterror = None
     for m in range(0, 1000):
-    # Find projected distances
+        # Find projected distances
         for i in range(n):
             for j in range(n):
                 fakedist[i][j] = sqrt(sum([pow(loc[i][x] - loc[j][x], 2)
-                                      for x in range(len(loc[i]))]))
+                                           for x in range(len(loc[i]))]))
 
     # Move points
         grad = [[0.0, 0.0] for i in range(n)]
@@ -321,7 +322,7 @@ def scaledown(data, distance=pearson, rate=0.01):
 
         # Keep track of the total error
                 totalerror += abs(errorterm)
-        print totalerror
+        print(totalerror)
 
     # If the answer got worse by moving the points, we are done
         if lasterror and lasterror < totalerror:
@@ -333,7 +334,7 @@ def scaledown(data, distance=pearson, rate=0.01):
             loc[k][0] -= rate * grad[k][0]
             loc[k][1] -= rate * grad[k][1]
 
-    return loc
+    return loc, m
 
 
 def draw2d(data, labels, jpeg='mds2d.jpg'):

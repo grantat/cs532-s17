@@ -1,0 +1,12 @@
+--------
+Links & Descriptions
+--------
+
+semantic analysis movie db reviews for every
+
+--------
+Notes
+--------
+
+cross validation
+

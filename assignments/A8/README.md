@@ -1,12 +1,13 @@
-# Assignment 7
+# Assignment 8
 
-Written in Python 3.6.
+Written in Python 3.6 and python 2.7.
 
 Python Dependencies used:
 
 - feedparser
 - beautifulsoup4
 - nltk
+- Pillow
 
 To install dependencies use the following command:
 
