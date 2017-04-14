@@ -166,8 +166,21 @@ week 12 lecture.  How many iterations were required?
 
 \subsection*{Answer}
 
-To solve this question I again used the code provided by the Programming Collective Intelligence book as shown in Listing \ref{lst:createClusters} to create a method called \textit{kmeans} \cite{collectiveIntell}. The \textit{kmeans} method again reads my blog-term matrix and using the method \textit{kcluster} for the clusters.py library. I modified the \textit{kcluster} method to also return the iteration count so it could be saved along with the blog title. 
+To solve this question I again used the code provided by the Programming Collective Intelligence book as shown in Listing \ref{lst:createClusters} to create a method called \textit{mds} \cite{collectiveIntell}. The \textit{mds} method again reads my blog-term matrix and this time uses the method \textit{scaledown} in the clusters.py library. I modified the \textit{scaledown} method to also return the iteration count so it could be saved along with the blog title. The \textit{mds} method then utilizes the data it takes from my blog-term matrix and utilizes multidimensional scaling (MDS) to create a visual representation of the distance matrix in two dimensions created from the \textit{scaledown} method. The MDS visualization is shown in Figure \ref{fig:mds}. The iteration count was 209 as shown in Figure \ref{fig:scaledown}.
 
+ \begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.2]{q4Mds}
+ \caption{Two dimensional representation of blogs}
+ \label{fig:mds}
+ \end{figure}
+
+ \begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.75]{q4itercount}
+ \caption{Command line view of the iteration count for MDS}
+ \label{fig:scaledown}
+ \end{figure}
 
 \clearpage
 
