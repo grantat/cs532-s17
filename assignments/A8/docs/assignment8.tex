@@ -76,28 +76,19 @@ Remember that blogs are paginated.
 \clearpage
 \subsection*{Answer}
 
-To solve this problem I decided to write a shell script to retrieve the 98 random blogs. 
+To solve this problem I decided to write a shell script called \textbf{grabBlogs.sh} to retrieve the 98 random blogs as shown in Listing \ref{lst:grabBlogs}. The script utilizes mainly utilizes the curl and sort commands to solve the problem of retrieving unique blogs. The curl command is called 200 times with \url{http://www.blogger.com/next-blog?navBar=true&blogID=3471633091411211117} called each time to retrieve 200 blogs. I used 200 executions because I happened to get duplicate blogs on some occasions and 100 calls wouldn't be enough to satisfy the requirements of this problem. For each new blog I got I saved the contents of the html page to a html document with the an id of the current iteration in the range of 200. I saved this file id and the URI found inside a file called \textbf{blogList.txt} as shown in Listing \ref{lst:blogList}.
 
-\begin{table}[htb]
-\centering
-\begin{tabular}{ | l | l | l | l |}
-\hline
-\textbf{Source User} & \textbf{Target User} & \textbf{Following Target} & \textbf{Followed By Target} \\
-\hline
-\end{tabular}
-\caption{Format of friendships.csv, where Following fields are booleans}
-\label{table:q1csvtable}
-\end{table}
+After 200 blogs were retrieved I used the sort command to find all unique blogs in the blog list file. Once this completed I had approximately 120 unique blogs. I then wrote a script in python 3.6 called \textbf{getFeed.py} as shown in Listing \ref{lst:getFeed} which parsed each html document saved using the library Beautiful soup which allowed me to search the document by an HTML `link` element to find the atom+xml feed of the blog \cite{beautifulsoupref}. I saved these feeds to a file called \textbf{feedList.txt} which was later cleaned for any blogs that did not have atom+xml feeds. Usually these were blogs that no longer existed. Any extra blogs above 100 were simply discarded.
 
+Finally I proceeded to to write another python script called \textbf{generateFeedVector.py} shown in Listing \ref{lst:generateMat} which utilized the code provide by the Programming Collective Intelligence (PCI) book \cite{collectiveIntell}. This script was slightly modified to be usable for python 3.6 but also adding a limit to the amount of words the blog-term matrix allowed to a maximum of 1000 shown on line 65. I also didn't check for stop words when I retrieved the atom feeds, but I did check if words were stop words before creating the the matrix by using the nltk library's corpus of stop words shown on line 28. If a word was found to be a stop word according to their corpus it would not be added to the matrix. When this was completed it was saved to a file called \textbf{blogData.txt}.
 
+ \lstinputlisting[frame=single,caption={Shell script to retrieve unique blogs},label=lst:grabBlogs,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/grabBlogs.sh}
 
-\clearpage
- \begin{figure}[h]
- \centering
- \includegraphics[scale=0.4]{d3followerGraph.png}
- \caption{All of Dr. Nelson's followers in D3 force directed graph}
- \label{fig:q1friendshipgraph}
- \end{figure}
+ \lstinputlisting[frame=single,caption={100 unique blogs collected},label=lst:blogList,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/data/blogList.txt}
+
+ \lstinputlisting[frame=single,caption={Python script to retrieve atom feeds of blogs},label=lst:getFeed,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/getFeed.py}
+
+ \lstinputlisting[frame=single,caption={Python script to generate blog-term matrix},label=lst:generateMat,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/generateFeedVector.py}
 
 
 \clearpage
@@ -119,15 +110,18 @@ unwieldy for inclusion in the report).
 
 \subsection*{Answer}
 
+To solve this question I used the code provided by the Programming Collective Intelligence book to write a script in python 2.7 called \textbf{createClusters.py} as shown in Listing \ref{lst:createClusters} \cite{collectiveIntell}. This script has a method called \textit{createDendrogram} which utilizes the clusters.py file provided by the PCI book load the blog-term matrix created in question 1 to create a Hierarchical Clustering tree image, the dendrogram, as shown in Figure \ref{fig:dendro}. I also created an ASCII file named \textbf{q2ASCII.txt} to represent this tree structure in text which is available on my Github page \cite{github}.
 
+ \begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.26]{q2Dendrogram}
+ \caption{Dendrogram for blogs collected}
+ \label{fig:dendro}
+ \end{figure}
 
+\clearpage
 
-% \begin{figure}[h]
-% \centering
-% \includegraphics[scale=0.6]{predictedSplit3.pdf}
-% \caption{Group split of 3 with Girvan-Newman algorithm from karateClub.R}
-% \label{fig:split3}
-% \end{figure}
+ \lstinputlisting[frame=single,caption={Python script to generate clusters with different approaches},label=lst:createClusters,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/createClusters.py}
 
 \clearpage
 
@@ -147,17 +141,15 @@ many interations were required for each value of k?
 
 \subsection*{Answer}
 
-\begin{center}
-\Huge{NOT ATTEMPTED}
-\end{center}
+To solve this question I again used the code provided by the Programming Collective Intelligence book as shown in Listing \ref{lst:createClusters} to create a method called \textit{kmeans} \cite{collectiveIntell}. The \textit{kmeans} method again reads my blog-term matrix and using the method \textit{kcluster} for the clusters.py library. I modified the \textit{kcluster} method to also return the iteration count so it could be saved along with the blog title. For each value of k I created a separate file named \textbf{kclut\_n.txt} where n is the value of k. For a k value of 5 it took 7 iterations with the values of each centroids shown in Listing \ref{lst:kclust5}. For a k value of 10 it took 5 iterations with the values of each centroids shown in Listing \ref{lst:kclust10}. For a k value of 20 it took 5 iterations with the values of each centroids shown in Listing \ref{lst:kclust20}.
 
-% \begin{figure}[h]
-% \centering
-% \includegraphics[scale=0.6]{predictedSplit3.pdf}
-% \caption{Group split of 3 with Girvan-Newman algorithm from karateClub.R}
-% \label{fig:split3}
-% \end{figure}
+ \lstinputlisting[frame=single,caption={K-means clustering with a value of 5},label=lst:kclust5,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/data/kclust_5.txt}
 
+ \lstinputlisting[frame=single,caption={K-means clustering with a value of 10},label=lst:kclust10,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/data/kclust_10.txt}
+
+ \lstinputlisting[frame=single,caption={K-means clustering with a value of 20},label=lst:kclust20,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/data/kclust_20.txt}
+
+\clearpage
 
 % =================================
 % 4th question
@@ -174,14 +166,8 @@ week 12 lecture.  How many iterations were required?
 
 \subsection*{Answer}
 
+To solve this question I again used the code provided by the Programming Collective Intelligence book as shown in Listing \ref{lst:createClusters} to create a method called \textit{kmeans} \cite{collectiveIntell}. The \textit{kmeans} method again reads my blog-term matrix and using the method \textit{kcluster} for the clusters.py library. I modified the \textit{kcluster} method to also return the iteration count so it could be saved along with the blog title. 
 
-
-% \begin{figure}[h]
-% \centering
-% \includegraphics[scale=0.6]{predictedSplit3.pdf}
-% \caption{Group split of 3 with Girvan-Newman algorithm from karateClub.R}
-% \label{fig:split3}
-% \end{figure}
 
 \clearpage
 
@@ -217,12 +203,6 @@ necessary.
 \Huge{NOT ATTEMPTED}
 \end{center}
 
-% \begin{figure}[h]
-% \centering
-% \includegraphics[scale=0.6]{predictedSplit3.pdf}
-% \caption{Group split of 3 with Girvan-Newman algorithm from karateClub.R}
-% \label{fig:split3}
-% \end{figure}
 
 \clearpage
 
@@ -259,9 +239,6 @@ the 98 "targeted" blogs.
 \clearpage
 
 
-\clearpage
-
-
 % =================================
 % Bibliography
 % =================================
@@ -272,7 +249,7 @@ Atkins, Grant. ``CS532 Assignment 8 Repository'' Github. N.p., 23 March 2017. We
 \bibitem{beautifulsoupref} 
 Richardson, Leonard. "Beautiful Soup Documentation." Beautiful Soup Documentation - Beautiful Soup 4.4.0 Documentation. N.p., n.d. Web. 24 Jan. 2017. \url{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}.
 \bibitem{collectiveIntell}
-Segaran, Toby. ``Programming Collective Intelligence''. O' Reilly, 2007. Web. 6 April 2017. \url{http://shop.oreilly.com/product/9780596529321.do}.
+Segaran, Toby. ``Programming Collective Intelligence''. O' Reilly, 2007. Web. 6 April 2017. \url{https://github.com/arthur-e/Programming-Collective-Intelligence}.
 \end{thebibliography}
 
 \end{document}
