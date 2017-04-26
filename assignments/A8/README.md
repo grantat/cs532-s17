@@ -1,6 +1,6 @@
 # Assignment 8
 
-Written in Python 3.6 and python 2.7.
+Written in Python 2.7 and 3.6.
 
 Python Dependencies used:
 

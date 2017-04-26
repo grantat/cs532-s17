@@ -8,5 +8,6 @@ semantic analysis movie db reviews for every
 Notes
 --------
 
-cross validation
+Can there be a classifier that holds both android and iOS.
 
+Categories: iOS, Android, React Native, Realm News, Databases, Nodejs, Xamarin

@@ -14,3 +14,4 @@ This repository is for Web Science (CS532) class at Old Dominion University. Cod
 |[6](./assignments/A6/)| [python,javascript](./assignments/A6/src)|[pdf](./assignments/A6/docs/assignment6.pdf)| 
 |[7](./assignments/A7/)| [python](./assignments/A7/src)|[pdf](./assignments/A7/docs/assignment7.pdf)| 
 |[8](./assignments/A8/)| [python,shell](./assignments/A8/src)|[pdf](./assignments/A8/docs/assignment8.pdf)| 
+|[9](./assignments/A9/)| [python](./assignments/A9/src)|[pdf](./assignments/A9/docs/assignment9.pdf)| 

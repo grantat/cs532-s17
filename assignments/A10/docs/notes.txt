@@ -1,0 +1,19 @@
+--------
+Links & Descriptions
+--------
+
+--------
+Notes
+--------
+
+cross validation
+
+euclidean is crow flight, straight
+
+change k value or weight to get higher cross validation value
+
+Heterogenous Data
+
+rescale the data
+
+kernel trick: transform to higher dimensions for linear classificiation. then transform back to start
