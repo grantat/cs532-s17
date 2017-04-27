@@ -1,5 +1,5 @@
 
-import sqlite3 as sqlite
+from sqlite3 import dbapi2 as sqlite
 import re
 import math
 

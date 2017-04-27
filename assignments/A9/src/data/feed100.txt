@@ -1,100 +1,100 @@
-Everyday Reactive|React Native
-Providing Better Feedback in Realtime Object Detection Apps|iOS
-Fragments: The Solution to (and Cause of) All of Android's Problems|Android
-Realm ObjC & Swift 2.6: Async Open Realm, Admin Flag, Compact On Launch & Bug Fixes!|iOS
-Building a Gantt Chart from Github Issues: With Near Caching Using Realm|Realm News
-Building Your Own Tools|React Native
-Server-Side Swift Live Coding|iOS
-Legal Risks and Rights for Developers|Realm News
-The Post-MVC Age|React Native
-Making Mock Objects More Useful|iOS
-Exploring New Android Layouts|Android
-Crafting Collaborative Apps with Realm|Realm News
-Visual Studio Code: Shipping One of the Largest Microsoft JavaScript Apps|Xamarin
-Swift on Android: The Future of Cross-Platform Programming or White Whale?|Android
-Realm Java 3.1: Object Notifications, Backup Recovery and Reverse Relationships|Android
-Reverse Engineering Is Not Just for Hackers|Android
-Git at Scale: Managing Swift/Obj-C Code & Coders|iOS
-Realm World Tour: That’s a Wrap Time for Round Two!|Realm News
-Swift's Pointy Bits: Unsafe Swift & Pointer Types|iOS
-Tutorial: Build iOS App from Scratch|iOS
-Realm ObjC & Swift 2.5: Query Improvements, Swift 3.1 Binaries & Bug Fixes!|iOS
-Data Binding in the Real World|Android
-Taming Node_Modules at Facebook|Nodejs
-The Safety of Unsafe Swift|iOS
-Realm Browser Tutorial|Realm News
-Scaling Open Source Communities|Realm News
-Evolution in Action: Software Architecture as Systems Dissolve|Realm News
-Bring Your Own Authentication: Connect Your Users to the Realm Mobile Platform|Realm News
-No More Typos: Foolproof Notifications in Swift|iOS
-Getting Down to Business With Firebase Monitoring Tools|Databases
-Making PostgreSQL Realtime|Databases
-Everything You Ever Wanted To Know About Sequence and Collection|iOS
-Building a Blog with Realm Node.js and Express|Nodejs
-Apple and VR|iOS
-Espresso: Beyond the Basics|Android
-Break the Monolith with (B)Viper Modules|iOS
-UI and Snapshot Testing|iOS
-Scaling Your App for Rapid Growth by using Testing, Deploying and Monitoring|Xamarin
-Realm Everywhere, with JavaScript: Announcing Universal Node.js Support|Nodejs
-Revisiting Types in Kotlin|Android
-Realm Primary Keys Tutorial|Databases
-Integrating Azure Authentication with Realm|Xamarin
-Hacking SiriKit|iOS
-Test Driven Development (TDD) for the Masses|iOS
-VoiceOver is Awesome|iOS
-Interacting with Your App Through the Command Line|Android
-Realm Java 3.0: Collection Notifications, Snapshots and Sorting Across Relationships|Android
-Swift at Scale|iOS
-Playgrounds: teach nerdy stuff in a fun and efficient way!|iOS
-Sell Out and Save the World!|Realm News
-Testing Functional Reactive Programming Code|iOS
-Functional on Android: Lambdas, Rx, and Streams in Your App|Android
-Pushing the Boundaries of Swift to the Server|iOS
-Stylish Developers Guide to Unit Testing in Swift|iOS
-The History of Mac and iOS: Squirrels, Disco, and Nate Eror|iOS
-Selling Your Weird Mouth Noises|Realm News
-Acceptance Testing|iOS
-RxJava for the Rest of Us|Java
-Realm + Microsoft: Xamarin, Azure, and Windows Desktop|Xamarin
-Data Consistency in an Unpredictable World|iOS
-Network Testing|iOS
-Be the Quality You Want to See in Your App [Swift edition]|iOS
-The 2016 Android Developer Toolbox|Android
-Realm Cocoa Tutorial: Encryption with Realm|iOS
-MVVM with Coordinators and RxSwift|iOS
-Visualize, Document, and Explore Your Software Architecture|Realm News
-How Indies Can Still Impact the Future of iTunes|Realm News
-Realm React Native 1.0: Powerful Object Database Meets the Realm Mobile Platform|React Native
-Creating the Future|iOS
-Compile Time Errors Are Good|Swift
-Better Android Development with Kotlin & Gradle|Android
-Realm: How I Learned to Love Databases Again|Databases
-Operators and Strong Opinions|iOS
-Realm ObjC & Swift 2.4: Object Notifications!|iOS
-A Startup’s Secret Weapon: The Product Engineer|Realm News
-Testing an Untested App|iOS
-Writing Software to Make a Difference|Realm News
-Radical Hospitality - One Shower at a Time|Realm News
-MVC vs. MVP vs. MVVM on Android|Android
-Bringing the Platform Experience to You: Announcing the Realm World Tour|Realm News
-The Objective-C Runtime & Swift Dynamism|iOS
-Reactive Apps: How to Build More Engaging Mobile Experiences|Realm News
-Mastering Realm Notifications|iOS
-Event Handling in the Realm Object Server|Realm News
-A Designer’s Response to Silicon Valley|Realm News
-Ready for Realtime and Scale: Announcing Realm Mobile Platform 1.0|Realm News
-Eventually Consistent: How to Make a Mobile-First Distributed System|Realm News
-Realm ObjC & Swift 2.3: Sync Progress Notifications, Improved Sharing & Backup Recovery!|iOS
-Realm Java 2.3: Improved Sharing, Backup Recovery and Wildcard Queries|Android
-Smoke & Mirrors: The Magic Behind Wonderful UI in Android|Android
-JP Simard on Realm & Open Source on the Consult Podcast|Realm News
-Testing in Swift: Protocols & View Models|iOS
-Property-Based Testing with SwiftCheck|iOS
-Realm Objective-C & Swift 2.2: Objects across threads, sort over relationships & more!|iOS
-Contextual Communication in a Connected World|Realm News
-Introduction to Xamarin Forms Custom Renderers|Xamarin
-Modern Android: Ditching Activities and Fragments|Android
-Safe vs Deep Integration of Realm|Android
-"Watch Your Language!": The Road to Cleaner Code with SwiftLint|iOS
-Introducing the Realm Mobile Platform|Databases
+Everyday Reactive|Agnes Vasarhelyi walks through some practical uses of reactive programming in app development, using examples from my daily experiences|Databases
+Providing Better Feedback in Realtime Object Detection Apps|Shinichi explains how to provide better feedback in real-time object detection apps, using Wantedly People as an example.|Databases
+Fragments: The Solution to (and Cause of) All of Android's Problems|A comprehensive look at the state of Fragments in 2017; solution to (and cause of) all of Android’s problems.|Databases
+Realm ObjC & Swift 2.6: Async Open Realm, Admin Flag, Compact On Launch & Bug Fixes!|Realm Objective‑C & Swift 2.6 are out with async open/download Realm, administrator flag, compact on launch and bug fixes!|Databases
+Building a Gantt Chart from Github Issues: With Near Caching Using Realm|Building a Gantt Chart from Github Issues: With Near Caching Using Realm|Databases
+Building Your Own Tools|The Artsy mobile team have multiple apps with Swift, but that is not the future of our applications.|Databases
+Server-Side Swift Live Coding|Tatsuya Tobioka, inspired by nsdateformatted.com, shows how he easily made a similar site with NSURL, thanks to Vapor and Bluemix!|Databases
+Legal Risks and Rights for Developers|Coding can involve legal pitfalls. This talk will focus on key legal issues for developers regarding data protection/privacy.|Databases
+The Post-MVC Age|MVC is giving way to the new component paradigm. Learn what Flux and Reactive Programming are and how they differ from MVC.|Databases
+Making Mock Objects More Useful|Jon Reid brings his background of writing the Objective-C library OCMockito and applies it to hand-made mocks in Swift.|Databases
+Exploring New Android Layouts|In this talk I'm going to cover the two new layouts that were introduced from Google in 2016, ConstraintLayout and FlexboxLayout.|Databases
+Crafting Collaborative Apps with Realm|This talk introduces the open-source Realm Mobile Database and shows how Realm Mobile Platforms complete it with server-side components.|Databases
+Visual Studio Code: Shipping One of the Largest Microsoft JavaScript Apps|In this talk, Alex Dima shares key insights that allowed his team to create a rich code editing experience|Databases
+Swift on Android: The Future of Cross-Platform Programming or White Whale?|Eric Wing gives you a conceptual understanding of how Swift works on Android and how you can use it|Databases
+Realm Java 3.1: Object Notifications, Backup Recovery and Reverse Relationships|Realm Java 3.1 with Object Notifications, Improved Backup Recovery and Reverse Relationships|Databases
+Reverse Engineering Is Not Just for Hackers|We spend a lot of time putting apps together, but when was the last time you pulled one apart?|Databases
+Git at Scale: Managing Swift/Obj-C Code & Coders|Explore common issues that come up with Xcode, Git, & Swift/Objective-C codebases and strategies to maintain them and manage contributors.|Databases
+Realm World Tour: That’s a Wrap Time for Round Two!|It’s time for us to bid adieu from the first leg of the Realm World Tour...check out the highlights!|Databases
+Swift's Pointy Bits: Unsafe Swift & Pointer Types|This talk will explore the ins and outs of Swift’s take on pointers: typed and raw pointers and buffers, implicit bridging and casting|Databases
+Tutorial: Build iOS App from Scratch|This tutorial will guide you through writing an iOS app using Realm Swift to sync with the RealmTasks demo apps.|Databases
+Realm ObjC & Swift 2.5: Query Improvements, Swift 3.1 Binaries & Bug Fixes!|Realm Objective‑C & Swift 2.5 are out with query improvements, Swift 3.1 binaries and bug fixes!|Databases
+Data Binding in the Real World|The possibilities of data binding are endless, and with the right architecture, your code can be much cleaner and a lot easier to understand|Databases
+Taming Node_Modules at Facebook|Managing Node.js dependencies is a common problem for anyone who does JavaScript development these days.|Databases
+The Safety of Unsafe Swift|The Swift unsafe APIs help you construct code that is highly readable and only unsafe where it has to be.|Databases
+Realm Browser Tutorial|Since Realm files are an opaque binary format, a special tool is needed to open them. Enter the Realm Browser!|Databases
+Scaling Open Source Communities|The different stages of open source projects, handling PRs and support at scale, and keeping innovating with a bigger user base.|Databases
+Evolution in Action: Software Architecture as Systems Dissolve|What does the history of software architecture tell us about the challenges of new cloud-hosted systems?|Databases
+Bring Your Own Authentication: Connect Your Users to the Realm Mobile Platform|Now, you can connect your existing authentication API to the Realm Mobile Platform.|Databases
+No More Typos: Foolproof Notifications in Swift|One of the most common ways for parts of your app to talk to each other is a Notification (RIP "NSNotification"). But the only way to send|Databases
+Getting Down to Business With Firebase Monitoring Tools|We are going to focus on the tools that help you monitor your application and your products once you release it into the wild.|Databases
+Making PostgreSQL Realtime|Easily create realtime mobile apps using PostgreSQL with the Realm PostgreSQL Data Connector.|Databases
+Everything You Ever Wanted To Know About Sequence and Collection|Soroush Khanlou dives into Sequence, through a 'LinkedList' Implementation, and Collection, and its related protocol types.|Databases
+Building a Blog with Realm Node.js and Express|Realm's powerful features are available for the server side with Node.js now. Let's build a blog.|Databases
+Apple and VR|VR has quickly become one of the hottest areas in the tech industry. Brianna Wu looks at VR and Apple and discusses their future.|Databases
+Espresso: Beyond the Basics|Learn about more advanced workings of Espresso, how it integrates into different frameworks, and how Android libraries work together.|Databases
+Break the Monolith with (B)Viper Modules|Learn about VIPER and modules that constitute good architecture.|Databases
+UI and Snapshot Testing|Luis Ascorbe covers how he tests views at Wallapop, using a library developed by Facebook.|Databases
+Scaling Your App for Rapid Growth by using Testing, Deploying and Monitoring|Watch Xamarin Test Cloud test an app on hundreds of different device models simultaneously!|Databases
+Realm Everywhere, with JavaScript: Announcing Universal Node.js Support|We've just shipped Realm support for Node.js on Windows, making Realm available wherever you can run Node.js.|Databases
+Revisiting Types in Kotlin|This is a prescriptive talk about types, and about the way that you use types to help you in development.|Databases
+Realm Primary Keys Tutorial|Realm primary keys allow granular fetching of Realm objects – See how easy they are to set up in this tutorial|Databases
+Integrating Azure Authentication with Realm|Introducing client authentication using Azure Active Directory with Realm Mobile Platform.|Databases
+Hacking SiriKit|Esteban Torres hacks SiriKit, and shows code for you to be able to execute Travis queries and execute jobs from Siri|Databases
+Test Driven Development (TDD) for the Masses|Jorge Ortiz discusses Test Driven Development (TDD) and performs a set of unit tests for a Table View Controller in a live demo.|Databases
+VoiceOver is Awesome|Developers can underestimate how awesome UIAccessibility is – the iPhone has amazing potential as an accessibility tool.|Databases
+Interacting with Your App Through the Command Line|Shell commands can be useful for development. Roman demonstrates with Android Studio framework tools and Stetho.|Databases
+Realm Java 3.0: Collection Notifications, Snapshots and Sorting Across Relationships|Announcing our new fine-grained collection notifications, plus snapshots and cross-relationship sorts.|Databases
+Swift at Scale|Tomasz & Wojciech share their experience writing the mBank app in Swift: the problems they faced, lessons learnt, pitfalls and benefits.|Databases
+Playgrounds: teach nerdy stuff in a fun and efficient way!|In Swift 3, playgrounds are finally ready to fulfill their role as fundamental tools to learn and teach programming.|Databases
+Sell Out and Save the World!|Working in tech can be both inspiring and discouraging. She'll share ideas about how you can improve the world in meaningful ways|Databases
+Testing Functional Reactive Programming Code|From CMD+U, Rui Peres talks about functional reactive programming and testing.|Databases
+Functional on Android: Lambdas, Rx, and Streams in Your App|How do we use lambdas, streams, and Rx effectively on Android? Put aside the lifecycle and cache your way into a blissful user experience.|Databases
+Pushing the Boundaries of Swift to the Server|Karl Weinmeister shows how Swift on the server with the IBM Swift Sandbox works, and introduces the IBM Cloud Tools for Swift beta app.|Databases
+Stylish Developers Guide to Unit Testing in Swift|Jaim Zuber describes proven techniques to get your apps under test, including patterns that make testing hard and provide alternatives.|Databases
+The History of Mac and iOS: Squirrels, Disco, and Nate Eror|Brent Simmons covers the history of the Mac and iOS community  — including squirrels, disco, and Nate Error.|Databases
+Selling Your Weird Mouth Noises|Bryn talks about Spec Network from 0 to 500,000 downloads a month, building a community of almost 5,000 people and building successful ones|Databases
+Acceptance Testing|There are two kinds of tests in the world. Unit testing and Acceptance testing. This talk is about acceptance testing.|Databases
+RxJava for the Rest of Us|Learn what RxJava is, and how you can use it to solve problems in your Android apps without shooting yourself in the foot!|Databases
+Realm + Microsoft: Xamarin, Azure, and Windows Desktop|Build exciting new apps with new Realm features for Microsoft, Xamarin, and even Windows Desktop.|Databases
+Data Consistency in an Unpredictable World|Wendy talks about Pinterest's migration and explores how their system updates models and loads new information from the API.|Databases
+Network Testing|Pedro Piñera discusses Unit Testing, Acceptance Testing and Szimpla. He also performs testing demonstration for us.|Databases
+Be the Quality You Want to See in Your App [Swift edition]|Monitor your codebase’s health by using open-source tools such as Fastlane, Lizard, SwiftLint, Slather, and the Swift SonarQube plugin.|Databases
+The 2016 Android Developer Toolbox|Gautier demonstrates all of the tools they've used, in 2016, to write maintainable code and improve their productivity.|Databases
+Realm Cocoa Tutorial: Encryption with Realm|Protecting sensitive user data is critical. Realm provides an easy API to facilitate bullet-proof encryption.|Databases
+MVVM with Coordinators and RxSwift|Every app needs good architecture, and the MVVM + Coordinators + RxSwift combo works very well! Learn the basics of how to put it together.|Databases
+Visualize, Document, and Explore Your Software Architecture|Foster technical leadership, direction, and consistency in your team through visualization and documentation of your software architecture.|Databases
+How Indies Can Still Impact the Future of iTunes|Using her own experience, and examples from other successful app producers, she lays out a strategy for success in a corporate dominate age.|Databases
+Realm React Native 1.0: Powerful Object Database Meets the Realm Mobile Platform|With Realm React Native 1.0 you can now build your reactive app on the Realm Mobile Platform.|Databases
+Creating the Future|Ken Case shares some of the projects Omni has been working on... to make iPad Pro the best platform it can be.|Databases
+Compile Time Errors Are Good|Compile-time errors are the   and run-time errors are the .|Databases
+Better Android Development with Kotlin & Gradle|Learn about Kotlin, and how it will help streamline your workflow for Android development.|Databases
+Realm: How I Learned to Love Databases Again|Tim Oliver covers the users' guide to Realm Mobile Database, and introduces its new hotness, Realm Mobile Platform.|Databases
+Operators and Strong Opinions|Swift operators are flexible and powerful, but only when they are well-chosen and heavily used. Learn some essential Swift best practices.|Databases
+Realm ObjC & Swift 2.4: Object Notifications!|Realm Objective‑C & Swift 2.4 are out with object notifications and bug fixes!|Databases
+A Startup’s Secret Weapon: The Product Engineer|Through personal experience, Alicia Liu describes the role of a product engineer, why to be a product engineer, and how to become one|Databases
+Testing an Untested App|Michael May goes through some testing concepts and applies them to a code base where there are no tests.|Databases
+Writing Software to Make a Difference|Learn about Bill Atkinson's work on graphical user interface: a means of personal expression, using engineering as art for social change.|Databases
+Radical Hospitality - One Shower at a Time|What if you couldn’t take a shower when you needed one? For over 7,500 people experiencing homelessness in San Francisco|Databases
+MVC vs. MVP vs. MVVM on Android|A guide to using the MVC, MVP & MVVM patterns in your Android App, examining their strengths and weaknesses.|Databases
+Bringing the Platform Experience to You: Announcing the Realm World Tour|We shipped Realm Mobile Platform 1.0 - now we’re shipping our product engineers to 20+ events on 3 continents!|Databases
+The Objective-C Runtime & Swift Dynamism|A new talk introducing advanced techniques with the Objective C runtime and assessing their relevance in an increasingly Swifty world.|Databases
+Reactive Apps: How to Build More Engaging Mobile Experiences|Learn to build more engaging mobile apps using Realm and reactive programming.|Databases
+Mastering Realm Notifications|JP Simard gives tips for building a variety of user interactions by building off a few primitive Realm notification concepts.|Databases
+Event Handling in the Realm Object Server|The event handling feature in the Realm Object Server allows servers to respond to changes in user data. See how it works in an example app.|Databases
+A Designer’s Response to Silicon Valley|How do we respond to our realities and still maintain a hopeful outlook that helps us build great products.|Databases
+Ready for Realtime and Scale: Announcing Realm Mobile Platform 1.0|Today we’re very proud to announce that Realm Mobile Platform 1.0 is now generally available.|Databases
+Eventually Consistent: How to Make a Mobile-First Distributed System|You have a bunch of devices. They go offline randomly. You have data to share between them. How do you do it?|Databases
+Realm ObjC & Swift 2.3: Sync Progress Notifications, Improved Sharing & Backup Recovery!|Realm Objective‑C & Swift 2.3 are out with sync progress notifications, improved sharing of synchronized Realms, and backup recovery!|Databases
+Realm Java 2.3: Improved Sharing, Backup Recovery and Wildcard Queries|Realm Java 2.3 is out with improved sharing of synchronized Realms, backup recovery and wildcard queries.|Databases
+Smoke & Mirrors: The Magic Behind Wonderful UI in Android|Israel Ferrer Camacho reveals the tricks behind the magical UIs in Android, using an application and a demo as examples.|Databases
+JP Simard on Realm & Open Source on the Consult Podcast|JP Simard joins the Consult team to talk about the Realm Mobile Database & the new Realm Mobile Platform.|Databases
+Testing in Swift: Protocols & View Models|Testing is hard, let's make it easier. Follow Ayaka on her talk for what to look for in making your iOS application test friendly.|Databases
+Property-Based Testing with SwiftCheck|Unit tests are a challenge to write, but now we have tools to help us find more relevant cases with less searching.|Databases
+Realm Objective-C & Swift 2.2: Objects across threads, sort over relationships & more!|Check out what's new for Cocoa, including new multi-threading features!|Databases
+Contextual Communication in a Connected World|You’ll leave this session knowing not only why but how modern communication will transform business forever.|Databases
+Introduction to Xamarin Forms Custom Renderers|Xamarin.Forms ships with most common cross platform controls out of the box but theres always room for improvement. Here's Custom Renderers!|Databases
+Modern Android: Ditching Activities and Fragments|How would you like a screen that doesn't get destroyed on rotation? That's what modern Android development should look like.|Databases
+Safe vs Deep Integration of Realm|Viraj Tank weighs the different benefits of two different ways to incorporate Realm into Android apps: Safe Integration and Deep Integration|Databases
+"Watch Your Language!": The Road to Cleaner Code with SwiftLint|Learn how to use SwiftLint as an ever-watchful protector of code cleanliness in your project.|Databases
+Introducing the Realm Mobile Platform|Realm presents Realm Mobile Platform|Databases

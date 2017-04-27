@@ -4,7 +4,6 @@ import os.path
 import requests
 import html
 import csv
-from bs4 import BeautifulSoup
 import re
 
 
@@ -64,29 +63,9 @@ def select100(items):
                     d = remove_emojis(d)
                     for key, value in cat.items():
                         if i == key:
-                            f.write(t + "|" + d + "|" + item + "\n")
+                            f.write(t + "|" + d + "|" + item)
                 else:
                     break
-
-
-def print100(items):
-    with open("data/classifiedFeeds.txt", 'r') as f:
-        cat = {}
-        for j, item in enumerate(f):
-            cat[j] = item
-
-        for i, entry in enumerate(items.entries):
-            if i < 100:
-                # remove html encodings like &amp;
-                t = html.unescape(entry["title"])
-                d = html.unescape(entry["description"])
-                d = remove_img_tags(d)
-                d = remove_emojis(d)
-                for key, value in cat.items():
-                    if i == key:
-                        print(t + "|" + d + "|" + item)
-            else:
-                break
 
 
 def recreate100():
@@ -112,7 +91,6 @@ def createTabular():
 if __name__ == "__main__":
     saveFeed()
     items = feedparser.parse(r"data/feed.xml")
-    print100(items)
-    # select100(items)
+    select100(items)
     # createTabular()
     # recreate100()

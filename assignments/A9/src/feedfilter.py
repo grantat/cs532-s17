@@ -1,31 +1,86 @@
 import feedparser
 import re
+import html
 
 # Takes a filename of URL of a blog feed and classifies the entries
 
 
-def read(feed, classifier):
+def read(feed, classifier, trainCount):
     # Get feed entries and loop over them
     f = feedparser.parse(feed)
-    for entry in f['entries']:
+    # open known classified feeds
+    cat = {}
+    with open("data/classifiedFeeds.txt", "r") as cfeeds:
+        for j, item in enumerate(cfeeds):
+            cat[j] = item
+
+    # store results for probability later
+    results = []
+    for i, entry in enumerate(f.entries):
+        if(i == 100):
+            break
         print()
         print('-----')
         # Print the contents of the entry
-        print('Title:     ' + entry['title'].encode('utf-8'))
-        # print('Publisher: ' + entry['publisher'].encode('utf-8'))
+        t = html.unescape(entry["title"])
+        t = t.replace('"', '')
+        d = html.unescape(entry["description"])
+        d = remove_img_tags(d)
+        d = remove_emojis(d)
+        d = d.replace('"', '')
+        print('Title:     ' + t)
         print()
-        print(entry['summary'].encode('utf-8'))
+        print(d)
+
+        entryDict = {}
+        entryDict['Title'] = t
 
         # Combine all the text to create one item for the classifier
-        fulltext = '%s\n%s\n%s' % (entry['title'], entry[
-                                   'publisher'], entry['summary'])
+        fulltext = '%s\n%s' % (t, d)
 
         # Print the best guess at the current category
-        print('Guess: ' + str(classifier.classify(entry)))
+        guess = str(classifier.classify(fulltext))
+        entryDict['Guess'] = guess
+        print('Guess: ' + guess)
+        cl = ""
+        for key, val in cat.items():
+            if(i == key):
+                cl = val
+                break
 
-        # Ask the user to specify the correct category and train on that
-        cl = raw_input('Enter category: ')
-        classifier.train(entry, cl)
+        # remove newline
+        cl = cl.rstrip()
+        print('Actual Category: ' + cl)
+        entryDict['Actual'] = cl
+        results.append(entryDict)
+
+        if i <= trainCount:
+            # train on already known category
+            classifier.train(fulltext, cl)
+
+    return results
+
+
+def remove_img_tags(data):
+    '''
+    Helper to remove img tags from description
+    '''
+    p = re.compile(r'<img.*?/>')
+    return p.sub('', data)
+
+
+def remove_emojis(data):
+    '''
+    Helper to remove emojis from description
+    '''
+    emoji_pattern = re.compile("["
+                               u"\U0001F600-\U0001F64F"  # emoticons
+                               u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+                               u"\U0001F680-\U0001F6FF"  # transport & map symbols
+                               u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                               "]+", flags=re.UNICODE)
+    d = emoji_pattern.sub(r'', data)
+    return d
 
 
 def entryfeatures(entry):
