@@ -55,7 +55,7 @@ iOS
 iOS
 Realm News
 iOS
-Java
+Android
 Xamarin
 iOS
 iOS
@@ -67,7 +67,7 @@ Realm News
 Realm News
 React Native
 iOS
-Swift
+iOS
 Android
 Databases
 iOS

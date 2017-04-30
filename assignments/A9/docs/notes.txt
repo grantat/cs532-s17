@@ -2,6 +2,12 @@
 Links & Descriptions
 --------
 
+f-measure python code
+https://stats.stackexchange.com/questions/21551/how-to-compute-precision-recall-for-multiclass-multilabel-classification
+
+macro R code
+https://github.com/fcharte/mldr/blob/master/R/evaluate.R
+
 semantic analysis movie db reviews for every
 
 --------
