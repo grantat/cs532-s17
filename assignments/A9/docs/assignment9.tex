@@ -11,6 +11,7 @@
 \usepackage[space]{grffile}
 \usepackage{csvsimple}
 \usepackage{longtable}
+\usepackage{adjustbox}
 
 
 \newcommand*{\srcPath}{../src}%
@@ -80,12 +81,40 @@ Be sure to upload the raw data (Atom or RSS) to your github account.
 \clearpage
 \subsection*{Answer}
 
-For this problem I decided to use Realm's RSS feed, a news feed for mobile development \cite{realmref}. I had 7 categories to classify this feed which were: iOS, Android, React Native, Realm News, Databases, Nodejs and Xamarin. These categories mostly describe the topics that were found in these news feeds. Realm News was used to describe topics that weren't particularly programming fields or platforms but just generic news topics. Realm's RSS feed originally had approximately 700 items, I decided to take the most recent 100 items with the full list shown in my github repository \cite{github}. The 100 items used in this assignment are shown in Listing \ref{}. One thing I noticed before starting the subsequent problems was that a lot of the descriptions used common terms but in different context. For example, ``Reactive programming'' is not a synonym for ``React Native'' which was a programming language, this lead me to think that the classifier would later get these categories wrong frequently.
+For this problem I decided to use Realm's RSS feed, a news feed for mobile development \cite{realmref}. I had 7 categories to classify this feed which were: iOS, Android, React Native, Realm News, Databases, Nodejs and Xamarin. These categories mostly describe the topics that were found in these news feeds. Realm News was used to describe topics that weren't particularly programming fields or platforms but just generic news topics. Realm's RSS feed originally had approximately 700 items, I decided to take the most recent 100 items with the full list shown in my github repository \cite{github}. One thing I noticed before starting the subsequent problems was that a lot of the descriptions used common terms but in different context. For example, ``Reactive programming'' is not a synonym for ``React Native'' which was a programming language, this lead me to think that the classifier would later classify these items incorrectly.
 
-To get Realm's RSS feed I used the methods created in \textbf{getFeed.py}. The manual classification of the 100 RSS feed items was created in a seperate text file called \textbf{classifiedFeeds.txt}. This was used later for speeding up running the python script.
+To get Realm's RSS feed I used the methods created in \textbf{getFeed.py} shown in Listing \ref{lst:q1getfeed}. The manual classification of the 100 RSS feed items was created in a seperate text file called \textbf{classifiedFeeds.txt}. This was used later for speeding up running the python script. The 100 items used in this assignment are shown in Table \ref{table:q1mclass1} and Table \ref{table:q1mclass} with their manual classification.
 
-\begin{table}[htb]
+\begin{table}[h]
 \centering
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{ | c | c |}
+\hline
+\textbf{Category} & \textbf{Count}  \\
+\hline
+Nodejs & 3 \\ 
+Android & 19 \\ 
+Databases & 5  \\ 
+Xamarin & 5  \\ 
+React Native & 4 \\ 
+iOS & 41  \\ 
+Realm News & 23 \\ 
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{Category and their count}
+\label{table:q3calcs}
+\end{table}
+
+\clearpage
+
+ \lstinputlisting[frame=single,caption={Python script to download Realm RSS Feed},label=lst:q1getfeed,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/getFeed.py}
+
+\clearpage
+
+\begin{table}[h]
+\centering
+\begin{adjustbox}{max width=\linewidth}
 \begin{tabular}{ | l | l |}
 \hline
 \textbf{Item Title} & \textbf{Actual Category} \\
@@ -112,7 +141,7 @@ Swift's Pointy Bits: Unsafe Swift \& Pointer Types & iOS  \\
 Tutorial: Build iOS App from Scratch & iOS  \\ 
 Realm ObjC \& Swift 2.5: Query Improvements, Swift 3.1 Binaries \& Bug Fixes! & iOS\\ 
 Data Binding in the Real World & Android \\ 
-Taming Node_Modules at Facebook & Nodejs \\ 
+Taming Node\_Modules at Facebook & Nodejs \\ 
 The Safety of Unsafe Swift & iOS \\ 
 Realm Browser Tutorial & Realm News \\ 
 Scaling Open Source Communities & Realm News \\ 
@@ -152,6 +181,22 @@ Realm + Microsoft: Xamarin, Azure, and Windows Desktop & Xamarin \\
 Data Consistency in an Unpredictable World & iOS \\ 
 Network Testing & iOS \\ 
 Be the Quality You Want to See in Your App [Swift edition] & iOS \\ 
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{Realm news item manual classifications 1-62}
+\label{table:q1mclass1}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{ | l | l |}
+\hline
+\textbf{Item Title} & \textbf{Actual Category} \\
+\hline
+%
 The 2016 Android Developer Toolbox & Android \\ 
 Realm Cocoa Tutorial: Encryption with Realm & iOS \\ 
 MVVM with Coordinators and RxSwift & iOS \\ 
@@ -193,10 +238,12 @@ Watch Your Language!: The Road to Cleaner Code with SwiftLint & iOS \\
 Introducing the Realm Mobile Platform & Databases \\ 
 \hline
 \end{tabular}
-\caption{}
-\label{table:q1csvtable}
+\end{adjustbox}
+\caption{Realm news item manual classifications 63-100 cont.}
+\label{table:q1mclass}
 \end{table}
 
+\clearpage
 
 
 % \clearpage
@@ -227,7 +274,8 @@ Assess the performance of your classifier in each of your categories
 by computing precision, recall, and F-measure.  Use the "macro-averaged"
 label based method, as per:
 
-http://stats.stackexchange.com/questions/21551/how-to-compute-precision-recall-for-multiclass-multilabel-classification
+http://stats.stackexchange.com/questions/21551/
+how-to-compute-precision-recall-for-multiclass-multilabel-classification
 
 For example, if you have 5 categories (e.g., 80s, metal,
 alternative, electronic, cover), you will compute 
@@ -237,15 +285,103 @@ and then compute the average across the 5 categories.
 
 \subsection*{Answer}
 
-To solve this I used the python code provided from the Programming Collective Intelligence book described in the files \textbf{docclass.py} and \textbf{feedfilter.py}. I had to slightly modify docclass's first dependency to compile in python 3. I altered feedfilter's code heavily, creating new dictionaries for each of the classifier's guesses and actual answers as shown in Listing \ref{lst:q1feedfilter}. Feedfilter extracted the title and description from each item in the RSS feed and would concatenate the two which would then be used for classifying and training, if the iteration count was lower than the desired train count which was defined as \textit{trainCount}. Realm's RSS feed also had some items with quotation marks, emoji icons and img html tags. To compensate for this, I created two methods \textit{remove_emojis} and \textit{remove_img_tags} which removed these unwanted items before guessing or training based on the text.
+To solve this I used the python code provided from the Programming Collective Intelligence book described in the files \textbf{docclass.py} and \textbf{feedfilter.py}. I had to slightly modify docclass's first dependency to compile in python 3. I altered feedfilter's code heavily in the \textit{read} method, creating new dictionaries for each of the Fisher classifier's guesses and actual answers as shown in Listing \ref{lst:q2feedfilter}. Feedfilter extracted the title and description from each item in the RSS feed and would concatenate the two which would then be used for classifying and training, if the iteration count was lower than the desired train count which was defined as \textit{trainCount}. Realm's RSS feed also had some items with quotation marks, emoji icons and img html tags. To compensate for this, I created two methods \textit{remove\_emojis} and \textit{remove\_img\_tags} which removed these unwanted characters before guessing or training the classifier.
 
+Combining the docclass and feedfilter scripts, I created a script called \textbf{classify.py} as shown in Listing \ref{lst:q2class} where I called the respective methods the helper classes and created a new method called \textit{calcMeasurements} which takes the dictionaries created in feedfilter to calculate the precision, recall and F-measure.
 
-% \begin{figure}[h]
-% \centering
-% \includegraphics[scale=0.6]{predictedSplit3.pdf}
-% \caption{Group split of 3 with Girvan-Newman algorithm from karateClub.R}
-% \label{fig:split3}
-% \end{figure}
+When performing these calculations for each category, I iterated through each of the 100 items checking for False Positives, False Negatives and True Positives. These values were used for calculating the precision, recall and F-measure. Some of these values ended up being 0 which affected other calculations. 
+
+ \lstinputlisting[frame=single,caption={Python script to process train and Classify RSS feed items},label=lst:q2feedfilter,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/feedfilter.py}
+ 
+\lstinputlisting[frame=single,caption={Python script to calculate precision, recall and F-measure of classifier items},label=lst:q2class,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/classify.py}
+
+\begin{table}[h]
+\centering
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{ | l | l | l |}
+\hline
+\textbf{Item Title} & \textbf{Actual Category} & \textbf{Predicted Category} \\
+\hline
+Testing Functional Reactive Programming Code & iOS & React Native \\ 
+Functional on Android: Lambdas, Rx, and Streams in Your App & Android & Android \\ 
+Pushing the Boundaries of Swift to the Server & iOS & iOS \\ 
+Stylish Developers Guide to Unit Testing in Swift & iOS & iOS \\ 
+The History of Mac and iOS: Squirrels, Disco, and Nate Eror & iOS & iOS \\ 
+Selling Your Weird Mouth Noises & Realm News & iOS \\ 
+Acceptance Testing & iOS & Realm News \\ 
+RxJava for the Rest of Us & Android & Android \\ 
+Realm + Microsoft: Xamarin, Azure, and Windows Desktop & Xamarin & Nodejs \\ 
+Data Consistency in an Unpredictable World & iOS & Realm News \\ 
+Network Testing & iOS & iOS \\ 
+Be the Quality You Want to See in Your App [Swift edition] & iOS & Databases \\ 
+The 2016 Android Developer Toolbox & Android & Android \\ 
+Realm Cocoa Tutorial: Encryption with Realm & iOS & Databases \\ 
+MVVM with Coordinators and RxSwift & iOS & Android \\ 
+Visualize, Document, and Explore Your Software Architecture & Realm News & iOS \\ 
+How Indies Can Still Impact the Future of iTunes & Realm News & React Native \\ 
+Realm React Native 1.0: Powerful Object Database Meets the Realm Mobile Platform & React Native & Realm News \\ 
+Creating the Future & iOS & Realm News \\ 
+Compile Time Errors Are Good & iOS & iOS \\ 
+Better Android Development with Kotlin \& Gradle & Android & Android \\ 
+Realm: How I Learned to Love Databases Again & Databases & Realm News \\ 
+Operators and Strong Opinions & iOS & React Native \\ 
+Realm ObjC \& Swift 2.4: Object Notifications! & iOS & iOS \\ 
+A Startup?s Secret Weapon: The Product Engineer & Realm News & iOS \\ 
+Testing an Untested App & iOS & iOS \\ 
+Writing Software to Make a Difference & Realm News & iOS \\ 
+Radical Hospitality - One Shower at a Time & Realm News & iOS \\ 
+MVC vs. MVP vs. MVVM on Android & Android & iOS \\ 
+Bringing the Platform Experience to You: Announcing the Realm World Tour & Realm News & Realm News \\ 
+The Objective-C Runtime \& Swift Dynamism & iOS & iOS \\ 
+Reactive Apps: How to Build More Engaging Mobile Experiences & Realm News & React Native \\ 
+Mastering Realm Notifications & iOS & Nodejs \\ 
+Event Handling in the Realm Object Server & Realm News & Realm News \\ 
+A Designer?s Response to Silicon Valley & Realm News & React Native \\ 
+Ready for Realtime and Scale: Announcing Realm Mobile Platform 1.0 & Realm News & Nodejs \\ 
+Eventually Consistent: How to Make a Mobile-First Distributed System & Realm News & Realm News \\ 
+Realm ObjC \& Swift 2.3: Sync Progress Notifications, Improved Sharing \& Backup Recovery! & iOS & iOS \\ 
+Realm Java 2.3: Improved Sharing, Backup Recovery and Wildcard Queries & Android & Android \\ 
+Smoke \& Mirrors: The Magic Behind Wonderful UI in Android & Android & Android \\ 
+JP Simard on Realm \& Open Source on the Consult Podcast & Realm News & Realm News \\ 
+Testing in Swift: Protocols \& View Models & iOS & Xamarin \\ 
+Property-Based Testing with SwiftCheck & iOS & iOS \\ 
+Realm Objective-C \& Swift 2.2: Objects across threads, sort over relationships \& more! & iOS & iOS \\ 
+Contextual Communication in a Connected World & Realm News & Realm News \\ 
+Introduction to Xamarin Forms Custom Renderers & Xamarin & Android \\ 
+Modern Android: Ditching Activities and Fragments & Android & Android \\ 
+Safe vs Deep Integration of Realm & Android & Android \\ 
+Watch Your Language!: The Road to Cleaner Code with SwiftLint & iOS & Android \\ 
+Introducing the Realm Mobile Platform & Databases & Xamarin \\ 
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{Items 50-100 predicted by the Fisher classifier}
+\label{table:q2classified}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{ | c | c | c | c |}
+\hline
+\textbf{Item Title} & \textbf{Precision} & \textbf{Recall} & \textbf{F-measure} \\
+\hline
+Nodejs & 0.333333 & 1.0 & 0.5 \\ 
+Android & 0.526315 & 1.0 & 0.689655 \\ 
+Realm News & 0.260869 & 1.0 & 0.413793 \\ 
+React Native & 0.25 & 1.0 & 0.4 \\ 
+Databases & 0.0 & 0.0 & 0.0 \\ 
+Xamarin & 0.0 & 0.0 & 0.0 \\ 
+iOS & 0.487804 & 1.0 & 0.655737 \\ 
+\hline
+\textbf{Averages} & 0.265474 & 0.714286 & 0.379884 \\
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{Precision, recall and F-measure calculations for the Fisher classifier}
+\label{table:q2calcs}
+\end{table}
+
 
 \clearpage
 
@@ -264,9 +400,56 @@ classifier and the last 10 entries for testing.
 
 \subsection*{Answer}
 
-\begin{center}
-\Huge{NOT ATTEMPTED}
-\end{center}
+To solve this question I used the same code from question 2 shown in Listing \ref{lst:q2class}. I simply changed the value of \textit{trainCount} to 90 and it worked the same way. The news items selected are shown in Table \ref{table:q3classified}. The calculations for this problem are shown in Table \ref{table:q3calcs}. 
+
+Whats noticeable in this is that the Databases category was eventually predicted correctly, however the Xamarin category was still never predicted correctly. The Xamarin and Database categories had the same number of items, 5, however this probably means it just couldn't make use of the context of the description and title.
+
+\begin{table}[h]
+\centering
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{ | l | l | l |}
+\hline
+\textbf{Item Title} & \textbf{Actual Category} & \textbf{Predicted Category} \\
+\hline
+JP Simard on Realm \& Open Source on the Consult Podcast & Realm News & Realm News \\ 
+Testing in Swift: Protocols \& View Models & iOS & iOS \\ 
+Property-Based Testing with SwiftCheck & iOS & iOS \\ 
+Realm Objective-C \& Swift 2.2: Objects across threads, sort over relationships \& more! & iOS & iOS \\ 
+Contextual Communication in a Connected World & Realm News & iOS \\ 
+Introduction to Xamarin Forms Custom Renderers & Xamarin & Android \\ 
+Modern Android: Ditching Activities and Fragments & Android & Android \\ 
+Safe vs Deep Integration of Realm & Android & Android \\ 
+Watch Your Language!: The Road to Cleaner Code with SwiftLint & iOS & Android \\ 
+Introducing the Realm Mobile Platform & Databases & Databases \\ 
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{Items 90-100 predicted by the Fisher classifier}
+\label{table:q3classified}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{ | c | c | c | c |}
+\hline
+\textbf{Item Title} & \textbf{Precision} & \textbf{Recall} & \textbf{F-measure} \\
+\hline
+Nodejs & 0.333333 & 1.0 & 0.5 \\ 
+Android & 0.473684 & 1.0 & 0.642857 \\ 
+Databases & 0.2 & 1.0 & 0.333333 \\ 
+Xamarin & 0.0 & 0.0 & 0.0 \\ 
+React Native & 0.25 & 1.0 & 0.4 \\ 
+iOS & 0.536585 & 1.0 & 0.698412 \\ 
+Realm News & 0.260869 & 1.0 & 0.413793 \\ 
+\hline
+\textbf{Averages} & 0.293496 & 0.857143 & 0.426914 \\
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{Precision, recall and F-measure calculations for the Fisher classifier}
+\label{table:q3calcs}
+\end{table}
 
 % \begin{figure}[h]
 % \centering
@@ -275,6 +458,7 @@ classifier and the last 10 entries for testing.
 % \label{fig:split3}
 % \end{figure}
 
+\clearpage
 
 % =================================
 % 4th question
