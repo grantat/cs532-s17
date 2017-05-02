@@ -74,7 +74,7 @@ def getdistances(data, vec1):
 
 def knnestimate(data, vec1, k=5):
     # Get sorted distances
-    dlist = getdistances(data, vec1)
+    distances = getdistances(data, vec1)
 
     # avg = 0.0
     # Take the average of the top k results
@@ -82,7 +82,7 @@ def knnestimate(data, vec1, k=5):
     #     idx = dlist[i][1]
     #     avg += data[idx]['result']
     # avg = avg / k
-    return dlist
+    return distances
 
 
 def inverseweight(dist, num=1.0, const=0.1):

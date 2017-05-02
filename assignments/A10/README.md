@@ -4,6 +4,7 @@ Written in Python 3.6.
 
 Python Dependencies used:
 
+- feedparser
 - scipy
 - matplotlib
 - sklearn

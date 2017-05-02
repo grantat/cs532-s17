@@ -11,6 +11,7 @@
 \usepackage[space]{grffile}
 \usepackage{csvsimple}
 \usepackage{longtable}
+\usepackage{adjustbox}
 
 
 \newcommand*{\srcPath}{../src}%
@@ -71,30 +72,28 @@ for k={1,2,5,10,20}.
 \clearpage
 \subsection*{Answer}
 
+To solve this question I used the blog data I previously received in assignment 8 \textbf{blogdata.txt} and the code provided by the Programming Collective Intelligence book \cite{collectiveIntell}. To calculate the cosine distance metric \textbf{numpredict.py} had to be modified to accompany this new function. The methods that changed in this file were the \textit{knnestimate} and \textit{getdistances} functions. In the \textit{getdistances} function I simply swapped out the euclidean function for cosine. In the \textit{knnestimate} function I removed the average value and instead return a list of sorted distances in descending order.
+
+I then went
 
 \lstinputlisting[firstline=48,lastline=87,frame=single,caption={Python script with included cosine function and knnestimate},label=lst:q1download,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/numpredict.py}
 
-% firstline=48,lastline=87
-
-\begin{table}[htb]
-\centering
-\begin{tabular}{ | l | l | l | l |}
-\hline
-\textbf{Source User} & \textbf{Target User} & \textbf{Following Target} & \textbf{Followed By Target} \\
-\hline
-\end{tabular}
-\caption{Format of friendships.csv, where Following fields are booleans}
-\label{table:q1csvtable}
-\end{table}
-
-
+\lstinputlisting[frame=single,caption={Python script to find KNN values},label=lst:q1download,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/knn.py}
 
 \clearpage
  \begin{figure}[h]
  \centering
- \includegraphics[scale=0.4]{d3followerGraph.png}
- \caption{All of Dr. Nelson's followers in D3 force directed graph}
- \label{fig:q1friendshipgraph}
+ \includegraphics[scale=0.6]{fmeasureknn.png}
+ \caption{F-Measure blog's KNNestimate output}
+ \label{fig:q1knnout}
+ \end{figure}
+
+\clearpage
+ \begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.6]{webknn.png}
+ \caption{Web Research group's KNNestimate output}
+ \label{fig:q1webknn}
  \end{figure}
 
 
@@ -132,15 +131,36 @@ each of your categories.
 
 \subsection*{Answer}
 
-After reading many stackoverflow posts on LIBSVM, I decided to use scikit-learn library to solve this question \cite{stack1}. 
+After reading many stackoverflow posts on LIBSVM, I decided to use the scikit-learn library to solve this question \cite{stack1}. I think this was a better option due to the ease of training and performing cross validation. When creating the blog matrix I combined the 100 selected feeds title and summary to create the new term matrix. Due to the short amount of text in each description it should be noted that my matrix creating program, \textbf{createMatrix.py} shown in Listing \ref{lst:q2createMatrix}, only created \textbf{898} terms instead of 1000. 
 
+The actual SVM code for is shown in Listing \ref{lst:q2svm}. It first iterates through the newly created feed data matrix and matches my manual classification. A dictionary is created to hold all the values, it is then passed to the \textit{execSVM} function where it checks if the items have the category and performs SVM assigning values with 1 or -1 based if category was or was not the category assigned. Then finally performs cross validation folding up to 10 times.
 
-% \begin{figure}[h]
-% \centering
-% \includegraphics[scale=0.6]{predictedSplit3.pdf}
-% \caption{Group split of 3 with Girvan-Newman algorithm from karateClub.R}
-% \label{fig:split3}
-% \end{figure}
+\begin{table}[h]
+\centering
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{ | l | l | l | l | l | l | l | l | l | l | l | l |}
+\hline
+\textbf{Category} & \textbf{Fold 1} & \textbf{Fold 2} & \textbf{Fold 3} & \textbf{Fold 4} & \textbf{Fold 5} & \textbf{Fold 6} & \textbf{Fold 7} & \textbf{Fold 8} & \textbf{Fold 9} & \textbf{Fold 10} & \textbf{Mean} \\
+\hline
+Android & 0.818182 & 0.800000 & 0.800000 & 0.800000 & 0.800000 & 0.800000 & 0.800000 & 0.800000 & 0.800000 & 0.888889 & 0.810707 \\ 
+iOS & 0.818182 & 0.900000 & 0.600000 & 0.500000 & 0.900000 & 0.800000 & 0.800000 & 0.800000 & 0.900000 & 0.666667 & 0.768485 \\ 
+Realm News & 0.727273 & 0.727273 & 0.727273 & 0.800000 & 0.800000 & 0.800000 & 0.800000 & 0.777778 & 0.777778 & 0.777778 & 0.771515 \\ 
+React Native & 0.909091 & 0.909091 & 0.909091 & 0.909091 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.963636 \\ 
+Nodejs & 0.909091 & 0.909091 & 0.909091 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.972727 \\ 
+Xamarin & 0.909091 & 0.909091 & 0.909091 & 0.909091 & 0.909091 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.954545 \\ 
+Databases & 0.909091 & 0.909091 & 0.909091 & 0.909091 & 0.909091 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 1.000000 & 0.954545 \\ 
+\hline
+\end{tabular}
+\end{adjustbox}
+\caption{SVM with 10-fold cross validation}
+\label{table:q2cross}
+\end{table}
+
+\clearpage
+
+\lstinputlisting[frame=single,caption={Python script to create term matrix from Realm RSS feed 100 items},label=lst:q2createMatrix,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/createMatrix.py}
+
+\lstinputlisting[frame=single,caption={Python script to perform cross validation with SVM classifier},label=lst:q2svm,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/svm.py}
 
 \clearpage
 
@@ -181,6 +201,7 @@ the report.
 % \label{fig:split3}
 % \end{figure}
 
+\clearpage
 
 % =================================
 % 4th question
