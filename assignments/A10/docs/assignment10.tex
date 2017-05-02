@@ -231,16 +231,23 @@ top 3 most changed (processed) pairs of pages and use the Unix
 
 \subsection*{Answer}
 
-\begin{center}
-\Huge{NOT ATTEMPTED}
-\end{center}
+Using the same code from A3 I downloaded the html files with the same URI list, which is also in my assignment 10 repository. The files to download the pages and process them are \textbf{download.sh} and textbf{processHtml.py} which aren't listed but are also in my repository. The only real file that required more work was done in two files, \textbf{fileSizeDiff.R} for histogram creation and \textbf{getFileSizes.py} which calculate the bytes for the old files processed and raw html files, as well as the new processed and raw html files.
 
-% \begin{figure}[h]
-% \centering
-% \includegraphics[scale=0.6]{predictedSplit3.pdf}
-% \caption{Group split of 3 with Girvan-Newman algorithm from karateClub.R}
-% \label{fig:split3}
-% \end{figure}
+I unfortunately did not have enough time to keep track of which URIs were actually still responding with a 200 response code. However I only included URIs in the charts below that still returned content and matched the final URI of the previous one found in assignment 3. The bar charts below indicate the old file size in bytes minus the new file size in bytes.
+
+ \begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.8]{ProcessedHistogram.pdf}
+ \caption{Barplot of Processed files in bytes, the new value is old byte size minus new byte size}
+ \label{fig:q3split3}
+ \end{figure}
+ 
+  \begin{figure}[h]
+ \centering
+ \includegraphics[scale=0.8]{RawHistogram.pdf}
+ \caption{Barplot of Raw files in bytes, the new value is old byte size minus new byte size}
+ \label{fig:q3split4}
+ \end{figure}
 
 \clearpage
 
