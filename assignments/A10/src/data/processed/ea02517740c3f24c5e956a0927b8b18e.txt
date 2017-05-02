@@ -1,0 +1,128 @@
+[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
+[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" media="all" href="css/ie.css"/>
+		<script src="js/IE8.js" type="text/javascript"></script><![endif]
+[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]
+[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/style_ie.css" />
+		<![endif]
+All in One SEO Pack 2.0.2 by Michael Torbert of Semper Fi Web Design[-1,-1]
+/all in one seo pack
+Worldapart
+PE'Z
+suzumoku
+Nemotroubolter
+ROCO
+H ZETT M/ H ZETTRIO
+Kent Kakitsubata
+MONSTER大陸
+東京ヒップホップ
+COOL DRIVE
+pe'zmoku
+H ZETT M
+HOME
+LIVE
+MEDIA
+BIOGRAPHY
+DISCOGRAPHY
+WORKS
+LINK
+<li class="manu-g ">
+    <a href="http://www.worldapart.co.jp/hzettm/request/">
+      REQUEST
+    </a>
+  </li>
+BRICK&GLORY;
+CONTACT
+<a href="#" target="_blank" class="hv">
+    <img src="http://www.worldapart.co.jp/hzettm/wp-content/themes/hzettm/images/common-image/icon-was.png" width="30" height="20">
+  </a>
+  <a href="#" target="_blank" class="hv">
+    <img src="http://www.worldapart.co.jp/hzettm/wp-content/themes/hzettm/images/common-image/icon-myspace.png" width="25" height="20">
+  </a>
+  <a href="#" target="_blank" class="hv">
+    <img src="http://www.worldapart.co.jp/hzettm/wp-content/themes/hzettm/images/common-image/icon-itunes.png" width="25" height="20">
+  </a>
+  <a href="#" target="_blank" class="hv">
+    <img src="http://www.worldapart.co.jp/hzettm/wp-content/themes/hzettm/images/common-image/icon-mixi.png" width="25" height="20">
+  </a>
+  <a href="#" target="_blank" class="hv">
+    <img src="http://www.worldapart.co.jp/hzettm/wp-content/themes/hzettm/images/common-image/icon-podcast.png" width="25" height="20">
+  </a>
+H ZETT M
+H ZETT M (エイチ・ゼット・エム)
+＜English follows after Japanese＞
+ピアニスト/エンターテイナー/音楽家。”PE’Z”のヒイズミマサユ機、またもや椎名林檎が率いた”東京事変”第一期の鍵盤だった「H是都M」なのではないかという憶測が飛び交うも、本人はぼんやりと否定。
+その超絶技巧に加え、”無重力奏法”と形容される超人的パフォーマンスは実験音楽と高度な芸術性が融合している。2007年、1stアルバム『5＋2=11』（ゴッタニ）を携えデビュー。2010年に突如行った台湾でのゲリラ・ストリートライブでは2000人以上の観客が集まり、台湾で青鼻ブームを巻き起こす。2011年、初となる台湾ホールワンマンライブを成功させ更に話題となる。2012年・2013年、この時代だからこそ生身の人間の可能性を追求し、ただひたすらに音楽を奏でるというテーマのもと、グランドピアノ1台と彼の体だけでの全26曲レコーディングを収録した『未来の音楽』を発表、続いて新たな可能性への一歩となった『魔法使いのおんがく』を発表。
+これらの作品を機に始まったピアノ1台だけでの”独演会スタイルライブ”は全編2時間以上ながらもユーモアセンスのある基本的な性格も表れ、音楽とともに彼の一挙手一投足にまで満員の観客を釘付けにすることからも各方面から好評を得ている。
+新たな活動としてクラウドファンディングを活用した子ども番組の立ち上げなど、幅広い世代に愛され続けられている。
+Pianist / Entertainer / Musician; speculation is rife over H ZETT M (piano/blue nose); he might be Masayuki Hiizumi (ex. PE’Z), and also HZM (keyboards/piano) of original member of “Tokyo Incidents”, a band led by Ringo Sheena (singer/songwriter). Though his answer is always in a blur.
+A paranormal performance by superhuman techniques & “zero-gravity playing” style makes experimental composition & art of music unite. In 2007, he released a debut album “5+2=11” (Gottani). In 2010, his guerilla street-live in Taiwan brought audience of 2000 and sparked “blue-nose” boom. In 2011, 1st solo hall concert in Taiwan drew to a successful close, and then boosted his fame to the next level. During 2012 – 2013 in quest to possibilities of flesh and blood, he moved in action of 26 songs recording with concentrating all his attention on concert grand piano only by him. By this act, “Music of the Future” album was produced. With following album “The Music by Wizard”, he stepped into new capabilities.
+Through with releasing these albums, his one-man recital “Dokuen-Kai” style set off only using a concert grand. During this over two-hour show, a full audience closely watches every play, word and deed of his humorous performance. Now, it turns into attracting favorable comment widely.
+One of his latest projects is to broadcast kids programs by crowdfunding. He is also beloved by a wide rang of people.
+H ZETTRIO (エイチ・ゼットリオ)
+＜English follows after Japanese＞
+2014年、スイスで開催されている世界3大ジャズ・フェスティバル「モントルー・ジャズ・フェスティバル」への出演をキッカケに、国内外の大型フェスに多数出演。ピアニストのH ZETT M（pf／青鼻）は、2015年に解散した”PE’Z”のヒイズミマサユ機、またもや椎名林檎が率いた“東京事変”第一期の鍵盤だった「H是都M」なのではないかという憶測が飛び交うも、本人はぼんやりと否定。
+ユニーク且つ“無重力奏法”と形容されるテクニカルなピアノと、H ZETT NIRE（bass／赤鼻）、H ZETT KOU（dr／銀鼻）が支えるキレのあるリズムセクションを武器に、独自のアンサンブルを響かせる。この3人以外には作り出せない音楽とグルーヴを追求し続けている。
+これまでに配信リリースしたシングル17曲全てがiTunesジャズランキングで首位を獲得、2015年11月に2ndアルバム『Beautiful Flight』をリリース、2016年9月には待望のNEWアルバム『PIANO CRAZE』をリリースした。
+H ZETT M’s unique & technical style called “zero-gravity playing” resonates with a keen sense of originality and produces ensemble with sharp-rhythm sections by H ZETT NIRE (double bass/red nose) & H ZETT KOU (drums/silver nose).
+After astonishing stage performance at “Montreux Jazz Festival 2014” in Switzerland, one of the world’s top 3 jazz festivals, this piano trio has acted at a large number of big festivals in Japan and overseas. All 16 released singles so far hit first place in Jazz chart of iTunes. Much-awaited 3rdAlbum ”PIANO CRAZE” will be released on Sep 7, 2016 since they introduced 2nd one in November 2015. These 3 guys remain loyal to outstanding music & groove anyone else can’t make.
+Speculation is rife over H ZETT M (piano/blue nose); he might be Masayuki Hiizumi (ex. PE’Z), and also HZM (keyboards/piano) of original member of “Tokyo Incidents”, a band led by Ringo Sheena (singer/songwriter). Though his answer is always in a blur.
+Archive
+■
+                  H ZETT M/H ZETTRIO
+BRICK & GLORY
+子どものための音楽番組「CLUB BRICK＆GLORY」
+シリーズ番組を配信中！
+■
+            BRICK & GLORY
+Z界
+とにかくHAPPYなクラブ  Z界
+■
+            Z界
+Twitter
+H ZETT M OFFICIAL TWITTER
+■
+            Twitter
+HAPPY SATURDAY NIGHT
+<img src="http://www.worldapart.co.jp/thumb/timthumb.php?src=http://www.worldapart.co.jp/hzettm/wp-content/themes/hzettm/images/common-image/noimage.png&&h=180&w=300&zc=1" >
+HAPPY SATURDAY NIGHT
+ヒイズミマサユ機のレギュラーラジオ番組!!
+『 H ZETT M ～HAPPY SATURDAY NIGHT～ 』
+FM NORTH WAVE
+/
+cross fm
+同日同時刻放送!!
+毎週土曜日23:00～24:00
+■
+            HAPPY SATURDAY NIGHT
+app
+3rdアルバム『
+PIANO CRAZE
+』が
+MUSICアプリで登場！
+“EXCITING FIGHT版”の全13曲と他では見られないアザーカット写真も
+入り、スマホでアルバムを触って楽しめるという新しい体験を！2
+ndアルバム『
+Beautiful FLight
+』と1stアルバム『
+★★★（三ツ星）
+』もアプリで
+お楽しみください。
+■
+            app
+H ZETT M STORE
+@WA STORE
+H ZETT M オフィシャルストア
+■
+            H ZETT M STORE
+facebook
+H ZETT M OFFICIAL facebook
+■
+            facebook
+Copyright ©
+        2013        H ZETT M        . All rights reserved.
+Google Code for 2016_0126&#20316;&#25104;WA_H_ZETT_M
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup

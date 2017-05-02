@@ -1,0 +1,505 @@
+Hotjar Tracking Code for https://los40.com
+Facebook Conversion Code for Visitas de páginas concretas - PRISA MUSICA WEBS MUSICALES 1
+Facebook Pixel Code
+script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '736429283132735'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=736429283132735&ev=PageView&noscript=1"
+/></noscript
+DO NOT MODIFY
+End Facebook Pixel Code
+CXense
+Visual Revenue Reader Response Tracking Script (v6)
+End of VR RR Tracking Script - All rights reserved
+LOS40 - Music Inspires Life
+Cine/TV
+Estilo
+Internet
+Videojuegos
+Comics
+Descuentos
+li><a title="ir a My Major Company" href="http://www.mymajorcompany.es/" target="_blank" rel="nofollow" onclick="javascript:marcadoEnlacesContenedorNav(this)">My Major Company</a></li
+li><a title="Tendencias" href="/seccion/tendencias/" onclick="javascript:marcadoEnlacesContenedorNav(this)">Tendencias</a></li
+li><a title="ir a Viajes 40" href="http://www.los40viajes.es/" target="_blank" rel="nofollow" onclick="javascript:marcadoEnlacesContenedorNav(this)">Viajes</a></li
+Regístrate
+Identifícate
+Lista LOS40
+Programas
+desplegar
+li class="last_border"><a target="_blank" href="http://50aniversario.los40.com/">#50DELOS40</a></li>
+<li><a href="http://los40musicawards.los40.com/">LOS40 MUSIC AWARDS</a></li
+Vídeos
+Giras
+LOS40 MUSIC AWARDS
+li class="estilo" onmouseover="f_muestra_cabecera_menu('submenu_estilo');" onmouseout="f_oculta_cabecera_menu('submenu_estilo');"><a class="estilo" title="ir a Estilo" href="javascript:void(0);">Estilo<span class="flecha">desplegar</span></a></li
+li class="scroll-hidden"><a title="ir a Tarjeta 40" href="https://multimedia.lacaixa.es/lacaixa/ondemand/lkxa/espaciomusica/pablo-alboran/index_es.html" target="_blank" rel="nofollow" onclick="javascript:marcadoEnlacesContenedorNav(this)">Tarjeta 40</a></li
+li class="scroll-hidden" ><a title="ir a Tienda" href="http://www.onstage.es" target="_blank" rel="nofollow" onclick="javascript:marcadoEnlacesContenedorNav(this)">Tienda</a></li
+Programas
+desplegar
+Anda ya
+Del 40 al 1
+Yu No Te Pierdas Nada
+Lo + 40
+Radiotubers
+LOS40 Trending
+World Dance Music
+We Love 40
+LOS40 Global Show
+LOS40 Blackjack
+Estilo
+desplegar
+Videojuegos
+Moda y Belleza
+Tecnología
+Cine/Televisión
+Radio en directo
+Radio en directo
+yu: No te pierdas nada
+li class="escucha_ntcortes"><a href="http://notecortes.los40.com" title="escucha No te cortes" target="_blank">No te cortes</a> </li
+Del 40 al 1
+Música
+Hoy en 40
+Kygo & Selena Gomez #1
+Fangoria
+Juan Magan
+Spencer Ludwig
+#LOS40 Primavera Pop
+Katy Perry
+Primavera POP
+Katy Perry
+Taburete
+Latin Billboard
+Pablo López
+Daniela Blume
+Maluma
+Temas
+NOVEDADES
+Jamiroquai se pasa a la electrónica
+Escucha el nuevo single de los británicos, que en marzo publicarán su primer disco en siete años
+Jay Kay (Jamiroquai) niega los rumores de retirada aunque se tomará un descanso
+Jamiroquai entra en el Guinness de los Records al tocar a 9.000 metros de altura
+Compartir
+Tweet
+Google +
+Pin
+Reblog
+Email
+Ines Vila
+29/01/2017 - 18:56
+CET
+Más sobre:
+Jamiroquai
+Novedades musicales
+Grupos música
+Música
+Mira el vídeo de Automaton, el primer single en siete años de Jamiroquai.
+wtf!!
+lol
+aarg!!
+love it!!
+Facebook
+twitter
+google plus
+tuenti
+pinterest
+Twittear
+La última vez que lo vimos, el sombrero de
+Jay Kay
+llevaba plumas. Ahora, siete años después, las ha cambiado por
+leds
+.
+Jamiroquai
+ha vuelto, y el cambio de estilismo de su cantante no es casualidad: los británicos ya no hacen el
+soul-funk
+con el que los conocimos. Ahora su sonido es
+electrónica
+pura.
+Esta semana han anunciado disco, fecha de publicación, tracklist con los 13 temas del álbum y
+gira
+, que por ahora no pasará por España.
+Automaton
+se publicará el 31 de marzo, y ya podemos escuchar el primer aperitivo, que han estrenado en la BBC.
+Se llama
+Automaton
+, como el disco, y está disponible en todas las plataformas digitales.
+"La inspiración de
+Automaton
+es la inteligencia artificial, la tecnología. La que hace que nos olvidemos de las cosas más agradables y de nuestra propia vida", explicaba la
+banda
+.
+Siete años de silencio
+Si cogemos el
+funk
+, el
+soul
+, el
+jazz
+, la
+electrónica
+, la música
+disco
+y lo metemos en una batidora, suena Jamiroquai. Desde que saltaron a escena, en los 90, los británicos se han convertido en uno de los grupos
+funk
+de referencia.
+A la cabeza, su carismático líder,
+Jason
+Jay
+Kay
+, que tuvo sus más y sus menos con la industria discográfica (llegó a afirmar de Sony: "Hoy en día el 18% es música y el 82% es publicidad basura").
+Jay Kay durante una actuación.
+En los 90 y en los 2000 fueron los reyes de la pista (
+y de los Guinness World Records
+) con
+temazos
+como
+Cosmic Girl
+,
+Little L
+,
+Space Cowboy
+o
+Runaway
+.
+Su último disco,
+Rock Dust Light Star
+, lo publicaron en 2010. Y desde entonces, silencio.
+Hasta ahora. Y las plumas ya no vuelan: son
+fosforescentes
+.
+Inés Vila
+¡SUSCRÍBETE!
+IMPRESCINDIBLES
+Selena Gomez sorprende con un gran cambio de look
+¿Se suma a la oleada de cambios radicales?
+“A la gente se le hace bola cuando hablas de época”
+Blanca Suárez
+Maluma se fija en Justin Bieber
+...para dar un giro a su carrera
+Sweet California no solo es para teenagers
+Y te damos 10 razones
+¡Tenemos un concursazo solo para fans de Juanes!
+LOS40 por toda España
+Daniela Blume: “Quiero mucho a Elettra y echo de menos a Aly”
+Su primera entrevista
+Disney, de luto: una de sus estrellas se ha quitado la vida
+DEP Michael Mantenuto
+#Díadelamadre: 8 regalos por menos de 30 euros
+Detalles para acertar
+Lo más visto en...
+» Top 40
+LOS 40
+Twitter
+1
+Vídeo
+Por fin habrá gira de Shakira (y no estará sola)
+2
+Vídeo
+Polémica con esta youtuber por su ‘contenido erótico’
+3
+Vídeo
+Al preso más guapo del mundo no le sale rentable ser un chico bueno (o sí)
+4
+Fotogalería
+Así ha cambiado la niña de Papá por sorpresa
+5
+Vídeo
+El Instagram de Álex González, el mejor escaparate de su sonrisa
+6
+Vídeo
+Así es Natalia Barulich, la chica que comparte ducha con Maluma
+7
+Fotogalería
+¿Quién es la buenorra por la que Luis Fonsi suspira en 'Despacito'?
+8
+Fotogalería
+Los ‘Cámbiame’ más terroríficos del programa de Telecinco
+9
+Fotogalería
+Tatuarse las orejas es tendencia (y Cara Delevingne fue pionera)
+10
+‘A tres metros sobre el cielo’ ya tiene tercera parte
+1
+Vídeo
+Razones por las que te va a encantar la nueva Dos palabras
+2
+Vídeo
+¿Por qué Sweet California no sólo es un grupo para teenagers?
+3
+Vídeo
+Esta banda estuvo a punto de separarse
+4
+Hailey Baldwin, embajadora de la tendencia más extrema de la primavera
+5
+Vídeo
+Esta expansión adulta de Los Sims haría temblar al mismo Christian Grey
+6
+Fotogalería
+Los ‘Cámbiame’ más terroríficos del programa de Telecinco
+7
+El último reto viral: ¿Puedes ver la serpiente?
+8
+Vídeo
+¿Eres mujer y has probado a no depilarte las piernas durante un año?
+9
+7 logros de Lele Pons que hacen necesario conocerla
+10
+5 alimentos que no debes tomar en una primera cita
+Cxense content widget: Prueba LOS40
+End of Cxense content widget
+3.857.743
+social influence
+1.492.025
+1.512.881
+852.837
+trending
+Anda Ya en Facebook!
+#MusicInspiresLife
+Lo último, en nuestro FB!
+Instagrameamos!
+España
+Colombia
+Mexico
+Chile
+Argentina
+Costa Rica
+Ecuador
+Panamá
+Guatemala
+R. Dominicana
+Paraguay
+Una empresa de PRISA
+Medios Grupo Prisa
+El PAÍS
+Los 40 principales
+Santillana
+Santillana Compartir
+TVI
+Cadena SER
+AS.com
+adn
+Caracol
+Huffington Post
+UNO
+wradio
+Cinco Días
+continental
+Máxima
+M80 radio
+Cadena Dial
+Kebuena
+Podium podcasts
+Richmond
+Moderna
+Plural
+tvi24
+El PaÍs ICON
+Planeta futuro
+loqueleo
+Meristation
+S moda
+Rádio Comercial
+Webs de PRISA
+cerrar ventana
+SANTILLANA
+SANTILLANA Global
+Richmond
+SANTILLANA
+Argentina
+Bolivia
+Brasil
+Chile
+Colombia
+Costa Rica
+Ecuador
+El Salvador
+España
+Estados Unidos
+Guatemala
+Honduras
+México
+Panamá
+Paraguay
+Perú
+Portugal
+Puerto Rico
+Rep. Dominicana
+Uruguay
+Venezuela
+loqueleo
+SANTILLANA ESPAÑOL
+SANTILLANA FRANCES
+Sistema UNO
+Santillana Compartir
+IneveryCREA
+Fundación Santillana
+Brasil
+España
+Colombia
+Seminario Periodismo Cultural
+Foro de industrias culturales
+Essay & Science
+Premio Viva Lectura
+El Boomeran(g)
+PRISA NOTICIAS
+PRISA Noticias
+EL PAÍS
+EL PAÍS América
+EL PAÍS Brasil
+EL PAÍS in English
+EL PAÍS Cataluña
+EL PAÍS Vídeo
+Blogs EL PAÍS
+Babelia
+EL PAÍS Semanal
+ICON
+Planeta Futuro
+Tentaciones
+Verne
+El Viajero
+S Moda
+BuenaVida
+El Comidista
+EL PAÍS +
+Escuela de Periodismo
+EL PAÍS de los Estudiantes
+Librotea
+Descuentos EL PAÍS
+EL PAÍS Club de Vinos
+Clasificados EL PAÍS
+Directorio de centros
+EL PAÍS Viajes
+Selección EL PAÍS
+AS
+AS Chile
+AS Colombia
+AS México
+AS USA
+AS América
+AS English
+Resultados deportivos
+ASTV
+TikiTakas
+Epik
+BeTech
+AS Descuentos
+Megastore
+Promociones
+Concursos
+AS-outlet
+Cinco Días
+Smartlife
+Territorio Pyme
+Cinco Sentidos
+Zona Trading
+El Huffington Post
+MeriStation
+MeriStation México
+El Motor
+PRISA RADIO
+PRISA Radio
+RADIO HABLADA
+ADN Radio
+Cadena SER
+Caracol Radio
+Caracol 1260
+GLR Networks
+Radio Continental
+Radio Panamá
+W Radio
+EE UU
+Colombia
+México
+Estadio W
+Panamá
+RADIO MUSICAL
+LOS40
+Argentina
+Chile
+Colombia
+Costa Rica
+Ecuador
+España
+Guatemala
+México
+Panamá
+Paraguay
+Rep. Dominicana
+Arpegio
+Aspen
+Bésame
+Colombia
+Costa Rica
+Panamá
+Cadena DIAL
+Concierto
+Corazón
+FMDOS
+Futuro
+KeBuena
+España
+México
+Máxima FM
+M80 Radio
+Oxígeno
+Pudahuel
+Q Hubo
+Radioacktiva
+Radioactiva
+Radio Imagina
+Radio Uno
+Radiolé
+Rock&Pop
+RQP
+Tropicana
+La Vallenata
+Viva Radio
+MÚSICA
+Merchandising On Stage
+Planet Events
+RLM
+Tyrona Eventos
+PRISA Audiovisual
+MEDIA CAPITAL
+TV
+TVI
+TVI24
+TVI Internacional
+TVI Ficção
+TVI Reality
+TVI África
+TVI Player
+PRODUCCIÓN AUDIOVISUAL
+Plural Entertainment
+RADIO
+Radio Comercial
+M80
+SmoothFM
+Cidade FM
+Vodafone FM
+DIGITAL
+IOL
+Maisfutebol
+Autoportal
+Blogs
+Negócios
+PRISA
+PRISA
+PRISA INN
+toyoutome blog
+COMERCIAL Y MARKETING
+PRISA Brand Solutions
+cerrar
+Mapa del web
+Aviso legal
+Política de Privacidad
+Política de cookies
+Marca
+Versión móvil
+© Prisa Radio - Gran Vía, 32. 28013 Madrid [España]

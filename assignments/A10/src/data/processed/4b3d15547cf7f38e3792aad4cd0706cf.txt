@@ -1,0 +1,406 @@
+/
+Debug
+Show log entry
+Show visual element tree
+[[item.title]]
+Copy Visitor ID
+Show logging window
+Log Entry
+[[data.logEntryString]]
+Visual Element Tree
+[[data.veTree]]
+[[item.title]]
+[[item.content]]
+[[getSimpleString(data.formattedTitle)]]
+[[data.count]]
+[[unseenCount_]]
+[[_text]]
+[[_charCounterStr]]
+[[label]]
+[[errorMessage]]
+[[placeholder_]]
+[[placeholder_]]
+[[countryCode]]
+[[menuStrings_.BACK_ALT_LABEL]]
+[[menuStrings_.SEARCH_ALT_LABEL]]
+[[badge.metadataBadgeRenderer.label]]
+•
+[[getSimpleString_(item)]]
+[[getSimpleString_(item)]]
+[[getSimpleString(data.indexText)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.shortBylineText)]]
+[[computeIndexMessage_(data.currentIndex, data.totalVideos)]]
+[[getCastDeviceName_(isCasting_)]]
+[[computeCastDeviceName_(isCasting_)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.promoText)]]
+[[getSimpleString(item.musicPassSmallFeatureInfoRenderer.header)]]
+[[menuStrings_.DARK_THEME_LABEL]]
+[[computeDarkModeText_(clientSettings_.darkMode)]]
+[[computeThemeText_(clientSettings_.darkTheme)]]
+[[menuStrings_.LANGUAGE_LABEL]]
+[[clientSettings_.language]]
+[[menuStrings_.COUNTRY_LABEL]]
+[[clientSettings_.country]]
+[[menuStrings_.RESTRICTED_MODE_LABEL]]
+[[computeRestrictedModeText_(clientSettings_.restrictedMode)]]
+[[menuStrings_.SETTINGS_LABEL]]
+[[menuStrings_.HELP_LABEL]]
+[[menuStrings_.FEEDBACK_LABEL]]
+[[menuStrings_.CLASSIC_YOUTUBE_LABEL]]
+[[menuStrings_.CHOOSE_LANGUAGE_LABEL]]
+[[item.1]]
+[[menuStrings_.CHOOSE_COUNTRY_LABEL]]
+[[item.2]]
+[[menuStrings_.RESTRICTED_MODE_TITLE]]
+[[menuStrings_.RESTRICTED_MODE_TEXT_LINE_1]]
+[[menuStrings_.RESTRICTED_MODE_TEXT_LINE_2]]
+[[computeRestrictedModeText_(clientSettings_.restrictedMode)]]
+[[menuStrings_.DARK_THEME_TITLE]]
+[[menuStrings_.DARK_THEME_TEXT_LINE_1]]
+[[menuStrings_.DARK_THEME_TEXT_LINE_2]]
+[[menuStrings_.DARK_THEME_SWITCH_LABEL]]
+[[menuStrings_.THEME_TITLE]]
+[[menuStrings_.THEME_SWITCH_LIGHT_LABEL]]
+[[menuStrings_.THEME_SWITCH_DARK_LABEL]]
+[[data.businessEmail]]
+[[getSimpleString(data.text)]]
+[[getSimpleString(data.text)]]
+[[computeTooltip_(data.untoggledTooltip, data.toggledTooltip, data.isToggled)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.subscriberCountText)]]
+[[getSimpleString(data.videoCountText)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(missingData_.readMoreText)]]
+[[getSimpleString(missingData_.showLessText)]]
+[[getSimpleString(data.dragLabel)]]
+[[getSimpleString(data.licenseText)]]
+[[errorMessage_]]
+[[getSimpleString(data.placeholderText)]]
+[[data.heartedTooltip]]
+[[getSimpleString(voteCount)]]
+[[getSimpleString(data.authorText)]]
+•
+[[getSimpleString(missingData_.readMoreText)]]
+[[getSimpleString(missingData_.showLessText)]]
+[[getSimpleString(data.question)]]
+[[getSimpleString(data.header)]]
+[[getSimpleString(data.channelTitle)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.responseText)]]
+[[data.iconText]]
+[[getSimpleString(data.title)]]
+[[item]]
+[[getSimpleString(item)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[data.query]]
+AD
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[heading]]
+[[getSimpleString(item.unlimitedSubscriptionInfoRenderer.title)]]
+[[getSimpleString(item.unlimitedSubscriptionInfoRenderer.content)]]
+[[ariaLabel]]
+[[data.title]]
+[[item.tabRenderer.title]]
+[[getSimpleString(data.title)]]
+[[data.channelTitle]]
+[[iconLabel]]
+[[computeLabel_(selected)]]
+[[item.title]]
+[[data.tooltip]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(item)]]
+[[getSimpleString(item.watchCardVideoRenderer.badges.0.liveBadge.label)]]
+[[getSimpleString(item.watchCardVideoRenderer.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.toggleDescription)]]
+[[getSimpleString(data.infoText)]]
+[[getSimpleString(data.headline)]]
+[[getSimpleString(data.priceText)]]
+[[getSimpleString(data.merchant)]]
+[[getSimpleString(data.reviewText)]]
+[[getSimpleString(data.priceText)]]
+[[getSimpleString(data.merchant)]]
+[[getSimpleString(data.shopText)]]
+[[getSimpleString(data.sponsoredText)]]
+[[getSimpleString(data.adInfoText)]]
+[[getSimpleString(data.reason)]]
+[[getSimpleString(data.subreason)]]
+[[getSimpleString(data.reason)]]
+[[getSimpleString(data.reason)]]
+[[getSimpleString(data.subreason)]]
+[[getSimpleString(data.headline)]]
+[[getSimpleString(data.priceText)]]
+[[getSimpleString(data.adBadgeText)]]
+[[getSimpleString(data.shopText)]]
+[[label]]
+[[errorMessage]]
+[[item.optionSelectableItemRenderer.accessibility.accessibilityData.label]]
+:
+[[item.navigationItem.accessibility.accessibilityData.label]]
+[[getSimpleString(data.title)]]
+{{text}}
+[[getSimpleString(content)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.title)]]
+[[adBadgeText]]
+[[getSimpleString(data.title)]]
+-
+:
+[[getLabel_()]]
+[[getLabel_()]]
+[[addToStrings_.ADD_TO_DROPDOWN_LABEL]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.header)]]
+[[getSimpleString(item)]]
+[[getSimpleString(data.priceText)]]
+[[getSimpleString(clause)]]
+[[getSimpleString(reason)]]
+[[computeText_(data.isToggled, data.defaultText, data.toggledText)]]
+[[getSimpleString(data.description)]]
+[[getSimpleString(data.description)]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.subtitle)]]
+Embed Video
+[[data.enablePrivacyModeOptionLabel.accessibility.accessibilityData.label]]
+[[menuStrings_.COPY_URL_BTN_LABEL]]
+[[menuStrings_.SHARE_LABEL]]
+[[menuStrings_.EMBED_BTN_LABEL]]
+[[menuStrings_.COPY_URL_BTN_LABEL]]
+[[getSimpleString(data.title)]]
+[[getSimpleString(data.additionalInfoHeader)]]
+[[getSimpleString(data.memberInfo)]]
+[[getSimpleString(data.memberTitle)]]
+Skip navigation
+Sign in
+Search
+Loading...
+Close
+Yeah, keep it
+Undo
+Close
+This video is unavailable.
+Watch Queue
+Queue
+Watch Queue
+Queue
+Remove all
+Disconnect
+The next video is starting
+stop
+Loading...
+Watch Queue
+Queue
+__count__/__total__
+<p class="yt-spinner ">
+        <span title="Loading icon" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+Find out why
+Close
+Derrick McKenzie (Jamiroquai's drummer) performing at East London Drum School
+East London Drum School
+Loading...
+Unsubscribe from East London Drum School?
+Cancel
+Unsubscribe
+Working...
+Subscribe
+Subscribed
+Unsubscribe
+9
+9
+Loading...
+Loading...
+Working...
+Add to
+Want to watch this again later?
+Sign in to add this video to a playlist.
+Sign in
+Share
+More
+Report
+Need to report the video?
+Sign in to report inappropriate content.
+Sign in
+Statistics
+Add translations
+439 views
+8
+Like this video?
+Sign in to make your opinion count.
+Sign in
+9
+0
+Don't like this video?
+Sign in to make your opinion count.
+Sign in
+1
+Loading...
+Loading...
+Loading...
+Rating is available when the video has been rented.
+This feature is not available right now. Please try again later.
+Published on Jan 30, 2017
+Derrick McKenzie - Masterclass with Jamiroquai's drummer at East London Drum School on Nov 19th 2016.
+Sound: Julien Lavergne
+Camera: Crispin Lingford, Dimitris Tsolakis
+Editing: Gianluca Bonfiglio
+Category
+People & Blogs
+License
+Standard YouTube License
+Show more
+Show less
+Loading...
+Autoplay
+When autoplay is enabled, a suggested video will automatically play next.
+Up next
+Derrick McKenzie - Drummer from Jamiroquai - at Drummercamp 2015 in Vienna
+- Duration: 1:01.
+thelebanese
+2,524 views
+1:01
+Derrick Mckenzie GROOVE SESSIONS #5
+- Duration: 4:27.
+Derrick Mckenzie
+253 views
+New
+4:27
+Derrick Mckenzie TamTam DrumFest 2011 Yamaha Drums #01
+- Duration: 13:59.
+Levi Daigle
+122 views
+13:59
+Derrick McKenzie — Life On Mars [iDrum Mag, April 2014]
+- Duration: 5:30.
+Thomas Gray
+1,996 views
+5:30
+Jamiroquai - Cosmic Girl (Live Phoenix 1997)
+- Duration: 4:25.
+buffaloman70
+163,086 views
+4:25
+Derrick McKenzie (Jamiroquai) - 'Frankfurt Musikmesse 2014 pt.1' live drum cam
+- Duration: 7:22.
+The DrumHouse
+13,054 views
+7:22
+Derrick McKenzie (Jamiroquai's drummer) performing at East London Drum School
+- Duration: 4:41.
+East London Drum School
+78 views
+4:41
+Derrick McKenzie (Jamiroquai) - Interview with Spike [PART ONE]
+- Duration: 15:12.
+Mad Bad & Dangerous
+11,607 views
+15:12
+Derrick McKenzie (Jamiroquai) - 'Frankfurt Musikmesse pt.2' live drum cam
+- Duration: 4:26.
+The DrumHouse
+5,593 views
+4:26
+Jamiroquai performs 'Cloud 9' | The Voice UK 2017
+- Duration: 3:28.
+The Voice UK
+347,329 views
+3:28
+Derrick McKenzie - White Knuckle Ride
+- Duration: 3:39.
+Adam Koller
+47,002 views
+3:39
+Highway To Hell (AC/DC) - Poppy performing at the Jamie Morrison masterclass
+- Duration: 4:00.
+East London Drum School
+63 views
+4:00
+Jamiroquai - Automaton
+- Duration: 5:02.
+JamiroquaiVEVO
+7,490,774 views
+5:02
+Derrick Mckenzie GROOVE SESSIONS  #1
+- Duration: 8:00.
+Derrick Mckenzie
+13,445 views
+8:00
+It's Not Ok (My Chemical Romance) - Alice performing at the Jamie Morrison masterclass
+- Duration: 2:26.
+East London Drum School
+45 views
+2:26
+Baard Kolstad, the best drummer in Norway!!!!
+- Duration: 4:00.
+Denis Pascu
+3,652,945 views
+4:00
+Yamaha Absolute Hybrid Maple Drums with Derrick McKenzie (HD)
+- Duration: 1:56.
+Yamaha Drums (Official)
+16,791 views
+1:56
+Jamiroquai - Virtual Insanity (Official Music Video)
+- Duration: 3:57.
+Stan Smith
+2,957,338 views
+3:57
+SABIAN Artist Derrick McKenzie, Jamiroquai Production Rehearsal March 2011
+- Duration: 9:12.
+SABIAN_UK
+24,326 views
+9:12
+Jamiroquai - Live at Paleo Festival ( 2011 )
+- Duration: 1:54:45.
+Red Hot Chili Peppers
+468,380 views
+1:54:45
+Loading more suggestions...
+Show more
+Language:
+English
+Content location:
+United States
+Restricted Mode:
+Off
+History
+Help
+Loading...
+Loading...
+Loading...
+About
+Press
+Copyright
+Creators
+Advertise
+Developers
++YouTube
+Terms
+Privacy
+Policy & Safety
+Send feedback
+Test new features
+Loading...
+Working...
+Sign in
+to add this to Watch Later
+Add to
+Loading playlists...

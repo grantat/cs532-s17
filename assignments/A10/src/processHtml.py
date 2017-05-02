@@ -15,9 +15,9 @@ def visible(element):
 
 def saveProcessed(filename, line):
 
-    filename = "output/processed/" + filename + ".txt"
-    if not os.path.exists("output/processed"):
-        os.makedirs("output/processed")
+    filename = "data/processed/" + filename + ".txt"
+    if not os.path.exists("data/processed"):
+        os.makedirs("data/processed")
 
     # if not found, create
     try:
@@ -29,9 +29,9 @@ def saveProcessed(filename, line):
 
 
 def processHtml():
-    for filename in os.listdir("output/html"):
+    for filename in os.listdir("data/html"):
         print(filename)
-        with codecs.open("output/html/" + filename, "r", encoding='utf-8',
+        with codecs.open("data/html/" + filename, "r", encoding='utf-8',
                          errors='surrogateescape') as fdata:
 
             soup = BeautifulSoup(fdata, 'html.parser')

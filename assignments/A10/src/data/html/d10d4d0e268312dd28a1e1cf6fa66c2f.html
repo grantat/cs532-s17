@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <base href="/">
+
+        <meta charset="utf-8">
+
+        <title>Beam | Interactive Livestreaming</title>
+
+        <script>
+            function handleFatalError(err) {
+                var error = '';
+                switch (err.error.name) {
+                case 'SecurityError':
+                    error = 'Uh oh, something\'s not right... please make sure you don\'t have' +
+                    ' cookies disabled and that any privacy extensions whitelist Beam.<br>' +
+                    'If the problem persists, please ' +
+                    '<a href="mailto:support@beam.pro" target="_blank">' +
+                    'contact us</a>.';
+                    break;
+                default:
+                    error = 'Something is very wrong... Please ' +
+                    '<a href="mailto:support@beam.pro" target="_blank">contact us</a> ' +
+                    'with the following error: <br>' + err.error.toString();
+                }
+                // Remove the listener so that it doesn't get overwritten by other angular errors.
+                window.removeEventListener('error', handleFatalError);
+                window.removeEventListener('unhandledrejection', handleFatalError);
+
+                document.getElementById('fatal-error-message').innerHTML = error;
+                document.getElementById('fatal-error').style.display = 'block';
+            }
+
+            function tidyFatalError() {
+                window.removeEventListener('error', handleFatalError);
+                window.removeEventListener('unhandledrejection', handleFatalError);
+                document.body.removeChild(document.getElementById('fatal-error'));
+            }
+
+            window.addEventListener('error', handleFatalError);
+            window.addEventListener('unhandledrejection', handleFatalError);
+        </script>
+
+        <meta name="description" content="Welcome to Beam, the next generation in live streaming.">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://beam.pro/_latest/assets/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://beam.pro/_latest/assets/favicons/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="https://beam.pro/_latest/assets/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://beam.pro/_latest/assets/favicons/favicon-16x16.png" sizes="16x16">
+        <meta name="application-name" content="Beam | Interactive Livestreaming">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="https://beam.pro/_latest/assets/favicons/mstile-144x144.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <script src="https://checkout.stripe.com/checkout.js" async></script>
+        <style>
+            body { background: #0e162a }
+            .fatal-error {
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translateX(-50%);
+                word-wrap: break-word;
+            }
+            .fatal-error p {
+                font-family: sans-serif;
+                color: #fff;
+                margin-top: 10%;
+            }
+            .fatal-error p a {
+                color: #6c8efe;
+            }
+        </style>
+    </head>
+    <body>
+        <b-app></b-app>
+        <div id="fatal-error" class="fatal-error" style="display: none;">
+            <img src="https://beam.pro/_latest/assets/images/main/logos/full.svg" alt="Beam">
+            <p id="fatal-error-message"></p>
+        </div>
+    <script type="text/javascript" src="_latest/bundles/inline.bundle.js?f7012ee51221388c9d0a"></script><script type="text/javascript" src="_latest/bundles/polyfill.fe57bbc7d805ccac2a7e.bundle.js?f7012ee51221388c9d0a"></script><script type="text/javascript" src="_latest/bundles/main.cd9bb4727ba3d22c3ef4.bundle.js?f7012ee51221388c9d0a"></script></body>
+</html>

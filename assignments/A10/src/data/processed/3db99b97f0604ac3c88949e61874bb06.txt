@@ -1,0 +1,57 @@
+BEGIN Metadata added by Add-Meta-Tags WordPress plugin
+END Metadata added by Add-Meta-Tags WordPress plugin
+Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent
+End Cookie Consent plugin
+Skip to content
+Menu
+Search for
+INICIO
+TOP 30
+COLABORAN/PARTNERS
+DONACIONES
+CONTACTO
+.logo-wrap
+.header_area
+.header_area-wrap
+.header-inner
+.container
+Menu
+.container
+INICIO
+TOP 30
+COLABORAN/PARTNERS
+DONACIONES
+CONTACTO
+#site-navigation
+.container
+#masthead
+Nosotros
+Los 70s fueron únicos. Volver a ellos, es para nosotros algo especial...La magia de un recuerdo...el latido de una emoción...el sonido "disco"...todo nos lleva a una época diferente, llena de "flashes", cajones con subgraves y difusores de medios en las discotecas.
+Abba, Bee Gees, Barry White, Rubettes, Bonnie Tyler, Rod Stewart, Tavares, Barbra Streisand, Stevie Wonder, Elton John, Donna Summer, Boney M, Diana Ross, Roberta Flack...son solo ejemplos de algunos de los muchos artistas que podrás encontrar en Hits70s.net
+Haz clic y emprende un viaje al pasado! Estarás...como en casa. Hits70s.net
+1000 Oldies 468x60
+Top 5
+Últimas Canciones Emitidas
+En reproducción
+Colabora
+En directo
+Otros repros / Apps
+Redes Sociales
+Inserta esta etiqueta donde quieras que aparezca Botón +1.
+Twitter
+1000 Oldies cuadrado 300x250
+Copyright © 2015 Hits 70s | La radio musical de los 70 - Emisora de radio 70s.
+
+El streaming de audio se encuentra alojado en la plataforma Radionomy.
+Los derechos de autor y de comunicación pública, son pagados por el servidor (Radionomy) a la SABAM.
+.site-info
+RedWaves theme by
+Themient
+.container
+.copyrights
+Scope BEGIN: SearchAction
+Scope END: EntryPoint
+Scope END: PropertyValueSpecification
+Scope END: SearchAction
+Scope BEGIN: Organization
+Scope END: Organization

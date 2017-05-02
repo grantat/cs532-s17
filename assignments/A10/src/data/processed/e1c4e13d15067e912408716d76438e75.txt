@@ -1,0 +1,478 @@
+Skip navigation
+Sign in
+Search
+Home
+Trending
+History
+Get YouTube Red
+Get YouTube TV
+Best of YouTube
+Music
+Sports
+Gaming
+Movies
+TV Shows
+News
+Live
+Spotlight
+360° Video
+Browse channels
+Sign in now to see your channels and recommendations!
+Sign in
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Watch Later</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Watch Later</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription added</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Subscription removed</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Saved to Playlists</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Playlists</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to playlist</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from playlist</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Added to Liked videos</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Removed from Liked videos</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >You'll be reminded about this event</span></span></div>
+<div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >Event reminder removed</span></span></div>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-visibility-tracking="" data-sessionlink="ei=OfAHWZz9Ac-q8gSPv7jIBg&amp;feature=g-playlists" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-playlists-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Saved to Playlists">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-visibility-tracking="" data-sessionlink="ei=OfAHWZz9Ac-q8gSPv7jIBg&amp;feature=g-playlists" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-mix-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Saved to Playlists">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-visibility-tracking="" data-sessionlink="ei=OfAHWZz9Ac-q8gSPv7jIBg&amp;feature=g-channel" data-external-id="__ID__" data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        
+  <img alt="" height="20" data-ytimg="1" src="__THUMBNAIL_URL__" aria-hidden="true" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" width="20" >
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="Subscription added">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+Watch Queue
+Queue
+Watch Queue
+Queue
+Remove all
+Disconnect
+The next video is starting
+stop
+Loading...
+Watch Queue
+Queue
+__count__/__total__
+<p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Loading icon"></span>
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+Hello, you seem to have JavaScript turned off. Please enable it to see search results properly.
+Close
+Filters
+About 18,500 results
+Upload date
+Last hour
+Today
+This week
+This month
+This year
+Type
+Video
+Channel
+Playlist
+Movie
+Show
+Duration
+Short (< 4 minutes)
+Long (> 20 minutes)
+Features
+4K
+HD
+Subtitles/CC
+Creative Commons
+3D
+Live
+Purchased
+360°
+Sort by
+Relevance
+Upload date
+View count
+Rating
+5:02
+Play next
+Play now
+Jamiroquai - Automaton
+- Duration: 5:02.
+JamiroquaiVEVO
+3 months ago
+7,500,564 views
+New Song '
+AUTOMATON
+' available digitally now: http://
+jamiroquai
+.lnk.to/JKAutomaton --
+AUTOMATON
+TRANSMISSION: ...
+50+
+videos
+Play all
+Play now
+Mix - Jamiroquai - Automaton
+- Playlist
+YouTube
+5:02
+Jamiroquai - Automaton
+4:58
+The Weeknd - I Feel It Coming ft. Daft Punk
+12
+videos
+Play all
+Play now
+Jamiroquai - Automaton (Full Album)
+- Playlist
+Jay
+5:15
+Jamiroquai - Shake It On
+4:44
+Jamiroquai - Automaton
+View full playlist (12 videos)
+5:21
+Play next
+Play now
+Jamiroquai - Cloud 9
+- Duration: 5:21.
+JamiroquaiVEVO
+2 months ago
+4,014,238 views
+New Song 'CLOUD 9' available digitally now: https://
+Jamiroquai
+.lnk.to/Cloud9ID --
+AUTOMATON
+TRANSMISSION: WORLDWIDE ...
+JamiroquaiVEVO
+- Channel
+153 videos
+The official home of
+Jamiroquai
+on Vevo. CONNECT with
+Jamiroquai
+: Website:
+http://www
+.
+jamiroquai
+.co.uk/ Facebook: ...
+Channel
+Subscribe
+Subscribed
+Unsubscribe
+260,748
+260K
+3:41
+Play next
+Play now
+Jamiroquai - Superfresh (Automaton Album)
+- Duration: 3:41.
+8BitMix
+1 month ago
+6,271 views
+0:23
+Play next
+Play now
+Jamiroquai - #AUTOMATON TRANSMISSION 001
+- Duration: 0:23.
+JamiroquaiVEVO
+3 months ago
+757,053 views
+Coming to a planet near you... #
+Automaton
+Follow
+Jamiroquai
+Website:
+http://www
+.
+jamiroquai
+.com/ Facebook: ...
+18
+videos
+Play all
+Play now
+Jamiroquai - Automaton (Full Album)
+- Playlist
+Playlist Generator
+5:02
+Jamiroquai - Automaton
+5:21
+Jamiroquai - Cloud 9
+View full playlist (18 videos)
+4:44
+Play next
+Play now
+Jamiroquai - Automaton
+- Duration: 4:44.
+Jay
+2 months ago
+12,739 views
+NO COPYRIGHT INFRINGEMENT INTENDED ALL MUSIC BELONGS TO
+JAMIROQUAI
+/ VIRGIN EMI.
+19:10
+Play next
+Play now
+Track by track - Jay Kay about Automaton
+- Duration: 19:10.
+tanagyilla
+1 month ago
+51,824 views
+This video is property of Universal Music Deutschland Original source: ...
+5:15
+Play next
+Play now
+Shake It On
+- Duration: 5:15.
+Jamiroquai - Topic
+1 month ago
+10,698 views
+Provided to YouTube by Universal Music Group North America Shake It On ·
+Jamiroquai Automaton
+℗ 2017
+Jamiroquai
+Limited ...
+8:03
+Play next
+Play now
+JAY KAY and that HAT Jamiroquai  Automaton Tour  Interview
+- Duration: 8:03.
+Can You Handle The Truth
+3 weeks ago
+5,339 views
+New album 2017 review, Prior to Top Gear Star in a reasonably fast car . Charlie Stayt gets in on the act, Track List ...
+4:44
+Play next
+Play now
+Jamiroquai - Automaton - Roundhouse, London - March 2017
+- Duration: 4:44.
+Gigs (KrisLW)
+1 month ago
+32,101 views
+Jamiroquai
+performing
+Automaton
+live at the Roundhouse, London on 31st March 2017.
+6:45
+Play next
+Play now
+Jamiroquai - Automaton (Deetron Remix)
+- Duration: 6:45.
+JamiroquaiVEVO
+2 months ago
+101,987 views
+Automaton
+(Deetron Remix) Out Now https://
+Jamiroquai
+.lnk.to/AutomatonDeetronID Follow
+Jamiroquai
+Website: ...
+4:41
+Play next
+Play now
+Jamiroquai - Nice and Spicy (Japanese Bonus Track) "Edition Deluxe"
+- Duration: 4:41.
+Jose Lazarte
+3 weeks ago
+37,253 views
+4:47
+Play next
+Play now
+Jamiroquai - Automaton (Digital Lyric Video 2017)
+- Duration: 4:47.
+Mi4H786
+2 months ago
+4,492 views
+Artist:
+Jamiroquai
+http://www
+.
+jamiroquai
+.co.uk Title:
+Automaton
+Typography Lyric Video By: ...
+4:31
+Play next
+Play now
+Jamiroquai - Automaton - Bass Cover - Bass TABS
+- Duration: 4:31.
+Flavio Calogero
+3 months ago
+9,363 views
+LINK TABS :
+https://www.file-pdf.it/2017/01/29/
+automaton
+-
+jamiroquai
+-bass-transcription-with-tabs/ LINK TRANSCRIPTION ...
+4:12
+Play next
+Play now
+Jamiroquai Guitarist Rob Harris on using his PRS DGT on Automaton
+- Duration: 4:12.
+PRSGuitarsUK
+1 month ago
+4,563 views
+http://www.jamiroquai.co.uk/
+http://prsguitars.com/
+Ahead of the release of the new album
+Automaton
+,
+Jamiroquai
+guitarist Rob ...
+3:32
+Play next
+Play now
+Jamiroquai - Cloud 9 (Fred Falke Remix)
+- Duration: 3:32.
+JamiroquaiVEVO
+1 month ago
+388,010 views
+AUTOMATON
+TRANSMISSION: WORLDWIDE --- New Album: '
+AUTOMATON
+' Available: FRI_31_MAR_2017 -- Pre-Order now ...
+3:28
+Play next
+Play now
+Jamiroquai performs 'Cloud 9' | The Voice UK 2017
+- Duration: 3:28.
+The Voice UK
+1 month ago
+334,868 views
+Subscribe for more:
+http://bit.ly/2jmXcPt
+Jamiroquai
+rocks it for #TheVoiceUK Broadcast on: 25/03/17 Like, follow and subscribe ...
+1
+2
+3
+4
+5
+6
+7
+Next »
+Automaton
+Jamiroquai
+Play album
+Tracks
+1
+Shake It On
+5:15
+2
+Superfresh
+3:49
+3
+Hot Property
+4:33
+4
+Something About You
+3:59
+5
+Summer Girl
+5:32
+6
+Nights Out In The Jungle
+5:10
+7
+Dr Buzz
+6:02
+8
+We Can Do It
+4:07
+9
+Vitamin
+4:27
+10
+Carla
+5:34
+Language:
+English
+Content location:
+United States
+Restricted Mode:
+Off
+History
+Help
+Loading...
+Loading...
+Loading...
+About
+Press
+Copyright
+Creators
+Advertise
+Developers
++YouTube
+Terms
+Privacy
+Policy & Safety
+Send feedback
+Test new features
+Loading...
+Working...
+Sign in
+to add this to Watch Later
+Add to
+Loading playlists...

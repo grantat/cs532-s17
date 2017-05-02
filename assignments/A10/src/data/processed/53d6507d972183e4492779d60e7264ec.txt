@@ -1,0 +1,41 @@
+SHOUTcast Stream Status
+SHOUTcast Server v2.5.1.724/
+posix(
+linux x86)
+Status
+|
+History
+|
+Listen
+|
+Website
+|
+Stream Login
+|
+Server Login
+Current Stream Information
+Listing Status:
+Stream is currently up and public
+Stream Status:
+Stream is up (MP3 @ 128 kbps, 44.1 kHz) with 6 of 999 listeners (1 unique)
+Listener Peak:
+16
+Avg. Play Time:
+10 hours 3 minutes 14 seconds
+Stream Name:
+Neuron Radio
+Stream Genre(s):
+House
+,
+Dance
+,
+Oldies
+,
+R&B and Urban
+,
+Soul
+Stream Website:
+neuronradio.
+net
+Playing Now:
+D-Unity - Warning

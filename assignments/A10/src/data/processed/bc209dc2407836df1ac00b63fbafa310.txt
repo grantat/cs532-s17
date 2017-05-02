@@ -1,0 +1,268 @@
+[if lt IE 9]>
+			<link rel="stylesheet" href="css/style_stdres.css" type="text/css" />
+		<![endif]
+[if (!IE)|(gte IE 9)]>
+<![endif]
+script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script
+Station info
+Streams
+Player apps
+Share
+AddThis Button BEGIN
+AddThis Button END
+Your browser is out of date. Please upgrade your browser to proceed to the live stream.
+This player utilizes features that are unavailable in your version of browser. Don't worry - there is an easy solution. Simply upgrade your browser to the latest version and then return to this player to proceed to the live stream. You'll be enjoying your favorite station before you know it!
+Adobe Flash Required
+Adobe Flash is required to listen to this station, but you don't appear to have it installed.
+Click here to install Adobe Flash
+Jersey Bull the "MadTrucker" plays the best MIX!
+Advertising
+sales@clayconews.com
+Submit a song (mp3)
+jerseybull@bigbarn.us
+Contact
+1-606-658-6187
+http://bigbarn.us/
+Click here to send us a message
+Manchester, Kentucky 40962
+Your message
+Facebook
+Twitter feed
+YouTube
+Podcasts
+Click on any file to start listening
+Its All Going to Pot - Willie Nelson - Merle Haggard
+00:02:56
+Long Way Down - Jess Klein
+00:04:25
+Taillights And Dust - Lance Stinson
+00:03:07
+Brighter-Days-Beat---Produced-by-Chris-Prythm
+00:04:02
+Country-Queen - Kendal-Conrad
+00:04:01
+No Butter For My Grits - Big Bill Morganfield
+00:06:34
+Good One Comin On - Blackberry Smoke
+00:03:40
+To Love Somebody - Bee Gees
+00:03:02
+Hit The Road Jack - Sheila Raye Charles
+00:03:16
+Somethin- Somethin- The Springs
+00:02:38
+Crank It Up - The Springs
+00:02:08
+Somethin Bout A Woman, Somethi - The Springs
+00:02:50
+18 WHEELER - BEBO WHITEHEAD
+00:03:34
+RUNNIN DOWN A DREAM - Tom Petty
+00:04:52
+Have You Seen Your Mother, Baby, Standing in the Shadow - Rollin
+00:02:38
+Dont Stop - Rolling Stones
+00:04:00
+LONG COOL WOMAN - Randy Hayes
+00:03:49
+JOLENE - Sam Roark
+00:03:42
+I Won-t Back Down - Tom Petty
+00:02:58
+Miss Liberty - Lonnie Bennett Jr
+00:03:22
+WE CAN WORK IT OUT - Randy Hayes
+00:02:12
+I Need My Baby Back - Sam Roark
+00:03:25
+GET TOGETHER - Randy Hayes
+00:04:39
+Undun - Guess Who
+00:03:27
+Heart Full of Soul - Ravenz
+00:02:30
+Mother-s Little Helper - Rolling Stones
+00:02:50
+Lost At Sea - Sam Roark
+00:04:07
+Free Falling - Tom Petty
+00:04:16
+Start Me Up - Rolling Stones
+00:03:35
+Oh Baby - Sam Roark
+00:03:10
+The Sound Of A Woman Saying Goodbye - Sam Roark
+00:02:55
+Paradise City - Guns - Roses
+00:06:46
+How Many Coal Trains - Rick Arnold
+00:03:38
+A Girl I Knew - Ravenz
+00:02:46
+TIME FOR LETTING GO - Randy Hayes
+00:03:53
+No Time - Guess Who
+00:03:39
+Sympathy for the Devil - Rolling Stones
+00:06:20
+Brown Sugar - Rolling Stones
+00:03:51
+THERES A PLACE - Randy Hayes
+00:01:54
+Fool to Cry - Rolling Stones
+00:04:09
+Check Out Girl - Sam Roark
+00:02:59
+Put Your Lights On - Santana
+00:04:45
+I Think of You - BEBO WHITEHEAD
+00:03:39
+Little Rain - Sam Roark
+00:03:43
+The Other Side Of Love - Sam Roark
+00:03:49
+If I Needed Someone - Ravenz
+00:02:37
+I KNOW A LITTLE - Randy Hayes
+00:03:37
+American Woman - Guess Who
+00:05:07
+Nashville Can Wait - Sam Roark
+00:03:48
+Wild Horses - Rolling Stones
+00:05:47
+Behind Blue Eyes - Ravenz
+00:03:51
+All I Want - Sam Roark-Joe Sun
+00:04:00
+GIRL FROM THE CANYON - Randy Hayes
+00:02:26
+(I Can-t Get No) Satisfaction - Rolling Stones
+00:03:46
+JUST FOR THE RECORD - Randy Hayes
+00:02:47
+She-s a Rainbow - Rolling Stones
+00:04:15
+If Heaven-s Got A Backdoor - Sam Roark
+00:02:51
+IF LOOKS COULD KILL - Randy Hayes
+00:03:17
+THATS JUST THE WAY IT IS - Randy Hayes
+00:03:19
+Paint It, Black - Rolling Stones
+00:03:48
+Clank Clank - Sam Roark
+00:03:18
+MUD ON MY FEET - Rick Arnold
+00:02:25
+Baby Blue - Ravenz
+00:03:40
+Dont Talk To Strangers - Ravenz
+00:03:00
+Anybody Seen My Baby - Rolling Stones
+00:04:09
+Five OClock World - Ravenz
+00:02:38
+My Back Pages - Ravenz
+00:02:59
+Angie - Rolling Stones
+00:04:34
+Love is a long Road - Tom Petty
+00:04:07
+Yesterday - Ravenz
+00:03:00
+How You Remind Me
+00:03:48
+Unwell
+00:03:50
+Black Dog
+00:04:57
+NOW THAT WERE ALONE - Randy Hayes
+00:04:04
+These Eyes - Guess Who
+00:03:47
+Mixed Emotions - Rolling Stones
+00:04:03
+Knockin On Heavens Door - Guns - Roses
+00:05:38
+THE APARTMENT SONG
+00:02:32
+Pour Some Sugar On Me
+00:04:27
+Love Bites
+00:05:44
+Rock Of Ages
+00:04:10
+FEEL A WHOLE LOT BETTER
+00:02:49
+Smooth
+00:04:58
+Metallica
+00:05:33
+She Talks To Angels
+00:05:31
+Hard To Handle
+00:03:10
+Metallica
+00:04:33
+Heaven
+00:04:19
+Follow Me
+00:03:35
+It-s Only Rock -N- Roll - Rolling Stones
+00:04:12
+Emotional Rescue - Rolling Stones
+00:03:44
+HARDER TO BREATHE
+00:02:53
+Gimme Shelter - Rolling Stones
+00:04:34
+Solitary Man - Ravenz
+00:02:36
+PRETTY GOOD SHAPE - BEBO WHITEHEAD
+00:03:14
+Share the Land - Guess Who
+00:03:55
+Under My Thumb - Rolling Stones
+00:03:44
+Help
+If you accessed the player from a desktop computer (PC or Mac)
+For the best experience, we recommend upgrading to the latest version of your Internet browser
+If the stream is not audible, or doesn't start, please verify that you have the latest version of Adobe Flash plug-in installed.
+The player is known to work on Windows, Mac OS and Linux, using Chrome, Firefox, Safari or Internet Explorer
+If you accessed the player from a mobile device
+If this station has a mobile app, we recommend installing and using it for the best experience
+Since Adobe Flash is not supported on most mobile devices, you may not be able to listen to the audio stream; however, you can use most of the interactive features of the player
+Privacy Policy
+We may allow third-party companies to serve ads and/or collect certain anonymous information when you visit this website. These companies may use non-personally identifiable information (e.g., click stream information, browser type, time and date, subject of advertisements clicked or scrolled over) during your visits to this and other websites in order to provide advertisements about goods and services likely to be of greater interest to you. These companies typically use a cookie or third party web beacon to collect this information. To learn more about this behavioral advertising practice or to opt-out of this type of advertising, you can visit
+http://networkadvertising.org/choices
+.
+Our properties may feature Nielsen proprietary measurement software, which will allow you to contribute to market research, such as Nielsen Audio. To learn more about the information that Nielsen software may collect and your choices with regard to it, please see the Nielsen Digital Measurement Privacy Policy at
+http://www.nielsen.com/digitalprivacy
+.
+News
+Stocks
+Sports
+Entertainment
+Weather
+Traffic map
+Flight tracker
+Chat with other listeners
+Loading chat, please wait....
+Recently played
+Buy media
+You can buy & download this track & more from either Apple iTunes or Amazon.com mp3 store. Simply click the icon for the store you wish to access.
+Song lyrics
+Send to mobile
+Scan the QR code to send the player to your compatible mobile device.
+If your mobile device doesn't have a QR scanning app, download a free one from your device's app store.
+Are you still here?
+Due to inactivity on the player, the stream will stop in
+60 seconds
+Click here to continue listening
+The audio stream has been stopped due to inactivity on the player.
+Click here to resume listening
+00:00
+VOL
+CIRRUS®  BY SSI. WE BUILD IMMERSIVE MEDIA PLAYERS FOR TERRESTRIAL AND INTERNET RADIO STATIONS WORLDWIDE.
+CLICK HERE TO GET STARTED WITH

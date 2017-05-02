@@ -1,0 +1,82 @@
+<![endif]
+<link type="text/css" href="js/social/css/social.css" rel="stylesheet" />
+[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js" ></script><![endif]
+<script type="text/javascript" src="js/social/js/social.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+Programmation
+Archives
+Infos Pratiques
+Le New
+<li><a class="text-menu" id="nav-responsive-galeries" href="galeries" data-role="ajax">Photos</a></li>
+Vidéos
+♫ New Morning Radio
+<li><a class="text-menu" id="nav-responsive-archives" href="archives" data-role="ajax">Ils y ont joué</a></li>
+Programmation
+Infos Pratiques
+<<
+Retour sur le site du New Morning
+Play !
+<li><a href="radio_ijd.php" data-role="ajax">&#9733; IJD2017 &#9733;</a></li>
+CQCT ?
+Grille des programmes
+Emissions
+Replay
+La radio
+Nous ecouter
+Prochaines émissions en direct du New Morning
+Soundcheck
+Post Image
+Jeu 04 Mai ► 19h00
+Soundcheck
+Les Doigts De L'homme
+Mar 16 Mai ► 19h00
+Soundcheck
+The Hot 8 Brass Band
+Mer 17 Mai ► 19h00
+Soundcheck
+The Comet is Coming
+Mar 23 Mai ► 19h00
+Soundcheck
+Paris Combo
+Jeu 01 Juin ► 19h00
+TELECHARGER L'APPLICATION
+Télécharger l'application
+Actuellement
+The Big Blender
+A suivre
+A New Morning
+07h00
+What's New
+09h00
+Jazz session
+10h00
+Soundcheck (replay)
+11h00
+The Big Blender
+12h00
+<section id="side-webcam">
+					<div class="titre">Live</div>
+					<div class="titre"><img id="webcam" src="newmorningradio/webcam/cam_1.jpg" width="290" height="218" alt="Live" /></div>
+				</section>
+Suivez-nous sur Facebook !
+New Morning - Radio
+<section id="side-twitter">
+					<div class="titre">Twitter</div>
+					<a class="twitter-timeline" href="https://twitter.com/hashtag/newmorningradio" data-widget-id="590505972357062657">Tweets sur #newmorningradio</a>
+				</section>
+<section id="side-fb">
+					<div class="titre">Facebook</div>
+					
+
+				</section>				
+			</section>
+			<script type="text/javascript">
+			setInterval(function(){
+				$("#webcam").each(function(){
+				   var timeStamp = (new Date()).getTime();
+				   $(this).attr("src", "newmorningradio/webcam/cam_1.jpg?" + timeStamp );
+				});
+			}, 10000);
+			</script>
+Copyright©2017 - New Morning
+Powered by Axone Médias

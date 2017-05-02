@@ -1,0 +1,662 @@
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Kindle Store
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Buy a Kindle
+Kindle eBooks
+Kindle Unlimited
+Prime Reading
+Advanced Search
+Kindle Book Deals
+Free Reading Apps
+Kindle Singles
+Newsstand
+Accessories
+Discussions
+Content and devices
+Kindle Support
+Kindle Store
+›
+Kindle eBooks
+›
+Arts & Photography
+Digital List Price:
+$29.95
+Print List Price:
+$32.95
+Kindle Price:
+$16.17
+Save $16.78 (51%)
+Buy now with 1-Click
+®
+Promotions apply when you purchase
+These promotions will be applied to this item:
+Some promotions may be combined; others are not eligible to be combined with other offers. For details, please see the Terms & Conditions associated with these promotions.
+Deliver to your Kindle or other device
+Send a free sample
+Deliver to your Kindle or other device
+Give as a Gift
+Add to List
+Sorry, there was a problem.
+There was an error retrieving your Wish Lists. Please try again.
+Sorry, there was a problem.
+List unavailable.
+Enter a promotion code or Gift Card
+Share
+Facebook
+Twitter
+Pinterest
+<Embed>
+Music in the Shadows
+Kindle Edition
+by
+Sheri Chinen Biesen
+(Author)
+›
+Visit Amazon's Sheri Chinen Biesen Page
+Find all the books, read about the author, and more.
+See
+search results
+for this author
+Are you an author?
+Learn about Author Central
+Sheri Chinen Biesen
+(Author)
+4.1 out of 5 stars
+4 customer reviews
+See all 6 formats and editions
+Hide other formats and editions
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Price
+New from
+Used from
+Do not show expander when DVD_redesign weblab is in treatment
+Kindle
+"Please retry"
+$16.17
+—
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Hardcover
+"Please retry"
+$57.56
+$49.02
+$15.20
+Do not show expander when DVD_redesign weblab is in treatment
+Paperback
+"Please retry"
+$27.59
+$14.99
+$14.99
+This file is a replica of swatches.jsp
+     The only difference we have introduced here is to use absolute paths 
+     and dynamic includes
+Kindle
+$16.17
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+Read with Our
+Free App
+Hardcover
+$57.56
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+8 Used
+from
+$15.20
+14 New
+from
+$49.02
+Paperback
+$27.59
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+4 Used
+from
+$14.99
+10 New
+from
+$14.99
+Smoke. Shadows. Moody strains of jazz. Welcome to the world of "noir musical" films, where tormented antiheroes and hard-boiled musicians battle obsession and struggle with their music and ill-fated love triangles. Sultry divas dance and sing the blues in shrouded nightclubs. Romantic intrigue clashes with backstage careers.
+In her pioneering study,
+Music in the Shadows
+, film noir expert Sheri Chinen Biesen explores musical films that use film noir style and bluesy strains of jazz to inhabit a disturbing underworld and reveal the dark side of fame and the American Dream. While noir musical films like
+A Star Is Born
+include musical performances, their bleak tone and expressionistic aesthetic more closely resemble the visual style of film noir. Their narratives unfold behind a stark noir lens: distorted, erratic angles and imbalanced hand-held shots allow the audience to experience a tortured, disillusioned perspective.
+While many musicals glamorize the quest for the spotlight in Hollywood's star factory, brooding noir musical films such as
+Blues in the Night, Gilda, The Red Shoes, West Side Story,
+and
+Round Midnight
+stretch the boundaries of film noir and the musical as film genres collide. Deep shadows, dim lighting, and visual composition evoke moodiness, cynicism, pessimism, and subjective psychological points of view.
+As in her earlier study of film noir,
+Blackout: World War II and the Origins of Film Noir,
+Biesen draws on extensive primary research in studio archives to situate her examination within a historical, industrial, and cultural context.
+Read more
+Read less
+Length:
+225 pages
+Word Wise:
+Enabled
+Enhanced Typesetting:
+Enabled
+Page Flip:
+Enabled
+wlhqp
+See the Best Books of the Month
+Want to know our Editors' picks for the best books of the month? Browse
+Best Books of the Month
+, featuring our favorite new books in more than a dozen categories.
+MarkAF
+click to open popover
+Enter your mobile number or email address below and we'll send you a link to download the free Kindle App. Then you can start reading Kindle books on your smartphone, tablet, or computer - no Kindle device required.
+Apple
+Android
+Windows Phone
+Android
+To get the free app, enter your mobile phone number.
+or
+Download to your computer
+Mac
+Windows 8, 8 RT and Modern UI
+Windows 8 desktop, Windows 7, XP & Vista
+Kindle Cloud Reader
+Read instantly in your browser
+Customers who bought this item also bought
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+This shopping feature will continue to load items. In order to navigate out of this carousel please use your heading shortcut key to navigate to the next or previous heading.
+Back
+The Filmmaker's Handbook: A Comprehensive Guide for the Digital Age: 2013 Edition
+Steven Ascher
+4.5 out of 5 stars
+179
+Kindle Edition
+$13.99
+A Cinema of Loneliness
+Robert Kolker
+5.0 out of 5 stars
+3
+Kindle Edition
+$13.19
+Next
+Product details
+File Size:
+3799 KB
+Print Length:
+225 pages
+Publisher:
+JHUP (March 27, 2014)
+Publication Date:
+March 27, 2014
+Sold by:
+Amazon  Digital Services  LLC
+Language:
+English
+ASIN:
+B00GTSPDV8
+Text-to-Speech:
+Enabled
+X-Ray:
+Not Enabled
+Word Wise:
+Enabled
+Lending:
+Not Enabled
+Screen Reader:
+Supported
+Enhanced Typesetting:
+Enabled
+Amazon Best Sellers Rank:
+#2,111,826 Paid in Kindle Store (
+See Top 100 Paid in Kindle Store
+)
+#230
+in
+Kindle Store
+>
+Kindle eBooks
+>
+Arts & Photography
+>
+Music
+>
+Musical Genres
+>
+Musicals
+#2022
+in
+Books
+>
+Arts & Photography
+>
+Music
+>
+Musical Genres
+>
+Musicals
+#2739
+in
+Kindle Store
+>
+Kindle eBooks
+>
+Humor & Entertainment
+>
+Movies & Video
+>
+History & Criticism
+Would you like to
+tell us about a lower price
+?
+If you are a seller for this product, would you like to
+suggest updates through seller support
+?
+Customer Reviews
+4.1 out of 5 stars
+4
+4.1 out of 5 stars
+5 star
+75%
+4 star
+0%
+3 star
+0%
+2 star
+25%
+1 star
+0%
+Share your thoughts with other customers
+Write a customer review
+See all verified purchase reviews
+Top Customer Reviews
+5.0 out of 5 stars
+excellent ground-breaking noir musical study
+By
+Walter Neff
+on May 17, 2014
+Format: Kindle Edition
+|
+Verified Purchase
+Another outstanding book by Biesen, the first work on noir musical films, a fascinating under-studied hybrid of film noir and dark jazz musicals. An extraordinary follow-up to Biesen's first book, Blackout: World War II and the Origins of Film Noir. Really interesting read, original scholarship with extensive primary archival research. Major films include Blues in the Night, To Have and Have Not, Phantom Lady, Gilda, The Red Shoes, Road House, The Man I Love, Black Angel, A Star Is Born, Young Man With a Horn, Young at Heart, Love Me or Leave Me, West Side Story, New York, New York, Cabaret, All That Jazz, Round Midnight, and many more. Well written film history, accessible to students, scholars, and movie buffs.
+Read more
+0
+Comment
+|
+2 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Noip Musical--On time and On the Mark!
+By
+Dr. Ronald Schwartz
+on December 19, 2015
+Format: Paperback
+|
+Verified Purchase
+An excellent read from the author,  Arrived yesterday, Dec. 18. Carefully wrapped..
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Couldn't Wait to Read This!
+By
+OpenBookSociety dot com
+on June 1, 2014
+Format: Kindle Edition
+Brought to you by OBS reviewer JoAnne
+Since I am a huge classic film – especially noir – lover; I couldn’t wait to read this book. Ms. Biesen has written an outstanding book on the use of music in film noir, and the impact it makes. Drawing upon such films as Gilda, Young Man with a Horn, Blues in the Night, Double Indemnity, and even The Major and the Minor - a film which uses the song “A Woman’s a Two Face” sung by a cadet to Ginger Rogers (masquerading as a teenager, believe it or not) – she has written a comprehensive and extensive work that is well-written and fascinating to read.
+Anyone who is interested in film noir would find this indispensable as a reference – after all, who can forget Dooley Wilson in Casablanca crooning ‘As Time Goes By?’ She covers both well-known and not so well-known films - Christmas Holiday being one of my favorites – Gene Kelly and Deanna Durbin in a dark noir film, both playing against character (I suggest you try to find a copy; it will definitely be worth your while) – and offers a description of the Musician’s Strike of 1942, which has long since passed into history, yet spawned some of the greater singers of the century (Frank Sinatra among them).
+A highly recommended book for both film fans and music lovers alike; after all, who can go wrong with a book that has the sultry Rita Hayworth as Gilda on the cover?
+Visit OpenBookSociety for this review and more!
+Read more
+0
+Comment
+|
+3 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+2.0 out of 5 stars
+A Promising Concept Betrayed
+By
+Michael Samerdyke
+on October 11, 2014
+Format: Paperback
+Opera is sometimes defined as an art form where someone is stabbed and then sings an aria.  Noir musical, perhaps, might be where someone is shot and then sings.
+This was a frustrating book.  It could have been very good, because Biesen points out how flexible noir is as a category, and how closely it connects with the musical.  (Many noirs take place in nightclubs and have characters who are musicians, for instance.)  Music is an important part of film noir.
+However, the book struck me as very badly organized.  Parts of it read like a pure history of film noir in general or even how Hollywood itself changed over the decades.  Some films were very thoroughly discussed, such as "Blues in the Night," which seems to have been the inspiration for this book.  Other films received perfunctory treatment.  Surely a book on music in film noir needs a detailed discussion of the "jazz nightmare" scene in "Phantom Lady."  Biesen breezes over that film and instead discusses "The Red Shoes" as a film noir.  While there is definitely a tragic element to "The Red Shoes," that movie has never struck me as film noir.
+In her last chapter, Biesen talks about dark musicals that came out after "West Side Story" (which she also seems to consider noir) but she never mentions the neo-noirs of this era, whereas earlier she had always linked dark musicals to film noir.  I just found this chapter very unbalanced.
+This book needed a strong editor.  (One little thing that bugged me.  Biesen said Winston Churchill died in 1955.  He did not; he left office that year.  Why would Churchill even be mentioned in a book on film noir in the first place?)  Ultimately, the book felt like Biesen was mashing a lot of her research together between one set of covers.  This could have been so much better.
+Read more
+0
+Comment
+|
+4 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Search Customer Reviews
+Search
+Set up an Amazon Giveaway
+Amazon Giveaway allows you to run promotional giveaways in order to create buzz, reward your audience, and attract new followers and customers.
+Learn more about Amazon Giveaway
+This item:
+Music in the Shadows
+Set up a giveaway
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Look for similar items by category
+Books
+>
+Arts & Photography
+>
+Music
+>
+Musical Genres
+>
+Musicals
+Books
+>
+Arts & Photography
+>
+Performing Arts
+Books
+>
+History
+>
+Americas
+>
+United States
+Books
+>
+Humor & Entertainment
+>
+Movies
+>
+History & Criticism
+Kindle Store
+>
+Kindle eBooks
+>
+Arts & Photography
+>
+Music
+>
+Musical Genres
+>
+Musicals
+Kindle Store
+>
+Kindle eBooks
+>
+History
+>
+Americas
+>
+United States
+Kindle Store
+>
+Kindle eBooks
+>
+Humor & Entertainment
+>
+Movies & Video
+>
+History & Criticism
+Feedback
+If you need help or have a question for Customer Service,
+contact us
+.
+Would you like to report poor quality or formatting in this book?
+Click here
+Would you like to report this content as inappropriate?
+Click here
+Do you believe that this item violates a copyright?
+Click here
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+v

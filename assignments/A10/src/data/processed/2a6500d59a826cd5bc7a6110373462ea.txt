@@ -1,0 +1,87 @@
+This site is optimized with the Yoast SEO plugin v4.6 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://playfm.nl/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]
+[if IE  8]><link rel="stylesheet" type="text/css" href="http://playfm.nl/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]
+THEME STYLES DYNAMIC CUSTOMIZATIONS =========================
+QT STYLES DYNAMIC CUSTOMIZATIONS END =========
+CSS styles added by QT Subpages Plugin
+QT HEADER END ================================
+QT MENUBAR  ================================
+desktop menu  HIDDEN IN MOBILE AND TABLETS
+Home
+Programmering
+Hitlijsten
+Adverteren
+VACATURES
+Contact
+Listen
+mobile menu icon and logo VISIBLE ONLY TABLET AND MOBILE
+mobile menu
+Home
+Programmering
+Hitlijsten
+Adverteren
+VACATURES
+Contact
+mobile toolbar
+SEARCH FORM =========================
+SEARCH FORM END =========================
+ON AIR SHOW =========================
+Now On Air
+NIGHTSHIFT
+NONSTOP MET DE LEKKERSTE MUZIEK DOOR DE NACHT
+00:00
+06:00
+ON AIR SHOW END =========================
+PLAY FM MEGAHIT
+AJR - Weak
+LATER OP PLAY FM
+SHOW UPCOMING ITEM =========================
+DINSDAG 00:00
+NIGHTSHIFT
+SHOW UPCOMING ITEM END =========================
+SHOW UPCOMING ITEM =========================
+DINSDAG 06:00
+PLAY THE MORNING
+SHOW UPCOMING ITEM END =========================
+SHOW UPCOMING ITEM =========================
+DINSDAG 09:00
+BACK TO THE 00’S
+SHOW UPCOMING ITEM END =========================
+SHOW UPCOMING ITEM =========================
+DINSDAG 10:00
+NONSTOP
+SHOW UPCOMING ITEM END =========================
+SHOW UPCOMING ITEM =========================
+DINSDAG 12:00
+GIVE ME THE SUMMER
+SHOW UPCOMING ITEM END =========================
+SHOW UPCOMING ITEM =========================
+DINSDAG 13:00
+NONSTOP
+SHOW UPCOMING ITEM END =========================
+TOP 10
+1
+SHAPE OF YOU
+ED SHEERAN
+2
+IT AIN'T ME
+KYGO & SELENA GOMEZ
+3
+SYMPHONY
+CLEAN BANDIT FEAT. ZARA LARSSON
+Full tracklist
+.qt-main end
+PLAYER SIDEBAR =========================
+PLAYER =========================
+PlayFM
+WE PLAY THE MUSIC
+Current track
+TITLE
+ARTIST
+this is for xml radio feed
+PLAYER END =========================
+CHANNELS LIST =========================
+PlayFM
+CHANNELS LIST END =========================
+PLAYER SIDEBAR END =========================

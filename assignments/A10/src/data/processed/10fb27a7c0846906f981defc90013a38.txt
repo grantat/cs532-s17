@@ -1,0 +1,804 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+All
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+My Decade of Jazz & Pop
+Polinaj
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+April 1, 2016
+5.0 out of 5 stars
+9 customer reviews
+Price display
+$9.49
+VAT Message
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Buy MP3 Album
+$9.49
+Add to MP3 Cart
+Album in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+Sorry Seems to Be the Hardest Word
+Sorry Seems to Be the Hardest Word
+2:30
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+2
+Jerusalem
+Jerusalem
+2:25
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+3
+All of Me
+All of Me
+3:17
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+4
+The Look of Love
+The Look of Love
+2:00
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+5
+St. Louis Blues
+St. Louis Blues
+1:54
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+6
+Just for You
+Just for You
+2:11
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+7
+It Don't Mean a Thing
+It Don't Mean a Thing
+1:54
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+8
+Lovers
+Lovers
+3:37
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+9
+Free from You
+Free from You
+2:36
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+10
+New York State of Mind
+New York State of Mind
+2:34
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Popular Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+DAMN. [Explicit]
+Kendrick Lamar
+339
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Humanz (Deluxe) [Explicit]
+Gorillaz
+52
+Stream
+or buy for
+$14.49
+check if each carouselCard is Platinum or Prime
+Strength Of A Woman [Explicit]
+Mary J. Blige
+32
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Moana (Original Motion Picture...
+Various artists
+521
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+Gunslinger
+Garth Brooks
+262
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+24K Magic
+Bruno Mars
+818
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+What Now [Explicit]
+Sylvan Esso
+3
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+÷ (Deluxe)
+Ed Sheeran
+256
+Stream
+or buy for
+$12.49
+check if each carouselCard is Platinum or Prime
+One Lost Day
+Indigo Girls
+79
+Stream
+or buy for
+$5.00
+check if each carouselCard is Platinum or Prime
+The Ultimate Hits
+Garth Brooks
+1295
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+God's Problem Child
+Willie Nelson
+17
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+Madness
+All That Remains
+8
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+PTX Vol. IV - Classics
+Pentatonix
+56
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Beauty and the Beast (Original...
+Various artists
+70
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+More Life [Explicit]
+Drake
+34
+Stream
+or buy for
+$12.49
+check if each carouselCard is Platinum or Prime
+8 [Explicit]
+Incubus
+28
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Sing (Original Motion Picture ...
+Various artists
+121
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+Saint Cecilia EP
+Foo Fighters
+267
+Stream
+or buy for
+$0.00
+check if each carouselCard is Platinum or Prime
+Shine [Explicit]
+Wale
+7
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Memories...Do Not Open
+The Chainsmokers
+24
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+Big Little Lies (Music From Th...
+Various artists
+13
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Body Like A Back Road
+Sam Hunt
+5
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+Believer
+Imagine Dragons
+6
+Stream
+or buy for
+$0.69
+check if each carouselCard is Platinum or Prime
+La La Land (Original Motion Pi...
+Various artists
+651
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Rogue One: A Star Wars Story (...
+Michael Giacchino
+153
+Stream
+or buy for
+$5.00
+check if each carouselCard is Platinum or Prime
+Emperor of Sand
+Mastodon
+74
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Prisoner B-Sides
+Ryan Adams
+1
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+The Source
+Ayreon
+8
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+Trolls (Original Motion Pictur...
+Various
+436
+Stream
+or buy for
+$10.99
+check if each carouselCard is Platinum or Prime
+Solid State
+Jonathan Coulton
+5
+Stream
+or buy for
+$9.49
+Next
+Product details
+Original Release Date:
+April 1, 2016
+Release Date:
+April 1, 2016
+Label:
+Polinaj
+Copyright:
+2016 Polinaj
+Total Length:
+24:58
+Genres:
+Jazz
+ASIN:
+B01DPJWH94
+Average Customer Review:
+5.0 out of 5 stars
+9 customer reviews
+Amazon Best Sellers Rank:
+#538,738 Paid in Albums (
+See Top 100 Paid in Albums
+)
+#37164
+in
+Digital Music
+>
+Albums
+>
+Jazz
+Customer Reviews
+5.0 out of 5 stars
+9
+5.0 out of 5 stars
+5 star
+100%
+4 star
+0%
+3 star
+0%
+2 star
+0%
+1 star
+0%
+Share your thoughts with other customers
+Write a customer review
+See all verified purchase reviews
+Top Customer Reviews
+5.0 out of 5 stars
+Polinaj..decade of jazz and pop.
+By
+Carmine DeNicola
+on April 6, 2016
+Format: MP3 Music
+|
+Verified Purchase
+My fav s are all of me and sorry seems to be the hardest word,great jazz singer,love the way she embellishes with her lovely voice.Unique and hearth felt.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+PolinaJ’s scat like ear candy melody is what hooks listeners in
+By
+Amazon Customer
+on April 5, 2016
+Format: MP3 Music
+PolinaJ’s most recent release showcases her wide array of eclectic influence throughout the last decade. This includes her takes on classic jazz and contemporary standards as well as her interesting and daring original compositions. The track I am most fond of on the record is Jerusalem, a composition that has a Middle Eastern feel to it. PolinaJ’s scat like ear candy melody is what hooks listeners in. Polina, through originally from Russia, spent some time in Israel for her musical studies. I assume during her time in Israel she was able to write this and other compositions inspired by her environment.
+I was also quite fond of her beautiful scat intro to her cover of All Of Me. It showed magnificent melodic prowess through improvisation. She ends the record with a solid cover of Billy Joel’s New York State Of Mind. Being in New York for the last few years PolinaJ is definitely in a New York State Of Mind. As her last decade of Jazz and Pop comes to a close, she looks to use the exciting and vibrant environment of New York City to create a whole new decade of Jazz and Pop.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+amazing voice!!!amazing album!!
+By
+Amazon Customer
+on April 19, 2016
+Format: MP3 Music
+"Free from you" and "Lovers" I would say are two of my favorite songs, however I loved the whole album also. Polina has a very unique voice along with a strong piano skills which make her stand out from another artists.
+I loved melody and lyrics and especially piano parts in these two particular songs. Her covers are great also, she was able to not just " copy" a song, but to make it sound totally different in her own way and " sorry seems to be the hardest word" sounds much better than an original version ( Elton forgive me please=)
+Looking forward to see her new releases!
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+It was a great pleasure to listen to this album
+By
+Zhanna
+on May 5, 2016
+Format: MP3 Music
+It was a great pleasure to listen to this album. Two songs I especially loved: original song "All of Me" and a cover version of "Sorry seems to be the hardest word". I'm a big fan of Elton John for many years, I absolutely adore this singer. PolinaJ's version of his song added colors of freshness and elegance! Thank you PolinaJ for your unique interpretation and wonderfully interesting voice!
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+this is my favorite track on the album
+By
+Amazon Customer
+on April 19, 2016
+Format: MP3 Music
+Polina J is a unique artist...this is a very pleasant selection of songs...from NY State of Mind...one of my favorites...to the artist's "Jerusalem"  ...this is my favorite track on the album.  I love the energy and the vocal improvisation on this track!  Polina's music put me in a very "pleasant" state of mind.  Bravo!
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Polina has a soulful and unique voice. This album ...
+By
+Jorge Valdiriz
+on April 16, 2016
+Format: MP3 Music
+Polina has a soulful and unique voice. This album includes a wide variety of songs that showcase her ability to recreate and masterfully interpret these classics in a sensual and playful manner. Very stimulating for the ear of the musician and the audience. 👍👍
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Loved it!
+By
+Amazon Customer
+on April 1, 2016
+Format: MP3 Music
+This was a great listen, I'm glad I had an opportunity to check it out.
+I really loved the freestyle parts. It reminded me of something like a female Jamiroquai.
+Please, buy this album right now
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Five Stars
+By
+Amazon Customer
+on April 12, 2016
+Format: MP3 Music
+I love the interplay between piano and vocals. My favorite tracks are Lovers and Jerusalem. Beautiful music.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Most Recent Customer Reviews
+5.0 out of 5 stars
+Five Stars
+Scat singing at its' very best. Polina's melodic sounds is sure to pump your dancing shoes.
+Read more
+Published 10 months ago by Rumsy Says
+Search Customer Reviews
+Search
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-45AnsZwVIYyhuvhzVVCIKMFdtMA6rwHKKRgUBoOM6ExN2DurLR4v5/K73RzIOZMI rid-NZXTMQEZ27T7KNNNPJ9F

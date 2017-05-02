@@ -1,0 +1,31 @@
+InstanceBegin template="/Templates/interior.dwt.php" codeOutsideHTMLIsLocked="false"
+InstanceBeginEditable name="doctitle"
+InstanceEndEditable
+InstanceBeginEditable name="head"
+InstanceEndEditable
+[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]
+repeat
+repeatoff
+play
+pause
+stop
+ON AIR:
+Solo Musica
+...
+www.TuTiempo.net - Ancho:250px - Alto:113px
+Tutiempo.net
+InstanceBeginEditable name="texto"
+Fuente: TN.com.ar
+Publicado por: Miguel Torcida
+InstanceEndEditable
+Tweets by radiomix_py
+NOTICIAS
+Deportes
+Entretenimiento
+Cine
+Video Juegos
+ENVÍENOS UN MENSAJE

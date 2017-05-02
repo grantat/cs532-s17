@@ -1,0 +1,162 @@
+Nav Env: live
+Analytics Web Module: 63
+NavID Web Module: 0.2.0-143
+Searchbox Web Module: 126
+Promo Web Module: 0.0.0-174.b4d6704
+[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="//nav.files.bbci.co.uk/orbit/1.0.0-446.79109ec/css/orb-ie-ltr.min.css">
+    <![endif]
+orb/api must be in the HEAD while the rest of orb.js should be at end of BODY
+[if IE 8]><link href="//static.bbc.co.uk/id/0.37.23/style/ie8.css" rel="stylesheet"/> <![endif]
+[if IE 8]>
+  <script type="text/javascript" src="//nav.files.bbci.co.uk/searchbox/1.0.0-126/script/html5shiv.min.js"></script>
+  <script type="text/javascript">window['searchboxIEVersion'] = 8;</script>
+  <link rel="stylesheet" href="//nav.files.bbci.co.uk/searchbox/1.0.0-126/css/ie8.css">
+<![endif]
+[if IE 9]>
+  <script type="text/javascript">window['searchboxIEVersion'] = 9;</script>
+<![endif]
+BBCDOTCOM head
+BRANDINGID: br-05288
+[if (gt IE 8)|!(IE)]><!
+<![endif]
+[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" href="//branding.files.bbci.co.uk/branding/live/css/aab3c028c3c3da698dbd93bea1ced00f.css" />
+        <![endif]
+[if (lt IE 9) & (!IEMobile)]>
+        <link rel="stylesheet" href="https://static.bbc.co.uk/musicnav/280/2.5.1.280/css/modules/musicnav/style-ie8.css">
+        <link rel="stylesheet" href="https://static.bbc.co.uk/musicnav/280/2.5.1.280/css/modules/search/style-ie8.css">
+        <link rel="stylesheet" href="https://static.bbc.co.uk/musicnav/280/2.5.1.280/css/modules/search-results/style-ie8.css">
+    <![endif]
+[if (gt IE 8) | (IEMobile)]><!
+Include Maxymiser library here to keep it in the head of the document
+<![endif]
+[if IE 8]><script type="text/javascript">Morph.isIE8=true;</script><![endif]
+BBCDOTCOM bodyFirst
+[if (gt IE 8) | (IEMobile)]><!
+<![endif]
+[if (lt IE 9) & (!IEMobile)]>
+        <![if (IE 8)]>
+            <header id="orb-banner" role="banner" class="orb-old-ie orb-ie8" aria-label="BBC">
+        <![endif]>
+
+        <![if (IE 7)]>
+            <header id="orb-banner" role="banner" class="orb-old-ie orb-ie7" aria-label="BBC">
+        <![endif]>
+
+        <![if (IE 6)]>
+            <header id="orb-banner" role="banner" class="orb-old-ie orb-ie6" aria-label="BBC">
+        <![endif]>
+    <![endif]
+Homepage
+Accessibility links
+Skip to content
+Accessibility Help
+BBC iD
+Notifications
+News
+Sport
+Weather
+iPlayer
+TV
+Radio
+CBBC
+CBeebies
+Food
+Bitesize
+Music
+Earth
+Arts
+Make It Digital
+Taster
+Local
+Menu
+Search
+Search the BBC
+Search the BBC
+Styling hook for shared modules only
+Music
+Tracks
+Performances
+Playlists
+Artists
+More
+My Music
+Menu
+My Music
+Home
+Tracks
+Popular
+Find a Track
+Recommended
+Performances
+Popular
+All
+Recommended
+Playlists
+Featured
+All
+Recommended
+Artists
+Popular
+All
+Recommended
+More
+BBC Music News LIVE
+BBC Music Day 2017
+BBC Music My Generation
+BBC Introducing
+BBC Music in iPlayer
+Glastonbury
+BBC Proms
+BBC Performing Groups
+My Music
+My Tracks
+My Performances
+My Interviews
+My Playlists
+My Artists
+Media player
+Close player
+Music News LIVE: Jamiroquai back with a brand new hat
+30 Jan 2017
+30 Jan 2017
+Got a TV Licence?
+You need one to watch live TV on any channel or device, and BBC programmes on iPlayer. It’s the law.
+Find out more
+I have a TV Licence. Watch now.
+I don’t have a TV Licence.
+Summary
+News updates for 30 January 2017
+Jamiroquai back with new music video and gig news
+Phil Collins and Blondie to play Hyde Park
+John Legend and Rihanna condemn Donald Trump over muslim ban
+Zara Larsson and Catfish join IoW lineup
+Live Updates
+Related to this event
+Live Updates
+By Kev Geoghegan & Paul Glynn
+All times stated are UK
+Get involved
+Get involved
+Twitter:
+Follow
+@BBCMusic
+Facebook:
+Follow us on Facebook
+Goodbye Betsy, I'm goin' away...
+Posted at
+15:45
+30 Jan
+AFP
+Cheers Iggy, you always know just what to say.
+And we, dear friends, are heading off too.
+But scroll down for new music from Jamiroquai, Skott and Paul Weller, Ed Sheeran's new video, news on The Jacksons and James Blunt's guide to dealing with Twitter trolls.
+We'll see you crazy kids tomorrow.
+Share
+Share this post on
+Twitter
+Facebook
+Read more about these links.
+Manchester band PINS on their collaboration with Iggy Pop
+BBC 6 Music

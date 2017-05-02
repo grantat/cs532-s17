@@ -1,0 +1,647 @@
+본문 바로가기
+GNB
+엠넷공통 GNB
+facebook
+twitter
+Make the Movement, 엠넷닷컴
+엠넷 앱
+엠튠 앱
+웹플레이어
+M플레이어
+ON-AIR
+로그인전
+회원가입
+ID
+/
+비번찾기
+로그인
+//엠넷공통 GNB
+header
+Header Top Area (S)
+Mnet
+Search Area (S)
+Mnet Search
+닫기
+서제스트 펼치기
+검색
+Search Area (E)
+Header Top Area (E)
+Mnet 1Depth Menu
+TV
+TV홈
+프로그램
+다시보기
+다운로드
+On Air
+/
+편성표
+챠트
+종합 차트
+span class="new_icon">New</span
+장르별 차트
+아티스트 차트
+앨범 차트
+엠카운트다운 차트
+인디 차트
+힙합 차트
+뮤직
+최신음악
+장르음악
+레전드100
+뮤직스타일러
+li><a href="http://www.mnet.com/playlist/"><span class="menu_ti">공개앨범</span></a></li
+공개플레이리스트
+뮤직비디오
+<li><a href="http://mnet.com/tv/livecasting/"><span class="menu_ti">M GIGS</span></a></li>
+매거진
+커버스토리
+뮤직
+TV
+공연
+뉴스
+M GIGS
+Hot 라이브
+M GIGS
+Tune up
+//Mnet 1Depth Menu
+이용권 관련 메뉴
+멤버십 혜택
+201509
+이용권 구매
+쿠폰 등록
+//이용권 관련 메뉴
+//header
+//GNB
+container
+content
+배너이벤트
+/배너이벤트
+앨범정보 (s)
+Automaton
+a href="javascript:;" class="btn_put" mid="mnet_plugin" mtype="bookmark" mval="0202_1758840">담기</a
+<a href="#" class="btn_put">담기</a>
+TODAY
+2
+|
+통계
+앨범소개
+SNS (s) //
+통합 SNS 버튼 교체
+SNS (e) //
+아티스트
+Jamiroquai
+발매일
+2017.03.31
+앨범종류
+정규
+|
+1CD
+음악장르
+팝 > 팝
+기획사
+Jamiroquai Limited, under exclusive licence to Virgin EMI Records
+유통사
+Universal
+좋아요 카운트 가로 확장형
+//좋아요 카운트 가로 확장형
+이전 앨범
+다음 앨범
+애시드 재즈의 상징 자미로콰이(Jamiroquai) [AUTOMATON]
+모두가 기다려온 고급진 Funk
+7년간의 공백을 뒤로하고 돌아온 8집 앨범
+UK 싱글 및 앨범 차트 도합 391주 등재
+2,500만장 이상의 앨범 판매고
+20곡 이상의 히트 싱글
+Chance the Rapper, Phar...
+애시드 재즈의 상징 자미로콰이(Jamiroquai) [AUTOMATON]
+모두가 기다려온 고급진 Funk
+7년간의 공백을 뒤로하고 돌아온 8집 앨범
+UK 싱글 및 앨범 차트 도합 391주 등재
+2,500만장 이상의 앨범 판매고
+20곡 이상의 히트 싱글
+Chance the Rapper, Pharrell, Anderson.Paak,
+Tyler the Creator, Stevie Wonder등 가수들이 사랑하는 아티스트
+높아진 신시사이저의 비중, 로봇 페르소나로 분한 곡 'Automaton'
+자미로콰이 하면 떠오르는 여유로운 그루브의 Funk-Pop 'Cloud 9'
+애시드 재즈 그룹답게 연주의 매력 역시 돋보이는 'Vitamin', 'Dr Buzz' 등 총 12곡 수록
+앨범소개 더보기
+앨범정보 (e)
+//2012-01-12 프로모션 배너
+2012-09-04 남윤화 추가 시작 09월 18일 이후 사라질거임
+<div class="b_promo">
+			<img src="/images/temp/1997_01.jpg" alt="" />
+		</div>
+		
+		<!-- 2012-09-04 남윤화 추가 끝 09월 18일 이후 사라질거임
+수록곡 (s)
+수록곡
+ㅣ
+1CD
+(
+12
+)
+전체듣기
+듣기
+다운로드
+마이앨범에 담기
+재생목록에 추가
+a href="javascript:;" onclick="goBuyAlbum('1758840')" class="btn_down_all"><span>전곡 다운로드 14,000원</span></a>
+						<span class="floatR gubun_db">l</span
+트랙순
+제목순
+Automaton 앨범 수록곡
+모두선택
+번호
+곡정보 / 곡명
+아티스트
+추천
+담기
+영상
+다운로드
+원음
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+1
+Shake It On - 곡정보
+Shake It On
+곡추가
+좋아요
+Jamiroquai
+추천
+17409304
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+2
+Automaton - 곡정보
+Automaton
+타이틀
+곡추가
+좋아요
+Jamiroquai
+추천
+16394932
+영상
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+3
+Cloud 9 - 곡정보
+Cloud 9
+곡추가
+좋아요
+Jamiroquai
+추천
+16414979
+영상
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+4
+Superfresh - 곡정보
+Superfresh
+곡추가
+좋아요
+Jamiroquai
+추천
+17409305
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+5
+Hot Property - 곡정보
+Hot Property
+곡추가
+좋아요
+Jamiroquai
+추천
+17409306
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+6
+Something About You - 곡정보
+Something About You
+곡추가
+좋아요
+Jamiroquai
+추천
+17409307
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+7
+Summer Girl - 곡정보
+Summer Girl
+곡추가
+좋아요
+Jamiroquai
+추천
+17409308
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+8
+Nights Out In The Jungle - 곡정보
+Nights Out In The Jungle
+곡추가
+좋아요
+Jamiroquai
+추천
+17409309
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+9
+Dr Buzz - 곡정보
+Dr Buzz
+곡추가
+좋아요
+Jamiroquai
+추천
+17409310
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+10
+We Can Do It - 곡정보
+We Can Do It
+곡추가
+좋아요
+Jamiroquai
+추천
+17409311
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+11
+Vitamin - 곡정보
+Vitamin
+곡추가
+좋아요
+Jamiroquai
+추천
+17409312
+영상이 없습니다.
+MP3
+원음 앨범 단위 구매 안내 메시지
+원음 이용 안내
+스튜디오 원음 그대로, Studio Master 음원을
+감상해 보세요!
+Mnet에서 이제 스튜디오 마스터링 품질의 고해상도음원인 MAQ(MAstered Quality sound)와 CDQ(Compact Disc Quality sound)를 중심으로 한 고음질 음원을 제공합니다. 
+					MAQ를 통해 스튜디오에서 녹음한 원음 그대로, 고품질의 오리지널 원음을 감상할 수 있을 뿐만 아니라, CDQ로 CD음질 그대로 고품격 음악을 감상할 수 있습니다.
+확인
+닫기
+//원음 앨범 단위 구매 안내 메시지
+12
+Carla - 곡정보
+Carla
+곡추가
+좋아요
+Jamiroquai
+추천
+17409313
+영상이 없습니다.
+MP3
+수록곡 (e)
+뮤직비디오 (s)
+뮤직비디오
+(
+2
+)
+00:05:20
+영상 재생
+시청등급 12
+Cloud 9
+Jamiroquai
+dd class="date">2017.01.27</dd
+00:05:01
+영상 재생
+시청등급 12
+Automaton
+Jamiroquai
+dd class="date">2017.01.27</dd
+뮤직비디오 (e)
+댓글 (s)
+댓글 (e)
+//content
+aside_right
+aside_right
+이 앨범의 아티스트
+Jamiroquai
+남성
+|
+그룹
+팝
+>
+댄스, 훵크
+l
+재즈
+>
+애시드/누 재즈
+l
+일렉트로니카
+>
+트립합, 클럽/댄스
+Love Foolosophy
+Virtual Insanity
+Virtual Insanity
+Little L
+Cloud 9
+이 아티스트의 다른앨범
+(
+62
+)
+[정규]
+						Automaton
+2017.03.31
+[앨범]
+						Cloud 9 (Tough Love Remix)
+2017.03.17
+[앨범]
+						Cloud 9 (Purple Disco Machine Remix)
+2017.02.24
+[앨범]
+						Cloud 9 (Fred Falke Remix)
+2017.02.24
+[앨범]
+						Automaton (Deetron Remix)
+2017.02.17
+[앨범]
+						The Return Of The Space Cowboy (Collector`s Edition)
+2013.03.22
+[앨범]
+						Emergency On Planet Earth (Collector`s Edition)
+2013.03.21
+[앨범]
+						Travelling Without Moving (Collector`s Edition)
+2013.03.20
+[싱글]
+						Blue Skies
+2011.01.10
+[정규]
+						Discover Jamiroquai - EP
+2010.11.09
+[정규]
+						Rock Dust Light Star
+2010.11.01
+[앨범]
+						Rock Dust Light Star (Deluxe Ver.)
+2010.11.01
+[정규]
+						Rock Dust Light Star (International Standard Ver.)
+2010.11.01
+[싱글]
+						White Knuckle Ride (International 2 Track)
+2010.10.11
+[싱글]
+						White Knuckle Ride (International 3 Track)
+2010.10.11
+[싱글]
+						White Knuckle Ride (Single)
+2010.08.30
+[컴필]
+						Hollywood Swinging Mix
+2009.11.18
+[싱글]
+						Seven Days In Sunny June (Maxi-Single-CD)
+2009.03.31
+[앨범]
+						High Times: Singles 1992-2006
+2006.11.21
+[정규]
+						High Times - Singles 1992-2006
+2006.11.03
+[싱글]
+						You Give Me Something (Single)
+2005.10.07
+[정규]
+						Seven Days In Sunny June
+2005.08.16
+[정규]
+						Seven Days In Sunny June
+2005.08.10
+[정규]
+						Dynamite
+2005.06.20
+[정규]
+						Feels Just Like It Should
+2005.06.07
+[정규]
+						Seven Days In Sunny June
+2005.01.01
+[정규]
+						Dynamite
+2004.06.21
+[앨범]
+						Late Night Tales
+2003.10.21
+[정규]
+						Emergency On Planet Earth / The Return Of The Space Cow Boy (Coffret 2 CD)
+2003.05.19
+[정규]
+						Corner Of The Earth
+2002.09.02
+[정규]
+						Love Foolosophy
+2002.03.04
+[정규]
+						A Funk Odyssey (Special Asian Tour Edition)
+2002.02.26
+[정규]
+						A Funk Odyssey
+2001.09.11
+[정규]
+						Little L
+2001.08.13
+[앨범]
+						Greatest Hits Jamiroquai
+2000.01.01
+[정규]
+						Supersonic
+1999.11.23
+[정규]
+						King For A Day
+1999.11.22
+[정규]
+						Synkronized
+1999.06.08
+[싱글]
+						Canned Heat (Single)
+1999.06.01
+[정규]
+						Canned Heat
+1999.06.01
+[정규]
+						Canned Heat
+1999.05.21
+[정규]
+						Canned Heat
+1999.05.03
+[정규]
+						Travelling Without Moving
+1997.01.14
+[정규]
+						Cosmic Girl
+1996.12.30
+[정규]
+						The Return of the Space Cowboy
+1995.01.01
+[정규]
+						Emergency On Planet Earth
+1993.08.10
+[정규]
+						Supersonic
+[정규]
+						Supersonic
+[정규]
+						STILLNESS IN TIME (Radio Edit)
+[정규]
+						Virtual Insanity
+[정규]
+						COSMIC GIRL
+[정규]
+						Deeper Underground
+[정규]
+						High Times: Singles 1992-2006 (Remastered)
+[정규]
+						Emergency On Planet Earth
+[정규]
+						The Return of the Space Cowboy
+[정규]
+						Coffret 3 CD : Emergency Of Planet Earth/The Return Of The Space Cowboy/Travelling Without Moving
+[정규]
+						Deeper Underground
+[정규]
+						(Don't) Give Hate A Chance
+[정규]
+						Feels Just Like It Should
+[정규]
+						Seven Days In Sunny June
+[정규]
+						Little L
+0   .  .
+[정규]
+						You Give Me Something
+0   .  .
+1
+/7
+prev
+next
+추천 앨범
+(
+5
+)
+Swalla (Feat. Nicki Minaj & Ty Dolla $ign)
+Jason Derulo
+Obsession
+Vice
+Don`t Cry, 2020
+Coin
+Make Your Money, Shake It
+Black Gatsby
+Free Fall
+Christopher
+/div
+//aside_right
+//container
+Footer
+footer
+DigitalMusic
+Copyright (C) CJ DigitalMusic
+All rights reserved.
+회사소개
+엠넷제휴
+이용약관
+개인정보처리방침
+청소년보호정책
+법적고지
+이메일무단수집거부
+채널안내
+큐톤표
+고객센터

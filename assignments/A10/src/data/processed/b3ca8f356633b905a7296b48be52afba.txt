@@ -1,0 +1,48 @@
+[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]
+[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]
+[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]
+[if gt IE 8]><!
+<![endif]
+Pedido enviado com sucesso! :)
+Preencha os campos abaixo para submeter seu pedido de música:
+Leave this blank if you're human
+Your browser dont support that element.
+Tocando Agora:
+Carregando...
+MENU
+Home
+Jovem FM
+Equipe
+Notícias
+Programação
+Fale conosco
+Jamiroquai lança faixa-título de novo álbum
+Compartilhe:
+O Jamiroquai, está de volta após sete anos sem novos lançamentos. O grupo liderado por Jay Kay acaba de estrear a faixa-título do próximo álbum de estúdio, chamado Automaton.
+A música foi liberada com um videoclipe repleto de mensagens a serem passadas, como sempre foi o costume do Jamiroquai.
+“Automaton” é responsável por divulgar o oitavo disco da banda, com lançamento marcado para o dia 31 de março.
+O single tem influências do R&B e do jazz funk dos anos 1970.
+Deixe seu comentário:
+Nossas Redes Sociais
+Votação
+Como você vê as medidas de Donald Trump sobre imigrantes?
+Não concordo. Só acirra as diferenças
+Concordo. É importante para combater o terrorismo
+Resultados
+Votar
+Rádio Jovem FM
+R. Comendador Schumann, 127, Centro/Itajubá - MG
+Cep.: 37501-056
+Fone: (35) 3622 4649
+ouvinte@jovemfm987.com
+Mapa do Site
+Home
+Jovem FM
+Equipe
+Notícias
+Programação
+Fale conosco
+Redes sociais
+Curta no Facebook
+© Direitos reservados - Rádio Jovem FM 1986 - 2017
+Web Rádio administrável

@@ -1,0 +1,412 @@
+This site is optimized with the Yoast SEO plugin v4.6 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://cdn.singersroom.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]
+mvp-fly-logo
+mvp-fly-top-in
+mvp-fly-but-wrap
+mvp-fly-top-out
+mvp-fly-menu-top
+Shop
+News
+Music
+Videos
+Interviews
+Artists
+Editorials
+Voice & Acoustics
+Pop Music Room (PMR)
+Singersroom UK
+mvp-fly-menu-wrap
+Connect with us
+mvp-fly-soc-wrap
+mvp-fly-wrap
+mvp-leader-wrap
+mvp-search-box
+mvp-search-but-wrap
+mvp-search-wrap
+mvp-head-top
+mvp-fly-but-wrap
+Singersroom.com
+mvp-logo-nav
+Shop
+News
+Report: Prince’s Family Prepping Reality Show
+H.E.R. Releases New Single ‘Say It’ & Announces ‘H.E.R Volume 2’ Release Date
+Brandy Shares More Clips Of New Music
+Ciara and Russell Wilson Welcome First Child, Baby Girl Sienna Princess Wilson
+Mississippi Man Sues R. Kelly Over Alleged Affair With His Wife
+Music
+R&B Music
+Mix Room
+Videos
+Dye Hard – Don’t Know Us
+Danielle Martin – The One
+DANA – Feelings
+SZA – Love Galore ft. Travis Scott
+Finnli – If
+Features
+Interviews
+Editorials
+Voice & Acoustics
+Artists
+PMR
+mvp-nav-menu
+mvp-nav-main
+mvp-nav-right-in
+mvp-nav-soc
+mvp-nav-right
+mvp-nav-right-out
+mvp-nav-right-wrap
+mvp-nav-left-in
+mvp-nav-left-out
+mvp-main-nav-cont
+mvp-main-in
+mvp-main-out
+mvp-main-boxed-wrap
+mvp-nav-wrap
+Rising Star Ambri Releases An Amazing Cover of James Brown’s Classic ‘Man’s, Man’s, Man’s World’ (Video)
+mvp-nav-soc-title
+Share
+Tweet
+mvp-nav-soc-list
+mvp-nav-soc-cont
+mvp-main-in
+mvp-main-out
+mvp-nav-soc-bar
+mvp-head-wrap
+mvp-post-feat-img
+mvp-post-info-col
+R&B Music Videos
+Rising Star Ambri Releases An Amazing Cover of James Brown’s Classic ‘Man’s, Man’s, Man’s World’ (Video)
+mvp-post-author-img
+By
+Elle Breezy
+mvp-post-author
+Published on
+January 31, 2017
+mvp-post-date
+mvp-post-info-in
+mvp-post-info-out
+mvp-post-info-top
+Share
+Tweet
+Comment
+mvp-post-info-bot
+mvp-post-info-wrap
+Start Custom Video Player
+End Custom Video Player
+Fresh from releasing a beautiful cover of Torey Lanez massive hit “Say It,” Brookyn-native Ambri
+releases the cover video to The God Father of Soul James Brown’s classic hit “It’s A Man’s Man’s Man’s World.”
+Ambri’s soulful vocals are quite impressive and does justice to the record. When asked why she chose to cover the timeless classic she replied, “I’m very big on women empowerment. I loved the idea of recording a classic by a male legend such as The Godfather of Soul
+James Brown, that empowers women. This song also goes hand in hand with my first single, “Wouldn’t Be” that I am releasing, which is why I call the cover song and video
+“
+Man’s World Part 1.”
+Watch Ambri’s amazing cover below:
+Ambri was raised in the church and grew up singing there and at all her school plays. Throughout her school years, she engulfed herself in all musical activities. She graduated from Brooklyn High School of The Arts as a vocal major, and from there she enrolled in NYFA (New York Film Academy) studying musical theater. While attending NYFA (New York Film Academy), she studied under the leadership of some amazing instructors who performed on Broadway and helped guided her career.
+At the age of 14, she auditioned at the legendary Apollo theater and performed a rendition of Alicia Keys smash hit “If I Aint Got You” and was chosen as the runner-up. It was then she knew that music was her calling and that she wanted to pursue it professionally. She was so determined that she signed herself up to audition at shows such as, American Idol, The X Factor, The Voice, America’s Got Talent and Michael Bivens’ Talent Search.
+Ambri has collaborated with industry heavy weights like Claude Kelly and Chuck Harmony (Jessie J, Bruno Mars, etc.), JFK ( Beyonce, Iggy, Teyana Taylor, Estelle, etc.), The Order (Beyonce ‘Jealous’, ‘Drunk in Love’…just to name a few.) The soulful songstress is currently in the studio finishing up her musical project, shooting videos and gearing up to put together her first official showcase.
+END THEIA POST SLIDER
+Tweet
+More
+Email
+WhatsApp
+mvp-content-main
+More About:
+Ambri
+mvp-post-tags
+Continue Reading
+mvp-ad-rel-top
+<iframe width="300" height="250" src="https://www.youtube.com/embed/4jATERgPqZY" frameborder="0" allowfullscreen></iframe>
+mvp-post-bot-ad
+You may also like...
+mvp-post-bot-rel
+mvp-ad-rel-in
+mvp-ad-rel-out
+mvp-ad-rel-bot
+mvp-ad-rel-wrap
+posts-nav-link
+Site LInks
+Around The Web
+End Site Links
+mvp-org-logo
+mvp-org-wrap
+Click to comment
+mvp-comments-button
+mvp-post-content-mid
+mvp-post-content-in
+mvp-post-content-out
+mvp-post-content
+mvp-post-content-wrap
+More in R&B Music Videos
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Dye Hard – Don’t Know Us
+By
+Singersroom
+May 1, 2017
+mvp-feat1-info
+"Don’t Know Us" is a music video about Dye Hard’s male interest (played by Malachiae Warren)...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Danielle Martin – The One
+By
+Elle Breezy
+April 28, 2017
+mvp-feat1-info
+Produced by Sonatic Music Group, the song has a smooth-sweet, bouncy, summer time feel against a...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+DANA – Feelings
+By
+Singersroom
+April 28, 2017
+mvp-feat1-info
+The song, which was written by Dana, is an autobiographical tale of unrequited love.
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+SZA – Love Galore ft. Travis Scott
+By
+Elle Breezy
+April 28, 2017
+mvp-feat1-info
+In the video, the west coast songbird is surrounded by butterflies as she teases and titillates...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Finnli – If
+By
+Elle Breezy
+April 27, 2017
+mvp-feat1-info
+Finnli always keeps it real with positive, uplifting messages in her music, and this one is...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Madalen Duke – Hitlist ft. Trinidad James
+By
+Elle Breezy
+April 26, 2017
+mvp-feat1-info
+Madalen Duke, the Canadian singer/songwriter and sultry femme fatale is getting revenge on Trinidad James in...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Lady Wray Returns With ‘Underneath My Feet’ Video
+By
+Singersroom
+April 26, 2017
+mvp-feat1-info
+Chasing down a cheating man never looked or sounded as good as Lady Wray makes it...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Jacob Latimore Celebrates Starring Role in ‘Sleight,’ Drops ‘Love Drug’ Video
+By
+Singersroom
+April 25, 2017
+mvp-feat1-info
+A fan favorite from his album Connection, "Love Drug" is about the intoxicating nature that new...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Cymphonique – Drippin
+By
+Elle Breezy
+April 25, 2017
+mvp-feat1-info
+On the song, the 20-year old collabed with hit music producer Scott Scorch for the new...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvpfeat-vid-but
+mvp-main-blog-img
+R&B Music Videos
+Jeremih Releases ‘I Think Of You’ Video Featuring Chris Brown & Big Sean
+By
+Singersroom
+April 25, 2017
+mvp-feat1-info
+Throughout the video, Jeremih, Chris Brown, and Big Sean are all vying for the attention of...
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-main-blog-text
+mvp-main-blog-in
+mvp-main-blog-out
+mvp-main-blog-story
+mvp-main-blog-wrap
+mvp-post-bot-wrap
+mvp-prev-post-arrow
+Evan Taylor Jones – Love Me Now ft. Niko Is (John Legend Cover)
+mvp-prev-post-text
+mvp-prev-post-wrap
+mvp-prev-post-arrow
+The New Respects – Money
+mvp-prev-next-text
+mvp-next-post-wrap
+mvp-prev-next-wrap
+mvp-content-left-wrap
+mvp-content-side-in
+Advertisement
+mvp-widget-ad
+Follow Singersroom
+Facebook
+38.7K
+Fans
+Twitter
+29K
+Followers
+Instagram
+5K
+Followers
+Trending
+mvp-trend-widget-img
+News
+Ciara and Russell Wilson Welcome First Child, Baby Girl Sienna Princess Wilson
+mvp-trend-widget-text
+mvp-100img-in
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-100img-out
+mvp-trend-widget-story
+mvp-trend-widget-img
+Mix Room - R&B Mixtapes
+JJ Singleton Drops ‘Senior Year’ Mixtape
+mvp-trend-widget-text
+mvp-100img-in
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-100img-out
+mvp-trend-widget-story
+mvp-trend-widget-img
+Photos
+Beyonce Shares Photos From Wearable Art Gala
+mvp-trend-widget-text
+mvp-100img-in
+mvp-story-share-cont
+mvp-story-share-wrap
+mvp-100img-out
+mvp-trend-widget-story
+mvp-trend-widget-wrap
+Advertisement
+mvp-widget-ad
+Shop Singersroom
+Advertisement
+Responsive
+mvp-widget-ad
+mvp-side-wrap
+mvp-content-side-out
+mvp-post-area
+mvp-foot-ad-wrap
+mvp-main-content-wrap
+mvp-main-in
+mvp-main-out
+mvp-main-boxed-wrap
+mvp-main-wrap
+Home
+Shop
+News
+Music
+Videos
+Artists
+Interviews
+mvp-foot-nav
+mvp-foot-in-wrap
+mvp-main-in
+mvp-main-out
+mvp-foot-top-wrap
+The Soul Train Award winner for "Best Soul Site," Singersroom features top
+R&B Singers
+, candid
+R&B Interviews
+,
+New R&B Music
+,
+Soul Music
+,
+R&B News
+,
+R&B Videos
+, and
+editorials
+on fashion & lifestyle trends.
+In addition, we cover soul and R&B artist in the
+UK
+, Canada, and rest of the world.
+©2017 Singersroom. All Rights Reserved.
+About
+|
+Contact
+|
+Advertise
+|
+Privacy Policy
+|
+Terms of Use
+|
+Sitemap
+Created & Managed by
+Purlue.com, a Long Island Web Design & SEO Company
+.
+A Member of Townsquare Music
+mvp-foot-copy
+mvp-foot-in-wrap
+mvp-main-in
+mvp-main-out
+mvp-foot-bot-wrap
+mvp-site
+To Top
+mvp-fly-top
+mvp-fly-fade
+Send to Email Address
+Your Name
+Your Email Address
+Cancel
+Post was not sent - check your email addresses!
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.

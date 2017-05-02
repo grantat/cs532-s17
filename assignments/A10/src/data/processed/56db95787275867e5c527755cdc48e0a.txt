@@ -1,0 +1,1017 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+Lester Young With The Oscar Peterson Trio
+Lester Young
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+January 1, 1948
+4.8 out of 5 stars
+49 customer reviews
+To enable Prime Music, you must have JavaScript turned on in your browser.
+Price display
+Start your 30-day free trial of Unlimited
+to listen to this album plus tens of millions more songs. Exclusive Prime pricing.
+See all 4 formats and editions
+Hide other formats and editions
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Listen Now with Amazon Music
+Lester Young With The Oscar Peterson Trio
+"Please retry"
+Amazon Music Unlimited
+Price
+New from
+Used from
+Do not show expander when DVD_redesign weblab is in treatment
+MP3 Music, June 24, 1997
+"Please retry"
+$5.99
+$5.99
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Audio CD, Original recording remastered, June 24, 1997
+"Please retry"
+$14.99
+$10.96
+$4.89
+This file is a replica of swatches.jsp
+     The only difference we have introduced here is to use absolute paths 
+     and dynamic includes
+Streaming
+Unlimited
+MP3
+$5.99
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+Listen with our
+Free App
+Audio CD
+$14.99
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+23 Used
+from
+$4.89
+24 New
+from
+$10.96
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Listen to any song, anywhere with Amazon Music Unlimited.
+Learn More
+Buy MP3 Album
+$5.99
+Add to MP3 Cart
+Album in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Buy CD + free MP3 album
+$14.99
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+Ad Lib Blues
+by
+Lester Young & The Oscar Peterson Trio
+Ad Lib Blues
+by
+Lester Young & The Oscar Peterson Trio
+5:54
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+2
+I Can't Get Started
+by
+Lester Young & The Oscar Peterson Trio
+I Can't Get Started
+by
+Lester Young & The Oscar Peterson Trio
+3:41
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+3
+Just You, Just Me
+by
+Lester Young & The Oscar Peterson Trio
+Just You, Just Me
+by
+Lester Young & The Oscar Peterson Trio
+7:41
+Album Only
+4
+Almost Like Being In Love
+by
+Lester Young & The Oscar Peterson Trio
+Almost Like Being In Love
+by
+Lester Young & The Oscar Peterson Trio
+3:34
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+5
+Tea For Two
+by
+Lester Young & The Oscar Peterson Trio
+Tea For Two
+by
+Lester Young & The Oscar Peterson Trio
+7:45
+Album Only
+6
+There Will Never Be Another You
+by
+Lester Young & The Oscar Peterson Trio
+There Will Never Be Another You
+by
+Lester Young & The Oscar Peterson Trio
+3:28
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+7
+(Back Home Again In) Indiana
+by
+Lester Young & The Oscar Peterson Trio
+(Back Home Again In) Indiana
+by
+Lester Young & The Oscar Peterson Trio
+7:04
+Album Only
+8
+On The Sunny Side Of The Street
+by
+Lester Young & The Oscar Peterson Trio
+On The Sunny Side Of The Street
+by
+Lester Young & The Oscar Peterson Trio
+3:27
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+9
+Stardust
+by
+Lester Young & The Oscar Peterson Trio
+Stardust
+by
+Lester Young & The Oscar Peterson Trio
+3:35
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+10
+I'm Confessin'
+by
+Lester Young & The Oscar Peterson Trio
+I'm Confessin'
+by
+Lester Young & The Oscar Peterson Trio
+3:42
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+11
+I Can't Give You Anything But Love
+by
+Lester Young & The Oscar Peterson Trio
+I Can't Give You Anything But Love
+by
+Lester Young & The Oscar Peterson Trio
+3:23
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+12
+These Foolish Things
+by
+Lester Young
+These Foolish Things
+by
+Lester Young
+3:32
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+13
+(It Takes) Two To Tango
+by
+Lester Young & The Oscar Peterson Trio
+(It Takes) Two To Tango
+by
+Lester Young & The Oscar Peterson Trio
+6:09
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+14
+I Can't Get Started
+by
+Lester Young & The Oscar Peterson Trio
+I Can't Get Started
+by
+Lester Young & The Oscar Peterson Trio
+0:52
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Customers Also Bought These Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+Oscar Peterson Trio Plus One
+The Oscar Peterson Trio and Clark Terry
+26
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Pres & Teddy
+The Lester Young - Teddy Wilson Quartet
+28
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Stan Getz And The Oscar Peters...
+Stan Getz & The Oscar Peterson Trio
+89
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+We Get Requests
+The Oscar Peterson Trio
+45
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+A Day In The Life
+Wes Montgomery
+53
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Pyramid
+The Modern Jazz Quartet
+15
+Stream
+or buy for
+$3.99
+check if each carouselCard is Platinum or Prime
+Herb Alpert Presents
+Sergio Mendes
+80
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+We're All Together Again For T...
+Dave Brubeck
+34
+Stream
+or buy for
+$3.99
+check if each carouselCard is Platinum or Prime
+Ben Webster Meets Oscar Peterson
+Oscar Peterson and Ben Webster
+50
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Midnight Blue (The Rudy Van Ge...
+Kenny Burrell
+106
+Stream
+or buy for
+$6.99
+check if each carouselCard is Platinum or Prime
+Jazz Samba
+Charlie Byrd & Stan Getz
+144
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+Clifford Brown And Max Roach
+Max Roach & Clifford Brown
+31
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+The Sidewinder (The Rudy Van G...
+Lee Morgan
+109
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Study In Brown
+Clifford Brown and Max Roach
+35
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+The Jazz Giants 56
+Lester Young & Roy Eldridge
+18
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Smokin' At The Half Note (Expa...
+Wes Montgomery
+35
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+The Cannonball Adderley Quinte...
+John Coltrane and Cannonball Adderley
+23
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Inception
+McCoy Tyner
+8
+Stream
+or buy for
+$4.99
+check if each carouselCard is Platinum or Prime
+The Guitar Artistry Of Charlie...
+Charlie Byrd
+12
+Stream
+or buy for
+$6.99
+check if each carouselCard is Platinum or Prime
+Ballads
+John Coltrane
+36
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+Blue Lester - The One and Only...
+Lester Young
+2
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+All-Time Greatest Jazz Ballads
+Various artists
+16
+Stream
+or buy for
+$11.97
+check if each carouselCard is Platinum or Prime
+The Art Tatum Solo Masterpiece...
+Art Tatum
+14
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Somethin' Else (Rudy Van Gelde...
+Cannonball Adderley
+186
+Stream
+or buy for
+$7.74
+check if each carouselCard is Platinum or Prime
+Great Masters Of Jazz
+Various artists
+Stream
+or buy for
+$14.49
+check if each carouselCard is Platinum or Prime
+Getz/Gilberto
+João Gilberto and Stan Getz
+361
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Big Blues
+Art Farmer/Jim Hall
+4
+Stream
+or buy for
+$3.99
+check if each carouselCard is Platinum or Prime
+The John Coltrane Quintet with...
+The John Coltrane Quintet, Eric Dolphy
+7
+Stream
+or buy for
+$1.99
+check if each carouselCard is Platinum or Prime
+Very Tall
+Oscar Peterson & Milt Jackson
+29
+Stream
+or buy for
+$4.99
+check if each carouselCard is Platinum or Prime
+Maiden Voyage (The Rudy Van Ge...
+Herbie Hancock
+109
+Stream
+or buy for
+$5.99
+Next
+Product details
+Original Release Date:
+January 1, 1948
+Release Date:
+June 24, 1997
+Label:
+Verve Records
+Copyright:
+℗© 1997 The Verve Music Group, a Division of UMG Recordings, Inc.
+Record Company Required Metadata:
+Music file metadata contains unique purchase identifier.
+Learn more
+.
+Total Length:
+1:03:47
+Genres:
+Jazz
+ASIN:
+B000V6U8HS
+Average Customer Review:
+4.8 out of 5 stars
+49 customer reviews
+Amazon Best Sellers Rank:
+#40,039 Paid in Albums (
+See Top 100 Paid in Albums
+)
+#1993
+in
+Digital Music
+>
+Albums
+>
+Jazz
+Customer Reviews
+4.8 out of 5 stars
+49
+4.8 out of 5 stars
+5 star
+88%
+4 star
+12%
+3 star
+0%
+2 star
+0%
+1 star
+0%
+Share your thoughts with other customers
+Write a customer review
+See all verified purchase reviews
+Top Customer Reviews
+5.0 out of 5 stars
+Lester leaps in
+By
+bob meier
+on October 31, 2016
+Format: Audio CD
+|
+Verified Purchase
+This goes against almost everything I have read about Lester-that his Basie recordings are the ones to get and that after the forties he was a shadow of himself.
+I've heard the Basie recordings and they didn't do a whole lot for me. But I LOVE this cd. Peterson and bass player(Roy Brown?) give perfect support to Lester who sounds like he is effortlessly winging it-like the jazz master that he was. This was recorded in 1952-maybe there was a slide
+after that but you wouldn't know it from these recordings. Perhaps I just prefer a small group format to a big band.  For me this is as good as Ben Webster's record with Peterson
+Read more
+0
+Comment
+|
+3 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+A Verve Remaster From 1952
+By
+Liam Watson
+on February 20, 2014
+Format: Audio CD
+|
+Verified Purchase
+This remastered re-issue brings together all of the recordings from November 28, 1952 of Lester Young and the Oscar Peterson Trio including a false start of "I Just Can't Get Started". Also it contains the original cover of the album which is a lot friendlier than the cover on the "The President Plays" title from 1989. All the songs are an outstanding performance and feature mainly love songs. Peterson and Barney Kessel perform extraordinary solos on "Ad Lib Blues", "Just You, Just Me", the upbeat "Tea for Two", "Back Home Again in Indiana", and "I Can't Give You Anything But Love." The slow ballads have a very strong romantic feel with Young's raspy tone on his sax. One exception from Young's other studio recordings are his vocals on "(It Takes) Two to Tango" which came from "The President Plays". Though it may sound a little sexist, it still is a good parody version of the song. Very recommended for lovers.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Ethereal, Sweet @ Swinging
+By
+JG
+on January 11, 2007
+Format: Audio CD
+|
+Verified Purchase
+This Verve master edition is a beautifully done package and deserves a place in any music library as one of the bonafide classics of jazz recorded in 1952.
+The sparse sweet nature of the jell of these musicians here is amazing stuff and for those new to Lester Young, an icon whose sax is one of the benchmarks of his genre,you won't be sorry because these recordings are a historical document comprising basically two 10 inch LP issues, an LP
+and a couple of "sly curios" and banter with Oscar Peterson and his men.
+The standards covered are transformed and when heard, the opening Ad Lib Blues composed by Young sets the next hour of this CD right.
+Needless to say, Oscar Peterson is another piano giant and the total package includes booklet, all wonderfully remastered, and as the notes within say is a collection that ranks with Ellington's Okeh material, and Armstrong's Hot 5 and 7's..not that those are the only great times those men recorded..just as Young's work, they did not call him Pres for nothing.
+Read more
+0
+Comment
+|
+4 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Gota have it.
+By
+Ted
+on August 2, 2016
+Format: Audio CD
+|
+Verified Purchase
+Even if you dont like jazz you should give this a try.  Life isnt complete without this album.  This is music for the soul
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Should be 6 Stars
+By
+J. S. Geers
+on January 11, 2006
+Format: Audio CD
+|
+Verified Purchase
+This recording,  made in the years that were allegedly not his very best, demonstrates absolutely that Willis Lester Young is indeed the President of the Saxophone.  Young's effortless sweet swing flowing along with Oscar Peterson and highlighted with some great guitar work by Barney Kessel will hook you.  A special bonus is the President's humor displayed in his vocalizing on Two to Tango.  The re-master quality is excellent.  There are lots of players who played more notes and had a "bigger" sound.  Young was replaced by Coleman Hawkins in Basie's band partly because Hawkins blew louder.  But for making every note count, wonderful melodic invention and great rythmic surprises, for absolute mastery of the horn, Lester Young takes second chair to none.  Nearly every tenor player since the 30's has cited Young as an influence.  Listen to this CD and you will know why.  Buy it today and love it for a very long time.
+Read more
+1
+1 comment
+|
+10 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Great record
+By
+Ron
+on October 28, 2013
+Format: MP3 Music
+|
+Verified Purchase
+Lester Young also well known for playing with Count Basie band, but this is him with just a small group so you hear his great sax up close and personal.  Sure, the piano and guitar playing is nice, they all are spectacular but that sax, that's why you want to keep listening.  This is a very enjoyable jazz recording.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Young's phrasing and rhythmic sense just blows my mind. ...
+By
+J. Woodruff
+on September 5, 2015
+Format: Audio CD
+|
+Verified Purchase
+Young's phrasing and rhythmic sense just blows my mind. This literally took my breath away. Really there is nothing else to say.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+This is one of the best jazz cds I have purchased in a long time
+By
+Elizabeth
+on June 3, 2015
+Format: Audio CD
+|
+Verified Purchase
+This is one of the best jazz cds I have purchased in a long time.  The blend of these two greats is so rewarding to sit back an just enjoy!
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Customer Images
+See all customer images
+Most Recent Customer Reviews
+5.0 out of 5 stars
+Buy this CD
+Excellent jazz CD.
+Read more
+Published 12 months ago by Joan
+4.0 out of 5 stars
+Hghyly recommend.
+Fast shipping.  Hghyly recommend.
+Read more
+Published 1 year ago by Amazon Customer
+4.0 out of 5 stars
+Very nice set. Oscar is a little restrained on this ...
+Very nice set.  Oscar is a little restrained on this album, but Lester plays well and has fun!
+Read more
+Published 1 year ago by Thomas Osborne
+4.0 out of 5 stars
+Lester Still Taking Care of Business
+It is a joy to hear Lester Young in 1952, still in good form, just prior to his decline in the mid-1950's.
+Read more
+Published 1 year ago by classicfilmfan
+5.0 out of 5 stars
+I like to play it loud in the car with the ...
+Classy jazz. I like to play it loud in the car with the windows down as I'm cruising through the middle of some sod-busting town where only Merle and Rooster and all those other...
+Read more
+Published on February 4, 2015 by Tombo33
+5.0 out of 5 stars
+Classic Album...
+Classic Album for Jazz fans, a must have.
+Read more
+Published on January 1, 2015 by H.S.G.W.
+5.0 out of 5 stars
+Listen, and learn!
+What a knock out, with two of the greatest!  And Oscer never overwhelms.
+Read more
+Published on October 23, 2014 by Kermit
+5.0 out of 5 stars
+Five Stars
+Excellent musicians
+Read more
+Published on October 6, 2014 by Anthony Daddiego, Ed.D.
+5.0 out of 5 stars
+Wonderful
+Great recording of Giants
+Read more
+Published on August 25, 2014 by Rob
+Search Customer Reviews
+Search
+What other items do customers buy after viewing this item?
+Night Train (Expanded Edition)
+Oscar Peterson
+4.5 out of 5 stars
+90
+$11.49
+There Will Never Be Another You
+Lester Young & The Oscar Peterson Trio
+$0.99
+Stardust
+Lester Young & The Oscar Peterson Trio
+4.0 out of 5 stars
+1
+$0.99
+Pres & Teddy
+The Lester Young - Teddy Wilson Quartet
+4.6 out of 5 stars
+28
+$5.99
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+Sell Your Subscription on Amazon
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Subscribe with Amazon
+Discover & try
+subscription services
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-Eeg0rwvHMLjiSmGzMHwybkE1vfwg/9K9nGnnB4/H8FUGSQZ3LoJvAvMhQ2wrtbyH rid-09F58DN5KXHGNPC96SPS

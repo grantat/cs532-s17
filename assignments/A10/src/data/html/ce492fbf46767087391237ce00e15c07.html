@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Automaton by Jamiroquai | TrackID™</title>
+
+    
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/2016-08-29-8b4871/favicons/apple-touch-icon-180x180.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/2016-08-29-8b4871/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/2016-08-29-8b4871/favicons/android-chrome-192x192.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/2016-08-29-8b4871/favicons/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/2016-08-29-8b4871/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="/assets/2016-08-29-8b4871/favicons/manifest.json" />
+        <link rel="mask-icon" color="#5bbad5" href="/assets/2016-08-29-8b4871/favicons/safari-pinned-tab.svg" />
+        <link rel="shortcut icon" href="/assets/2016-08-29-8b4871/favicons/favicon.ico" />
+        <meta name="apple-mobile-web-app-title" content="TrackID&trade; - Web" />
+        <meta name="application-name" content="TrackID&trade; - Web" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="msapplication-TileImage" content="/assets/2016-08-29-8b4871/favicons/mstile-144x144.png" />
+        <meta name="theme-color" content="#dddddd" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="/assets/2016-08-29-8b4871/css/acr-web.min.css" />
+        <script src="/assets/2016-08-29-8b4871/scripts/acr-web.min.js"></script>
+        <script src="/assets/2016-08-29-8b4871/scripts/ga_prod.js"></script>
+        
+    
+    
+        <meta name="description" content="Automaton by Jamiroquai. Discover trending music with TrackID™." />
+    
+    
+        <meta property="fb:app_id" content="178402528865451" />
+        <meta property="og:site_name" content="TrackID™" />
+        <meta property="og:title" content="Automaton - Jamiroquai" />
+        <meta property="og:type" content="music.song" />
+        <meta property="og:description" content="TrackID™ helped me identify this song" />
+        <meta property="og:url" content="https://trackid.sonymobile.com/track/TjM4WTg2TktENDRxVWwzSHB3Qi1pck5XUVRZ" />
+        <meta property="og:image" content="https://acr.sonymobile.com/meta/v0.8/public/images/albums/Szk1QzBoeGxyZTBTNGQub2FpdGI0R2w1SnR3/medium?idType=publicid" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@TrackID" />
+    
+
+    <script type="text/javascript">
+        <!--
+        jQuery(document).ready(function () {
+            initializeTrackDetails();
+        });
+        -->
+    </script>
+</head>
+<body>
+
+<nav id="navbar" class="navbar-inverse navbar-custom navbar-fixed-top col-xs-12" style="'background-color:green">
+    <div class="container">
+        <div class="defaultVisible">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed pull-left" style="margin-right: 10px" data-toggle="collapse" data-target="#tid-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div>
+                    <a href="/" onclick="sendGaNavigationEvent(this, navigationEventActions.navigateToHome, 'MENU')" class="navbar-brand null">TrackID™</a>
+                </div>
+                <div id="magnifybtn" class="pull-right search-disable" style="padding-top: 10px">
+                    <!-- Vissible mobile -->
+                    <img alt="No image found" src="/assets/2016-08-29-8b4871/images/searchMagnifier.svg" />
+                </div>
+            </div>
+
+            
+            <div class="navbar-collapse collapse custom-collapsed-navbar" id="tid-navbar" style="overflow-x: hidden;">
+                <ul class="nav navbar-nav ">
+                    <li id="menuSearch" class="search-disable"><a href="#" onclick="toggleSearchFieldMobile()" data-toggle="collapse" data-target="#tid-navbar">Search</a></li>
+                    <li id="home"><a href="/" data-toggle="collapse" data-target="#tid-navbar" onclick="sendGaNavigationEvent(this, navigationEventActions.navigateToHome, 'MENU')">About</a></li>
+                    <li id="chart"><a href="#" onclick="menuNavigateWithCC(this, navigationEventActions.navigateToTopSongs, '/chart/{cc}')" data-toggle="collapse" data-target="#tid-navbar">Charts</a></li>
+                    <li id="newsongs"><a href="#" onclick="menuNavigateWithCC(this, navigationEventActions.navigateToFreshSongs, '/newsongs/{cc}')" data-toggle="collapse" data-target="#tid-navbar">Discover</a></li>
+                    <li id="live"><a href="/live" data-toggle="collapse" data-target="#tid-navbar" onclick="sendGaNavigationEvent(this, navigationEventActions.navigateToLive, 'MENU')">Live</a></li>
+
+                </ul>
+                <ul id="acrDesktopSearchField" class="nav navbar-nav pull-right search-disable">
+                    <li class="pull-right">
+
+                        <div style="color:black; width: 100%;">
+                            <div id="remote" style="color:black; width: 100%;  position: relative;">
+                                <table class="visible-sm-*" style="vertical-align: middle; height: 50px">
+                                    <tr>
+                                        <td>
+                                            <input id="acrtypeahead" class="typeahead" type="text" placeholder="Search songs" />
+                                            <span class="searchClearElement">
+                                                <img class="searchClearImage" style="display: none" alt="No image found" src="/assets/2016-08-29-8b4871/images/searchClear.svg" />
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="acrMobileSearchField" class="navbar-header" style="display: none">
+
+            <table>
+                <tr>
+                    <td style="width: 30px">
+                        <img id="acrMobileSearchBackButton" alt="No image found" src="/assets/2016-08-29-8b4871/images/searchBack.svg" />
+                    </td>
+                    <td style="width: 100%">
+                        <div id="remote" class="" style="color:black; padding-top:8px; padding-bottom:8px; margin:0px; padding-right:0px; width:100%">
+                            <input id="acrtypeaheadMobile" class="typeahead" style="width:100%" type="text" placeholder="Search songs" />
+                            <div class="searchClearElement">
+                                <img class="searchClearImage" style="display: none" alt="No image found" src="/assets/2016-08-29-8b4871/images/searchClear.svg" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</nav>
+
+        <h1 class="hidden">Automaton by Jamiroquai | TrackID™</h1>
+    
+<header>
+    <div class="col-xs-12 visible-xs">
+        <div class="detail-band-top">
+            <div class="row">
+                <div class="row-height">
+                    <div class="col-xs-7 col-height">
+                        <div style="white-space: nowrap;">
+                            <h3>Open in TrackID™</h3>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="detail-sub-band-top-rating"></div>
+                            <div class="detail-sub-band-top-text">Rating: 4,4</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-5 col-height col-middle">
+                        <div class="pull-right">
+                            <div class="googlePlayLink clickable" onclick="googlePlayLink('BANNER-TOP');">
+                                <img width="125" height="40" alt="Get it on Google Play" src="/assets/2016-08-29-8b4871/images/google-play-badge.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container-fluid">
+
+    <div class="content-with-banner">
+        <div id="bgimg" class="col-xs-12 details chartBannerBoxShadow">
+            <div class="details col-xs-12">
+    <div class="col-xs-12">
+        <div class="col-xs-12" style="background-image: url(https://acr.sonymobile.com/meta/v0.8/public/images/albums/Szk1QzBoeGxyZTBTNGQub2FpdGI0R2w1SnR3/large?idType=publicid) ;  background-repeat: no-repeat; background-size:  cover; background-position:center;">
+            <div class="col-xs-12" style="background-color: rgba(0,125,107,0.75);">
+                <div class="container">
+                <div class="primary col-xs-12 col-sm-3">
+                    <div class="panel panel-default M1A details-image-container" style="background-color: #1ccdbb;">
+                        <div class="square-image-frame">
+    <div class="square-image-wrapper">
+        <img class="square-image" src="https://acr.sonymobile.com/meta/v0.8/public/images/albums/Szk1QzBoeGxyZTBTNGQub2FpdGI0R2w1SnR3/large?idType=publicid" alt="Automaton by Jamiroquai | TrackID™" />
+        
+    </div>
+</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="textandactions secondary col-xs-12 " style="background-color: #ffffff">
+            <div class="panel panel-default" style="height:100%; background-color: #ffffff">
+                <div class="secondary-content">
+
+                    <div class="M1A track-header" style="min-height:90px; background-color: #1ccdbb;">
+
+                        <div class="container">
+
+                            <div class="media" style="height:100%;">
+                                <div class="media-body media-middle panel-body" style="height:90px;">
+                                    <h2>Automaton</h2>
+                                    <h3 class="text-nowrap-ellipsis">Jamiroquai</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="background-color: #3aebd9;">
+                            <div class="container">
+                                <div class="actionbarDetail" style="width: 100%; height: 42px;">
+                                    <div class="col-sm-6">
+                                        <div class="floatItem">
+                                            <div class="playerLarge" title="Play preview">
+                                                <div class="playerSpotifyLarge" data-player-state="Stopped" data-player-url="https://p.scdn.co/mp3-preview/28cf1d223fdba741e0f68dfbc754ecfabb33ffd7?cid=5ef45bfeecc3424db558a191bae107f5">
+                                                    <svg data-player="player" version="1.1" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 40 40">
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="playlistImage floatItem clickable" data-trackId="TjM4WTg2TktENDRxVWwzSHB3Qi1pck5XUVRZ" title="Add to playlist">
+                                            <img class="floatitemSizelarge" alt="Add to playlist" src="/assets/2016-08-29-8b4871/images/addToPlaylist.svg" />
+                                        </div>
+
+                                        <div class="shareImage floatItem clickable" data-trackId="TjM4WTg2TktENDRxVWwzSHB3Qi1pck5XUVRZ" title="Share">
+                                            <img class="floatitemSizelarge" alt="Share" src="/assets/2016-08-29-8b4871/images/aShare.svg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-header"></div>
+
+                    <div class="container">
+                        <div class="col-xs-12 col-sm-6" style="background-color: #ffffff">
+
+                            <div class="panel-body">
+                                <div class="panel-label" style="color: #1ccdbb;">Album</div>
+                                <h2>Automaton (2017)</h2>
+                                
+                            </div> 
+                            <div class="panel-body">
+                                <div>
+                                    <div class="panel-label" style="color: #1ccdbb;">Artist</div>
+                                    <h2 class="text-nowrap-ellipsis">Jamiroquai</h2>
+                                </div>
+                            </div>
+
+
+                            
+                        </div>
+
+                        
+                        <div class="col-xs-12 col-sm-6" style="background-color: #ffffff">
+                            
+
+                            <div class="panel-body" data-navigation-analytics-context="POPULAR-TRACKS">
+                                <div class="col-xs-12" style="background-color: #ffffff; padding-bottom: 5px;">
+    <div class="popularTracks">
+        <div class="col-xs-12">
+            <div class="panel-label" style="color: #1ccdbb;margin-bottom: 0px;">Popular tracks</div>
+        </div>
+        <div class="list-item">
+            <div class="col-xs-12 even popularTracksListItem">
+
+                <div style="height: 60px; width: 100%">
+
+                    <div style="position: absolute; top: 0px; left: 0px; width:10px">
+                        <h2 class="" style="line-height: 60px;font-size: 21px; margin: 0px; padding-bottom: 0px;">1</h2>
+                    </div>
+
+                    <div style="position: absolute; top: 0px; left: 25px; right: 30px; text-align: left;">
+                        <a onclick="sendGaNavigationEvent(this, navigationEventActions.navigateToTrack)" href="/track/SXdBMGdPQ3lQYmFSRXc1aFYua1ppVFdFQUFF" style="color:#000000; text-decoration:none;">
+                            <h2 class="text-nowrap-ellipsis" style="font-size: 17px; margin: 0px; margin-top: 10px; padding: 0px;">Cloud 9</h2>
+                            <h3 class="text-nowrap-ellipsis" style="font-size: 15px; margin: 0px; padding: 0px;">Jamiroquai</h3>
+                        </a>
+                    </div>
+                    <div class="" style="position: absolute; top: 0px; right: 30px; width:0px">
+                        <div class="popularTracksList">
+                            <div style="text-align: center">
+                                <div class="player" title="Play preview">
+                                    <div class="playerSpotifyLarge" data-player-state="Stopped" data-player-url="https://p.scdn.co/mp3-preview/ad380f5b1d3c49b21571d07c51898bd2631bf56c?cid=5ef45bfeecc3424db558a191bae107f5">
+                                        <svg data-player="player" version="1.1" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 40 40">
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="col-xs-12 odd popularTracksListItem">
+
+                <div style="height: 60px; width: 100%">
+
+                    <div style="position: absolute; top: 0px; left: 0px; width:10px">
+                        <h2 class="" style="line-height: 60px;font-size: 21px; margin: 0px; padding-bottom: 0px;">2</h2>
+                    </div>
+
+                    <div style="position: absolute; top: 0px; left: 25px; right: 30px; text-align: left;">
+                        <a onclick="sendGaNavigationEvent(this, navigationEventActions.navigateToTrack)" href="/track/Q210T2lsYnhNWmVmTmtIMHM2U05GcXhJQWlF" style="color:#000000; text-decoration:none;">
+                            <h2 class="text-nowrap-ellipsis" style="font-size: 17px; margin: 0px; margin-top: 10px; padding: 0px;">Virtual Insanity</h2>
+                            <h3 class="text-nowrap-ellipsis" style="font-size: 15px; margin: 0px; padding: 0px;">Jamiroquai</h3>
+                        </a>
+                    </div>
+                    <div class="" style="position: absolute; top: 0px; right: 30px; width:0px">
+                        <div class="popularTracksList">
+                            <div style="text-align: center">
+                                <div class="player" title="Play preview">
+                                    <div class="playerSpotifyLarge" data-player-state="Stopped" data-player-url="https://p.scdn.co/mp3-preview/be19c9ed0962b75f0ded2b782de9fa9a33deb992?cid=5ef45bfeecc3424db558a191bae107f5">
+                                        <svg data-player="player" version="1.1" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 40 40">
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list-item">
+            <div class="col-xs-12 even popularTracksListItem">
+
+                <div style="height: 60px; width: 100%">
+
+                    <div style="position: absolute; top: 0px; left: 0px; width:10px">
+                        <h2 class="" style="line-height: 60px;font-size: 21px; margin: 0px; padding-bottom: 0px;">3</h2>
+                    </div>
+
+                    <div style="position: absolute; top: 0px; left: 25px; right: 30px; text-align: left;">
+                        <a onclick="sendGaNavigationEvent(this, navigationEventActions.navigateToTrack)" href="/track/dy5Pd3Q2SmtreEE0R1JoRExuYjB6T2pQVmFJ" style="color:#000000; text-decoration:none;">
+                            <h2 class="text-nowrap-ellipsis" style="font-size: 17px; margin: 0px; margin-top: 10px; padding: 0px;">Canned Heat</h2>
+                            <h3 class="text-nowrap-ellipsis" style="font-size: 15px; margin: 0px; padding: 0px;">Jamiroquai</h3>
+                        </a>
+                    </div>
+                    <div class="" style="position: absolute; top: 0px; right: 30px; width:0px">
+                        <div class="popularTracksList">
+                            <div style="text-align: center">
+                                <div class="player" title="Play preview">
+                                    <div class="playerSpotifyLarge" data-player-state="Stopped" data-player-url="https://p.scdn.co/mp3-preview/4f58fdce684783a273f2afa4b1381beb5a31bc40?cid=5ef45bfeecc3424db558a191bae107f5">
+                                        <svg data-player="player" version="1.1" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 40 40">
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div> 
+
+    <!-- Top songs and fresh songs promo section -->
+    <div class="col-xs-12">
+
+        <div class="col-xs-12" style="display: inline-block; margin-top: 15px; margin-bottom: 20px;">
+            <div class="col-xs-12" style="margin-bottom: 15px">
+                <div class="container">
+                    <div class="col-xs-12">
+                        <a href="/live" style="text-decoration: none; color: #000000" onclick="sendGaNavigationEvent(this, navigationEventActions.navigateToLive, 'LIVE-MAP-BANNER-ARROW')">
+                            <div class="navToChartElement col-xs-12 clickable" style="width: 100%; height:50px;">
+                                <div style="position: absolute; top:0; left:15px; ">
+                                    <h2 class="text-nowrap-ellipsis" style="line-height: 50px; font-size: 17px; margin: 0px;">LIVE</h2>
+                                </div>
+
+                                <div style="position: absolute; width: 30px; top: 0px; right: 15px">
+                                    <img height="50px" style="margin-right: 15px;" src="/assets/2016-08-29-8b4871/images/forwardArrow.svg" alt="LIVE" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-12" style="background-color: #F4F4F4; padding-left: 15px; padding-right: 15px">
+                        <div class="col-xs-12 chartBannerBoxShadow" style="background-color: #828282; margin: 0px; width: 100%">
+
+                            <a href="/live" style="color:#000000; text-decoration:none;" onclick="sendGaNavigationEvent(this, navigationEventActions.navigateToLive, 'LIVE-MAP-BANNER')">
+                                <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4" style="background-color: #828282">
+                                    <div class="svg-container-banner-map">
+                                        <img class="svg-content-banner-map" src="/assets/2016-08-29-8b4871/images/bannerMapWorldSony.svg" />
+                                    </div>
+
+                                </div>
+                                <div style="position: absolute; left:5%; top: 40%; width: 90%; background-color: rgba(255, 255, 255, .7); text-align: center; border-radius: 5px;">
+                                    <h3 style="margin:0px auto; padding: 0px; padding-top: 5px; padding-bottom: 5px; font-size: 14px">Press to see what others are listening to.</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="topSongsBanner" data-navigation-analytics-context="TOP-SONGS-BANNER">
+            </div>
+            <div id="freshSongsBanner" data-navigation-analytics-context="FRESH-SONGS-BANNER">
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Add to playlist</h4>
+            </div>
+            <div class="modal-body">
+                <p>Connect with a music streaming service to enable the ”add to playlist” feature.</p>
+                <p>Once connected, your tracks will be added to a playlist called <b>TrackID&trade;</b>.</p>
+
+            </div>
+            <div class="modal-footer" style="text-align: center">
+                <button id="spotifyLoginButton" class="btn btn-default btn-image">
+                    <img class="clickable" width="222" height="40" alt="Spotify login" src="/assets/2016-08-29-8b4871/images/log_in-mobile.png" />
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</div>
+<div>
+
+    <!-- Share -->
+    <div class="modal fade" id="shareModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Share</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="share-buttons">
+                        <li>
+                            <button id="fbShareButton" class="share-btn btn-image">
+                                <img class="clickable" alt="Facebook" width="45" height="45" src="/assets/2016-08-29-8b4871/images/Facebook.png" />
+                                Facebook
+                            </button>
+                        </li>
+                        <li>
+                            <button id="twitterShareButton" class="share-btn btn-image">
+                                <img class="clickable" alt="Twitter" width="45" height="45" src="/assets/2016-08-29-8b4871/images/Twitter.png" />
+                                Twitter
+                            </button>
+                        </li>
+                        <li>
+                            <button id="gplusShareButton" class="share-btn btn-image">
+                                <img class="clickable" alt="Google+" width="45" height="45" src="/assets/2016-08-29-8b4871/images/Google+.png" />
+                                Google+
+                            </button>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div>
+    <footer style="background-color: #000000;">
+
+    <!-- Band -->
+    <div class="col-xs-12 download">
+        <div class="container" style="height:80px;">
+            <div class="row">
+                <div class="row-height">
+                    <div class="col-xs-9 col-height">
+                        <div class="page-footer-download">
+                            <div style="white-space: nowrap;">
+                               <h2 style="line-height: 80px; margin-top: 0px; margin-bottom: 0px; padding:0px;">Download TrackID&trade;</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-height col-middle">
+                        <div class="pull-right">
+                            <div class="googlePlayLink clickable" onclick="googlePlayLink('BANNER-BOTTOM');" style="padding: 0px 0px; padding-right: 8px">
+                                <img width="129" height="42" alt="Get it on Google Play" src="/assets/2016-08-29-8b4871/images/google-play-badge.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row page-footer-border">
+            <div class="row-height">
+                <div class="col-xs-9 col-height">
+                    <div class="page-footer">
+                        <div style="white-space: nowrap;">
+                            <span style="padding-right: 8px;"><a href="http://support.sonymobile.com/global-en/contactUs/">Contact us</a></span>
+                            <span style="padding-right: 8px"><a href="http://www.sonymobile.com/global-en/legal/cookies/">Cookies</a></span>
+                            <span><a href="http://www.sonymobile.com/global-en/legal/">Legal</a></span>
+                        </div>
+                        <div class="page-footer-copy">Copyright © 2015 - 2017 Sony Mobile Communications Inc. All rights reserved</div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-height col-middle">
+                    <div class="pull-right">
+                        <div style="padding: 0px 0px; padding-right: 15px"><img style="height:12px;" alt="Sony" src="/assets/2016-08-29-8b4871/images/sonylogo.gif" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center page-footer-powered">
+                <span style="padding-right: 8px"><img style="height:30px;" alt="Powered by Gracenote" src="/assets/2016-08-29-8b4871/images/gracenote.png" /></span>
+                <span><img style="height:30px;" alt="Powered by Spotify" src="/assets/2016-08-29-8b4871/images/spotify.png" /></span>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+<div id="frameHolder"></div>
+
+</body>
+</html>

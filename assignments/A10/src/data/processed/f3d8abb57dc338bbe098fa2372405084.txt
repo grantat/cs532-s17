@@ -1,0 +1,301 @@
+Start Tealium tag
+/ End Tealium tag
+START HEADER
+START: SHOW THIS SECTION FOR LOGGED OUT VISITORS
+Sign In
+Join
+END: SHOW THIS SECTION FOR LOGGED OUT VISITORS
+For logged out visitors do not include the CREDITS div
+END HEADER
+START MAIN SECTION (Kept within max of 1200px bounds)
+READER OVERLAY
+START READER CONTENT - THE WHITE AREA
+START COVER AND AUTHOR DETAILS
+This is placed before the Sidebars because some sidebars collapse in after this section on mobile
+My Last Lament
+James William Brown
+My Last Lament
+delivers a fitting eulogy to a way of life and provides a vivid portrait of a timeless Greek woman, whose story of love and loss is an eternal one.
+END COVER AND AUTHOR DETAILS
+START SIDEBAR SECTIONS
+sidebarItem class positions it and makes it collapse in mobile view
+The full sidebar is not contained in a div because some sections need 
+            to collapse into the main content area on resize. To this end the sidebar 
+            boxes are listed right along with the CenterContentBoxes which define sections that 
+            stay in the center and don't collapse to the sidebar
+START GALLEY ACTIVITY BOX
+END GALLEY ACTIVITY BOX
+Start Reading….
+Read Excerpt Now
+START PRE-ORDER BOX
+Buy a copy
+Pre-Order Button graphic
+Buy
+end Pre-order button graphic
+Amazon
+Barnes & Noble
+Books A Million
+Hudson Booksellers
+IndieBound
+Powell's
+Target
+Walmart
+END PRE-ORDER BOX
+START TRENDING BOOKS BOX
+On Offer
+The Switch
+Request a Copy
+Joseph Finder
+Mad
+Request a Copy
+Too Fat, Too Slutty, Too Loud
+Request a Copy
+Here and Gone
+Request a Copy
+Wine. All the Time.
+Request a Copy
+END TRENDING BOOKS BOX
+START AUTHOR ALERTS
+This section to be replaced with a widget
+SIGN UP
+Sign me up to receive news about James William Brown.
+END AUTHOR ALERTS BOX
+Place our blog button on your blog to let people know you are a member of this great program!
+END SIDEBAR SECTIONS
+There is no container tags for sidebar items
+START CENTER CONTENT SECTIONS
+Center Content sections are marked with class=centerContentBox and are also
+                         not wrapped in any containing DIV. These get listed directly after the sidebar sections. 
+                         The centerContentBox class does not collapse to the sidebar in mobile
+BOOK DESCRIPTION AREA
+A poignant and evocative novel of one Greek woman’s story of her own—and her nation’s—epic struggle in the aftermath of World War II.
+Aliki is one of the last of her kind, a lamenter who mourns and celebrates the passing of life. She is part of an evolving Greece, one moving steadily away from its rural traditions. To capture the fading folk art of lamenting, an American researcher asks Aliki to record her laments, but in response, Aliki sings her own story...
+It begins in a village in northeast Greece, where Aliki witnesses the occupying Nazi soldiers execute her father for stealing squash. Taken in by her friend Takis’s mother, Aliki is joined by a Jewish refugee and her son, Stelios. When the village is torched and its people massacred, Aliki, Takis and Stelios are able to escape just as the war is ending.
+Fleeing across the chaotic landscape of a postwar Greece, the three become a makeshift family. They’re bound by friendship and grief, but torn apart by betrayal, madness and heartbreak.
+Through Aliki’s powerful voice, an unforgettable one that blends light and dark with wry humor,
+My Last Lament
+delivers a fitting eulogy to a way of life and provides a vivid portrait of a timeless Greek woman, whose story of love and loss is an eternal one.
+END BOOK DESCRIPTION AREA
+START BONUS CONTENT SECTION
+END BONUS CONTENT SECTION
+START GALLEY REVIEW SECTION
+END GALLEY REVIEW SECTION
+START GALLEY REVIEW SECTION
+Advance Galley Reviews
+by Julie Rogers, Pikeville
+This one is really good-so many layers. On the surface, it is a story of 3 young adults trying to figure out how to survive during WWII & its aftermath, about war, suffering, struggle, & petty jealousies. But under that is the story of stories repeating themselves, of how we often become shadows within our own stories.
+by Nada A., Livingston
+My Last Lament by James William Brown is a story set in World War II and its aftermath in Greece. It is the story of a young woman who feels responsible for one young man, falls in love with another man, and spends her life torn between the two. It is the story of two young men who both love the same girl. The political and war history is on the periphery; it provides context but not the main story. My parting thought on this book is that in some ways, it reads like a memoir of Aliki's life, her last lament becoming a lament of her own life, if you will. 
+
+Read my complete review at http://www.memoriesfrombooks.com/2017/04/my-last-lament.html. 
+
+Reviewed for the Penguin First to Read program.
+by Sahuna Imran, Karachi
+A historical fiction giving an insight of Greece during and after World War II was a pleasure to read. A story about how an ordinary life is threatened when war strikes...
+by Kelsey Grode, San Francisco
+The synopsis for this book is pretty accurate - an old Greek woman, Aliki, is recounting her life on a series of cassette tapes left behind by an American researcher. Aliki grew up during the end of World War II and the Greek civil war. Most of the action of the book is centered in this time period.
+
+My Last Lament is historical fiction in the vein of The Nightingale or The Muse, caught between narrative and historical accuracy and not really satisfying either. The story wasn't interesting enough to hold my attention, and the sense of place wasn't rich or evocative enough to feel like I was learning something about Greece during this troubled time. The book didn't really further illuminate the horrors of the Nazis or civil war beyond what I already understand.
+
+Structurally, this was an awkward read. So much jumping around in time framed by the narrative device of an old woman speaking into the recorder. Maybe this was meant to mimic what it's like to record an older person talking about their life, but it just made for a confusing read.
+
+Additionally, the character of Aliki, whose point of view we inhabit, is characterless and featureless. I don't mean she has bad character - she just has no character. I don't know anything about her from this book - her likes or dislikes or frame of mind - that isn't in reference to the two men who define her, Stelios and Takis. She feels shapeless. At one point, she is literally voiceless. 
+
+Which brings me to the way trauma and mental illness are portrayed in this book. Both the portrayal of PTSD and schizophrenia are un-nuanced and stereotypical. I wish more books were written about what it's like to process trauma or live with a mental illness, but losing the ability to speak or talking to trees is such a Google-able depiction of mental illness. 
+
+In general, much of the events and dialogue in this book felt stereotypical. Lines like: "Can't we get back to the way we were before?" (105) or "We're home now wherever we are." (238) are just so trite. 
+
+If you like historical fiction that skims the surface and jams in romance, then you might like this book. Otherwise, there are more illuminating or entertaining reads out there.
+
+Thanks to First to Read for providing me an e-ARC of the book.
+by Jennifer Willis, Overland Park
+Very interesting story and unique way of telling it.  I wasn't exactly captivated by this book, but I enjoyed it.
+by Nancy Stangel, Morton Grove
+I was intrigued by the premise of this book, a story of Greece during WWII.  The book starts out with Aliki in the waning years of her life living in the small Greek town she grew up in.  A young American student asks her to tell about her ability to lament and leaves a tape recorder for Aliki to record her story.  The story then goes back to WWII times as Aliki tells the story of the circumstances leading to her leaving her small village and heading to Athens. She is living with friends of her father that are hiding a Jewish woman and her son, Stelios, when the Germans take over their village.  The story moves at a slow pace as the story of Aliki and Stelios unfolds.  I thought the story moved very slowly, and I never really felt a connection to the characters.
+by Jessica Bushore, Beavercreek
+At first I had trouble getting into the story, the modern day portion utilizing the conceit that Aliki is recording her memoirs is a bit awkward.  But once the story got into her past and the period of latter World War II and more specifically the post war period in Greece I was hooked.  This is a period that I've studied in school a great deal, but more about Europe than Greece.  Therefore it was an usual setting and time period for me to read about that I really came to enjoy.   The author put a lot of effort into really capturing the time period and making the narrative feel authentic, like a real autobiography.  I came to enjoy this book a great deal and will be recommending it to friends.
+by Elaine Arias, Four Oaks
+Fascinating, well-rounded tale.  I liked that it was told via Aliki's audio diary, spoken into a tape recorder, although some sections didn't ring true to that notion - in other words, some of the dialogue is too perfectly remembered.  Or perhaps Aliki has a better memory than I.  Anyway, I did like this, especially given that it takes place in Greece during and after World War 2, something we don't see all that often.
+by Jamie Morgan, Austin
+Typically when I've read a fictional accounting of WW II it's focused on the US, the UK, or Germany. A story centered in Greece is a good way to tell a story about a time in history we have heard many times but with a new way of looking at it. I knew that WW II had other fronts, and more people were affected, but that perspective isn't always present. The juxtaposition of what happened to Aliki, Takis, and Stelius during the war and after with Aliki's more current remembering of her past was a good way to tell the story. Memory isn't linear, nor is it perfect. Talking through a memory, either to a person or to a tape recorder, can help to find the threads that sometimes don't always make sense until you see/hear them together. How many of us have told a story and then had to go back and say, oh, this other thing happened to? I felt Aliki's story was much like that. I liked the additional contrast of Aliki as a lamenter who was recording her stories. Lamenting is part of a larger tradition of passing information on orally and recording her stories, which are in a way her lament for herself, are how oral traditions can be preserved (in real life). 
+
+I certainly appreciated the opportunity to read it before it's release and it's a book I would recommend to anyone liking a slower read or a book with WW II as a setting.
+by Marie Schnock, Gardnerville
+I enjoy historical fiction and I found the information on World War II in Greece very informative.  The characters were easy to identify with, Takis, a broken soul, Stelius, very complicated and suffering from his situation, and Aliki, who never got the love she hoped for and suffered the betrayal of neighbors to whom she felt close. 
+Although the narrative was presented as a tape recording you felt as though Aliki was speaking to you, the reader.  I felt the feelings of lose, doubt and betrayal with the characters.  I would reccomend this book to other historical fiction readers.
+by Sherri Frantz, Arverne
+I thought that the method of narration (recording on the cassette tapes) was a really interesting choice for this story. Aliki could be telling her story directly to us, but instead, we have this filter of her recording her story for someone else. Sometimes it's successful and sometimes it's not, but overall I think it allows for an interesting look at how she constructs stories. I felt both drawn in and distanced by it.
+
+Overall, I found this interesting, and I always enjoy getting a different perspective on WWII.
+by Alicia Tonti, Berkeley
+I enjoyed this book and the story it tells, through the eyes and voice of Aliki. I love historical fiction, and was fascinated by Aliki's re-telling of the tortuous history of Nazi-occupied Greece. However, as some others have mentioned, the method of narration fluctuated quite a bit, which at times was distracting. As far as the story itself goes, often times I found myself wishing the author hadn't washed over the more intimate moments [physically and emotionally intimate] so much. It felt as though Aliki was reminiscing moments of passionate elation, but subconsciously suppressed and subdued those feelings when story telling. It was slightly disappointing, though didn't ruin the whole book for me. All told, I would recommend the book to other avid historical fiction fans.
+by K C, Madison
+As a few others have said, I would rate this as a 2.5 out of 5.  This book doesn't pull you in right away, which is a drawback.  The narration via cassette recorder feels forced and clumsy at times.  The characters (and relationships between) Aliki, Takis, and Stelios as kids feel simplistic and two-dimensional.  The story concept is interesting, and it is refreshing and informative to read about Greece's history during World War II.
+by Jennifer Gray, Trumansburg
+My Last Lament tells a story of the sufferings of the Greek people during WWII under German occupation and the years afterwards which was practically a civil war. The narrator is a girl named Aliki. She is orphaned during the war and tries to form a new surrogate family but the social chaos leads to more tragedy. I like learning from books and this one was rich in both history and Greek culture. I did experience some confusion about the timeline and the ages of the characters. At first I thought this might reflect the young age of Alilki but was just as confused later when she was supposed to be older and wiser. I would have wished for a sense of redemption near the end but the story trails off quickly once the political situation is resolved. Very informative and interesting overall but less engaging than I wished.
+by Natasha Perez, Sanford
+Aliki's story is a compelling one, a story of love and loss set during and after World War II. The characters are rich and the historical background is interesting. My only complaint was that the voice is not always consistent. The narration is supposedly done via cassette (a neat concept), but the narrator regularly switches into a more traditional story format where it no longer seems that she is talking to the reader. For me that was too bad because I rather enjoyed Aliki's banter with the unseen audience. Overall this was a good read and I highly recommend to lovers of historical fiction.
+by Gaye McAdams, Dallas
+Oh, I loved this book.  As the child of a WW2 Army Air Corp flier, my young life was formed in the framework of the narrative as my parents knew it.  I knew of their sacrifices and losses, but it did not prepare me for this book.
+
+Aliki is a young girl in Greece, who stops speaking when she sees her father shot by the Nazis for stealing a squash.  We follow her story the war, seeing her adoptive parents killed, fleeing with their son and the son of a Greek Jew who has been sheltering with the family.
+
+Aliki, who becomes a lamenter, a professional mourner as an adult, has a fascinating and troubling path to walk.  I liked the episodic nature of the book, because it left a few things to inference and imagination.  This book is about love, about making family in chaos and disorder, even about love of life and willingness to persist and endure. This is the difference between those who surrender life and those who cling desperately to it.
+
+It was enlightening to see the childhood experience from such a different view than mine and it also opened another door for me into the plight of the refugee.  As I said before, I loved this book and am very happy that I had the opportunity to read it.
+by Lauryn Nosek, Lancaster
+Growing up, I read a lot of novels that centered on the Holocaust and World War II. Many of those novels were part of the public school curriculum and they frequently told tales of the persecuted and the brave people who tried to shelter them. While I still find myself drawn to historic novels set in that time period, in recent years I’ve found many more books that go beyond just the years of the war itself, just the Jews hiding in Germany and Austria and Poland, extending their stories into the years after the war officially ended and the world began piecing itself back together. Seeing examples of the lasting damage and turmoil across Europe after the Nazis had been defeated carries more weight for me now than it would have when I was in elementary and middle school. James William Brown’s upcoming My Last Lament is one such novel. 
+
+An old woman now, Aliki lives in the same village in Greece where she grew up but she is among the last of her generation and is the area’s last lamenter. An American student wanted to study and document her laments leaving a tape recorder behind so Aliki can record them when it’s convenient for her. In the process of trying to fulfill the student’s wishes, Aliki records the story of her own life beginning with her teenage days when her small village was occupied by German soldiers and two boys came into her life whom she would constantly find herself torn between. Takis is the young son of the woman who takes Aliki in after her father’s death and becomes a brother of sorts to her, though there is something strange and sometimes dangerous about him. Stelios is a little older than Aliki, a Greek Jew in hiding whom Aliki grows to love. But the lives of all three are threatened and tossed about as Greece reels in political unrest following the defeat and retreat of the Germans. 
+
+The cassette tape recording structure of the novel, while a creative way to tell the story, did prove difficult at times. Because the text is broken down by cassette tape sides there aren’t regular narrative breaks to help make the text easier to digest. In the beginning, especially, I found this frustrating. It also makes for some annoyingly overdramatic cliffhangers and then, because of the first person narrative itself, purposely calls attention to itself while doing so. Though Aliki’s “present” does eventually tie in to the tales of the life she is recounting, there is enough of the story itself that drifts from the narrative frame that I wonder if it was entirely worth the novelty of using it. It also gets used to explain away some of the textual inconsistencies and confusion such as everyone’s relative ages and just how much time passes between events. 
+
+The story itself though proves to be an overwhelmingly compelling tale of the tension between obligation and desire; the struggles against one’s environment, time, and place. Stories play an important role for the characters throughout as shadow puppet shows of traditional Greek folk heroes as well as epics like The Illiad prove useful on many levels. The oral tradition and durability of the tales are celebrated as their longevity is explained through the ways various characters are able to draw meaning from them to suit their own circumstances and needs. Teaching tools as well as a form of escapism, flexible and moldable and changeable, stories prove to be what we’re all left with in the end. 
+
+My Last Lament will be available for purchase April 4, 2017.
+by Amber Garabrandt, joplin
+Summary:
+              Aliki is a lamentor- one who laments and celebrates the passing of life.  When asked by an American scholar to record her laments for study, she decided to do things a bit differently.  Thus begins our journey through war torn Greece, beside a young Aliki.  Already used to loss, she remains mute due to seeing her father's passing.  Her voice returns to her when her adoptive mother and friend pass- Aliki's first lament.  
+            As time marches forward Aliki must keep her loved ones safe and happy, no tall order.  There's joy, loss, pain and lament.  Even as the war is ending, and Greece is coming back into it's own, Aliki must rediscover her strength and move forward, etching a spot for herself in a community.  Lamenting and celebrating lives.  As she says, there are always more dead.
+My Thoughts:
+         I am a bit of a mess right now, having just finished this amazing book.  I loved Aliki for her heart, her courage and her kindness.  I loved our dreamer Stelios.  I loved all the mothers.  The characters, and their interactions hit you hard.  It was a beautifully written story, flowing back and forth through time to create an unimaginable picture of loss and pain, beauty and strength.  Five stars!  
+              On the adult content scale, obviously there is quite a lot of violence, we are in a war setting after all.  Some was extremely hard to handle.  There was also language.  Due to the severity of violence alone I would give it a six.
+by Jennie Cole, St Petersburg
+2.5 out of 5 for me. The concept was very interesting and I loved the story-telling aspect to her telling the story to the audio tapes but I found it lacked in execution. I am not very familiar with what occurred in Greece during World War II nor am I familiar with the inner struggles post the war so this was new for me. I did end up felling the need to skim through the book because I became bored with the story that was being told.
+by Gabriella Q., Orlando
+This book focused on Greece during and after WWII, and the struggles of Greece were an interesting foil to the conflicts between the characters. I liked it, but there were also many times that frustration with the choices of the main characters overtook the story. The plot also felt a little weak at times, but the style of narration helped smooth that over. 
+
+Overall not a bad historical fiction but a little too frustrating for me. It's a 2.5 out of 5.
+by Jean Kolinofsky, Toms river
+I would like to thank First to Read for providing a copy of this book for review.  This is not just the story of Aliki, a lamenter, but also of the modern history of Greece.  Contacted by a researcher, she is given a recorder and asked to record her laments.  Instead, she records her story, reflecting on how her experiences led to these poems and songs of mourning.
+
+Beginning with the German occupation of her village and the execution of her father, she finds shelter with a widow and her young son who also have a Jewish family hiding in their home.  When tragedy strikes, the widow's son Takis is left in her care and she sets off with Takis and Stelios, son of the Jewish refugee, for Athens.  Through the German occupation, the British occupation and the battles between communists and fascists, they support themselves as puppeteers, performing plays that reflect Greece's past.  
+
+This is a story that is beautifully told.  Aliki is a strong character that grows from a child scarred by tragedy to a woman whose first concern is her obligation to her new family.  She is a character that stays with you long after you have finished the book and I would not hesitate to recommend this book.
+by Marco Marroquin, San Antonio
+As a lamenter, Aliki spends her life speaking truthfully and eloquently under an almost hypnotic state for those who are dying or have died.  Her laments are her gift/burden that started as a young girl when she saw the horrific assassination of her father at the beginning of World War II.  When she first saw him in the garden, complaining about earthly things, she knew she was not like other people.
+
+At the beginning of the novel, Aliki is in old age and is being interviewed by an American journalist about the practice of lamenting.  She leaves a cassette player and tapes for Aliki to record her recollections and from there we get a journey into the past as she recounts her life falling in love with a boy named Stelios.  They also are in charge of taking care of Takis, a young boy whose mentality makes them question his intentions throughout their lives.
+
+From the past, we see that the secrets kept there find their way into Aliki's future.  Her interactions with Stelios show her that love is a force that cannot be controlled and her life with Takis takes on new meaning when revelations are told in the present.  All the while, the death that surrounds her takes on more heartbreaking meaning as she laments.
+
+This is an emotional book and deals with the horrific time of World War II and its aftermath.  Told, though, with eloquence that makes you feel for the characters involved and fill you with hope for their survival.  The jealousy, the friendships, the competitiveness, is all displayed as this book explores our human frailty in terrific prose.
+
+For historical fiction fans, this book will be on par with such modern bestsellers such as "The Japanese Lover" by Isabel Allende and "The Nightingale" by Kristen Hannah.
+by Janet Brower, Wesley Chapel
+I have mixed feelings about this book.  The backdrop of Greece during and following WWII was intriguing. I was not familiar with the Greek occupation at all.  That being said, I felt the storytelling was very uneven.  I realize it was intended to be the reminisces of an elderly lady, but I kept getting "lost" as to the passage of time.  I struggled with trying to place the ages of the central characters.  Early on, it seems as if Aliki and Takis are children, perhaps 9 and 5, respectively. Stelios is stated as a little older, perhaps 11. But then before you realize it, Aliki and Stelios are young adults and becoming intimate.  At the same time, Takis is still being referred to as "just a boy". I couldn't decide whether this was meant literally or if it was a figurative reference to the fact that he never matured due to his "brokenness ".
+I just couldn't decide if the author wanted me to take the stories literally, with some nod to the vagaries of a old lady's memory, or with the magical realism of authors like Gabriel Garcia Marquez.  It was too unreal for one and not magical enough for the other.
+Thank you Random House and Penguin for giving me the opportunity to read an advance copy.
+by Tariq Ali, Miami
+My Heart weeps for those who suffer in war. Why must racism rule our minds to force us to commit such atrocities, are we all not human?
+Absolutely Amazing Read. I loved this book because it laments the story of one Greek woman who was dealt an unfortunate hand in life but despite all the tragedies and misfortunes to befall her, she still picked herself up and moved on hoping for a better outcome next time. I would recommend this book to anyone who likes historical fiction set during Word War 2 because this one give us a look at what might have taken place in Greece and how inhuman we really become when to comes to loyalty and patriotism. There is also a great message to learn from this story, You should not look back on life gone by and think "what could I have done differently or why did an ancestor do something only to change the course of my life" We must only look to the future and make it up as we go along. Thank you James William Brown for lamenting the story of Aliki and Stelios and Takis.
+by Lee L., Los Angeles
+Over the years, I’ve read many books set during World War II and despite already knowing the history, I am still blown away each time I read about the tremendous devastation that the war caused in various countries as well as the unimaginable suffering and loss that the peoples in those countries went through.  In the case of Greece, which was pulled reluctantly into the war when Italian and German troops invaded the country and set up combat posts across the land, the end of WWII did not bring about the focus on gradual reforms and large scale rebuilding of the country that it did for other countries that had survived the war.  Almost immediately upon WWII ending, Greece was thrown into a civil war that erupted in large part due to the atrocities that were committed during the previous war.  The country became deeply divided, with those who had suffered enormous loss at the hands of foreign enemies during the war choosing to avenge their displaced anger by turning on their own people.  In some cases, entire villages were wiped out and its people were senselessly massacred for no valid reason other than them being viewed as “implicit” in the war due to the fact that they “housed” or “fed” or “translated for” the enemy (it didn’t matter that these villages had been unwillingly “forced” to take in the German troops and were already in dire straits themselves due to what had already been inflicted on them from previously).   This quote from the book is powerful in relaying just how tragic a situation the country was in:  Much of the country remained in ruins from the fighting, the railroads destroyed, the bridges blown up, a nearly worthless currency and a demoralized people.  We’d done more damage to ourselves than even the Germans had done to us.
+
+It is against this backdrop of devastating war, endless infighting, and sheer chaos that the tragic yet poignant story of a Greek woman’s life unfolds.  When the story opens, the main character Aliki is already in old age, still living in the rural Greek village where she grew up.  She is a lamenter who mourns for the dead by chanting poems meant to honor the deceased at their wakes and funerals.  As this is an ancient tradition that only the “old families” still observed, Aliki is the last of her kind in the village.  One day, a scholar from an American university visits Aliki and asks if she can record her laments for a research project she is doing.  She leaves Aliki with a recorder and cassette tapes for her to record her laments when they occur, telling her that she will be back in touch with her later.  After the scholar is gone, Aliki starts recording, but instead of recording her laments, she ends up telling her life story.  From there, we are transported back in time to 1943, at the tail-end of the war, when Aliki (who is in her teens – still a kid pretty much) has to witness first-hand her beloved father being executed by German soldiers for the mere crime of “stealing squash.”  After that, Aliki’s life is marked by one tragedy after another and through it all, we witness her struggles with love, loss, and coming-of-age in a country that itself is struggling to come to terms with the aftermath of two devastating wars.
+
+I must admit that this was a difficult book to read for me due to all the vivid descriptions of the atrocities of the wars that devastated Greece during the 1940s and 1950s.  However, I am glad I read this book because, despite this being a work of fiction, I learned so much about a part of WWII history that I had no clue even existed.  More importantly though, I was given a glimpse into a world and culture that, up to this point, I had largely been ignorant about.  When it came to Greece, the extent of my knowledge basically ended at its ancient history, since that was mainly what was taught in school and its contemporary history was rarely ever mentioned.  Aliki’s story is poignant and heartbreaking -- it is a story of love and loss but also of resilience, resolve, strength, and survival, all interwoven in a well-written novel that ended up being a surprisingly enjoyable read for me.  One thing I will say is that I got a little bit confused at first about the title, since most of the story didn’t seem to have much to do with lamenting per se.  But then I got to the end of the book, which was also the end of Aliki’s story, and that’s where the significance of the title as well as the theme of lamenting fell clearly into place for me.  I actually feel the ending was brilliantly done, as I was a bit startled as well when Aliki was told a secret that had been kept from her for decades and very likely would’ve altered the course of her life as well as the lives of her loved ones if she had known earlier.
+
+This is a one-of-a-kind book that I feel everyone should read, if not for the story, then at least for the historical and cultural aspects.  For me, it was a humbling experience and reminded me about being grateful for the life I have and not taking things for granted. 
+
+
+Received advance reader copy from Berkley Books via Penguin First to Read program.
+by Avital Gertner-Samet, Sunnyvale
+I have mixed feeling about this book. On the one hand, I thoroughly enjoyed the story. I enjoyed the descriptions of the Greek landscapes, food, and customs. I enjoyed reading about Greece in WWII, which is an angle of the war I did not know much about. It also tells an important story about the torn country and suffering after the Germans had left. On the other hand, I felt the pace was inconsistent. At times it went on and on to describe the daily lives and felt a bit repetitive; and at times, it felt rushed and it was hard to keep up with the plot. Additionally, I couldn't relate to the main characters. Each was flawed in his/her own way. Aliki seemed weak. Stelios stubborn and chauvinistic. Takis - broken from the inside out. I don't want to include any spoilers, so I will end my review here. All and all, I would say it's an important read, but I did not enjoy it as much as I did other historical fiction stories from this era.
+by Beca Watson, Washington
+I'm sorry to say that I was unable to finish this book. I was so interested in the subject, and so excited to be chosen as an early reader. Sadly, Aliki was a narrator with whom I was completely unable to connect. I couldn't finish the story because I was unable to care about who was telling it. This is clearly a problem with me and not with the book, based on other reviews. Give it a read! I hope you like it more than i did.
+by alexandra Minsinger, Quechee
+I enjoyed this book, it examined a part of history that I really had not been exposed to before.  However, sometimes I did feel that the book moved a little slow and was kind of disjointed, but the overall tone and story in the book was excellent.  In the end, I enjoyed learning about a new perspective from a point in history that is very popular right now.
+by Tracey Casey, Lawrence
+This is the story of a young girl coming of age during World War II, and the after effects, in Greece.  It's told from the main character's point of view as she remembers portions of her life, particularly the people that she loved.  
+
+Some reviewers have mentioned that the love interest seems flat and passionless, but I think it reflects the pragmatic view of the characters.  To paraphrase one character, you don't marry the one you love, you learn to love the one you marry.  I imagine, during this time period in several cultures, that love was a luxury that most couldn't afford.
+
+I found this book interesting and the characters felt real, flaws and all.
+by Irene O'Hare, Boston
+I knew nothing about this part of history and found hearing about it through Aliki's coming of age story to be quite interesting, though it was even more tragic than I expected. I enjoyed the parts with shadow puppetry and hearing about laments the most. Takis' story left me feeling particularly heartbroken and I wish we heard more about the later parts of it. The narration got tedious at times but the plot kept it going. It is definitely a story of resilience and continuing on because there is no other choice, which is a powerful message.
+by Lidia Castillo, Calexico
+This is the first advanced copy I've received from First to Read and I must say I really enjoyed it even if the ending left me with a such a bittersweet feeling. 
+I'm a big fan of historical fiction set in WWII and I've read many books and stories always centered around the biggest players: the US, England, Germany, Italy, Russia. But never have I encountered a story based on Greece and how the war affected the people even in the most remote islands. 
+This is the story about a woman named Aliki living in a small village in Greece and as she begins to tell her story we learn that she is the last lamenter of the area, the person who will be asked to sing a lament to the departed at their funeral. Being a lamenter seemed like such a mystical and sad profession. She starts recalling her life from the time she was a little girl living in her then Nazi-occupied village with her father. She suffers deaths in her family, looses everything and must flee to Athens, then to Crete, then to a prison camp in a very small island. She falls in love and is torn between love and duty, between the 2 most important men in her life: Takis and Stelios. She dreams of a happy ending to her story and it always seems to elude her. 
+The end of the war doesn't mean the end of the suffering for her or her nation as it happens in all wars. The period of reconstruction is much more complicated as the many factions try to take control of the government.
+All in all a very compelling story, it made me really care about the characters and their fate.
+by Rebecca Gaulton, Havertown
+This is the story of a woman, a Lamenter, who reflects on her life as a teenager during and right after WWII. She survives with the help of her two friends and various people that weave in and out of their lives. They witness many horrors, find incredible strength, discover true love and suffer tragedy after tragedy. There are so many books written about the horrors suffered by the Jewish community during this time and I have read most. But this book remembers the suffering of the Greek people, how they also were shot, betrayed, starved and shipped off to concentration camps. It's a book that is at times heart wrenching but it's well written with powerful characters
+by Lori Hardy, Oklahoma City
+This is truly a modern Greek tragedy.  In WWII Greece, Aliki witnesses her father's execution by the Germans who have occupied her village; that's when she discovers she has the 'gift' of lamenting.  Taken in by a village woman and her son, they also wind up hiding a Jewish mother and her son.  My Last Lament is not really her history as a lamenter, it is mostly the struggle of Aliki and the two boys to survive not only WWII, but the Greek civil war and all the atrocities that follow.  Horrifying at times, not only for the cruel acts of war and men, but at the realization of how easily one's life can change due to a random twist of fate.  Thank you to Penguin First to Read for an ARC of this haunting, well written story.  4.5 stars for this excellent work of historical fiction.
+by Sara L, Philadelphia
+Thank you to Penguin First to Read for the opportunity to read this book in advance.
+
+When I finished reading this last night, I was intent on giving this four full stars, but after thinking about it, I believe a 3.5 is more accurate.
+
+I will say that I enjoyed the majority of this book. I learned so much about Greek culture that I had absolutely no idea about, such as the practice of lamenting for the deceased, and the political factions that existed before, during and after World War II. So much unnecessary bloodshed and death occurred during this period, not just at the hands of the Nazis, but from the Greeks upon their own people. What a tragic history Greece has suffered through.
+
+The story itself was interesting. Aliki, the protagonist, is one of the last performers of the ancient lamenting tradition, which is basically to lose oneself in the grief of death and to chant sorrowfully, often making contact with those who have died. Aliki wakes up from her laments not knowing what she said or chanted, or for how long she had been lamenting for. It is a practice that the people of her small village find comforting after the deaths of their loved ones.
+
+As a teenage girl, she watches her father die via execution by Nazis for 'stealing' food. She is taken in by Chrysoula and her young son Takis, who not long later hide two Greek Jews, Sophia and her son Stelios, in their basement. This beginning history of Aliki's life is what I found to be the most fun to read, that kept me entertained and fascinated.
+
+Things become complicated after Stelios and Sophia are found out by the Germans, assumed to have been revealed by Takis out of his jealousy of the relationship between Aliki and Stelios. What ensues is a tangled web of emotions between Aliki, Stelios and Takis over the course of many years. 
+
+This book is a lot sadder than I originally thought it would be. There is constant war, neverending, even after the 'official' end of the Second World War. Politics in Greece were exceedingly tricky and complicated, and nobody was safe from anybody. But in this novel, there never seems to be an end, per se. Relationships between the characters grow, but many issues between them aren't really resolved. 
+
+The relationship between Takis and Aliki is the most confusing. Takis obviously suffers from schizophrenia, even as a very young child, though it's never said outright, but I wonder what the point of giving him this illness was. It was never really given much explanation, other than used as a tool to make the characters and readers believe he was guilty of crimes he didn't actually end up committing. Even the relationship between Aliki and Stelios was confusing, even though at times it was very sweet.
+
+However, the characters are written vividly and I felt that they were three-dimensional. I felt their constant sadness and pain, even Takis', who was without question the most misunderstood of the cast.
+
+The plot lulled for me about 3/4ths of the way in, and I wouldn't say I was bored, but I would say that the goings-on became much less page-turning as they continued on. The fighting and brutality was constant; even the most innocent among them didn't fare well. There were so many political factions that it was hard to keep track of who was fighting who and why, but that's not necessarily the author's fault. Also, it was hard to keep track of time passage. Did two years pass? Five? Ten? That wasn't really ever clear to me, and so it was hard to gauge whether Aliki was 14 or 24, or older. Moreover, as teenagers, Aliki and Stelios acted like adults, which made it difficult to discern how old they were, or if they were just magnificently mature for their ages.
+
+I must say again that this book is very sad. There is hardly a positive, uplifting moment in the entire novel. But it was very interesting, and I learned quite a bit. I want to learn more about Greece and its participation during and after World War II, thanks to My Last Lament.
+by Brittany Myers, Lansing
+This novel grabbed my attention from the very beginning. This narrative of historical fiction is both captivating and imaginative.  The story follows Aliki through her childhood in war torn Greece, to the last days of her life, where she has returned to her native village. The time period is during the second World War, when Nazi's occupied Greece and follows with a civil war among Greece's broken government,  Aliki records her story as one of love, loss, betrayal, and hope.  This is a rich historical piece that I greatly enjoyed.  The character development was expressive and emotional, and I especially enjoyed to resolution to many questions and the twists revealed at the end.  Would recommend this to anyone with an interest in historical fiction, literary fiction, WWII or Greece.
+by Jen Hanson, Georgetown
+I want to start off by thanking you, Penguin, for the advanced copy of this book for an honest review. 
+
+I'll start off with my likes, move on to my dislikes, and finally my personal thoughts.
+
+This is a story about Aliki, the last lamenter from northern Greece. She tells her story of what her life was like during the German occupation of northern Greece and after WWII
+
+What did I like about this novel?
+1. The beginning started off with a bang. It was great.
+2. The ending also was great.
+3. I liked that it was written in first person.
+
+What didn't I like about it?
+1. The way it was narrated. It kept kicking me out of the story. I had to back away from it a few times.
+2. I didn't care for any of the characters.
+3. I didn't care of the constant snide remarks... "The land of the big radios." Really? That's all you've got? It became annoying. You couldn't think of anything else besides this "The land of the big radios," constantly? I rolled my eyes, quite a few times.
+4. Timeline issues. So many timeline issues.
+5. Not understanding how sepsis works. 
+6. Inconsistencies... it bugged me. One minute they (Stelios and Aliki) were boarding a ship together. Then they didn't board a ship together. She returned from Angios Nikolaus a few days later. But then she didn't return a few days later. Aliki had yet to board the boat. Then Stelios was sent over. And then Stelios wasn't sent over. That jarred me and left me really confused. 
+7. So much for promising Takis's mother that Aliki would watch over Takis. Aliki was a girl of broken promises. 
+8. "And then this happened." That drove me crazy. 
+9. If you were kidnapped and forced into a guerrilla camp and you were discharged from it a few days later... why on earth would sex be the first thing on your mind? I would think Stelios would have major issues. Something other than a smile and a quickie. Something horrible like that, you're not going to come out of it, smiling. That part was so unbelievable to me. 
+10. I don't believe Angios Nikolaus was portrayed correctly in this story. You have to add some amount of proof, even in historical fiction. 
+
+Now for my personal thoughts...
+I don't believe it was properly well-thought out. This book is a huge miss for me. I feel bad for them. But Aliki's and Stelios's actions, brought it on themselves. Don't let my review deter you of this novel. This is just my simple opinion and we all have one of those.
+by jen Pearson , Colonial heights
+Seeing the effects of war through the eyes of someone not directly involved by deeply affected is one that is not often presented to readers.  This is a well written book showing how war impacts the every day lives of individuals and the struggles one can face.  I was deeply moved by this book and the trials the characters went through.  I definitely recommend this book as it was a good read. It was not a fast read for me but I didn't want it to be. I kept stopping at different points and it caused me to reflect on how I would handle similar situations - could I be as resilient?
+by Jennifer Holloway Jo, Jonesboro
+I think that the history of the lamenter was quite interesting, however I was displeased with the way the stories were told in connection to the history.   I did not get any passion between the Stelios and Aliki.  It just seemed that this could have been written more clearly.  It was overly obvious to understand that there was jealousy between the Taki and Stelios, but since the emotions fell flat it was hard to relate.
+by rebecca bleier, brooklyn
+Aliki a lamenter in Greece tells her story on tapes given to her by an American doing research. While the researcher wants to know about lamenters Aliki tells the story of her life towards the end on WWII and the aftermath in Greece. I knew little to nothing about this time period in Greece and found this novel interesting.
+by Cathy Bell, Rogersville
+The story featured a cultural facet of Greek history set during the German occupation and the turbulent aftermath. Aliki, a lamenter who mourns the dead is  the main character. When her father is shot by the Germans for stealing food, she is traumatized and stops speaking, Her neighbor and son, Taki take Aliki into their home. They are introduced later to Stelios and his mother, needing a place to hide. Taki, Aliki and Stelios are thrown together after a tragic incident in their village. They travel together over the country giving traditional puppet shows, but their interrelationships, misunderstandings and Taki' s mental problems set amongst civil unrest rule and ruin their lives.Told through Aliki's perspective on cassettes meant for a cultural student, sometimes felt odd and disconnected from the events being narrated. The twist at the end was not surprising. Interesting and sad, but well worth reading.
+END GALLEY REVIEW SECTION
+Copy the following link
+<a href="http://www.firsttoread.com"><img alt="First To Read" src="http://www.firsttoread.com/Images/F2R_member.jpg"></a>
+START FOOTER
+About First to Read
+First to Read is a destination for readers and those who love to talk about and discover new books. First to Read provides members with the chance to be the first to read the best new books, before they hit the shelves.
+Terms of Use
+Privacy Policy
+Program Terms
+First to Read FAQ
+Download Instructions
+Contact Us
+Copyright © 2017 Penguin Random House
+END FOOTER
+END MAIN SECTION
+START OVERLAYS
+END OVERLAYS

@@ -1,0 +1,289 @@
+<![endif]
+Google Chrome Frame for IE
+[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]
+mobile meta
+head functions
+This site is optimized with the Yoast SEO plugin v4.6 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 9]>
+<link rel='stylesheet' id='cb-ie-only-css'  href='https://artistrack.com/wp-content/themes/valenti/library/css/ie.css?ver=5.2' type='text/css' media='all' />
+<![endif]
+This site uses the Better Analytics plugin.  https://marketplace.digitalpoint.com/better-analytics.3354/item
+Body BG
+Facebook Pixel Code
+DO NOT MODIFY
+End Facebook Pixel Code
+Twitter single-event website tag code
+End Twitter single-event website tag code
+end custom css
+end head functions
+Submit
+ArtistRack is one of the best music blogs, submit music to our music blog
+Secondary Menu
+Latest
+Pop Stars That Found Success After Leaving Their Groups
+I_one Affiliates - Therefore I
+Choze ReaL - Walk Like A Man
+/Secondary Menu
+end header
+Featured Music
+I_one Affiliates – Therefore I
+Choze ReaL – Walk Like A Man
+Albert – My Song
+James Drake – Cryptic Comments
+LACE – Your Friend (Prod. D-errick Beats)
+Tiffinni Saint Ranae – Desirable
+RO\/ER – U & I
+PB HASSAN – BIRTHDAY BASH!!!
+Nervouschain – Weekdays
+The Wildwan – Strangest Will Robinson
+Featured Videos
+MALEA – You’ll Never Fix My Heart
+MALEA - You’ll Never Fix My Heart:
+
+We’ve brought you some amazing music from Los Angeles based singer/songwriter and
+...
+Read More...
+Alex Cuba – Lágrimas del Que Llora feat. Josemi Carmona
+Alex Cuba - Lágrimas del Que Llora feat. Josemi Carmona:
+
+Latin, Soul, Folk, Rock singer and songwriter, Alex Cuba is
+...
+Read More...
+Electric 5 – Crazy (Gnarls Barkley cover)
+Electric 5 - Crazy (Gnarls Barkley cover):
+
+Rising like a phoenix out of The Windy City, Electric 5 is a freshly forme
+...
+Read More...
+Atmig – Trip
+Atmig - Trip:
+
+A quick listen to Metro Detroit band ATMIG and it’s no surprise that their name- which stands for “Afte
+...
+Read More...
+Kyle Davis – Rental
+Kyle Davis - Rental:
+
+When Kyle Davis was asked what his aspirations for this year are, his answer was simple: “My goa
+...
+Read More...
+Laust Sonne – Reckless
+Laust Sonne - Reckless:
+
+Coming all the way from Copenhagen, Denmark, this multi-instrumentalist and composer is known
+...
+Read More...
+Ricky Official – Work in Progression
+Ricky Official - Work in Progression
+
+Born and raised in Germany, German/Japanese rapper Ricky Official grew up immers
+...
+Read More...
+Roma Moss feat. hOlY – Leaving Traces (FREE.D remix)
+Roma Moss feat. hOlY – Leaving Traces (FREE.D remix):
+
+At the close of 2016, we had the pleasure of working with Mosco
+...
+Read More...
+Bombay Boyz – ELEVATED (produced by. Drew Mantia)
+ELEVATED by the Bombay Boyz is the second single from their upcoming EP Sapphire Theory set to release in late May. The
+...
+Read More...
+T.J. – My Day Will Come Ft. Breana Marin
+T.J. - My Day Will Come Ft. Breana Marin:
+
+My Day Will Come is the First Single off the 2017 Sound Legion EP T.J. The
+...
+Read More...
+C.E.O. FRESH  – I gotta
+C.E.O. FRESH  - I gotta:
+
+C.E.O. F.R.E.S.H.$ A rapper from the city of Memphis, Tennessee with a lyrical style that is
+...
+Read More...
+Astylez & ACaprii – Roller Coasters (Aphrodisiac Pt.1)
+Astylez & ACaprii - Roller Coasters(Aphrodisiac Pt.1)
+
+Astylez & ACaprii use the concept of life and roller co
+...
+Read More...
+Featured Articles
+Interview with Quantum Split
+Quantum Split is a rock and soul band. They perform original songs and music, written by Berklee College of Mu
+...
+Read More...
+Iamfiveee – FWU (Review)
+Music Review for 'FWU' by Iamfiveee
+
+'FWU' has a laid back R&B vibe with a hypnotic drum pattern style melody. The
+...
+Read More...
+Interview with iamfiveee
+Melvin Joyner Jr. ( born March 31, 1998), better known by his stage name iamfiveee, is an American rapper and
+...
+Read More...
+Vote for BC in the Independent Artist Awards
+Vote Here
+
+Vote for BC in the Independent Artist Awards: Vote for me if your truly a fan of music. It's big to me do t
+...
+Read More...
+Introducing Jamon Turner
+Jamon “Truebeatz” Turner was born in November 1979 in Cincinnati, OH. In 2004, Jamon “Truebeatz” had found a passion for
+...
+Read More...
+Piriye – No Runnin’ (Review)
+Piriye - No Runnin' (Review): 
+
+Piriye is an up and coming Alternative R&B crooner by way of Brooklyn New York. P
+...
+Read More...
+Interview with Cel-Man Iller
+Interview with Cel-Man Iller: DeAngilo Chester Willis, born February 24th, 1989, is a fascinating talent emerg
+...
+Read More...
+Interview with Ryan Donnelly and an insight into ‘From Indie To Empire’
+Ryan Donnelly is the Author of a brand new Music Promotion book titled "From Indie To Empire" The Only DIY Music Marketi
+...
+Read More...
+Damond Young due to drop ‘The Teenager Story’ on April 16th
+New Orleans vintage artist 'Damond Young' has finished up his 3rd solo album 'The Teenager Story' which is due to drop 4
+...
+Read More...
+Introducing Justin Dearborn
+As a recording artist, Justin Dearborn’s music fuses elements of electropop and dance-pop into a genre that markets itse
+...
+Read More...
+Interview with Pittsburgh Producer JIGGZ PATEL
+Hi. My name is DeJuan and I'm a producer under the alias JIGGZ PATEL. I've been producing for 7 years. I descr
+...
+Read More...
+View More
+View More
+We are one of the Best Music Blogs online, we support indie music artist and help them reach the ears of 1000's. Our Music Blog is followed by Record Labels, Music Taste makers, Local Clubs, Radios and Dj's. Submit your music now to one of the top music blogs and be part of our indie music blogs.
+SUBMIT
+ArtistRack is one of the best music blogs, we are not your typical music blog, we also promote your music to our large fan base on our social media accounts and all featured music is included in our monthly newsletter which is sent out to music lovers, record labels, radios, Dj's and more. Submit Music now and be part of the top music blogs.
+Latest Music
+I_one Affiliates – Therefore I
+Choze ReaL – Walk Like A Man
+Octolab – Caravan
+Albert – My Song
+Abby Dallas – Gold Digger
+Toneboner – So Mad
+Moneybagz Da Babyboy – Hate On Me
+James Drake – Cryptic Comments
+LACE – Your Friend (Prod. D-errick Beats)
+Bryant Lamar – Tree (Vibes Ep)
+Latest Videos
+MALEA – You’ll Never Fix My Heart
+Alex Cuba – Lágrimas del Que Llora feat. Josemi Carmona
+Electric 5 – Crazy (Gnarls Barkley cover)
+Atmig – Trip
+Kyle Davis – Rental
+Laust Sonne – Reckless
+Ricky Official – Work in Progression
+Roma Moss feat. hOlY – Leaving Traces (FREE.D remix)
+Octolab – Caravan
+Nos insidious – Lucille
+Latest Articles
+Interview with Quantum Split
+Introducing K’Coneil
+Can masked rockers, Field of Giants overcome ‘Sophomore Slump’?
+Iamfiveee – FWU (Review)
+Interview with iamfiveee
+Vote for BC in the Independent Artist Awards
+Introducing BREEZE Millard
+Introducing Jamon Turner
+Interview with Cel-Man Iller
+Interview with Ryan Donnelly and an insight into ‘From Indie To Empire’
+ArtistRack is one of the best music blogs, we promote all music genres, submit music and be part of our music blog.
+ArtistRack promotes all genre's of music and music videos, submit your music now and feature on our indie music blogs
+Submit Music
+Submit Video
+Artist Interview
+Artist Submission
+Music Video Promotion
+Music Review
+Tags
+Alternative
+Artist
+EDM
+EDM Music Videos
+Featured (Artist)
+Featured (Music)
+Featured (Video)
+Gospel
+HipHop | Rap
+HipHop | Rap
+Hip Hop | Rap Music Videos
+Music
+Other
+Pop
+Pop
+RnB | Soul
+RnB | Soul
+Rock
+Rock
+Video
+© 2015-2016
+ThinkSmart Innovation Ltd
+t/a
+ArtistRack
+About
+Reviews
+Contact
+Terms and conditions
+Privacy Policy
+end footer
+end #cb-container
+end #cb-outer-container
+showcasing the best music talent
+Home
+Artist
+Alternative
+Country
+EDM
+Gospel
+HipHop | Rap
+Jazz
+Other
+Pop
+Reggae
+RnB | Soul
+Rock
+Music
+Alternative
+Country
+EDM
+Gospel
+HipHop | Rap
+Instrumental | Beats
+Jazz
+Other
+Pop
+Reggae
+Rock
+RnB | Soul
+Video
+Alternative
+Country
+EDM Music Videos
+Gospel
+Hip Hop | Rap Music Videos
+Jazz
+Other
+Pop
+Reggae Music Videos
+RnB | Soul
+Rock
+Submit
+Music
+Video
+Artist/Press Release
+Interview
+Music Review
+INSERT HERE
+CUSTOM CONTENT HERE
+Start of Tawk.to Script
+End of Tawk.to Script

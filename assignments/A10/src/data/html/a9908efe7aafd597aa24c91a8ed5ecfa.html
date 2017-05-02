@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <!-- prefetch dns -->
+  <link rel="dns-prefetch" href="http://www.google.com">
+  <link rel="dns-prefetch" href="http://cdn.socket.io">
+  <link rel="dns-prefetch" href="http://maps.googleapis.com">
+  <link rel="dns-prefetch" href="//google-analytics.com">
+  <link rel="dns-prefetch" href="//graph.facebook.com">
+  <link rel="dns-prefetch" href="//connect.facebook.net">
+  <link rel="dns-prefetch" href="https://www.facebook.com">
+  <link rel="dns-prefetch" href="//s7.addthis.com">
+   <link rel="dns-prefetch" href="http://twitter.com">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"64021c99fd","applicationID":"3735792","transactionName":"JV1cRUdXW1hVFx5UUR5bUV5bZ1JaRBdYXUdJRltFWV0=","queueTime":1,"applicationTime":365,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="google-site-verification" content="-ia_wobM9FkeD6-KHrea-x1rUFQnOOkfXqQiMbfXOYQ" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fVj6r/LDscxJKgKttGIYG1w/W9dI2cs8VsRrsdQfC3KzV6dUEUKgH7yQI/akp83SCjXXYJ/Lbn2rtSLmCpLIxw==" />
+  <title>Moanin&#39; - Titel - Musikdatenbank - Radio Swiss Jazz</title>
+
+  <meta name="description" content="«Moanin&#39;» by Art Blakey&#39;s Jazz Messengers" />
+<link rel="alternate" href="http://www.radioswissjazz.ch/en/music-database/title/60625b3bbaa598632b04432b116dd8cdc1c" hreflang="en" />
+<link rel="alternate" href="http://www.radioswissjazz.ch/fr/base-de-donnees-musicale/titre/60625b3bbaa598632b04432b116dd8cdc1c" hreflang="fr" />
+<link rel="alternate" href="http://www.radioswissjazz.ch/it/banca-dati-musicale/titolo/60625b3bbaa598632b04432b116dd8cdc1c" hreflang="it" />
+<meta property="og:title" content="Radio Swiss Jazz - Musikdatenbank - Titel" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.radioswissjazz.ch/common/images/booklets/web/600/000/009/9498.jpg" />
+<meta property="og:site_name" content="Radio Swiss Jazz" />
+<meta property="og:url" content="http://www.radioswissjazz.ch/de/musikdatenbank/titel/60625b3bbaa598632b04432b116dd8cdc1c" />
+<meta property="og:description" content="«Moanin&#39;» by Art Blakey&#39;s Jazz Messengers" />
+<meta property="og:audio" content="http://www.radioswissjazz.ch/social-media/rsj-web.mp3" />
+<meta name="twitter:title" content="Radio Swiss Jazz - Musikdatenbank - Titel" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@jazz_onair" />
+<meta name="twitter:creator" content="@jazz_onair" />
+<meta name="twitter:description" content="«Moanin&#39;» by Art Blakey&#39;s Jazz Messengers" />
+<meta name="twitter:image" content="http://www.radioswissjazz.ch/common/images/booklets/web/600/000/009/9498.jpg" />
+
+  <!--
+  URHEBERRECHTSHINWEIS:
+  Die SRG SSR Schrift und die dazugehörige Software stehen im vollumfänglichen Eigentum der SRG. Jede Bearbeitung, Vervielfältigung, Verbreitung und/oder öffentliche Wiedergabe, insbesondere die ungenehmigte Übernahme der SRG SSR Schrift stellt einen Rechtsverstoss dar, der zum Schadenersatz verpflichtet und auch strafrechtlich verfolgt wird.
+  -->
+  <link rel="stylesheet" media="all" href="/assets/application_rsj-70df672aad012dc1682614ecdfe141a0.css" />
+  <link rel="stylesheet" media="print" href="/assets/application-print-c1e2cc2eabe32583a5fa723e283e7099.css" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/logos/favicons/rsj-favicon-cd57c25ed66e2361929dfc2938f0ca7a.ico?v=2" />
+  <!-- For Chrome for Android: -->
+
+  <!-- For iPhone 6 Plus with @3× display: -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/logos/favicons/rsj-favicon-180-b02c69d9e9966af39a6fd3c3d7452105.png" sizes="180x180" />
+
+  <!-- For iPad with @2× display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/logos/favicons/rsj-favicon-152-6d65a02f83bf53367d2a69670526d671.png" sizes="152x152" />
+
+  <!-- For iPad with @2× display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/logos/favicons/rsj-favicon-144-d28fee1b446e275b85c1d131370651c1.png" sizes="144x144" />
+
+  <!-- For iPhone with @2× display running iOS ≥ 7: -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/logos/favicons/rsj-favicon-120-9bf659f1e375f58a17db86ac86c85f7f.png" sizes="120x120" />
+
+  <!-- For iPhone with @2× display running iOS ≤ 6: -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/logos/favicons/rsj-favicon-114-4debe3d4e55c9099f0d6f07bd3d5ef09.png" sizes="114x114" />
+
+  <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/logos/favicons/rsj-favicon-76-cb3af074c85ffab22c00362651b69958.png" sizes="76x76" />
+
+  <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/logos/favicons/rsj-favicon-72-aa2a157a1f8b8795c41c3b07d68ef41b.png" sizes="72x72" />
+
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" type="image/png" href="/assets/logos/favicons/rsj-favicon-57-8005facb032e3eae996a399c02ae2fb9.png" sizes="57x57" />
+
+  <script src="/assets/application-bd3524795547a63a9fb8724f7d5a4553.js"></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+  <script src="http://www.google.com/recaptcha/api.js?onload=captcha_api_loaded&render=explicit&hl=de" async defer></script>
+  <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ssatr"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAfOohDJ-pxpyGoDemltBX9TIzIcKk-zOM&language=de&region=CH"></script>
+  <script src="http://io-1.ssatr.ch/socket.io/socket.io.js"></script>
+
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript">
+      var addthis_config = {
+         data_ga_property: 'UA-2935532-3',
+         data_ga_social : true
+      };
+	</script>
+  
+</head>
+<body>
+
+
+  <div id="fb-root"></div>
+
+  <div id="main-wrapper" data-pjax-container> <!-- #main-wrapper -->
+     
+<div id="sidebar-wrapper">
+
+  <div class="menu-fixer" >
+  	<a href="/de">
+      	<div class="sidebar-logo"></div>
+</a>
+  	<div class="player-starter">
+  		<a href="javascript:;" data-skip-pjax>
+  			<span class="icon-play"></span>
+  			<span class="play-txt">Radio starten</span>
+  		</a>
+  	</div>
+
+		<div class="menu-content-wrapper">
+			<nav class="main-nav" >
+			  <ul>
+					<li class="l1">
+					  <a href="javascript:;" data-skip-pjax>
+					  	<span class="nav-text">Musikprogramm </span>
+					  	<span class="nav-caret icon-accordion-up"></span>
+					  </a>
+					</li>
+					<li class="sub open">
+					  <ul>
+					  	<li class="l2 "><a href="/de/musikprogramm/suche">Programm durchsuchen</a></li>
+					    <li class="l2 "><a href="/de/musikprogramm/neu-im-programm">Neu im Programm</a></li>
+					      <li class="l2 "><a href="/de/musikprogramm/programmraster">Programmraster</a></li>
+					  </ul>
+					</li>
+
+					<li class="l1 top-l2 active"><a href="/de/musikdatenbank">Musikdatenbank</a></li>
+			    	<li class="l1 top-l2 "><a href="/de/musikjury">Musikjury</a></li>
+
+			    <li class="l1 top-l2 "><a href="/de/konzertkalender">Konzertkalender</a></li>
+
+
+			    <li class="l1">
+			      <a href="javascript:;" data-skip-pjax>
+			        <span class="nav-text">Empfang</span>
+			        <span class="nav-caret icon-accordion-up"></span>
+			      </a>
+			    </li>
+			    <li class="sub open">
+			      <ul>
+			        <li class="l2 "><a href="/de/empfang/digitalradio">Digitalradio (DAB+)</a></li>
+			        <li class="l2 "><a href="/de/empfang/internet">Internet</a></li>
+			        <li class="l2 "><a href="/de/empfang/apps">Apps</a></li>
+			        <li class="l2 "><a href="/de/empfang/kabel-iptv">Kabel/ipTV</a></li>
+			        <li class="l2 "><a href="/de/empfang/satellit">Satellit</a></li>
+			      </ul>
+			    </li>
+
+				    <li class="l1">
+				      <a href="javascript:;" data-skip-pjax>
+				        <span class="nav-text">Aktuelles</span>
+				        <span class="nav-caret icon-accordion-up"></span>
+				      </a>
+				    </li>
+				    <li class="sub open">
+				      <ul>
+				       		<li class="l2 "><a href="/de/aktuelles/verlosungen">Verlosungen</a></li>
+
+				        		<li class="l2 "><a href="/de/aktuelles/konzerttipps">Konzerttipps</a></li>
+
+			        			<li class="l2 "><a href="/de/aktuelles/festivaltipps">Festivaltipps</a></li>
+
+				      </ul>
+				    </li>
+
+				  <li class="l1">
+					  <a href="javascript:;" data-skip-pjax>
+					  	<span class="nav-text">Services</span>
+					  	<span class="nav-caret icon-accordion-up"></span>
+					  </a>
+					</li>
+					<li class="sub open">
+					  <ul>
+							<li class="l2 "><a href="/de/services/hier-hoeren-sie-uns">Hier hören Sie uns</a></li>
+			        <li class="l2 "><a href="/de/services/links">Links</a></li>
+			        <li class="l2 "><a href="/de/services/downloads">Downloads</a></li>
+					  </ul>
+					</li>
+
+			    <li class="l1">
+			      <a href="javascript:;" data-skip-pjax>
+			        <span class="nav-text">Über uns</span>
+			        <span class="nav-caret icon-accordion-up"></span>
+			      </a>
+			    </li>
+			    <li class="sub open">
+			      <ul>
+			        <li class="l2 "><a href="/de/ueber-uns/unser-radio-in-kuerze">Unser Radio in Kürze</a></li>
+			        <li class="l2 "><a href="/de/ueber-uns/kontakt">Kontakt</a></li>
+			        <li class="l2 "><a href="/de/ueber-uns/faq">FAQ</a></li>
+			      </ul>
+			    </li>
+			  </ul>
+
+			</nav> <!-- END NAVIGATION -->
+
+	    <div class="lang-links">
+				<ul>
+					<li class="active "><a class="active " data-skip-pjax="" aria-label="Sprache wechseln, deutsch" href="/de/musikdatenbank/titel/60625b3bbaa598632b04432b116dd8cdc1c">DE</a></li>
+					<li class=" "><a class=" " data-skip-pjax="" aria-label="Sprache wechseln, französisch" href="/fr/base-de-donnees-musicale/titre/60625b3bbaa598632b04432b116dd8cdc1c">FR</a></li>
+					<li class=" "><a class=" " data-skip-pjax="" aria-label="Sprache wechseln, italienisch" href="/it/banca-dati-musicale/titolo/60625b3bbaa598632b04432b116dd8cdc1c">IT</a></li>
+					<li class=" "><a class=" " data-skip-pjax="" aria-label="Sprache wechseln, englisch" href="/en/music-database/title/60625b3bbaa598632b04432b116dd8cdc1c">EN</a></li>
+				</ul>
+			</div> <!-- END LANGUAGE LINKS -->
+
+			<div class="station-links">
+				<ul>
+					<li>
+			  		<a class="" href="http://www.radioswisspop.ch"><img width="35" height="35" alt="Wechsel zu Radio Swiss Pop" src="/assets/logos/rsp-logo-35-623b22ebc03b775cee82c1086a16e363.png" /></a>
+			  	</li>
+			  	<li>
+			  		<a class="" href="http://www.radioswissclassic.ch"><img width="35" height="35" alt="Wechsle zu Radio Swiss Classic" src="/assets/logos/rsc-logo-35-f2f4a47d34e83b7eed492bbdf8b875b3.png" /></a>
+			  	</li>
+			  	<li>
+			  		<a class="active" href="http://www.radioswissjazz.ch"><img width="35" height="35" alt="Wechsle zu Radio Swiss Jazz" src="/assets/logos/rsj-logo-35-5ffa877db750d6ba00d434f457d14d6e.png" /></a>
+			  	</li>
+			  </ul>
+			</div> <!-- END STATION LINKS -->
+
+		</div>
+
+  </div>
+
+</div>
+
+     <div id="topbar-wrapper">
+
+  <a href="javascript:;">
+    <div id="topbar-nav" class="navbar-left closed">
+      <span class="icon-menu"></span>
+      <span class="hidden-xs menu-text" >
+        Menü
+      </span>
+    </div>
+  </a>
+
+  <a href="/de">
+    <div id="topbar-logo-wrapper">
+        <div id="topbar-logo"></div>
+    </div>
+</a>
+  <!--a href="javascript:;">
+    <div id="topbar-search">
+      <span class="hidden-xs search-text">
+      </span>
+      <span class="icon-magnifier"></span>
+    </div>
+  </a -->
+
+</div>
+
+
+     <div class="clearfix"></div>
+
+    <div id="content-wrapper" class="fluid-container " >
+
+      <div id="row-wrapper" >
+        <div id="content" role="main"  >
+          
+<div class="full-col page-heading-wrap"><h1 class="page-title no-margin-top">Musikdatenbank</h1><h1 class="sub-title no-margin-top">Titel</h1></div>
+
+<div class="full-col">
+	<h2 class="main no-margin-bottom">Moanin&#39;</h2><h3 class="sub no-margin-top">Art Blakey&#39;s Jazz Messengers</h3>
+</div>
+<div id="song-info">
+	<div class="cover-w songinfo-left" style="min-height: 100px">
+			<img class="img-responsive" alt="Moanin&#39;" src="/common/images/booklets/web/200/000/009/9498.jpg" />
+	</div>
+
+		<div class="interactive songinfo-right-full">
+			 <a class="play-me" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Vorhören" data-hook="/sounds/hooks/mp3/000/000/J606.mp3" href="javascript:;">
+	  			<span class="icon-earphones"></span>
+</a>
+			<a class="rate-song" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Bewerten" href="/de/musikprogramm/bewerten/60625b3bbaa598632b04432b116dd8cdc1c">
+				<span class="icon-star"></span>
+</a>
+			<a class="notify-me" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Benachrichtigen lassen" href="/de/musikprogramm/benachrichtigen/60625b3bbaa598632b04432b116dd8cdc1c">
+				<span class="icon-clock"></span>
+</a>
+
+
+			
+<div class="addthis_toolbox" addthis:url="http://www.radioswissjazz.ch/de/musikdatenbank/titel/60625b3bbaa598632b04432b116dd8cdc1c"  addthis:title="Radio Swiss Jazz - Musikdatenbank - Titel - «Moanin&#39;» by Art Blakey&#39;s Jazz Messengers">
+	<div class="custom_images">
+		<a class="addthis_button_compact buy" href="javascript:;"><span class="icon-share"></span></a>
+	</div>
+</div>
+
+		</div>
+
+
+		<div class="information songinfo-right-single">
+			<h3>Information</h3>
+
+				<p>
+					<span class="info-label">Interpreten</span>
+						<a href="/de/musikdatenbank/band/15276107f4381e35a83f23d63c25e08edff41">Art Blakey&#39;s Jazz Messengers</a>
+
+							
+
+
+						<br/>
+								<a href="/de/musikdatenbank/musiker/2444795279120d7cd29c9c91abbbc55a80a8e">- Art Blakey</a>
+								 (drums)
+							 <br/>
+								<a href="/de/musikdatenbank/musiker/17643fbee5a9023f3071a541d1dac7772a365">- Lee Morgan</a>
+								 (trumpet)
+							 <br/>
+								<a href="/de/musikdatenbank/musiker/136422db63dda57c3581544d17a2dbb955b83">- Benny Golson</a>
+								 (tenor sax)
+							 <br/>
+								<a href="/de/musikdatenbank/musiker/172041adfe632986506f66d293c6a078dcbe1">- Bobby Timmons</a>
+								 (piano)
+							 <br/>
+								<a href="/de/musikdatenbank/musiker/24520960d6583bd6b0a510947f8c12e1e2cf6">- Jymie Merritt</a>
+								 (double bass)
+							 <br/>
+				</p>
+
+				<p>
+					<span class="info-label">Urheber</span>
+							<a href="/de/musikdatenbank/musiker/172041adfe632986506f66d293c6a078dcbe1">Bobby Timmons</a>
+						<span class="spacer clearfix"></span>
+				</p>
+
+				<p>
+					<span class="info-label">Aufnahmedatum</span>
+					<span>
+
+								30. Oktober 1958
+					</span>
+				</p>
+
+		</div>
+
+	<div class="clearfix visible-md visible-sm"></div>
+
+		<div class="information songinfo-left">
+		</div>
+
+		<div class="programm songinfo-right-single">
+			<h3>Im Programm</h3>
+
+			<p>
+				<span class="info-label">Wurde zuletzt gespielt</span>
+				<span>16.04.2017 07:00</span>
+			</p>
+
+				<p>
+					<span class="info-label">Läuft wieder im Programm am</span>
+							<span>11.05.2017 ca.  03:05</span><br/>
+				</p>
+
+		</div>
+</div>
+<script>$(function() {_paq.push(['trackEvent','1','60625b3bbaa598632b04432b116dd8cdc1c']);});</script>
+
+<div class="clearfix"></div>
+	<div class="full-col" >
+		<div class="list">
+			<div class="list-title-w">
+				<span>Album</span>
+			</div>
+		</div>
+	</div>
+	<div class="full-col" >
+		<h2 class="main no-margin-bottom">Moanin&#39;</h2><h3 class="sub no-margin-top">Art Blakey&#39;s Jazz Messengers</h3>
+</div>
+
+<div id="cd-info">
+	<div class="cover-w cdinfo-left">
+			<img class="img-responsive" alt="Moanin&#39;" src="/common/images/booklets/web/200/000/009/9498.jpg" />
+	</div>
+
+
+			<div class="interactive cdinfo-right">
+				<a data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Kaufen" href="/de/services/titel/kaufen/60625b3bbaa598632b04432b116dd8cdc1c">
+					<span class="icon-basket"></span>
+</a>			</div>
+
+
+
+	<div class="cdinfo-left"></div>
+	<div class="cdinfo-right">
+			<p>
+				<span class="info-label">Label</span>
+				<span>Blue Note / CDP 7 46516 2</span>
+			</p>
+			<p>
+				<span class="info-label">Produktionsjahr</span>
+				<span>1987</span>
+			</p>
+
+
+			<div class="list">
+				<div class="list-title-w">
+					<span>Tracks</span>
+				</div>
+			</div>
+			<div class="list">
+						<div class="list-items-w">
+							<div class="list-row">
+								<div class="info-w">
+										<a href="/de/musikdatenbank/titel/60625b3bbaa598632b04432b116dd8cdc1c">
+											<span>1.   Moanin&#39;</span>
+</a>											&nbsp;&nbsp;<a href="javascript:;" class="play-me" data-hook="/common/sounds/hooks/mp3/000/400/400364.mp3">
+												<span class="icon-earphones"></span>
+											</a>
+								</div>
+							</div>
+					  </div>
+						<div class="list-items-w">
+							<div class="list-row">
+								<div class="info-w">
+										<span>2.   Moanin&#39; (Alternate Take)</span>
+											&nbsp;&nbsp;<a href="javascript:;" class="play-me" data-hook="http://a1775.phobos.apple.com/us/r30/Music/31/71/37/mzm.skpknjvx.aac.p.m4a" data-format="m4a">
+												<span class="icon-earphones"></span>
+											</a>
+								</div>
+							</div>
+					  </div>
+						<div class="list-items-w">
+							<div class="list-row">
+								<div class="info-w">
+										<a href="/de/musikdatenbank/titel/907828c7059de55453ec5c201e640643df23">
+											<span>3.   Are You Real</span>
+</a>											&nbsp;&nbsp;<a href="javascript:;" class="play-me" data-hook="/common/sounds/hooks/mp3/000/400/400366.mp3">
+												<span class="icon-earphones"></span>
+											</a>
+								</div>
+							</div>
+					  </div>
+						<div class="list-items-w">
+							<div class="list-row">
+								<div class="info-w">
+										<a href="/de/musikdatenbank/titel/12523d7b5f2b8e515073f704c99ff01d0462a">
+											<span>4.   Along Came Betty</span>
+</a>											&nbsp;&nbsp;<a href="javascript:;" class="play-me" data-hook="/common/sounds/hooks/mp3/000/400/400367.mp3">
+												<span class="icon-earphones"></span>
+											</a>
+								</div>
+							</div>
+					  </div>
+						<div class="list-title-w inner-title">
+							<span>
+									Benny Golson
+									<br />
+									The Drum Thunder (Miniature) Suite 
+							</span>
+						</div>
+						<div class="list-items-w">
+							<div class="list-row">
+								<div class="info-w">
+										<span>5.   1. First Theme: Drum Thunder 2. Second Theme: Cry A Blue Tear 3. Third Theme: Harlems Disciples</span>
+											&nbsp;&nbsp;<a href="javascript:;" class="play-me" data-hook="http://a2.mzstatic.com/us/r1000/014/Music/7a/56/94/mzi.tztybgvw.aac.p.m4a" data-format="m4a">
+												<span class="icon-earphones"></span>
+											</a>
+								</div>
+							</div>
+					  </div>
+						<div class="list-items-w">
+							<div class="list-row">
+								<div class="info-w">
+										<span>6.   Blues March</span>
+											&nbsp;&nbsp;<a href="javascript:;" class="play-me" data-hook="http://a1386.phobos.apple.com/us/r30/Music/4d/81/49/mzm.gyzfnrhv.aac.p.m4a" data-format="m4a">
+												<span class="icon-earphones"></span>
+											</a>
+								</div>
+							</div>
+					  </div>
+						<div class="list-items-w">
+							<div class="list-row">
+								<div class="info-w">
+										<span>7.   Come Rain Or Come Shine</span>
+											&nbsp;&nbsp;<a href="javascript:;" class="play-me" data-hook="http://a580.phobos.apple.com/us/r30/Music/b7/72/71/mzm.mapdjbgy.aac.p.m4a" data-format="m4a">
+												<span class="icon-earphones"></span>
+											</a>
+								</div>
+							</div>
+					  </div>
+
+			</div> <!-- open list -->
+
+	</div>
+</div>
+
+
+
+
+        </div>
+
+        <div id="rhc-wrapper">
+          <div class="module-wrapper full-col-rhc visible-xs">
+	<div class="full-col"><hr class="module-seperator" /></div>
+</div>
+
+
+
+  <div class="module-wrapper full-col-rhc">
+    <div class="full-col module-header"><h1 class="module-title no-margin-top"><a href="/de/aktuelles/abonnieren"><span>Newsletter</span><span class="icon-arrow-right"></span></a></h1></div>
+    <div class="module-body">
+      <p>Möchten Sie regelmässig über Neuigkeiten rund um Radio Swiss Jazz informiert werden? Dann abonnieren Sie unseren Newsletter!</p>
+      <a class="btn btn-primary full" href="/de/aktuelles/abonnieren">abonnieren</a>
+    </div>
+    <div class="full-col"><hr class="module-seperator" /></div>
+</div>
+
+<div class="module-wrapper full-col-rhc">
+	<div class="full-col module-header"><h1 class="module-title no-margin-top"><a target="_blank" href="http://twitter.com/jazz_onair"><span>Twitter</span></a></h1></div>
+  <div class="module-body">
+  	<p>Folgen Sie dem Radio Swiss Jazz On-air-Service</p>
+		<a href="https://twitter.com/jazz_onair" class="twitter-follow-button" data-size="large" data-lang="de" data-dnt="true" data-show-count="false">Follow jazz_onair</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  </div>
+  <div class="full-col"><hr class="module-seperator" /></div>
+</div><div class="module-wrapper full-col-rhc" style="min-height: 70px">
+  <div class="full-col module-header"><h1 class="module-title no-margin-top"><a target="_blank" href="http://www.facebook.com/radioswissjazz"><span>Facebook</span></a></h1></div>
+  <div class="module-body" style="min-height: 70px;">
+    <div class="fb-page" data-href="https://www.facebook.com/radioswissjazz" data-width="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/radioswisspop"><a href="https://www.facebook.com/radioswissjazz">Radio Swiss Jazz</a></blockquote></div></div>
+
+  </div>
+</div>
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div id="footer-wrapper" class="full-col">
+          <footer>
+            
+<div class="link-wrapper">
+
+	<p class="links-left">
+		<span><a href="/de/ueber-uns/impressum">Impressum</a></span>
+		<span>|</span>
+		<span><a href="/de/ueber-uns/kontakt">Kontakt</a></span>
+		<!-- span>|</span-->
+		<!-- span></span -->
+	</p>
+
+	<p class="links-right">
+		<span><a class="active " data-skip-pjax="" href="/de/musikdatenbank/titel/60625b3bbaa598632b04432b116dd8cdc1c">DE</a></span>
+		<span>|</span>
+		<span><a class=" " data-skip-pjax="" href="/fr/base-de-donnees-musicale/titre/60625b3bbaa598632b04432b116dd8cdc1c">FR</a></span>
+		<span>|</span>
+		<span><a class=" " data-skip-pjax="" href="/it/banca-dati-musicale/titolo/60625b3bbaa598632b04432b116dd8cdc1c">IT</a></span>
+		<span>|</span>
+		<span><a class=" " data-skip-pjax="" href="/en/music-database/title/60625b3bbaa598632b04432b116dd8cdc1c">EN</a></span>
+	</p>
+</div>
+
+
+<div class="copy-wrapper">
+	<p class="copy-left">&copy; 2017&nbsp;Schweizerische Radio- und Fernsehgesellschaft</p>
+	<p class="logo-right">
+		<img height="20" src="/assets/logos/SRGLogo-fa77576491ed4709be9713ad351cfb98.gif" alt="Srglogo" />
+	</p>
+</div>
+
+          </footer>
+        </div>
+
+      </div> <!-- end row-wrapper -->
+
+    </div> <!-- end content-wrapper -->
+
+  </div>  <!-- end main-wrapper -->
+
+
+    <div class="jp-jplayer" id="stream-player" data-station="rsj">
+<!-- jPlayer Container -->
+</div>
+<div class="jp-audio-stream" id="stream-player-container">
+	<div class="jp-type-single">
+		<div class="jp-gui jp-interface">
+			<div class="player-w">
+
+				<div class="play-ctr">
+					<a class="no-pjax-play player-tooltip player-starter" tabindex="1" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Radio starten" data-skip-pjax="" aria-label="Radio starten" href="javascript:;">
+					 		<span class="icon-play" role="button" ></span>
+</a>
+					<a class="jp-pause player-tooltip" style="display: none;" tabindex="1" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Radio stoppen" data-skip-pjax="" aria-label="Radio stoppen" href="javascript:;">
+					 	<span class="icon-stop" role="button"></span>
+</a>				</div>
+
+				<div class="vol-ctr hidden-xs hidden-sm">
+					<a class="jp-mute player-tooltip" tabindex="2" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Stumm stellen" data-skip-pjax="" aria-label="Stumm stellen" href="javascript:;">
+					 	<span class="my-vol icon-volume-1" role="button"></span>
+</a>
+					<a class="jp-unmute player-tooltip" style="display: none;" tabindex="2" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Laut stellen" data-skip-pjax="" aria-label="Laut stellen" href="javascript:;">
+					 	<span class="icon-volume-off" role="button"></span>
+</a>
+					<div class="jp-volume-bar">
+						<div class="jp-volume-bar-value">
+							<div class="circle"></div>
+						</div>
+					</div>
+				</div>
+
+					<div class="popout-ctr hidden-xs hidden-sm">
+						<a class="jp-popout player-tooltip" tabindex="3" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Externer Player" data-skip-pjax="" aria-label="Externer Player" href="javascript:;">
+							<span class="icon-pop-out" role="button"></span>
+</a>					</div>
+					<!-- div class="hq-ctr hidden-xs hidden-sm">
+						<span class="icon-hq"></span>
+				</div -->
+			</div>
+
+			
+  <script>
+    $(function() {
+         station_classic = false;
+      img_base_url = "";
+
+      var socket = io.connect('http://io-1.ssatr.ch:80/rsj/de/current');
+      socket.on('onair', function (data) {
+        update_onair(data, station_classic, img_base_url);
+      });
+    });
+  </script>
+
+
+  <div class="current-airplay">
+  	<div class="item-row">
+    		<a href="/de/musikdatenbank/titel/1081596a4285c0440c525b56f1147f36a5114">
+    			<div class="link-w" >
+    				<div class="time-cover-w">
+    					<span class="time hidden-xs hidden-sm">04:31</span>
+    					<img width="50" height="50" style="" class="hidden-xs cover" alt="Why Do I Love You" title="Why Do I Love You" src="/common/images/booklets/web/050/000/061/61226.jpg" />
+    					<span style="display:none" class="cover icon-music-tone"></span>
+    				</div>
+
+    				<div class="text-w">
+    					<span class="time-xs">Jetzt läuft</span>
+    					<div class="clearfix"></div>
+    					<span class="title"><img width="17" height="17" src="/assets/now-playing/now-playing-player-desktop-aa7ce9e9d46db76e9da6cce63fd7b80e.gif" alt="Now playing player desktop" />&nbsp;<span class="titletag">Do I Worry?</span></span>
+    					<div class="clearfix"></div>
+    					<span class="artist">Helen Carr</span>
+    				</div>
+    			</div>
+</a>  	</div>
+
+  	<a class="jp-playlist player-tooltip playlist-ctr" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Musikprogramm von heute" href="/de/musikprogramm/suche">
+  			<span class="icon-playlist"></span>
+</a>
+  </div>
+
+
+
+
+				<div class="vol-ctr hidden-md hidden-lg">
+					<a class="jp-mute player-tooltip" tabindex="1" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Stumm stellen" data-skip-pjax="" href="javascript:;">
+					 	<span class="my-vol icon-volume-1" role="button"></span>
+</a>
+					<a class="jp-unmute player-tooltip" style="display: none;" tabindex="1" data-toggle="tooltip" data-placement="top" data-template="&lt;div class=&quot;tooltip player-tooltip&quot; role=&quot;tooltip&quot;&gt;
+                  &lt;div class=&quot;tooltip-arrow player-arrow-top&quot;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&quot;tooltip-inner player-inner&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;" data-html="true" data-original-title="Laut stellen" data-skip-pjax="" href="javascript:;">
+					 	<span class="icon-volume-off" role="button"></span>
+</a>
+					<div class="jp-volume-bar">
+						<div class="jp-volume-bar-value">
+							<div class="circle"></div>
+						</div>
+					</div>
+				</div>
+
+			<div class="jp-no-solution" style="display: none;">
+				<span>Update Required</span>
+				To play the media you will need to either update your browser to a recent version or update your <a target="_blank" href="http://get.adobe.com/flashplayer/">Flash plugin</a>.
+			</div>
+		</div>
+	</div>
+</div>
+<div id="hook-player">
+<!-- Hook jPlayer -->
+</div>
+<script>
+//<![CDATA[
+var SSATR = {};
+SSATR.vol = get_player_volume();
+SSATR.stream = {title: "Radio Swiss Jazz", mp3: "http://stream.srg-ssr.ch/m/rsj/mp3_128"};
+SSATR.swf_path = "/assets/jplayer/jquery.jplayer-31e21569888ce5f821adbcbb3a7f43fd.swf";
+SSATR.player_trans_play = "Radio starten";
+SSATR.player_trans_stop = "Radio stoppen";
+SSATR.popout_player_path = "/de/webplayer";
+SSATR.hook_base_url = "";
+SSATR.show_errors = false;
+
+$(function () {
+	init_main_player();
+	init_hook_player();
+});
+//]]>
+</script>
+
+
+
+  <script>
+    // Push Navi Button Mobile
+    var pusher = new $.pushnavi($("#topbar-nav"));
+    var navi = new $.navi($("#sidebar-wrapper .main-nav"));
+
+    $(document).on('pjax:complete', function() {
+      var location = window.location.protocol + '//' + window.location.hostname + window.location.pathname + window.location.search;
+        ga('send', 'pageview', {'location': location});
+
+        // WEMF
+        var WEMF="http://swissrad.wemfbox.ch/cgi-bin/ivw/CP/rsj/dt/new_www";
+        $("<img src=\""+WEMF+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" alt=\"\">").appendTo('body');
+
+        //ComScore
+        sitestat("http://fr.sitestat.com/srg/srf-ssatr/s?rsj.de.new_web&category=rsj.de&srf_n1=rsj&srf_n2=new_web&srf_lang=de&srf_ctype=Page&srf_title="+encodeURIComponent(document.title));
+    });
+
+    // (function(d, s, id) {
+    //   var js, fjs = d.getElementsByTagName(s)[0];
+    //   if (d.getElementById(id)) return;
+    //   js = d.createElement(s);
+    //   js.id = id;
+    //   js.async=true;
+    //   js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.0&appId=110823332261025";
+    //   fjs.parentNode.insertBefore(js, fjs);
+    // } (document, 'script', 'facebook-jssdk'));
+
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.async=true;
+      js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.6&appId=110823332261025";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-2935532-3', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- WEMF-TAG VERSION="1.4" -->
+  <script> <!--
+  var WEMF="http://swissrad.wemfbox.ch/cgi-bin/ivw/CP/rsj/dt/new_www";
+  document.write("<img src=\""+WEMF+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" alt=\"\">");
+  // -->
+  </script>
+  <noscript>
+  <img src="http://swissrad.wemfbox.ch/cgi-bin/ivw/CP/rsj/dt/new_www" width="1" height="1" alt="">
+  </noscript>
+  <!-- /WEMF-TAG -->
+
+  <!-- Begin Sitestat4 code -->
+  <script>
+  function sitestat(ns_l){ns_l+='&amp;ns__t='+(new Date()).getTime();ns_pixelUrl=ns_l; ns_0=document.referrer; ns_0=(ns_0.lastIndexOf('/')==ns_0.length-1)?ns_0.substring(ns_0.lastIndexOf('/'),0):ns_0; if(ns_0.length>0)ns_l+='&amp;ns_referrer='+escape(ns_0); if(document.images){ns_1=new Image();ns_1.src=ns_l;}else document.write('<img src="'+ns_l+'" width="1" height="1" alt="">');}
+  sitestat("http://fr.sitestat.com/srg/srf-ssatr/s?rsj.de.new_web&category=rsj.de&srf_n1=rsj&srf_n2=new_web&srf_lang=de&srf_ctype=Page&srf_title=Moanin%27%20-%20Titel%20-%20Musikdatenbank%20-%20Radio%20Swiss%20Jazz");
+  </script>
+  <noscript> <img src="http://fr.sitestat.com/srg/srf-ssatr/s?rsj.de.new_web&category=rsj.de&srf_n1=rsj&srf_n2=new_web&srf_lang=de&srf_ctype=Page&srf_title=Moanin%27%20-%20Titel%20-%20Musikdatenbank%20-%20Radio%20Swiss%20Jazz" width="1" height="1" alt=""> </noscript>
+  <!-- End Sitestat4 code -->
+
+  <script>
+    var _paq = _paq || [];
+    (function(){
+    _paq.push(['setTrackerUrl', '/tracker']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.defer=true; g.async=true; g.src='/assets/piwik-ab0f7b2bfa71d9161554b397958efe88.js';
+    s.parentNode.insertBefore(g,s); })();
+  </script>
+
+
+  <!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
+  <div class="device-xs visible-xs"></div>
+  <div class="device-sm visible-sm"></div>
+  <div class="device-md visible-md"></div>
+  <div class="device-lg visible-lg"></div>
+  <!-- end mandatory -->
+  <!-- Revision 12680784@production -->
+</body>
+</html>

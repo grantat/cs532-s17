@@ -1,0 +1,1164 @@
+Cookies op MSN
+Op MSN.com/nl-nl gebruiken wij (Microsoft) functionele en analytische cookies en vergelijkbare technologieën (alle aangeduid als cookies) om u een optimale gebruikerservaring te bieden. Bovendien gebruiken wij en andere (derde) partijen tracking cookies om internetgedrag te volgen en daardoor een gepersonaliseerde ervaring te bieden en gepersonaliseerde advertenties te tonen. U gaat akkoord met dit cookiegebruik door hieronder op “akkoord” te klikken of door verder gebruik te blijven maken van MSN.com/nl-nl. Mocht u meer informatie wensen, klik dan op
+Meer informatie
+AKKOORD
+Microsoft MSN/nl-nl Cookie Statement
+Bij de levering van onze diensten via MSN.com/nl-nl, gebruiken we - Microsoft - cookies en vergelijkbare technologieën (gemakshalve gezamenlijk aangeduid als cookies). Wij gebruiken functionele en analytische cookies om u een optimale gebruikerservaring te bieden. Bovendien gebruiken wij en andere (derde) partijen tracking cookies om u een gepersonaliseerde ervaring te bieden, om u gepersonaliseerde advertenties te tonen en om uw internetgedrag te volgen. U gaat akkoord met dit cookiegebruik door hieronder  op “akkoord” te klikken of door verder gebruik te blijven maken van MSN.com/nl-nl.
+AKKOORD
+Zowel Microsoft als derde partijen (zijnde adverteerders en door adverteerders ingeschakelde partijen) kunnen gebruik maken van cookies en soortgelijke technologieën (gemakshalve gezamenlijk aangeduid als “cookies”) op MSN.com/nl-nl.. Cookies worden gebruikt om gegevens te verzamelen voor verschillende doeleinden die verband houden met het verlenen van onze services, met inbegrip van maar niet beperkt tot:
+Het opslaan van uw voorkeuren en instellingen.
+Instellingen waarmee onze services correct kunnen werken, of waarmee uw voorkeuren na verloop van tijd kunnen worden behouden, kunnen op uw apparaat worden opgeslagen. Als u bijvoorbeeld uw stad of postcode invoert om lokaal nieuws of informatie over het weer op een Microsoft-site te verkrijgen, kunnen we die gegevens in een cookie opslaan, zodat u de relevante lokale informatie ziet wanneer u weer naar de website terugkeert. Als u geen op interesses gebaseerde advertenties wilt ontvangen, slaan we uw afmeldvoorkeuren op in een cookie op uw apparaat.
+Aanmelden en authenticatie.
+Wanneer u zich bij een website aanmeldt met behulp van uw persoonlijke
+Microsoft-account
+, slaan we een uniek id-nummer, en de tijd waarop u zich aanmeldt, op in een versleutelde cookie op uw apparaat. Door het gebruik van dit cookie kunt u binnen de website van pagina naar pagina gaan, zonder dat u zich op elke pagina opnieuw hoeft aan te melden.
+Op interesse gebaseerde advertenties.
+Microsoft maakt gebruik van cookies om gegevens te verzamelen over uw onlineactiviteiten en om uw interesses te identiﬁceren, zodat we advertenties kunnen aanbieden die het meest relevant voor u zijn. U kunt zich afmelden voor het ontvangen van op interesses gebaseerde advertenties van Microsoft, zoals beschreven in het gedeelte
+Toegang en beheer
+in onze privacyverklaring.
+Analyse.
+Om onze services te bieden, maken we gebruik van cookies en andere aanduidingen om gebruiks- en prestatiegegevens te verzamelen. Zo maken wij gebruik van cookies om het aantal unieke bezoekers van een webpagina of service te tellen en andere statistieken over de activiteiten van onze services te ontwikkelen.
+Derde partijen, waaronder adverteerders en door adverteerders ingeschakelde partijen kunnen bij het tonen van advertenties via onze websites eveneens cookies gebruiken. Voor de cookies die derde partijen plaatsen en de mogelijke gegevens die zij daarbij verzamelen, verwijzen wij naar de verklaringen die deze partijen op hun eigen websites daarover geven, zie de links hieronder. Let op dat deze verklaringen regelmatig kunnen wijzigen. Microsoft heeft daar geen invloed op en Microsoft heeft er geen kennis van wanneer er wijzigen aan deze verklaringen worden aangebracht.
+In het navolgende leest u meer over de cookies die gebruikt worden wanneer u MSN.com/nl-nl bezoekt, onderverdeeld in de volgende categorieën:
+Cookies die ervoor zorgen dat de website naar behoren functioneert
+Cookies om gebruik van de website te kunnen meten
+Cookies om de inhoud van onze website te delen via social media
+Cookies om advertenties te kunnen tonen
+Cookies om gedragsafhankelijke inhoud te kunnen tonen
+Overige / onvoorziene cookies
+De hierna volgende informatie is op 16 augustus 2016 voor het eerst gepubliceerd. Het kan zijn dat onderstaand overzicht, ondanks onze inspanningen, nog niet 100% volledig is. Aan de completering hiervan wordt permanent gewerkt. Mocht u een cookie tegenkomen die niet op deze lijst staat, dan kunt u dit aan ons melden via cookiefeedback@microsoft.com.
+Ad 1 -
+Cookies die ervoor zorgen dat de website naar behoren functioneert
+Deze cookies worden gebruikt voor:
+Het onthouden van producten die je aan je boodschappenmandje toevoegt tijdens het online winkelen
+Het onthouden van informatie die je invult op de verschillende webpagina’s tijdens het afrekenen of bestellen, zodat je niet steeds al je gegevens opnieuw hoeft in te vullen
+Het doorgeven van informatie van de ene webpagina aan de volgende webpagina, bijvoorbeeld als er een lange enquête wordt ingevuld of als je veel gegevens moet invullen bij een online bestelling
+Het opslaan van voorkeuren, zoals de taal, locatie, het gewenste aantal te tonen zoekresultaten, etc.
+Het opslaan van instellingen voor een optimale videoweergave, zoals de gewenste buffergrootte en de resolutiegegevens van je scherm
+Het uitlezen van je browserinstellingen om onze website optimaal op je beeldscherm te kunnen weergeven
+Het opsporen van misbruik van onze website en diensten, door bijvoorbeeld een aantal opeenvolgende mislukte inlogpogingen te registreren
+Het gelijkmatig belasten van de website, waardoor de site bereikbaar blijft
+Het aanbieden van de mogelijkheid om inloggegevens op te slaan zodat je die niet elke keer opnieuw hoeft in te voeren
+Het mogelijk maken om te reageren op onze website door middel van commentaarschermen en andere vergelijkbare mechanismen.
+Zie hieronder een lijst met de cookies die wij gebruiken, de doeleinden waarvoor de cookies worden gebruikt en hoe lang ze worden gebruikt.
+Naam
+Geplaatst door
+Waarvoor
+Hoe lang
+MUID
+.msn.com
+4
+2 jaren
+ANON
+.msn.com
+4
+Tot einde sessie
+PreferencesMsn
+.msn.com
+4
+1 jaar
+Sample
+.msn.com
+8
+180 dagen
+_EDGE_S
+.msn.com
+4
+Tot einde sessie
+EDGE_F
+.msn.com
+4
+Tot einde sessie
+_SS
+.msn.com
+3, 7
+1 jaar
+MSPAuth
+.msn.com
+9
+Tot einde sessie
+MSPProf
+.msn.com
+9
+Tot einde sessie
+HMDSMS2954
+.msn.com
+4
+1 dag
+MSNRPSShare
+.msn.com
+9
+Tot einde sessie
+MSNRPSAuth
+.msn.com
+9
+Tot einde sessie
+MSNRPSSecAuth
+.msn.com
+9
+Tot einde sessie
+NAP
+.msn.com
+9
+Tot einde sessie
+WLMMAC
+.msn.com
+7
+Tot einde sessie
+Ipt
+.msn.com
+4
+180 dagen
+marketPref
+.msn.com
+4
+1 jaar
+RecentStocks
+www.msn.com
+4
+3 dagen
+poll*
+.msn.com
+3
+2 weken
+timeZoneOffsetInMins
+www.msn.com
+4
+1 jaar
+banner:cookieprivacy
+www.msn.com
+4
+180 dagen
+banner:cookieprivacy:count
+www.msn.com
+4
+180 dagen
+banner:cookieprivacy:lastseen
+www.msn.com
+4
+180 dagen
+weaRecentLocations
+www.msn.com
+4
+1 jaar
+DefaultLocation
+www.msn.com
+4
+2 jaar
+trg
+www.msn.com
+5
+10 minuten
+videoCookiesLastCategory
+www.msn.com
+5
+10 dagen
+vidvol
+www.msn.com
+5
+Tot einde sessie
+vidmut
+www.msn.com
+5
+Tot einde sessie
+vidmbr
+www.msn.com
+5
+7 dagen
+SRCHD
+.bing.com
+4
+2 jaren
+_EDGE_S
+.bing.com
+4
+Tot einde sessie
+SRCHUID
+www.bing.com
+7
+2 jaren
+GED_PLAYLIST_ACTIVITY
+www.msn.com
+4
+Tot einde sessie
+Dpio
+msn.com
+5
+sessie
+CAC
+msn.com
+4
+6 maanden
+HMDSDT
+msn.com
+4
+6 maanden
+fccfrmc
+www.msn.com
+4
+1 jaar
+fcctoc
+www.msn.com
+4
+1 jaar
+fccfrmv
+www.msn.com
+4
+1 jaar
+Msot
+www.msn.com
+4
+1 jaar
+MR
+msn.com
+4
+6 maanden
+ANONCHK
+.msn.com
+4
+24 uren
+SM
+msn.com
+4
+sessie
+deferLoadedItems
+msn.com
+8
+Nvt
+startpage|meStripe|meStripe|meStripe.office|meOffice
+msn.com
+8
+Nvt
+startpage|meStripe|meStripe|meStripe.onenote|meOneNote
+msn.com
+8
+Nvt
+videoerrorcount
+msn.com
+5
+sessie
+*_MSN_FBLIKE
+msn.com
+4
+2 weken
+videoerrorcount
+www.msn.com
+5
+sessie
+likePromptDisabled
+msn.com
+4
+180 dagen
+Eso
+msn.com
+4
+1 jaar
+Skypefre
+msn.com
+4
+365 dagen
+PriFedAuth
+msn.com
+4
+2 uren
+Ssrecirc
+msn.com
+4
+sessie
+oneprotection
+msn.com
+4
+1 jaar
+windefenderfre
+msn.com
+4
+365 dagen
+Lastseenheadlines
+msn.com
+4
+sessie
+vidccpref
+msn.com
+4
+1 jaar
+stripeSettingsCookie
+msn.com
+4
+365 dagen
+banner:privacyUpdating:count
+msn.com
+4
+180 dagen
+banner:privacyUpdating:lastseen
+msn.com
+4
+180 dagen
+banner:privacyUpdating
+msn.com
+4
+180 dagen
+banner:privacyUpdated:count
+msn.com
+4
+180 dagen
+banner:privacyUpdated:lastseen
+msn.com
+4
+180 dagen
+banner:privacyUpdated
+msn.com
+4
+180 dagen
+deferLoadedItems
+msn.com
+8
+Nvt
+startpage|meStripe|meStripe|meStripe.office|meOffice
+msn.com
+8
+Nvt
+startpage|meStripe|meStripe|meStripe.onenote|meOneNote
+msn.com
+8
+Nvt
+Msameid
+msn.com
+9
+Nvt
+DNT
+msn.com
+4
+sessie
+UMH2E
+www.msn.com
+8
+2 jaren
+MUID
+.msn.com
+4
+2 jaren
+PreferencesMsn
+.msn.com
+4
+1 jaar
+Sample
+.msn.com
+8
+1 jaar
+_SS
+.msn.com
+3, 7
+1 jaar
+ipt
+.msn.com
+4
+1 jaar
+marketPref
+.msn.com
+4
+1 jaar
+i18next
+.msn.com
+4
+sessie
+X-Mapping-*
+carhire.msn.com/
+8
+sessie
+disclaimer-agree
+carhire.msn.com
+4
+1 jaar
+i18next
+carhire.msn.com
+4
+sessie
+X-Mapping-*
+flights.msn.com
+8
+20 minuten
+disclaimer-agree
+flights.msn.com
+4
+1 jaar
+i18next
+flights.msn.com
+4
+sessie
+saved.search
+.msn.com
+4
+Nvt
+culture.currency
+flights.msn.com
+4
+Nvt
+culture.homecity
+flights.msn.com
+4
+Nvt
+filterSelections
+flights.msn.com
+4
+Nvt
+flights.sortObj
+flights.msn.com
+4
+Nvt
+prev.saved.search
+flights.msn.com
+4
+Nvt
+saved.search
+flights.msn.com
+4
+Nvt
+skyscanner.home.city.cached.by.ip
+flights.msn.com
+4
+Nvt
+flights.saved.favorites.<locale>.<currency>.<origin>
+flights.msn.com
+4
+Nvt
+wl-storage-version
+flights.msn.com
+4
+Nvt
+culture.currency
+carhire.msn.com
+4
+Nvt
+culture.homecity
+carhire.msn.com
+4
+Nvt
+skyscanner.home.city.cached.by.ip
+carhire.msn.com
+4
+Nvt
+wl-storage-version
+carhire.msn.com
+4
+Nvt
+carhire.search.state
+carhire.msn.com
+4
+Nvt
+carhire.prev.saved.search
+carhire.msn.com
+4
+Nvt
+carhire.saved.favorites<locale>.<currency>.<location>
+carhire.msn.com
+4
+Nvt
+Let op, bepaalde cookies zijn 'dynamische cookies'. Dit betekent dat je verschillende namen van cookies kunt vinden die behoren tot dezelfde 'cookie familie'. Een nummer in de naam van de cookie is bijvoorbeeld verschillend. Deze cookies hebben dezelfde doeleinden en dezelfde bewaartermijn als de cookie van dezelfde 'cookie familie' welke in de lijst hierboven is vermeld.
+Ad 2 -
+Cookies om gebruik van de website te kunnen meten
+Wij gebruiken cookie om te bepalen hoeveel bezoekers er op onze website komen en wat het meest bekeken wordt. Dit vertelt ons welke onderdelen van de website het meest interessant zijn voor onze bezoekers.. Van de informatie die wij zo verzamelen worden statistieken gemaakt. Deze statistieken geven ons inzicht in hoe vaak onze webpagina bezocht wordt, waar precies bezoekers de meeste tijd doorbrengen, enzovoort. Hierdoor zijn wij in staat structuur, navigatie en inhoud van de website zo gebruiksvriendelijk mogelijk voor je te maken. De statistieken en overige rapportages herleiden wij niet naar personen.
+Deze cookies worden gebruikt voor:
+Het bijhouden van het aantal bezoekers op onze webpagina’s
+Het bijhouden van de tijdsduur die elke bezoeker doorbrengt op onze webpagina’s
+Het bepalen van de volgorde waarin een bezoeker de verschillende pagina’s van onze website bezoekt
+Het beoordelen welke delen van onze site aanpassing behoeven
+Het optimaliseren van de website
+Zie hieronder een lijst met cookies die wij gebruiken om statistieken te verzamelen, de doeleinden waarvoor de cookies worden gebruikt en hoe lang ze worden gebruikt.
+Naam
+Geplaatst door
+Waarvoor
+Hoe lang
+MUID
+.msn.com
+4
+2 jaren
+_EDGE_S
+.msn.com
+4
+Tot einde sessie
+EDGE_F
+.msn.com
+4
+Tot einde sessie
+_EDGE_V
+.msn.com
+4
+2 jaren
+MSFPC
+.msn.com
+1, 2, 3, 4, 5
+2 jaren
+_cb
+www.msn.com
+1, 2, 3, 4, 5
+13 maanden
+_cb_ls
+www.msn.com
+1, 2, 3, 4, 5
+13 maanden
+_chartbeat2
+www.msn.com
+1, 2, 3, 4, 5
+13 maanden
+chartbeat4
+www.msn.com
+1, 2, 3, 4, 5
+1 minuut
+_chartbeat5
+www.msn.com
+1, 2, 3, 4, 5
+1 minuut
+_SUPERFLY_nosample
+www.msn.com
+2
+1 hour
+MUID
+.bing.com
+4
+2 jaren
+SRCHUSR
+.bing.com
+1
+2 jaren
+_EDGE_S
+.bing.com
+4
+Tot einde sessie
+MUIDB
+www.bing.com
+4
+2 jaren
+RC
+www.msn.com
+2
+1 jaar
+MR
+msn.com
+4
+6 maanden
+ANONCHK
+msn.com
+4
+24 uren
+SM
+msn.com
+4
+sessie
+ocid
+msn.com
+3
+Tot einde sessie
+_cb
+msn.com
+1, 2, 3, 4, 5
+Nvt
+_cb_expires
+msn.com
+1, 2, 3, 4, 5
+Nvt
+_chartbeat*
+msn.com
+1, 2, 3, 4, 5
+Nvt
+_chartbeat*_expires
+msn.com
+1, 2, 3, 4, 5
+Nvt
+_SUPERFLY_lockout
+msn.com
+1, 2, 3, 4, 5
+10 minuten
+_SUPERFLY_lockout_expires
+msn.com
+1, 2, 3, 4, 5
+10 minuten
+Grvinsights
+msn.com
+1, 2, 3, 4, 5
+18 maanden
+Cobrand
+msn.com
+3
+18 maanden
+__utma
+msn.com
+1, 2, 3, 4, 5
+2 jaren
+xtvrn
+msn.com
+1, 2, 3, 4, 5
+13 maanden
+_SS
+.bing.com
+2
+Tot einde sessie
+ADRUM
+.msn.com
+1, 2, 3, 4, 5
+sessie
+_ga
+.msn.com
+1, 2, 3, 4, 5
+2 jaren
+_ga
+carhire.msn.com
+1, 2, 3, 4, 5
+2 jaren
+_gat_Skyscanner
+carhire.msn.com
+5
+10 minuten
+_gat_Skyscanner
+flights.msn.com
+5
+10 minuten
+_ga
+flights.msn.com/
+Skyscanner
+1, 2, 3, 4, 5
+2 jaren
+ADRUM_CLIENTINFO
+flights.msn.com
+1, 2, 3, 4, 5
+Nvt
+ADRUM_CLIENTINFO
+carhire.msn.com
+1, 2, 3, 4, 5
+Nvt
+Let op, bepaalde cookies zijn 'dynamische cookies'. Dit betekent dat je verschillende namen van cookies kunt vinden die behoren tot dezelfde 'cookie familie'. Een nummer in de naam van de cookie is bijvoorbeeld verschillend. Deze cookies hebben dezelfde doeleinden en dezelfde bewaartermijn als de cookie van dezelfde 'cookie familie' welke in de lijst hierboven is vermeld.
+Voor de cookies die derde partijen plaatsen en de mogelijke data die zij hiermee verzamelen, verwijzen wij naar de verklaringen die deze partijen op hun eigen websites daarover geven; zie de links hieronder. Let op dat deze verklaringen regelmatig kunnen wijzigen. We hebben daar geen invloed op.
+Google
+Ad 3 -
+Cookies om de inhoud van onze website te delen via social media
+De artikelen en video’s die u op onze websites bekijkt, kunt u door middel van buttons delen via social media. Voor het functioneren van deze buttons wordt gebruik gemaakt van cookies van de social media partijen, zodat deze u herkennen op het moment dat u een artikel of video wilt delen. Deze cookies maken het dus mogelijk dat ingelogde gebruikers van geselecteerde social media bepaalde inhoud van onze website direct kunnen delen (hieronder geïdentificeerde doeleinden).
+Zie hieronder een lijst met de cookies die wij gebruiken, de doeleinden waarvoor de cookies worden gebruikt en hoe lang ze worden gebruikt.
+Naam
+Geplaatst door
+Waarvoor
+Hoe lang
+fbm_{id}
+.msn.com
+1
+1 minuut
+fbsr_{id}
+.msn.com
+1
+90 minuten
+TwitterSignedIn
+www.msn.com
+1
+90 dagen
+TwitterUserToken
+www.msn.com
+1
+90 dagen
+shareCount
+msn.com
+1
+180 dagen
+startpageMeStripeClickCount
+msn.com
+1
+6 maanden
+promptDisplayCount
+msn.com
+1
+180 dagen
+startpageEngagedUsersPageVisitCount
+msn.com
+1
+180 dagen
+datr
+.facebook.com
+1
+2 jaren
+fr
+.facebook.com
+1
+3 maanden
+guest_id
+.twitter.com
+1
+2 jaren
+pid
+.twitter.com
+1
+18 maanden
+_at.cww
+flights.msn.com
+1
+Nvt
+_at.hist.<MMDD>
+flights.msn.com
+1
+Nvt
+at-rand
+flights.msn.com
+1
+Nvt
+at-lojson-cache-ra-*
+flights.msn.com
+1
+Nvt
+Let op, bepaalde cookies zijn 'dynamische cookies'. Dit betekent dat je verschillende namen van cookies kunt vinden die behoren tot dezelfde 'cookie familie'. Een nummer in de naam van de cookie is bijvoorbeeld verschillend. Deze cookies hebben dezelfde doeleinden en dezelfde bewaartermijn als de cookie van dezelfde 'cookie familie' welke in de lijst hierboven is vermeld.
+Voor de cookies die de social media partijen plaatsen en de mogelijke data die zij hiermee verzamelen, verwijzen wij naar de verklaringen die deze partijen op hun eigen websites daarover geven; zie de links hieronder. Let op dat deze verklaringen regelmatig kunnen wijzigen. Microsoft heeft daar geen invloed op.
+Facebook
+Google+
+Twitter
+YouTube
+Ad 4 -
+Cookies om advertenties te kunnen tonen
+MSN.com/nl-nl laat je advertenties zien. Deze cookies zijn een noodzakelijke bron van inkomsten om onze website te kunnen financieren. Sommige advertenties (of videoboodschappen) maken gebruik van cookies. Deze advertenties worden door ons en derde partijen op onze website geplaatst.
+Door het gebruik van cookies kunnen we bijhouden:
+welke advertenties je al hebt gezien om zo te voorkomen dat je steeds dezelfde te zien krijgt
+hoeveel bezoekers op de advertentie klikken ten behoeve van afrekening met de adverteerder
+hoeveel bestellingen er plaatsvinden via de advertentie ten behoeve van afrekening met de adverteerder
+Als dergelijke cookies niet worden gebruikt zult u overigens nog steeds advertenties te zien krijgen. Er worden immers ook advertenties getoond die géén gebruik maken van cookies. Deze advertenties kunnen bijvoorbeeld aangepast zijn aan de inhoud van de website. U kunt dit soort inhoudsafhankelijke internetadvertenties vergelijken met reclame op televisie. Als u bijvoorbeeld een tv-programma over koken kijkt, zult u vaak in de bijbehorende reclameblokken een advertentie over kookproducten zien.
+Zie hieronder een lijst met de cookies die mediabureaus, advertentienetwerken en/of wij gebruiken in combinatie met advertenties, voor welke doeleinden deze cookies worden gebruikt en hoe lang ze worden gebruikt. Advertentienetwerken en mediabureaus zijn bedrijven die fungeren als tussenpersoon tussen website-eigenaren en adverteerders.
+Naam
+Geplaatst door
+Waarvoor
+Hoe lang
+t_gid
+.taboola.com
+1, 2, 3
+1 jaar
+taboola_usg
+.taboola.com
+1, 2, 3
+1 jaar
+JSESSIONID
+trc.taboola.com
+1, 2, 3
+Tot einde sessie
+akaas_TRC-origins
+trc.taboola.com
+1, 2, 3
+Tot einde sessie
+taboola_navrii
+trc.taboola.com
+1
+1 jaar
+taboola_sessie_id
+trc.taboola.com
+1, 2, 3
+Tot einde sessie
+uid
+.turn.com
+1, 2, 3
+180 dagen
+anj
+.adnxs.com
+1, 2, 3
+90 dagen
+icu
+.adnxs.com
+1
+90 dagen
+sess
+.adnxs.com
+1, 2, 3
+1 dag
+uuid2
+.adnxs.com
+1, 2, 3
+90 dagen
+uuid2 (opt out)
+.adnxs.com
+1, 2, 3
+Bepaald door derde partijen
+token
+.adnxs.com
+1, 2, 3
+Bepaald door derde partijen
+acb
+.adnxs.com
+2, 3
+Bepaald door derde partijen
+taboola_fp_td_user_id
+.taboola.com
+2, 3
+Bepaald door derde partijen
+t_pid
+.taboola.com
+1, 2, 3,
+Bepaald door derde partijen
+DNT
+.taboola.com
+1, 2, 3
+Bepaald door derde partijen
+taboola_svwv
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_wt
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_ntwv
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_rii
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_svrii
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_ntrii
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_navwv
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_ucc
+.taboola.com
+1, 2
+Bepaald door derde partijen
+taboola_svfcd
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_svfcm
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_select
+.taboola.com
+1, 2, 3
+Bepaald door derde partijen
+taboola_uppc
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_user_id
+.taboola.com
+1
+Bepaald door derde partijen
+_fcap_CAM4
+.outbrain.com
+1
+7 dagen
+_ofcap_DOC1
+.outbrain.com
+1
+7 dagen
+_utastes_1
+.outbrain.com
+1
+12 maanden
+obuid
+.outbrain.com
+1, 2, 3
+3 maanden
+recs-{}
+.outbrain.com
+1
+1 minuut of tot refresh van de pagina
+obctr
+.outbrain.com
+1, 2, 3
+zolang de browser open is
+obvctr
+.outbrain.com
+1, 2, 3
+zolang de browser open is
+obCACampaign
+.outbrain.com
+1, 2, 3
+180 dagen
+obCACP
+.outbrain.com
+1, 2, 3
+180 dagen
+obCALP
+.outbrain.com
+1, 2, 3
+180 dagen
+obCAMedium
+.outbrain.com
+1, 2, 3
+180 dagen
+obCAReferral
+.outbrain.com
+1, 2, 3
+180 dagen
+obCAsessie
+.outbrain.com
+1, 2, 3
+30 minuten
+obCASource
+.outbrain.com
+1, 2, 3
+180 dagen
+obCATerm
+.outbrain.com
+1, 2, 3
+180 dagen
+obCATrueMedium
+.outbrain.com
+1, 2, 3
+180 dagen
+JSESSIONID
+.outbrain.com
+1, 2, 3
+sessie
+_bcs-{}
+.outbrain.com
+1, 2, 3
+30 minuten
+obroute2
+.outbrain.com
+1, 2, 3
+sessie
+obwwwroute
+.outbrain.com
+1, 2, 3
+sessie
+Let op, bepaalde cookies zijn 'dynamische cookies'. Dit betekent dat je verschillende namen van cookies kunt vinden die behoren tot dezelfde 'cookie familie'. Een nummer in de naam van de cookie is bijvoorbeeld verschillend. Deze cookies hebben dezelfde doeleinden en dezelfde bewaartermijn als de cookie van dezelfde 'cookie familie' welke in de lijst hierboven is vermeld.
+Voor de cookies die onze derde partijen voor advertentiedoeleinden plaatsen, verwijzen wij naar de verklaringen die deze partijen op hun eigen websites daarover geven; zie de namen en links hieronder. Let op dat deze verklaringen regelmatig kunnen wijzigen. Microsoft heeft daar geen invloed op.
+AppNexus - Platform Privacy Policy
+Cookie Policy | World's Largest Discovery Platform | Taboola
+Privacy Policy | Outbrain
+Ad 5 - Cookies om gedragsafhankelijke inhoud te kunnen tonen
+Ons doel is om bezoekers van MSN.com/nl-nl te voorzien van informatie die zo relevant mogelijk is voor hem of haar. Daarom proberen wij de inhoud van MSN.com/nl-nl zoveel mogelijk aan iedere bezoeker aan te passen. Dit doen we niet alleen via de inhoud van MSN.com/nl-nl, maar ook via de advertenties die worden getoond.
+Wij alsook derde partijen proberen daarom op basis van de websites die u bezoekt op het internet een beeld te krijgen van uw vermoedelijke interesses zonder een naar een persoon herleidbaar profiel op te bouwen. Dit helpt ons op aanpassingen te maken. Op basis van deze interesses passen wij alsook derde partijen dan de inhoud en de advertenties op MSN.com/nl-nl aan voor verschillende groepen klanten. Zo kunt u bijvoorbeeld op basis van uw surfgedrag opgenomen worden in een bepaalde categorie, zoals ’mannen in de leeftijdscategorie 30 tot 45 jaar, getrouwd en kinderen met een interesse in voetbal’. Deze groep krijgt vervolgens uiteraard andere advertenties te zien dan het segment ’vrouw, leeftijdscategorie 20 tot 30 jaar, ongetrouwd en interesse in reizen’.
+Ook derde partijen die via onze website cookies plaatsen, kunnen op deze manier proberen uw interesses te achterhalen. De informatie over uw huidige websitebezoek kan in dat geval gecombineerd worden met informatie van eerdere bezoeken aan andere websites dan de onze.
+Als dergelijke cookies niet worden gebruikt dan betekent dit overigens niet dat u geen advertenties meer te zien krijgt op onze website. De advertenties zijn in dat geval alleen niet langer toegesneden op uw interesses.
+Deze cookies worden gebruikt om:
+de websites die je bezoekt registreren om hiermee een inschatting te maken van je interesses zodat we voor jou interessante en relevante advertenties kunnen tonen
+te achterhalen om de advertenties interessant voor je zijn gaan we na of je op een advertentie hebt geklikt
+informatie over je surfgedrag door te gegeven aan andere websites, daardoor de advertenties steeds interessanter voor je worden
+er gebruik gemaakt wordt van diensten van derde partijen om advertenties aan je te kunnen tonen
+op basis van jouw social media gebruik interessantere advertenties te tonen
+Zie hieronder een lijst met de cookies, voor welke doeleinden deze cookies worden gebruikt en hoe lang ze worden gebruikt.
+Naam
+Geplaatst door
+Waarvoor
+Hoe lang
+ANON
+.msn.com
+3
+Tot einde sessie
+OAS_SC1
+www.msn.com
+4
+Tot einde sessie
+taboola global:user-id
+msn.com
+1, 2, 3, 4, 5
+Nvt
+trc_map
+msn.com
+1, 2, 3, 4, 5
+Nvt
+Tbx:ovr
+msn.com
+1, 2, 3, 4, 5
+Nvt
+Tbx:ref
+msn.com
+1, 2, 3, 4, 5
+Nvt
+Trc_cache
+msn.com
+1, 2, 3, 4, 5
+Nvt
+*:sessie-data
+msn.com
+1, 2, 3, 4, 5
+Nvt
+OB-AD-BLOCKER-STAT
+msn.com
+1, 2, 3, 4, 5
+Nvt
+OB-USER-TOKEN
+msn.com
+1, 2, 3, 4, 5
+Nvt
+t_gid
+.taboola.com
+1, 2, 3, 4
+1 jaar
+t_vpub
+.taboola.com
+1, 2, 3, 4, 5
+1 jaar
+taboola_usg
+.taboola.com
+1, 2, 3, 4, 5
+1 jaar
+taboola_sessie_id
+trc.taboola.com
+1, 2
+Tot einde sessie
+taboola_upci
+trc.taboola.com
+1, 2, 3, 4
+1 jaar
+uid
+.turn.com
+1, 2, 3, 4, 5
+180 dagen
+anj
+.adnxs.com
+1, 2, 3, 4, 5
+90 dagen
+uuid2
+.adnxs.com
+1, 2, 3, 4, 5
+90 dagen
+t_pid
+.taboola.com
+1, 2, 3, 4, 5
+Bepaald door derde partijen
+taboola_nr_td_user_id
+.taboola.com
+1, 2, 3, 4, 5
+Bepaald door derde partijen
+taboola_wv
+.taboola.com
+1
+Bepaald door derde partijen
+taboola_ntwv
+.taboola.com
+2
+Bepaald door derde partijen
+taboola_rii
+.taboola.com
+2
+Bepaald door derde partijen
+taboola_svrii
+.taboola.com
+2
+Bepaald door derde partijen
+taboola_ntrii
+.taboola.com
+2
+Bepaald door derde partijen
+taboola_navwv
+.taboola.com
+2
+Bepaald door derde partijen
+taboola_ucc
+.taboola.com
+2
+Bepaald door derde partijen
+taboola_svfcd
+.taboola.com
+1, 2, 3
+Bepaald door derde partijen
+taboola_svfcm
+.taboola.com
+1, 2, 3
+Bepaald door derde partijen
+taboola_select
+.taboola.com
+1, 2, 3, 4, 5
+Bepaald door derde partijen
+taboola_mk
+.taboola.com
+1, 2, 3, 4, 5
+Bepaald door derde partijen
+taboola_uppc
+.taboola.com
+1, 2, 3
+Bepaald door derde partijen
+taboola_user_id
+.taboola.com
+1, 2, 3, 4, 5
+Bepaald door derde partijen
+_fcap_CAM4
+.outbrain.com
+1, 2
+7 dagen
+_ofcap_DOC1
+.outbrain.com
+1, 2
+7 dagen
+obuid
+.outbrain.com
+1, 2, 3
+3 maanden
+recs-{}
+.outbrain.com
+1, 2
+1 minuut of tot refresh van de pagina
+obCAContent
+.outbrain.com
+1, 2, 3, 4, 5
+180 dagen
+obCACP
+.outbrain.com
+1, 2, 3, 4, 5
+180 dagen
+obCALP
+.outbrain.com
+1, 2, 3, 4, 5
+180 dagen
+obCAMedium
+.outbrain.com
+1, 2, 3, 4, 5
+180 dagen
+obCAReferral
+.outbrain.com
+1, 2, 3, 4, 5
+180 dagen
+obCAsessie
+.outbrain.com
+1, 2, 3, 4, 5
+30 minuten
+obCASource
+.outbrain.com
+1, 2, 3, 4, 5
+180 dagen
+obCATerm
+.outbrain.com
+1, 2, 3, 4, 5
+180 dagen
+obCATrueMedium
+.outbrain.com
+1, 2, 3, 4, 5
+180 dagen
+ob_marketing_disclaimer
+.outbrain.com
+1, 2, 3, 4, 5
+sessie
+ob_marketing_locale
+.outbrain.com
+1, 2, 3, 4, 5
+sessie
+JSESSIONID
+.outbrain.com
+1, 2, 3, 4, 5
+sessie
+_bcs-{}
+.outbrain.com
+1, 2, 3, 4, 5
+30 minuten
+Let op, bepaalde cookies zijn 'dynamische cookies'. Dit betekent dat je verschillende namen van cookies kunt vinden die behoren tot dezelfde 'cookie familie'. Een nummer in de naam van de cookie is bijvoorbeeld verschillend. Deze cookies hebben dezelfde doeleinden en dezelfde bewaartermijn als de cookie van dezelfde 'cookie familie' welke in de lijst hierboven is vermeld.
+Ad 6 -
+Overige / onvoorziene cookies
+Door de manier waarop internet en websites werken, kan het zijn dat wij niet altijd zicht hebben op de cookies die via onze website door derde partijen worden geplaatst. Dit is met name het geval als MSN.com/nl-nl zogenaamde
+embedded
+elementen bevat; dit zijn teksten, documenten, plaatjes of filmpjes die bij een andere partij opgeslagen zijn, maar die op, in of via MSN.com/nl-nl getoond worden.
+Mocht u vragen hebben over deze website cookies die u tegenkomt op MSN.com/nl-nl die we hierboven dus genoemd hebben, dan raden we u aan om rechtstreeks contact op te nemen met de derde partij en de vragen welke cookies ze plaatsten, wat de reden daarvoor is, wat de levensduur van de cookie is en op welke manier ze je privacy gewaarborgd hebben.
+Cookies beheren
+Als je helemaal niet wilt dat websites op jouw computer cookies plaatsen, dan kun je je browserinstellingen aanpassen zodat je een waarschuwing krijgt voordat er cookies worden geplaatst. Ook kun je de instellingen dusdanig aanpassen dat je browser alle cookies of alleen de cookies van derde partijen weigert. Ook kun je je cookies die al zijn geplaatst verwijderen. Let erop dat je de instellingen apart voor elke browser en computer die je gebruikt moet aanpassen.
+Wees je ervan bewust dat als je cookies blokkeert, wij niet meer kunnen garanderen dat MSN.com/nl-nl helemaal goed werkt. Het kan zijn dat enkele functies van de site verloren gaan of zelfs dat je bepaalde websites helemaal niet meer kunt zien. Daarnaast betekent het weigeren van cookies ook niet dat je geen advertenties meer te zien krijgt. De advertenties zijn dan alleen niet meer toegesneden op jouw interesses en worden vaker herhaald.
+Hoe je je instellingen kunt aanpassen, verschilt per browser. Raadpleeg indien nodig de helpfunctie van jouw browser, of klik op één van de onderstaande iconen om direct naar de handleiding van je browser te gaan. Wil je cookies van specifieke partijen uitzetten, dan kan dat via www.youronlinechoices.eu.
+Internet Explorer
+Microsoft Edge
+Google Chrome
+Mozilla Firefox
+Opera
+Slotopmerkingen
+Wij zullen deze verklaring af en toe aan moeten passen, omdat bijvoorbeeld onze website of de regels rondom cookies wijzigen. We mogen de inhoud van de verklaringen en de cookies die opgenomen staan in de lijsten altijd en zonder waarschuwing vooraf wijzigen. Je kunt deze webpagina raadplegen voor de laatste versie.
+Mocht je nog vragen en/of opmerkingen hebben, neem dan contact op met cookiefeedback@microsoft.com
+Versie: 16 augustus 2016
+AKKOORD
+© 2017 Microsoft

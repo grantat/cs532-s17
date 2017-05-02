@@ -1,0 +1,147 @@
+All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[430,532]
+/all in one seo pack
+[if lt IE 9]>
+<script type='text/javascript' src='http://historical-time-lapse.aircraft-logbook.org/wp-content/themes/merlin/js/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]
+ngfb meta tags begin
+added on 2017-05-02T02:31:40+00:00
+generator:1
+article:tag:1
+article:tag:2
+article:tag:3
+article:tag:4
+article:tag:5
+article:tag:6
+article:tag:7
+article:tag:8
+article:tag:9
+article:tag:10
+article:tag:11
+article:tag:12
+og:image:1
+og:image:1
+og:image:1
+ngfb meta tags end
+ngfb header javascript begin
+generated on 2017-05-02T02:31:40+00:00
+ngfb header javascript end
+Skip to content
+Historical time lapse
+Historical time lapse
+.site-branding
+Search for:
+.header-widgets
+.header-main
+No one knows why
+#main-navigation
+#masthead
+BLOCKS time lapse Jazz piano kids funny building video cool music
+Posted on
+January 30, 2017
+by
+admin
+.entry-header
+just goofing around with Sacha
+source
+Share this:
+Click to share on Twitter (Opens in new window)
+Click to share on Facebook (Opens in new window)
+Click to share on Google+ (Opens in new window)
+Related
+ngfb content-buttons begin
+generated on 2017-04-29T12:19:53+00:00
+Email Button
+Twitter Button
+Facebook Like / Send Button (XFBML)
+GooglePlus Button
+.ngfb-buttons.en_US
+.ngfb-content-buttons
+ngfb content-buttons end
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://historical-time-lapse.aircraft-logbook.org/2017/01/30/blocks-time-lapse-jazz-piano-kids-funny-building-video-cool-music/"
+    dc:identifier="http://historical-time-lapse.aircraft-logbook.org/2017/01/30/blocks-time-lapse-jazz-piano-kids-funny-building-video-cool-music/"
+    dc:title="BLOCKS time lapse Jazz piano kids funny building video cool music"
+    trackback:ping="http://historical-time-lapse.aircraft-logbook.org/2017/01/30/blocks-time-lapse-jazz-piano-kids-funny-building-video-cool-music/trackback/" />
+</rdf:RDF>
+.entry-content
+blocks
+building
+fun
+Funny
+Jazz
+kids
+lapse
+music
+Piano
+stop motion
+Time
+toys
+.entry-tags
+historical time lapse
+Leave a comment
+.entry-footer
+Post navigation
+« Dramatic Time Lapse Shows Hurricane Matthew Slam Jacksonville Beach
+Las Vegas Urban Expansion: Timelapse »
+Leave a Reply
+Cancel reply
+Your email address will not be published.
+Required fields are marked
+*
+Comment
+Name
+*
+Email
+*
+Website
+Notify me of follow-up comments by email.
+Notify me of new posts by email.
+#respond
+#comments
+#main
+#primary
+Recent Posts
+Brinno Easy Time Lapse Camera
+AMAZING Landscape Photography – It’s not about the gear  (Episode 3) I’m in Spain
+Crash Course on Mobile Photography at Purdue (1/2)
+Lego Ideas 21304 – Doctor Who [Timelapse Build]
+The Only Thing Worse Than Broken Camera Gear is…
+Recent Comments
+Archives
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+Categories
+historical time lapse
+photography equipment
+photography tricks and special effects
+Meta
+Register
+Log in
+Entries
+RSS
+Comments
+RSS
+WordPress.org
+#secondary
+#content
+Powered by
+WordPress
+and
+Merlin
+.
+.site-info
+#colophon
+#page
+ngfb footer javascript begin
+generated on 2017-05-02T02:31:40+00:00
+ngfb footer: facebook script location is header
+ngfb footer: gplus script location is header
+ngfb footer: twitter script location is header
+ngfb footer javascript end

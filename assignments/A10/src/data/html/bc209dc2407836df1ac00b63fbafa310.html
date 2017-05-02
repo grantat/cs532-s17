@@ -1,0 +1,4938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+	
+
+	<head>
+
+		
+		
+		<script type="text/javascript" src="scripts/bowser.min.js"></script>
+		<script type="text/javascript" src="scripts/swfobject.js"></script>
+
+		<script>
+			var pColorTitle='4F7FF7';
+			var ckColor = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(pColorTitle);
+			if(ckColor){
+				var pColorTitle='4F7FF7';
+			}else{
+				var pColorTitle='4F7FF7';
+			} 
+			var allowHTTPS=false;
+			var playSessionID = "C633ACF8-CBEC-F63C-F300F9F3E05796D0";
+			var mobilePlayer = false;
+			var mobilePlayerNew = false;
+			var privateLabel = false;
+			
+			var centralSvrPrefixURL = "http://radio.securenetsystems.net/";
+			var adnSvrPrefixURL = "http://ssiadnweb.securenetsystems.net/";
+
+			var launchFrom = "";
+			var enableCirrusOmni = false;
+
+			var stationSlogan = "Big Barn Radio - Where The Big Dogs Are";
+			var cdnRfPrefixURL = "http://cdnrf.securenetsystems.net/file_radio/";
+			var playerBgImg = cdnRfPrefixURL + "stations_large/BIGBARN/v5/bg.png";
+
+			var geoCTCode = "US";
+			var geoDMACode = "544";
+			var geoLocLat = "36.8463";
+			var geoLocLon = "-76.0979";
+			var cGeoLocationLevel = "1";
+			var clientIPAddr = "68.131.38.189";
+
+			var playerAdvertisingMode = "ADN";
+			var bannerRotationFqcy = 30;
+			var definedBannerTypes = "M,D,N,E";
+			var sLocaFillOnAdnFail = false;
+			var sTerrFillOnLocalFail = true;
+			var sBedFillOnAllFail = false;
+			var sBedFillFileName = "COMMERCIAL-BREAK-BACKGROUNDER.m4a";
+			var sTspStnId = "SECURENET45";
+			var sGenre = "S45";
+			var logVPAID = false;
+			var vastAbortTimer;
+
+			var royaltyMarkProgram = 30;
+			var royaltyMarkAd = 90;
+
+			var adBlockerPresent = false;
+
+			
+			var prerollApp = new Array();
+
+			
+					
+					prerollApp.push("player-check-ab");
+					
+				
+			var checkIEModernUI = false;
+
+			var playerAppOnDemand = true;
+			var playerAppHome = true;
+			var playerAppContact = true;
+			var playerAppFacebook = true;
+			var playerAppTwitter = true;
+			var playerAppYouTube = true;
+			var playerAppsYouTubeUserName = "1950Jersey";
+			var youtubeUserType = "U";
+			var playerAppUstream = true;
+			var playerAppsUstreamCid = "007";
+			var playerAppFacebookLive = false;
+			var playerAppFacebookLiveSrc = '';
+			var playerAppOtherStations = false;
+			var playerAppShareThis = true;
+			var playerAppNews = true;
+			var playerAppNewsSrc = "http://clayconews.com/index.php?format=feed&type=rss";
+			var playerAppSports = true;
+			var playerAppSportsSrc = "http://sports.espn.go.com/espn/rss/news";
+			var playerAppStocks = true;
+			var playerAppStocksSrc = "http://online.wsj.com/xml/rss/3_7031.xml";
+			var playerAppEntertainment = true;
+			var playerAppEntertainmentSrc = "http://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml";
+			var playerAppWeather = true;
+			var playerAppFlight = true;
+			var playerAppYelp = false;
+			var playerAppDeals = false;
+			var playerAppPolls = false;
+			var playerAppSongRequest = false;
+			var playerAppChat = true;
+			var chatChannel = "0252791355";
+			var playerAppGames = false;
+			var playerAppWobot = false;
+			var playerAppWobotSrc = "http://www.wobot.tv/rss/";
+			var playerAppPlaylist = true;
+			var playerAppLyrics = true;
+			var playerAppSendToMobile = true;
+			var playerAppHelp = true;
+
+			var playerAutoStartApp = "";
+			var listenSessionTimeout = 90;
+			var playerAppTimeout = true;
+
+			var dspAlbumArt = true;
+			var dftAlbumArt = "http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/album-art-default.png";
+			var dspBuyMediaButton = true;
+			var dspMediaRate = true;
+
+			var dspMenuIcon = true;
+			var playerMenuAutoOpen = false;
+
+			var stationCallSign = "BIGBARN";
+
+			var polling = new Object();
+			polling.enabled = true;
+			polling.active = false;
+			polling.adInsert = true;
+			
+			var adnPrebidEnable = true;
+			var adnPrebidFloor = 0.30;			
+			var adnPrebidTimeout = 2000;		
+			var adnPrebidObj = new Object();
+
+			
+					adnPrebidObj[0]=new Object();
+					adnPrebidObj[0].externalProvider='ADNADV';
+					adnPrebidObj[0].cID="0D4588C9-A141-A5FE-60DBFCAEC6BD40BE";
+					adnPrebidObj[0].cIDn=24384;
+					adnPrebidObj[0].cType="PBB";
+					adnPrebidObj[0].aType="M";
+					adnPrebidObj[0].aHsize="300";
+					adnPrebidObj[0].aVsize="250";
+					adnPrebidObj[0].caCode="{\"bidder\": \"aol\", \"params\": {\"placement\": \"4001447\", \"network\": \"10068.1\", \"alias\": null, \"server\": \"adserver.adtechus.com\", \"sizeId\": \"170\"}}";
+					adnPrebidObj[0].pC=15.00;
+				
+					adnPrebidObj[1]=new Object();
+					adnPrebidObj[1].externalProvider='ADNCPX';
+					adnPrebidObj[1].cID="7BD9630D-E39D-A142-73BAF5ECB512A4FE";
+					adnPrebidObj[1].cIDn=24541;
+					adnPrebidObj[1].cType="PBB";
+					adnPrebidObj[1].aType="M";
+					adnPrebidObj[1].aHsize="300";
+					adnPrebidObj[1].aVsize="250";
+					adnPrebidObj[1].caCode="{\"bidder\": \"brealtime\", \"params\": {\"placementId\": 10954971}}";
+					adnPrebidObj[1].pC=0.00;
+				
+					adnPrebidObj[2]=new Object();
+					adnPrebidObj[2].externalProvider='ADNLIJ';
+					adnPrebidObj[2].cID="7BFD768B-F1DC-963D-3B7D81111F2840BB";
+					adnPrebidObj[2].cIDn=24542;
+					adnPrebidObj[2].cType="PBB";
+					adnPrebidObj[2].aType="M";
+					adnPrebidObj[2].aHsize="300";
+					adnPrebidObj[2].aVsize="250";
+					adnPrebidObj[2].caCode="{\"bidder\": \"sovrn\",\"params\": {\"tagid\": 402685}}";
+					adnPrebidObj[2].pC=0.00;
+				
+					adnPrebidObj[3]=new Object();
+					adnPrebidObj[3].externalProvider='ADNADV';
+					adnPrebidObj[3].cID="83CB3830-98DE-8ECD-C32DAE002B415A59";
+					adnPrebidObj[3].cIDn=24557;
+					adnPrebidObj[3].cType="PBB";
+					adnPrebidObj[3].aType="D";
+					adnPrebidObj[3].aHsize="728";
+					adnPrebidObj[3].aVsize="90";
+					adnPrebidObj[3].caCode="{\"bidder\": \"aol\", \"params\": {\"placement\": \"4001448\", \"network\": \"10068.1\", \"alias\": null, \"server\": \"adserver.adtechus.com\", \"sizeId\": \"225\"}}";
+					adnPrebidObj[3].pC=15.00;
+				
+					adnPrebidObj[4]=new Object();
+					adnPrebidObj[4].externalProvider='ADNLIJ';
+					adnPrebidObj[4].cID="83FC45A3-CF46-DA97-D2EF0D28BF421D7B";
+					adnPrebidObj[4].cIDn=24558;
+					adnPrebidObj[4].cType="PBB";
+					adnPrebidObj[4].aType="D";
+					adnPrebidObj[4].aHsize="728";
+					adnPrebidObj[4].aVsize="90";
+					adnPrebidObj[4].caCode="{\"bidder\": \"sovrn\", \"params\": {\"tagid\": \"402686\"}}";
+					adnPrebidObj[4].pC=0.00;
+				
+					adnPrebidObj[5]=new Object();
+					adnPrebidObj[5].externalProvider='ADNCPX';
+					adnPrebidObj[5].cID="84043680-A792-885E-5BC7946920C85D58";
+					adnPrebidObj[5].cIDn=24559;
+					adnPrebidObj[5].cType="PBB";
+					adnPrebidObj[5].aType="D";
+					adnPrebidObj[5].aHsize="728";
+					adnPrebidObj[5].aVsize="90";
+					adnPrebidObj[5].caCode="{\"bidder\": \"brealtime\", \"params\": {\"placementId\": 10954971}}";
+					adnPrebidObj[5].pC=0.00;
+				
+					adnPrebidObj[6]=new Object();
+					adnPrebidObj[6].externalProvider='ADNAPN';
+					adnPrebidObj[6].cID="845CAC5E-B285-F9AA-1ED2BFE45AD4385C";
+					adnPrebidObj[6].cIDn=24657;
+					adnPrebidObj[6].cType="PBB";
+					adnPrebidObj[6].aType="M";
+					adnPrebidObj[6].aHsize="300";
+					adnPrebidObj[6].aVsize="250";
+					adnPrebidObj[6].caCode="{\"bidder\": \"appnexus\",\"params\": {\"placementId\": \"6913509\"}}";
+					adnPrebidObj[6].pC=0.00;
+				
+					adnPrebidObj[7]=new Object();
+					adnPrebidObj[7].externalProvider='ADNAPN';
+					adnPrebidObj[7].cID="8468D9AD-BF80-89E4-BB12DB4FE06A65D6";
+					adnPrebidObj[7].cIDn=24658;
+					adnPrebidObj[7].cType="PBB";
+					adnPrebidObj[7].aType="D";
+					adnPrebidObj[7].aHsize="728";
+					adnPrebidObj[7].aVsize="90";
+					adnPrebidObj[7].caCode="{\"bidder\": \"appnexus\",\"params\": {\"placementId\": \"6913513\"}}";
+					adnPrebidObj[7].pC=0.00;
+				
+					adnPrebidObj[8]=new Object();
+					adnPrebidObj[8].externalProvider='ADNDIS';
+					adnPrebidObj[8].cID="473CFF58-9B1D-DE03-A422057A47571E0E";
+					adnPrebidObj[8].cIDn=31456;
+					adnPrebidObj[8].cType="PBB";
+					adnPrebidObj[8].aType="M";
+					adnPrebidObj[8].aHsize="300";
+					adnPrebidObj[8].aVsize="250";
+					adnPrebidObj[8].caCode="{\"bidder\": \"districtmDMX\",\"params\": {\"id\": \"147854\",\"revshare\":\"0.85\"}}";
+					adnPrebidObj[8].pC=0.00;
+				
+					adnPrebidObj[9]=new Object();
+					adnPrebidObj[9].externalProvider='ADNDIS';
+					adnPrebidObj[9].cID="4745E05B-EF1A-F3B2-52A9D851F6BF4873";
+					adnPrebidObj[9].cIDn=31457;
+					adnPrebidObj[9].cType="PBB";
+					adnPrebidObj[9].aType="D";
+					adnPrebidObj[9].aHsize="728";
+					adnPrebidObj[9].aVsize="90";
+					adnPrebidObj[9].caCode="{\"bidder\": \"districtmDMX\",\"params\": {\"id\": \"147855\",\"revshare\":\"0.85\"}}";
+					adnPrebidObj[9].pC=0.00;
+				
+					adnPrebidObj[10]=new Object();
+					adnPrebidObj[10].externalProvider='ADNCSM';
+					adnPrebidObj[10].cID="DFDB1C5D-014B-F45B-2561B1F138B78137";
+					adnPrebidObj[10].cIDn=31653;
+					adnPrebidObj[10].cType="PBB";
+					adnPrebidObj[10].aType="M";
+					adnPrebidObj[10].aHsize="300";
+					adnPrebidObj[10].aVsize="250";
+					adnPrebidObj[10].caCode="{\"bidder\": \"indexExchange\", \"params\": {\"id\": \"2\", \"siteID\": \"188240\"}}";
+					adnPrebidObj[10].pC=0.00;
+				
+					adnPrebidObj[11]=new Object();
+					adnPrebidObj[11].externalProvider='ADNCSM';
+					adnPrebidObj[11].cID="E0461CF4-93AA-4AF5-F23D7CF0DB781B96";
+					adnPrebidObj[11].cIDn=31655;
+					adnPrebidObj[11].cType="PBB";
+					adnPrebidObj[11].aType="D";
+					adnPrebidObj[11].aHsize="728";
+					adnPrebidObj[11].aVsize="90";
+					adnPrebidObj[11].caCode="{\"bidder\": \"indexExchange\", \"params\": {\"id\": \"1\", \"siteID\": \"188239\"}}";
+					adnPrebidObj[11].pC=0.00;
+				
+					adnPrebidObj[12]=new Object();
+					adnPrebidObj[12].externalProvider='ADNCON';
+					adnPrebidObj[12].cID="4A658728-078C-C6A8-7677689E3EB79FF8";
+					adnPrebidObj[12].cIDn=31842;
+					adnPrebidObj[12].cType="PBB";
+					adnPrebidObj[12].aType="M";
+					adnPrebidObj[12].aHsize="300";
+					adnPrebidObj[12].aVsize="250";
+					adnPrebidObj[12].caCode="{\"bidder\": \"conversant\", \"params\": {\"site_id\": \"108556\"}}";
+					adnPrebidObj[12].pC=0.00;
+				
+					adnPrebidObj[13]=new Object();
+					adnPrebidObj[13].externalProvider='ADNCON';
+					adnPrebidObj[13].cID="4A7AEC49-E241-D14A-0B74BE1E51825433";
+					adnPrebidObj[13].cIDn=31843;
+					adnPrebidObj[13].cType="PBB";
+					adnPrebidObj[13].aType="D";
+					adnPrebidObj[13].aHsize="728";
+					adnPrebidObj[13].aVsize="90";
+					adnPrebidObj[13].caCode="{\"bidder\": \"conversant\", \"params\": {\"site_id\": \"110726\"}}";
+					adnPrebidObj[13].pC=0.00;
+				
+				
+				// var streamProvider = "http";
+				var streamProvider = "http";
+
+				
+				
+				
+				var streamSRC = "http://ice2.securenetsystems.net/BIGBARN?&playSessionID=C633ACF8-CBEC-F63C-F300F9F3E05796D0";
+				var streamSRC_b = "http://ice2.securenetsystems.net/BIGBARN?&playSessionID=C633ACF8-CBEC-F63C-F300F9F3E05796D0";
+				var encoderType = "ACP";
+				var playlistType = "";
+				primary = "html5";
+				if(encoderType === "ACP"){
+					if((bowser.firefox) || (bowser.msie)){
+						if(swfobject.hasFlashPlayerVersion("1")){
+							if(streamSRC.indexOf(";stream.nsv") <= -1){
+								streamSRC += "&type=.flv";
+							}
+								playlistType = "flv";
+								primary = "flash";
+						}else{
+							if(!mobilePlayer){
+								prerollApp.push("flashRequired");
+							}
+						}
+					}else{
+						playlistType = "aac";
+						primary = "html5";
+					}
+				}else if(encoderType === "MP3"){
+					playlistType = "mp3"
+					primary = "html5";
+				}
+
+				// if(encoderType === "ACP"){
+				// 	if(streamSRC.indexOf(";stream.nsv") > -1){
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "aac";
+				// 	}else{
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}
+				// }else if(encoderType === "MP3"){
+				// 	if(streamSRC.indexOf(";stream.nsv") > -1){
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}else{
+				// 		streamSRC += "&type=.flv";
+				// 		playlistType = "flv";
+				// 	}
+				// }
+				
+
+				var liveStreamEnable = true;
+				var streamRoot = "http://ice2.securenetsystems.net/media";
+
+				var blackout = new Object();
+				blackout.active = 0;
+				blackout.type = "";
+				blackout.app = "";
+				blackout.nextCheck = 86809000;
+				blackout.resumeTime = "Tuesday, 5/2/2017 10:44 PM EDT";
+
+				var rejoinPriority = "PGM";
+				var enforceRejoinPriority = true;
+
+				var persistAlbumArt = true;
+
+				
+				var xmlODUrl = "";
+				var onDemandQueue = new Object();
+
+				var onDemandFileCount = 97;
+				var onDemandAutoStart = false;
+				var onDemandFill = new Object();
+				onDemandFill.enabled = true;
+				onDemandFill.active = false;
+				
+
+						onDemandQueue[0]=new Object();
+						onDemandQueue[0].fileId=181229;
+						// onDemandQueue[0].fileName="Its All Going to Pot - Willie Nelson - Merle Haggard.m4a";
+						onDemandQueue[0].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Its All Going to Pot - Willie Nelson - Merle Haggard.m4a";
+						onDemandQueue[0].fileDsp="Its All Going to Pot - Willie Nelson - Merle Haggard";
+						onDemandQueue[0].duration="176.960";
+						onDemandQueue[0].coverArt="";
+						onDemandQueue[0].title="";
+						onDemandQueue[0].artist="";
+						onDemandQueue[0].album="";
+						onDemandQueue[0].video=false;
+						onDemandQueue[0].modal=false;
+					
+
+						onDemandQueue[1]=new Object();
+						onDemandQueue[1].fileId=181230;
+						// onDemandQueue[1].fileName="Long Way Down - Jess Klein.m4a";
+						onDemandQueue[1].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Long Way Down - Jess Klein.m4a";
+						onDemandQueue[1].fileDsp="Long Way Down - Jess Klein";
+						onDemandQueue[1].duration="265.890";
+						onDemandQueue[1].coverArt="";
+						onDemandQueue[1].title="";
+						onDemandQueue[1].artist="";
+						onDemandQueue[1].album="";
+						onDemandQueue[1].video=false;
+						onDemandQueue[1].modal=false;
+					
+
+						onDemandQueue[2]=new Object();
+						onDemandQueue[2].fileId=181231;
+						// onDemandQueue[2].fileName="Taillights And Dust - Lance Stinson.m4a";
+						onDemandQueue[2].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Taillights And Dust - Lance Stinson.m4a";
+						onDemandQueue[2].fileDsp="Taillights And Dust - Lance Stinson";
+						onDemandQueue[2].duration="187.680";
+						onDemandQueue[2].coverArt="";
+						onDemandQueue[2].title="";
+						onDemandQueue[2].artist="";
+						onDemandQueue[2].album="";
+						onDemandQueue[2].video=false;
+						onDemandQueue[2].modal=false;
+					
+
+						onDemandQueue[3]=new Object();
+						onDemandQueue[3].fileId=166251;
+						// onDemandQueue[3].fileName="Brighter-Days-Beat---Produced-by-Chris-Prythm.m4a";
+						onDemandQueue[3].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Brighter-Days-Beat---Produced-by-Chris-Prythm.m4a";
+						onDemandQueue[3].fileDsp="Brighter-Days-Beat---Produced-by-Chris-Prythm";
+						onDemandQueue[3].duration="242.710";
+						onDemandQueue[3].coverArt="";
+						onDemandQueue[3].title="";
+						onDemandQueue[3].artist="";
+						onDemandQueue[3].album="";
+						onDemandQueue[3].video=false;
+						onDemandQueue[3].modal=false;
+					
+
+						onDemandQueue[4]=new Object();
+						onDemandQueue[4].fileId=154478;
+						// onDemandQueue[4].fileName="Country-Queen - Kendal-Conrad.m4a";
+						onDemandQueue[4].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Country-Queen - Kendal-Conrad.m4a";
+						onDemandQueue[4].fileDsp="Country-Queen - Kendal-Conrad";
+						onDemandQueue[4].duration="241.410";
+						onDemandQueue[4].coverArt="";
+						onDemandQueue[4].title="";
+						onDemandQueue[4].artist="";
+						onDemandQueue[4].album="";
+						onDemandQueue[4].video=false;
+						onDemandQueue[4].modal=false;
+					
+
+						onDemandQueue[5]=new Object();
+						onDemandQueue[5].fileId=146882;
+						// onDemandQueue[5].fileName="No Butter For My Grits - Big Bill Morganfield.m4a";
+						onDemandQueue[5].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"No Butter For My Grits - Big Bill Morganfield.m4a";
+						onDemandQueue[5].fileDsp="No Butter For My Grits - Big Bill Morganfield";
+						onDemandQueue[5].duration="394.110";
+						onDemandQueue[5].coverArt="";
+						onDemandQueue[5].title="";
+						onDemandQueue[5].artist="";
+						onDemandQueue[5].album="";
+						onDemandQueue[5].video=false;
+						onDemandQueue[5].modal=false;
+					
+
+						onDemandQueue[6]=new Object();
+						onDemandQueue[6].fileId=146883;
+						// onDemandQueue[6].fileName="Good One Comin On - Blackberry Smoke.m4a";
+						onDemandQueue[6].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Good One Comin On - Blackberry Smoke.m4a";
+						onDemandQueue[6].fileDsp="Good One Comin On - Blackberry Smoke";
+						onDemandQueue[6].duration="220.840";
+						onDemandQueue[6].coverArt="";
+						onDemandQueue[6].title="";
+						onDemandQueue[6].artist="";
+						onDemandQueue[6].album="";
+						onDemandQueue[6].video=false;
+						onDemandQueue[6].modal=false;
+					
+
+						onDemandQueue[7]=new Object();
+						onDemandQueue[7].fileId=146884;
+						// onDemandQueue[7].fileName="To Love Somebody - Bee Gees.m4a";
+						onDemandQueue[7].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"To Love Somebody - Bee Gees.m4a";
+						onDemandQueue[7].fileDsp="To Love Somebody - Bee Gees";
+						onDemandQueue[7].duration="182.340";
+						onDemandQueue[7].coverArt="";
+						onDemandQueue[7].title="";
+						onDemandQueue[7].artist="";
+						onDemandQueue[7].album="";
+						onDemandQueue[7].video=false;
+						onDemandQueue[7].modal=false;
+					
+
+						onDemandQueue[8]=new Object();
+						onDemandQueue[8].fileId=146885;
+						// onDemandQueue[8].fileName="Hit The Road Jack - Sheila Raye Charles.m4a";
+						onDemandQueue[8].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Hit The Road Jack - Sheila Raye Charles.m4a";
+						onDemandQueue[8].fileDsp="Hit The Road Jack - Sheila Raye Charles";
+						onDemandQueue[8].duration="196.460";
+						onDemandQueue[8].coverArt="";
+						onDemandQueue[8].title="";
+						onDemandQueue[8].artist="";
+						onDemandQueue[8].album="";
+						onDemandQueue[8].video=false;
+						onDemandQueue[8].modal=false;
+					
+
+						onDemandQueue[9]=new Object();
+						onDemandQueue[9].fileId=112642;
+						// onDemandQueue[9].fileName="Somethin- Somethin- The Springs .m4a";
+						onDemandQueue[9].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Somethin- Somethin- The Springs .m4a";
+						onDemandQueue[9].fileDsp="Somethin- Somethin- The Springs ";
+						onDemandQueue[9].duration="158.240";
+						onDemandQueue[9].coverArt="";
+						onDemandQueue[9].title="";
+						onDemandQueue[9].artist="";
+						onDemandQueue[9].album="";
+						onDemandQueue[9].video=false;
+						onDemandQueue[9].modal=false;
+					
+
+						onDemandQueue[10]=new Object();
+						onDemandQueue[10].fileId=112219;
+						// onDemandQueue[10].fileName="Crank It Up - The Springs.m4a";
+						onDemandQueue[10].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Crank It Up - The Springs.m4a";
+						onDemandQueue[10].fileDsp="Crank It Up - The Springs";
+						onDemandQueue[10].duration="128.470";
+						onDemandQueue[10].coverArt="";
+						onDemandQueue[10].title="";
+						onDemandQueue[10].artist="";
+						onDemandQueue[10].album="";
+						onDemandQueue[10].video=false;
+						onDemandQueue[10].modal=false;
+					
+
+						onDemandQueue[11]=new Object();
+						onDemandQueue[11].fileId=112218;
+						// onDemandQueue[11].fileName="Somethin Bout A Woman, Somethi - The Springs.m4a";
+						onDemandQueue[11].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Somethin Bout A Woman, Somethi - The Springs.m4a";
+						onDemandQueue[11].fileDsp="Somethin Bout A Woman, Somethi - The Springs";
+						onDemandQueue[11].duration="170.410";
+						onDemandQueue[11].coverArt="";
+						onDemandQueue[11].title="";
+						onDemandQueue[11].artist="";
+						onDemandQueue[11].album="";
+						onDemandQueue[11].video=false;
+						onDemandQueue[11].modal=false;
+					
+
+						onDemandQueue[12]=new Object();
+						onDemandQueue[12].fileId=94890;
+						// onDemandQueue[12].fileName="18 WHEELER - BEBO WHITEHEAD.m4a";
+						onDemandQueue[12].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"18 WHEELER - BEBO WHITEHEAD.m4a";
+						onDemandQueue[12].fileDsp="18 WHEELER - BEBO WHITEHEAD";
+						onDemandQueue[12].duration="214.060";
+						onDemandQueue[12].coverArt="";
+						onDemandQueue[12].title="";
+						onDemandQueue[12].artist="";
+						onDemandQueue[12].album="";
+						onDemandQueue[12].video=false;
+						onDemandQueue[12].modal=false;
+					
+
+						onDemandQueue[13]=new Object();
+						onDemandQueue[13].fileId=93527;
+						// onDemandQueue[13].fileName="RUNNIN DOWN A DREAM - Tom Petty.m4a";
+						onDemandQueue[13].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"RUNNIN DOWN A DREAM - Tom Petty.m4a";
+						onDemandQueue[13].fileDsp="RUNNIN DOWN A DREAM - Tom Petty";
+						onDemandQueue[13].duration="292.030";
+						onDemandQueue[13].coverArt="";
+						onDemandQueue[13].title="";
+						onDemandQueue[13].artist="";
+						onDemandQueue[13].album="";
+						onDemandQueue[13].video=false;
+						onDemandQueue[13].modal=false;
+					
+
+						onDemandQueue[14]=new Object();
+						onDemandQueue[14].fileId=93544;
+						// onDemandQueue[14].fileName="Have You Seen Your Mother, Baby, Standing in the Shadow - Rollin.m4a";
+						onDemandQueue[14].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Have You Seen Your Mother, Baby, Standing in the Shadow - Rollin.m4a";
+						onDemandQueue[14].fileDsp="Have You Seen Your Mother, Baby, Standing in the Shadow - Rollin";
+						onDemandQueue[14].duration="158.840";
+						onDemandQueue[14].coverArt="";
+						onDemandQueue[14].title="";
+						onDemandQueue[14].artist="";
+						onDemandQueue[14].album="";
+						onDemandQueue[14].video=false;
+						onDemandQueue[14].modal=false;
+					
+
+						onDemandQueue[15]=new Object();
+						onDemandQueue[15].fileId=92921;
+						// onDemandQueue[15].fileName="Dont Stop - Rolling Stones.m4a";
+						onDemandQueue[15].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Dont Stop - Rolling Stones.m4a";
+						onDemandQueue[15].fileDsp="Dont Stop - Rolling Stones";
+						onDemandQueue[15].duration="240.900";
+						onDemandQueue[15].coverArt="";
+						onDemandQueue[15].title="";
+						onDemandQueue[15].artist="";
+						onDemandQueue[15].album="";
+						onDemandQueue[15].video=false;
+						onDemandQueue[15].modal=false;
+					
+
+						onDemandQueue[16]=new Object();
+						onDemandQueue[16].fileId=92346;
+						// onDemandQueue[16].fileName="LONG COOL WOMAN - Randy Hayes.m4a";
+						onDemandQueue[16].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"LONG COOL WOMAN - Randy Hayes.m4a";
+						onDemandQueue[16].fileDsp="LONG COOL WOMAN - Randy Hayes";
+						onDemandQueue[16].duration="229.430";
+						onDemandQueue[16].coverArt="";
+						onDemandQueue[16].title="";
+						onDemandQueue[16].artist="";
+						onDemandQueue[16].album="";
+						onDemandQueue[16].video=false;
+						onDemandQueue[16].modal=false;
+					
+
+						onDemandQueue[17]=new Object();
+						onDemandQueue[17].fileId=91154;
+						// onDemandQueue[17].fileName="JOLENE - Sam Roark.m4a";
+						onDemandQueue[17].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"JOLENE - Sam Roark.m4a";
+						onDemandQueue[17].fileDsp="JOLENE - Sam Roark";
+						onDemandQueue[17].duration="222.750";
+						onDemandQueue[17].coverArt="";
+						onDemandQueue[17].title="";
+						onDemandQueue[17].artist="";
+						onDemandQueue[17].album="";
+						onDemandQueue[17].video=false;
+						onDemandQueue[17].modal=false;
+					
+
+						onDemandQueue[18]=new Object();
+						onDemandQueue[18].fileId=92925;
+						// onDemandQueue[18].fileName="I Won-t Back Down - Tom Petty.m4a";
+						onDemandQueue[18].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"I Won-t Back Down - Tom Petty.m4a";
+						onDemandQueue[18].fileDsp="I Won-t Back Down - Tom Petty";
+						onDemandQueue[18].duration="178.390";
+						onDemandQueue[18].coverArt="";
+						onDemandQueue[18].title="";
+						onDemandQueue[18].artist="";
+						onDemandQueue[18].album="";
+						onDemandQueue[18].video=false;
+						onDemandQueue[18].modal=false;
+					
+
+						onDemandQueue[19]=new Object();
+						onDemandQueue[19].fileId=92866;
+						// onDemandQueue[19].fileName="Miss Liberty - Lonnie Bennett Jr..m4a";
+						onDemandQueue[19].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Miss Liberty - Lonnie Bennett Jr..m4a";
+						onDemandQueue[19].fileDsp="Miss Liberty - Lonnie Bennett Jr";
+						onDemandQueue[19].duration="202.500";
+						onDemandQueue[19].coverArt="";
+						onDemandQueue[19].title="";
+						onDemandQueue[19].artist="";
+						onDemandQueue[19].album="";
+						onDemandQueue[19].video=false;
+						onDemandQueue[19].modal=false;
+					
+
+						onDemandQueue[20]=new Object();
+						onDemandQueue[20].fileId=92335;
+						// onDemandQueue[20].fileName="WE CAN WORK IT OUT - Randy Hayes.m4a";
+						onDemandQueue[20].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"WE CAN WORK IT OUT - Randy Hayes.m4a";
+						onDemandQueue[20].fileDsp="WE CAN WORK IT OUT - Randy Hayes";
+						onDemandQueue[20].duration="132.470";
+						onDemandQueue[20].coverArt="";
+						onDemandQueue[20].title="";
+						onDemandQueue[20].artist="";
+						onDemandQueue[20].album="";
+						onDemandQueue[20].video=false;
+						onDemandQueue[20].modal=false;
+					
+
+						onDemandQueue[21]=new Object();
+						onDemandQueue[21].fileId=91142;
+						// onDemandQueue[21].fileName="I Need My Baby Back - Sam Roark.m4a";
+						onDemandQueue[21].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"I Need My Baby Back - Sam Roark.m4a";
+						onDemandQueue[21].fileDsp="I Need My Baby Back - Sam Roark";
+						onDemandQueue[21].duration="205.240";
+						onDemandQueue[21].coverArt="";
+						onDemandQueue[21].title="";
+						onDemandQueue[21].artist="";
+						onDemandQueue[21].album="";
+						onDemandQueue[21].video=false;
+						onDemandQueue[21].modal=false;
+					
+
+						onDemandQueue[22]=new Object();
+						onDemandQueue[22].fileId=92340;
+						// onDemandQueue[22].fileName="GET TOGETHER - Randy Hayes.m4a";
+						onDemandQueue[22].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"GET TOGETHER - Randy Hayes.m4a";
+						onDemandQueue[22].fileDsp="GET TOGETHER - Randy Hayes";
+						onDemandQueue[22].duration="279.120";
+						onDemandQueue[22].coverArt="";
+						onDemandQueue[22].title="";
+						onDemandQueue[22].artist="";
+						onDemandQueue[22].album="";
+						onDemandQueue[22].video=false;
+						onDemandQueue[22].modal=false;
+					
+
+						onDemandQueue[23]=new Object();
+						onDemandQueue[23].fileId=93550;
+						// onDemandQueue[23].fileName="Undun - Guess Who.m4a";
+						onDemandQueue[23].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Undun - Guess Who.m4a";
+						onDemandQueue[23].fileDsp="Undun - Guess Who";
+						onDemandQueue[23].duration="207.880";
+						onDemandQueue[23].coverArt="";
+						onDemandQueue[23].title="";
+						onDemandQueue[23].artist="";
+						onDemandQueue[23].album="";
+						onDemandQueue[23].video=false;
+						onDemandQueue[23].modal=false;
+					
+
+						onDemandQueue[24]=new Object();
+						onDemandQueue[24].fileId=92908;
+						// onDemandQueue[24].fileName="Heart Full of Soul - Ravenz.m4a";
+						onDemandQueue[24].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Heart Full of Soul - Ravenz.m4a";
+						onDemandQueue[24].fileDsp="Heart Full of Soul - Ravenz";
+						onDemandQueue[24].duration="150.110";
+						onDemandQueue[24].coverArt="";
+						onDemandQueue[24].title="";
+						onDemandQueue[24].artist="";
+						onDemandQueue[24].album="";
+						onDemandQueue[24].video=false;
+						onDemandQueue[24].modal=false;
+					
+
+						onDemandQueue[25]=new Object();
+						onDemandQueue[25].fileId=93541;
+						// onDemandQueue[25].fileName="Mother-s Little Helper - Rolling Stones.m4a";
+						onDemandQueue[25].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Mother-s Little Helper - Rolling Stones.m4a";
+						onDemandQueue[25].fileDsp="Mother-s Little Helper - Rolling Stones";
+						onDemandQueue[25].duration="170.040";
+						onDemandQueue[25].coverArt="";
+						onDemandQueue[25].title="";
+						onDemandQueue[25].artist="";
+						onDemandQueue[25].album="";
+						onDemandQueue[25].video=false;
+						onDemandQueue[25].modal=false;
+					
+
+						onDemandQueue[26]=new Object();
+						onDemandQueue[26].fileId=91144;
+						// onDemandQueue[26].fileName="Lost At Sea - Sam Roark.m4a";
+						onDemandQueue[26].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Lost At Sea - Sam Roark.m4a";
+						onDemandQueue[26].fileDsp="Lost At Sea - Sam Roark";
+						onDemandQueue[26].duration="247.450";
+						onDemandQueue[26].coverArt="";
+						onDemandQueue[26].title="";
+						onDemandQueue[26].artist="";
+						onDemandQueue[26].album="";
+						onDemandQueue[26].video=false;
+						onDemandQueue[26].modal=false;
+					
+
+						onDemandQueue[27]=new Object();
+						onDemandQueue[27].fileId=92870;
+						// onDemandQueue[27].fileName="Free Falling - Tom Petty.m4a";
+						onDemandQueue[27].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Free Falling - Tom Petty.m4a";
+						onDemandQueue[27].fileDsp="Free Falling - Tom Petty";
+						onDemandQueue[27].duration="256.040";
+						onDemandQueue[27].coverArt="";
+						onDemandQueue[27].title="";
+						onDemandQueue[27].artist="";
+						onDemandQueue[27].album="";
+						onDemandQueue[27].video=false;
+						onDemandQueue[27].modal=false;
+					
+
+						onDemandQueue[28]=new Object();
+						onDemandQueue[28].fileId=92920;
+						// onDemandQueue[28].fileName="Start Me Up - Rolling Stones.m4a";
+						onDemandQueue[28].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Start Me Up - Rolling Stones.m4a";
+						onDemandQueue[28].fileDsp="Start Me Up - Rolling Stones";
+						onDemandQueue[28].duration="215.220";
+						onDemandQueue[28].coverArt="";
+						onDemandQueue[28].title="";
+						onDemandQueue[28].artist="";
+						onDemandQueue[28].album="";
+						onDemandQueue[28].video=false;
+						onDemandQueue[28].modal=false;
+					
+
+						onDemandQueue[29]=new Object();
+						onDemandQueue[29].fileId=91149;
+						// onDemandQueue[29].fileName="Oh Baby - Sam Roark.m4a";
+						onDemandQueue[29].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Oh Baby - Sam Roark.m4a";
+						onDemandQueue[29].fileDsp="Oh Baby - Sam Roark";
+						onDemandQueue[29].duration="190.930";
+						onDemandQueue[29].coverArt="";
+						onDemandQueue[29].title="";
+						onDemandQueue[29].artist="";
+						onDemandQueue[29].album="";
+						onDemandQueue[29].video=false;
+						onDemandQueue[29].modal=false;
+					
+
+						onDemandQueue[30]=new Object();
+						onDemandQueue[30].fileId=91148;
+						// onDemandQueue[30].fileName="The Sound Of A Woman Saying Goodbye - Sam Roark.m4a";
+						onDemandQueue[30].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"The Sound Of A Woman Saying Goodbye - Sam Roark.m4a";
+						onDemandQueue[30].fileDsp="The Sound Of A Woman Saying Goodbye - Sam Roark";
+						onDemandQueue[30].duration="175.700";
+						onDemandQueue[30].coverArt="";
+						onDemandQueue[30].title="";
+						onDemandQueue[30].artist="";
+						onDemandQueue[30].album="";
+						onDemandQueue[30].video=false;
+						onDemandQueue[30].modal=false;
+					
+
+						onDemandQueue[31]=new Object();
+						onDemandQueue[31].fileId=93518;
+						// onDemandQueue[31].fileName="Paradise City - Guns - Roses.m4a";
+						onDemandQueue[31].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Paradise City - Guns - Roses.m4a";
+						onDemandQueue[31].fileDsp="Paradise City - Guns - Roses";
+						onDemandQueue[31].duration="406.790";
+						onDemandQueue[31].coverArt="";
+						onDemandQueue[31].title="";
+						onDemandQueue[31].artist="";
+						onDemandQueue[31].album="";
+						onDemandQueue[31].video=false;
+						onDemandQueue[31].modal=false;
+					
+
+						onDemandQueue[32]=new Object();
+						onDemandQueue[32].fileId=92596;
+						// onDemandQueue[32].fileName="How Many Coal Trains - Rick Arnold.m4a";
+						onDemandQueue[32].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"How Many Coal Trains - Rick Arnold.m4a";
+						onDemandQueue[32].fileDsp="How Many Coal Trains - Rick Arnold";
+						onDemandQueue[32].duration="218.150";
+						onDemandQueue[32].coverArt="";
+						onDemandQueue[32].title="";
+						onDemandQueue[32].artist="";
+						onDemandQueue[32].album="";
+						onDemandQueue[32].video=false;
+						onDemandQueue[32].modal=false;
+					
+
+						onDemandQueue[33]=new Object();
+						onDemandQueue[33].fileId=92903;
+						// onDemandQueue[33].fileName="A Girl I Knew - Ravenz.m4a";
+						onDemandQueue[33].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"A Girl I Knew - Ravenz.m4a";
+						onDemandQueue[33].fileDsp="A Girl I Knew - Ravenz";
+						onDemandQueue[33].duration="166.460";
+						onDemandQueue[33].coverArt="";
+						onDemandQueue[33].title="";
+						onDemandQueue[33].artist="";
+						onDemandQueue[33].album="";
+						onDemandQueue[33].video=false;
+						onDemandQueue[33].modal=false;
+					
+
+						onDemandQueue[34]=new Object();
+						onDemandQueue[34].fileId=92334;
+						// onDemandQueue[34].fileName="TIME FOR LETTING GO - Randy Hayes.m4a";
+						onDemandQueue[34].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"TIME FOR LETTING GO - Randy Hayes.m4a";
+						onDemandQueue[34].fileDsp="TIME FOR LETTING GO - Randy Hayes";
+						onDemandQueue[34].duration="233.100";
+						onDemandQueue[34].coverArt="";
+						onDemandQueue[34].title="";
+						onDemandQueue[34].artist="";
+						onDemandQueue[34].album="";
+						onDemandQueue[34].video=false;
+						onDemandQueue[34].modal=false;
+					
+
+						onDemandQueue[35]=new Object();
+						onDemandQueue[35].fileId=93546;
+						// onDemandQueue[35].fileName="No Time - Guess Who.m4a";
+						onDemandQueue[35].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"No Time - Guess Who.m4a";
+						onDemandQueue[35].fileDsp="No Time - Guess Who";
+						onDemandQueue[35].duration="219.770";
+						onDemandQueue[35].coverArt="";
+						onDemandQueue[35].title="";
+						onDemandQueue[35].artist="";
+						onDemandQueue[35].album="";
+						onDemandQueue[35].video=false;
+						onDemandQueue[35].modal=false;
+					
+
+						onDemandQueue[36]=new Object();
+						onDemandQueue[36].fileId=92867;
+						// onDemandQueue[36].fileName="Sympathy for the Devil - Rolling Stones.m4a";
+						onDemandQueue[36].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Sympathy for the Devil - Rolling Stones.m4a";
+						onDemandQueue[36].fileDsp="Sympathy for the Devil - Rolling Stones";
+						onDemandQueue[36].duration="380.590";
+						onDemandQueue[36].coverArt="";
+						onDemandQueue[36].title="";
+						onDemandQueue[36].artist="";
+						onDemandQueue[36].album="";
+						onDemandQueue[36].video=false;
+						onDemandQueue[36].modal=false;
+					
+
+						onDemandQueue[37]=new Object();
+						onDemandQueue[37].fileId=92922;
+						// onDemandQueue[37].fileName="Brown Sugar - Rolling Stones.m4a";
+						onDemandQueue[37].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Brown Sugar - Rolling Stones.m4a";
+						onDemandQueue[37].fileDsp="Brown Sugar - Rolling Stones";
+						onDemandQueue[37].duration="231.750";
+						onDemandQueue[37].coverArt="";
+						onDemandQueue[37].title="";
+						onDemandQueue[37].artist="";
+						onDemandQueue[37].album="";
+						onDemandQueue[37].video=false;
+						onDemandQueue[37].modal=false;
+					
+
+						onDemandQueue[38]=new Object();
+						onDemandQueue[38].fileId=92336;
+						// onDemandQueue[38].fileName="THERES A PLACE - Randy Hayes.m4a";
+						onDemandQueue[38].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"THERES A PLACE - Randy Hayes.m4a";
+						onDemandQueue[38].fileDsp="THERES A PLACE - Randy Hayes";
+						onDemandQueue[38].duration="114.910";
+						onDemandQueue[38].coverArt="";
+						onDemandQueue[38].title="";
+						onDemandQueue[38].artist="";
+						onDemandQueue[38].album="";
+						onDemandQueue[38].video=false;
+						onDemandQueue[38].modal=false;
+					
+
+						onDemandQueue[39]=new Object();
+						onDemandQueue[39].fileId=92919;
+						// onDemandQueue[39].fileName="Fool to Cry - Rolling Stones.m4a";
+						onDemandQueue[39].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Fool to Cry - Rolling Stones.m4a";
+						onDemandQueue[39].fileDsp="Fool to Cry - Rolling Stones";
+						onDemandQueue[39].duration="249.870";
+						onDemandQueue[39].coverArt="";
+						onDemandQueue[39].title="";
+						onDemandQueue[39].artist="";
+						onDemandQueue[39].album="";
+						onDemandQueue[39].video=false;
+						onDemandQueue[39].modal=false;
+					
+
+						onDemandQueue[40]=new Object();
+						onDemandQueue[40].fileId=91146;
+						// onDemandQueue[40].fileName="Check Out Girl - Sam Roark.m4a";
+						onDemandQueue[40].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Check Out Girl - Sam Roark.m4a";
+						onDemandQueue[40].fileDsp="Check Out Girl - Sam Roark";
+						onDemandQueue[40].duration="179.140";
+						onDemandQueue[40].coverArt="";
+						onDemandQueue[40].title="";
+						onDemandQueue[40].artist="";
+						onDemandQueue[40].album="";
+						onDemandQueue[40].video=false;
+						onDemandQueue[40].modal=false;
+					
+
+						onDemandQueue[41]=new Object();
+						onDemandQueue[41].fileId=92918;
+						// onDemandQueue[41].fileName="Put Your Lights On - Santana.m4a";
+						onDemandQueue[41].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Put Your Lights On - Santana.m4a";
+						onDemandQueue[41].fileDsp="Put Your Lights On - Santana";
+						onDemandQueue[41].duration="285.110";
+						onDemandQueue[41].coverArt="";
+						onDemandQueue[41].title="";
+						onDemandQueue[41].artist="";
+						onDemandQueue[41].album="";
+						onDemandQueue[41].video=false;
+						onDemandQueue[41].modal=false;
+					
+
+						onDemandQueue[42]=new Object();
+						onDemandQueue[42].fileId=94889;
+						// onDemandQueue[42].fileName="I Think of You - BEBO WHITEHEAD.m4a";
+						onDemandQueue[42].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"I Think of You - BEBO WHITEHEAD.m4a";
+						onDemandQueue[42].fileDsp="I Think of You - BEBO WHITEHEAD";
+						onDemandQueue[42].duration="219.170";
+						onDemandQueue[42].coverArt="";
+						onDemandQueue[42].title="";
+						onDemandQueue[42].artist="";
+						onDemandQueue[42].album="";
+						onDemandQueue[42].video=false;
+						onDemandQueue[42].modal=false;
+					
+
+						onDemandQueue[43]=new Object();
+						onDemandQueue[43].fileId=91147;
+						// onDemandQueue[43].fileName="Little Rain - Sam Roark.m4a";
+						onDemandQueue[43].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Little Rain - Sam Roark.m4a";
+						onDemandQueue[43].fileDsp="Little Rain - Sam Roark";
+						onDemandQueue[43].duration="223.070";
+						onDemandQueue[43].coverArt="";
+						onDemandQueue[43].title="";
+						onDemandQueue[43].artist="";
+						onDemandQueue[43].album="";
+						onDemandQueue[43].video=false;
+						onDemandQueue[43].modal=false;
+					
+
+						onDemandQueue[44]=new Object();
+						onDemandQueue[44].fileId=91143;
+						// onDemandQueue[44].fileName="The Other Side Of Love - Sam Roark.m4a";
+						onDemandQueue[44].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"The Other Side Of Love - Sam Roark.m4a";
+						onDemandQueue[44].fileDsp="The Other Side Of Love - Sam Roark";
+						onDemandQueue[44].duration="229.530";
+						onDemandQueue[44].coverArt="";
+						onDemandQueue[44].title="";
+						onDemandQueue[44].artist="";
+						onDemandQueue[44].album="";
+						onDemandQueue[44].video=false;
+						onDemandQueue[44].modal=false;
+					
+
+						onDemandQueue[45]=new Object();
+						onDemandQueue[45].fileId=92910;
+						// onDemandQueue[45].fileName="If I Needed Someone - Ravenz.m4a";
+						onDemandQueue[45].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"If I Needed Someone - Ravenz.m4a";
+						onDemandQueue[45].fileDsp="If I Needed Someone - Ravenz";
+						onDemandQueue[45].duration="157.540";
+						onDemandQueue[45].coverArt="";
+						onDemandQueue[45].title="";
+						onDemandQueue[45].artist="";
+						onDemandQueue[45].album="";
+						onDemandQueue[45].video=false;
+						onDemandQueue[45].modal=false;
+					
+
+						onDemandQueue[46]=new Object();
+						onDemandQueue[46].fileId=92343;
+						// onDemandQueue[46].fileName="I KNOW A LITTLE - Randy Hayes.m4a";
+						onDemandQueue[46].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"I KNOW A LITTLE - Randy Hayes.m4a";
+						onDemandQueue[46].fileDsp="I KNOW A LITTLE - Randy Hayes";
+						onDemandQueue[46].duration="217.170";
+						onDemandQueue[46].coverArt="";
+						onDemandQueue[46].title="";
+						onDemandQueue[46].artist="";
+						onDemandQueue[46].album="";
+						onDemandQueue[46].video=false;
+						onDemandQueue[46].modal=false;
+					
+
+						onDemandQueue[47]=new Object();
+						onDemandQueue[47].fileId=93540;
+						// onDemandQueue[47].fileName="American Woman - Guess Who.m4a";
+						onDemandQueue[47].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"American Woman - Guess Who.m4a";
+						onDemandQueue[47].fileDsp="American Woman - Guess Who";
+						onDemandQueue[47].duration="307.450";
+						onDemandQueue[47].coverArt="";
+						onDemandQueue[47].title="";
+						onDemandQueue[47].artist="";
+						onDemandQueue[47].album="";
+						onDemandQueue[47].video=false;
+						onDemandQueue[47].modal=false;
+					
+
+						onDemandQueue[48]=new Object();
+						onDemandQueue[48].fileId=91145;
+						// onDemandQueue[48].fileName="Nashville Can Wait - Sam Roark.m4a";
+						onDemandQueue[48].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Nashville Can Wait - Sam Roark.m4a";
+						onDemandQueue[48].fileDsp="Nashville Can Wait - Sam Roark";
+						onDemandQueue[48].duration="228.500";
+						onDemandQueue[48].coverArt="";
+						onDemandQueue[48].title="";
+						onDemandQueue[48].artist="";
+						onDemandQueue[48].album="";
+						onDemandQueue[48].video=false;
+						onDemandQueue[48].modal=false;
+					
+
+						onDemandQueue[49]=new Object();
+						onDemandQueue[49].fileId=92869;
+						// onDemandQueue[49].fileName="Wild Horses - Rolling Stones.m4a";
+						onDemandQueue[49].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Wild Horses - Rolling Stones.m4a";
+						onDemandQueue[49].fileDsp="Wild Horses - Rolling Stones";
+						onDemandQueue[49].duration="347.060";
+						onDemandQueue[49].coverArt="";
+						onDemandQueue[49].title="";
+						onDemandQueue[49].artist="";
+						onDemandQueue[49].album="";
+						onDemandQueue[49].video=false;
+						onDemandQueue[49].modal=false;
+					
+
+						onDemandQueue[50]=new Object();
+						onDemandQueue[50].fileId=92905;
+						// onDemandQueue[50].fileName="Behind Blue Eyes - Ravenz.m4a";
+						onDemandQueue[50].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Behind Blue Eyes - Ravenz.m4a";
+						onDemandQueue[50].fileDsp="Behind Blue Eyes - Ravenz";
+						onDemandQueue[50].duration="231.660";
+						onDemandQueue[50].coverArt="";
+						onDemandQueue[50].title="";
+						onDemandQueue[50].artist="";
+						onDemandQueue[50].album="";
+						onDemandQueue[50].video=false;
+						onDemandQueue[50].modal=false;
+					
+
+						onDemandQueue[51]=new Object();
+						onDemandQueue[51].fileId=91150;
+						// onDemandQueue[51].fileName="All I Want - Sam Roark-Joe Sun.m4a";
+						onDemandQueue[51].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"All I Want - Sam Roark-Joe Sun.m4a";
+						onDemandQueue[51].fileDsp="All I Want - Sam Roark-Joe Sun";
+						onDemandQueue[51].duration="240.020";
+						onDemandQueue[51].coverArt="";
+						onDemandQueue[51].title="";
+						onDemandQueue[51].artist="";
+						onDemandQueue[51].album="";
+						onDemandQueue[51].video=false;
+						onDemandQueue[51].modal=false;
+					
+
+						onDemandQueue[52]=new Object();
+						onDemandQueue[52].fileId=92345;
+						// onDemandQueue[52].fileName="GIRL FROM THE CANYON - Randy Hayes.m4a";
+						onDemandQueue[52].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"GIRL FROM THE CANYON - Randy Hayes.m4a";
+						onDemandQueue[52].fileDsp="GIRL FROM THE CANYON - Randy Hayes";
+						onDemandQueue[52].duration="146.350";
+						onDemandQueue[52].coverArt="";
+						onDemandQueue[52].title="";
+						onDemandQueue[52].artist="";
+						onDemandQueue[52].album="";
+						onDemandQueue[52].video=false;
+						onDemandQueue[52].modal=false;
+					
+
+						onDemandQueue[53]=new Object();
+						onDemandQueue[53].fileId=93548;
+						// onDemandQueue[53].fileName="(I Can-t Get No) Satisfaction - Rolling Stones.m4a";
+						onDemandQueue[53].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"(I Can-t Get No) Satisfaction - Rolling Stones.m4a";
+						onDemandQueue[53].fileDsp="(I Can-t Get No) Satisfaction - Rolling Stones";
+						onDemandQueue[53].duration="226.090";
+						onDemandQueue[53].coverArt="";
+						onDemandQueue[53].title="";
+						onDemandQueue[53].artist="";
+						onDemandQueue[53].album="";
+						onDemandQueue[53].video=false;
+						onDemandQueue[53].modal=false;
+					
+
+						onDemandQueue[54]=new Object();
+						onDemandQueue[54].fileId=92347;
+						// onDemandQueue[54].fileName="JUST FOR THE RECORD - Randy Hayes.m4a";
+						onDemandQueue[54].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"JUST FOR THE RECORD - Randy Hayes.m4a";
+						onDemandQueue[54].fileDsp="JUST FOR THE RECORD - Randy Hayes";
+						onDemandQueue[54].duration="167.570";
+						onDemandQueue[54].coverArt="";
+						onDemandQueue[54].title="";
+						onDemandQueue[54].artist="";
+						onDemandQueue[54].album="";
+						onDemandQueue[54].video=false;
+						onDemandQueue[54].modal=false;
+					
+
+						onDemandQueue[55]=new Object();
+						onDemandQueue[55].fileId=93542;
+						// onDemandQueue[55].fileName="She-s a Rainbow - Rolling Stones.m4a";
+						onDemandQueue[55].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"She-s a Rainbow - Rolling Stones.m4a";
+						onDemandQueue[55].fileDsp="She-s a Rainbow - Rolling Stones";
+						onDemandQueue[55].duration="255.210";
+						onDemandQueue[55].coverArt="";
+						onDemandQueue[55].title="";
+						onDemandQueue[55].artist="";
+						onDemandQueue[55].album="";
+						onDemandQueue[55].video=false;
+						onDemandQueue[55].modal=false;
+					
+
+						onDemandQueue[56]=new Object();
+						onDemandQueue[56].fileId=91141;
+						// onDemandQueue[56].fileName="If Heaven-s Got A Backdoor - Sam Roark.m4a";
+						onDemandQueue[56].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"If Heaven-s Got A Backdoor - Sam Roark.m4a";
+						onDemandQueue[56].fileDsp="If Heaven-s Got A Backdoor - Sam Roark";
+						onDemandQueue[56].duration="171.290";
+						onDemandQueue[56].coverArt="";
+						onDemandQueue[56].title="";
+						onDemandQueue[56].artist="";
+						onDemandQueue[56].album="";
+						onDemandQueue[56].video=false;
+						onDemandQueue[56].modal=false;
+					
+
+						onDemandQueue[57]=new Object();
+						onDemandQueue[57].fileId=92348;
+						// onDemandQueue[57].fileName="IF LOOKS COULD KILL - Randy Hayes.m4a";
+						onDemandQueue[57].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"IF LOOKS COULD KILL - Randy Hayes.m4a";
+						onDemandQueue[57].fileDsp="IF LOOKS COULD KILL - Randy Hayes";
+						onDemandQueue[57].duration="197.390";
+						onDemandQueue[57].coverArt="";
+						onDemandQueue[57].title="";
+						onDemandQueue[57].artist="";
+						onDemandQueue[57].album="";
+						onDemandQueue[57].video=false;
+						onDemandQueue[57].modal=false;
+					
+
+						onDemandQueue[58]=new Object();
+						onDemandQueue[58].fileId=92349;
+						// onDemandQueue[58].fileName="THATS JUST THE WAY IT IS - Randy Hayes.m4a";
+						onDemandQueue[58].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"THATS JUST THE WAY IT IS - Randy Hayes.m4a";
+						onDemandQueue[58].fileDsp="THATS JUST THE WAY IT IS - Randy Hayes";
+						onDemandQueue[58].duration="199.290";
+						onDemandQueue[58].coverArt="";
+						onDemandQueue[58].title="";
+						onDemandQueue[58].artist="";
+						onDemandQueue[58].album="";
+						onDemandQueue[58].video=false;
+						onDemandQueue[58].modal=false;
+					
+
+						onDemandQueue[59]=new Object();
+						onDemandQueue[59].fileId=92868;
+						// onDemandQueue[59].fileName="Paint It, Black - Rolling Stones.m4a";
+						onDemandQueue[59].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Paint It, Black - Rolling Stones.m4a";
+						onDemandQueue[59].fileDsp="Paint It, Black - Rolling Stones";
+						onDemandQueue[59].duration="228.040";
+						onDemandQueue[59].coverArt="";
+						onDemandQueue[59].title="";
+						onDemandQueue[59].artist="";
+						onDemandQueue[59].album="";
+						onDemandQueue[59].video=false;
+						onDemandQueue[59].modal=false;
+					
+
+						onDemandQueue[60]=new Object();
+						onDemandQueue[60].fileId=91153;
+						// onDemandQueue[60].fileName="Clank Clank - Sam Roark.m4a";
+						onDemandQueue[60].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Clank Clank - Sam Roark.m4a";
+						onDemandQueue[60].fileDsp="Clank Clank - Sam Roark";
+						onDemandQueue[60].duration="198.970";
+						onDemandQueue[60].coverArt="";
+						onDemandQueue[60].title="";
+						onDemandQueue[60].artist="";
+						onDemandQueue[60].album="";
+						onDemandQueue[60].video=false;
+						onDemandQueue[60].modal=false;
+					
+
+						onDemandQueue[61]=new Object();
+						onDemandQueue[61].fileId=92861;
+						// onDemandQueue[61].fileName="MUD ON MY FEET - Rick Arnold.flv";
+						onDemandQueue[61].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"MUD ON MY FEET - Rick Arnold.flv";
+						onDemandQueue[61].fileDsp="MUD ON MY FEET - Rick Arnold";
+						onDemandQueue[61].duration="145.560";
+						onDemandQueue[61].coverArt="";
+						onDemandQueue[61].title="";
+						onDemandQueue[61].artist="";
+						onDemandQueue[61].album="";
+						onDemandQueue[61].video=true;
+						onDemandQueue[61].modal=false;
+					
+
+						onDemandQueue[62]=new Object();
+						onDemandQueue[62].fileId=92904;
+						// onDemandQueue[62].fileName="Baby Blue - Ravenz.m4a";
+						onDemandQueue[62].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Baby Blue - Ravenz.m4a";
+						onDemandQueue[62].fileDsp="Baby Blue - Ravenz";
+						onDemandQueue[62].duration="220.520";
+						onDemandQueue[62].coverArt="";
+						onDemandQueue[62].title="";
+						onDemandQueue[62].artist="";
+						onDemandQueue[62].album="";
+						onDemandQueue[62].video=false;
+						onDemandQueue[62].modal=false;
+					
+
+						onDemandQueue[63]=new Object();
+						onDemandQueue[63].fileId=92906;
+						// onDemandQueue[63].fileName="Dont Talk To Strangers - Ravenz.m4a";
+						onDemandQueue[63].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Dont Talk To Strangers - Ravenz.m4a";
+						onDemandQueue[63].fileDsp="Dont Talk To Strangers - Ravenz";
+						onDemandQueue[63].duration="180.210";
+						onDemandQueue[63].coverArt="";
+						onDemandQueue[63].title="";
+						onDemandQueue[63].artist="";
+						onDemandQueue[63].album="";
+						onDemandQueue[63].video=false;
+						onDemandQueue[63].modal=false;
+					
+
+						onDemandQueue[64]=new Object();
+						onDemandQueue[64].fileId=92924;
+						// onDemandQueue[64].fileName="Anybody Seen My Baby - Rolling Stones.m4a";
+						onDemandQueue[64].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Anybody Seen My Baby - Rolling Stones.m4a";
+						onDemandQueue[64].fileDsp="Anybody Seen My Baby - Rolling Stones";
+						onDemandQueue[64].duration="249.770";
+						onDemandQueue[64].coverArt="";
+						onDemandQueue[64].title="";
+						onDemandQueue[64].artist="";
+						onDemandQueue[64].album="";
+						onDemandQueue[64].video=false;
+						onDemandQueue[64].modal=false;
+					
+
+						onDemandQueue[65]=new Object();
+						onDemandQueue[65].fileId=92907;
+						// onDemandQueue[65].fileName="Five OClock World - Ravenz.m4a";
+						onDemandQueue[65].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Five OClock World - Ravenz.m4a";
+						onDemandQueue[65].fileDsp="Five OClock World - Ravenz";
+						onDemandQueue[65].duration="158.470";
+						onDemandQueue[65].coverArt="";
+						onDemandQueue[65].title="";
+						onDemandQueue[65].artist="";
+						onDemandQueue[65].album="";
+						onDemandQueue[65].video=false;
+						onDemandQueue[65].modal=false;
+					
+
+						onDemandQueue[66]=new Object();
+						onDemandQueue[66].fileId=92911;
+						// onDemandQueue[66].fileName="My Back Pages - Ravenz.m4a";
+						onDemandQueue[66].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"My Back Pages - Ravenz.m4a";
+						onDemandQueue[66].fileDsp="My Back Pages - Ravenz";
+						onDemandQueue[66].duration="179.090";
+						onDemandQueue[66].coverArt="";
+						onDemandQueue[66].title="";
+						onDemandQueue[66].artist="";
+						onDemandQueue[66].album="";
+						onDemandQueue[66].video=false;
+						onDemandQueue[66].modal=false;
+					
+
+						onDemandQueue[67]=new Object();
+						onDemandQueue[67].fileId=92923;
+						// onDemandQueue[67].fileName="Angie - Rolling Stones.m4a";
+						onDemandQueue[67].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Angie - Rolling Stones.m4a";
+						onDemandQueue[67].fileDsp="Angie - Rolling Stones";
+						onDemandQueue[67].duration="274.010";
+						onDemandQueue[67].coverArt="";
+						onDemandQueue[67].title="";
+						onDemandQueue[67].artist="";
+						onDemandQueue[67].album="";
+						onDemandQueue[67].video=false;
+						onDemandQueue[67].modal=false;
+					
+
+						onDemandQueue[68]=new Object();
+						onDemandQueue[68].fileId=92927;
+						// onDemandQueue[68].fileName="Love is a long Road - Tom Petty.m4a";
+						onDemandQueue[68].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Love is a long Road - Tom Petty.m4a";
+						onDemandQueue[68].fileDsp="Love is a long Road - Tom Petty";
+						onDemandQueue[68].duration="247.640";
+						onDemandQueue[68].coverArt="";
+						onDemandQueue[68].title="";
+						onDemandQueue[68].artist="";
+						onDemandQueue[68].album="";
+						onDemandQueue[68].video=false;
+						onDemandQueue[68].modal=false;
+					
+
+						onDemandQueue[69]=new Object();
+						onDemandQueue[69].fileId=93073;
+						// onDemandQueue[69].fileName="Yesterday - Ravenz.m4a";
+						onDemandQueue[69].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Yesterday - Ravenz.m4a";
+						onDemandQueue[69].fileDsp="Yesterday - Ravenz";
+						onDemandQueue[69].duration="180.020";
+						onDemandQueue[69].coverArt="";
+						onDemandQueue[69].title="";
+						onDemandQueue[69].artist="";
+						onDemandQueue[69].album="";
+						onDemandQueue[69].video=false;
+						onDemandQueue[69].modal=false;
+					
+
+						onDemandQueue[70]=new Object();
+						onDemandQueue[70].fileId=93515;
+						// onDemandQueue[70].fileName="How You Remind Me.m4a";
+						onDemandQueue[70].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"How You Remind Me.m4a";
+						onDemandQueue[70].fileDsp="How You Remind Me";
+						onDemandQueue[70].duration="228.550";
+						onDemandQueue[70].coverArt="";
+						onDemandQueue[70].title="";
+						onDemandQueue[70].artist="";
+						onDemandQueue[70].album="";
+						onDemandQueue[70].video=false;
+						onDemandQueue[70].modal=false;
+					
+
+						onDemandQueue[71]=new Object();
+						onDemandQueue[71].fileId=93516;
+						// onDemandQueue[71].fileName="Unwell.m4a";
+						onDemandQueue[71].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Unwell.m4a";
+						onDemandQueue[71].fileDsp="Unwell";
+						onDemandQueue[71].duration="230.870";
+						onDemandQueue[71].coverArt="";
+						onDemandQueue[71].title="";
+						onDemandQueue[71].artist="";
+						onDemandQueue[71].album="";
+						onDemandQueue[71].video=false;
+						onDemandQueue[71].modal=false;
+					
+
+						onDemandQueue[72]=new Object();
+						onDemandQueue[72].fileId=93517;
+						// onDemandQueue[72].fileName="Black Dog.m4a";
+						onDemandQueue[72].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Black Dog.m4a";
+						onDemandQueue[72].fileDsp="Black Dog";
+						onDemandQueue[72].duration="297.140";
+						onDemandQueue[72].coverArt="";
+						onDemandQueue[72].title="";
+						onDemandQueue[72].artist="";
+						onDemandQueue[72].album="";
+						onDemandQueue[72].video=false;
+						onDemandQueue[72].modal=false;
+					
+
+						onDemandQueue[73]=new Object();
+						onDemandQueue[73].fileId=92350;
+						// onDemandQueue[73].fileName="NOW THAT WERE ALONE - Randy Hayes.m4a";
+						onDemandQueue[73].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"NOW THAT WERE ALONE - Randy Hayes.m4a";
+						onDemandQueue[73].fileDsp="NOW THAT WERE ALONE - Randy Hayes";
+						onDemandQueue[73].duration="244.110";
+						onDemandQueue[73].coverArt="";
+						onDemandQueue[73].title="";
+						onDemandQueue[73].artist="";
+						onDemandQueue[73].album="";
+						onDemandQueue[73].video=false;
+						onDemandQueue[73].modal=false;
+					
+
+						onDemandQueue[74]=new Object();
+						onDemandQueue[74].fileId=93539;
+						// onDemandQueue[74].fileName="These Eyes - Guess Who.m4a";
+						onDemandQueue[74].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"These Eyes - Guess Who.m4a";
+						onDemandQueue[74].fileDsp="These Eyes - Guess Who";
+						onDemandQueue[74].duration="227.900";
+						onDemandQueue[74].coverArt="";
+						onDemandQueue[74].title="";
+						onDemandQueue[74].artist="";
+						onDemandQueue[74].album="";
+						onDemandQueue[74].video=false;
+						onDemandQueue[74].modal=false;
+					
+
+						onDemandQueue[75]=new Object();
+						onDemandQueue[75].fileId=93519;
+						// onDemandQueue[75].fileName="Mixed Emotions - Rolling Stones.m4a";
+						onDemandQueue[75].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Mixed Emotions - Rolling Stones.m4a";
+						onDemandQueue[75].fileDsp="Mixed Emotions - Rolling Stones";
+						onDemandQueue[75].duration="243.410";
+						onDemandQueue[75].coverArt="";
+						onDemandQueue[75].title="";
+						onDemandQueue[75].artist="";
+						onDemandQueue[75].album="";
+						onDemandQueue[75].video=false;
+						onDemandQueue[75].modal=false;
+					
+
+						onDemandQueue[76]=new Object();
+						onDemandQueue[76].fileId=93520;
+						// onDemandQueue[76].fileName="Knockin On Heavens Door - Guns - Roses.m4a";
+						onDemandQueue[76].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Knockin On Heavens Door - Guns - Roses.m4a";
+						onDemandQueue[76].fileDsp="Knockin On Heavens Door - Guns - Roses";
+						onDemandQueue[76].duration="338.100";
+						onDemandQueue[76].coverArt="";
+						onDemandQueue[76].title="";
+						onDemandQueue[76].artist="";
+						onDemandQueue[76].album="";
+						onDemandQueue[76].video=false;
+						onDemandQueue[76].modal=false;
+					
+
+						onDemandQueue[77]=new Object();
+						onDemandQueue[77].fileId=93521;
+						// onDemandQueue[77].fileName="THE APARTMENT SONG.m4a";
+						onDemandQueue[77].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"THE APARTMENT SONG.m4a";
+						onDemandQueue[77].fileDsp="THE APARTMENT SONG";
+						onDemandQueue[77].duration="152.530";
+						onDemandQueue[77].coverArt="";
+						onDemandQueue[77].title="";
+						onDemandQueue[77].artist="";
+						onDemandQueue[77].album="";
+						onDemandQueue[77].video=false;
+						onDemandQueue[77].modal=false;
+					
+
+						onDemandQueue[78]=new Object();
+						onDemandQueue[78].fileId=93522;
+						// onDemandQueue[78].fileName="Pour Some Sugar On Me.m4a";
+						onDemandQueue[78].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Pour Some Sugar On Me.m4a";
+						onDemandQueue[78].fileDsp="Pour Some Sugar On Me";
+						onDemandQueue[78].duration="267.190";
+						onDemandQueue[78].coverArt="";
+						onDemandQueue[78].title="";
+						onDemandQueue[78].artist="";
+						onDemandQueue[78].album="";
+						onDemandQueue[78].video=false;
+						onDemandQueue[78].modal=false;
+					
+
+						onDemandQueue[79]=new Object();
+						onDemandQueue[79].fileId=93523;
+						// onDemandQueue[79].fileName="Love Bites.m4a";
+						onDemandQueue[79].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Love Bites.m4a";
+						onDemandQueue[79].fileDsp="Love Bites";
+						onDemandQueue[79].duration="344.790";
+						onDemandQueue[79].coverArt="";
+						onDemandQueue[79].title="";
+						onDemandQueue[79].artist="";
+						onDemandQueue[79].album="";
+						onDemandQueue[79].video=false;
+						onDemandQueue[79].modal=false;
+					
+
+						onDemandQueue[80]=new Object();
+						onDemandQueue[80].fileId=93524;
+						// onDemandQueue[80].fileName="Rock Of Ages.m4a";
+						onDemandQueue[80].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Rock Of Ages.m4a";
+						onDemandQueue[80].fileDsp="Rock Of Ages";
+						onDemandQueue[80].duration="250.520";
+						onDemandQueue[80].coverArt="";
+						onDemandQueue[80].title="";
+						onDemandQueue[80].artist="";
+						onDemandQueue[80].album="";
+						onDemandQueue[80].video=false;
+						onDemandQueue[80].modal=false;
+					
+
+						onDemandQueue[81]=new Object();
+						onDemandQueue[81].fileId=93525;
+						// onDemandQueue[81].fileName="FEEL A WHOLE LOT BETTER.m4a";
+						onDemandQueue[81].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"FEEL A WHOLE LOT BETTER.m4a";
+						onDemandQueue[81].fileDsp="FEEL A WHOLE LOT BETTER";
+						onDemandQueue[81].duration="169.660";
+						onDemandQueue[81].coverArt="";
+						onDemandQueue[81].title="";
+						onDemandQueue[81].artist="";
+						onDemandQueue[81].album="";
+						onDemandQueue[81].video=false;
+						onDemandQueue[81].modal=false;
+					
+
+						onDemandQueue[82]=new Object();
+						onDemandQueue[82].fileId=93526;
+						// onDemandQueue[82].fileName="Smooth.m4a";
+						onDemandQueue[82].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Smooth.m4a";
+						onDemandQueue[82].fileDsp="Smooth";
+						onDemandQueue[82].duration="298.260";
+						onDemandQueue[82].coverArt="";
+						onDemandQueue[82].title="";
+						onDemandQueue[82].artist="";
+						onDemandQueue[82].album="";
+						onDemandQueue[82].video=false;
+						onDemandQueue[82].modal=false;
+					
+
+						onDemandQueue[83]=new Object();
+						onDemandQueue[83].fileId=93528;
+						// onDemandQueue[83].fileName="Metallica.m4a";
+						onDemandQueue[83].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Metallica.m4a";
+						onDemandQueue[83].fileDsp="Metallica";
+						onDemandQueue[83].duration="333.690";
+						onDemandQueue[83].coverArt="";
+						onDemandQueue[83].title="";
+						onDemandQueue[83].artist="";
+						onDemandQueue[83].album="";
+						onDemandQueue[83].video=false;
+						onDemandQueue[83].modal=false;
+					
+
+						onDemandQueue[84]=new Object();
+						onDemandQueue[84].fileId=93530;
+						// onDemandQueue[84].fileName="She Talks To Angels.m4a";
+						onDemandQueue[84].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"She Talks To Angels.m4a";
+						onDemandQueue[84].fileDsp="She Talks To Angels";
+						onDemandQueue[84].duration="331.180";
+						onDemandQueue[84].coverArt="";
+						onDemandQueue[84].title="";
+						onDemandQueue[84].artist="";
+						onDemandQueue[84].album="";
+						onDemandQueue[84].video=false;
+						onDemandQueue[84].modal=false;
+					
+
+						onDemandQueue[85]=new Object();
+						onDemandQueue[85].fileId=93531;
+						// onDemandQueue[85].fileName="Hard To Handle.m4a";
+						onDemandQueue[85].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Hard To Handle.m4a";
+						onDemandQueue[85].fileDsp="Hard To Handle";
+						onDemandQueue[85].duration="190.890";
+						onDemandQueue[85].coverArt="";
+						onDemandQueue[85].title="";
+						onDemandQueue[85].artist="";
+						onDemandQueue[85].album="";
+						onDemandQueue[85].video=false;
+						onDemandQueue[85].modal=false;
+					
+
+						onDemandQueue[86]=new Object();
+						onDemandQueue[86].fileId=93532;
+						// onDemandQueue[86].fileName="Metallica.m4a";
+						onDemandQueue[86].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Metallica.m4a";
+						onDemandQueue[86].fileDsp="Metallica";
+						onDemandQueue[86].duration="273.040";
+						onDemandQueue[86].coverArt="";
+						onDemandQueue[86].title="";
+						onDemandQueue[86].artist="";
+						onDemandQueue[86].album="";
+						onDemandQueue[86].video=false;
+						onDemandQueue[86].modal=false;
+					
+
+						onDemandQueue[87]=new Object();
+						onDemandQueue[87].fileId=93533;
+						// onDemandQueue[87].fileName="Heaven.m4a";
+						onDemandQueue[87].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Heaven.m4a";
+						onDemandQueue[87].fileDsp="Heaven";
+						onDemandQueue[87].duration="259.530";
+						onDemandQueue[87].coverArt="";
+						onDemandQueue[87].title="";
+						onDemandQueue[87].artist="";
+						onDemandQueue[87].album="";
+						onDemandQueue[87].video=false;
+						onDemandQueue[87].modal=false;
+					
+
+						onDemandQueue[88]=new Object();
+						onDemandQueue[88].fileId=93534;
+						// onDemandQueue[88].fileName="Follow Me.m4a";
+						onDemandQueue[88].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Follow Me.m4a";
+						onDemandQueue[88].fileDsp="Follow Me";
+						onDemandQueue[88].duration="215.130";
+						onDemandQueue[88].coverArt="";
+						onDemandQueue[88].title="";
+						onDemandQueue[88].artist="";
+						onDemandQueue[88].album="";
+						onDemandQueue[88].video=false;
+						onDemandQueue[88].modal=false;
+					
+
+						onDemandQueue[89]=new Object();
+						onDemandQueue[89].fileId=93535;
+						// onDemandQueue[89].fileName="It-s Only Rock -N- Roll - Rolling Stones.m4a";
+						onDemandQueue[89].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"It-s Only Rock -N- Roll - Rolling Stones.m4a";
+						onDemandQueue[89].fileDsp="It-s Only Rock -N- Roll - Rolling Stones";
+						onDemandQueue[89].duration="252.190";
+						onDemandQueue[89].coverArt="";
+						onDemandQueue[89].title="";
+						onDemandQueue[89].artist="";
+						onDemandQueue[89].album="";
+						onDemandQueue[89].video=false;
+						onDemandQueue[89].modal=false;
+					
+
+						onDemandQueue[90]=new Object();
+						onDemandQueue[90].fileId=93536;
+						// onDemandQueue[90].fileName="Emotional Rescue - Rolling Stones.m4a";
+						onDemandQueue[90].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Emotional Rescue - Rolling Stones.m4a";
+						onDemandQueue[90].fileDsp="Emotional Rescue - Rolling Stones";
+						onDemandQueue[90].duration="224.140";
+						onDemandQueue[90].coverArt="";
+						onDemandQueue[90].title="";
+						onDemandQueue[90].artist="";
+						onDemandQueue[90].album="";
+						onDemandQueue[90].video=false;
+						onDemandQueue[90].modal=false;
+					
+
+						onDemandQueue[91]=new Object();
+						onDemandQueue[91].fileId=93538;
+						// onDemandQueue[91].fileName="HARDER TO BREATHE.m4a";
+						onDemandQueue[91].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"HARDER TO BREATHE.m4a";
+						onDemandQueue[91].fileDsp="HARDER TO BREATHE";
+						onDemandQueue[91].duration="173.750";
+						onDemandQueue[91].coverArt="";
+						onDemandQueue[91].title="";
+						onDemandQueue[91].artist="";
+						onDemandQueue[91].album="";
+						onDemandQueue[91].video=false;
+						onDemandQueue[91].modal=false;
+					
+
+						onDemandQueue[92]=new Object();
+						onDemandQueue[92].fileId=93543;
+						// onDemandQueue[92].fileName="Gimme Shelter - Rolling Stones.m4a";
+						onDemandQueue[92].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Gimme Shelter - Rolling Stones.m4a";
+						onDemandQueue[92].fileDsp="Gimme Shelter - Rolling Stones";
+						onDemandQueue[92].duration="274.940";
+						onDemandQueue[92].coverArt="";
+						onDemandQueue[92].title="";
+						onDemandQueue[92].artist="";
+						onDemandQueue[92].album="";
+						onDemandQueue[92].video=false;
+						onDemandQueue[92].modal=false;
+					
+
+						onDemandQueue[93]=new Object();
+						onDemandQueue[93].fileId=93075;
+						// onDemandQueue[93].fileName="Solitary Man - Ravenz.m4a";
+						onDemandQueue[93].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Solitary Man - Ravenz.m4a";
+						onDemandQueue[93].fileDsp="Solitary Man - Ravenz";
+						onDemandQueue[93].duration="156.990";
+						onDemandQueue[93].coverArt="";
+						onDemandQueue[93].title="";
+						onDemandQueue[93].artist="";
+						onDemandQueue[93].album="";
+						onDemandQueue[93].video=false;
+						onDemandQueue[93].modal=false;
+					
+
+						onDemandQueue[94]=new Object();
+						onDemandQueue[94].fileId=94891;
+						// onDemandQueue[94].fileName="PRETTY GOOD SHAPE - BEBO WHITEHEAD.m4a";
+						onDemandQueue[94].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"PRETTY GOOD SHAPE - BEBO WHITEHEAD.m4a";
+						onDemandQueue[94].fileDsp="PRETTY GOOD SHAPE - BEBO WHITEHEAD";
+						onDemandQueue[94].duration="194.050";
+						onDemandQueue[94].coverArt="";
+						onDemandQueue[94].title="";
+						onDemandQueue[94].artist="";
+						onDemandQueue[94].album="";
+						onDemandQueue[94].video=false;
+						onDemandQueue[94].modal=false;
+					
+
+						onDemandQueue[95]=new Object();
+						onDemandQueue[95].fileId=93545;
+						// onDemandQueue[95].fileName="Share the Land - Guess Who.m4a";
+						onDemandQueue[95].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Share the Land - Guess Who.m4a";
+						onDemandQueue[95].fileDsp="Share the Land - Guess Who";
+						onDemandQueue[95].duration="235.240";
+						onDemandQueue[95].coverArt="";
+						onDemandQueue[95].title="";
+						onDemandQueue[95].artist="";
+						onDemandQueue[95].album="";
+						onDemandQueue[95].video=false;
+						onDemandQueue[95].modal=false;
+					
+
+						onDemandQueue[96]=new Object();
+						onDemandQueue[96].fileId=93547;
+						// onDemandQueue[96].fileName="Under My Thumb - Rolling Stones.m4a";
+						onDemandQueue[96].fileName=streamRoot+"/"+stationCallSign+"/ondemand/"+"Under My Thumb - Rolling Stones.m4a";
+						onDemandQueue[96].fileDsp="Under My Thumb - Rolling Stones";
+						onDemandQueue[96].duration="224.370";
+						onDemandQueue[96].coverArt="";
+						onDemandQueue[96].title="";
+						onDemandQueue[96].artist="";
+						onDemandQueue[96].album="";
+						onDemandQueue[96].video=false;
+						onDemandQueue[96].modal=false;
+					
+					
+					var d = new Date();
+					var localServerTSoffset = d.getTime()+d.getTimezoneOffset()*60000 - Date.parse("02 May 2017 02:37:44");
+				
+
+				
+					var nielsenEnabled = true;
+				
+
+			var enableStream = true;
+
+			
+			
+				var streamSrcDB = 'http://ice2.securenetsystems.net/BIGBARN?type=.flv';
+				var streamSrcFlv = 'http://ice2.securenetsystems.net/BIGBARN?type=.flv';
+			
+			
+			var streamSrcPlay=streamSrcDB.replace("?type=.flv","")+'?playSessionID=C633ACF8-CBEC-F63C-F300F9F3E05796D0';
+			var streamSrcAac = streamSrcDB+(streamSrcDB.indexOf("?")==-1?"?":"&")+"playSessionID=C633ACF8-CBEC-F63C-F300F9F3E05796D0";		//streamSrcDB.replace("?type=.flv","");
+			var streamSrcMp3 = streamSrcDB.replace("type=.flv","type=.mp3");
+			var bDRC=false;
+			var ne_enable=false;
+			var ne_enable_time=15;
+			
+		</script>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE, NO-STORE, must-revalidate, max-age=0" />
+		<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+		<META HTTP-EQUIV="EXPIRES" CONTENT="0" />
+		<meta name="distribution" content="Global" />
+		<meta property="og:title" content="BIGBARN" />
+		<meta property="og:description" content="Listen to our station on your computer or mobile device!" />
+		<meta property="og:image" content="http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/logo.png" />
+		<link REL="SHORTCUT ICON" HREF="images/ssiicon.ico">
+
+		<title>Big Barn Radio - Where The Big Dogs Are</title>
+
+		<link rel="stylesheet" href="css/style.css?v=1" type="text/css" />
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/style_stdres.css" type="text/css" />
+		<![endif]-->
+		<!--[if (!IE)|(gte IE 9)]> -->
+			<link rel="stylesheet" href="css/style_hires.css" type="text/css" />
+		<!-- <![endif]-->
+
+		<style>
+			.bodyDiv {
+				background:url(http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/bg.png) no-repeat top left #1B1B1B;
+				top:50%;
+				left:50%;
+				height:630px;
+				
+					width:940px;
+					margin:-315px 0 0 -470px;
+				
+				position:absolute;
+				display:none;
+			}
+			div {
+				color: #C8D6FB;
+			}
+			a:link, a:visited, a:hover, a:active, .menuHeader, .player-apps-title, #transport-counter, #transport-volume-label {
+				color: #4F7FF7;
+			}
+		</style>
+
+		
+		
+	
+	<script type="text/javascript" src="scripts/prebid.js?v=20_1" async></script> 
+	<script type="text/javascript">
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		var preBidCounter = 0; 
+		var waterfallCounter = 0;
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+		/* JUST FOR DIAGNOSTICS - DELETE IN PRODUCTION CODE */
+	</script>
+	
+	<!--script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.json-2.2.min.js"></script>
+	<script type="text/javascript" src="scripts/ifvisible.min.js"></script>
+	
+	<script src="../cirruscore/cirruscore_v1.js"></script>
+	
+	<script type="text/javascript" src="scripts/ad.js"></script>
+	
+
+	
+	
+		<script type="text/javascript" src="scripts/jquery.qrcode.min.js"></script>
+	
+			<script type="text/javascript" src="scripts/v5.min.js?cb=20170501223744"></script>
+		
+		
+
+	</head>
+
+	<body>
+	
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-96325025-1', 'auto'); 
+		  ga('send', 'pageview');
+		  if(playerAdvertisingMode === 'ADN'){
+			  ga('send', 'event', 'Player Event', 'Player Launch', '00000010', 1);
+		  }
+		  if(launchFrom.length > 0){
+			  ga('send', 'event', 'Player Event', 'Player Launch', 'Launch From ' + launchFrom, 1);
+		  }
+		</script>
+		
+
+		
+		<script type="text/javascript">
+		_atrk_opts = { atrk_acct:"U4nwg1awAe00qR", domain:"securenetsystems.net",dynamic: true};
+		(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+		</script>
+		<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=U4nwg1awAe00qR" style="display:none" height="1" width="1" alt="" /></noscript>
+		
+
+		
+			<div id="bodyDiv" class="bodyDiv">
+
+				<div id="ajax-loader" class="ajax-loader-container ajax-loader"></div>
+				<img id="stationLogo" src="http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/logo.png" /> 
+<div id="top-menu-wrapper" class="top-menu-wrapper dH tS">
+	
+		
+		<div class="top-menu-button-wrapper" onClick="openURL('https://www.facebook.com/ClayCoCruisers?fref=ts');">
+			<div class="top-menu-button-bg" style="background:url(http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/top-menu/C%20C%20CRUISERS%20114%20x%2084%20button%2Ejpg) no-repeat top center;">
+				<div class="top-menu-button dT top-menu-button-border">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="top-menu-button-wrapper" onClick="openURL('https://www.facebook.com/pages/ClayCoNews-Buy-Sell-Trade-or-Give-It-Away/182196891852443?fref=ts');">
+			<div class="top-menu-button-bg" style="background:url(http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/top-menu/BUY%20SALE%20114%20x%2084%20button%2Ejpg) no-repeat top center;">
+				<div class="top-menu-button dT top-menu-button-border">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="top-menu-button-wrapper" onClick="openURL('http://fursfoundation.org/');">
+			<div class="top-menu-button-bg" style="background:url(http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/top-menu/FURS114%20x%2084%20button%2Ejpg) no-repeat top center;">
+				<div class="top-menu-button dT top-menu-button-border">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="top-menu-button-wrapper" onClick="openURL('https://www.facebook.com/bigbarnradio');">
+			<div class="top-menu-button-bg" style="background:url(http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/top-menu/BIGBARN%20FB%20114%20x%2084%20button%202%2Ejpg) no-repeat top center;">
+				<div class="top-menu-button dT top-menu-button-border">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#C8D6FB;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		
+		<div class="top-menu-button-wrapper" onClick="openURL('https://www.facebook.com/groups/barnhedz/');">
+			<div class="top-menu-button-bg" style="background:url(http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/top-menu/Barn114%20x%2084%20button%2Ejpg) no-repeat top center;">
+				<div class="top-menu-button dT top-menu-button-border">
+					<div class="top-menu-button-c1">
+						<div class="top-menu-button-c2 top-menu-text" style="color:#000000;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+
+
+<div id="menu" class="menu">
+	
+	<div class="menu-close" title="Close menu" onClick="dspMenu();"></div>
+	
+
+	<div class="menu-row">
+		
+			<div class="fL menuIcons">
+				<div class="menuText menuHeader f15em">Station info</div>
+				<img src="images/homepage.png" width="60" title="Our website" onClick="startApp('home');" /> <img src="images/contact.png" width="60" title="Contact information" onClick="startApp('contact');" /> <img src="images/facebook.png" width="60" title="Facebook feed" onClick="startApp('facebook');" /> <img src="images/twitter.png" width="60" title="Read our twitter feed" onClick="startApp('twitter');" /> <img src="images/youtube.png" width="60" title="Our YouTube channel" onClick="startApp('youtube');" />
+
+			</div>
+		
+			<div class="fL menuIcons" style="padding-right:0px;">
+				<div class="menuText menuHeader f15em">Streams</div>
+				<img src="images/media-send-to-mobile.png" width="60" title="Send player to mobile phone" onClick="startApp('send-to-mobile');" /> <img src="images/playlist.png" width="60" title="Recently played" onClick="startApp('playlist');" /> <img src="images/on-demand.png" width="60" title="Podcasts" onClick="startApp('on-demand');" /> <img src="images/ustream.png" width="60" title="Ustream" onClick="startApp('ustream');" /> 
+			</div>
+		
+
+	</div>
+	<div class="menu-apps-row dT">
+		<div class="top-menu-button-c1">
+			<div class="top-menu-button-c2">
+				
+					<div class="fL menu-apps mr20">
+						<div class="menuText menuHeader f15em">Player apps</div>
+						<img src="images/news.png" width="60" title="News" onClick="startApp('news');" /> <img src="images/stocks.png" width="60" title="Finance" onClick="startApp('stocks');" /> <img src="images/sports.png" width="60" title="Sports" onClick="startApp('sports');" /> <img src="images/entertainment.png" width="60" title="Entertainment" onClick="startApp('entertainment');" /> <img src="images/weather.png" width="60" title="Weather" onClick="startApp('weather');" /> <img src="images/traffic.png" width="60" title="Traffic map" onClick="startApp('traffic');" /> <img src="images/flight.png" width="60" title="Flight tracker" onClick="startApp('flight');" /> <img src="images/chat.png" width="60" title="Chat with other listeners" onClick="startApp('chat');" /> <img src="images/help.png" width="60" title="Problems streaming? Click here for common answers." onClick="startApp('help');" />
+					</div>
+				
+					<div class="fL menuIcons" style="padding-right:0px;">
+						<div class="menuText menuHeader f15em">Share</div>
+						<!-- AddThis Button BEGIN -->
+						<div class="shareThis addthis_toolbox addthis_default_style addthis_32x32_style">
+						<a class="addthis_button_preferred_1"></a>
+						<a class="addthis_button_preferred_2"></a>
+						<a class="addthis_button_preferred_3"></a>
+						<a class="addthis_button_preferred_4"></a>
+						<a class="addthis_button_compact"></a>
+						<a class="addthis_counter addthis_bubble_style"></a>
+						</div>
+						<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-502552987eaa3f3d"></script>
+						<!-- AddThis Button END -->
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+				
+
+				
+				<div id="updateBrowser">
+					<p>Your browser is out of date. Please upgrade your browser to proceed to the live stream.</p>
+					<p>This player utilizes features that are unavailable in your version of browser. Don't worry - there is an easy solution. Simply upgrade your browser to the latest version and then return to this player to proceed to the live stream. You'll be enjoying your favorite station before you know it!</p>
+				</div>
+				
+
+				
+				
+
+	
+
+		
+		<div id="player-apps-flashRequired" class="player-apps-preroll dH">
+			<div>
+				<div class="player-apps-content papbct dT">
+					<div class="top-menu-button-c1">
+						<p>Adobe Flash Required</p>
+						<br>
+						<p>Adobe Flash is required to listen to this station, but you don't appear to have it installed.</p>
+						<br>
+						<p><a href="https://get.adobe.com/flashplayer/">Click here to install Adobe Flash</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		
+		
+			<div id="player-apps-player-check-ab" class="player-apps-preroll dH">
+				<div>
+					<div class="player-apps-content papbct dT">
+						<div class="top-menu-button-c1">
+							
+							
+							
+
+							<div id="adblockWrapper"></div>
+							<script>
+								function getQueryVariable(variable){
+							       var query = window.location.search.substring(1);
+							       var vars = query.split("&");
+							       for (var i=0;i<vars.length;i++) {
+							               var pair = vars[i].split("=");
+							               if(pair[0] == variable){return pair[1];}
+							       }
+							       return(false);
+								}
+
+								function aBYlkELBd3uu4C0RgaH2czn8TBHHXpOI5nzVoynkl3NQhyVPnBtG6psFJ0rgwEHHeNBUek2bHijUxgJkezJQglYZqp21GtccqxeKEq5aip4AuSQM9U1Biinov0odMpkEhZXVXBw4UM12goATOxUnSYapEe0GZLQ2n1J00FVJWZJ51r0FCkaUL(){
+									if(window.iExist === undefined){
+										console.log("ad blocker detected");
+										ga('send', 'event', 'Player Event', 'Ad Blocker', 'Ad Blocker Detected', 1);
+
+										adBlockerPresent = true;
+										$("#adblockWrapper").html("<a href=\"abp:subscribe?location=http://streamdb5web.securenetsystems.net/v5/adBlockWhitelist.cfm\"><img id=\"blockImage\" src=\"images/blockdetected.png\" width=\"750\" height=\"92\"></a>");
+										var retryVar = getQueryVariable("retry");
+										if(!retryVar){
+											setTimeout(function(){
+												window.location.replace("http://streamdb5web.securenetsystems.net/v5/index.cfm?stationCallSign=BIGBARN&retry=true");
+											}, 5000);
+										}else{
+											$("#blockImage").attr("src", "images/blockgivenup.png");
+										}
+									}else{
+										adBlockerPresent = false;
+										console.log("ad blocker NOT detected");
+										$("#adblockWrapper").hide();
+									}
+								}
+
+								if(playerAdvertisingMode=="ADN" || playerAdvertisingMode=="SEQ"){
+									setTimeout(function(){
+										aBYlkELBd3uu4C0RgaH2czn8TBHHXpOI5nzVoynkl3NQhyVPnBtG6psFJ0rgwEHHeNBUek2bHijUxgJkezJQglYZqp21GtccqxeKEq5aip4AuSQM9U1Biinov0odMpkEhZXVXBw4UM12goATOxUnSYapEe0GZLQ2n1J00FVJWZJ51r0FCkaUL();
+									}, 500);
+								}	
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		
+	
+
+	
+	<div id="player-apps" class="player-apps">
+
+		
+		<div id="player-apps-close-button" class="player-apps-close-button player-apps-close-button-app" title="Close player app" onClick="closeApp();"></div>
+		
+
+		
+		
+			<div id="player-apps-home" class="dH">
+				<div>
+					<img src="images/homepage.png" width="40" height="40" />
+					<div class="player-apps-title"></div>
+					<div class="player-apps-content">
+						<p style="text-align: center;"><span style="font-size: x-large;"><span style="color: #ff0000;"><strong><span style="font-family: 'times new roman', times;">Jersey Bull the&nbsp;&quot;MadTrucker&quot;&nbsp;plays&nbsp;the best MIX!</span></strong></span></span></p>
+
+<p><img alt="" src="http://cdnrf.securenetsystems.net/file_radio/stations_large/BIGBARN/v5/content/images/Ron%20Jersey%20Bull%20sparkle%20cut.png" style="width: 190px; height: 165px; float: right;" /></p>
+
+<p style="text-align: left;">&nbsp;</p>
+
+<p style="text-align: left;"><span style="font-size: small;"><strong>Advertising</strong><br />
+<a href="mailto:sales@clayconews.com" style="text-align: center; background-color: #f7f7f7;"><span style="color: #0000ff;">sales@clayconews.com</span></a></span></p>
+
+<p style="text-align: left;"><span style="font-size: small;"><strong>Submit a song (mp3)</strong><br />
+<a href="mailto:jerseybull@bigbarn.us" style="text-align: center; background-color: #f7f7f7;"><span style="color: #0000ff;">jerseybull@bigbarn.us</span></a></span></p>
+
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-contact" class="dH">
+				<div>
+					<img src="images/contact.png" width="40" height="40" />
+					<div class="player-apps-title">Contact</div>
+					<div class="player-apps-content">
+						<div id="player-apps-contact-icons">
+							<div class="player-apps-contact-phone">1-606-658-6187</div> <div class="player-apps-contact-web" onClick="openURL('http://bigbarn.us/');">http://bigbarn.us/</div> <div class="player-apps-contact-email" onClick="dspContactForm(true);">Click here to send us a message</div> <div class="player-apps-contact-address" onClick="openURL('https://maps.google.com/maps?q=Manchester%2C%20Kentucky%2040962');">Manchester, Kentucky 40962</div>
+						</div>
+						<div id="player-apps-contact-form">
+							<input type="text" id="contactFormName" value="Your name" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your name',2);" onBlur="fieldDesc(this,'out','Your name',2);">
+							<br /><br />
+							<input type="text" id="contactFormEmail" value="Your email address" size="40" maxlength="64" onClick="fieldDesc(this,'in','Your email address',10);" onBlur="fieldDesc(this,'out','Your email address',10);">
+							<br /><br />
+							<textarea id="contactFormMessage" onClick="fieldDesc(this,'in','Your message',5);" onBlur="fieldDesc(this,'out','Your message',5);">Your message</textarea>
+							<br /><br />
+							<div class="player-apps-contact-back fL" onClick="dspContactForm(false);"></div>
+							<div class="fL"><input type="button" value="Send message" onClick="contactForm();"></div>
+							<div id="contactFormErr" class="fL ml10 red formErrMsg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-facebook" class="dH">
+				<div>
+					<img src="images/facebook.png" width="40" height="40" />
+					<div class="player-apps-title">Facebook</div>
+					<div class="player-apps-content" id="player-apps-content-facebook">
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-twitter" class="dH">
+				<div>
+					<img src="images/twitter.png" width="40" height="40" />
+					<div class="player-apps-title">Twitter feed</div>
+					<div class="player-apps-content" id="player-apps-content-twitter">
+						<a class="twitter-timeline" width="520" height="250" href="https://twitter.com/twitterapi" data-widget-id="365511658203910144" data-screen-name="BIGBARNRADIO" data-theme="dark"></a>
+						<script>
+							!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+								if(!d.getElementById(id)){
+									js=d.createElement(s);
+									js.id=id;
+									js.src="//platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js,fjs);
+								}
+							}
+							(document,"script","twitter-wjs");
+						</script>						
+					</div>			
+				</div>
+			</div>
+		
+			<div id="player-apps-youtube" class="dH">
+				<div>
+					<img src="images/youtube.png" width="40" height="40" />
+					<div class="player-apps-title">YouTube</div>
+					<script type="text/javascript" src="scripts/youtube.js"></script>
+					<div class="player-apps-content" id="player-apps-content-youtube">
+						<link rel="stylesheet" href="css/youtube.css" type="text/css" />
+						<div id="youtubevideos">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-on-demand" class="dH">
+				<div>
+					<img src="images/on-demand.png" width="40" height="40" />
+					<div class="player-apps-title">Podcasts</div>
+					<div id="on-demand-list" class="player-apps-content">
+						<p>Click on any file to start listening</p>
+						
+						
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-0" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(0,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Its All Going to Pot - Willie Nelson - Merle Haggard
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:56
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-1" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(1,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Long Way Down - Jess Klein
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:25
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-2" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(2,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Taillights And Dust - Lance Stinson
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:07
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-3" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(3,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Brighter-Days-Beat---Produced-by-Chris-Prythm
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:02
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-4" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(4,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Country-Queen - Kendal-Conrad
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:01
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-5" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(5,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															No Butter For My Grits - Big Bill Morganfield
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:06:34
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-6" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(6,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Good One Comin On - Blackberry Smoke
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:40
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-7" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(7,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															To Love Somebody - Bee Gees
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:02
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-8" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(8,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Hit The Road Jack - Sheila Raye Charles
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:16
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-9" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(9,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Somethin- Somethin- The Springs 
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:38
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-10" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(10,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Crank It Up - The Springs
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:08
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-11" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(11,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Somethin Bout A Woman, Somethi - The Springs
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:50
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-12" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(12,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															18 WHEELER - BEBO WHITEHEAD
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:34
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-13" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(13,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															RUNNIN DOWN A DREAM - Tom Petty
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:52
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-14" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(14,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Have You Seen Your Mother, Baby, Standing in the Shadow - Rollin
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:38
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-15" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(15,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Dont Stop - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:00
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-16" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(16,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															LONG COOL WOMAN - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:49
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-17" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(17,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															JOLENE - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:42
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-18" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(18,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															I Won-t Back Down - Tom Petty
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:58
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-19" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(19,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Miss Liberty - Lonnie Bennett Jr
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:22
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-20" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(20,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															WE CAN WORK IT OUT - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:12
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-21" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(21,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															I Need My Baby Back - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:25
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-22" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(22,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															GET TOGETHER - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:39
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-23" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(23,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Undun - Guess Who
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:27
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-24" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(24,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Heart Full of Soul - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:30
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-25" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(25,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Mother-s Little Helper - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:50
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-26" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(26,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Lost At Sea - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:07
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-27" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(27,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Free Falling - Tom Petty
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:16
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-28" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(28,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Start Me Up - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:35
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-29" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(29,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Oh Baby - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:10
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-30" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(30,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															The Sound Of A Woman Saying Goodbye - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:55
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-31" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(31,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Paradise City - Guns - Roses
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:06:46
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-32" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(32,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															How Many Coal Trains - Rick Arnold
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:38
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-33" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(33,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															A Girl I Knew - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:46
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-34" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(34,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															TIME FOR LETTING GO - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:53
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-35" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(35,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															No Time - Guess Who
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:39
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-36" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(36,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Sympathy for the Devil - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:06:20
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-37" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(37,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Brown Sugar - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:51
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-38" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(38,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															THERES A PLACE - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:01:54
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-39" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(39,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Fool to Cry - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:09
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-40" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(40,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Check Out Girl - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:59
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-41" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(41,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Put Your Lights On - Santana
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:45
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-42" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(42,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															I Think of You - BEBO WHITEHEAD
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:39
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-43" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(43,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Little Rain - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:43
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-44" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(44,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															The Other Side Of Love - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:49
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-45" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(45,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															If I Needed Someone - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:37
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-46" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(46,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															I KNOW A LITTLE - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:37
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-47" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(47,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															American Woman - Guess Who
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:05:07
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-48" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(48,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Nashville Can Wait - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:48
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-49" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(49,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Wild Horses - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:05:47
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-50" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(50,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Behind Blue Eyes - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:51
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-51" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(51,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															All I Want - Sam Roark-Joe Sun
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:00
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-52" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(52,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															GIRL FROM THE CANYON - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:26
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-53" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(53,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															(I Can-t Get No) Satisfaction - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:46
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-54" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(54,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															JUST FOR THE RECORD - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:47
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-55" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(55,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															She-s a Rainbow - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:15
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-56" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(56,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															If Heaven-s Got A Backdoor - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:51
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-57" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(57,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															IF LOOKS COULD KILL - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:17
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-58" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(58,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															THATS JUST THE WAY IT IS - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:19
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-59" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(59,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Paint It, Black - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:48
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-60" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(60,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Clank Clank - Sam Roark
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:18
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-61" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(61,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															MUD ON MY FEET - Rick Arnold
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:25
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-62" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(62,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Baby Blue - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:40
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-63" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(63,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Dont Talk To Strangers - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:00
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-64" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(64,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Anybody Seen My Baby - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:09
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-65" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(65,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Five OClock World - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:38
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-66" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(66,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															My Back Pages - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:59
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-67" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(67,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Angie - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:34
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-68" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(68,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Love is a long Road - Tom Petty
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:07
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-69" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(69,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Yesterday - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:00
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-70" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(70,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															How You Remind Me
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:48
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-71" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(71,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Unwell
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:50
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-72" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(72,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Black Dog
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:57
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-73" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(73,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															NOW THAT WERE ALONE - Randy Hayes
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:04
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-74" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(74,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															These Eyes - Guess Who
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:47
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-75" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(75,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Mixed Emotions - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:03
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-76" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(76,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Knockin On Heavens Door - Guns - Roses
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:05:38
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-77" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(77,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															THE APARTMENT SONG
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:32
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-78" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(78,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Pour Some Sugar On Me
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:27
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-79" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(79,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Love Bites
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:05:44
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-80" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(80,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Rock Of Ages
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:10
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-81" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(81,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															FEEL A WHOLE LOT BETTER
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:49
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-82" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(82,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Smooth
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:58
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-83" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(83,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Metallica
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:05:33
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-84" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(84,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															She Talks To Angels
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:05:31
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-85" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(85,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Hard To Handle
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:10
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-86" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(86,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Metallica
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:33
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-87" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(87,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Heaven
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:19
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-88" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(88,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Follow Me
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:35
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-89" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(89,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															It-s Only Rock -N- Roll - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:12
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-90" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(90,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Emotional Rescue - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:44
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-91" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(91,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															HARDER TO BREATHE
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:53
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-92" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(92,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Gimme Shelter - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:04:34
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-93" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(93,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Solitary Man - Ravenz
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:02:36
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-94" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(94,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															PRETTY GOOD SHAPE - BEBO WHITEHEAD
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:14
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-95" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(95,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Share the Land - Guess Who
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:55
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+								<div class="on-demand-row">
+									
+									<div id="on-demand-on-air-96" class="on-demand-state fL"></div>
+									<div class="on-demand-media-details dT fL cP" onClick="loadMedia(96,true);">
+										<div class="top-menu-button-c1">
+											<div class="top-menu-button-c2">
+												<div class="menuHeader oE">
+													
+														<p class="fL mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															Under My Thumb - Rolling Stones
+														</p>
+														<p class="fR mr20" style="margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px">
+															00:03:44
+														</p>
+													<div style="clear:both">	
+													
+													
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br style="clear:both"/>
+								</div>
+							
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-help" class="dH">
+				<div>
+					<img src="images/help.png" width="40" height="40" />
+					<div class="player-apps-title">Help</div>
+					<div class="player-apps-content">
+						<p><b>If you accessed the player from a desktop computer (PC or Mac)</b></p>
+						<ul>
+							<li>For the best experience, we recommend upgrading to the latest version of your Internet browser</li>
+							<li>If the stream is not audible, or doesn't start, please verify that you have the latest version of Adobe Flash plug-in installed.</li>
+							<li>The player is known to work on Windows, Mac OS and Linux, using Chrome, Firefox, Safari or Internet Explorer</li>
+						</ul>
+						<br />
+						<p><b>If you accessed the player from a mobile device</b></p>
+						<ul>
+							<li>If this station has a mobile app, we recommend installing and using it for the best experience</li>
+							<li>Since Adobe Flash is not supported on most mobile devices, you may not be able to listen to the audio stream; however, you can use most of the interactive features of the player</li>
+						</ul>
+						<br />
+						<p><b>Privacy Policy</b></p>
+						<p>
+							We may allow third-party companies to serve ads and/or collect certain anonymous information when you visit this website. These companies may use non-personally identifiable information (e.g., click stream information, browser type, time and date, subject of advertisements clicked or scrolled over) during your visits to this and other websites in order to provide advertisements about goods and services likely to be of greater interest to you. These companies typically use a cookie or third party web beacon to collect this information. To learn more about this behavioral advertising practice or to opt-out of this type of advertising, you can visit <a href="http://networkadvertising.org/choices" target="_blank">http://networkadvertising.org/choices</a>.
+							<br><br>
+							Our properties may feature Nielsen proprietary measurement software, which will allow you to contribute to market research, such as Nielsen Audio. To learn more about the information that Nielsen software may collect and your choices with regard to it, please see the Nielsen Digital Measurement Privacy Policy at <a href="http://www.nielsen.com/digitalprivacy" target="_blank">http://www.nielsen.com/digitalprivacy</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-news" class="dH">
+				<div>
+					<img src="images/news.png" width="40" height="40" />
+					<div class="player-apps-title">News</div>
+					<div id="player-apps-content-news" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-stocks" class="dH">
+				<div>
+					<img src="images/stocks.png" width="40" height="40" />
+					<div class="player-apps-title">Stocks</div>
+					<div class="player-apps-content">
+						<div id="player-apps-content-stocks" class="fL"></div>
+						<div class="fL">
+							
+							<iframe name="wsjIndexWidget" id="wsjIndexWidget" src="http://online.wsj.com/marketsdata/widgets/mdcwidget_default_wide.html?title=Markets from WSJ.com&symbols=NCM,SPX,DJI,HKS,STOXX50&hl1=true&hl2=false&hl3=false&qsb=true&style=blue" width="175px" height="250px" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+						</div>
+					</div>				
+				</div>
+			</div>
+		
+			<div id="player-apps-sports" class="dH">
+				<div>
+					<img src="images/sports.png" width="40" height="40" />
+					<div class="player-apps-title">Sports</div>
+					<div id="player-apps-content-sports" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-entertainment" class="dH">
+				<div>
+					<img src="images/entertainment.png" width="40" height="40" />
+					<div class="player-apps-title">Entertainment</div>
+					<div id="player-apps-content-entertainment" class="player-apps-content"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-weather" class="dH">
+				<div>
+					<img src="images/weather.png" width="40" height="40" />
+					<div class="player-apps-title">Weather</div>
+					<div class="player-apps-content" style="background-color:#C8D6FB">
+						<iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="https://forecast.io/embed/#lat=36.8463&lon=-76.0979&name=Virginia Beach,%20Virginia"></iframe>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-traffic" class="dH">
+				<div>
+					<img src="images/traffic.png" width="40" height="40" />
+					<div class="player-apps-title">Traffic map</div>
+					<div class="player-apps-content" id="player-apps-content-traffic"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-flight" class="dH">
+				<div>
+					<img src="images/flight.png" width="40" height="40" />
+					<div class="player-apps-title">Flight tracker</div>
+					<div class="player-apps-content">
+						<iframe src="http://www.flightstats.com/go/FlightStatus/getFlightStatusWidget.do?guid=34b64945a69b9cac:-3d959db5:13912449d99:-6659" frameborder="0" scrolling="no" width="280" height="240"></iframe>					
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-ustream" class="dH">
+				<div>
+					<div id="player-apps-content-ustream"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-chat" class="dH">
+				<div>
+					<img src="images/chat.png" width="40" height="40" />
+					<div class="player-apps-title">Chat with other listeners</div>
+					<div id="player-apps-chat-wrapper">Loading chat, please wait....</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-playlist" class="dH">
+				<div>
+					<img src="images/media-playlist.png" width="40" height="40" />
+					<div class="player-apps-title">Recently played</div>
+					<div>
+						<iframe id="player-apps-frame-playlist" class="player-apps-frame" frameborder="no" scrolling="no" src="sd/index.cfm?stationCallSign=BIGBARN" allowtransparency="true"></iframe>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-media-buy-song" class="dH">
+				<div>
+					<img src="images/media-buy-song.png" width="40" height="40" />
+					<div class="player-apps-title">Buy media</div>
+					<div class="player-apps-content">
+						<p>You can buy & download this track & more from either Apple iTunes or Amazon.com mp3 store. Simply click the icon for the store you wish to access.</p>
+						<div id="mediaBuyTitle" class="menuHeader"></div>
+						<div id="mediaBuyArtist"></div>
+						<div id="mediaBuyAlbum"></div>
+						<br />
+						<div class="fL cP mr20" onClick="goToMediaStore('iTunes');"><img src="images/media-buy-song-itunes.png" width="75" height="75" title="Click here to buy from Apple iTunes" /></div>
+						<div class="fL cP" onClick="goToMediaStore('amazon');"><img src="images/media-buy-song-amazon.png" width="75" height="75" title="Click here to buy from Amazon.com" /></div>
+						<form id="mediaBuyForm" action="https://radio.securenetsystems.net/get_tune_buy_link.cfm" method="post" style="margin:0px;" target="_blank">
+							<input type="hidden" name="stationCallSign" value="BIGBARN">
+							<input type="hidden" name="title" id="mFtitle" value="">
+							<input type="hidden" name="artist" id="mFartist" value="">
+							<input type="hidden" name="album" id="mFalbum" value="">
+						</form>				
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-lyrics" class="dH">
+				<div>
+					<img src="images/media-lyrics.png" width="40" height="40" />
+					<div class="player-apps-title">Song lyrics</div>
+					<div class="player-apps-content" id="player-apps-content-lyrics"></div>
+				</div>
+			</div>
+		
+			<div id="player-apps-send-to-mobile" class="dH">
+				<div>
+					<img src="images/media-send-to-mobile.png" width="40" height="40" />
+					<div class="player-apps-title">Send to mobile</div>
+					<div class="player-apps-content">
+						<br /><br />
+						<div class="playerAppSendToMobileQR-wrapper fL mr20">
+							<div id="playerAppSendToMobileQR"></div>
+						</div>
+						<div>
+							<div class="f15em">Scan the QR code to send the player to your compatible mobile device.</div>
+							<div><br />If your mobile device doesn't have a QR scanning app, download a free one from your device's app store.</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-timeout" class="dH">
+				<div>
+					<img src="images/on-air.png" width="40" height="40" />
+					<div class="player-apps-title">Are you still here?</div>
+					<div class="player-apps-content">
+						<div id="playerAppTimeoutIni">
+							<div class="fL">Due to inactivity on the player, the stream will stop in&nbsp;</div><div id="sTO_remTime" class="fL">60 seconds</div>
+							<br /><br />
+							<div onClick="streamTimeoutCancel();" class="cP">Click here to continue listening</div>
+						</div>
+						<div id="playerAppTimeoutOn" class="dH">
+							<p>The audio stream has been stopped due to inactivity on the player.</p>
+							<div onClick="streamTimeoutReset();" class="cP">Click here to resume listening</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-5" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title"></div>
+					<div class="player-apps-content">
+						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-4" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title"></div>
+					<div class="player-apps-content">
+						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-3" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title"></div>
+					<div class="player-apps-content">
+						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-2" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title"></div>
+					<div class="player-apps-content">
+						
+					</div>
+				</div>
+			</div>
+		
+			<div id="player-apps-top-menu-1" class="dH">
+				<div>
+					<img src="images/web.png" width="40" height="40" />
+					<div class="player-apps-title"></div>
+					<div class="player-apps-content">
+						
+					</div>
+				</div>
+			</div>
+		
+		
+
+	</div>
+	
+	
+<div id="playerDiv" class="player-div">
+
+	
+
+		<div id="transport-icons">
+			<img id="transport-play" src="images/transport-play.png" class="player-div-img dH cP" width="80" height="80" onClick="transportAction('play',true);" title="Start playing media" />
+			<img id="transport-pause" src="images/transport-pause.png" class="player-div-img dH cP" width="80" height="80" onClick="transportAction('pause',true);" title="Pause media" />
+			<img id="transport-buffering" src="images/transport-buffering.gif" class="player-div-img dH cP" width="54" height="55" title="Preparing media, please wait...." />
+		</div>
+
+		<img id="now-playing-album-art" src="images/dot_blank.gif" class="player-div-img cP " width="250" height="250" title="Click for song-related options" />
+
+		<div id="transport-counter-wrapper">
+			<div id="transport-counter" class="now-playing f15em tS">00:00</div>
+			<div id="transport-progress"><div id="transport-progress-bar"></div></div>
+		</div>
+
+		<div id="transport-volume-label" class="now-playing f15em tS">VOL</div>
+		<div id="transport-volume" title="Click to change volume"><div id="transport-volume-bar"></div></div>
+
+		<div id="now-playing" class="now-playing tS ">
+			<div id="now-playing-title" class="menuHeader f15em"></div>
+			<div id="now-playing-artist"></div>
+			<div id="now-playing-album"></div>
+		</div>
+		
+		
+			<div id="media-rate-wrapper" class="media-rate-wrapper tS dH">
+				<div id="media-rate-up" class="media-rate-up cP fL mr20" onClick="mediaRate('up');" title="Like this track"></div>
+				<div id="media-rate-down" class="media-rate-down cP fL mr20" onClick="mediaRate('down');" title="Dislike this track"></div>
+				<div id="media-rate-message" class="fL"></div>
+			</div>
+		
+
+		<div id="media-icons" class="media-icons dH">
+			<img src="images/media-playlist.png" height="30" width="30" border="0" title="View last songs played" onClick="startApp('playlist');" />
+			<img src="images/media-lyrics.png" height="30" width="30" border="0" title="View song lyrics" onClick="startApp('lyrics');getSongLyrics();" /> <img src="images/media-buy-song.png" height="30" width="30" border="0" title="Buy this song" onClick="buyMedia();" /> 
+				<img src="images/media-facebook.png" height="30" width="30" border="0" title="Share this song on Facebook" onClick="socialShare('facebook');" />
+				<img id="media-icons-twitter" src="images/media-twitter.png" height="30" width="30" border="0" title="Tweet this song" onClick="socialShare('twitter');" /></a>
+			
+		</div>
+	
+	
+</div>
+
+					<div id="powered-about" onClick="dspPoweredSSI();">CIRRUS&#174; &nbsp;BY SSI. WE BUILD IMMERSIVE MEDIA PLAYERS FOR TERRESTRIAL AND INTERNET RADIO STATIONS WORLDWIDE.</div>
+					<div id="powered-link" onClick="openURL('http://www.securenetsystems.net');">CLICK HERE TO GET STARTED WITH</div>
+					<div id="powered-ssi" onClick="dspPoweredSSI();"></div>
+				
+					<div id="menu-button-expand" class="menu-button" onClick="dspMenu();" title="Show menu"></div>
+					<div id="menu-button-contract" class="menu-button" onClick="dspMenu();" title="Hide menu"></div>
+				
+				
+
+				
+				<div id="bannerM"></div>
+				<div id="bannerD"></div>
+					
+					<div id="bannerN" class="bannerNotActive"></div>
+					<div id="bannerE" class="bannerNotActive"></div>
+					
+				
+
+				
+				<div id="mediaplayer" class="mediaplayer mediaplayer-audio"></div>
+				<div id="mediaplayerOD" class="mediaplayer videoplayer-hide"></div>
+				<div id="vpaidplayerdiv" class="mediaplayer vpaidplayer vpaidplayer-hide"></div>
+				<div id="mediaplayer-video-shader" class="mediaplayer-video mediaplayer-video-shader"></div>
+				
+
+				
+				<div class="flash-proxy">
+					<object
+						id="swfhttprequest" class="xDomainFlash"
+						classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+						codebase="http://fpdownload.adobe.com/pub/shockwave/cabs/flash/swflash.cab##version=9,0,0,0">
+						<param name="movie" value="assets/swfhttprequest.swf?onload=swfhttprequestready" />
+						<param name="allowScriptAccess" value="always" />
+						<embed
+							class="xDomainFlash"
+							src="assets/swfhttprequest.swf?onload=swfhttprequestready"
+							allowScriptAccess="always"
+							type="application/x-shockwave-flash"
+							pluginspage="http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+						</embed>
+					</object>
+				</div>
+				
+
+				
+				<div id="impressionDiv" class="impression-div"></div>
+				
+
+				
+
+			</div>
+		
+
+		
+		<div id="debugDiv">
+			
+		</div>
+		
+
+	</body>
+
+</html>

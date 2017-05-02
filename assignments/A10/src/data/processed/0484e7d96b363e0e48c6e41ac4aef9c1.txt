@@ -1,0 +1,157 @@
+Menu
+Home
+About
+Art & Music
+Lifestyle
+-Dear Junie
+-Fashion
+-Health & Beauty
+-Jaden Sterling-Business Strategist
+-Joanie’s Jaunts
+-Live Your Best Life
+-Special Feature
+-Top 5
+-Unlimited Women of 2016
+-Victoria Secrets
+Food & Drink
+Gift Guide
+Events
+-Add Event
+mobi-nav
+Home
+About
+Art & Music
+Lifestyle
+Dear Junie
+Fashion
+Health & Beauty
+Jaden Sterling-Business Strategist
+Joanie’s Jaunts
+Live Your Best Life
+Special Feature
+Top 5
+Unlimited Women of 2016
+Victoria Secrets
+Food & Drink
+Gift Guide
+Events
+Add Event
+main-nav
+search-button
+search-bar
+nav-inner
+nav-wrapper
+leader-medium
+logo-medium
+leaderboard-wrapper
+« All Events
+Notices
+This event has passed.
+Edie Daponte and Jan Stirling
+February 25 @ 6:00 pm
+-
+8:30 pm
+Event header
+Navigation
+Event Navigation
+«
+Impact Brunch with Andrew Weaver and Friends
+BLACK HISTORY MONTH CELEBRATION: Community Recognition Awrds
+»
+.tribe-events-sub-nav
+#tribe-events-header
+Event featured image, but exclude link
+Event content
+Edie and Joey perform your favourite Jazz Standards and smooth bossa nova at the Oceanfront Beacon Landing in Sidney.
+Reservations recommended 250-656-6690
+Facebook Comments Plugin for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/
+Comments
+comments
+.tribe-events-single-event-description
++ Google Calendar
++ iCal Export
+.tribe-events-cal-links
+Event meta
+Details
+Date:
+February 25
+Time:
+6:00 pm - 8:30 pm
+Event Categories:
+Events
+,
+Jazz
+,
+Music
+,
+Victoria
+,
+yyj
+Event Tags:
+#yyj
+,
+Blues
+,
+Events
+,
+Jazz
+,
+music
+,
+victoria
+,
+victoria bc
+Website:
+http://www.beaconlanding.ca/
+Venue
+Beacon Landing Lounge
+British Columbia
+Canada
+#post-x
+Leave a Reply
+Cancel reply
+comments
+Event footer
+Navigation
+Event Navigation
+«
+Impact Brunch with Andrew Weaver and Friends
+BLACK HISTORY MONTH CELEBRATION: Community Recognition Awrds
+»
+.tribe-events-sub-nav
+#tribe-events-footer
+#tribe-events-content
+#tribe-events
+This calendar is powered by The Events Calendar.
+http://m.tri.be/18wn
+#tribe-events-pg-template
+Home
+Newsletter
+Advertising
+Top 5 Advertising
+Travel
+Contributors Info
+footer-nav
+logo-footer
+A lifestyle, empowerment magazine excavating Victoria and its unique neighborhoods. Would you like to advertise or contribute an article? Contact us for details, info@downtownandaround.com
+footer-social
+Copyright © 2016 Downtown and Around, All Rights Reserved
+copyright
+footer-widget
+Inner Harbour, Victoria
+Ogden Pier Breakwater
+footer-widget-wrapper
+footer-top
+footer-wrapper
+body-wrapper
+site
+Switch to our mobile site
+Facebook Comments Plugin for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/
+[if IE]>
+		<script type="text/javascript">
+		if ( 0 === window.location.hash.indexOf( '#comment-' ) ) {
+			// window.location.reload() doesn't respect the Hash in IE
+			window.location.hash = window.location.hash;
+		}
+		</script>
+		<![endif]

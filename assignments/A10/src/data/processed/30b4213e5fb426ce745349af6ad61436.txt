@@ -1,0 +1,1481 @@
+loading the source sans pro font
+loading the lato font
+bootstrap main css
+navigation css
+magnific popup css
+owl-carousel css
+mobile menu css
+flag icons.
+icons css
+toastr notificaitons.
+css3 animation for hoverdir.
+dropzon css
+cropper css
+selectize css for lineup
+range slider css
+cahrtist css for manage event
+main css
+fixes for body heights
+ads config
+calling the googletags globally.
+Load only homepage related ad init tags
+Google Tag Manager
+End Google Tag Manager
+Google Tag Manager (noscript)
+End Google Tag Manager (noscript)
+Facebook Pixel Code
+End Facebook Pixel Code
+Open Menu
+Events
+What's Hot
+Latest
+Buy Tickets
+Rep Events
+My Pulse
+Music
+What's Hot
+Latest
+Podcasts
+My Pulse
+Articles
+What's Hot
+Latest
+DJs
+Festivals
+Clubbing
+Culture
+Tech
+Mypulse
+More
+Events
+Sell Tickets
+Rep Events
+Channels
+Create A Channel
+my pulse
+Company
+About Us
+Contact
+help desk
+submit news
+Advertise
+Advertise
+Apps
+Pulse pro
+Legal
+Privacy Policy
+Promoters
+/li>
+Rep's
+Ticket Buyers
+Artist
+/dl-menuwrapper
+/#logo
+let's add the same code as for the dropdown list with the icons. if it's global than let's load the class "global-icon" NOTE: the glabal icon class will be deleted and loaded dynamically
+location target, dynamically changes when selecting another option
+/.geo-target
+new geo drop
+Pulse
+World
+America's
+United States
+Canada
+Brazil
+Ecuador
+/#americaDrop.collapse
+Asia & Oceania
+Australia
+Philippines
+Singapore
+Malaysia
+Indonesia
+Thailand
+Dubai
+Hong Kong
+India
+Russian Federation
+/#americaDrop.collapse
+Africa
+South Africa
+/#americaDrop.collapse
+Europe
+United Kingdom
+Ireland
+Spain
+Germany
+/#americaDrop.collapse
+end of new geo drop
+/.geo-content-wrapper
+old geo drop.
+<ul class="geo-list">
+                <li>
+                   <a href="/?flag=-1">
+                      <span class="img img-global"></span>
+                      <p><strong>Pulse</strong></p>
+                   </a>
+                </li>
+                                   <li>
+                      <a href="/?flag=223">
+                         <span class="flag-icon flag-icon-us flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> UNITED STATES</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=222">
+                         <span class="flag-icon flag-icon-gb flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> UNITED KINGDOM</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=13">
+                         <span class="flag-icon flag-icon-au flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> AUSTRALIA</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=38">
+                         <span class="flag-icon flag-icon-ca flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> CANADA</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=30">
+                         <span class="flag-icon flag-icon-br flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> BRAZIL</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=168">
+                         <span class="flag-icon flag-icon-ph flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> PHILIPPINES</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=188">
+                         <span class="flag-icon flag-icon-sg flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> SINGAPORE</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=129">
+                         <span class="flag-icon flag-icon-my flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> MALAYSIA</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=100">
+                         <span class="flag-icon flag-icon-id flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> INDONESIA</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=209">
+                         <span class="flag-icon flag-icon-th flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> THAILAND</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=221">
+                         <span class="flag-icon flag-icon-ae flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> DUBAI</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=103">
+                         <span class="flag-icon flag-icon-ie flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> IRELAND</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=96">
+                         <span class="flag-icon flag-icon-hk flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> HONG KONG</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=99">
+                         <span class="flag-icon flag-icon-in flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> INDIA</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=193">
+                         <span class="flag-icon flag-icon-za flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> SOUTH AFRICA</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=195">
+                         <span class="flag-icon flag-icon-es flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> SPAIN</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=176">
+                         <span class="flag-icon flag-icon-ru flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> RUSSIAN FEDERATION</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=81">
+                         <span class="flag-icon flag-icon-de flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> GERMANY</p>
+                      </a>
+                   </li>
+                                   <li>
+                      <a href="/?flag=62">
+                         <span class="flag-icon flag-icon-ec flag-icon-squared"></span>
+                         <p><strong>Pulse</strong> ECUADOR</p>
+                      </a>
+                   </li>
+                             </ul>
+end of old geo-drop
+/.branding
+Events
+Music
+Articles
+More
+Events
+Sell Tickets
+Contact
+Help Desk
+Submit News
+/.list-content
+/.more list item
+Channels
+Create A Channel
+/.list-content
+Legal
+Privacy Policy
+Promoters
+Rep's
+Ticket Buyers
+/.list-content
+/.more list item
+Company
+About Us
+/.more list item
+Advertise
+Advertise
+/.more list item
+/.more-list
+/.more-content
+/.container
+/.primary-nav
+/.cd-nav
+user icon/button in the upper right corner of the header bar. if he's not logged in it shows the #join-modal modal, or the user menu if logged in.
+/.cd-header-buttons
+/#header
+/.closeModal-trigger
+we add this overlay so we can handle the close function of the search and the menu if it's clicked outside of it
+REMOVE THIS WHEN IMPLEMENTED
+What are you looking for?
+/.headline
+Search
+Pulse
+Search
+Events
+Search
+Music
+Search
+Article
+/.search-filter
+/.input-wrapper
+/.col-sm-4
+/.input-wrapper
+/.col-sm-7
+/.input-wrapper
+/.col-sm-1
+/.row
+/.main-search
+/.search-wrapper
+/.container
+/#cd-search.cd-search
+What are you looking for?
+/.headline
+Search
+Events
+Search
+Music
+Search
+Article
+Search
+Pulse
+/.search-filter
+/.input-wrapper
+/.col-sm-4
+/.input-wrapper
+/.col-sm-7
+/.input-wrapper
+/.col-sm-1
+/.row
+/.main-search
+Want to dig deeper?
+Use the Advanced Search!
+/.block
+/.trending-fields
+/.search-wrapper
+/.container
+/#cd-search.cd-search
+What are you looking for?
+/.headline
+Search
+Events
+Search
+Music
+Search
+Article
+Search
+Pulse
+/.search-filter
+/.input-wrapper
+/.col-sm-4
+/.input-wrapper
+/.col-sm-10
+Location
+Pulse World
+United States
+United Kingdom
+Australia
+Canada
+Brazil
+Philippines
+Singapore
+Malaysia
+Indonesia
+Thailand
+Dubai
+Ireland
+Hong Kong
+India
+South Africa
+Spain
+Russian Federation
+Germany
+Ecuador
+/.search-filter
+/.input-wrapper
+/.col-sm-3
+/.input-wrapper
+/.input-wrapper
+/.col-sm-3
+/#pulse-range
+/.input-wrapper
+/.col-sm-3
+/.input-wrapper
+/.col-sm-3
+/.row
+/.main-search
+Too complex?
+Close the Advanced Search!
+/.block
+/.trending-fields
+/.search-wrapper
+/.container
+/#cd-search.cd-search
+What are you looking for?
+/.headline
+Search
+Music
+Search
+Events
+Search
+Article
+Search
+Pulse
+/.search-filter
+/.input-wrapper
+/.col-sm-4
+/.input-wrapper
+/.col-sm-7
+/.input-wrapper
+/.col-sm-1
+/.row
+/.main-search
+Want to dig deeper?
+Use the Advanced Search!
+/.block
+/.trending-fields
+/.search-wrapper
+/.container
+/#cd-search.cd-search
+What are you looking for?
+/.headline
+Search
+Music
+Search
+Events
+Search
+Article
+Search
+Pulse
+/.search-filter
+/.input-wrapper
+/.col-sm-4
+/.input-wrapper
+/.col-sm-10
+Genre
+Deep House
+Hip-Hop
+Techno
+Bass Music
+Breaks
+Chill Out
+Dance
+Disco
+Drum n Bass
+Dub
+Dubstep
+Electro House
+Electronica
+Funk
+Hard Dance
+Hard Techno
+House
+Indie Dance
+Minimal
+Nu Disco
+Pop
+Progressive House
+Psytrance
+Rap
+Reggae
+RnB
+Rock
+Tech House
+Trance
+/.search-filter
+/.input-wrapper
+/.col-sm-3
+/.input-wrapper
+/.col-sm-3
+Location
+Pulse World
+United States
+United Kingdom
+Australia
+Canada
+Brazil
+Philippines
+Singapore
+Malaysia
+Indonesia
+Thailand
+Dubai
+Ireland
+Hong Kong
+India
+South Africa
+Spain
+Russian Federation
+Germany
+Ecuador
+/.input-wrapper
+/.col-sm-3
+/.input-wrapper
+/.col-sm-3
+/.row
+/.main-search
+Too complex?
+Close the Advanced Search!
+/.block
+/.trending-fields
+/.search-wrapper
+/.container
+/#cd-search.cd-search
+What are you looking for?
+/.headline
+Search
+Article
+Search
+Events
+Search
+Music
+Search
+Pulse
+/.search-filter
+/.input-wrapper
+/.col-sm-4
+/.input-wrapper
+/.col-sm-7
+/.input-wrapper
+/.col-sm-1
+/.row
+/.main-search
+Want to dig deeper?
+Use the Advanced Search!
+/.block
+/.trending-fields
+/.search-wrapper
+/.container
+/#cd-search.cd-search
+What are you looking for?
+/.headline
+Search
+Article
+Search
+Event
+Search
+Music
+Search
+Pulse
+/.search-filter
+/.input-wrapper
+/.col-sm-4
+/.input-wrapper
+/.col-sm-10
+Category
+Apps
+Art and Design
+Cities
+Clubbing
+Culture
+DJS
+Fashion
+Festivals
+Free Music
+Free Tickets
+Gadgets
+Social
+Social Media
+Technology
+Vip
+What's On
+/.search-filter
+/.input-wrapper
+/.col-sm-3
+/.input-wrapper
+/.input-wrapper
+/.col-sm-3
+Location
+Pulse World
+United States
+United Kingdom
+Australia
+Canada
+Brazil
+Philippines
+Singapore
+Malaysia
+Indonesia
+Thailand
+Dubai
+Ireland
+Hong Kong
+India
+South Africa
+Spain
+Russian Federation
+Germany
+Ecuador
+/.input-wrapper
+/.col-sm-3
+/.input-wrapper
+/.col-sm-3
+/.row
+/.main-search
+Too complex?
+Close the Advanced Search!
+/.block
+/.trending-fields
+/.search-wrapper
+/.container
+/#cd-search.cd-search
+included user menu
+/#header-wrapper
+fetch the main view content
+/1103149/PulseRadio_940x110
+/.col-sm-12
+/.row article-row ad-row
+/.tabpanel
+/.container
+/.ad-col
+we add the url of the hero image inline so we can target it from the back-end, that the administrator can change them dynamically from the dashboard.
+Jamiroquai Just Dropped a New Single and it's Pure Fire
+<h1 class="thin">nightlife culture</h1>
+/.title
+DJS
+News
+/.tag-wrapper
+/.category-and-tags
+By
+Chandler Shortlidge
+/.author
+Posted On
+27 Jan 2017
+/.date
+A
+1 Min
+Read
+/.read-time
+/.post-meta
+/.content-wrapper
+/.background-holder
+/.nav-btns
+/.post-navigation
+/.container
+/.article-hero
+/#hero-wrapper
+/.share-bar.container
+/.logo
+/.col-sm-2
+Jamiroquai Just Dropped a New Single and it's Pure Fire
+/.col-sm-7
+/.news-wrapper
+/.container
+/.news-bar
+Share Article
+/.article-share-list
+/.container
+/.social-share
+/.container
+/.article-share-wrapper
+Jamiroquai just dropped a new single "Automation" from their
+forthcoming album
+, and we're very happy to say it's pretty fucking dope.
+Like the track's title suggests, it's a funky, computerized-disco tune with Daft Punk inspired vocoded vocals that deserves to be listened to on full blast.
+They've also released a a very cool video for "Automaton" that beings rather ominously with a nuclear explosion before cutting to footage of our heroes wandering in a post-apocalyptic world. Fitting, given the current political landscape.
+The UK band's new LP,
+Automaton
+, is due for a March 31st release, which is when they're due to hit London for a show at The Roundhouse. They've also got upcoming dates in Paris on March 28th at La Salle Pleyel, and at several European festivals over the summer.
+Check out the video below.
+<br>
+H/T
+FACT
+Share Article
+/.article-share-list
+/.post-content <we added event-ost class so we can define the color of the anchor tags on each post type we will have other color.>
+/.container
+/#main-content.default-content
+/.related-placeholder
+/.row
+/.container
+/#related-comment-plugin
+/.btn-holder
+/.add-mypulse
+/.player-progress
+Playing Now
+/.song-thumbnail
+Yousef
+/.title
+21St Century House Music #136 // Record Studio
+/.author
+/.song-data
+/.now
+/.mobile-actions
+output the html for the buttons without white space, so display:inline-block has it's default margin reset. Ask Norbi to explain it.
+/.btn-wrapper
+Coming next
+/.song-thumbnail
+A State Of Mind
+/.title
+A state of mind mini mix
+/.author
+/.song-data
+/.upcomming
+/.teaser-wrapper
+/.now-playing
+/.player-navigation
+/.btn-holder
+/.song-list
+/.player-main
+/.music-player
+YOUSEF
+/.title
+21St Century House Music #136 // Recorded Live From Yoyo, Paris
+/.author
+11-28-2014
+/.date
+/.song-data
+/.song-thumbnail
+FAVORITES
+/.title
+/.volume-control
+/.controls
+/.list-controls
+/.song-listing
+/.song-list
+/.song-list-wrapper
+/.music-player-list
+Related Content
+Latest
+All
+Latest
+Trending
+What's hot
+Latest
+Trending
+What's hot
+My Pulse
+/.row
+/.container
+/.mega-menu-tab-navigation
+/.img-wrapper
+Captain Nemo Boats
+Wed
+,
+                            21 Jun
+/.first-meta
+/.article-meta
+Lost In Ibiza Boat Party I Paradise Opening DC10 - Wednesday I Magna Carta V Faction Eden Thursday
+Tommi Vercetti,Alex Arnout,Loquace,Made By Pete,Alex Ground
+/.article-content
+/.box-main-content
+/.box-main
+Buy
+Ticket
+View
+Event
+/.article-cta
+/.box-footer
+/.visible-xs mobile-helper
+Hurry, time is running out!
+07
+/.number
+Weeks
+01
+/.number
+Days
+03
+/.number
+Hours
+/.eta-list
+/.mobile-mover
+/.meta-data
+Captain Nemo Boats
+Wed
+,
+                                21 Jun
+/.first-meta
+/.article-meta
+/.date-location
+Lost In Ibiza Boat Party I Paradise Opening DC10 - Wednesday I Magna Carta V Faction Eden Thursday
+/.article-content
+Buy
+Ticket
+View
+Event
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Alec Bonnici
+Deep House
+/.first-meta
+/.article-meta
+Alec
+Bonnici - Diversity Mix
+/.article-content
+/.box-main-content
+/.box-main
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.play-btn
+/.mobile-mover
+/.meta-data
+Alec Bonnici
+Deep House
+/.first-meta
+/.article-meta
+/.date-location
+Alec
+Bonnici - Diversity Mix
+/.article-content
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Festivals
+8 h ago
+/.first-meta
+/.article-meta
+Fyre
+Festival Hit With Its First Class-Action Lawsuit
+And it begins...
+/.article-content
+/.box-main-content
+/.box-main
+Read
+Article
+Author
+Channel
+/.article-cta
+/.box-footer
+And it begins...
+/.mobile-mover
+/.meta-data
+Festivals
+8 h ago
+/.first-meta
+/.article-meta
+/.date-location
+Fyre
+Festival Hit With Its First Class-Action Lawsuit
+And it begins...
+/.article-content
+Read
+Article
+Author
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Captain Nemo Boats
+Wed
+,
+                            5 Jul
+/.first-meta
+/.article-meta
+Lost In Ibiza Boat Party I Paradise DC10 - Wednesday I Magna Carta V Faction Eden - Thursday
+OC & Verde,Vibe Killers,Piem,Proudly People,Mark Jenkyns
+/.article-content
+/.box-main-content
+/.box-main
+Buy
+Ticket
+View
+Event
+/.article-cta
+/.box-footer
+/.visible-xs mobile-helper
+Hurry, time is running out!
+09
+/.number
+Weeks
+01
+/.number
+Days
+03
+/.number
+Hours
+/.eta-list
+/.mobile-mover
+/.meta-data
+Captain Nemo Boats
+Wed
+,
+                                5 Jul
+/.first-meta
+/.article-meta
+/.date-location
+Lost In Ibiza Boat Party I Paradise DC10 - Wednesday I Magna Carta V Faction Eden - Thursday
+/.article-content
+Buy
+Ticket
+View
+Event
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Club kyo
+Techno
+/.first-meta
+/.article-meta
+Rivet
+Live From Club Kyo 02-04-2016
+/.article-content
+/.box-main-content
+/.box-main
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.play-btn
+/.mobile-mover
+/.meta-data
+Club kyo
+Techno
+/.first-meta
+/.article-meta
+/.date-location
+Rivet
+Live From Club Kyo 02-04-2016
+/.article-content
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Festivals
+Yesterday
+/.first-meta
+/.article-meta
+World
+Order Restored As Fyre Festival Victims Discover Their Plight Will...
+#attention
+/.article-content
+/.box-main-content
+/.box-main
+Read
+Article
+/.article-cta
+/.box-footer
+#attention
+/.mobile-mover
+/.meta-data
+Festivals
+Yesterday
+/.first-meta
+/.article-meta
+/.date-location
+World
+Order Restored As Fyre Festival Victims Discover Their Plight Will...
+#attention
+/.article-content
+Read
+Article
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+San Antonio
+Wed
+,
+                            20 Sep
+/.first-meta
+/.article-meta
+Lost In Ibiza Boat Party I Paradise DC10 - Wednesday I Magna Carta V Faction Eden - Thursday
+Cera Alba,Kalyde,Proudly People,Alex Ground,Menendez Bros
+/.article-content
+/.box-main-content
+/.box-main
+Buy
+Ticket
+View
+Event
+/.article-cta
+/.box-footer
+/.visible-xs mobile-helper
+Hurry, time is running out!
+20
+/.number
+Weeks
+01
+/.number
+Days
+02
+/.number
+Hours
+/.eta-list
+/.mobile-mover
+/.meta-data
+San Antonio
+Wed
+,
+                                20 Sep
+/.first-meta
+/.article-meta
+/.date-location
+Lost In Ibiza Boat Party I Paradise DC10 - Wednesday I Magna Carta V Faction Eden - Thursday
+/.article-content
+Buy
+Ticket
+View
+Event
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Sabo
+Deep House
+/.first-meta
+/.article-meta
+Sabo
+- Rancho-Australia Vibeathlon
+/.article-content
+/.box-main-content
+/.box-main
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.play-btn
+/.mobile-mover
+/.meta-data
+Sabo
+Deep House
+/.first-meta
+/.article-meta
+/.date-location
+Sabo
+- Rancho-Australia Vibeathlon
+/.article-content
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Festivals
+29 Apr 2017
+/.first-meta
+/.article-meta
+Former
+Fyre Festival Organizer Details The Horrors Of How The Festival Fell...
+"I cannot explain how or why the bros running this festival ignored every warning sign they were...
+/.article-content
+/.box-main-content
+/.box-main
+Read
+Article
+/.article-cta
+/.box-footer
+"I cannot explain how or why the bros running this festival ignored every warning sign they were...
+/.mobile-mover
+/.meta-data
+Festivals
+29 Apr 2017
+/.first-meta
+/.article-meta
+/.date-location
+Former
+Fyre Festival Organizer Details The Horrors Of How The Festival Fell...
+"I cannot explain how or why the bros running this festival ignored every warning sign they were...
+/.article-content
+Read
+Article
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Djuma Soundsystem
+Tech House
+/.first-meta
+/.article-meta
+Djuma
+Soundsystem - April 2016 Mixtape
+/.article-content
+/.box-main-content
+/.box-main
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.play-btn
+/.mobile-mover
+/.meta-data
+Djuma Soundsystem
+Tech House
+/.first-meta
+/.article-meta
+/.date-location
+Djuma
+Soundsystem - April 2016 Mixtape
+/.article-content
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Clubbing
+28 Apr 2017
+/.first-meta
+/.article-meta
+Desert
+Hearts Crew Announce International Tour
+Following their first sold out festival ever, the Desert Hearts crew has just announced that...
+/.article-content
+/.box-main-content
+/.box-main
+Read
+Article
+Author
+Channel
+/.article-cta
+/.box-footer
+Following their first sold out festival ever, the Desert Hearts crew has just announced that...
+/.mobile-mover
+/.meta-data
+Clubbing
+28 Apr 2017
+/.first-meta
+/.article-meta
+/.date-location
+Desert
+Hearts Crew Announce International Tour
+Following their first sold out festival ever, the Desert Hearts crew has just announced that...
+/.article-content
+Read
+Article
+Author
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.tab-pane
+/.tab-pane
+/.img-wrapper
+Alec Bonnici
+/.first-meta
+/.article-meta
+Alec
+Bonnici - Diversity Mix
+/.article-content
+/.box-main-content
+/.box-main
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.play-btn
+/.mobile-mover
+/.meta-data
+Alec Bonnici
+/.first-meta
+/.article-meta
+/.date-location
+Alec
+Bonnici - Diversity Mix
+/.article-content
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Club kyo
+/.first-meta
+/.article-meta
+Rivet
+Live From Club Kyo 02-04-2016
+/.article-content
+/.box-main-content
+/.box-main
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.play-btn
+/.mobile-mover
+/.meta-data
+Club kyo
+/.first-meta
+/.article-meta
+/.date-location
+Rivet
+Live From Club Kyo 02-04-2016
+/.article-content
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.img-wrapper
+Sabo
+/.first-meta
+/.article-meta
+Sabo
+- Rancho-Australia Vibeathlon
+/.article-content
+/.box-main-content
+/.box-main
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.play-btn
+/.mobile-mover
+/.meta-data
+Sabo
+/.first-meta
+/.article-meta
+/.date-location
+Sabo
+- Rancho-Australia Vibeathlon
+/.article-content
+Play
+Mix
+Artist
+Channel
+/.article-cta
+/.box-footer
+/.box-main-content
+/.hover-dir
+/.article-box
+/.col-sm-4
+/.tab-pane
+/.tab-content
+/.col-sm-12
+/.row
+Load
+More
+/.col-sm-12
+/.row
+/.container
+What's Hot
+/#article-listing
+/.btn-holder
+/.add-mypulse
+/.player-progress
+Playing Now
+/.song-thumbnail
+Yousef
+/.title
+21St Century House Music #136 // Record Studio
+/.author
+/.song-data
+/.now
+/.mobile-actions
+output the html for the buttons without white space, so display:inline-block has it's default margin reset. Ask Norbi to explain it.
+/.btn-wrapper
+Coming next
+/.song-thumbnail
+A State Of Mind
+/.title
+A state of mind mini mix
+/.author
+/.song-data
+/.upcomming
+/.teaser-wrapper
+/.now-playing
+/.player-navigation
+/.btn-holder
+/.song-list
+/.player-main
+/.music-player
+YOUSEF
+/.title
+21St Century House Music #136 // Recorded Live From Yoyo, Paris
+/.author
+11-28-2014
+/.date
+/.song-data
+/.song-thumbnail
+FAVORITES
+/.title
+/.volume-control
+/.controls
+/.list-controls
+/.song-listing
+/.song-list
+/.song-list-wrapper
+/.music-player-list
+/#main
+Load the footer only if we are on a desktop device.
+Copyright © Pulse Radio. All Rights Reserved
+/.copyright
+Terms & Conditions
+Privacy Policy
+/.term-policy
+/.footer-content
+/.footer-social
+/.container
+/#end-footer
+YUMMY INFORMATION: Array
+(
+    [REDIRECT_REDIRECT_REDIRECT_SCRIPT_URL] => /articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [REDIRECT_REDIRECT_REDIRECT_SCRIPT_URI] => http://pulseradio.net/articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [REDIRECT_REDIRECT_REDIRECT_STATUS] => 200
+    [REDIRECT_REDIRECT_SCRIPT_URL] => /articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [REDIRECT_REDIRECT_SCRIPT_URI] => http://pulseradio.net/articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [REDIRECT_REDIRECT_STATUS] => 200
+    [REDIRECT_SCRIPT_URL] => /articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [REDIRECT_SCRIPT_URI] => http://pulseradio.net/articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [REDIRECT_STATUS] => 200
+    [SCRIPT_URL] => /articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [SCRIPT_URI] => http://pulseradio.net/articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [HTTP_HOST] => pulseradio.net
+    [HTTP_X_REAL_IP] => 68.131.38.189
+    [HTTP_X_FORWARDED_FOR] => 68.131.38.189
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_X_FORWARDED_HTTPS] => on
+    [HTTP_HTTPS] => on
+    [HTTP_CONNECTION] => close
+    [HTTP_USER_AGENT] => Mozilla/5.0
+    [HTTP_ACCEPT] => */*
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache
+    [SERVER_NAME] => pulseradio.net
+    [SERVER_ADDR] => 172.31.24.210
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 172.31.16.223
+    [DOCUMENT_ROOT] => /var/www/pulseradio.net
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/pulseradio.net
+    [SERVER_ADMIN] => [no address given]
+    [SCRIPT_FILENAME] => /var/www/pulseradio.net/app/webroot/index.php
+    [REMOTE_PORT] => 33280
+    [REDIRECT_QUERY_STRING] => url=articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [REDIRECT_URL] => /index.php
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => url=articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [REQUEST_URI] => /articles/2017/01/jamiroquai-just-dropped-a-new-single
+    [SCRIPT_NAME] => /app/webroot/index.php
+    [PHP_SELF] => /app/webroot/index.php
+    [REQUEST_TIME_FLOAT] => 1493692897.205
+    [REQUEST_TIME] => 1493692897
+)
+/#footer
+/.close-wrapper
+Sign in
+Sign up
+/.nav-tabs
+To Your Pulse Account
+/.modal-header
+Help, I forgot my password
+Access
+Your Account
+Or you can connect with
+Facebook
+Yes, send me Pulse Radio news
+I agree to the Pulse Radio Terms of Use
+I'm not a robot
+/.forgot
+Create
+Your Account
+/.fields
+Or you can connect with
+Facebook
+/.modal-body
+/.modal-content
+/.modal-dialog
+/#join-modal
+back-to top on desktop responsive.
+/.backToTop
+/.pop_overlay
+Your
+Pulse
+Account
+/.heading
+Connect To
+The heart of electronic culture
+/.title
+/.featured-single-icon
+Discover
+And
+Share
+New Music
+/.featured-text
+/.featured-icons
+/.content-wrapper
+Create
+Your Account
+/.btn-wrapper
+Access
+Your Account
+/.btn-wrapper
+/.footer-wrapper
+/.inner-wrapper
+/.col-sm-11
+/.col-sm-1
+/.row
+/.container
+/.pulse-account-pop
+/.close-wrapper
+Your
+Pulse
+Account
+/.modal-header-outline
+Forgot your password?
+Fill in and submit the form below
+/.modal-header
+/.modal-body
+/.modal-content
+/.modal-dialog
+/#forgot_pass
+/#wrapper
+core jquery via cdn
+jquery migrate to avoid error on deprecated code.
+jquery mobile custom for navigation
+custom modernizr loaded for navigation
+bootstrap javascript for it's componenets
+jquery cookie.
+maginific popup source
+navigation js
+owl carousel script
+<script>
+	var polyfilter_scriptpath = '/heartbeat/js/lib/';
+	var polyfilter_skip_stylesheets = true;
+</script>
+<script src="/heartbeat/js/lib/cssParser.js"></script>
+<script src="/heartbeat/js/lib/css-filters-polyfill.js"></script>
+mobile menu
+toastr notification plugin
+jPlayer plugin
+hoverdir js.
+atuocomplete library
+jquery ui js for datepicker
+custom js
+custom js
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+CURRENT TARGETED LOCATION ID: -1
+START Nielsen Online SiteCensus V6.0
+COPYRIGHT 2012 Nielsen Online
+END Nielsen Online SiteCensus V6.0

@@ -1,0 +1,339 @@
+[if lt IE 10]>
+
+<link rel="stylesheet" href="http://mysoulradio.com/wp-content/themes/FUSEM12/css/ie.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Trykker' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Copse' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dosis:600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dosis:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Signika:400,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Signika:600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300' rel='stylesheet' type='text/css'>
+<![endif]
+Jetpack Open Graph Tags
+start ticker scroller
+end ticker scroller
+----Start Ticker Function----
+----End Ticker Function----
+start topadheader
+end topadheader
+---- start facebook counter---
+---- end facebook counter---
+<h1 id="logo"><a href="http://mysoulradio.com/" title="MySoulRadio.com"><img src="" /></a></h1>
+Home
+Media
+Music
+Cd Releases
+Downloads
+It’s HOT or It’s NOT
+Mixtapes
+Videos
+Daily Classic
+Fresh Videos
+Features
+Artists / Musicians
+News
+Entertainment
+Events
+Games & Tech
+Movies
+Info
+Programs
+About MSR
+Advertise
+Afflilates
+Internships
+Submit Music
+Shop
+Contact
+end nav
+end inner
+end header
+start player
+end player
+Search for:
+Current Program
+listen in on tunein
+Latest CD Release
+end block
+Advertisements
+end sidebar left
+ACCLAIMED RECORDING ARTIST MARTHA MUNIZZI RELEASES DUAL SINGLES “HE HAS WON” AND “FEARLESS”, AVAILABLE NOW
+Nashville, TN (April 14, 2017) – Award-winning beloved artist Martha Munizzi kicks off a new chapter, as the inspirational GRAMMY®-nominated, Dove and Stellar Award-winner delivers a two-fold blessing of new music, with the release of dual digital singles “He Has …
+Share this:
+Facebook
+Twitter
+Google
+Pinterest
+Email
+Reddit
+Instagram
+- Read More -
+end post-inner
+Phinesse
+Tags:
+african-american
+,
+album release
+,
+artist
+,
+atlanta
+,
+baltimore
+,
+black men
+,
+black people
+,
+black women
+,
+blacks
+,
+Events
+,
+gospel music
+,
+HBCU
+,
+hip hop
+,
+hip-hop/rap
+,
+indie artist
+,
+Indie love
+,
+indie music
+,
+Indie Soul
+,
+lfp media
+,
+Martha Munizzi
+,
+MY SOUL RADIO
+,
+mysoulradio.com
+,
+neo-soul
+,
+Phinesse Demps
+,
+r&b
+,
+soul
+,
+Washington DC
+end post info
+end post inner
+ESSENCE KICKS OFF ITS #WOKEWONDERLAND SOCIAL MEDIA CAMPAIGN
+Essence wants you to realize your dreams for social change by joining its #WokeWonderland campaign. The brand first introduced its #Woke100 list—which honors the top 100 women activists and social influencers from around the country—in its May issue. The list …
+Share this:
+Facebook
+Twitter
+Google
+Pinterest
+Email
+Reddit
+Instagram
+- Read More -
+end post-inner
+Phinesse
+Tags:
+at&t
+,
+Coca-Cola
+,
+cocoa-cola
+,
+Essence Festival
+,
+facebook
+,
+Ford
+,
+Instagram
+,
+McDonald's
+,
+State Farm
+,
+Twitter
+,
+Walmart
+,
+wokewonderland
+end post info
+end post inner
+GRAMMY® NOMINATED CHART-TOPPER JONATHAN McREYNOLDS TO UNVEIL NEW MUSIC AT FIRST LIVE RECORDING IN CHICAGO ON FRIDAY, MAY 5TH, 2017
+Join Jonathan McReynolds for “The Life Room” experience, when the GRAMMY® nominated and Dove Award-winning chart-topper hosts his first live recording in his native Chicago on Friday May 5th, 2017.  Taking place at Cinespace (Stage 18), tickets have been selling …
+Share this:
+Facebook
+Twitter
+Google
+Pinterest
+Email
+Reddit
+Instagram
+- Read More -
+end post-inner
+Phinesse
+Tags:
+album release
+,
+artist
+,
+atlanta
+,
+baltimore
+,
+black men
+,
+black people
+,
+Chicago Gospel Music Festival
+,
+Cinespace in Chicago
+,
+Events
+,
+HBCU
+,
+hip hop
+,
+indie artist
+,
+Indie love
+,
+indie music
+,
+Indie Soul
+,
+Jonathan McReynolds
+,
+lfp media
+,
+Music
+,
+MY SOUL RADIO
+,
+mysoulradio.com
+,
+neo-soul
+,
+new music
+,
+Phinesse Demps
+,
+soul
+,
+urban indie
+,
+Washington DC
+,
+www.mysoulradio.com
+end post info
+end post inner
+Page 1 of 271
+1
+2
+3
+4
+5
+Next ›
+Last »
+end content
+Follow Us. You know you want to
+Facebook
+Twitter
+Youtube
+Souncloud
+last.fm
+instagram
+email
+rss
+google+
+end block
+Popular Tags
+african-american
+album release
+artist
+atlanta
+Avery Dey
+baltimore
+black men
+black people
+blacks
+black women
+books
+cd release
+daily classic video
+Events
+fresh videos
+gospel
+HBCU
+Health
+hip-hop/rap
+hip hop
+indie artist
+Indie love
+indie music
+Indie Soul
+interview
+jazz
+lfp media
+love
+Music
+MY SOUL RADIO
+mysoulradio.com
+neo-soul
+new music
+Phinesse Demps
+pop
+r&b
+rap
+rihanna
+soul
+TV one
+urban indie
+video
+Washington DC
+women
+www.mysoulradio.com
+Sponsors
+end Sidebar Right
+end container
+© 2017 MySoulRadio.com. All Rights Reserved.
+design by
+iDeeZy\'n.com
+||
+Webmaster log-in
+end inner
+end footer
+Send to Email Address
+Your Name
+Your Email Address
+Cancel
+Post was not sent - check your email addresses!
+Email check failed, please try again
+Sorry, your blog cannot share posts by email.
+[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://mysoulradio.com/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel-ie8fix.css?ver=20121024' type='text/css' media='all' />
+<![endif]

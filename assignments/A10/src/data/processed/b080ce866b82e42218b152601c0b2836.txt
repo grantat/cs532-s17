@@ -1,0 +1,1962 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+The Very Best Of The 1920's - 100 tracks Including The Greatest Hits of "The Great Gatsby" Era
+Various artists
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+January 1, 2012
+4.6 out of 5 stars
+10 customer reviews
+Price display
+$7.99
+VAT Message
+Start your 30-day free trial of Unlimited
+to listen to this album plus tens of millions more songs. Exclusive Prime pricing.
+$7.99
+to buy
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Listen to any song, anywhere with Amazon Music Unlimited.
+Learn More
+Buy MP3 Album
+$7.99
+Add to MP3 Cart
+Album in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+Charleston
+by
+Paul Whiteman & His Orchestra
+Charleston
+by
+Paul Whiteman & His Orchestra
+2:49
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+2
+Sweet Georgia Brown
+by
+Ben Bernie & His Hotel Roosevelt Orchestra
+Sweet Georgia Brown
+by
+Ben Bernie & His Hotel Roosevelt Orchestra
+3:01
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+3
+Don't Bring Lulu
+by
+Nathan Glantz & His Orchestra
+Don't Bring Lulu
+by
+Nathan Glantz & His Orchestra
+2:42
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+4
+Yes Sir, That's My Baby!
+by
+Ace Brigode & His Fourteen Virginians
+Yes Sir, That's My Baby!
+by
+Ace Brigode & His Fourteen Virginians
+3:13
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+5
+Makin' Whoopie
+by
+Eddie Walters
+Makin' Whoopie
+by
+Eddie Walters
+3:18
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+6
+Singin' In The Rain
+by
+Fred Rich & His Orchestra
+Singin' In The Rain
+by
+Fred Rich & His Orchestra
+3:21
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+7
+Ain't Misbehavin'
+by
+Louis Armstrong
+Ain't Misbehavin'
+by
+Louis Armstrong
+3:25
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+8
+Ain't She Sweet
+by
+Gene Austin; Nat Shilkret and His Orchestra
+Ain't She Sweet
+by
+Gene Austin; Nat Shilkret and His Orchestra
+2:44
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+9
+Singin' The Blues
+by
+Bix Beiderbecke
+Singin' The Blues
+by
+Bix Beiderbecke
+3:02
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+10
+Rhapsody In Blue
+by
+Paul Whiteman
+Rhapsody In Blue
+by
+Paul Whiteman
+9:17
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+11
+Crazy Rhythm
+by
+Jack "Whispering" Smith and Carrol Gibbons with The New Mayfair Dance Orchestra
+Crazy Rhythm
+by
+Jack "Whispering" Smith and Carrol Gibbons with The New Mayfair Dance Orchestra
+3:10
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+12
+Happy Feet
+by
+The Rhythm Boys and Paul Whiteman And His Orchestra
+Happy Feet
+by
+The Rhythm Boys and Paul Whiteman And His Orchestra
+3:10
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+13
+You're Driving Me Crazy
+by
+Nick Lucas and His Crooning Troubadors
+You're Driving Me Crazy
+by
+Nick Lucas and His Crooning Troubadors
+3:15
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+14
+I Wanna Be Loved By You
+by
+Helen Kane and Leonard Joy with The Victor Orchestra
+I Wanna Be Loved By You
+by
+Helen Kane and Leonard Joy with The Victor Orchestra
+2:52
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+15
+I Love My Chili Bom Bom
+by
+Reg Batten & The Savoy Havana Band
+I Love My Chili Bom Bom
+by
+Reg Batten & The Savoy Havana Band
+3:26
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+16
+Pasadena
+by
+Al Jolson
+Pasadena
+by
+Al Jolson
+3:12
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+17
+I'm Gonna Charleston Back To Charleston
+by
+Coon-Sanders' Original Nighthawk Orchestra
+I'm Gonna Charleston Back To Charleston
+by
+Coon-Sanders' Original Nighthawk Orchestra
+3:17
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+18
+Five Foot Two, Eyes Of Blue
+by
+Curtis, Denny "Dinty" and Landry, Art and His Orchestra
+Five Foot Two, Eyes Of Blue
+by
+Curtis, Denny "Dinty" and Landry, Art and His Orchestra
+3:37
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+19
+Everything Is Hotsy Totsy Now
+by
+Joel Sanders and The Coon-Sanders Nighthawks
+Everything Is Hotsy Totsy Now
+by
+Joel Sanders and The Coon-Sanders Nighthawks
+3:11
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+20
+I Wonder Where My Baby Is Tonight?
+by
+Jack Hylton And His Orchestra
+I Wonder Where My Baby Is Tonight?
+by
+Jack Hylton And His Orchestra
+3:07
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+21
+I Love My Baby, My Baby Loves Me
+by
+Fred Waring & His Pennsylvanians
+I Love My Baby, My Baby Loves Me
+by
+Fred Waring & His Pennsylvanians
+3:30
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+22
+Charleston Charley
+by
+Bert Firman and His Carlton Hotel Dance Orchestra
+Charleston Charley
+by
+Bert Firman and His Carlton Hotel Dance Orchestra
+2:33
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+23
+The Girl Friend
+by
+George Olsen & His Music
+The Girl Friend
+by
+George Olsen & His Music
+2:53
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+24
+Sugar Foot Stomp
+by
+Fletcher Henderson
+Sugar Foot Stomp
+by
+Fletcher Henderson
+2:52
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+25
+In A Mist
+by
+Bix Beiderbecke
+In A Mist
+by
+Bix Beiderbecke
+2:45
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+26
+(I'll Build A) Stairway To Paradise
+by
+Paul Whiteman
+(I'll Build A) Stairway To Paradise
+by
+Paul Whiteman
+3:18
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+27
+Let's Get It
+by
+Bennie Moten & His Kansas City Orchestra
+Let's Get It
+by
+Bennie Moten & His Kansas City Orchestra
+3:23
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+28
+Misty Mornin'
+by
+Duke Ellington
+Misty Mornin'
+by
+Duke Ellington
+3:22
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+29
+Three O'Clock In The Morning
+by
+Paul Whiteman
+Three O'Clock In The Morning
+by
+Paul Whiteman
+3:23
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+30
+Kansas City Shuffle
+by
+Bennie Moten & His Kansas City Orchestra
+Kansas City Shuffle
+by
+Bennie Moten & His Kansas City Orchestra
+2:54
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+31
+East St Louis Toodle - oo
+by
+Duke Ellington
+East St Louis Toodle - oo
+by
+Duke Ellington
+2:59
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+32
+Heebie Jeebies
+by
+Louis Armstrong
+Heebie Jeebies
+by
+Louis Armstrong
+3:03
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+33
+Black Bottom
+by
+Johnny Hamp & His Kentucky Serenaders
+Black Bottom
+by
+Johnny Hamp & His Kentucky Serenaders
+3:22
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+34
+Gershwin: I'd Rather Charleston
+by
+Adele & Fred Astaire
+Gershwin: I'd Rather Charleston
+by
+Adele & Fred Astaire
+2:58
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+35
+Crazy Words, Crazy Tune
+by
+Fred Rich & His Hotel Astor Orchestra
+Crazy Words, Crazy Tune
+by
+Fred Rich & His Hotel Astor Orchestra
+3:01
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+36
+Miss Annabelle Lee
+by
+Jack "Whispering" Smith, and Bert Ambrose with The Whispering Orchestra
+Miss Annabelle Lee
+by
+Jack "Whispering" Smith, and Bert Ambrose with The Whispering Orchestra
+3:13
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+37
+The Varsity Drag
+by
+George Olsen & His Music
+The Varsity Drag
+by
+George Olsen & His Music
+3:12
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+38
+That's My Weakness Now
+by
+Cliff 'Ukelele Ike' Edwards
+That's My Weakness Now
+by
+Cliff 'Ukelele Ike' Edwards
+2:41
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+39
+Runnin' Wild
+by
+Duke Ellington & His Jungle Band
+Runnin' Wild
+by
+Duke Ellington & His Jungle Band
+2:42
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+40
+Claps Hands Here Comes Charlie
+by
+Fletcher Henderson
+Claps Hands Here Comes Charlie
+by
+Fletcher Henderson
+3:00
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+41
+Glad Rag Doll
+by
+Golden Gate Orchestra
+Glad Rag Doll
+by
+Golden Gate Orchestra
+3:11
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+42
+Charleston Dolly
+by
+Tom Waltham & His Ad Libs
+Charleston Dolly
+by
+Tom Waltham & His Ad Libs
+3:08
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+43
+Basin Street Blues
+by
+Louis Armstrong
+Basin Street Blues
+by
+Louis Armstrong
+3:19
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+44
+Hot Lips
+by
+Paul Whiteman
+Hot Lips
+by
+Paul Whiteman
+3:30
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+45
+Band Box Shuffle
+by
+Bennie Moten & His Kansas City Orchestra
+Band Box Shuffle
+by
+Bennie Moten & His Kansas City Orchestra
+2:36
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+46
+Henderson Stomp
+by
+Fletcher Henderson
+Henderson Stomp
+by
+Fletcher Henderson
+2:59
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+47
+Room 1411
+by
+Benny Goodman
+Room 1411
+by
+Benny Goodman
+2:42
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+48
+Flaming Youth
+by
+Duke Ellington
+Flaming Youth
+by
+Duke Ellington
+3:18
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+49
+St Louis Blues
+by
+Louis Armstrong
+St Louis Blues
+by
+Louis Armstrong
+2:59
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+50
+Sweet Sue
+by
+Bix Beiderbecke
+Sweet Sue
+by
+Bix Beiderbecke
+4:34
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+51
+You're The Cream In My Coffee
+by
+Colonial Club Orchestra
+You're The Cream In My Coffee
+by
+Colonial Club Orchestra
+3:20
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+52
+Sunny Skies
+by
+The Piccadilly Players
+Sunny Skies
+by
+The Piccadilly Players
+3:16
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+53
+My Blue Heaven
+by
+Don Voorhees & His Orchestra
+My Blue Heaven
+by
+Don Voorhees & His Orchestra
+3:25
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+54
+Baby Face
+by
+Bob Selvin And His Orchestra
+Baby Face
+by
+Bob Selvin And His Orchestra
+3:08
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+55
+It Had To Be You
+by
+Broadway Broadcasters
+It Had To Be You
+by
+Broadway Broadcasters
+3:08
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+56
+If You Knew Susie
+by
+Jack Shilkret's Orchestra
+If You Knew Susie
+by
+Jack Shilkret's Orchestra
+3:02
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+57
+I Can't Give You Anything But Love
+by
+B.A Rolfe and His Lucky Strike Orchestra
+I Can't Give You Anything But Love
+by
+B.A Rolfe and His Lucky Strike Orchestra
+3:35
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+58
+Blue Skies
+by
+Harry Richman
+Blue Skies
+by
+Harry Richman
+2:54
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+59
+Easy Going
+by
+The Piccadilly Players
+Easy Going
+by
+The Piccadilly Players
+3:22
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+60
+Don't Forget To Mess Around
+by
+Louis Armstrong
+Don't Forget To Mess Around
+by
+Louis Armstrong
+3:06
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+61
+When The Red Red Robin Comes Bob Bob Bobbing Along
+by
+Ben Selvin & His Orchestra
+When The Red Red Robin Comes Bob Bob Bobbing Along
+by
+Ben Selvin & His Orchestra
+2:59
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+62
+Hitch Up The Horses
+by
+The Savoy Orpheans
+Hitch Up The Horses
+by
+The Savoy Orpheans
+2:26
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+63
+Breezing Along With The Breeze
+by
+The Revelers
+Breezing Along With The Breeze
+by
+The Revelers
+2:27
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+64
+Who
+by
+Harry Archer & His Orchestra
+Who
+by
+Harry Archer & His Orchestra
+2:52
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+65
+High Up In The Sky
+by
+Bert Maddison Dance Orchestra
+High Up In The Sky
+by
+Bert Maddison Dance Orchestra
+3:25
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+66
+April Showers
+by
+Gene Rodemich'S Orchestra
+April Showers
+by
+Gene Rodemich'S Orchestra
+3:25
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+67
+Hello Sweetie
+by
+B.A Rolfe and His Lucky Strike Orchestra
+Hello Sweetie
+by
+B.A Rolfe and His Lucky Strike Orchestra
+3:04
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+68
+Original Charleston Strut
+by
+Eva Taylor
+Original Charleston Strut
+by
+Eva Taylor
+2:52
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+69
+Who's Sorry Now
+by
+Isham Jones Orchestra
+Who's Sorry Now
+by
+Isham Jones Orchestra
+3:16
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+70
+Together
+by
+Regent Club Orchestra
+Together
+by
+Regent Club Orchestra
+3:04
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+71
+Hitting The Ceiling
+by
+The Piccadilly Players
+Hitting The Ceiling
+by
+The Piccadilly Players
+3:03
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+72
+Somebody Loves Me
+by
+Isabella Patricola
+Somebody Loves Me
+by
+Isabella Patricola
+3:09
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+73
+Make Believe
+by
+Ben Bernie & His Hotel Roosevelt Orchestra
+Make Believe
+by
+Ben Bernie & His Hotel Roosevelt Orchestra
+2:31
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+74
+I Want To Meander In The Meadow
+by
+Phil Spitalny's Music
+I Want To Meander In The Meadow
+by
+Phil Spitalny's Music
+2:48
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+75
+Tip Toe Through The Tulips With Me
+by
+Nick Lucas and His Crooning Troubadors
+Tip Toe Through The Tulips With Me
+by
+Nick Lucas and His Crooning Troubadors
+2:50
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+76
+Nobody's Sweetheart
+by
+Aileen Stanley & Billy Murray
+Nobody's Sweetheart
+by
+Aileen Stanley & Billy Murray
+3:04
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+77
+All By Myself
+by
+Benny Krueger's Orchestra
+All By Myself
+by
+Benny Krueger's Orchestra
+3:07
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+78
+She's Funny That Way
+by
+Ted Lewis & His Band
+She's Funny That Way
+by
+Ted Lewis & His Band
+3:23
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+79
+You Were Meant For Me
+by
+The Capitolians
+You Were Meant For Me
+by
+The Capitolians
+2:44
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+80
+I'll See You In My Dreams
+by
+Ray Miller Orchestra
+I'll See You In My Dreams
+by
+Ray Miller Orchestra
+2:52
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+81
+It Must Be Love
+by
+B.A Rolfe and His Lucky Strike Orchestra
+It Must Be Love
+by
+B.A Rolfe and His Lucky Strike Orchestra
+3:34
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+82
+Wipin' The Pan
+by
+Bennie Stevens and His Orchestra
+Wipin' The Pan
+by
+Bennie Stevens and His Orchestra
+3:17
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+83
+Charleston Baby Of Mine
+by
+the Georgians
+Charleston Baby Of Mine
+by
+the Georgians
+2:58
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+84
+With A Song In My Heart
+by
+Franklyn Baur
+With A Song In My Heart
+by
+Franklyn Baur
+3:05
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+85
+Caressing You
+by
+Mike Speciale & His Orchestra
+Caressing You
+by
+Mike Speciale & His Orchestra
+3:34
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+86
+Seven And Eleven
+by
+The Corona Dance Orchestra
+Seven And Eleven
+by
+The Corona Dance Orchestra
+2:48
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+87
+What Did I Tell Ya
+by
+The Savoy Orpheans
+What Did I Tell Ya
+by
+The Savoy Orpheans
+3:07
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+88
+Dance Little Lady
+by
+B.A Rolfe and His Lucky Strike Orchestra
+Dance Little Lady
+by
+B.A Rolfe and His Lucky Strike Orchestra
+3:14
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+89
+All Alone
+by
+Lewis James
+All Alone
+by
+Lewis James
+3:14
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+90
+Button Up Your Overcoat
+by
+Waring's Pennsylvanians
+Button Up Your Overcoat
+by
+Waring's Pennsylvanians
+3:04
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+91
+That's Him Now
+by
+The Seven Blue Babies
+That's Him Now
+by
+The Seven Blue Babies
+3:40
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+92
+Where The Shy Violets Grow
+by
+H Oresta & His Queensland Orchestra
+Where The Shy Violets Grow
+by
+H Oresta & His Queensland Orchestra
+3:15
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+93
+Give Your Little Baby Lots Of Loving
+by
+The Seven Blue Babies
+Give Your Little Baby Lots Of Loving
+by
+The Seven Blue Babies
+3:37
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+94
+Jig Walk
+by
+The Savoy Orpheans
+Jig Walk
+by
+The Savoy Orpheans
+3:12
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+95
+I'll Get By
+by
+B.A Rolfe and His Lucky Strike Orchestra
+I'll Get By
+by
+B.A Rolfe and His Lucky Strike Orchestra
+3:12
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+96
+My Wife Is On A Diet
+by
+Harry Hudson and His Melody Men and Leslie Sarony
+My Wife Is On A Diet
+by
+Harry Hudson and His Melody Men and Leslie Sarony
+2:41
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+97
+It All Depends On You
+by
+Fred Rich & His Hotel Astor Orchestra
+It All Depends On You
+by
+Fred Rich & His Hotel Astor Orchestra
+3:03
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+98
+Charleston Mad
+by
+Lovie Austin & Her Serenaders
+Charleston Mad
+by
+Lovie Austin & Her Serenaders
+2:37
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+99
+Building A Nest For Mary
+by
+Al Friedman & His Orchestra
+Building A Nest For Mary
+by
+Al Friedman & His Orchestra
+3:12
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+100
+Happy Days Are Here Again
+by
+Johnny Marvin & Leonard Joy Orchestra
+Happy Days Are Here Again
+by
+Johnny Marvin & Leonard Joy Orchestra
+2:21
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Customers Also Bought These Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+Ultimate Great Gatsby 1920s Pa...
+Various artists
+18
+Stream
+or buy for
+$6.99
+check if each carouselCard is Platinum or Prime
+Vintage Music: Original Classi...
+Various
+118
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Roaring '20s Jazz
+Various artists
+5
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+101 Hits - Swing Essentials
+Various artists
+58
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+The Naughty 1920s: Red Hot & R...
+Various artists
+41
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+The Naughty 1920s: Red Hot & R...
+Various artists
+35
+Stream
+or buy for
+$6.99
+check if each carouselCard is Platinum or Prime
+The Very Best of the 40s
+Various artists
+3
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Cheek to Cheek
+Vince Giordano And The Nighthawks
+11
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Great Gatsby Swing Party Class...
+Various artists
+2
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Wonderful Nonsense : Fun Songs...
+Various artists
+11
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Original Dance Music of the 19...
+Various artists
+25
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Greatest Hits
+Glenn Miller
+258
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Great 1920s & Gatsby Swing...
+Various artists
+4
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+The Best of 30's Victor (Doxy ...
+Various artists
+Stream
+or buy for
+$3.49
+check if each carouselCard is Platinum or Prime
+20s, 30s, 40s & 50s Music - Gr...
+Romantic Music Ensemble
+5
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Music of the Cotton Club
+Vince Giordano And The Nighthawks
+2
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Quality Shout
+Vince Giordano's Nighthawks
+14
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Big Broadcast, Vol. 10: Ja...
+Various artists
+3
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Big Broadcast, Vol. 9
+Various artists
+4
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Essential Benny Goodman
+Benny Goodman
+42
+Stream
+or buy for
+$14.99
+check if each carouselCard is Platinum or Prime
+Music of the Lost Generation 1...
+Various artists
+2
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Favorites of the Roaring Twenties
+Various artists
+20
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+75 Original Great Performances...
+Fats Waller
+4
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+The Big Broadcast, Vol. 3: Jaz...
+Various artists
+6
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Big Broadcast, Volume 2: J...
+Various artists
+6
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Big Broadcast, Volume 1: J...
+Various artists
+8
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Big Broadcast, Volume 7: J...
+Various artists
+5
+Stream
+or buy for
+$8.99
+Next
+Product details
+Original Release Date:
+January 1, 2012
+Release Date:
+January 1, 2012
+Label:
+NFM
+Copyright:
+℗© NFM
+Total Length:
+5:16:51
+Genres:
+Jazz
+>
+Swing Jazz
+ASIN:
+B00DIHWQBI
+Average Customer Review:
+4.6 out of 5 stars
+10 customer reviews
+Amazon Best Sellers Rank:
+#18,278 Paid in Albums (
+See Top 100 Paid in Albums
+)
+#18
+in
+Digital Music
+>
+Albums
+>
+Jazz
+>
+Swing Jazz
+Customer Reviews
+4.6 out of 5 stars
+10
+4.6 out of 5 stars
+5 star
+70%
+4 star
+20%
+3 star
+10%
+2 star
+0%
+1 star
+0%
+Share your thoughts with other customers
+Write a customer review
+See all verified purchase reviews
+Top Customer Reviews
+5.0 out of 5 stars
+Huge selection of classic tunes for a low price
+By
+Chris Boylan
+VINE VOICE
+on December 5, 2013
+Format: MP3 Music
+|
+Verified Purchase
+Excellent value for a huge number of popular tracks from the 1920s.  It's amazing how many of the songs from this era are still popular today ("Yes Sir, That's My Baby," "Singing in the Rain," "Ain't Misbehavin" just to name a few).
+We got it for a 20s era gangster/moll-themed Halloween party and it was a big hit. I just mixed in a minute or two of "The Charleston" or "I Wanna Be Loved By You" or some of the other tunes in with modern music and the ladies would run out and do a few classic moves with their flapper wigs and gowns.
+In terms of sound quality, it's reasonably clean.  These are older recordings so you're not going to get a lot of dynamic range or stereo imaging. But the tape hiss is pretty cleaned up without too many digital artifacts. For the quality and selection of the music itself, this is definitely a 5-star album.
+Read more
+0
+Comment
+|
+8 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+4.0 out of 5 stars
+all in all if you are into 20s this is a nice collection. I will probably also buy the Boardwalk ...
+By
+Gene
+on October 23, 2015
+Format: MP3 Music
+|
+Verified Purchase
+Not exactly what I expected, a lot of instrumental pieces not so much vocal. Sound quality is okay, all in all if you are into 20s this is a nice collection.  I will probably also buy the Boardwalk Empire soundtrack (2 volumes).
+Read more
+0
+Comment
+|
+3 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+4.0 out of 5 stars
+Great selection, was perfect for what I needed it ...
+By
+Matthew N DiAno
+on April 26, 2016
+Format: MP3 Music
+|
+Verified Purchase
+Great selection, was perfect for what I needed it for...seating, cocktail and dinner music for a wedding.  The B&G; were havinga Roaring 20's themed party, and they were VERY happy with the music!
+Sound quality suffers on some tracks, but this is either done on purpose, to give it the era feeling, or whoever produced this collection sucks in post!  Either way, very satisfied.  Would recommend!!
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Musical fun for everyone
+By
+Amazon Customer
+on April 22, 2015
+Format: MP3 Music
+|
+Verified Purchase
+I wasn't born until more than 20 years from then, but this was the best fun..I knew many of the songs from the old movies. If you want to have fun and dance, this is the one for you.
+Read more
+0
+Comment
+|
+One person found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Back to the past
+By
+willis
+on April 10, 2015
+Format: MP3 Music
+|
+Verified Purchase
+The quality of the recordings is good considering the ancient, my age, recording practices. The mix is broad and there is something for everyone.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Great songs, great pricing, professionally done!
+By
+wyngate1
+on March 10, 2016
+Format: MP3 Music
+|
+Verified Purchase
+Hits from this era well done!
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Five Stars
+By
+Amazon Customer
+on April 6, 2016
+Format: MP3 Music
+|
+Verified Purchase
+Great variety of music.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+3.0 out of 5 stars
+Three Stars
+By
+Indy Mog
+on September 7, 2015
+Format: MP3 Music
+|
+Verified Purchase
+Okay the sound quality is not bad, which I did not expect.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Most Recent Customer Reviews
+5.0 out of 5 stars
+Roaring 20's music
+It is an amazing collection.
+Read more
+Published 1 year ago by Barry J
+5.0 out of 5 stars
+Best dance music
+Best dance music
+Read more
+Published 1 year ago by Rose one of the best , heartfelt, and realistically portrayed stories I have read.
+Search Customer Reviews
+Search
+What other items do customers buy after viewing this item?
+Ultimate Great Gatsby 1920s Party! - The Very Best Roaring 20s Swing Party Hits Album! (Deluxe Charleston Edition)
+Various artists
+4.5 out of 5 stars
+18
+$6.99
+Charleston
+Paul Whiteman & His Orchestra
+4.6 out of 5 stars
+3
+$0.89
+Vintage Music: Original Classics from the 1920s and 1930s
+Various
+4.6 out of 5 stars
+117
+$5.99
+The Great 1920s & Gatsby Swing 20s Classics – the Very Best Classic Swingin' Speakeasy Jazz Hits from the Gatsby Inspired
+Various artists
+4.5 out of 5 stars
+4
+$7.99
+Look for similar items by category
+Jazz
+>
+Swing Jazz
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+Sell Your Subscription on Amazon
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Subscribe with Amazon
+Discover & try
+subscription services
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-yDjW/VP5JGMX6gufIcY0sDnS74RS5RGhbnYkuZwGce8MWhkW9KO8/N6uJHL8CFl6 rid-34DF9QHNKXFNNCW2D7TS

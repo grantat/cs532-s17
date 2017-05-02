@@ -1,0 +1,448 @@
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+Digital Music
+:
+"Jazz_Holdouts_-_Simple_Things"
+"Jazz_Holdouts_-_Simple_Things"
+Go
+Cancel
+Introducing Amazon Music Unlimited. Listen to any song, anywhere.
+Learn More about Amazon Music Unlimited
+Albums
+Simple Things
+by
+Jazz Holdouts
+Listen with Unlimited
+or buy MP3 album for
+$0.99
+Songs
+Showing 1 Result
+Previous
+Play all
+Next
+Play all samples
+MP3
+Now Playing
+Paused
+Loading.........
+Unavailable
+Loading.........
+Volume slider
+Mute/Unmute
+To stream samples, javascript must be enabled.
+To view this content, download
+Flash player
+(version 9.0.0 or higher)
+Sort by
+Relevance
+Featured
+Song Title: A to Z
+Song Title: Z to A
+Artist: A to Z
+Artist: Z to A
+Album: A to Z
+Album: Z to A
+Time: Short to Long
+Time: Long to Short
+Price: Low to High
+Price: High to Low
+Avg. Customer Review
+Release Date
+Song Title
+Artist
+Album
+Time
+Play
+Simple Things
+Jazz Holdouts
+Simple Things
+4:01
+In MP3 cart
+$0.99
+Sponsored Links
+(
+What's this?
+)
+Ad feedback
+START SPONSORED LINKS SCRIPT
+END SPONSORED LINKS SCRIPT
+we want to turn on the wayfinding HRs if Flash is enabled. See WL SEARCH_65863.
+keep track of the boundary of category vs non-category refinements. If the section dividers are turned on, we will insert an <hr> at these boundaries
+Show results for
+Category
+Albums
+Songs
+Amazon Prime
+Amazon Music
+Amazon Music Unlimited
+Recently Added to Prime
+Last 60 Days
+(2)
+Any Department
+Digital Music
+Jazz
+(2)
+Refine by
+Avg. Customer Review
+4 Stars & Up
+& Up
+(2)
+3 Stars & Up
+& Up
+(2)
+2 Stars & Up
+& Up
+(2)
+1 Star & Up
+& Up
+(2)
+<div id="rhsAjax">
+    <script>
+
+
+amzn.sx.utils.jsDepMgr.when("jQuery", "RhsVisibilityNext-hide", function($) {
+    $('#resultsCol').removeClass('showRightCol');
+    $('#centerMinus').removeClass('leftCol');
+    $('#centerBelowPlus').removeClass('leftCol');    
+    $('#paRightContent').hide();
+    if (typeof atfAdAsinList !== 'undefined') {
+        atfAdAsinList = undefined;
+    }
+});
+</script>
+</div>
+<h2 class="noResults" id="resultCount"><b>&nbsp;</b>
+                    </h2>
+<div id="search-help-content"></div>
+<div id="desktop-auto-sparkle">
+    </div>
+<div id="bcDiv">
+    <h1 id="breadCrumb">
+    <a href="/s/ref=sr_hi_1/131-0913576-6488551?rh=n%3A163856011%2Ck%3AJazz_Holdouts_-_Simple_Things&amp;keywords=Jazz_Holdouts_-_Simple_Things&amp;ie=UTF8&amp;qid=1493692353">Digital Music</a>
+        <span>&#8250;</span>
+    <a href="/s/ref=sr_hi_2/131-0913576-6488551?rh=n%3A163856011%2Cp_n_feature_browse-bin%3A625151011%2Ck%3AJazz_Holdouts_-_Simple_Things&amp;keywords=Jazz_Holdouts_-_Simple_Things&amp;ie=UTF8&amp;qid=1493692353">Songs</a>
+        <span>&#8250;</span>
+    <span id="bcJSnonCompatible" class="bcJSnonCompatible">
+                        &#034;Jazz_Holdouts_-_Simple_Things&#034;</span>
+                    <span id="bcSpan" class="bcSpan">
+                        <div class="bcKw bcLotPadding" id="bcNonEdit">
+                            <a href="javascript:void(0)" id="bcKwText">&#034;Jazz_Holdouts_-_Simple_Things&#034;</a>
+                            <input type="image" class="srSprite" id="bcRemoveKwButton" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._CB386942464_.gif"/>
+                        </div>                        
+                        
+                        <div class="bcKw bcLotPadding" id="bcEdit" data-normalizedURL="/s/ref=sr_hi_3/131-0913576-6488551?rh=n%3A163856011%2Cp_n_feature_browse-bin%3A625151011&amp;ie=UTF8&amp;qid=1493692353">
+                            <input type="text" id="bcNewKw" class="bcNewKw"/>
+                            <input type="image" alt="Go" title="Go" class="srSprite bcGoButton" id="bcGoButton" src="https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._CB386942464_.gif"/>
+                            <a href="javascript:void(0)" class="bcCancelEdit" id="bcCancelEdit">Cancel</a>
+                        </div>
+                    </span>
+                    <noscript>
+                    <style type="text/css">
+                      #bcSpan{display:none;} 
+                      #bcJSnonCompatible {display:inline;}
+                    </style>
+                    </noscript>
+                </h1>
+</div>
+
+<br class="unfloat" />
+<div id="didYouMean"></div>
+<div id="mp3AlbumsBar"></div>
+<div id="quartsPagelet"></div>
+<div id="apsRedirectLink"></div>
+<div id="fkmr-redirect-header"></div>
+<div id="browse-ladder-climbing-header"></div>
+<div id="past-purchase"></div>
+<div id="buy-it-again"></div>
+<div id="wishlist"></div>
+<div id="repeatpurchases"></div>
+<div id="bestRefinement"></div>
+btf pilu
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+btf tilu
+<div id="main" skeleton-key="results--searchTemplate spreadsheetLayout so_us_en--left-nav--shopping-engine" class="nav_redesign s-left-nav-rib-redesign" data-app="gp/search" data-page="results" data-page-construction="auisearch">
+    <div id="topStatic"></div>      
+    <div id="top">
+        <div id='sprGradient' class='srSprite spr_gradient'>&nbsp;</div>
+    </div>
+    <div id="searchTemplate" class="searchTemplate spreadsheetLayout so_us_en">
+        <div id="topDynamicContent"></div> 
+        <div id="rightContainerATF">
+            <div id="rightResultsATF">
+                <div id="widthPreserver"></div>
+                <div id="centerPlus"></div>
+                <div id="rhsAjax"></div>     
+                <div id="resultsCol">
+                    <div id="centerMinus"></div>             
+                    <div id="js-boot-btf"></div>
+                    <div id="paRightContent" class="rightCol"></div>
+                    <div id="centerBelowPlus"></div>
+                </div>
+                <div id="centerBelowMinus"></div>
+                <div id="centerBelowExtra">
+                    <div id="centerBelowExtra1"></div>
+                    <div id="centerBelowExtraSponsoredLinks"></div>
+                    <div id="centerBelowExtraHowsMySearch"></div>
+                    <div id="centerBelowExtra2"></div>
+                    <div id="centerBelowExtra3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="leftNav">
+            <div id="leftNavPrefix"></div>
+            <div id="leftNavContainer" style="visibility:hidden"></div> <div id="leftNavPostfix"></div>
+            <div id="leftNavAdvertising"></div>
+        </div>  
+        <div id="js-boot-leftnav"></div>
+        <div id="ajaxData"></div>
+
+        <div id="js-boot-final"></div>
+    </div>
+</div>
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+footer pilu
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-Dx0Xdfbu/OPwBW+iEhcbgJW0cRE7q551lPu2BD6Et0SbTUUB33bvZjAjqtI2kN05YSj0OsR+ZJE= rid-3HA7MAV9H4T6D2FC86HK
+footer tilu

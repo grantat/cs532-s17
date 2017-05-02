@@ -1,0 +1,154 @@
+[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js"></script><![endif]
+Google Tag Manager
+End Google Tag Manager
+17520
+connectés
+melty
+fan2
+virginradio
+Instagram
+Twitter
+Facebook
+Mobile
+Fréquences
+Connecte toi
+Musique
+Radio
+Actualités
+Podcasts
+Programmes
+TV
+Jeux
+Vidéos
+Programmes
+Fréquences
+Jeux-concours
+Virgin Radio sur mobile
+Web Radios
+Le Break
+Virgin Radio
+Musique
+Nos web radios
+Virgin Radio
+Virgin Radio
+Hits
+Virgin Radio
+New
+Virgin Radio
+Classics
+Virgin Radio
+Electroshock
+Virgin Radio
+Rock
+Virgin
+Tonic Radio
+Liste des fréquences radio
+Partage ce que tu écoutes
+Partage ça avec tes potes Facebook
+Partage ça avec tes followers
+Copier le code embed
+Jamiroquai
+Jamiroquai dévoile son nouveau single "Automaton"
+Publié il y a 94 jours
+Publié le 27 janv. 2017 15:48:01
+Ecrit par
+Hélène C.
+1
+Jamiroquai est de retour avec une flopée de bonnes nouvelles : un nouveau single Automaton, l’annonce de la date de sortie de son nouvel album et un concert prévu à Paris !
+La semaine dernière, vous n’avez pas pu passer à côté de la mise en ligne du (court)
+teaser du nouvel album de Jamiroquai et l’annonce de leur participation à Musilac 2017
+. Le groupe anglais n’avait plus donné signe de vie depuis leur dernier album
+Rock Dust Light Star
+en 2010, soit depuis sept ans. Jay Kay et sa bande ont toujours su se renouveler au fil des albums, d’un style acid jazz pour les 3 premiers albums, le collectif est passé à des sonorités plus disco, funk et électro pour les suivants. Aujourd’hui en 2017, pour la sortie de leur prochain album
+Automaton
+le 28 mars prochain, la petite bande a l’air de s’orienter vers un style beaucoup plus électro si on en croit le premier single éponyme qui vient d’être dévoilé.
+On écoute
+Automaton
+, le nouveau titre électrique de Jamiroquai !
+Quelques jours avant la sortie du huitième album de Jamiroquai,
+le groupe sera en concert à la Salle Pleyel le 28 mars à Paris
+pour une date exceptionnelle où le public aura certainement la chance de découvrir quelques titres d'
+Automaton
+avant tout le monde, et bien sûr de retrouver en live
+Cosmic Girl
+,
+You Give Me Something
+,
+Virtual Insanity
+et tous leurs plus gros tubes. La mise en vente des places est prévue pour ce vendredi 3 février et vous avez tout intérêt d’être très rapides, les Britanniques n’ont annoncé que deux concerts cette année en France, en tête d’affiche du festival Musilac 2017 et celle-ci dans la capitale !
+Automaton
+est par ailleurs disponible en précommande
+par ici
+.
+Partager sur Facebook
+Partager sur Twitter
+Jamiroquai
+Discuter
+Jamiroquai : Cloud 9, le nouveau titre funky dévoilé
+Jamiroquai : Cloud 9, le clip avec Monica Cruz dévoilé
+Virgin Friday : Cloud 9, le nouveau single de Jamiroquai en écoute toute la journée sur Virgin Radio
+Plus d'actu sur
+Jamiroquai
+melty.fr
+Ed Sheeran de retour, il dévoile le titre de son album et un extrait de son nouveau single
+1 commentaire
+Envoyer
+<li>
+<time>
+&agrave; l'instant
+</time>
+<span class="disp">
+<span class="img">
+<img src="<%=Melty.media.URI({id:data.id_galerie_media,type:'membre',size:'32',fingerprint:data.fingerprint_media})%>">
+</span>
+</span>
+<b><%=data.login%></b>
+<%=data.texte%>
+</li>
+Toujours plus de news sur virginradio
+Musique
+The Vamps : "Middle Of The Night", le nouveau single dévoilé
+Musique
+Julien Doré : Son playback hilarant sur Laura Pausini (vidéo)
+Musique
+Adele : Damon Albarn déclare qu&apos;il ne travaillera jamais avec elle
+Musique
+Stromae, Gorillaz, Metallica... les news musique de la semaine
+Musique
+Vianney, Jamiroquai, Vitalic... Les concerts de mars à ne pas manquer à Paris
+Encore plus d'actu sur Jamiroquai
+Jamiroquai : Cloud 9, le nouveau titre funky dévoilé
+<span class="h2"><%=Melty.conf.trans('Sur')%> <a href="<%=data.url_world_index%>" _gae="aRelative.go" _gae_title="world"><%=data.nom_world%></a></span>
+<a href="<%=data.url_article%>" class="disp" _gae="aRelative.go" _gae_title="avatar"><img width="110" height="63" src="<%=Melty.media.URI({id: data.id_galerie_media,size: 110})%>" /></a>
+<div class="bContent">
+<a href="<%=data.url_article%>" class="title" _gae="aRelative.go" _gae_title="title"><%=data.titre%></a>
+</div>
+<a href="<%=data.url_article%>" class="next"><i></i><%=data.alt_url%></a>
+<div class="cleaner"></div>
+<div class="actions">
+<a class="button go" href="<%=data.url_article%>" _gae="aRelative.go" _gae_title="button"><%=Melty.conf.trans('Lire la news')%></a>
+<a class="button grey" href="#" onclick="Melty.article.relativeNoInterest.call(this);" _gae="aRelative.close" _gae_title="button"><%=Melty.conf.trans('Ça ne m\'intéresse pas')%></a>
+</div>
+© 2017 meltygroup
+Qui sommes-nous
+Nous contacter
+Nous suivre
+Annoncer
+Conditions d'utilisation
+Infos légales
+Version mobile
+Galaxie
+virginradio
+melty France
+meltyfashion
+meltystyle
+fan2
+melty Italie
+mcm
+airofmelty
+melty US / UK
+melty Canada (Anglais)
+melty Canada (Français)
+tyramisu
+17 520
+Connectés

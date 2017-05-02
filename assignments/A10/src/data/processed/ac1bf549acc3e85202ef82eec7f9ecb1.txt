@@ -1,0 +1,19 @@
+Nav Env: live
+Analytics Web Module: 63
+NavID Web Module: 0.2.0-143
+Searchbox Web Module: 126
+Promo Web Module: 0.0.0-174.b4d6704
+[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="//nav.files.bbci.co.uk/orbit/1.0.0-446.79109ec/css/orb-ie-ltr.min.css">
+    <![endif]
+orb/api must be in the HEAD while the rest of orb.js should be at end of BODY
+[if IE 8]><link href="//static.bbc.co.uk/id/0.37.23/style/ie8.css" rel="stylesheet"/> <![endif]
+[if IE 8]>
+  <script type="text/javascript" src="//nav.files.bbci.co.uk/searchbox/1.0.0-126/script/html5shiv.min.js"></script>
+  <script type="text/javascript">window['searchboxIEVersion'] = 8;</script>
+  <link rel="stylesheet" href="//nav.files.bbci.co.uk/searchbox/1.0.0-126/css/ie8.css">
+<![endif]
+[if IE 9]>
+  <script type="text/javascript">window['searchboxIEVersion'] = 9;</script>
+<![endif]
+BBCDOTCOM head

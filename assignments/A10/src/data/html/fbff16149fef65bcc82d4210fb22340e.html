@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html data-ng-app="MainSiteModule" data-ng-controller="MainController" class="{{mainViewModel.htmlClass}}" data-ng-class="{ios: mainViewModel.isIos, 'now-playing-open':nowPlayingViewModel.isOpen, 'miniplayer-visible':!nowPlayingViewModel.isHidden}">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no, minimal-ui">
+
+
+	
+	<base href="/app/" />
+	
+	<link rel="canonical" href='http://www.clammr.com/app/clammr/176679' />
+	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+
+	
+
+	<meta name="twitter:card" content="player">
+	<meta name="twitter:site" content="ClammrApp">
+	<meta name="twitter:title" content="Back to Black (My Heart to Yours)">
+	<meta name="twitter:description" content="Back to Black
+My Heart to Yours
+Marlena
+
+#MyHearttoYours 
+via #Clammr to ">
+	<meta name="twitter:image" content="https://d3dv2i7b772199.cloudfront.net/uploads/audio_image/large/clmmrImage_1c4d14b47ca14a98b570a2e72a398d0a.jpg">
+	<meta name="twitter:player" content='https://www.clammr.com/player/embed?clammrId=176679'>
+	<meta name="twitter:player:width" content="460">
+	<meta name="twitter:player:height" content="460">
+
+
+	<meta property="fb:app_id" content="786009991441722">
+	<meta property="og:title" content="Back to Black (My Heart to Yours)">
+	<meta property="og:site_name" content="Clammr">
+	<meta property="og:url" content="http://www.clammr.com/app/clammr/176679">
+	<meta property="og:description" content="Back to Black
+My Heart to Yours
+Marlena
+
+#MyHearttoYours 
+via #Clammr to ">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://d3dv2i7b772199.cloudfront.net/uploads/audio_image/clmmrImage_1c4d14b47ca14a98b570a2e72a398d0a.jpg">
+	<meta property="og:video" content='http://www.clammr.com/Content/flowplayer/flowplayer-3.2.18.swf?config={"clip":{"coverImage":{"url":"https://d3dv2i7b772199.cloudfront.net/uploads/audio_image/clmmrImage_1c4d14b47ca14a98b570a2e72a398d0a.jpg","scaling":"fit"},"url":"https://d3dv2i7b772199.cloudfront.net/uploads/audiofile/clammr_8b8d523a37ab41448877bc416e581779.mp3","provider":"audio","autoPlay":true},"plugins":{"controls":{"url":"http://www.clammr.com/Content/flowplayer/flowplayer.controls-3.2.16.swf","all":false,"play":true,"scrubber":true,"volume":false,"mute":false,"fastFoward":false,"slowFoward":false,"fullscreen":false,"autoHide":false},"audio":{"url":"http://www.clammr.com/Content/flowplayer/flowplayer.audio-3.2.11.swf"}}}'>
+	<meta property="og:video:secure_url" content='https://www.clammr.com/Content/flowplayer/flowplayer-3.2.18.swf?config={"clip":{"coverImage":{"url":"https://d3dv2i7b772199.cloudfront.net/uploads/audio_image/clmmrImage_1c4d14b47ca14a98b570a2e72a398d0a.jpg","scaling":"fit"},"url":"https://d3dv2i7b772199.cloudfront.net/uploads/audiofile/clammr_8b8d523a37ab41448877bc416e581779.mp3","provider":"audio","autoPlay":true},"plugins":{"controls":{"url":"https://www.clammr.com/Content/flowplayer/flowplayer.controls-3.2.16.swf","all":false,"play":true,"scrubber":true,"volume":false,"mute":false,"fastFoward":false,"slowFoward":false,"fullscreen":false,"autoHide":false},"audio":{"url":"https://www.clammr.com/Content/flowplayer/flowplayer.audio-3.2.11.swf"}}}'>
+	<meta property="og:video:type" content="application/x-shockwave-flash">
+	<meta property="og:video:height" content="280">
+	<meta property="og:video:width" content="280">
+
+
+	<title data-ng-bind="mainViewModel.navTitle">Back to Black (My Heart to Yours) - Clammr</title>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/Content/css?v=4HQ_GiiW-s9C2JjMCILLVccC0GTbrvIH0Fjpt2nPVRA1" rel="stylesheet"/>
+
+
+	
+	
+
+
+	<script src="/bundles/core?v=fQzlTq9PqFg9RMIQR54hs_sQ1AQCyHGPYQDchBthrYU1"></script>
+
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/android-chrome-manifest.json">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+	
+<script type="text/javascript">
+    $(function () {
+        mainSite.Constants.clammrDefaultImageUrl = "/content/images/default-clammr-280.png";
+        mainSite.Constants.clammrDefaultImageLargeUrl = "/content/images/default-clammr-640.png";
+        mainSite.Constants.userDefaultImageUrl = "http://fpoimg.com/280x280";
+        mainSite.Constants.userDefaultImageThumbUrl = "/content/images/default_user_photo@2x.png";
+        mainSite.Constants.userDefaultImageLargeUrl = "http://fpoimg.com/280x280";
+        mainSite.Constants.channelDefaultImageUrl = "http://fpoimg.com/640x640";
+        mainSite.Constants.channelDefaultImageThumbUrl = "/content/images/default_channel_photo@2x.png";
+        mainSite.Constants.mainSiteUrl = "http://www.clammr.com";
+        mainSite.Constants.interstitialAudioUrl = "https://d3dv2i7b772199.cloudfront.net/assets/default_audio_logo.mp3";
+        mainSite.Constants.aesPassphrase = "clammr";  //nothing sensitive is being used with this
+        mainSite.Constants.googleAnalyticsExperimentIdSmartShuffle = "PMIhtGQqSb2t10oR0MngFQ";
+        mainSite.Constants.soundCloudConsumerKey = "c5c2557522ed9c597ff56ac68f623ab0";
+    });
+</script>
+	
+<meta name="apple-itunes-app" content="app-id=927556526">
+	<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+</head>
+<body>
+    <div class="webapp">
+
+        
+        <div class="navbar navbar-clammr navbar-fixed-top" data-ng-hide="mainViewModel.hideTopNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#leftNav" data-placement="left">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <div class="logo">
+                        <a href="/app" target="_self" class="img"><img src="/content/images/logo_red_black.png" /></a>
+                        
+                    </div>
+                    <span class="external-title" data-ng-hide="mainViewModel.hideSubtitle" data-ng-bind="mainViewModel.navSubtitle"></span>
+
+                </div>
+            </div>
+            <div class="loading-bar-container">
+                <div data-ng-class="{'loading-bar' : mainLoaderViewModel.isLoading}"></div>
+            </div>
+        </div>
+
+
+        <div class="container body-content">
+            <div class="row">
+
+                
+                <div class="col-md-4 col-leftnav" data-ng-hide="mainViewModel.hideLeftNav">
+                    <offcanvas data-ng-controller="LeftNavController" id="leftNav" data-toggle="false" data-canvas="body" class="offcanvas-sm leftnav" role="navigation">
+
+                        <div class="navmenu navmenu-default">
+                            <div class="navmenu-content">
+
+                                <div data-loader="" data-loader-view-model="leftNavLoaderViewModel"></div>
+
+                                
+                                <section data-ng-cloak="" data-ng-show="leftNavViewModel.isAuthenticated">
+                                    <header class="row">
+                                        <a data-ng-href="{{leftNavViewModel.userViewModel.getUserProfileUrl(false)}}" class="col-xs-12 text-center">
+                                            <span class="user-image">
+                                                <span data-ng-style="{ 'background-image': 'url(' + leftNavViewModel.userViewModel.imageThumbUrl + ')'}"></span>
+                                            </span>
+                                            <h4 class="user" data-ng-bind="leftNavViewModel.userViewModel.userProfileContract.FullName"></h4>
+                                            <span class="username" data-ng-bind="leftNavViewModel.userViewModel.userProfileContract.UserName"></span>
+                                        </a>
+                                    </header>
+
+                                    <div class="counts row">
+                                        <a data-ng-href="{{leftNavViewModel.userViewModel.getUserProfileUrl(false)}}" class="col-xs-4">
+                                            <span data-ng-bind="leftNavViewModel.userViewModel.userProfileContract.ClammrsCreatedCount | abbreviateNumber">0</span>
+                                            <span class="small">Clammrs</span>
+                                        </a>
+                                        <a data-ng-href="{{leftNavViewModel.userViewModel.getUserProfileUrl(false, mainSite.viewModel.UserDetailTabType.Likes)}}" class="col-xs-4">
+                                            <span data-ng-bind="leftNavViewModel.userViewModel.userProfileContract.ClammrsLikedCount | abbreviateNumber">0</span>
+                                            <span class="small">Liked</span>
+                                        </a>
+                                        <a data-ng-href="{{leftNavViewModel.userViewModel.getUserProfileUrl(false, mainSite.viewModel.UserDetailTabType.Playlists)}}" class="col-xs-4">
+                                            <span data-ng-bind="leftNavViewModel.userViewModel.userProfileContract.AssociatedChannelsCount | abbreviateNumber">0</span>
+                                            <span class="small">Playlists</span>
+                                        </a>
+                                    </div>
+
+                                    <ul class="link-list">
+                                        <li>
+                                            <a href="/app">
+                                                <i class="fa fa-home"></i>
+                                                <span>Home</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/app/clammr/save">
+                                                <i class="fa fa-clammr-mic"><img src="/Content/images/webapp/clammr_mic.png" alt="Create" /></i>
+                                                <span>Create</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/app/explore">
+                                                <i class="fa fa-headphones"></i>
+                                                <span>Explore</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/app/search">
+                                                <i class="fa fa-search"></i>
+                                                <span>Search</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" data-ng-click="logout()">
+                                                <i class="fa fa-sign-out"></i>
+                                                <span>Logout</span>
+                                            </a>
+                                        </li>
+
+
+                                        
+
+                                    </ul>
+                                   
+                                    
+
+                                </section>
+
+
+                                
+                                <section data-ng-show="!leftNavViewModel.isAuthenticated">
+                                    <ul class="link-list">
+                                        <li>
+                                            <a href="/app">
+                                                <i class="fa fa-home"></i>
+                                                <span>Home</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/app/clammr/save">
+                                                <i class="fa fa-clammr-mic"><img src="/Content/images/webapp/clammr_mic.png" alt="Create" /></i>
+                                                <span>Create</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/app/explore">
+                                                <i class="fa fa-headphones"></i>
+                                                <span>Explore</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/app/search">
+                                                <i class="fa fa-search"></i>
+                                                <span>Search</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="login">
+                                                <i class="fa fa-sign-in"></i>
+                                                <span>Login</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="user/register">
+                                                <i class="fa fa-user"></i>
+                                                <span>Register</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    
+                                </section>
+
+
+
+                                
+                                <section class="text-center">
+                                    <a href="http://tiny.cc/iTunes-Clammr" target="_blank"><img src='/content/images/apple_store_badge.svg' alt="Download on the Apple App Store" /></a>
+                                </section>
+
+                                <section class="terms-privacy text-center">
+                                    <a href="/" target="_blank">About</a>
+                                    <a href="http://userguide.clammr.com" target="_blank">FAQ</a>
+                                    <a href="/home/contactus" target="_blank">Contact Us</a>
+                                    <a href="http://developers.clammr.com" target="_blank">Developer Resources</a>
+                                    <a href="/app/terms">Terms</a>
+                                    <a href="/app/privacypolicy">Privacy</a>
+                                </section>
+
+                            </div>
+
+                            <div class="blurred-user-image" data-ng-if="leftNavViewModel.isAuthenticated" data-ng-style="{ 'background-image': 'url(' + leftNavViewModel.userViewModel.imageThumbUrl + ')'}"></div>
+
+                        </div>
+
+
+                    </offcanvas>
+                </div>
+                <div class="col-page" data-ng-class=" { 'col-md-8' : !mainViewModel.hideLeftNav, 'col-md-12' : mainViewModel.hideLeftNav }">
+                    
+
+
+
+<div data-ng-view="">
+	
+
+
+
+
+
+<section id="clammr-detail" class="clammr-detail page-rounded" data-ng-cloak="">
+
+    <div class="img" style="background-image: url(https://d3dv2i7b772199.cloudfront.net/uploads/audio_image/large/clmmrImage_1c4d14b47ca14a98b570a2e72a398d0a.jpg)"
+         data-ng-style="{ 'background-image': 'url(' + clammrs.currentItem.imageLargeUrl() + ')'}">
+        <span class="soundwave" data-ng-show="shouldDisplayPaused()"></span>
+
+        <div class="controls" data-ng-cloak="" data-ng-class="{'paused': shouldDisplayPaused()}">
+            <div class="btns">
+                <button class="btn btn-round prev" 
+                        data-ng-hide="!isCurrentStream"
+                        data-ng-class="{'disabled': !playerViewModel.hasPrevious}"
+                        data-ng-click="playerViewModel.playPrevious()"
+                        data-ng-disabled="!isCurrentStream || !playerViewModel.hasPrevious">
+                    <span class="fa fa-angle-left"
+                          data-ng-class="{'disabled': !playerViewModel.hasPrevious}"></span>
+                </button>
+
+                <button class="btn btn-round next" 
+                        data-ng-hide="!isCurrentStream"
+                        data-ng-class="{'disabled': !playerViewModel.hasNext}"
+                        data-ng-disabled="!isCurrentStream || !playerViewModel.hasNext"
+                        data-ng-click="playerViewModel.playNext()">
+                    <span class="fa fa-angle-right"
+                          data-ng-class="{'disabled': !playerViewModel.hasNext}"></span>
+                </button>
+
+                <button class="btn btn-round play-pause" data-ng-class="{'paused': shouldDisplayPaused()}" data-ng-click="playerViewModel.togglePlay(clammrs.currentItem, clammrs)">
+                    <span data-ng-show="shouldDisplayPlay()"><i class="fa fa-play"></i></span>
+                    <span data-ng-show="shouldDisplayPaused()"><i class="fa fa-pause"></i></span>
+                </button>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="play-bar" data-ng-cloak="">
+
+        <div class="controls" ng-class="{ 'full': (!clammrs.currentItem.contract.ExtendedInfoType || clammrs.currentItem.contract.ExtendedInfoType === mainSite.contracts.Audio.ExtendedInfoTypeContract.None || playerViewModel.isExtendedContentPlaying) && !playerViewModel.isExtendedContentPlaying }">
+            
+        </div>
+
+        <div class="action-btn">
+
+            
+            <div class="more"
+                 data-ng-cloak=""
+                 data-ng-class="{ 'small-pad': clammrs.currentItem.contract.ExtendedInfoDuration}"
+                 data-ng-click="playerViewModel.playExtended(clammrs.currentItem, clammrs)"
+                 data-ng-show="shouldDisplayExtendedInfo()">
+
+                <span data-ng-hide="clammrs.currentItem.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Article">
+                    <i class="fa fa-file-text"></i> See More
+                </span>
+                <span data-ng-hide="clammrs.currentItem.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.LongFormMp3"
+                      data-ng-class="{'nudge' : playerViewModel.currentItem.contract.ExtendedInfoDuration}">
+                    <i class="fa fa-rss"></i> Hear More
+                </span>
+                <span data-ng-hide="clammrs.currentItem.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Youtube">
+                    <i class="fa fa-youtube-play"></i> Watch More
+                </span>
+                <span class="hearmore" data-ng-hide="clammrs.currentItem.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Soundcloud">
+                    <i class="fa fa-soundcloud"></i> Hear More
+                </span>
+                <span data-ng-hide="clammrs.currentItem.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.ITunes">
+                    <i class="fa fa-shopping-cart"></i> Get on iTunes
+                </span>
+
+                <div class="time"
+                      data-ng-hide="!clammrs.currentItem.contract.ExtendedInfoDuration"
+                      data-ng-bind="clammrs.currentItem.extendedInfoDurationFormatted"></div>
+            </div>
+
+            
+            <div class="ff-rewind"
+                 data-ng-cloak=""
+                 data-ng-show="isCurrentStream && playerViewModel.isExtendedContentPlaying">
+                <button class="sb" data-ng-click="playerViewModel.stepBack()"><span>15</span></button>
+
+                <button class="speed" data-ng-click="playerViewModel.togglePlaybackRate()"
+                        data-ng-show="!playerViewModel.isYoutubePlaying">
+                    {{playerViewModel.playbackRateFormatted}} <small>SPEED</small>
+                </button>
+
+                <button class="sf" data-ng-click="playerViewModel.stepForward()"><span>15</span></button>
+            </div>
+            <button class="more share-clip"
+                    data-ng-cloak=""
+                    data-ng-show="shouldDisplayClammrIt() && isCurrentStream && playerViewModel.isExtendedContentPlaying"
+                    data-ng-click="clammrIt()">
+                <img src="/Content/images/webapp/clammr_c_white.png" />
+                SHARE CLIP
+            </button>
+        </div>
+
+        
+
+    </div>
+
+    <div class="inline-share-this"
+         data-share-this=""
+         data-clammr-id="clammrs.currentItem.contract.Id"
+         data-share-this-url="clammrs.currentItem.clammrUrl()"
+         data-share-this-title="clammrs.currentItem.contract.Title"></div>
+
+    <div class="action-btns" data-ng-cloak="">
+        <span data-ng-if="mainViewModel.isAuthenticated">
+            <button class="btn btn-link"
+                    data-ng-show="!clammrs.currentItem.contract.Context.IsEchoed"
+                    data-ng-click="playerViewModel.toggleLikeClammr(clammrs.currentItem)"
+                    data-ng-disabled="mainLoaderViewModel.isLoading || clammrs.currentItem.isOwnClammr"
+                    data-ng-class="{liked:clammrs.currentItem.contract.Context.IsEchoed}">
+                <i class="fa fa-heart-o"></i>
+                LIKE
+            </button>
+            <button class="btn btn-link"
+                    data-ng-show="clammrs.currentItem.contract.Context.IsEchoed"
+                    data-ng-click="playerViewModel.toggleLikeClammr(clammrs.currentItem)"
+                    data-ng-disabled="mainLoaderViewModel.isLoading || clammrs.currentItem.isOwnClammr"
+                    data-ng-class="{liked:clammrs.currentItem.contract.Context.IsEchoed}">
+                <i class="fa fa-heart"></i>
+                LIKED
+            </button>
+        </span>
+    </div>
+
+    <header>
+        <div class="pull-right" data-ng-cloak="">
+            <div data-ng-cloak="" class="follow" data-ng-show="shouldDisplayFollow()">
+                <button data-ng-click="toggleFollow()" 
+                        data-ng-show="!clammrs.currentItem.contract.Context.IsCreatorFollowed" 
+                        data-ng-disabled="mainLoaderViewModel.isBusy" 
+                        class="btn btn-follow">
+                    <span>Follow</span>
+                </button>
+                <button data-ng-click="toggleFollow()" 
+                        data-ng-show="clammrs.currentItem.contract.Context.IsCreatorFollowed" 
+                        data-ng-disabled="mainLoaderViewModel.isBusy" 
+                        class="btn btn-follow">
+                    <span>Unfollow</span>
+                </button>
+            </div>
+
+            <div data-ng-hide="!clammrs.currentItem.isOwnClammr">
+                <a class="btn btn-default edit" data-ng-href="{{clammrs.currentItem.editUrl()}}">Edit</a><br />
+
+                <a class="btn btn-clammr edit"
+                   data-ng-if="mainViewModel.isAuthenticated && clammrs.currentItem.isOwnClammr"
+                   data-ng-click="deleteClammr()"
+                   data-ng-disabled="mainLoaderViewModel.isLoading">
+                    Delete
+                </a>
+            </div>
+
+        </div>
+
+        <a class="user-link"
+           href='/app/user/26704'
+           data-ng-href="{{clammrs.currentItem.creatorViewModel.getUserProfileUrl()}}">
+            <img class="user-image img-circle"
+                 src="https://d3dv2i7b772199.cloudfront.net/uploads/member_image/thumbs/userImage_29fe6fc96c0d45159959a25b8558818d.jpg"
+                 data-ng-src="{{clammrs.currentItem.creatorViewModel.imageThumbUrl}}" />
+        </a>
+        <span class="user" data-ng-bind="clammrs.currentItem.creatorViewModel.fullName">Marlena (Official)</span>
+        <span class="username" data-ng-bind="clammrs.currentItem.creatorViewModel.userName">MarlenaRocks1</span>
+        <div data-ng-show="clammrs.currentItem.creatorViewModel.websiteUrl" data-ng-cloak="">
+            <a class="website" data-ng-href="{{clammrs.currentItem.creatorViewModel.websiteUrl}}" target="_blank">My Website</a> <i class="fa fa-angle-right"></i>
+        </div>
+    </header>
+
+    <div class="time-long-ago" data-ng-bind="clammrs.currentItem.timeAgoLong()"></div>
+    <h1 data-ng-bind="clammrs.currentItem.contract.Title">Back to Black (My Heart to Yours)</h1>
+
+    <div class="played-liked">
+        <i class="fa fa-play"></i> <span data-ng-bind="clammrs.currentItem.contract.PlayedCount"></span>
+        <i class="fa fa-heart"></i> <span data-ng-bind="clammrs.currentItem.contract.LikedCount"></span>
+    </div>
+
+    <div class="description">
+        <p data-ng-bind-html="clammrs.currentItem.clammrDescriptionLinkified ">Back to Black
+My Heart to Yours
+Marlena
+
+#MyHearttoYours 
+via #Clammr to </p>
+    </div>
+
+    <div data-ng-hide="!clammrs.items || clammrs.items.length <= 0 || (isLoadedFromState && clammrs.currentIndex + 1 == clammrs.items.length)">
+        <h6 data-ng-cloak="" data-ng-show="isLoadedFromState">UP NEXT</h6>
+        <p><strong data-ng-cloak="" data-ng-show="!isLoadedFromState">More from <span data-ng-bind="clammrs.currentItem.creatorViewModel.fullName"></span></strong></p>
+    </div>
+
+    <hr />
+
+    
+
+
+</section>
+
+</div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar navbar-fixed-bottom ng-cloak"
+             data-ng-class="{'now-playing-open': nowPlayingViewModel.isOpen, 'now-playing-minimized': !nowPlayingViewModel.isOpen }"
+             data-ng-controller="GlobalClammrStreamController"
+             data-ng-hide="nowPlayingViewModel.isHidden">
+
+            <div class="np-full-wrapper">
+                <div class="np-full" data-ng-show="nowPlayingViewModel.isOpen">
+                    <p>
+                        <a class="np-close" data-ng-click="nowPlayingViewModel.close()">
+                            <i class="fa fa-angle-down fa-3x"></i>
+                        </a>
+                    </p>
+
+                    
+                </div>
+
+                <section data-ng-click="redirectToClammrDetails($event)" data-ng-class="{'widget-minimized': !nowPlayingViewModel.isOpen}">
+                    
+
+<div class="widget-embed" data-ng-class="{'is-playing': playerViewModel.isPlaying, 'force-hover': playerViewModel.isYoutubePlaying}">
+	<span style="display:none" data-ng-bind="playerViewModel.currentClammr.contract.Id"></span>
+
+
+    
+    <div class="loading-layer loading" data-ng-show="playerViewModel.isLoading"></div>
+
+
+    
+    <div class="full-player">
+
+        
+        <div class="play-icon-layer"
+			 data-ng-hide="playerViewModel.isPlaying || playerViewModel.isLoading"
+             data-ng-click="playerViewModel.play()">
+            <span class="play-btn">
+                <i class="fa fa-play fa-stack-1x fa-inverse"></i>
+            </span>
+        </div>
+
+
+        
+		<a class="user-detail-layer"
+		              data-ng-show="playerViewModel.isPlaying"
+           data-ng-href="{{playerViewModel.currentClammr.getClammrUrl(false)}}">
+        </a>
+
+
+        
+        <div class="top">
+            <div class="user">
+				<a data-ng-href="{{playerViewModel.currentClammr.creatorViewModel.getUserProfileUrl(false)}}"
+				   href='/app/user'
+				   target=""
+				   data-ng-click="nowPlayingViewModel.close();">
+
+					<img class="userimage" data-ng-src="{{playerViewModel.currentClammr.creatorViewModel.imageThumbUrl}}" src="" />
+
+				</a>
+                
+                <span class="name" data-ng-bind="playerViewModel.currentClammr.creatorViewModel.fullName"></span>
+                <span class="username" data-ng-bind="playerViewModel.currentClammr.creatorViewModel.userName"></span>
+            </div>
+
+            <div class="clammr-logo">
+                <a href="/" target="">
+                    <img src='/content/images/clammr_logo_dropshadow.png'>
+                </a>
+            </div>
+        </div>
+        <div class="share-this" 
+             data-ng-hide="!playerViewModel.currentClammr"
+             data-share-this="" 
+             data-clammr-id="playerViewModel.currentClammr.contract.Id"
+             data-share-this-url="playerViewModel.currentClammr.clammrUrl()" 
+             data-share-this-title="playerViewModel.currentClammr.contract.Title"></div>
+
+
+	    
+        <div class="description">
+            <h3 data-ng-bind="playerViewModel.currentClammr.contract.Title"></h3>
+            <div class="plays-likes">
+                <span data-ng-bind="playerViewModel.currentClammr.contract.PlayedCount"></span> <label>plays</label>
+                <span data-ng-bind="playerViewModel.currentClammr.contract.LikedCount"></span> <label>likes</label>
+            </div>
+
+            <div class="play-controls">
+                <div class="play-control"
+                     data-ng-class="{'disabled': !playerViewModel.hasPrevious}"
+                     data-ng-click="playerViewModel.playPrevious()">
+                    <a class="fa fa-backward prev"
+                       data-ng-class="{'disabled': !playerViewModel.hasPrevious}"></a>
+                </div>
+
+                <div class="play-control large"
+                     data-ng-click="playerViewModel.togglePlay()">
+                    <a class="fa play-pause"
+                       data-ng-class="{'fa-play': (!playerViewModel.isPlaying || playerViewModel.isPaused), 'fa-pause': !playerViewModel.isPaused}">
+                    </a>
+                </div>
+
+                <div class="play-control"
+                     data-ng-class="{'disabled': !playerViewModel.hasNext}"
+                     data-ng-click="playerViewModel.playNext()">
+                    <a class="fa fa-forward next"
+                       data-ng-class="{'disabled': !playerViewModel.hasNext}"></a>
+                </div>
+
+                <div class="more"
+                     
+                     data-ng-hide="!playerViewModel.currentClammr.contract.ExtendedInfoType
+						|| playerViewModel.currentClammr.contract.ExtendedInfoType === mainSite.contracts.Audio.ExtendedInfoTypeContract.None
+						|| playerViewModel.isExtendedContentPlaying"
+                     data-ng-click="playerViewModel.playExtended(playerViewModel.currentClammr)">
+
+                    <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Article"><i class="fa fa-file-text"></i> See More</span>
+                    <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.LongFormMp3"
+                          data-ng-class="{'nudge' : playerViewModel.currentClammr.contract.ExtendedInfoDuration}"><i class="fa fa-rss"></i>Hear More</span>
+                    <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Youtube"><i class="fa fa-youtube-play"></i> Watch More</span>
+                    <span class="hearmore" data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Soundcloud"><i class="fa fa-soundcloud"></i> Hear More</span>
+                    <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.ITunes"><i class="fa fa-shopping-cart"></i> Get on iTunes</span>
+
+					<span class="time" data-ng-hide="!playerViewModel.currentClammr.contract.ExtendedInfoDuration" data-ng-bind="playerViewModel.currentClammr.extendedInfoDurationFormatted"></span>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        
+        <div class="image" 
+			 style="background-image: url()"
+			 data-ng-style="{ 'background-image': 'url(' + playerViewModel.currentClammr.imageLargeUrl() + ')'}"></div>
+
+
+        
+        <div id="youtube-player-container" data-ng-hide="!playerViewModel.isYoutubePlaying">
+            <div id="youtube-player"></div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" ng-style="{width: playerViewModel.playPositionPercent}"></div>
+        </div>
+
+    </div>
+
+
+
+    
+    <div class="mini-player">
+        <div class="inner">
+            <div class="inner-row container">
+
+
+                
+
+
+                <div class="audio-img">
+                    <a data-ng-click="redirectToClammrDetails($event)" data-ng-href="{{playerViewModel.currentClammr.getClammrUrl(false)}}">
+                        <img class="clammrimage"
+                             data-ng-src="{{playerViewModel.currentClammr.imageUrl()}}" />
+                    </a>
+                </div>
+
+                <div class="audio-info">
+                    <span class="name" data-ng-bind="playerViewModel.currentClammr.contract.Title"></span>
+                    <span class="m2 player-md" data-ng-bind="playerViewModel.currentClammr.contract.Description"></span>
+                </div>
+
+
+                <div class="play-controls" data-stop-event="">
+
+                    <div class="mini-play-control player-sm"
+                         data-ng-class="{'disabled': !playerViewModel.hasPrevious}"
+                         data-ng-click="playerViewModel.playPrevious()">
+                        <a class="fa fa-backward prev"
+                           data-ng-class="{'disabled': !playerViewModel.hasPrevious}"></a>
+                    </div>
+
+					<div class="mini-play-control large"
+						 data-ng-click="__na = (playerViewModel.isPlaying ? playerViewModel.togglePlay() : playerViewModel.play())">
+						<a class="fa play-pause"
+						   data-ng-class="{'fa-play': (!playerViewModel.isPlaying || playerViewModel.isPaused), 'fa-pause': !playerViewModel.isPaused}">
+						</a>
+						<div round-progress
+							 max="playerViewModel.durationDigestable"
+							 current="playerViewModel.playPositionDigestable"
+							 color="#d40a0a"
+							 bgcolor="#CCC"
+							 radius="20"
+							 stroke="2"
+							 semi="false"
+							 rounded="true"
+							 clockwise="true"
+							 iterations="100"
+							 animation="easeInOutQuart">
+						</div>
+					</div>
+
+                    <div class="mini-play-control player-sm"
+                         data-ng-class="{'disabled': !playerViewModel.hasNext}"
+                         data-ng-click="playerViewModel.playNext()">
+                        <a class="fa fa-forward next"
+                           data-ng-class="{'disabled': !playerViewModel.hasNext}"></a>
+                    </div>
+
+                </div>
+
+                
+                <div class="play-controls action-btns player-lg" data-stop-event="">
+                    
+
+                    <span data-ng-hide="!mainViewModel.isAuthenticated || playerViewModel.stream.isExternalStream" class="like-btn">
+                        <button class="btn btn-circle inverted"
+                                data-ng-click="playerViewModel.toggleLikeClammr()"
+                                data-ng-class="{liked:playerViewModel.currentClammr.contract.Context.IsEchoed}"
+                                data-ng-disabled="playerViewModel.currentClammr.isOwnClammr">
+
+                            <i class="fa fa-thumbs-up"></i>
+                        </button>
+                    </span>
+
+                    <div class="more"
+                         data-ng-hide="!playerViewModel.currentClammr.contract.ExtendedInfoType
+                        || playerViewModel.currentClammr.contract.ExtendedInfoType === mainSite.contracts.Audio.ExtendedInfoTypeContract.None
+                        || playerViewModel.isExtendedContentPlaying"
+                         data-ng-click="playerViewModel.playExtended(playerViewModel.currentClammr)">
+                        <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Article"><i class="fa fa-file-text"></i> See More</span>
+                        <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.LongFormMp3"
+                              data-ng-class="{'nudge' : playerViewModel.currentClammr.contract.ExtendedInfoDuration}"><i class="fa fa-rss"></i>Hear More</span>
+                        <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Youtube"><i class="fa fa-youtube-play"></i> Watch More</span>
+                        <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.Soundcloud"><i class="fa fa-soundcloud"></i> Hear More</span>
+                        <span data-ng-hide="playerViewModel.currentClammr.contract.ExtendedInfoType !== mainSite.contracts.Audio.ExtendedInfoTypeContract.ITunes"><i class="fa fa-shopping-cart"></i> Get on iTunes</span>
+
+                        <span class="time" data-ng-hide="!playerViewModel.currentClammr.contract.ExtendedInfoDuration" data-ng-bind="playerViewModel.currentClammr.extendedInfoDurationFormatted"></span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="image" data-ng-style="{ 'background-image': 'url(' + playerViewModel.currentClammr.imageUrl() + ')'}"></div>
+    </div>
+
+</div>
+
+                </section>
+
+                <div class="np-full description" data-ng-show="nowPlayingViewModel.isOpen && showNowPlayingDescription">
+                    <div data-ng-bind-html="playerViewModel.currentClammr.clammrDescriptionLinkified "></div>
+                </div>
+
+                <div class="np-full" data-ng-show="nowPlayingViewModel.isOpen">
+                    <button class="btn btn-circle inverted pull-right" data-ng-click="showNowPlayingDescription = !showNowPlayingDescription">
+                        <i class="fa fa-ellipsis-h" data-ng-hide="showNowPlayingDescription"></i>
+                        <i class="fa fa-ellipsis-v" data-ng-show="showNowPlayingDescription"></i>
+                    </button>
+
+                    <button class="btn btn-circle inverted"
+                            data-ng-show="mainViewModel.isAuthenticated && !playerViewModel.stream.isExternalStream"
+                            data-ng-click="playerViewModel.toggleLikeClammr()"
+                            data-ng-disabled="playerViewModel.isLoading || playerViewModel.currentClammr.isOwnClammr"
+                            data-ng-class="{liked:playerViewModel.currentClammr.contract.Context.IsEchoed}">
+                        <i class="fa fa-thumbs-up"></i>
+                    </button>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+  ga('create', 'UA-47029214-1', 'auto');
+</script>
+    <script src="/bundles/site?v=ycxKofWwjSqpqweb19zRrf1JS7GFVLOGULPUzDReds81"></script>
+
+    <script src="/bundles/mainmodule?v=HM69rAy-yqQkvO0ZAKEmyZg2VnUMqvuDkvWxMCLcCrQ1"></script>
+
+    
+	
+
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+prefetch dns
+URHEBERRECHTSHINWEIS:
+  Die SRG SSR Schrift und die dazugehörige Software stehen im vollumfänglichen Eigentum der SRG. Jede Bearbeitung, Vervielfältigung, Verbreitung und/oder öffentliche Wiedergabe, insbesondere die ungenehmigte Übernahme der SRG SSR Schrift stellt einen Rechtsverstoss dar, der zum Schadenersatz verpflichtet und auch strafrechtlich verfolgt wird.
+For Chrome for Android:
+For iPhone 6 Plus with @3× display:
+For iPad with @2× display running iOS ≥ 7:
+For iPad with @2× display running iOS ≤ 6:
+For iPhone with @2× display running iOS ≥ 7:
+For iPhone with @2× display running iOS ≤ 6:
+For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7:
+For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6:
+For non-Retina iPhone, iPod Touch, and Android 2.1+ devices:
+HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+WARNING: Respond.js doesn't work if you view the page via file://
+[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]
+Go to www.addthis.com/dashboard to customize your tools
+#main-wrapper
+Radio starten
+Musikprogramm
+Programm durchsuchen
+Neu im Programm
+Programmraster
+Musikdatenbank
+Musikjury
+Konzertkalender
+Empfang
+Digitalradio (DAB+)
+Internet
+Apps
+Kabel/ipTV
+Satellit
+Aktuelles
+Verlosungen
+Konzerttipps
+Festivaltipps
+Services
+Hier hören Sie uns
+Links
+Downloads
+Über uns
+Unser Radio in Kürze
+Kontakt
+FAQ
+END NAVIGATION
+DE
+FR
+IT
+EN
+END LANGUAGE LINKS
+END STATION LINKS
+Menü
+a href="javascript:;">
+    <div id="topbar-search">
+      <span class="hidden-xs search-text">
+      </span>
+      <span class="icon-magnifier"></span>
+    </div>
+  </a
+Musikdatenbank
+Titel
+Waltz For Debby
+Cannonball Adderley & Bill Evans
+Information
+Interpreten
+Cannonball Adderley
+(alto sax)
+Bill Evans
+(piano)
+Percy Heath
+(double bass)
+Connie Kay
+(drums)
+Urheber
+Bill Evans
+Aufnahmedatum
+27. Januar 1961
+21. Februar 1961
+13. März 1961
+Im Programm
+Wurde zuletzt gespielt
+27.04.2017 13:00
+Läuft wieder im Programm am
+11.05.2017 ca.  02:25
+Album
+Know What I Mean ?
+Cannonball Adderley
+Label
+Original Jazz Classics / OJCCD 105-2
+Produktionsjahr
+1991
+Tracks
+1.   Waltz for Debby
+2.   Goodbye
+3.   Who cares ? (take 5)
+4.   Who cares ? (take 4)
+5.   Venice
+6.   Toy
+7.   Elsa
+8.   Nancy (with the laughing face)
+9.   Know what I mean ? (Re-take 7)
+10.   Know what I mean ? (take 12)
+open list
+Newsletter
+Möchten Sie regelmässig über Neuigkeiten rund um Radio Swiss Jazz informiert werden? Dann abonnieren Sie unseren Newsletter!
+abonnieren
+Twitter
+Folgen Sie dem Radio Swiss Jazz On-air-Service
+Follow jazz_onair
+Facebook
+Radio Swiss Jazz
+Impressum
+|
+Kontakt
+span>|</span
+span></span
+DE
+|
+FR
+|
+IT
+|
+EN
+© 2017 Schweizerische Radio- und Fernsehgesellschaft
+end row-wrapper
+end content-wrapper
+end main-wrapper
+jPlayer Container
+div class="hq-ctr hidden-xs hidden-sm">
+						<span class="icon-hq"></span>
+				</div
+04:34
+Jetzt läuft
+Soon
+Stéphane Séva
+Update Required
+To play the media you will need to either update your browser to a recent version or update your
+Flash plugin
+.
+Hook jPlayer
+WEMF-TAG VERSION="1.4"
+/WEMF-TAG
+Begin Sitestat4 code
+End Sitestat4 code
+Mandatory for Responsive Bootstrap Toolkit to operate
+end mandatory
+Revision 12680784@production

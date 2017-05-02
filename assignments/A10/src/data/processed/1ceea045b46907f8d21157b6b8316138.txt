@@ -1,0 +1,256 @@
+<![endif]
+[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" href="http://static.bbci.co.uk/frameworks/barlesque/3.20.5/orb/4/style/orb-ie.min.css">
+<![endif]
+orb.ws.require.lib
+Nav Analytics : 63
+[if (lte IE 7)&(!IEMobile)]>
+    <link rel="stylesheet" href="http://static.bbci.co.uk/gelstyles/0.13.0.14/style/core-ie7.css" />
+  <![endif]
+BBCDOTCOM template: responsive webservice
+BBCDOTCOM head
+Searchbox:126
+[if IE 8]>
+  <script type="text/javascript" src="//nav.files.bbci.co.uk/searchbox/1.0.0-126/script/html5shiv.min.js"></script>
+  <script type="text/javascript">window['searchboxIEVersion'] = 8;</script>
+  <link rel="stylesheet" href="//nav.files.bbci.co.uk/searchbox/1.0.0-126/css/ie8.css">
+<![endif]
+[if IE 9]>
+  <script type="text/javascript">window['searchboxIEVersion'] = 9;</script>
+<![endif]
+NavID:0.2.0-143
+[if IE 8]><link href="//static.bbc.co.uk/id/0.37.23/style/ie8.css" rel="stylesheet"/> <![endif]
+BRANDINGID: br-04328
+[if (gt IE 8)|!(IE)]><!
+<![endif]
+[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" href="//branding.files.bbci.co.uk/branding/live/css/029da8b1d3ae19d3241d710a0799d753.css" />
+        <![endif]
+ChartBeat
+[if (gt IE 8)|!(IE)]><!
+<![endif]
+[if (lt IE 9)&(!IEMobile)]>
+        <style>
+                    .service-brand-logo-master {
+        background-image: url('data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAAA4CAMAAADTssbUAAAAP1BMVEXNICzQLjnRMT3TPEbUP0nVQkzWSlTaWGHdZm7ebXXgdHvjgonmkJbpnaLsq7Dvub3yx8r21df54+X88fL///8FER47AAACpElEQVRYw+2X65LaMAyFj+ttnDqyLNvn/Z+1P3IhgSQLC7vTmXJmGEIAfdHFsgy89dZbPyQftZAkWTT672GEzI1y+AaG8Ub2CWf108PrtVzirpL7hOJ9KLPl3z7oQqn+l7ctxRUeqLhzCkxdnSwjZch0rZ1ajhtK11Z2q9n6Y+vOKWTIM4XM/fhe0a4j5i5Wa3QA0MnlVnOnFIn9HCVE6Sa/BNd5WYVLXSxs6gFf7ggaSVjuhyVilkI7oFwSb9Dx8T3gCqsfv0rnEdu+8n7EwiUHHQK8TnZ76vxdOKf0a0qdsu/FJNhCseviLqSNNlKdfTyr5D+rSu7bUskf/qMsvqxcoZuxdoUPz67KdVvJDkDHG1+Yn22QmzXYVPKc78B0cfTJ1hl3V3wHwFjHhkGScffPZjpMTdABiGaWogOiAYhqNkyLQPcgdoPX/bwUG8tcOQCQZlZYOwgBZVVj9XNB3aj5Gx/LPiUgEYBnqwDEAIRWIIRwABCaXZcJV+EZru8dUFypAKT1jBMFkZ0QZXwuGTO6C3G5pXYPhWwRQFNUmymBQQjKtE7CPiUiNvOA3EEZMiMQWawyTJSeQYimU3F1uxQLNq2PzX5wlBdrHqWISNWR4kqDEMoOgKv1MC/k6G+4g+KbBcYxA1JCL5U9hHCtpTBU9meUcVPRzykYOD6va0lIttwBQsDpanA42oqHbWMoz619PaDY9hn0dR3Gcr2ipPMO84VuWT2Avm0o8qJueen8ceObbeKZn54ptztV2CSinu9iD8jWvizzTLh17CXOFMhl3lMAcK9z5VJIimGCNNn4lV4x7S/WsnNDNtNxvgz1nlH5AcwcpyaLwd7umGAf06r7liQiye6bxr8atMdOFg9jvnRK+pkT3796ev2pk/hbb/1n+gu19nVdYHGz/gAAAABJRU5ErkJggg==');
+
+            }
+    
+        </style>
+    <![endif]
+[if (gt IE 8)|!(IE)]><!
+<![endif]
+[if (lt IE 9)&(!IEMobile)]> <link rel="stylesheet" href="http://static.bbci.co.uk/programmes/2.258.0.388/styles/global-ie.css" /> <link rel="stylesheet" href="http://static.bbci.co.uk/programmes/2.258.0.388/styles/print.css" media="print" /> <![endif]
+iSite2 Project (Tenant space): progs-radio3
+BBCDOTCOM bodyFirst
+Begin iStats 20100118 (UX-CMC 1.1009.3)
+End iStats (UX-CMC)
+[if (gt IE 8) | (IEMobile)]><!
+<![endif]
+[if (lt IE 9) & (!IEMobile)]> <![if (IE 8)]> <header id="orb-banner" role="banner" class="orb-old-ie orb-ie8"> <![endif]> <![if (IE 7)]> <header id="orb-banner" role="banner" class="orb-old-ie orb-ie7"> <![endif]> <![if (IE 6)]> <header id="orb-banner" role="banner" class="orb-old-ie orb-ie6"> <![endif]> <![endif]
+Accessibility links
+Skip to content
+Accessibility Help
+BBC iD
+Notifications
+BBC navigation
+News
+News
+Sport
+Weather
+Shop
+Earth
+Travel
+Capital
+iPlayer
+Culture
+Autos
+Future
+TV
+Radio
+CBBC
+CBeebies
+Food
+iWonder
+Bitesize
+Travel
+Music
+Earth
+Arts
+Make It Digital
+Taster
+Nature
+Local
+Menu
+Search
+Search the BBC
+Search the BBC
+Styling hook for shared modules only
+iPlayer Radio
+Stations
+Categories
+Schedules
+My Radio
+My Radio
+Exit Search
+Search
+Stations
+Radio 1
+Radio 1Xtra
+Radio 2
+Radio 3
+Radio 4
+Radio 4 Extra
+Radio 5 live
+Radio 5 live sports extra
+Radio 6 Music
+Asian Network
+World Service
+Radio Scotland
+Radio nan Gàidheal
+Radio Ulster
+Radio Foyle
+Radio Wales
+Radio Cymru
+Local Radio
+Categories
+Comedy
+Drama
+Factual
+Music
+News
+Science & Nature
+History
+Arts, Culture & the Media
+Politics
+Entertainment
+Religion & Ethics
+Performances & Events
+Documentaries
+Readings
+Podcasts
+All Categories
+Schedules
+Radio 1
+Radio 1Xtra
+Radio 2
+Radio 3
+Radio 4
+Radio 4 Extra
+Radio 5 live
+Radio 5 live sports extra
+Radio 6 Music
+Asian Network
+World Service
+Radio Scotland
+Radio nan Gàidheal
+Radio Ulster
+Radio Foyle
+Radio Wales
+Radio Cymru
+Local Radio
+My Radio
+Overview
+Listen Later
+Following
+Sorry, this app isn't available any more
+You can still listen to BBC iPlayer Radio via your browser by visiting bbc.co.uk/radio
+Find out more here
+Listen
+Playing: Selected Lyric Pieces - March of the Trolls (Op.54 No.3) by Edvard Grieg
+BBC Radio 3
+Jazz Line-Up
+Home
+Episodes
+Clips
+Galleries
+Presenters
+Contact
+Jazz Line-Up
+Programme exploring jazz music, focussing both on established, mainstream players and on the new generation of younger artists
+Add
+On demand
+Jan Garbarek
+View Programme
+All episodes available on BBC iPlayer Radio
+(2 total)
+On radio
+There are no upcoming broadcasts of this programme
+Last on
+Jan Garbarek
+Saturday
+17:00
+BBC Radio 3
+View Programme information
+All previous episodes
+Clips
+See all clips from Jazz Line-Up
+Galleries
+See all galleries from Jazz Line-Up
+Related Links
+Maceo Parker, with the BBC Big Band conducted by Michael Abene
+You may also like
+View all
+Similar programmes
+By genre:
+Music
+>
+Jazz & Blues
+Home
+Schedule
+Podcasts
+Composers
+BrandingProjectId: "4328", ThemeVersionId: "5365", NavigationVersionId: "3836". Published on 2017-05-02T01:29:09+00:00
+Explore the BBC
+News
+News
+Sport
+Weather
+Shop
+Earth
+Travel
+Capital
+iPlayer
+Culture
+Autos
+Future
+TV
+Radio
+CBBC
+CBeebies
+Food
+iWonder
+Bitesize
+Travel
+Music
+Earth
+Arts
+Make It Digital
+Taster
+Nature
+Local
+Terms of Use
+About the BBC
+Privacy Policy
+Cookies
+Accessibility Help
+Parental Guidance
+Contact the BBC
+Advertise with us
+Ad choices
+Copyright © 2017 BBC.
+The BBC is not responsible for the content of external sites.
+Read about our approach to external linking.
+BBCDOTCOM bodyLast
+BBCDOTCOM all code in page
+/programmes version: 2.258.0.388
+Sign in
+to the BBC,
+or
+Register
+"
+"
+Added, go to
+My Music
+to see full list.
+More from

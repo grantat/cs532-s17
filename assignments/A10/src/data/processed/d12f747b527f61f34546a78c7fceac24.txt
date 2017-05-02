@@ -1,0 +1,422 @@
+Methode uuid: "604575f4-e545-11e6-9841-8ce51bb16e42"
+UUID1 : 604575f4-e545-11e6-9841-8ce51bb16e42
+non-retina iPhone pre iOS 7
+non-retina iPad pre iOS 7
+non-retina iPad iOS 7
+retina iPhone pre iOS 7
+retina iPhone iOS 7
+retina iPad pre iOS 7
+retina iPad iOS 7
+urlCanonical:
+getSection requested Section : /spettacoli/showtime
+DD : DisplayData { templateName: story/Pagina }
+flexible-frameset-oas parseChannel : section /, facet : all, style :
+flexible-frameset-oas parseFile : /spettacoli
+flexible-frameset-oas parseChannel : section /spettacoli, facet : all, style :
+flexible-frameset-oas parseFile : /spettacoli/showtime
+fb-track ScanX : section /, facet all found
+Facebook Pixel Code
+End Facebook Pixel Code
+== POSITION3/(M)POPOVERLAY ==
+== TOP/BACKGROUND ==
+googleoff: all
+getSectionMETANEW2
+flexible-frameset-oas parseChannel : section /, facet : all, style :
+flexible-frameset-oas parseFile : /spettacoli
+flexible-frameset-oas parseChannel : section /spettacoli, facet : all, style :
+flexible-frameset-oas parseFile : /spettacoli/showtime
+googleoff: all
+TopLinks
+TopBanner
+googleoff: all
+SHOWTIME
+ACCEDI
+Utente Cognome
+Profilo
+Logout
+Segui
+seguici su
+E-mail.
+Password
+accedi
++
+Recupera password
+Navigation Menu
+sezioni
+mondo
+mondo
+europa
+politica
+economia
+economia
+LAVORO
+FINANZA
+BORSA ITALIANA
+ESTERO
+FONDI
+OBBLIGAZIONI
+VALUTE
+TUTTOSOLDI
+MARE
+italia
+italia
+agricoltura
+sport
+sport
+CALCIO
+CALCIO
+serie a
+serie b
+champions league
+europa league
+qui juve
+qui toro
+qui milan
+qui inter
+qui roma
+qui lazio
+qui novara
+qui pro vercelli
+qui sampdoria
+qui genoa
+qui napoli
+BASKET
+VOLLEY
+F1
+MOTO
+VELA
+SCI
+SPETTACOLI
+SPETTACOLI
+cinema
+tv
+palcoscenico
+MUSICA
+showbiz
+televisione.it
+film.it
+TECNOLOGIA
+MOTORI
+MOTORI
+nuovi modelli
+attualità
+prove
+ambiente
+tecnologia
+PATENTI
+MOTO
+foto e video
+VIAGGI
+VIAGGI
+italia
+mondo
+48 ore
+CROCIERE
+STELLA CORTESIA
+turismo.it
+CUCINA
+CUCINA
+DOVE
+MAPPE
+RICETTE
+PROTAGONISTI
+REPORTAGE
+salute
+salute
+TUTTOSCIENZE
+CARDIOLOGIA
+GASTROENTEROLOGIA
+GINECOLOGIA
+ONCOLOGIA
+ORTOPEDIA
+OTORINOLARINGOIATRIA
+PSICOLOGIA
+NORD OVEST
+NORD OVEST
+TORINO
+ALESSANDRIA
+AOSTA
+ASTI
+BIELLA
+CUNEO
+IMPERIA e SANREMO
+NOVARA
+SAVONA
+VERBANO CUSIO OSSOLA
+VERCELLI
+MILANO
+tempo libero
+tempo libero
+MARE
+MONTAGNA
+CASA e DESIGN
+FUMETTI
+GIOCHI
+OROSCOPO
+OPINIONI
+EDITORIALI
+BLOG
+INSTANT POOL
+LETTERE AL DIRETTORE
+SECONDO ME
+PUBLIC EDITOR
+SPECCHIO DEI TEMPI
+LA ZAMPA
+SOCIETa'
+CULTURA
+CULTURA
+TUTTOLIBRI
+ARTE
+SCUOLA
+LA CUCINA DEI GIORNALI
+TUTTOGREEN
+I TUOI DIRITTI
+MAMME
+MODA
+ARCHIVIO STORICO
+ANNUNCI
+NECROLOGIE
+TUTTOAFFARI
+CASE TUTTOAFFARI
+LEGALI
+SERVIZI
+METEO
+SOCIAL
+NEWSLETTER
+ABBONAMENTI
+MUSEO
+PIU' VISTI
+ENGLISH
+In evidenza:
+MONTAGNA
+MARE
+LA ZAMPA
+CUCINA
+FUMETTI
+Ultima ricerca:
+adv-tags requested section    : /spettacoli/showtime
+adv-tags requested facet      :
+adv-tags requested forceQuery :
+adv-tags requested pageType 	: articolo
+adv-tags disabled : false
+adv-tags disableVideo : false
+adv-tags adv_server : gpt
+adv-tags sitePage : lastampa.it/spettacoli
+adv-tags query : tipo=articolo
+adv-tags listPos : Top,Position3,TopLeft,Middle1,Middle2,Bottom,BoxNativeSmall
+adv-tags listPosMobile : Top,Position3,Middle1
+== TOPLEFT/WIDELEADERBOARD ==
+googleon: all
+getSectionMETANEW2
+Breadcrumb sectionId : /spettacoli/showtime
+oas-tags requested Section : /spettacoli/showtime
+oas-tags requested Facet :
+oas-tags ScanX : section /, facet all found
+oas-tags ScanX : section /spettacoli, facet all found
+oas-tags InReadPID : 22209
+oas-tags disabled : no
+oas-tags OAS_sitepage : lastampa.it/spettacoli
+oas-tags OAS_sitepageMobile : m.lastampa.it/spettacoli
+oas-tags OAS_listpos : Top,TopLeft,Frame1,Frame2,Position1,x01
+oas-tags OAS_listposMobile : x22,x25,x29
+oas-tags OAS_unit : Spettacoli
+oas-tags OAS_ROS : LaStampaLocal.ROS
+oas-tags OAS_ROSNOHP : LaStampa.ROSNOHP
+oas-tags OAS_RON_A :
+oas-tags OAS_RON_B :
+oas-tags Top : yes
+oas-tags TopLeft : yes
+oas-tags Right1 : no
+oas-tags Left1 : no
+oas-tags Frame1 : yes
+oas-tags Frame2 : yes
+oas-tags Bottom1 : no
+oas-tags Bottom2 : no
+oas-tags Position1 : yes
+oas-tags X01 : yes
+oas-tags X02 : no
+oas-tags X21 : no
+oas-tags X22 : yes
+oas-tags X25 : yes
+oas-tags X29 : yes
+flexible-frameset-oas Requested section : /spettacoli/showtime
+flexible-frameset-oas parseChannel : section /, facet : all, style :
+flexible-frameset-oas parseFile : /spettacoli
+flexible-frameset-oas parseChannel : section /spettacoli, facet : all, style :
+flexible-frameset-oas parseFile : /spettacoli/showtime
+flexible-frameset-oas Style :
+flexible-frameset-oas Section : /spettacoli/showtime, Facet :
+flexible-frameset-oas logo : /common/img/LaStampa.svg
+flexible-frameset-oas topBanner : /SysConfig/WebPortal/LaStampa.it/jpt/includes/flexible/jpt/topBanner/top_banner_section.jpt
+flexible-frameset-oas menuEdizioni : no
+flexible-frameset-oas menu : /SysConfig/WebPortal/LaStampa.it/jpt/includes/flexible/jpt/menu/main_menu.jpt
+flexible-frameset-oas topLinks : /SysConfig/WebPortal/LaStampa.it/jpt/includes/flexible/jpt/topLinks/top_links.jpt
+flexible-frameset-oas footer : /SysConfig/WebPortal/LaStampa.it/jpt/includes/flexible/jpt/footers/classic.jpt
+flexible-frameset-oas jQuery : /common/js/jquery/jquery-1.8.3.min.js
+flexible-frameset-oas headerTitleX :
+flexible-frameset-oas headerTitleXLink :
+flexible-frameset-oas xStyles :
+flexible-frameset-oas xScripts : http://s3-eu-west-1.amazonaws.com/lastampacdn/pushnotifications/pushv2.js
+flexible-frameset-oas syncADV :
+flexible-frameset-oas pageRefresh : 350
+flexible-frameset-oas edintorniSection : si
+flexible-frameset-oas expertSection : si
+flexible-frameset-oas newsletterSection : si
+flexible-frameset-oas ppnSection : si
+flexible-frameset-oas ultimiArtSection : si
+flexible-frameset-oas shareBarSection : si
+Girata 1.1
+CONTESTO PAGINA
+googleoff: all
+googleon: all
+La canzone del giorno (30 gennaio): Automaton di Jamiroquai
+Dall’album Automaton
+Leggi anche
+dataPubblicazione : 2017/01/30
+Pubblicato il
+30/01/2017
+luca dondoni
+Sebbene l’ingerenza dei Daft Punk e del loro modo di intendere la musica dance degli ultimi anni mi abbia gentilmente stancato in questo pezzo di Jay Kay, che torna dopo anni, ho trovato - tra le pieghe ma c’è - il DNA dei Jamiroquai degli esordi. Non c’è Jay Kay senza funk questo è assodato.
+In questo pezzo, ma più ancora nel video che rimanda ad almeno dieci citazioni importanti, c’è tanta voglia di rinascita e di modernità. Spero che nell’album ci sia
+anche tanto altro ma indubbiamente e radiofonicamente questo è un gran pezzo.
+geolocalizzazione
+Alcuni diritti riservati.
+googleoff: all
+== BOTTOM ==
+pubDate:201701300000 - commentable:false - commentableMeta:D
+*****AVVISO AI LETTORI*************
+Segui le news di La Stampa Spettacoli su
+Facebook (clicca qui)
+*********************************
+Correlati Esterni: true ExpertSection: si
+Expert currentUUID : 604575f4-e545-11e6-9841-8ce51bb16e42, section : /spettacoli/showtime
+===========================
+Articoli di Expert System
+===========================
+ExpertChannels
+Section : /spettacoli/showtime
+Channel : spettacoli
+DataPubblicazione: 201701300000
+Instance : 12
+ServerIP    : 172.22.60.90
+Porta       : 8080
+CurrentUUID : 604575f4-e545-11e6-9841-8ce51bb16e42
+Channel     : spettacoli
+Leggi anche
+Leggi anche
+EdChannels Section : /spettacoli/showtime
+EdChannels Section2 :
+home
+home
+articleMe Story - 1.0
+Trump: pronto a incontrare Kim Jong-un
+01/05/2017
+AP
+Copyright © 2017
+articleMe Story - 1.0
+A Roma il  Concertone dei sindacati  “per non dimenticare”
+Come nasce il Primo maggio
+01/05/2017
+nadia ferrigo
+LAPRESSE
+Copyright © 2017
+articleMe Story - 1.0
+Brexit, Juncker molto pessimista dopo la cena con May: “Vive in un’altra galassia”
+esteri
+01/05/2017
+Copyright © 2017
+articleMe Story - 1.0
+Hamas accetta la creazione  di uno Stato palestinese entro i confini del 1967
+01/05/2017
+REUTERS
+Copyright © 2017
+adv-tags requested section    : /spettacoli/showtime
+adv-tags requested facet      :
+adv-tags requested forceQuery :
+adv-tags requested pageType 	:
+adv-tags disabled : false
+adv-tags disableVideo : false
+adv-tags adv_server : gpt
+adv-tags sitePage : lastampa.it/spettacoli
+adv-tags query : tipo=hp
+adv-tags listPos : Top,Position3,TopLeft,Middle1,Middle2,Loc1,BoxNative
+adv-tags listPosMobile : Top,Position3,Middle1
+== MIDDLE1/MBOX1/HALFPAGE ==
+La Stampa con te dove e quando vuoi
+E-mail
+Password
+abbonati
+accedi
++
+Recupera password
+== MIDDLE2/MBOX2/HALFPAGE2 ==
+I più letti del giorno
+I più letti del giorno
+articleMe Story - 1.0
+Trump: pronto a incontrare Kim Jong-un
+01/05/2017
+AP
+Copyright © 2017
+articleMe Story - 1.0
+Addio a Sodimedjo. Aveva 146 anni ed era “l’uomo più vecchio del mondo”
+01/05/2017
+Copyright © 2017
+articleMe Story - 1.0
+Brexit, Juncker molto pessimista dopo la cena con May: “Vive in un’altra galassia”
+01/05/2017
+Copyright © 2017
+articleMe Story - 1.0
+Scontro frontale nel “solito incrocio”: muore il titolare di una gelateria appena inaugurata
+cronaca
+01/05/2017
+giuseppe legato, massimo massenzio
+Copyright © 2017
+articleMe Story - 1.0
+Profanata la tomba di Romy Schneider, l’attrice che interpretò la principessa Sissi
+01/05/2017
+Copyright © 2017
+La Stampa Shop
+lucio dalla - vinile
+battisti - emozioni a 33 giri
+frank sinatra - gold collection
+shop
+== LOC1 ==
+== LOC2 ==
+JSONPARAMS	: {section:"/spettacoli/showtime",pageType:"articolo",facet:""}
+SECTION		: /spettacoli/showtime
+PAGETYPE	: articolo
+FACET		:
+JSONPARAMS	: {section:"/spettacoli/showtime",pageType:"articolo",facet:""}
+SECTION		: /spettacoli/showtime
+PAGETYPE	: articolo
+FACET		:
+== BOXNATIVESMALL ==
+facet:
+	webType:story
+	section:/spettacoli/showtime
+flexible-frameset-oas parseChannel : section /, facet : all, style :
+flexible-frameset-oas parseFile : /spettacoli
+flexible-frameset-oas parseChannel : section /spettacoli, facet : all, style :
+flexible-frameset-oas parseFile : /spettacoli/showtime
+Footer
+P.I.00486620016
+Copyright 2017
+Per la pubblicità
+Scrivi alla redazione
+Dati societari
+Privacy
+Cookie Policy
+Stabilimento
+Sede
+Contattaci
+CHARTBEAT
+CHARTBEAT
+Google Analytics
+End Google Analytics
+Webtrekk 3.2.1, (c) www.webtrekk.com
+/Webtrekk
+START Nielsen Online SiteCensus V5.3
+COPYRIGHT 2010 Nielsen Online
+Audiweb
+Audiweb
+END Nielsen Online SiteCensus V5.3

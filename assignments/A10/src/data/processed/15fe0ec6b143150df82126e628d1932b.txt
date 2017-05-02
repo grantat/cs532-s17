@@ -1,0 +1,153 @@
+<meta name="apple-mobile-web-app-status-bar-style" content="black translucent">
+@@PAGEBUCKETS@@
+music
+merch
+LIFE
+by
+Natalia Pardalis
+supported by
+/
+Digital Album
+Includes unlimited streaming via the free Bandcamp app, plus high-quality download in MP3, FLAC and more.
+Buy Now
+$5
+CAD
+or more
+Send as Gift
+Full Digital Discography
+5
+releases
+Get
+all 5 Natalia Pardalis releases
+available on Bandcamp and save
+20%
+.
+Includes unlimited streaming via the free Bandcamp app, plus high-quality downloads of
+I'm in love with Fairytales
+,
+Disney Cover Songs
+,
+Vintage Christmas
+,
+Cup Of Tea
+,
+            
+            
+        
+            
+            
+                
+                    and
+LIFE
+.
+ko foreach: moreTralbums
+ko if: ($index() === ($parent.moreTralbums().length - 2))
+, and
+/ko
+ko if: ($index() < $parent.moreTralbums().length - 2)
+,
+/ko
+ko if: ($index() === ($parent.moreTralbums().length - 1))
+.
+/ko
+/ko
+Buy Now
+$10.40
+CAD
+or more
+(
+20% OFF
+)
+Send as Gift
+Share
+/ Embed
+1.
+Big Spender
+03:07
+buy track
+2.
+Feeling Good
+03:35
+buy track
+3.
+Never On Sunday
+02:52
+buy track
+4.
+Ain't that Man
+(free)
+02:19
+download
+5.
+Cry Me A River
+03:29
+buy track
+6.
+Life
+7.
+Ellas
+8.
+Tonight
+9.
+Wonderful World
+about
+Fresh. Expressive. Unexpected.
+Natalia’s mother once taught her, “No musical mistake is a mistake, but rather a journey to create beautiful music”. The singer, songwriter, pianist, and musical educator has emerged from the cocoon of the classical world to reach diverse audiences with her unique story and sound.
+Taking inspiration from such distinctive artists as Dean Martin, Ella Fitzgerald, Judy Garland, Nina Simone and a touch of Mozart, Natalia blends her most powerful influences to create a new fusion of sound and soul. She delivers a bold take on the familiar sounds of classical, jazz, the standards, and Greek folk music.
+Her debut album Life, released to iTunes in December of 2011, is full of soul-tinged songs that are set to resonate with all who hear them. Produced by Juno award winning engineer, Rob Shallcross, the album contains a variety of sounds, instruments, and guest vocals. Anchored together by her incredible voice and impressive piano skills, Natalia takes the listeners on a personal exploration of her life throughout the past 10 years.
+credits
+released February 14, 2013
+Produced, mixed and engineered by Rob Shallcross
+Additional engineer Sheldon Zaharko (The Factory)
+Mastered by Greg Reely
+Beats by Noah Bellavance on Big Spender and Feeling Good
+Jim Bennett for Stand up bass on Big spender, Never On Sunday, Feeling Good
+Gord Robert for drums on Never on Sunday
+Ruel Morales for guitar on Never on Sunday
+Additional vocals for Never on Sunday by Clare Browne, Jaeydn Hallier, and Akylina Pardalis
+Recorded @ The Factory, The Chicken Coop and Dead Room studios Vancouver B.C between 2010/2011
+All songs Written by Natalia Pardalis except * where noted
+tags
+tags:
+greek
+jazz
+big band
+pop
+vintage
+Vancouver
+license
+all rights reserved
+about
+Natalia Pardalis
+Vancouver, British Columbia
+placeholder
+nataliapardalis.com
+Facebook
+Twitter
+discography
+I'm in love with Fairytales
+Nov 2016
+Disney Cover Songs
+Jul 2016
+Vintage Christmas
+Dec 2014
+Cup Of Tea
+Jun 2013
+LIFE
+Feb 2013
+contact / help
+Contact Natalia Pardalis
+Streaming and
+Download help
+Redeem code
+@@PAYMENTDATA@@
+@@REFERRERDATA@@
+Bandcamp
+log in
+terms of use
+privacy
+copyright policy
+status
+switch to mobile view
+language:
+new

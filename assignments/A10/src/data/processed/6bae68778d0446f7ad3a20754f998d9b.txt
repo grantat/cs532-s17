@@ -1,0 +1,48 @@
+FB OG tags
+additional media
+Twitter summary card meta tags
+additional media
+load scripts
+<script src="https://30362208fb0010f60042-0290c4f6b2235c127de3238391f2b960.ssl.cf3.rackcdn.com/30/scripts/mediaPlayer.min.js"></script>
+laod styles
+Jamiroquai - Automaton
+Pre-order Automaton
+Artist information
+End of artist information
+Pre-Order
+Pre-Save
+Play
+Last option should be 'i dont know'
+COOKIE MODAL
+Cookies help us deliver this service. By using this service you agree to our
+Terms
+,
+Privacy
+and
+Cookie Policy
+.
+Modal
+Cookie policy
+Cookies
+We use cookies to ensure that we give you the best experience on our website. This includes cookies from third party. Such third party cookies may track your use of this landing page. Our partners also use cookies to ensure they show you advertising that is relevant to you.
+What are cookies?
+Cookies are small text files that contain a string of characters and uniquely identify a browser, together with Pixels, Cookies allow Linkfire to collect data on consumer behavior to improve the quality of the service provided. The data is also used by our partners to show you advertising that is relevant to you.
+What kind of cookies do we use and how?
+Linkfire uses first and third party cookies to gain insights on music consumption and choices on Linkfire's landing pages and assets. This data is reported to Linkfire's customers for them to improve on their service offering and serve contextual and relevant advertising. Linkfire uses three kind of cookies:
+First Party cookies:
+Session cookies
+- When someone visits a Linkfire landing page (like the one you're reading this text on), Linkfire places a session cookie on the visitors device that helps Linkfire provide insights regarding popularity of a music service, what country is the visitor browsing from and other interactions with the landing page. Session cookies only contain information about activities during the visit of the site, and expire when the browser is closed.
+Persistent cookies
+- When someone visits a Linkfire landing page, Linkfire may also place a persistent Cookie on the visitor's device. Persistent Cookies differ from Session cookies as they can exist on the visitor’s device for an extended period of time until expired or until they are deleted. Linkfire's persistent cookies automatically expire after 2 years. These cookies are used to store and remember a visitor’s preferences such as the preferred music service or to detect recurring visits to the Asset.
+Third-party cookies:
+When someone visits an Linkfire landing page, Linkfire also places third-party Cookies on the visitor’s device that helps the third-party deliver or enable the delivery of advertising that is customized to the visitor’s interests and to keep track of how many ads the visitor has seen. Third-Party cookies vary in terms of expiration time, but all of them are within 2 years as a maximum. For a comprehensive list of our third-party partners, you can refer to our
+Pixel Partners List
+How to control cookies
+You can change your cookie settings at any time by visiting our Privacy Portal and choose to
+opt-out
+. You can also delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work.
+More information
+Please read our
+Privacy Policy
+for more information regarding how Linkfire treats Data Privacy and our opt-out possibilities.
+Got it

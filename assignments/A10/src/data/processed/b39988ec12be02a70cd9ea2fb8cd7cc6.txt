@@ -1,0 +1,654 @@
+[if IE]>
+        <link rel="stylesheet" href="https://www.etsy.com/ac/primary/css/listings3/ie.20170420190838.css" type="text/css"  />
+    <![endif]
+additive with the og: tags
+[if lt IE 9]>
+        <script src="https://site.etsystatic.com/ac/primary/js/polyfill/html5shiv.20170420190839.js" type="text/javascript" crossorigin></script>
+    <![endif]
+[if lte IE 8]>
+    <body
+    class="transitional-wide
+     
+    wide-extended gradient-bg    reduced-webfonts guest  no-touch en-US is-global-nav
+ ds-reduced-colors ds-color-switch lte-ie8"
+    data-language="en-US"    >
+<![endif]
+[if IE 9]>
+    <body
+    class="transitional-wide
+     
+    wide-extended gradient-bg    reduced-webfonts guest  no-touch en-US is-global-nav
+ ds-reduced-colors ds-color-switch ie9"
+    data-language="en-US"    >
+<![endif]
+[if gt IE 9]><!
+<![endif]
+Close
+Beginning of a dialog window, including tabbed navigation to register an account or sign in to an existing account. Both registration and sign in support using google and facebook accounts.  Escape will close this window.
+Register
+Sign in
+Get started
+Continue with Facebook
+Continue with Google
+We'll never post without your permission.
+OR
+Enter your email
+Have an account?
+Sign in
+Just one more step…
+Create your Etsy password
+Create Your Etsy Account
+Continue with Facebook
+Continue with Google
+We'll never post without your permission.
+OR
+First Name
+Names on Etsy are public, but optional.
+Last Name
+Email
+Your confirmation will be sent to your email address.
+Your confirmation will be sent to %email%.
+Password
+Confirm Password
+Username
+Other suggestions:
+Use our suggestion or enter your own
+I want to receive Etsy Finds, an email newsletter of fresh trends and editors' picks.
+By clicking Register, you agree to Etsy's
+Terms of Use
+and
+Privacy Policy
+. Etsy may send you communications; you may change your preferences in your account settings.
+Uh oh! You need to have cookies enabled to sign in.
+Welcome back
+Nice—you already have an Etsy account.
+Sign in with Facebook
+Sign in with Google
+OR
+Email or Username
+Password
+Stay signed in
+Forgot your password?
+Forgot your username or email?
+Reopen your account?
+[if lte IE 7]>
+<div id="gnav-header" class="global-nav clear lte-ie7" data-count-ajax=true>
+<![endif]
+Etsy
+Search
+Search for items or shops
+Search
+Skip to Content
+Sell on Etsy
+Sell
+Register
+Sign in
+Cart
+Mother's Day
+Clothing & Accessories
+Jewelry
+Craft Supplies & Tools
+Weddings
+Entertainment
+Home & Living
+Kids & Baby
+Vintage
+More
+Clothing & Accessories
+Jewelry
+Craft Supplies & Tools
+Weddings
+Entertainment
+Home & Living
+Kids & Baby
+Vintage
+Take full advantage of our site features by enabling JavaScript.
+Learn more
+[if IE 7]>
+        <div></div>
+    <![endif]
+Close
+Whoa! You can't favorite your own shop.
+Close
+Whoa! You can't buy your own item.
+Close
+Whoa! You can't favorite your own item.
+Close
+Whoa! You can't add your own item to a list.
+Close
+Full!
+Add this item to a treasury!
+Close
+You don't have any treasuries yet. Enter a title below to create one.
+You must select an existing treasury or provide a name for your new treasury.
+Treasury
+New Treasury
+Treasury Title
+Add
+Loading...
+Close
+This item has been added.
+View your treasury.
+BusterJustis
+Favorite shop
+256
+items
+Favorite
+Favorited
+Like this item?
+Add it to your favorites to revisit it later.
+Main Image
+◅
+▻
+🔎
+zoom
+Item details
+5 out of 5 stars.
+(43)
+reviews
+Shipping & Policies
+Vintage copy of Louis Armstrong What a Wonderful World CD in collectible round tin case.  Classic jazz.  Full of smash hits.
+Track List:
+What a Wonderful World 2:18
+Indiana 4:27
+Ole Miss Blues 3:59
+After You've Gone 3:34
+Mack the Knife 3:23
+C'est Si Bon 3:31
+When It's Sleepy Time Down South 2:45
+The Bucket's Got A Hole In It 3:12
+Cabaret 3:55
+On The Sunny Side of the Street 3:23
+When The Saints Go Marching In 3:12
+CD is in good condition. It is vintage and used, however, so one should expect some wear, which should not affect the play quality.  Tin case has a bit of wear, but it is not too bad.
+This is a final sale.
+READY TO SHIP! This listing is offering USPS First Class or Priority Mail options. Please select the option you prefer at check out. Please read my shipping policies for restrictions and limitations (for example, insurance is not included on First Class shipping). Purchase multiple items and I can try to ship them all together to save on shipping costs. Please contact me prior to purchase if purchasing multiple items and I can give you a more accurate shipping quote. You can also combine shipping with items you purchase at my home decor shop, www.OverMyHead.Etsy.com.
+I want you to be pleased with your purchase.  Please read my shop policies for important information. DISCLAIMER: Vintage items may have been used and are aged. I try my best to identify blemishes or damage, BUT items may have additional blemishes, stains, wear, age, etc. that I did not notice. Please refer to the photos in the listing and please contact me if you have questions or would like additional pictures.
+Find me on social media:
+-Like me at www.facebook.com/busterjustis.
+-Add Buster Justis to your favorite Etsy shops.
+-Follow me on Twitter @BusterJustis.
+-Follow me on Pinterest at www.Pinterest.com/BusterJustis
+-Follow me on Instragram @BusterJustis.OverMyHead
+Please visit me at www.OverMyHead.Etsy.com for fabulous savings on unique, handmade hats and head pieces and vintage clothing.
+Thank you for shopping!
+Meet
+the
+owner
+of
+BusterJustis
+Learn more about the shop and process
+Christa
+Payment methods
+Etsy Gift Cards
+Shipping costs
+.right
+Louis Armstrong What a Wonderful World CD Vintage Used Music Jazz Soul Superstar Collectible Round Tin Case
+Ask a question
+$9.00
+Only 1 available
+Add to cart
+<h3>Item Overview</h3>
+Overview
+Vintage item
+Only ships within
+United States
+.
+Feedback:
+43 reviews
+Favorited by:
+1 person
+This shop accepts Etsy gift cards
+#cart
+Favorite
+Favorited
+Add to
+Added
+Tweet
+Pin It
+Share on Tumblr
+#share
+BusterJustis
+in
+United States
+I Am the Child Brain Gym Denninson Class Educational Kinesiology Teacher Learning Disability Students Special Education Therapy Autism
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Liszt for Lovers CD Vintage Used Music Classical Romantic Piano Valentine
+$
+10.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Excel 97 For Windows for Dummies Vintage Book How To Guide IT Technology Software Computers Business Spreadsheet Office Reference PC
+$
+10.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Language & Culture Multicultural Social Justice School Teacher UCLA Education Pedagogy Diversity Learning Theory Classroom
+$
+7.99
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+David Hockney Retrospective Art Vintage Book Fine Art Drawings Photography Painting Los Angeles Museum Metropolitan Tate Gallery 1980s
+$
+45.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Mexico The Beautiful Cookbook Vintage Book Cooking Cocina Mexican Food Day of the Dead Fiesta Chef Gourmet Kitchen Cinco De Mayo Foodie
+$
+25.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Fondues From Around the World Vintage Cookbook Cooking Foodie Chef Culinary Fun Food Party Tempura Cheese Gourmet
+$
+15.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Ortho Successful Houseplants Urban Gardening Indoors Vintage Book Planter Houseplants Care Horticulture Botany Home Decor
+$
+16.00
+icon font and display:none; elements
+Favorite
+Favorited
+Add to
+Added
+Related to this item
+Books, Movies & Music
+Music
+Recorded Audio
+Vintage CD
+Rock and roll
+used CD
+Smash Hits
+music
+Classic hits
+Louis Armstrong
+Jazz
+Soul
+Wonderful World
+trumpet
+collectible tin case
+stocking stuffer
+Listed on Mar 11, 2017
+80 views
+One favorite
+Report this item to Etsy
+Ships to
+United States
+Footer
+Get top trends and fresh editors' picks in your inbox with Etsy Finds.
+Subscribe
+Please enter a valid email address.
+Looks like you already have an account! Please
+Log in
+to subscribe.
+You've already signed up for some newsletters, but you haven't confirmed your address.
+Register
+to confirm your address.
+You've been successfully signed up!
+Great! We've sent you an email to confirm your subscription.
+There was a problem subscribing you to this newsletter.
+New to Etsy?
+Register
+Sign in
+Turn your passion into a business
+Open a shop
+Sell on Etsy
+Open a shop
+Seller Handbook
+Etsy credit card reader
+Join the community
+Teams
+Forums
+Upcoming events
+Affiliates
+Etsy Local
+Discover and shop
+Gift cards
+Blog
+Mobile apps
+Gift registries
+Wholesale
+Search
+Editors’ Picks
+Get to know us
+About
+Policies
+Careers
+Press
+Developers
+Investors
+Follow Etsy
+Facebook
+Twitter
+Pinterest
+Instagram
+United States
+English (US)
+$
+            (USD)
+© 2017 Etsy, Inc.
+Legal
+Privacy
+Interest-based ads
+Help
+Update your settings
+Set where you live, what language you speak, and the currency you use.
+Learn more.
+Region:
+Region
+Australia
+Canada
+France
+Germany
+Greece
+Ireland
+Italy
+Japan
+New Zealand
+Portugal
+Russia
+Spain
+The Netherlands
+United Kingdom
+United States
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+British Virgin Islands
+Brunei
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo, Republic of
+Cook Islands
+Costa Rica
+Croatia
+Curaçao
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Holy See (Vatican City State)
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia, Federated States of
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar (Burma)
+Namibia
+Nauru
+Nepal
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Territory, Occupied
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russia
+Rwanda
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin (French part)
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten (Dutch part)
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Korea
+South Sudan
+Spain
+Sri Lanka
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+The Netherlands
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+United States Minor Outlying Islands
+Uruguay
+U.S. Virgin Islands
+Uzbekistan
+Vanuatu
+Venezuela
+Vietnam
+Wallis and Futuna
+Western Sahara
+Yemen
+Zaire (Democratic Republic of Congo)
+Zambia
+Zimbabwe
+Language:
+Language
+Deutsch
+English (UK)
+English (US)
+Español
+Français
+Italiano
+日本語
+Nederlands
+Português
+Русский
+Currency:
+Currency
+$ United States Dollar (USD)
+$ Canadian Dollar (CAD)
+€ Euro (EUR)
+£ British Pound (GBP)
+$ Australian Dollar (AUD)
+¥ Japanese Yen (JPY)
+Kč Czech Koruna (CZK)
+kr Danish Krone (DKK)
+$ Hong Kong Dollar (HKD)
+Ft Hungarian Forint (HUF)
+₪ Israeli Shekel (ILS)
+RM Malaysian Ringgit (MYR)
+$ Mexican Peso (MXN)
+$ New Zealand Dollar (NZD)
+kr Norwegian Krone (NOK)
+₱ Philippine Peso (PHP)
+$ Singapore Dollar (SGD)
+kr Swedish Krona (SEK)
+Swiss Franc (CHF)
+฿ Thai Baht (THB)
+NT$ Taiwan New Dollar (TWD)
+zł Polish Zloty (PLN)
+R$ Brazilian Real (BRL)
+Start typing the name of a page. Hit ESC to close, Enter to select the first result.

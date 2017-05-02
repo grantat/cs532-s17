@@ -1,0 +1,3 @@
+401
+Unauthorized
+Proper authorization is required to access this resource!

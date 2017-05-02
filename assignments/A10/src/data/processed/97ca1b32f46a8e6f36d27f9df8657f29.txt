@@ -1,0 +1,159 @@
+[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='http://leadingcreatives.co.uk/wp-content/themes/twentysixteen/css/ie.css?ver=20160816' type='text/css' media='all' />
+<![endif]
+[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='http://leadingcreatives.co.uk/wp-content/themes/twentysixteen/css/ie8.css?ver=20160816' type='text/css' media='all' />
+<![endif]
+[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='http://leadingcreatives.co.uk/wp-content/themes/twentysixteen/css/ie7.css?ver=20160816' type='text/css' media='all' />
+<![endif]
+[if lt IE 9]>
+<script type='text/javascript' src='http://leadingcreatives.co.uk/wp-content/themes/twentysixteen/js/html5.js?ver=3.7.3'></script>
+<![endif]
+START - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.8
+Facebook Open Graph
+Google+ / Schema.org
+Twitter Cards
+SEO
+Misc. tags
+END - Facebook Open Graph, Google+ and Twitter Card Tags 2.0.8
+Skip to content
+Leading Creatives In Uk Fashion
+Staying In To Dress For Going Out !
+.site-branding
+.site-header-main
+.site-header
+Oops! That page can’t be found.
+.page-header
+It looks like nothing was found at this location. Maybe try a search?
+Search for:
+Search
+.page-content
+.error-404
+.site-main
+.content-area
+The Best Of UK Fashion
+Activewear
+(103)
+Accessories
+(7)
+Jackets-and-hoodies
+(8)
+Leggings
+(31)
+Sports-bras
+(17)
+Swimwear
+(3)
+Tanks-and-vests
+(31)
+Baseball Shirts
+(7)
+Beauty
+(29)
+Self-tanning
+(17)
+Skin-care
+(12)
+Blouses
+(4)
+Bow Tie Sets
+(144)
+Bow Ties
+(517)
+Caps & Beanies
+(9)
+Coat
+(13)
+Coats & Jackets
+(54)
+Combination
+(1)
+Cravat Sets
+(73)
+Cravats
+(171)
+Crew Neck
+(1)
+Dress
+(48)
+Dresses
+(227)
+Dungarees
+(10)
+Gifts
+(10)
+Gift-sets
+(10)
+Greeting Cards
+(2)
+Hoodies
+(27)
+Jacket
+(6)
+Jackets / Cardigans
+(1)
+Jumper
+(1)
+Jumpsuits & Playsuits
+(12)
+Kimonos
+(2)
+Leggings
+(5)
+Long Sleeve Top
+(4)
+Nutrition
+(10)
+Diet
+(5)
+Multivitamin
+(2)
+Proteins
+(3)
+Playsuit
+(2)
+Scarves & Snoods
+(9)
+Shirts & Tops
+(127)
+Shoes
+(1)
+Trainers
+(1)
+Shorts
+(35)
+Skirt
+(20)
+Skirts
+(4)
+Sports Bra
+(4)
+Sweatpants
+(2)
+T-Shirts
+(33)
+Tie Sets
+(159)
+Ties
+(682)
+Top
+(12)
+Trousers
+(2)
+Trousers & Jeans
+(126)
+Uncategorised
+(2)
+Vest Tops
+(21)
+.sidebar .widget-area
+.site-content
+Leading Creatives In Uk Fashion
+Proudly powered by WordPress
+.site-info
+.site-footer
+.site-inner
+.site
+Start of StatCounter Code
+End of StatCounter Code

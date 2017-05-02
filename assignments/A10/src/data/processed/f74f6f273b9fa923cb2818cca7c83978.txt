@@ -1,0 +1,501 @@
+[if IE]><link rel="Shortcut Icon" id="website_icon" href="//cdn.accuradio.com/static/images/2014/favicon.ico"><![endif]
+Twitter Card tags
+[if lt IE 9]><style>
+            .channelPlayButtonOLD {
+                width:65px !important;
+            }
+            #channelSearchForm input[type="text"] {
+                background-image:url(/static/images/2014/searchIcon2@1x.gif) !important;
+            }
+            #volumeWrapper .ui-slider-handle {
+                background-image:url(/static/images/2014/ui-slider-handle@1x.gif) !important;
+            }
+            #playerBlendButton, #playerSkipButton, #playerPauseButton, #playerPlayButton {
+                background-image:url(/static/images/2014/playerButtons3@1x.gif) !important;
+            }
+            #playerSkipButton {
+                background-image:url(/static/images/2014/playerButtons3@1x.gif) !important;
+                background-position:-120px 0px !important;
+            }
+            #playerBlendButton {
+                background-image:url(/static/images/2014/playerButtons3@1x.gif) !important;
+                background-position:-180px 0px !important;
+            }
+            #playerControlsWrapper.hidden #playerSkipButton {
+                background-image:url(/static/images/2014/playerButtons3@1x.gif) !important;
+                background-position:-120px -60px !important;
+            }
+            #playerControlsWrapper.hidden #playerBlendButton {
+                background-image:url(/static/images/2014/playerButtons3@1x.gif) !important;
+                background-position:-180px -60px !important;
+            }
+            #expandedOptions .option .icon.myaccount, #condensedOptions .button .circle.myaccount {
+                background-image:url(/static/images/2014/navbarIconSettings@1x.gif) !important;
+            }
+            #expandedOptions .option .icon.feedback, #condensedOptions .button .circle.feedback {
+                background-image:url(/static/images/2014/navbarIconHelp@1x.gif) !important;
+            }
+            #expandedOptions .option .icon.login, #condensedOptions .button .circle.login {
+                background-image:url(/static/images/2014/navbarIconLogin@1x.gif) !important;
+            }
+            #expandedOptions .option .icon.register, #condensedOptions .button .circle.register {
+                background-image:url(/static/images/2014/navbarIconRegister@1x.gif) !important;
+            }
+            .popover .triangle {
+                position: relative !important;
+                float: left !important;
+                top:0px !important;
+                margin:0px auto;
+                font-size: 0px !important;
+                line-height:13px !important;
+                width: 30px !important;
+                border:0px !important;
+                height:13px !important;
+                background-image:url(/static/images/2014/popupArrowFallback.gif) !important;
+                background-repeat:no-repeat !important;
+            }
+            .popover .header {
+                margin-top:13px;
+            }
+        </style><script type="text/javascript">
+            tsOk = 0;
+            ie8 = 1;
+        </script><![endif]
+Start Visual Website Optimizer Asynchronous Code
+End Visual Website Optimizer Asynchronous Code
+Facebook Pixel tracking code
+End Facebook Pixel tracking code
+Kenshoo event pixel
+End Kenshoo event pixel code
+You must enable JavaScript to use AccuRadio.
+AccuRadio takes advantage of the latest technologies to provide you with the best experience.
+Please enable JavaScript in your browser settings, then refresh this page to continue.
+AccuRadio for iPhone & iPad
+•
+AccuRadio for Android
+•
+<a href="https://www.amazon.com/AccuRadio/dp/B00BMCAM6M/slipstream-20/ref=sr_1_1?ie=UTF8&qid=1373667265&sr=8-1&keywords=accuradio">AccuRadio for Kindle</a> &#8226;
+AccuRadio for Roku
+Begin super description
+Listen now to Blues March by Art Blakey & the Jazz Messengers and more! AccuRadio is free customizable online radio with unlimited skips.
+End super description
+Overall page container
+Top bar promo link
+Better radio for your
+workday
+User is new
+Sign up
+Log in
+Help
+User is new, no account yet
+Sign up
+Log in
+Help
+End page container header
+Content containter
+Channel navigation left-col
+My Channels
+Most Popular
+Surprise Me
+Featured
+It's time for Channel a Day in May!
+May is National Chamber Music Month
+Workplace Moods Channels
+Five-Star Radio
+Genres
+Adult Contemporary
+Adult Rock
+Alt-Country
+Alternative Rock
+Alternative Rock Classics
+Americana
+Artist features
+Beautiful Music
+Bluegrass
+Blues
+Brazilian
+Brit Rock
+Broadway
+Cabaret
+Canadian
+Celtic
+Chill
+Christian
+Classic Rock
+Classical
+Comedy
+Country
+Dance
+Decade: '50s
+Decade: '60s
+Decade: '70s
+Decade: '80s
+Decade: '90s
+Decade: '00s
+Disco
+Electronic
+Folk
+French Pop Classics
+Hip Hop
+Hits (Top 40)
+Holidays (Christmas)
+Indie
+Jazz
+K-Pop (Korean)
+Latin
+Lite Hits
+Love Songs
+Metal
+Movie Soundtracks
+New Age (Relaxing)
+Oldies
+Opera
+Pop Standards
+Punk & Underground
+R&B
+Reggae
+Rock
+Smooth Jazz
+Soul
+Themes
+Top 100 Songs
+Workplace Moods
+World Music
+AccuRadio apps »
+Channel navigation header
+"Blues March" by Art Blakey & the Jazz Messengers
+End channel navigation header
+Channel navigation right-col
+Blues March
+Art Blakey & the Jazz Messengers
+Moanin'
+1958
+Blue Note Records
+Golson
+Hear it free on these channels:
+A Great Day in Harlem
+Jazz greats in the famous 1958 "Great Day in Harlem” photo
+1950s Jazz
+The golden age of bebop, hard bop, and cool jazz
+Blue Note Records
+The recorded legacy of Jazz music’s greatest record company
+End channel navigation right-col
+<div id="leaderboardAdWrapper"></div>
+©
+2014
+AccuRadio LLC.
+About
+Our Story
+FAQ
+Advertise
+Submit Music
+Privacy Policy
+Apps
+iPhone/iPad
+Android
+Sonos
+Roku
+<a href="https://www.amazon.com/AccuRadio/dp/B00BMCAM6M/slipstream-20/ref=sr_1_1?ie=UTF8&qid=1373667265&sr=8-1&keywords=accuradio" target="_blank">Kindle</a>
+Nook
+Chrome
+Connect
+Blog
+Facebook
+Twitter
+Instagram
+Contact Us
+<script>checkForAdBlock();</script><div id="adBlockEnabledWarning1" style='display:none; width:300px; height:250px; margin-bottom:20px; overflow:hidden;'><img src='/static/images/2014/ad_block_banners_companion.png' alt='AdBlockEnabeledWarning1'><script>
+                        if (adBlockEnabled) {
+                            $("#adBlockEnabledWarning1").css('display','block');
+                        }
+                    </script></div><div id="adBlockEnabledWarning2" style='display:none; width:300px; height:250px; margin-bottom:20px; overflow:hidden;'><img src='/static/images/2014/ad_block_banners_companion.png' alt='AdBlockEnabeledWarning2'><script>
+                        if (adBlockEnabled) {
+                            $("#adBlockEnabledWarning2").css('display','block');
+                        }
+                    </script></div>
+<div id="rubicon1wrapper"></div><div id="rubicon2wrapper"></div>
+This content is shown when player is opened
+<a href="#" id="playerFavorite" class="hidden" alt="Add or remove channel as favorite" title="Add or remove channel as favorite"></a>
+Loading...
+Music will resume shortly...
+--:--
+--:--
+Invisible holders to determine sizes
+Blending!
+x
+Vol
+Please rate song:
+Share
+Ban artist/song
+Buy music
+Channel options
+<img src="/static/images/2014/circleLoadingPlum.gif" class="pageLoading">
+Loading Accu
+Radio
+...
+Not working?
+Let us know!
+Ban from channel
+Ban artist
+Ban song
+Cancel
+Resume in...
+5 minutes
+15 minutes
+30 minutes
+60 minutes
+When I say so
+Settings
+Section one
+Channel settings
+Rename channel
+Section three
+View rated songs
+View song history
+Section four
+Account settings
+Sign out
+Section five
+Cancel
+iOS App
+Android App
+AccuRadio on Facebook
+AccuRadio on Twitter
+Blend in this channel?
+Would you like to blend
+into
+?
+You'll hear a mix of music from both channels!
+Blend in
+No thanks
+Blend in a new channel?
+You can blend together multiple channels on AccuRadio. Simply choose any other channel on AccuRadio and its music will be added to this one! Want to get started? (Registration required.)
+Yes! Let's blend
+No thanks
+Ban artist or song:
+Ban song
+Ban artist
+No thanks
+Rename:
+Would you like to give a custom name to this blend?
+No thanks
+Share
+Song
+Channel
+Facebook
+Email
+Twitter
+Pinterest
+Tumblr
+Google +
+Get more from AccuRadio!
+Fewer commercials, more music
+You’ll hear fewer commercials per hour than our guest listeners.
+Save your history & favorites
+See your recently listened to channels, save your favorites, and access them on any device.
+Unlimited song skips
+Don't want to hear that song right now? Skip it. As many times as you like.
+Customize any channel
+Don't want to hear that song ever? Ban the song, or the artist. Rate songs to hear them more or less often, and even blend two or more of your favorite channels together.
+Continue →
+No thanks
+Invite friends & family!
+Help support AccuRadio by telling your friends and family:
+Submit
+No thank you
+AccuRadio: Better Radio for your Workday
+Stay up to date on our ever-growing roster of channels, new features, and opportunities to win great prizes with the AccuRadio Listener Newsletter, free and direct to your inbox.
+Sign up
+No thank you
+Enjoy great music in 2017 on AccuRadio!
+Learn about our new channels and features this year by signing up for our listener newsletter.
+<a href="#" class="" id="massiveNewsletterPopupLogin" style="display:inline;vertical-align:baseline;float:right;font-size:14px;font-weight:bold;background-color:transparent;color:#5F194C;">Already subscribed!</a>
+Sign up!
+<a href="#" class="confirm" id="massiveNewsletterPopupSubmit" style="width:100px;">Submit Email</a><a href="#" class="" id="massiveNewsletterPopupLogin" style="width:100px;vertical-align:baseline;float:right;font-size:14px;font-weight:bold;">Log In</a><a href="#" class="cancel" style="width:100px;margin-top:0px;vertical-align:baseline;float:right;font-size:14px;font-weight:bold;">No Thanks</a>
+Ok
+Each weekday this holiday season we'll make a $1,000 donation to a great cause, and we'd like your input. Please vote for the organization you think should get our next $1,000 donation.
+Please spread the word!
+Or, please suggest a cause that's important to YOU:
+<input type="submit" id="writeInSubmit">
+Suggested recipient must be a 501(c)3 non-profit.
+More details here
+.
+No thanks
+Submit Vote
+vacation_popup_description
+<textarea id="shareTextArea" style="margin-bottom:1%"></textarea>
+Not today, thanks
+Login
+Register
+<a href="#" class="close" style="background-color: #FFFFFF; color: #5F194C; margin-top:0px; font-weight:normal">Okay, got it</a>
+Submit Entry
+Surprise Me
+Play
+Pick similar >
+Pick different >
+Complete your account
+Please confirm your birth year:
+1900
+1901
+1902
+1903
+1904
+1905
+1906
+1907
+1908
+1909
+1910
+1911
+1912
+1913
+1914
+1915
+1916
+1917
+1918
+1919
+1920
+1921
+1922
+1923
+1924
+1925
+1926
+1927
+1928
+1929
+1930
+1931
+1932
+1933
+1934
+1935
+1936
+1937
+1938
+1939
+1940
+1941
+1942
+1943
+1944
+1945
+1946
+1947
+1948
+1949
+1950
+1951
+1952
+1953
+1954
+1955
+1956
+1957
+1958
+1959
+1960
+1961
+1962
+1963
+1964
+1965
+1966
+1967
+1968
+1969
+1970
+1971
+1972
+1973
+1974
+1975
+1976
+1977
+1978
+1979
+1980
+1981
+1982
+1983
+1984
+1985
+1986
+1987
+1988
+1989
+1990
+1991
+1992
+1993
+1994
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+Confirm
+Remind me later
+Complete your account
+Please confirm your gender:
+Male
+Female
+Submit
+Remind me later
+Complete your account
+Please confirm your preference:
+Send me tips, updates, and news via email.
+Submit
+Remind me later
+Cancel
+AccuRadio requires Flash
+AccuRadio requires Adobe Flash to provide you with the best experience.
+Flash is either not installed in this web browser or is not enabled.
+Install Adobe Flash
+Check to see if Flash is installed
+How to enable Flash in Internet Explorer
+Use virus protection? Try temporarily disabling it. (Don't forget to re-enable it!)
+Still not working? Let us know!
+Understood
+Close
+We may have hit a problem...
+AccuRadio requires Adobe Flash to provide you with the best experience.
+Flash either isn't installed on your system, or we ran into a problem loading the software that plays AccuRadio channels.
+AccuRadio may work just fine for you, but if it doesn't, here are some links that may help...
+Install Adobe Flash
+Check to see if Flash is installed
+How to enable Flash in Internet Explorer
+Use virus protection? Try temporarily disabling it. (Don't forget to re-enable it!)
+Still not working? Let us know!
+Ok
+Enter an artist or music genre/style
+For example...
+Smooth Jazz
+Classical
+Taylor Swift
+Frank Sinatra
+PRELOAD THIS IMAGE
+Test unicode play symbol support
+Qualaroo
+End Qualaroo
+Google Code for Remarketing Tag
+Bing conversion tracking
+End Bing conversion tracking
+PROPER WAY BUT TRITON CANNOT BE TRUSTED
+<script src="http://lt160.tritondigital.com/ltflash.php" async="async" id="andoFlash" type="text/javascript"></script>
+WORKAROUND
+VWO return visit track code
+End VWO return visit track code

@@ -1,0 +1,68 @@
+/twitter seo
+[if (gte IE 6)&(lte IE 8)]>
+            <script type="text/javascript" src="/static/js/site/third_party/selectivizr-min.js"></script>
+            <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+        <![endif]
+HEADER
+xml version="1.0" encoding="utf-8"?
+BROWSE BAR
+Reactions
+Entertainment
+Sports
+Stickers
+Artists
+Categories
+GIPHY Studios
+Animals
+Holidays
+Food & Drink
+Memes
+Actions
+Emotions
+Anime
+Gaming
+Cartoons
+Stickers
+GIPHY Studios
+Greetings
+Good Vibes
+Cool Stuff
+Cute Stuff
+Apps
+GIPHY
+GIPHY Stickers
+GIPHY Cam
+GIPHY Capture
+GIPHY Keys
+About
+Team
+Partnerships
+Studios
+API
+Labs
+FAQ
+Support
+Terms
+Privacy
+DMCA
+/BROWSE BAR
+CREATION BUTTONS
+Upload
+Create
+CREATION BUTTONS
+LOGIN PLACEHOLDER
+LOGIN PLACEHOLDER
+/HEADER
+SEARCH BAR
+Search all the GIFs
+Search all the GIFs
+/SEARCH BAR
+Send
+ANALYTICS
+Quantcast Tag
+End Quantcast tag
+Start Alexa Certify Javascript
+End Alexa Certify Javascript
+END ANALYTICS
+Google Tag Manager
+End Google Tag Manager

@@ -1,0 +1,203 @@
+HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]
+top
+news
+About P90
+Radioshows
+Crew
+Listen now!
+Request now!
+Now Playing :
+Cosmic Gate
+The Drums (Video Mix)
+The real sound of the 90's
+Agenda: 04-06-2017 Vi Elsker 90'erne (Aalborg, Denmark)
+Agenda: 13-05-2017 90s No Limit (Bergen op Zoom, Feesttent)
+Agenda:  01-07-2017 Back to the 90's Outdoor Festival (Tilburg - Leijpark)
+More 90's news
+Mixed Moods - Next Friday: Phonzo
+Mixed Moods - Playlist 31-03-2017
+Agenda Mixed Moods 2017
+More Planet90 news
+<div class="request" >
+     
+    <div class="input-group">
+      <input type="text" id="request" placeholder="Type artist/song name...">
+      <span class="input-group-btn">
+        <input type="submit" class="submit" value="Request">
+      </span>
+    </div>
+
+     </div>
+RECENTLY PLAYED SONGS
+04:39:14
+Cappella
+U Got 2 Know (House Mix)
+04:35:47
+FKW
+Jingo (Remix Edit)
+04:31:56
+Messengers
+Miss Sarajevo (Radio Dance Mix)
+04:27:45
+Lil Louis & The World
+I Called U (But You Weren't There) (Edit)
+04:24:04
+Dj Jazzy Jeff & Fresh Prince
+Can't Wait To Be With You
+SOON ON PLANET90:
+Faithless • Lutricia Mcneal • Clivillés & Cole • Platinum • Soulsearcher • New Jack Style • Jam & Spoon • Orinoko • Shades Of Love • The Deff Boyz
+We are Planet 90
+Internetradio with the real sound of the 90's!
+Time flies by these days, we all know that feeling…right? Sometimes you’ve just got to emerge yourself in the sound of the 90’s and pump up the volume!
+Do you remember the first time you went online, the outrageous clothing, the new music phenomena like house and hip hop and all the other things that were trending? It was an era of revolution in many ways.
+In 2004 we started streaming 90’s music 24/7 online, we didn’t play a specific genre, if it was from the 90’s we played it: R&B, Hip Hop, Hiphouse, Swingbeat, Dance, House, Rave, Happy Harcore, Rock, Pop. Nowadays our playlist exist of only songs that we rate as 90’s Dance music. Not only the mainstream European dance hits, but also the special mix versions and songs that were big in countries like the USA or the UK. We like to keep you surprised!
+We also will keep you updated with news about artists from that era and activities from our dj’s. Join the Planet 90 social media and connect with our dj’s and other listeners.
+We all love the real sound of the 90’s!
+Radioshows
+Mixed Moods [Friday 20..00-22.00 CET + Rerun at Sunday 22.00-00.00 CET]
+Radioshow:
+Mixed Moods
+Timetable:
+friday at 20.00-22.00 CET
+Re-run:
+sunday at 22.00-00.00 CET
+Live:
+on friday when live, with videostream on facebook
+Resident DJ's:
+Booy | Eastfield | Miss Mana | Ven | Vreestyle
+Friday 05-05-2017 Mixed Moods Presents:
+MissManaInvites
+Phonzo
+Two hours in the mix without any commercials or presentation. Only music! Every week a different DJ and a different style of 90's dance.
+Our resident DJ's started in the nineties as a DJ and are still active at parties with their unique sets. In Mixed Moods you can see the resident DJ's reguraly,
+and sometimes Miss Mana invites her special guest DJ's at the wheels of steel.
+Check the scheme when your favourite DJ is mixing on Planet 90!
+Agenda 2017:
+05-05-2017
+Phonzo
+Mixed Moods presents:
+MissManaInvites guest
+12-05-2017
+Booy (NL)
+Mixed Moods presents:
+Residency
+19-05-2017
+Vreestyle (NL)
+Mixed Moods presents:
+Residency
+26-05-2017
+Miro (Deepcage)
+Mixed Moods presents:
+MissManaInvites guest
+02-06-2017
+To be anouonced!
+09-06-2017
+N.W.A. Mark
+Mixed Moods presents:
+MissManaInvites guest
+16-06-2017
+Eastfield (NL)
+Mixed Moods presents:
+Residency
+23-06-2017
+N.W.A. Danny
+Mixed Moods presents:
+MissManaInvites guest
+30-06-2017
+Miss Mana (NL)
+Mixed Moods presents:
+Residency
+07-07 / 25-08
+* HOLIDAY,  No DJ's, No Play *
+01-09-2017
+Tony Merks (NL)
+Mixed Moods presents:
+Residency
+08-09-2017
+Ven (NL)
+Mixed Moods presents:
+Residency
+15-09-2017
+Jordi
+Mixed Moods presents:
+MissManaInvites guest
+22-09-2017
+Booy (NL)
+Mixed Moods presents:
+Residency
+29-09-2017
+Vreestyle (NL)
+Mixed Moods presents:
+Residency
+06-10-2017
+Monika (UK)
+Mixed Moods presents:
+MissManaInvites guest
+13-10-2017
+To be anouonced!
+20-10-2017
+Dann Seidel (NL)
+Mixed Moods presents:
+MissManaInvites guest
+27-10-2017
+To be anouonced!
+03-11-2017
+Eastfield (NL)
+Mixed Moods presents:
+Residency
+10-11-2017
+Miss Mana (NL)
+Mixed Moods presents:
+Residency
+17-11-2017
+To be anouonced!
+24-11-2017
+Tony Merks (NL)
+Mixed Moods presents:
+Residency
+01-12-2017
+Ven (NL)
+Mixed Moods presents:
+Residency
+08-12-2017
+Booy (NL)
+Mixed Moods presents:
+Residency
+15-12-2017
+Vreestyle (NL)
+Mixed Moods presents:
+Residency
+22-12-2017
+* CHRISTMAS SPECIAL *
+29-12-2017
+To be anouonced!
+Planet 90 Crew
+Arjan Oosterveld
+Founder Planet 90, Music Director & Resident DJ Mixed Moods
+Bas Bonninga
+DJ, Jingles & Station Audio Imaging
+Miss Mana
+Resident DJ Mixed Moods & Host 'Miss Mana Invites'
+Booy
+Resident DJ Mixed Moods
+Tony Merks
+Resident DJ Mixed Moods
+Ven
+Resident DJ Mixed Moods
+Vreestyle
+Resident DJ Mixed Moods
+Ruben Bethlehem
+RadioDJ Software Maintenance & Tester
+Danielle de Noord
+Design & Identity
+Jack Westers
+Stationvoice
+© 2016 Planet90 - all rights reserved - website powered by
+MartinMedia.nl
+Warning
+/home/planet90/public_html/index.php
+415

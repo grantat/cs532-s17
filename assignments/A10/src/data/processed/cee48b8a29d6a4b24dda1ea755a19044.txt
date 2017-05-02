@@ -1,0 +1,622 @@
+nav-config-asset-injection GB::desktop::standard::101729:T1::auiDebug=0::isSecure=1 navc-h6mUD68uO2cy0JTH0JSPAqlXQDkPqVM5LiDadxdCtO641uPYv6fojbW/pVez72aM rid-BAWRT5C2W5Y8WZBPT92M seq-302 (Tue May  2 02:54:15 2017) **CACHED-BY-NCCC**
+doctype html
+BeginNav
+nav-config-asset-injection GB::desktop::standard::101729:T1::auiDebug=0::isSecure=1 navc-h6mUD68uO2cy0JTH0JSPAqlXQDkPqVM5LiDadxdCtO641uPYv6fojbW/pVez72aM rid-BAWRT5C2W5Y8WZBPT92M seq-302 (Tue May  2 02:54:15 2017) **CACHED-BY-NCCC**
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/02/gno/sprites/global-sprite_bluebeacon-v1._CB308131100_.png);
+  }
+endif
+if gt IE 6
+Amazon.co.uk
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Global Store
+Amazon Pantry
+Amazon Video
+Amazon Warehouse Deals
+Apps & Games
+Baby
+Beauty
+Books
+Car & Motorbike
+CDs & Vinyl
+Classical
+Clothing
+Computers
+Digital Music
+DIY & Tools
+DVD & Blu-ray
+Electronics & Photo
+Fashion
+Garden & Outdoors
+Gift Cards
+Grocery
+Handmade
+Health & Personal Care
+Home & Kitchen
+Industrial & Scientific
+Jewellery
+Kindle Store
+Large Appliances
+Lighting
+LOVEFiLM by Post
+Luggage
+Luxury Beauty
+Musical Instruments & DJ
+PC & Video Games
+Pet Supplies
+Shoes & Bags
+Software
+Sports & Outdoors
+Stationery & Office Supplies
+Toys & Games
+VHS
+Watches
+Go
+Shop by
+Department
+Hello. Sign in
+Your Account
+Try
+Prime
+Your
+Lists
+Basket
+0
+Your Amazon.co.uk
+Today's Deals
+Gift Cards & Top Up
+Sell
+Help
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 Basket
+Settings
+You have exceeded the maximum number of items in your MP3 Basket.
+TITLE  added to MP3 Basket
+Jazz Masters 26: Lionel Hampton With Oscar Peterson
+Lionel Hampton
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+1 Jan 1994
+Be the first to review this item
+Price display
+£8.99
+VAT Message
+(VAT included if applicable)
+£8.99
+to buy
+(VAT included if applicable)
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+6 songs available with Unlimited
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Amazon Music Unlimited subscribers can play 40 million songs, thousands of playlists and ad-free stations including new releases.
+Learn More
+Buy MP3 Album
+£8.99
+Add to MP3 Basket
+Album in MP3 Basket
+View MP3 Basket
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Share
+Facebook
+Twitter
+Pinterest
+More Options
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.co.uk (UK).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+Jam Blues
+by
+Oscar Peterson and Lionel Hampton
+Jam Blues
+by
+Oscar Peterson and Lionel Hampton
+4:45
+Listen Now
+Buy:
+£0.99
+In MP3 Basket
+View MP3 Basket
+2
+Always
+by
+Lionel Hampton & Oscar Peterson
+Always
+by
+Lionel Hampton & Oscar Peterson
+8:01
+Album Only
+3
+Soft Winds
+by
+Lionel Hampton & Oscar Peterson
+Soft Winds
+by
+Lionel Hampton & Oscar Peterson
+6:12
+Listen Now
+Buy:
+£0.99
+In MP3 Basket
+View MP3 Basket
+4
+Star Dust
+by
+Lionel Hampton & Oscar Peterson
+Star Dust
+by
+Lionel Hampton & Oscar Peterson
+9:57
+Album Only
+5
+Je Ne Sais Pas
+by
+Lionel Hampton Quintet
+Je Ne Sais Pas
+by
+Lionel Hampton Quintet
+6:32
+Listen Now
+Buy:
+£0.99
+In MP3 Basket
+View MP3 Basket
+6
+Tenderly
+by
+Lionel Hampton & Oscar Peterson
+Tenderly
+by
+Lionel Hampton & Oscar Peterson
+10:13
+Album Only
+7
+Hallelujah!
+by
+Lionel Hampton & Oscar Peterson
+Hallelujah!
+by
+Lionel Hampton & Oscar Peterson
+6:23
+Listen Now
+Buy:
+£0.99
+In MP3 Basket
+View MP3 Basket
+8
+Sweethearts On Parade
+by
+Oscar Peterson and Lionel Hampton
+Sweethearts On Parade
+by
+Oscar Peterson and Lionel Hampton
+7:12
+Album Only
+9
+Date With Oscar
+by
+Oscar Peterson and Lionel Hampton
+Date With Oscar
+by
+Oscar Peterson and Lionel Hampton
+5:57
+Listen Now
+Buy:
+£0.99
+In MP3 Basket
+View MP3 Basket
+Sold by Amazon Media EU S.à r.l..
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Popular Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+÷ (Deluxe)
+Ed Sheeran
+609
+Stream
+or buy for
+£11.99
+check if each carouselCard is Platinum or Prime
+DAMN. [Explicit]
+Kendrick Lamar
+7
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+Humanz (Deluxe) [Explicit]
+Gorillaz
+24
+Stream
+or buy for
+£11.99
+check if each carouselCard is Platinum or Prime
+Tears On The Dancefloor
+Steps
+77
+Stream
+or buy for
+£9.99
+check if each carouselCard is Platinum or Prime
+Human (Deluxe)
+Rag'n'Bone Man
+951
+Stream
+or buy for
+£9.99
+check if each carouselCard is Platinum or Prime
+Big Little Lies (Music From Th...
+Various artists
+11
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+Human
+Rag'n'Bone Man
+951
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+Carrie & Lowell Live
+Sufjan Stevens
+1
+Stream
+or buy for
+£7.99
+check if each carouselCard is Platinum or Prime
+Automaton
+Jamiroquai
+81
+Stream
+or buy for
+£7.09
+check if each carouselCard is Platinum or Prime
+Sing Your Heart Out 2017
+Various artists
+27
+Stream
+or buy for
+£7.99
+check if each carouselCard is Platinum or Prime
+Trolls (Original Motion Pictur...
+Various
+152
+Stream
+or buy for
+£5.99
+check if each carouselCard is Platinum or Prime
+Makes Me Sick
+New Found Glory
+2
+Stream
+or buy for
+£7.99
+check if each carouselCard is Platinum or Prime
+Moana (Original Motion Picture...
+Various artists
+70
+Stream
+or buy for
+£8.09
+check if each carouselCard is Platinum or Prime
+Jump on Board
+Texas
+19
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+More Life [Explicit]
+Drake
+8
+Stream
+or buy for
+£9.99
+check if each carouselCard is Platinum or Prime
+Memories...Do Not Open [Explicit]
+The Chainsmokers
+17
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+Beauty and the Beast (Original...
+Various artists
+21
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+The Search for Everything
+John Mayer
+11
+Stream
+or buy for
+£7.99
+check if each carouselCard is Platinum or Prime
+Life Love Flesh Blood (Deluxe)
+Imelda May
+5
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+Risk to Exist
+Maximo Park
+1
+Stream
+or buy for
+£4.99
+check if each carouselCard is Platinum or Prime
+Amazing 80s
+Various artists
+11
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+Heathen Hymns
+Galley Beggar
+Stream
+or buy for
+£7.92
+check if each carouselCard is Platinum or Prime
+Let Me Fly
+Mike + The Mechanics
+34
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+Emerald Island - EP
+Caro Emerald
+8
+Stream
+or buy for
+£4.99
+check if each carouselCard is Platinum or Prime
+Guardians of the Galaxy Vol. 2...
+Tyler Bates
+1
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+Silver Eye
+Goldfrapp
+24
+Stream
+or buy for
+£8.99
+check if each carouselCard is Platinum or Prime
+24K Magic
+Bruno Mars
+249
+Stream
+or buy for
+£8.91
+check if each carouselCard is Platinum or Prime
+Emperor of Sand
+Mastodon
+29
+Stream
+or buy for
+£9.99
+check if each carouselCard is Platinum or Prime
+Ramones - 40th Anniversary Del...
+Ramones
+10
+Stream
+or buy for
+£45.99
+check if each carouselCard is Platinum or Prime
+Beauty and the Beast (Original...
+Various artists
+27
+Stream
+or buy for
+£7.99
+Next
+Product details
+Original Release Date:
+1 Jan. 1994
+Release Date:
+8 Jun. 1994
+Label:
+Decca (UMO)
+Copyright:
+℗© 1994 The Verve Music Group, a Division of UMG Recordings, Inc.
+Record Company Required Metadata:
+Music file metadata contains unique purchase identifier.
+Learn more
+.
+Total Length:
+1:05:12
+Genres:
+Jazz
+ASIN:
+B001KWQT5C
+Average Customer Review:
+Be the first to review this item
+Amazon Bestsellers Rank:
+209,349 in Albums (
+See Top 100 in Albums
+)
+#12786
+in
+MP3 Downloads
+>
+Albums
+>
+Jazz
+Get a £1 reward for movies or TV
+Get £1 to spend on Amazon Video with any Music Content purchase. Offer ends at 23:59 on Monday, August 7, 2017.
+Terms and conditions apply
+Customer Reviews
+There are no customer reviews yet.
+5 star
+4 star
+3 star
+2 star
+1 star
+Write a customer review
+Look for similar items by category
+Jazz
+>
+Bebop
+Unlimited One-Day Delivery and more
+Prime members also enjoy exclusive access to movies and TV shows, two million songs and much more.
+>
+Get Started
+There's a problem loading this menu at the moment.
+Learn more about Amazon Prime.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Us
+Supply Chain Standards
+Make Money with Us
+Sell on Amazon
+Sell on Amazon Business
+Associates Programme
+Fulfilment by Amazon
+Advertise Your Products
+Independently Publish with Us
+Amazon Pay
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Methods
+Amazon Platinum MasterCard
+Amazon Money Store
+Gift Cards
+Amazon Currency Converter
+Payment Methods Help
+Pay Monthly
+Shop with Points
+Top Up Your Account
+Let Us Help You
+Track Packages or View Orders
+Delivery Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Mobile App
+Amazon Assistant
+Help
+Australia
+Brazil
+Canada
+China
+France
+Germany
+India
+Italy
+Japan
+Mexico
+Netherlands
+Spain
+United States
+AbeBooks
+Books, art
+& collectables
+ACX
+Audiobook Publishing
+Made Easy
+Amazon BuyVIP
+The European
+Shopping Club
+Amazon Tickets
+Music, Theatre
+& Comedy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+DPReview
+Digital
+Photography
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+2-Hour Delivery
+on Everyday Essentials
+Shopbop
+Designer
+Fashion Brands
+Yoyo.com
+A Happy Place
+To Shop For Toys
+Warehouse Deals
+Deep Discounts
+Open-Box Products
+LOVEFiLM
+DVD & Blu-ray
+To Rent By Post
+Amazon Business
+Service for
+business customers
+Conditions of Use & Sale
+Privacy Notice
+Cookies & Internet Advertising
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-9AMoNQM2QGY2jkalO1XsCdzw/Wd0t+uIa0vkhUzhxQ3a0Nq3hfjhakItUwWFKrzz rid-D41SVQSHG74Y65605044

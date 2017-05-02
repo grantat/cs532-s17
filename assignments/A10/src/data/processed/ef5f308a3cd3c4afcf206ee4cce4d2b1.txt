@@ -1,0 +1,98 @@
+[if !IE]>
+<![endif]
+[if IE]>
+    <link rel="stylesheet" type="text/css" media="all" href="https://s.smore.com/css/show.afe963ed.ie.css"/>
+    <![endif]
+smore's user-id
+Mobile viewport optimization h5bp.com/ad
+prefetch dns
+[if lt IE 8]>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]
+test if inside an iframe, if is, redirect to an embedded version
+[if IE]>
+    <script type="text/javascript">document.getElementsByTagName('html')[0].className += ' ie';</script>
+    <![endif]
+Facebook Pixel Code
+DO NOT MODIFY
+End Facebook Pixel Code
+Smore is an online website builder that lets you create delicious, bite-size websites that are easy to make and impossible to mess up.
+Beautiful Flyers Instantly
+Log in
+Sign up for free
+Learn more
+Design and share beautiful flyers just like this one!
+Spread the word with an online flyer.
+            They're easy to make and impossible to mess up :)
+Try it now
+Design instant mobile pages with
+»
+Like this flyer
+You like this
+Share
+Tweet
+Pin it
+Embed
+0
+307
+Like this flyer
+You like this
+Share
+Tweet
+Pin it
+Lafayette Jazz Band
+Dance & Silent Auction
+Lafayette Jazz Band
+Dance & Silent Auction
+Join the Lafayette Jazz Bands for an evening of syncopated, musical poetry.
+Mark your calendars for Friday, February 17th and make plans to attend this fun-filled event at
+Wellington Elementary
+! The event will be held from 7:00pm – 10:00pm. The cost is $7.00 for students (including college students) and $10.00 for adults. Light refreshements will be served.
+There are many ways to get involved and have fun:
+Reserve A Table:
+Tables are now “on sale” for
+VIP Reserved Seating and Table Decorating Contest
+. A table for 10 guests costs $80 and includes 10 entrance tickets. A limited number of tables are available. To purchase your table, contact Greg or Regina Wild (
+gandrwild@gmail.com
+) or call Greg (859-619-6990) or Regina (859-619-3423).
+Hit the Dance Floor
+: Bring your dancing shoes and participate in one of the night's
+Dance Contests
+.
+Bid in the Silent Auction:
+–
+Click here
+to see the amazing list of businesses who have donated to the
+Silent Auction
+. Check back weekly to see our generous sponsor list grow and identify some items you would like to bid on.
+All proceeds raised from the event will support the
+Lafayette Band
+.
+.content
+columns
+rows
+page grid
+Jazz Band Dance & Silent Auction
+When
+Friday, Feb. 17th, 7-10pm
+Where
+3280 Keithshire Way
+Lexington, KY
+Get Directions
+Get a link:
+copy
+Embed code:
+copy
+Paste in your blog/website to embed.
+Done
+Love Smore? Help us grow!
+Follow @SmorePages
+Report this flyer
+Design beautiful online flyers and publish instantly.
+The days of posting a flyer around the neighborhood are over.
+Smore helps you create amazing pages that you’d be proud to share.
+Try it now
+Report this flyer as offensive/spam
+Please explain briefly why you think this flyer should be reported.
+Cancel
+Report

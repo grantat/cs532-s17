@@ -1,0 +1,55 @@
+<![endif]
+[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]
+[if lte IE 9]>
+		<script src="//s3.amazonaws.com/content.sitezoogle.com/assets/history.iegte8.min-4d58c83f2678f3f74a34d395c04f3723.js"></script>
+	<![endif]
+Home
+About
+Calendar
+Featured Music
+Photos
+Videos
+Store
+Contact
+EPK
+Blog
+Representation
+Sharon Rae North
+Share
+Share this track (
+Hide
+)
+0:00
+/
+0:00
+Lonely Nites
+$1.99
+In cart
+Not available
+Out of stock
+Home
+About
+Calendar
+Featured Music
+Photos
+Videos
+Store
+Contact
+EPK
+Blog
+Representation
+this element is only here to fix an IE11 flexbox bug. see css for details.
+note it's up to the template designer to choose which icon (if any) they want to use
+temporary: so site_wide_my_sites show up in pages tab of controlpanel
+Welcome
+Thanks for stopping by.
+Take your time and enjoy your visit.
+Single "Lonely Nites" released to radio on January 30.
+Currently #21 on Billboard Smooth Jazz Chart and #29 on Smooth Jazz Top 50 Chart.
+Check out my EPK for more information.
+Return to form
+Please join our mailing list for the latest news
+Please prove that you are not a robot
+Powered by Bandzoogle

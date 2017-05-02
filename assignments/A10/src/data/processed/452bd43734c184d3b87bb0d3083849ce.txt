@@ -1,0 +1,915 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+Queen of Pain
+Devil Doll
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+January 1, 2002
+4.5 out of 5 stars
+41 customer reviews
+To enable Prime Music, you must have JavaScript turned on in your browser.
+Price display
+Start your 30-day free trial of Unlimited
+to listen to this album plus tens of millions more songs. Exclusive Prime pricing.
+See all 2 formats and editions
+Hide other formats and editions
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Listen Now with Amazon Music
+Queen of Pain
+"Please retry"
+Amazon Music Unlimited
+Price
+New from
+Used from
+Do not show expander when DVD_redesign weblab is in treatment
+MP3 Music, May 5, 2008
+"Please retry"
+$8.99
+$8.99
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Audio CD, October 14, 2003
+"Please retry"
+—
+$24.90
+$22.01
+This file is a replica of swatches.jsp
+     The only difference we have introduced here is to use absolute paths 
+     and dynamic includes
+Streaming
+Unlimited
+MP3
+$8.99
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+Listen with our
+Free App
+Audio CD
+from $22.01
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+4 Used
+from
+$22.01
+2 New
+from
+$24.90
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Listen to any song, anywhere with Amazon Music Unlimited.
+Learn More
+Buy MP3 Album
+$8.99
+Add to MP3 Cart
+Album in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+St. Christopher
+St. Christopher
+2:52
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+2
+You Are the Best Thing and the Worst Thing
+You Are the Best Thing and the Worst Thing
+3:38
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+3
+Heart Sized Crush
+Heart Sized Crush
+3:13
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+4
+It Was Raining
+It Was Raining
+3:00
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+5
+King of Brooklyn
+King of Brooklyn
+4:47
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+6
+16 Days
+16 Days
+2:10
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+7
+Walk With Me
+Walk With Me
+4:20
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+8
+Things You Make Me Do
+Things You Make Me Do
+5:52
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+9
+Faith in Love
+Faith in Love
+4:49
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+10
+Bourbon in Your Eyes
+Bourbon in Your Eyes
+4:51
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+11
+Driven to Distraction
+Driven to Distraction
+3:18
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+12
+Liquor Store
+Liquor Store
+3:19
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+13
+Queen of Pain
+Queen of Pain
+5:05
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+14
+You Put a Spell On Me
+You Put a Spell On Me
+3:36
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+15
+Union Square
+Union Square
+3:24
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+16
+Left
+Left
+3:32
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+17
+Why
+Why
+3:29
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+18
+If I Died in Your Arms
+If I Died in Your Arms
+7:27
+Listen Now
+$0.99
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Customers Also Bought These Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+The Return of Eve
+Devil Doll
+15
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Shocking Miss Emerald
+Caro Emerald
+102
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Mayhem (Amazon Version)
+Imelda May
+146
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+The Shocking Miss Emerald (Del...
+Caro Emerald
+102
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+The Shocking Miss Emerald Acou...
+Caro Emerald
+Stream
+or buy for
+$5.94
+check if each carouselCard is Platinum or Prime
+Squad Goals
+Scott Bradlee's Postmodern Jukebox
+5
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+PMJ And Chill
+Scott Bradlee's Postmodern Jukebox
+6
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+Introducing The Dame [Explicit]
+Ivy Levan
+26
+Stream
+or buy for
+$5.16
+check if each carouselCard is Platinum or Prime
+Holy Smoke
+Gin Wigmore
+111
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Big Bad Voodoo Daddy
+Big Bad Voodoo Daddy
+370
+Stream
+or buy for
+$6.99
+check if each carouselCard is Platinum or Prime
+Extended Play
+Gin Wigmore
+37
+Stream
+or buy for
+$4.95
+check if each carouselCard is Platinum or Prime
+Love and War [Explicit]
+ZZ Ward
+11
+Stream
+or buy for
+$3.96
+check if each carouselCard is Platinum or Prime
+Le Pop [Explicit]
+Katzenjammer
+27
+Stream
+or buy for
+$8.99
+Next
+Product details
+Original Release Date:
+January 1, 2002
+Release Date:
+May 5, 2008
+Label:
+Lucky Bluebird Records
+Copyright:
+℗ 2002 Devil Doll © 2002 Lucky Bluebird Records
+Total Length:
+1:12:42
+Genres:
+Country
+Hard Rock & Metal
+Jazz
+>
+Swing Jazz
+Miscellaneous
+Pop
+Rock
+>
+Country Rock
+Rock
+>
+Progressive
+ASIN:
+B000QQSYX8
+Average Customer Review:
+4.5 out of 5 stars
+41 customer reviews
+Amazon Best Sellers Rank:
+#21,321 Paid in Albums (
+See Top 100 Paid in Albums
+)
+#23
+in
+Digital Music
+>
+Albums
+>
+Jazz
+>
+Swing Jazz
+#24
+in
+Digital Music
+>
+Albums
+>
+Rock
+>
+Country Rock
+#79
+in
+Digital Music
+>
+Albums
+>
+Rock
+>
+Progressive
+Customer Reviews
+4.5 out of 5 stars
+41
+4.5 out of 5 stars
+5 star
+73%
+4 star
+15%
+3 star
+2%
+2 star
+5%
+1 star
+5%
+Share your thoughts with other customers
+Write a customer review
+See all verified purchase reviews
+Top Customer Reviews
+5.0 out of 5 stars
+Great Vocals, you can't go wrong
+By
+ZenDodge69
+on September 25, 2012
+Format: MP3 Music
+|
+Verified Purchase
+I 'discovered' Devil Doll on Pandora the other day and was so impressed that I bought this album.  I wouldn't classify this as punk or alt or anything anyone has suggested. This women is a great Torch Singer, and the band plays in a number of musical styles, and they do it well, this says a great deal about the Singer and the band to be even capable of doing that and doing it well. The way the woman sings reminds me of the Torch singers of the 40s, her sultry voice will make your 'thighs go up in flames' why she is not more famous I do not know, but I think she is certainly a top 10 contender. This album is solid, there is not one song I didn't like, I have not heard there other albums, but if this is an example of what they do I will definitely buy more. If you are a fan of female Torch singers or female vocalists you can't go wrong with
+Queen of Pain
+p.s. for those of you more sensitive she does use the F word a few times.
+Read more
+0
+Comment
+|
+2 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Way better than expected! Amazon's preview clips do not do her justice!
+By
+TheCatalystCorner
+on November 17, 2013
+Format: MP3 Music
+|
+Verified Purchase
+I bought this after someone played Imelda May on the jukebox at the bar. I bought her album (More Mayhem) and this was a suggestion by Amazon. I kinda liked some of the song clips Amazon had as samples. I figured they would go well on a playlist of similar music together. I was not expecting to like this album so much! The samples of songs Amazon has do not do her justice! Not the kind of music I put on when my friends come over to party, but I love it when Im doing things around the house. Has an old time feel with new school content. Was not expecting to become a fan.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+4.0 out of 5 stars
+Sexy voice, original lyrics, but with an old-time feel.
+By
+Bert G
+on November 8, 2013
+Format: MP3 Music
+|
+Verified Purchase
+Been looking for a sound like this for a while.  Part rockabilly, part torch song, with a dirty vibe.  Her voice is solid, and the musicians accompanying her here are excellent.  The only reason I didn't give it 5 stars is that after a while, the songs all tend to blend together, like subtle variations on a theme.  Bourbon in your Eyes is the stand out song.  Plus, 18 songs for $9 is a great deal.  She could have easily split that up into two albums.  I'm glad she didn't.
+Read more
+0
+Comment
+|
+One person found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+4.0 out of 5 stars
+Fun and sexy
+By
+Scarlett Brontë
+on January 5, 2008
+Format: Audio CD
+|
+Verified Purchase
+This is a great album that grows on me the more I listen to it. The band is fantastic (love the upright bass!) and I love Colleen's voice.
+The songs are from all different genres, but they still have that jazzy, sexy, punk, quality that ties them all together and makes up the Devil Doll sound. I know that sounds odd, but after you hear it, you'll know what I mean. I'm not even sure how to classify it, maybe rockabillyjazzypunk?
+My favorite song is probably Things You Make Me Do (great lap dance song). I also love 16 Days, Bourbon In Your Eyes, Driven To Distraction, and Liquor Store. All very sexy songs.
+There really isn't a bad song on the album. Even the ones that I'm not that into are still very good.
+Read more
+0
+Comment
+|
+One person found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Amazing album--Amazing live act.
+By
+J. Stephen Hartsfield
+on December 9, 2004
+Format: Audio CD
+|
+Verified Purchase
+I first became aware of Devil Doll while working at a club in Tucson, AZ.  I waslucky enough to have the night off and enjoy the show.  Since then I've not missed a live show of hers in the Southwest.  Like her live shows, this album is beautiful, breath taking, and down right impressive!  Devil Doll walks on the edge of Rockabilly, punk, and swing...she takes no prisoners in her captivating lyrics and voice.  She claims herself to sing about love with a jagged/tainted point of view.  In addition, Colleen (the lead singer and the preeminent'Devil Doll') is also a very accomplished musican.  Simply put this band is great, and the image of Devil Doll is right out of a 1950's pin up calendar!  ENJOY!
+Read more
+0
+Comment
+|
+13 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Perfectly seductive and enjoyable
+By
+Dustin Schneider
+on January 25, 2015
+Format: MP3 Music
+|
+Verified Purchase
+Love Devil Doll and wish she were still around.  Perfectly seductive and enjoyable, use this album when you want to take that night to the next level.  Turn it on and cook her dinner with a great bottle of wine and you will be a fan too.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Amazing voice
+By
+Clickum
+on June 19, 2016
+Format: MP3 Music
+|
+Verified Purchase
+Heard "Bourbon In Your Eyes" on Pandora, purchased entire album.  No ragrets...not even one letter.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Burlesque and Gothic I like the overall not quite vintage flavor of the music
+By
+Amazon Customer
+on October 14, 2016
+Format: MP3 Music
+|
+Verified Purchase
+Burlesque and Gothic I  like the overall not quite vintage flavor of the music.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Most Recent Customer Reviews
+5.0 out of 5 stars
+Great Music
+Excellent CD. A great sound
+Read more
+Published 3 months ago by Ryan B. Unck
+5.0 out of 5 stars
+Five Stars
+Thank you!
+Read more
+Published 5 months ago by Amazon Customer
+5.0 out of 5 stars
+a great listen. I'm looking for concert venues to see ...
+Sexy, smooth and sultry, a great listen. I'm looking for concert venues to see her live right now.
+Read more
+Published 10 months ago by Amazon Customer
+5.0 out of 5 stars
+Awesome!
+One of the best CD's I have bought in a long time,Awesome!
+Read more
+Published 1 year ago by Terrence D. Pearce
+5.0 out of 5 stars
+Five Stars
+awesome voice..sexy sultry rockabilly.. jazz.torch singer...cooooool man!
+Read more
+Published 1 year ago by John C.
+5.0 out of 5 stars
+Five Stars
+Great music.
+Read more
+Published 1 year ago by ray bedford
+4.0 out of 5 stars
+Owwwwwwww!
+Unique and different, ....DD will make ya fel da' pain! Owwwwww!
+Read more
+Published on March 10, 2015 by Audiophile MB (Marco B.-NYC)
+5.0 out of 5 stars
+loved it
+have been listening to it non-stop since it was received.  heard her first on Pandora and picked this up.  no regrets whatsoever.  hope she plays Chicago soon!
+Read more
+Published on May 28, 2014 by amazon user
+5.0 out of 5 stars
+Devil Doll's...DEVILISHLY AMAZING
+Steamy torch singer!!!  Great album for late night cocktails, adult only dinner parties, and dressing for that sexy night out.
+Read more
+Published on November 20, 2013 by M. Harrington
+Search Customer Reviews
+Search
+What other items do customers buy after viewing this item?
+Bourbon in Your Eyes
+Devil Doll
+5.0 out of 5 stars
+2
+$0.99
+Queen of Pain
+Devil Doll
+5.0 out of 5 stars
+1
+$0.99
+You Put a Spell On Me
+Devil Doll
+5.0 out of 5 stars
+1
+$0.99
+Fever
+Devil Doll
+5.0 out of 5 stars
+1
+$0.99
+Look for similar items by category
+Jazz
+>
+Swing Jazz
+Rock
+>
+Country Rock
+Rock
+>
+Progressive
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-KIWW3hWUfXTkkznmqSoMB7kbwtWyXWET3nBI3sB2UK9Ll1iPGLp5ql3ouG2xg3hZ rid-ZD7JE78JNSBYYDT8HMZ0

@@ -1,0 +1,203 @@
+<![endif]
+Google Chrome Frame for IE
+[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]
+mobile meta
+head extras
+This site is optimized with the Yoast SEO plugin v4.6 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+Inline jetpack_facebook_likebox
+[if lt IE 10]>
+<link rel='stylesheet' id='cb-ie-only-css'  href='https://microondasmagazine.com/wp-content/themes/15zine/library/css/ie.css?ver=3.0.0' type='text/css' media='all' />
+<![endif]
+end custom css
+Jetpack Open Graph Tags
+end head extras
+Magazine
+Discos
+Cultura
+Eventos
+Historias
+Microondas Radio
+Microondas TV
+Videoclips
+Documentales
+Directo
+Mixes
+MicroMissions
+Remix De Mixtapes
+¿Olvidaste la contraseña?
+Magazine
+Magazine
+Ver todos
+Microondas Radio 102 / Clark, Dinamarca, Floating Points, The Physics House Band, Powell, Miss Bolivia, Leonce, BSN Posse, Jayeem
+El ritmo de Matias Aguayo aterriza en Zaragoza y Pamplona
+Microondas Radio 101 / Arca, BFlecha, Slugabed, The Blaze, Dark Sky, Laurent Garnier, Cora Novoa, Chicks On Speed, Chirie Vegas
+Discos
+Cultura
+Eventos
+Historias
+Microondas Radio
+Microondas Radio
+Ver todos
+Microondas Radio 102 / Clark, Dinamarca, Floating Points, The Physics House Band, Powell, Miss Bolivia, Leonce, BSN Posse, Jayeem
+Microondas Radio 101 / Arca, BFlecha, Slugabed, The Blaze, Dark Sky, Laurent Garnier, Cora Novoa, Chicks On Speed, Chirie Vegas
+Microondas Radio 100 / Vasco Ispirian mix, Metropolis, Basic Soul Unit, DJ Stingray, Artefakt, Gesloten Cirkel, Plant43…
+Microondas TV
+Videoclips
+Documentales
+Directo
+Mixes
+MicroMissions
+Remix De Mixtapes
+Microondas Radio 94 / Chinese Man, Throwing Snow, Jamiroquai, Superpitcher, Teengirl Fantasy, Jacques Greene, Phon.o, Lowbeat
+Microondas
+28 Enero, 2017
+Microondas Radio
+Music
+Chinese Man
+(
+aquí puedes ver una entrevista de 2012
+) publican el próximo viernes 3 de febrero su segundo disco de estudio titulado
+Shikantaza
+. Una nueva muestra de lo bien que el
+grupo con base en Marsella
+mezcla hip hop y electrónica de diversas procedencias, como escuchamos en los tres adelantos:
+Liar
+junto a Kendra Morris y Dillon Cooper viene
+con vídeo
+y también
+Escape
+, mientras que el tercer tema que pinchamos es
+Wolf
+. Les sigue el productor de Barcelona
+Lowbeat
+que firma
+BCN96
+y otro track
+para el sello con base en Madrid
+Envy Music
+;
+Jacques Greene
+que empieza a calentar motores para el lanzamiento de su LP debut
+Feel Infinite
+; y el berlinés
+Phon.o
+con el tema
+Comb4t
+.
+*imagen por
+María Callizo
++
+Mixcloud
+,
+Itunes
+,
+TuneIn
+,
+Ivoox
+Jamiroquai
+vuelven con el
+vídeo de
+Automaton
+, adelanto del disco homónimo que publicarán en marzo, mientras que
+Teengirl Fantasy
+preparan con el tema
+Star-rise
+su tercer álbum, esta vez
+en Planet Mu
+.
+Throwing Snow
+lanzó hace unos días su segundo
+LP
+Embers
+(adelantamos un tema en el
+programa 89
+), tres años después de su gran debut con Mosaic y de nuevo en el sello Houndstooth.
+Y nos despedimos con 14 minutos de
+Superpitcher
+. El productor alemán publica su tercer álbum, titulado
+The Golden Ravedays
+(por ahora la parte 1)
+y que se va a ir lanzando en Kompakt en discos de dos temas, hasta completar los 12 discos y 24 tracks que lo componen.
+Chinese Man ft Kendra Morris & Dillon Cooper – Liar [Shikantaza / CM Records, 2017]
+Chinese Man – Wolf [Shikantaza / Chinese Man Records, 2017]
+Chinese Man – Escape [Shikantaza / Chinese Man Records, 2017]
+Lowbeat – BCN96 [BCN96 EP / Envy Music, 2017]
+Jacques Greene – Real Time [forth. Feel Infinite LP / LuckyMe, 2017]
+Phon.o – Comb4t [single, 2017]
+Jamiroquai – Automaton [Automaton / Virgin EMI, 2017]
+Teengirl Fantasy – Star-rise [forth. 8AM / Planet Mu, 2017]
+Throwing Snow – Prism [Embers / Houndstooth, 2017]
+Throwing Snow – Recursion [Embers / Houndstooth, 2017]
+Superpitcher – Snow Blind [The Golden Ravedays 1 / Kompakt, 2017]
+Síguenos en
+Facebook
+,
+Twitter
+,
+Mixcloud
+,
+Instagram
+,
+Itunes
+,
+Soundcloud
+y
+TuneIn
+.
+Relacionado
+COMPARTE
+end article section
+2017
+Artistas
+barcelona
+Beats
+berlin
+canada
+chinese man
+electronica
+envy music
+España
+europa
+france
+germany
+houndstooth
+House
+jacques greene
+jamiroquai
+kompakt
+lowbeat
+luckyme
+madrid
+marseille
+phon.o
+planet mu
+Superpitcher
+Techno
+teengirl fantasy
+throwing snow
+uk
+Zaragoza
+Artículos Relacionados
+Microondas Radio 102 / Clark, Dinamarca, Floating Points, The Physics House Band, Powell, Miss Bolivia, Leonce, BSN Posse, Jayeem
+El ritmo de Matias Aguayo aterriza en Zaragoza y Pamplona
+Microondas Radio 101 / Arca, BFlecha, Slugabed, The Blaze, Dark Sky, Laurent Garnier, Cora Novoa, Chicks On Speed, Chirie Vegas
+Bart B More y Skyhook junto A.Tourist & Rico Snchez en el 7º aniversario de Face Down Ass Up
+Microondas Radio 100 / Vasco Ispirian mix, Metropolis, Basic Soul Unit, DJ Stingray, Artefakt, Gesloten Cirkel, Plant43…
+La Noche del Jaguar llega a Madrid con Asian Dub Fundation, Acid Arab, Shantel o Mala Rodríguez
+end article footer
+end article
+end .cb-main
+Colaboran
+end #cb-content
+end #cb-container
+Conecta
+Imagen de portada por
+Sueño Latino
+Comparte
+Mis tuits
+About / Contacto
+end footer
+end #cb-outer-container
+Utilizamos cookies para un mejor funcionamiento y con este mensaje te avisamos de ello.
+Acepto

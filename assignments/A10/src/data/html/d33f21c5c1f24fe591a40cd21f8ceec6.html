@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <title>Spinitron - WXOX: WXOX 6am - 7am Mon Jan 30th 2017</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Spinitron radio playlists for non-commercial music stations">
+    <meta name="copyright" content="Copyright 2014 Spinitron, LLC. All rights reserved.">
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Titillium+Web:600,400,400italic|Exo+2:900italic,500'>
+    <link rel="stylesheet" href="/assets1/styles.css">
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <link rel="stylesheet" src="/assets1/lt9.css">
+    <script src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/assets1/lt9.js"></script>
+    <![endif]-->
+        <meta property="fb:app_id" content="161335421321">
+        <meta property="og:type" content="music.playlist">
+        <meta property="og:url" content="//spinitron.com/radio/playlist.php?station=wxox&amp;playlist=8049">
+        <meta property="og:title" content="WXOX 6am - 7am with H.A.L. on WXOX Louisville 97.1 FM Mon Jan 30th 2017 6.00AM-7.00AM">
+        <meta property="og:site_name" content="Spinitron"/>
+        <meta property="og:description" content="Spinitron radio playlist"/>
+        <meta property="og:image" content="//spinitron.com/img/spinitron-64x64.png">
+
+</head>
+<body>
+
+<div class="container">
+    <div id="topnav-outer">
+        <nav id="topnav">
+            <ol class="menu">
+                <li id="home" class="bgimg"><a href="/"><span>Home</span></a></li>
+                <li><a href="/member/signin">Login</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/doc/">Help</a></li>
+                <li><a href="http://blog.spinitron.com/">Chart</a></li>
+                <li><a href="/v2/news/" class="v2">News</a></li>
+                <li id="show-menu" class="bgimg"><a href="#"><span>Menu</span></a></li>
+            </ol>
+        </nav>
+    </div>
+
+    <nav id="sidenav" class="public">
+        <div id="leftdiv">
+    <p class="mob-home"><a href="/" title="Spinitron home page"><img src="/img/logo-iphone.png"> <span>SPINITRON</span> home</a></p>
+    <p id="sidebarlogo"><a href="/" title="Spinitron home page"><img alt="logo" src="/img/new-32.png"></a></p>
+    <table class="cal" cellspacing="0">
+        <thead>
+            <tr>
+                <th colspan="2" class="ralign">
+                    <a href="playlist.php?station=wxox&amp;month=Apr&amp;year=2017"><img src="/img/larr.png" width="14" height="11" alt="Previous month"></a></th>
+                <th colspan="3">May</th>
+                <th colspan="2" class="lalign">
+                    <a  class="ahem"><img src="/img/rarr.png" width="14" height="11"
+                    alt="Next month"></a></th>
+            </tr>
+            <tr>
+                <th colspan="2" class="ralign">
+                    <a href="playlist.php?station=wxox&amp;month=May&amp;year=2016"><img src="/img/larr.png" width="14" height="11" alt="Previous year"></a></th>
+                <th colspan="3">2017</th>
+                <th colspan="2" class="lalign">
+                    <a  class="ahem"><img src="/img/rarr.png" width="14" height="11"
+                    alt="Next year"></a></th>
+            </tr>
+            <tr>
+				<th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th>
+			</tr>
+		</thead>
+		<tbody><tr>
+<td></td><td><a href="playlist.php?station=wxox&amp;day=01#here">1</a></td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+<tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+<tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+<tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+<tr><td>28</td><td>29</td><td>30</td><td>31</td></tr>
+</tbody>
+	</table>
+	<p class="part"><a href="playlist.php?station=wxox&amp;playlist=current#main">Current playlist</a><br>
+		<a href="playlist.php?station=wxox&amp;show=schedule&amp;sv=l#here">Program schedule</a><br>
+		<a href="http://artxfm.com" class="addlayout" target="_blank">WXOX's web site</a><br>
+	<p class="part"><b>Browse</b><br><a href="playlist.php?station=wxox&amp;browse=a">Artists</a> &middot;
+		<a href="playlist.php?station=wxox&amp;browse=d">Disks</a> &middot; <a href="playlist.php?station=wxox&amp;browse=l">Labels</a></p>
+	<form accept-charset="utf-8" name="search" action="playlist.php" method="GET">
+        <input type="hidden" name="station" value="wxox">
+        <input type="hidden" name="year" value="2017">
+        <input type="hidden" name="month" value="May">
+        <input type="hidden" name="ptype" value="b">
+		<p class="part"><b>Search</b> the selected month
+		<br><input type="text" name="find" id="findtext" maxlength="63" value="">
+		<br><select name="kind">
+				<option value="artist" >Artists</option>
+				<option value="disk" >Disks</option>
+				<option value="song" >Songs</option>
+				<option value="composer" >Composers</option>
+			</select>
+			<input type="submit" value="Go"></p>
+	</form>
+	<p class="part" id="feeds"><a class="rsslink" href="/radio/rss.php?station=wxox" title="RSS feed of WXOX’s most recent spins (station feed)"><img src="/rss-feed.png" width="12" height="12" alt="RSS icon"> <span>WXOX</span></a>
+<a class="rsslink" href="/radio/rss.php?station=wxox&amp;showid=2505" title="RSS feed of WXOX 6am - 7am’s most recent spins (show feed)"><img src="/rss-feed.png" width="12" height="12" alt="RSS icon"> <span>WXOX 6am - 7am</span></a>
+<a class="rsslink" href="/radio/rss.php?station=wxox&amp;djid=324" title="RSS feed of H.A.L.’s most recent spins (DJ feed)"><img src="/rss-feed.png" width="12" height="12" alt="RSS icon"> <span>H.A.L.</span></a></p>
+</div>
+
+
+
+    </nav>
+
+    <main id="content" class="partial">
+        <header>
+<a name="main" class="mobgoto"></a>
+<div class="spacer"></div>
+<aside><a href="http://artxfm.com" target="_blank"><img src="logos/wxox-logo.jpeg" width="185" height="70" alt="wxox-station-logo"></a></aside>
+<p class="stationid">WXOX Louisville 97.1 FM</p>
+<p class="sloganid">ARTxFM</p>
+</header>
+
+
+        <a name="here" class="mobgoto"></a>
+        
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+<div style="" id="playlisthead">
+  <p class="showimg"><img width="200" height="120"  src="/public/logos/wxox/dj_324_lg.jpeg"></p>
+  
+  <p class="plhead"><a href="playlist.php?station=wxox&amp;showid=2505#here">WXOX 6am - 7am</a> </p>
+  
+  
+
+  <div  class="infoblock lead ">
+    
+    <p class="plhead">With <a href="playlist.php?station=wxox&amp;djuid=324#here">H.A.L.</a></p>
+	
+    
+    
+  </div>
+
+  <p class="plheadsub leadpad">Mon Jan 30th 2017 6.00am–7.00am</p>
+
+  <p class="plnotes1"><small><b>R</b></small>=listener request.
+	<small><b>N</b></small>=music new at the station.
+	<small><b>L</b></small>=local music. <span class="ahem">Your
+	purchases using the
+	<span class="dynit">Buy it!</span> links
+	help support the station.</span></p>
+	<p class="plnotes1">Time zone: eastern</p>
+	
+    
+        <div class="fb-like " data-href="//spinitron.com/radio/playlist.php?station=wxox&amp;playlist=8049" data-layout="standard" data-action="like" data-size="small" 
+            data-show-faces="true" data-share="true" ></div>
+
+</div>
+
+<div class="plblock noart nobuy"><div class="f2row od" id="#160095"><div class="nfo"><p class="st">6:02am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=29002#here">Art Blakey &amp; The Jazz Messengers</a></span> <span class="sn">“Sleeping Dancer Sleep On”</span><br><span class="df"> from</span> <span class="dn"><a href="playlist.php?station=wxox&amp;dbdetail=d&amp;dbid=58093#here">The Complete Blue Note Recordings Of Art Blakey's 1960 Jazz Messengers (Disc 1 Of 6)</a></span> <span class="ld">(1992)</span></p></div></div>
+<div class="f2row ev" id="#160098"><div class="nfo"><p class="st">6:10am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=28213#here">Flaco JimÃ©nez</a></span> <span class="sn">“De Rodillas Quisiera Mirarte”</span><br><span class="df"> from</span> <span class="dn"><a href="playlist.php?station=wxox&amp;dbdetail=d&amp;dbid=56191#here">Un Mojado Sin Licencia</a></span> <span class="ld">(2007)</span></p></div></div>
+<div class="f2row od" id="#160101"><div class="nfo"><p class="st">6:13am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=16536#here">Booker T &amp; The MGs</a></span> <span class="sn">“Track 08”</span> <span class="de">Single</span></p></div></div>
+<div class="f2row ev" id="#160104"><div class="nfo"><p class="st">6:17am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=8112#here">Philip Glass</a></span> <span class="sn">“03-1934 grandmother and Kimitake”</span><br><span class="df"> from</span> <span class="dn"><a href="playlist.php?station=wxox&amp;dbdetail=d&amp;dbid=55159#here">Mishima</a></span> <span class="ld">(1985)</span></p></div></div>
+<div class="f2row od" id="#160107"><div class="nfo"><p class="st">6:20am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=27897#here">Mu-qiz-in pine-effect</a></span> <span class="sn">“07.Iced_Jem”</span> <span class="de">Single</span></p></div></div>
+<div class="f2row ev" id="#160110"><div class="nfo"><p class="st">6:26am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=27892#here">AntÃ´nio Carlos Jobim</a></span> <span class="sn">“Valsa De PÃ´rto Das Caixas”</span><br><span class="df"> from</span> <span class="dn"><a href="playlist.php?station=wxox&amp;dbdetail=d&amp;dbid=55228#here">AntÃ´nio Carlos Jobim: Composer (Warner Archives)</a></span> <span class="ld">(1995)</span></p></div></div>
+<div class="f2row od" id="#160112"><div class="nfo"><p class="st">6:30am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=28210#here">Androcell</a></span> <span class="sn">“Night Sorceress”</span><br><span class="df"> from</span> <span class="dn"><a href="playlist.php?station=wxox&amp;dbdetail=d&amp;dbid=56167#here">Entheomythic</a></span> <span class="ld">(2010)</span></p></div></div>
+<div class="f2row ev" id="#160113"><div class="nfo"><p class="st">6:39am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=6586#here">Cocteau Twins</a></span> <span class="sn">“05. hearsay please”</span> <span class="de">Single</span></p></div></div>
+<div class="f2row od" id="#160116"><div class="nfo"><p class="st">6:43am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=1823#here">Aphex Twin</a></span> <span class="sn">“Window Sill”</span><br><span class="df"> from</span> <span class="dn"><a href="playlist.php?station=wxox&amp;dbdetail=d&amp;dbid=56197#here">Selected Ambient Works, Vol 2 [Disc 2]</a></span> <span class="ld">(1994)</span></p></div></div>
+<div class="f2row ev" id="#160119"><div class="nfo"><p class="st">6:50am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=28585#here">Gaudi + Nusrat Fateh Ali Khan</a></span> <span class="sn">“Kahin Mot Se Bhi Na Jao”</span><br><span class="df"> from</span> <span class="dn"><a href="playlist.php?station=wxox&amp;dbdetail=d&amp;dbid=57112#here">Dub Qawwali</a></span> <span class="ld">(2007)</span></p></div></div>
+<div class="f2row od" id="#160121"><div class="nfo"><p class="st">6:56am</p><p><span class="aw"><a href="playlist.php?station=wxox&amp;dbdetail=a&amp;dbid=12632#here">Endless Boogie</a></span> <span class="sn">“Low Lifes”</span><br><span class="df"> from</span> <span class="dn"><a href="playlist.php?station=wxox&amp;dbdetail=d&amp;dbid=62558#here">Focus Level</a></span> <span class="ld">(<a href="playlist.php?station=wxox&amp;dbdetail=l&amp;dbid=1175#here">No Quarter</a> 2008)</span></p></div></div>
+<hr class="clearer"></div>
+<p class="lead" style="color:#666">Like everything else, times are approximate.
+Spinitron and this station are not liable for errors or omissions.</p>
+
+
+
+
+
+    </main>
+
+    <footer>Copyright © 2013 Spinitron, LLC. All rights reserved.</footer>
+</div>
+
+<script src="/assets1/scripts.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-1.11.1.min.js"><\/script>')</script>
+<script src="/assets/scripts-public.js"></script>
+<script src="/js1/pub_playlist.min.js" type="text/javascript"></script>
+<script></script>
+<script>jQuery(function ($) { GOTOSPIN($); });</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"eaaa9ca9d4","applicationID":"7096042","transactionName":"Z1dQYUICXkQEBk1aX14dZ0dZTEJWAQxWHEBcU0tZWRBEGRUNSQ==","queueTime":0,"applicationTime":7,"atts":"SxBTFwoYTUo=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

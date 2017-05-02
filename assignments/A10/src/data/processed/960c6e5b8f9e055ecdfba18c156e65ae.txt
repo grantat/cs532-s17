@@ -1,0 +1,268 @@
+About Us
+Contact Us
+Blog
+View and Share Events
+Add Your Events
+Panel
+Australia
+(23)
+Austria
+(5)
+Bahrain
+(2)
+Belgium
+(2)
+Brazil
+(2)
+Canada
+(8)
+China
+(9)
+Costa Rica
+(1)
+Croatia
+(2)
+Czech Republic
+(4)
+Denmark
+(4)
+Ethiopia
+(1)
+Finland
+(2)
+France
+(8)
+Germany
+(22)
+Ghana
+(1)
+Greece
+(7)
+Guinea
+(1)
+Hong Kong
+(1)
+Iceland
+(1)
+India
+(3)
+Indonesia
+(2)
+Ireland
+(2)
+Israel
+(2)
+Italy
+(6)
+Japan
+(1)
+Korea (South)
+(1)
+Malaysia
+(1)
+Mexico
+(3)
+Monaco
+(1)
+Netherlands
+(14)
+Philippines
+(2)
+Portugal
+(4)
+Qatar
+(2)
+Russia
+(4)
+Rwanda
+(1)
+Senegal
+(1)
+Serbia & Montenegro
+(1)
+Singapore
+(12)
+Slovenia
+(2)
+South Africa
+(2)
+Spain
+(18)
+Swaziland
+(2)
+Sweden
+(2)
+Switzerland
+(5)
+Thailand
+(2)
+Trinidad and Tobago
+(1)
+Turkey
+(2)
+UK
+(410)
+United Arab Emirates
+(31)
+USA
+(165)
+Vietnam
+(2)
+Zambia
+(1)
+/login
+The tab on top
+/ top
+panel
+Social Media Event Marketing Platform
+<img src="http://tweetmyevents.com/images/tweetmyeventslogo.png" alt="Social Media Event Marketing" width="798" height="185" border="0" style="padding-top: 3px;" />
+<img alt="social media campaigns" src="http://tweetmyevents.com/images/tweetmyevents_right.gif" width="353" height="59" />
+<div class="logo_centertop">
+    <a href="https://www.indiegogo.com/projects/tweetmyevents" title="Crowd Funding Campaign" target="_blank" > <img src="http://tweetmyevents.com/images/campaign-button-blue.png" width="352" height="85" border="0" /></a>
+    </div>
+<p class="header-caption">
+            You Are Seconds Away From Announcing <br>Your Event To The World
+        </p>
+<form action="" method="post" name="frmtopsearch">
+
+            <script language="javascript">
+                function SearchTextBox1(defaultText)
+                {
+                    with (document.frmtopsearch) {
+                        if (txtsearchbox.value == defaultText || txtsearchbox.value == "") {
+                            txtsearchbox.value = "";
+                            alert("Type your search keyword");
+                            txtsearchbox.focus();
+                        }
+                        else {
+                            top.location = "/published-events/?sch=true&schKeyword=" + txtsearchbox.value + "&ac=";
+                        }
+                    }
+                }
+
+                function SearchTextBox2(defaultText)
+                {
+                    with (document.frmtopsearch) {
+                        if (txtsearchbox.value == defaultText || txtsearchbox.value == "") {
+                            txtsearchbox.value = "";
+                            txtsearchbox.focus();
+                        }
+                    }
+                }
+
+                function SearchTextBox3(defaultText)
+                {
+                    with (document.frmtopsearch) {
+                        if (txtsearchbox.value == "") {
+                            txtsearchbox.value = defaultText;
+                        }
+                    }
+                }
+
+            </script>
+
+
+            <input  name="txtsearchbox" type="text" class="textarea" value="Type your search text here" onfocus="SearchTextBox2('Type your search text here')" onblur="SearchTextBox3('Type your search text here')" />
+
+
+            <img src="http://tweetmyevents.com/images/tweetmyevents_search.gif" width="80" height="34" align="absmiddle" id="Image2" style="margin-left:-5px; cursor:pointer;"onmouseover="this.src = 'http://tweetmyevents.com/images/tweetmyevents_search1.gif';" onmouseout="this.src = 'http://tweetmyevents.com/images/tweetmyevents_search.gif';" onclick="SearchTextBox1('Type your search text here');" /><br />
+
+        </form> <div id="button1"> <strong class="text_white" style="text-decoration:underline;">ADVANCED SEARCH </strong> </div>
+Advanced Search for Events
+Please enter the required field in the following form and Click ''search'' Button
+Keyword:
+Twitter Account
+Event Date:
+From
+To
+Country:
+Latest News :
+Events posted to date
+Events online
+Sorry! This event is no longer exist in our system
+This might be happened due to the following reasons:
+- Event has been deleted by the person who added this.
+- Event has been deleted by the TweetMyEvents administrator as we found as a fraud or abuse
+- Information you have submitted was wrong or incorrect
+Popular tags
+#2010
+#australia
+#event
+#exhibition
+#london
+#sydney
+2010
+Australia
+business
+centre
+commercial
+conference
+connections
+convention
+day
+event
+exhibition
+expo
+festival
+global
+hosted
+India
+international
+london
+media
+melbourne
+music
+networking
+nsw
+park
+presentation
+social
+south
+sports
+Sri Lanka
+summit
+sydney
+training
+UK
+USA
+whats
+workshop
+world
+<div class="right-box-login" style="height: 100px;">
+                  
+                    
+                        <div class="signin"> <a title="Sign in with Twitter" href="http://tweetmyevents.com/oauth/" >
+                                <img src="http://tweetmyevents.com/images/signin1.png" name="Image1" width="100%"  border="0" onmouseover="this.src = 'http://tweetmyevents.com/images/signin2.png';" onmouseout="this.src = 'http://tweetmyevents.com/images/signin1.png';" /> </a> 
+                        </div>
+                    
+                </div>
+Events Calendar
+Our Partners
+Follow us on
+About Us
+Share with friends
+Privacy Policy
+Terms of use
+Link with Us
+Contact Us
+Site Map
+2
+Users Online
+Copyright © 2017
+We are in no way associated with Twitter or Twitter.com
+TweetMyEvents is a real-time
+Social Media event Marketing
+platform for the social web. With this service you can
+promote your events
+to the world through
+Twitter
+, Facebook and Linkedin. An amazingly easy way to market your events to get attendees for your next seminars, conference, workshops, webinars or other type of events. Getting started is easy. Simply sign in with your Twitter account, register your event and tweet it out. There are no limits to the number of events you can display. TweetMyEvents also has a tracking counter so you can constantly monitor your page views in real-time.
+5
+stars, based on
+175
+Reviews
+Social media event marketing
+Digital media event marketing
+Event Marketing Campaigns
+Online event media marketing
+Event marketing

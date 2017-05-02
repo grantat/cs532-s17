@@ -1,0 +1,66 @@
+Twitter App Card Metas
+Twitter App Card Metas (with data)
+Google Analytics
+End Google Analytics
+HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]
+Masthead
+.collapse
+Close
+NOTE: The background-image for Masterhead-image-img will be generated via javascript
+View Container
+Page Header (E.g. Track Title Header)
+Moanin'
+by
+Art Blakey & the Jazz Messengers
+,
+Art Blakey
+on
+Moanin'
+.Card PageHeader
+Buy links
+.Card BuyLinks
+SH_Web_Charts_Landing_728x90
+Video Cards
+Videos
+Close
+Art Blakey & The Jazz Messengers - Moanin'
+Art Blakey & the Jazz Messengers - Moanin (Lee Morgan Solo Transcription) (Bb)
+Art Blakey & The Jazz Messengers  - A Night In Tunisia - 1958
+Instrumental Jazz Mix : Cafe Restaurant Background Music
+Sakamichi No Apollon - Kaoru & Sentaro Duo - My Favorite Things Medley
+Jazz for Studying and Concentration | Relaxation Music
+Charles Mingus - Moanin'
+DownloadSoundHound
+Download SoundHound
+The only App that can give you results through singing and humming search!
+Available here:
+different download link for track, artist and album
+Social links and midomi
+Social Links card
+Social Links
+Like us on Facebook
+@SoundHound
+Follow
+Midomi
+Midomi
+You can sing any song from this artist to help SoundHound users find it!
+.Card
+.row For SocialLinks and Midomi
+.l-view-container
+.l-main-content
+FOOTER
+SoundHound on Facebook
+SoundHound on Twitter
+SoundHound on Instagram
+© 2017 SoundHound Inc. All Rights Reserved
+|
+Terms of Service
+|
+Privacy Policy
+|
+Help
+.Footer

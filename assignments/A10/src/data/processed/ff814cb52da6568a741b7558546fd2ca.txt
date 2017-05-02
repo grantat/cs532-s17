@@ -1,0 +1,228 @@
+[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]
+Favicons
+CSS
+FONT INTRO
+/**
+		* @license
+		* MyFonts Webfont Build ID 2992625, 2015-03-17T11:59:05-0400
+		* 
+		* The fonts listed in this notice are subject to the End User License
+		* Agreement(s) entered into by the website owner. All other parties are 
+		* explicitly restricted from using the Licensed Webfonts(s).
+		* 
+		* You may obtain a valid license at the URLs below.
+		* 
+		* Webfont: IntroBold by Fontfabric
+		* URL: http://www.myfonts.com/fonts/font-fabric/intro/bold/
+		* 
+		* Webfont: IntroRegular by Fontfabric
+		* URL: http://www.myfonts.com/fonts/font-fabric/intro/book/
+		* 
+		*
+		* License: http://www.myfonts.com/viewlicense?type=web&buildid=2992625
+		* Licensed pageviews: 500,000
+		* Webfonts copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+		* 
+		* © 2015 MyFonts Inc
+		*/
+END FONT INTRO
+GOOGLE ANALYTICS
+END GOOGLE ANALYTICS
+Safari App Badge
+Bitly Verification
+SINGLE NEWS FACEBOOK TAG
+meta property="article:published_time" content="2017-05-02T01:52:32+00:00"
+END SINGLE NEWS FACEBOOK TAG
+TAG ADV
+Page Loader --    
+        <div class="page-loader">
+            <div class="loader">Caricamento...</div>
+        </div>
+        -- End Page Loader
+Page Wrap
+Navigation panel
+Menu Button
+Menu
+End Menu Button
+Menu Overlay
+Social Links --
+									<div class="fm-social-links">
+										<a class="facebook" href="https://www.facebook.com/rollingstoneitalia" target="_blank"><i class="fa fa-facebook"></i></a>
+										<a class="twitter" href="https://twitter.com/rollingstoneita" target="_blank"><i class="fa fa-twitter"></i></a>
+										<a class="instagram" href="https://www.instagram.com/rollingstoneitalia/" target="_blank"><i class="fa fa-instagram"></i></a>
+										<a class="spotify" href="https://play.spotify.com/user/rollingstoneitalia" target="_blank"><i class="fa fa-spotify"></i></a>
+                        			</div>
+									!-- End Social Links
+MUSICA
+NEWS
+INTERVISTE
+PLAYLIST
+RECENSIONI
+CINEMA+TV
+NEWS
+INTERVISTE
+RECENSIONI
+CULTURA
+ARTE+FOTOGRAFIA
+LIBRI+STRISCE
+TECH+GAMING
+INTERVISTE
+SPORT
+NEWS
+INTERVISTE
+ROLLING AFFAIRS
+NEWS
+INTERVISTE
+REPORTAGE
+OPINION
+RECENSIONI
+MUSICA
+CINEMA+SERIE TV
+LIBRI+STRISCE
+GAMING
+POP & LIFE
+RS VIDEO
+FOTO
+li>
+											<a href="#">POP&LIFE</a>
+										</li
+End Menu Overlay
+?php include("module/header-search.php"); ?
+Cerca quello che vuoi e clicca invia:
+Logo ( * your text or image into link tag *) --
+                    <div class="nav-logo-wrap local-scroll">
+                        <a href="mp-index.html" class="logo">
+                            <img src="images/global-logo-rs.svg" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-nav">
+                        <i class="fa fa-bars"></i>
+                    </div
+End Navigation panel
+TAG ADV MASTHEAD
+END TAG ADV
+NEWS
+Head Section
+MUSICA
+/
+News
+Guarda “Automaton”, il nuovo video dei Jamiroquai
+La band di Jay Kay lascia il funk per indirizzarsi dritta verso un'electro in salsa francese, più vicina ai primi lavori dei Daft Punk che al sound a cui ci aveva abituato lo Space Cowboy
+div class="col-md-2 mt-30 mt-xs-0">
+                        </div
+End Head Section
+Content
+Media Gallery
+27 gennaio 2017
+Post
+Dopo che ieri è arrivato l’annuncio del nuovo album
+Automaton
+, oggi la band capitanata da Jay Kay ha pubblicato il primo, omonimo, singolo estratto.
+Come intuibile già dalla copertina dell’album,
+Automaton
+segna un cambio deciso nel sound della band, che passa dal funk e dall’acid jazz – loro marchio di fabbrica – a tonalità che prendono a mani basse dall’universo degli arpeggiatori
+a là
+french touch – si vedano Daft Punk, Kavinsky o i
+Justice
+nella loro ultima veste per l’album
+Woman
+.
+Il nuovo album firmato Jamiroquai uscirà il 31 marzo mentre, per vedere la band in Italia si dovrà aspettare l’11 luglio in occasione del
+Firenze Summer Festival
+.
+Altre notizie su:
+Jamiroquai
+TAG ADV
+END TAG ADV
+Iscriviti alla Newsletter
+Non perderti neanche una notizia, inserisci il tuo indirizzo qui sotto e iscriviti.
+ISCRIVITI
+Niente spam, solo notizie certificate.
+?php include("module/box-video.php"); ?
+TAG ADV
+END TAG ADV
+TAG ADV
+END TAG ADV
+I più letti di oggi
+1
+Fenomeno Ed Sheeran (parte II)
+2
+Cosa ne pensa uno psicologo di 'Tredici'?
+3
+Paris Jackson: «Mio padre è stato ammazzato» (parte II)
+4
+Cartoline dagli anni '60, un archivio fotografico ritrovato, in mostra a Modena
+5
+Fenomeno Ed Sheeran (parte I)
+TAG ADV MASTHEAD
+END TAG ADV
+RELATED CONTENTS
+Potrebbe interessarti anche
+Ed Sheeran potrebbe lasciare la musica alla fine del tour
+«Lui ama assolutamente ciò che fa e al momento sta cavalcando l'onda del successo. Ma allo stesso tempo vorrebbe una vita più normale» ha fatto sapere un suo portavoce
+Fenomeno Ed Sheeran (parte II)
+La seconda parte della nostra intervista a Ed Sheeran, impegnato in un gigantesco tour mondiale
+Khalid: «La mia musica per millennials»
+Da timido ragazzo di El Paso, Khalid è diventato una popstar grazie a Snapchat e a un disco di canzoni strappalacrime, nate da uno smartphone
+James Blunt e la sua missione: basta una sola canzone?
+Ha conquistato le classifiche con 'You're Beautiful' e da allora la canta a ogni concerto. Ma il successo per lui non è una cosa semplice
+I Decibel sono ancora qui, sempre più snob
+Quarant'anni dopo l'esordio la band presenta un nuovo disco, 'Noblesse Oblige' e un tour intimo
+Le dieci migliori canzoni dei Cure
+Festeggiamo il compleanno di Robert Smith ascoltando le canzoni dei Cure preferite dai lettori di Rolling Stone: quali pezzi hanno superato “Boys don't cry”, “Just Like Heaven” e “Fascination Street”?
+Luis Fonsi: «Vi racconto la mia ‘Despacito’»
+Fino a qualche settimane fa in Europa era un semisconosciuto, anche se in America Latina era già una superstar. Ora ha una hit mondiale da quasi un miliardo di visualizzazioni
+Ricordando Muddy Waters
+Il 30 aprile 1983 moriva l'inventore del blues elettrico. Ecco come l'hanno ricordato Eric Clapton, Keith Richards e Mick Jagger
+Viaggio nelle versioni inedite di ‘Sgt. Pepper’ dei Beatles
+Siamo andati nei mitici studi di Abbey Road per ascoltare la versione deluxe prodotta per il 50esimo anniversario di uno degli album più influenti della storia
+Festeggiamo il compleanno dello Studio 54 con 10 storie assurde
+Cavalli sulla pista da ballo, orge nelle strade, Andy Warhol e Donald Trump che bevono un drink, ecco cosa succedeva nel locale più iconico di New York
+L’equilibrio di Future
+Il rapper di Atlanta ha ritrovato la sua positività e ha sfornato due album (entrambi numeri uno) in sette giorni. Nessuno ci era mai riuscito
+Karen Elson: «Volevo solo scomparire»
+Ci sono voluti sette anni prima che riuscisse a finire il suo secondo disco. Perché dentro c’è una storia troppo difficile e dolorosa da raccontare: la fine dell’amore (e del matrimonio) con Jack White
+Hamburger, rock & roll e duro lavoro: ecco chi è la prima cameriera dell’Hard Rock Cafe
+Rita Gilligan ha 75 anni e l'energia di una ragazzina: se vi serve una botta motivazionale la sua storia è quella giusta
+Damon Albarn ci racconta il nuovo album dei Gorillaz
+Il compositore ha parlato delle guest di 'Humanz', del suo rapporto con Noel Gallagher e del futuro dei Blur
+‘Incontro con gli dei’: l’intervista storica ai Led Zeppelin (parte II)
+La seconda parte dell'intervista del 1975, quando Jimmy Page e Robert Plant invitarono Rolling Stone in tour, tra suite e castelli scozzesi, per vedere cosa fa volare gli Zeppelin
+Tutti i segreti della colonna sonora di ‘Guardiani della Galassia vol.2’
+Ecco i motivi dietro alle scelte del regista James Gunn: dai Fleetwood Mac agli Americans, ecco il nuovo Awesome Mix
+Paris Jackson: «Mio padre è stato ammazzato» (parte II)
+La seconda parte della nostra intervista a Paris Jackson, la figlia del Re del Pop: «La storia ufficiale della sua morte è tutta una montatura»
+I Paramore hanno annunciato il nuovo album e pubblicato il primo singolo, ‘Hard Times’
+Per il nuovo disco è tornato anche Zac Farro, che aveva lasciato la band nel 2010
+Buongiorno, Presidente Carter
+La nostra intervista del 2005 all’uomo che vale di più nell’hip hop: Jay Z. Tratto dal nostro speciale sul rap in edicola
+Paris Jackson: «Mio padre è stato ammazzato» (parte I)
+Parla la figlia del Re del pop: l'infanzia felice e poi un tentato stupro, la droga e un padre «che in tanti volevano morto»
+Features Grid
+Features Item
+Saverio Raimondo presenta la terza stagione di CCN
+Features Grid
+TAG ADV
+END TAG ADV
+TAG ADV
+END TAG ADV
+Luciano Bernardini de Pace Editore
+© Luciano Bernardini De Pace Editore S.r.l. - Viale Giulio Richard 1/B - 20143 Milano - Cap. Soc. 100.000 Euro - P. Iva Registro Imprese Tribunale di Milano N. 08620160963.
+Copyright © 2017 by ROLLING STONE LLC. All rights reserved. Reproduction in whole or in part without permission is prohibited. The name ROLLING STONE and the logo thereof are registered trademarks of ROLLING STONE LLC, which trademarks have been licensed to LUCIANO BERNARDINI DE PACE EDITORE S.r.l.
+CONTATTI
+|
+PUBBLICITÀ
+|
+REDAZIONE
+|
+ABBONAMENTI
+|
+AREA STAMPA
+|
+CREDITI
+|
+PRIVACY
+|
+CONDIZIONI D'UTILIZZO
+|
+USO DEI COOKIE

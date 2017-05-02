@@ -4,12 +4,6 @@ import re
 import html
 
 
-def get_pure_text(text):
-    t = re.compile(r'<[^>]+>')
-    return t.sub('', text)
-# Returns title and dictionary of word counts for an RSS feed
-
-
 def remove_img_tags(data):
     '''
     Helper to remove img tags from description
@@ -32,11 +26,11 @@ def remove_emojis(data):
     return d
 
 
-def getwordcounts(title, summary):
+def getwordcounts(title, descrip):
     wc = {}
 
     # Extract a list of words
-    words = getwords(title + ' ' + summary)
+    words = getwords(title + ' ' + descrip)
     for word in words:
         wc.setdefault(word.strip(), 0)
         wc[word] += 1
@@ -59,8 +53,6 @@ wordcounts = {}
 f = feedparser.parse('data/feed.xml')
 counter = 0
 for i, entry in enumerate(f.entries):
-    title = get_pure_text(entry['title'])
-    descrip = get_pure_text(entry['description'])
     t = html.unescape(entry["title"])
     t = t.replace('"', '')
     d = html.unescape(entry["description"])

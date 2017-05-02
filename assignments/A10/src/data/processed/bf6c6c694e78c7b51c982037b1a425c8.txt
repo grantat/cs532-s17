@@ -1,0 +1,339 @@
+<![endif]
+[if IE 7]>
+		<link rel="stylesheet" href="http://www.phxsoul.com/wp-content/themes/worldwide-v1-02/stylesheet/ie7-style.css" /> 
+		<link rel="stylesheet" href="http://www.phxsoul.com/wp-content/themes/worldwide-v1-02/stylesheet/font-awesome/font-awesome-ie7.min.css" /> 
+	<![endif]
+This site is optimized with the Yoast SEO plugin v4.5 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 9]>
+<style type="text/css">
+	body{ min-width: 1180px; }
+	div.shortcode-dropcap.circle,
+	div.anythingSlider .anythingControls ul a, .flex-control-nav li a, 
+	.nivo-controlNav a, ls-bottom-slidebuttons a{
+		z-index: 1000;
+		position: relative;
+		behavior: url(http://www.phxsoul.com/wp-content/themes/worldwide-v1-02/stylesheet/ie-fix/PIE.php);
+	}
+
+	ul.gdl-accordion li, ul.gdl-toggle-box li{ overflow: hidden; }
+	
+	.logo-wrapper{ overflow: hidden; width: 700px !important; }	
+</style>
+<![endif]
+top navigation
+Submit Your Event
+Business Directory
+Advertise with Us
+Sign Up for Our E-Newsletter
+— Top Menu —
+Submit Your Event
+Business Directory
+Advertise with Us
+Sign Up for Our E-Newsletter
+top navigation wrapper
+Get Logo
+Right Banner Area
+Chris Rock Leaderboard [async]
+header container
+header wrapper
+Navigation
+— Main Menu —
+Home
+Events Calendar
+- Live Entertainment Calendar
+Local Lifestyle
+- Community Events
+- Organizations
+- Dating & Relationships
+- Education
+- Food & Drink
+- Hair
+- Health
+- News & Media
+- Opinion
+- Politics
+- Youth
+Entertainment
+- Arts
+- Comedy
+- Film
+- Music
+- Nightclubs
+- Spoken Word
+- Sports
+Featured Events
+Business
+- Business Directory
+- Careers
+- Marketing & Sales
+- Retail
+Religion
+Travel
+- Other Cities
+PhxSoul Photos
+More
+- About Us
+- Contact Us
+- Submit Your Event
+- Advertise with Us
+- Sign Up for Our E-Newsletter
+Events Calendar
+Live Entertainment Calendar
+Local Lifestyle
+Community Events
+Organizations
+Dating & Relationships
+Education
+Food & Drink
+Hair
+Health
+News & Media
+Opinion
+Politics
+Youth
+Entertainment
+Arts
+Comedy
+Film
+Music
+Nightclubs
+Spoken Word
+Sports
+Featured Events
+Business
+Business Directory
+Careers
+Marketing & Sales
+Retail
+Religion
+Travel
+Other Cities
+PhxSoul Photos
+More
+About Us
+Contact Us
+Submit Your Event
+Advertise with Us
+Sign Up for Our E-Newsletter
+LATEST EVENTS
+SOULful Entertainment, Community Events in the Phoenix Area on May 5-7
+Kemetic Yoga Weekly Classes on Saturdays, Sundays in Phoenix
+Support Black-Owned Businesses at the Buy Black Marketplace in Phoenix on May 6
+Women’s Empowerment Expo in Phoenix on May 6
+BOSHOK Summer 17 Pop-Up Shop in Tempe, BOSHOK Social in Phoenix on May 6
+Phenomenal Woman Empowerment Conference in Phoenix on May 6
+Chris Rock Total Blackout Tour Shows at Comerica Theatre in Phoenix Rescheduled for May 6
+24th Annual Cinco de Mayo Phoenix Festival on May 7 – Culture, Music, Food, Games and More
+The M.E. Tour – Marsha Ambrosius and Eric Benét Performing LIVE at Tempe Center for the Arts on May 24
+Black Wall Street Arizona to Host Black Man Power Symposium in Casa Grande on June 10
+Katt Williams’ Great America Tour Coming to Comerica Theatre in Phoenix on June 16
+My Will Be Done! Preserving Your Legacy Workshop in Tempe on July 1
+Book Your Seats Now for LA Soul Music Festival Bus Tour 2017 on July 14-17
+R&B Crooner Anthony Hamilton Live in Concert at Celebrity Theatre in Phoenix on July 14
+Earth, Wind & Fire, Chic ft. Nile Rodgers Bringing 2054 The Tour to Phoenix on July 18
+PhxSoul.com LIMITED EDITION Black Power T-Shirts on Sale Now!
+Jubeelieve Indoor Playland in Avondale – Fun for Younger Children
+VIDEO: All-Star Comedy Explosion Packs the House at Comerica Theatre in Phoenix
+All-Star Comedy Explosion in Phoenix – April 2017
+Launch of LiveRadio/Originals Only Hosted by Urban Projex Ent on May 1
+Lizz Wright Performing Live at Musical Instrument Museum in Phoenix on May 1
+The Weeknd Live at Talking Stick Resort Arena in Phoenix on May 2
+Greater Phoenix Urban League to Host Job Fair on May 3
+The Whole Story: Part II at Phoenix Art Museum on May 5
+Pacific Southwest Minority Supplier Development Council Annual Awards Gala in Scottsdale on May 5
+navigation-wrapper
+header outer wrapper
+Here Comes the Jazz … Great Live Spots in the Phoenix Area
+Posted On
+01 Apr 2014
+By :
+Tremaine Jasper
+Comment: 0
+Tag:
+arizona
+,
+jazz
+,
+live entertainment
+,
+live music
+,
+Music
+,
+music scene
+,
+phoenix
+,
+scottsdale
+,
+tempe
+We love going to live music venues in the Phoenix area and since jazz has a special place in our hearts, we are sharing our recommended spots with you!
+Kazimierz World Wine Bar
+7137 E Stetson Dr. (Stetson is 1 block southwest of Camelback and Scottsdale Roads)
+Scottsdale, AZ
+It will be hard to find the bar from the street so you have to Valet Park and just ask the Valet where the bar is. It will be worth the trouble.
+The Nash
+110 E. Roosevelt St.
+Phoenix, AZ
+Amazing jazz venue in the downtown Phoenix area. National and local jazz artists performing and great jam sessions. Visit
+www.thenash.org
+for more information.
+Musical Instrument Museum (MIM) Music Theater
+4725 E. Mayo Boulevard
+Phoenix, AZ 85050
+The MIM Music Theater hosts some of the best jazz concerts in town. National and local jazz artists perform at the MIM Music Theater all year round. Visit
+mimmusictheater.themim.org
+for upcoming shows.
+Michael’s at Park Central
+3110 N Central Ave., Suite 140
+Phoenix, AZ 85012
+Smooth jazz on Wednesday nights. One of the best places in the Phoenix area to meet mature urban professionals. Check
+michaelsatparkcentral.com
+for entertainment updates.
+The Womack
+5749 N 7th Street
+Phoenix, AZ 85014
+Great live R&B, jazz, blues and music on select nights. Good drinks. Nice patio. The vibe of The Womack is inspired by the legendary “Chez Nous” cocktail lounge that used to be in Phoenix for many years. Small, cozy and classy.
+Lakeshore Music Concert Series at the Tempe Center for the Arts
+700 W. Rio Salado Parkway
+Tempe, AZ  85281
+The Lakeshore Music Concert series will host a number of celebrated national jazz artists in 2016-17. Check
+lakeshoremusic.org/tca/
+for upcoming acts.
+Sanctuary Camelback Mountain
+5700 East McDonald Drive
+Paradise Valley, Arizona
+Live performances by jazz, pop, and R&B vocalists at the Jade Bar make this one of the best date spots in the Valley of the Sun. The views are spectacular.
+If you are a venue owner/manager who would like to have your special events listed on the PhxSoul.com Event Calendar, click here to
+Submit Your Event(s)
+.
+About the Author
+Previous Event
+Hair Salons for African American Women in the Phoenix Area
+Next Event
+African American Barber Shops in the Phoenix Area
+Related Events
+0
+SOULful Entertainment, Community Events in the Phoenix Area on May 5-7
+Posted On
+01 May 2017
+,
+By
+Tremaine Jasper
+0
+VIDEO: All-Star Comedy Explosion Packs the House at Comerica Theatre in Phoenix
+Posted On
+25 Apr 2017
+,
+By
+Tremaine Jasper
+0
+Kemetic Yoga Weekly Classes on Saturdays, Sundays in Phoenix
+Posted On
+09 Apr 2017
+,
+By
+Tremaine Jasper
+Check Authorize
+Comment List
+Comment Form
+Leave a Reply
+Cancel reply
+#form-section-comment .form-section
+Name
+*
+#form-section-author .form-section
+Email
+*
+#form-section-email .form-section
+Website
+#form-section-url .form-section
+#respond
+Find Something Specific
+Search box code
+Custom Search
+Chris Rock 300x250 [async]
+PhxSoul.tv 300x250 sidebar
+Get Social with PhxSoul
+7,596
+Followers
+0
+Fans
+RSS
+Subscribers
+Follow PhxSoul on Twitter
+Black Wall Street Arizona to Host
+#SpringFlingFundraiser
+in Phoenix on May 6 - Free and open to the public:
+https://t.co/M2RdVvYyNg
+49 minutes ago
+I Love The 90's: The Party Continues Tour feat. TLC, Blackstreet and More in Phoenix on July 22:
+https://t.co/TZW2VVod15
+54 minutes ago
+The Weeknd Live at Talking Stick Resort Arena in
+#dtphx
+on Tuesday! Buy your tickets NOW:
+https://t.co/GVebYPM7d6
+about 1 hour ago
+PhxSoul on Facebook
+PhxSoul.com
+You still have time to sign up for the Women’s Retreat Habits & Lifestyles Create The Life You Want Plan & Prepare Workshop on Saturday. The Plan & Prepare 2017 workshop includes tips, activities, and techniques that support you in achieving your dreams. Click here for more details:
+ow.ly/jDH230bjCKz
+...
+See More
+See Less
+4 hours ago
+·
+Photo
+View on Facebook
+·
+Share
+PhxSoul.com
+The Women’s Empowerment Expo takes place this Saturday at Pointe Hilton Tapatio Cliffs Resort in Phoenix. The Women’s Empowerment Expo will feature Vendors, Info Booths, Health/wellness, Entertainment, Networking and more. Click here for more details:
+ow.ly/8GoB30bjCti
+...
+See More
+See Less
+7 hours ago
+·
+Photo
+View on Facebook
+·
+Share
+PhxSoul.com
+We're definitely hoping that Grambling State University's Chad Williams makes a big impact as a wide receiver for the Arizona Cardinals this season:
+ow.ly/dBIm30bjBb2
+#NFLDraft #HBCU
+...
+See More
+See Less
+Cardinals Grab Wideout Chad Williams In Third
+azcardinals.com
+Team traded down with Panthers before selecting small-school pass-catcher
+9 hours ago
+·
+View on Facebook
+·
+Share
+View on Facebook
+page wrapper
+post class
+content wrapper
+content outer wrapper
+Get Footer Widget
+PhxSoul - 250x250 Footer Ad
+close row
+Get Copyright Text
+Copyright 2006-2016
+PhxSoul.com
+. All Rights Reserved. View our
+Privacy Policy
+and
+Legal Disclaimer.
+footer wrapper
+body wrapper
+body outer wrapper
+Custom Facebook Feed JS
+Start Alexa Certify Javascript
+End Alexa Certify Javascript

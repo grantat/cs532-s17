@@ -1,0 +1,137 @@
+<![endif]
+[if IE]>
+		<link rel="stylesheet" href="http://www.radiogemini.it/wp-content/themes/slideone/stylesheet/ie-style.php?path=http://www.radiogemini.it/wp-content/themes/slideone" type="text/css" media="screen, projection" /> 
+	<![endif]
+Favicon
+   ==================================================
+Start WP_HEAD
+   ==================================================
+This site is optimized with the Yoast SEO plugin v4.0.2 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+Get Menu
+Get Logo
+home
+la Radio
+programmi
+ascoltaci
+palinsesto
+contattaci
+FM 88.20 - 103.10 MHz
+Province di: Agrigento - Caltanissetta - Palermo
+Get Social Icons
+header-wrapper
+BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE
+ENDS: AUTO-GENERATED MUSES RADIO PLAYER CODE
+Mi piace:
+Mi piace
+Caricamento…
+La Radio
+Radio Gemini Centrale
+nasce nell’ottobre del 1976,  dalla passione dell’allora arciprete della Chiesa Madre di San Giovanni Gemini, Don Giuseppe Traina, che assieme ad un gruppo di giovani appassionati anch’essi per l’elettronica e la comunicazione, hanno dato inizio alle prime sperimentazioni di una radio locale libera.
+Nel gennaio del
+1977
+, iniziano ufficialmente le trasmissioni di Radio Gemini Centrale, una delle
+prime radio libere
+di tutta la provincia agrigentina e non solo.  In quegli anni la radio diventa il principale canale informativo con cui i cittadini sangiovannesi e quelli della vicina Cammarata, vengono aggiornati sulle attività religiose, sociali, politiche e culturali del territorio.  La radio diventa attrattiva per tanti giovani, con la conduzione di programmi di intrattenimento e di informazione.   Negli anni si sono avvicendati diversi direttori che hanno caratterizzato il loro periodo di direzione con palinsesti adatti al momento storico.
+Nel 1990
+la radio si è costituita in Associazione e viene amministrata come da statuto dal Parroco protempore della Chiesa Madre e da un gruppo di soci fondatori.
+Nel 2001
+vengono festeggiati i primi 25 anni di attività della Radio, con un convegno organizzato dall’arciprete di allora nonché presidente della radio Don Salvatore Traina. L’incontro è stato incentrato sul racconto delle testimonianze dei numerosi ragazzi che negli anni hanno animato le attività della radio.
+Nel 2011
+con l’avvicendamento alla direzione del nuovo arciprete Don Giuseppe Agrò, vengono restaurati gli studi della radio, consegnando all’Associazione dei locali accoglienti e all’avanguardia.
+Nei locali è stato anche attivato una sala culturale di ascolto di musica dello storico archivio musicale della radio.
+Da diversi anni la radio è gestita un gruppo di giovani volontari esperti in comunicazione, che portano avanti l’intera struttura, dalla produzione dei programmi alla gestione amministrativa dell’intera associazione.
+Mi piace:
+Mi piace
+Caricamento…
+Programmi
+Kayros  –
+“
+al risveglio mi sazierò della Tua presenza”
+E’ il programma di apertura del Palisesto locale, condotto da Don Giuseppe Agrò e Don Giuseppe Lentini, le preghiere del mattino, le telefonate dei radio ascoltatori gli approfondimenti di temi sociali e culturali, e le lodi del mattino recitate dai gruppi religiosi della parrocchia.
+Pausa Caffè –
+“l’informazione corretta”
+Approfondimento delle notizie nazionali e locali
+Angelus
+La recita della preghiera dell’Angelus
+Radio Gemini Sport
+Il contenitore domenicale di sport,  racconta la cronaca sportiva del Gemini e del  Kamarat, le due principali squadre calcistiche locali che militano nel Campionato di eccellenza girone A.
+Buon Giorno in Blu
+Una  compagnia discreta per un risveglio ricco di stimoli. Buongiorno inBlu propone momenti informativi, insieme a “Prima di tutto”, il Vangelo del giorno con il commento delle radio locali alle 6.45, le previsioni meteo alle 7.12 e inBlu libri, pillola quotidiana a cura di Giancarla Paladini.
+Serata in Blu
+E’ il programma in interconnesione nazionale con il circuito In Blu in onda dal l lunedì al venerdì alle 17.06.
+Il nostro nuovo modo di accompagnare l’ora di punta di ascolto pomeridiano e soprattutto i tanti ascoltatori in viaggio nel cosiddetto drive-time.
+Mi piace:
+Mi piace
+Caricamento…
+Ascoltaci
+ASCOLTACI DOVUNQUE CON UNO SMARTPHONE CONNESSO A INTERNET
+ISTRUZIONI per Iphone e Android
+1. Scaricate e installate sul vostro cellulare l’applicazione TUNE IN RADIO © (è gratis, si scarica dallo store del rispettivo Sistema Operativo)
+2. Collegatevi ad internet ed aprite l’applicazione.
+3. Nella sezione “cerca” scrivete “radio gemini”
+4. Una volta trovata Radio Gemini salvatela tra i preferiti, e potrete così ascoltarla come, quando e dove vorrete.
+ISTRUZIONI cellulare Nokia©
+1. Scaricate e installate sul vostro cellulare Nokia© l’applicazione Nokia Internet Radio© (è necessario avere installato sul proprio pc l’applicazione Nokia PC Suite©)
+2. Aprite l’applicazione e collegatevi a internet.
+3. Nella sezione “cerca” scrivete “radio gemini”
+4. Una volta trovata Radio Gemini  salvatela tra i preferiti, e potrete così ascoltarla come, quando e dove vorrete.
+Mi piace:
+Mi piace
+Caricamento…
+Palinsesto
+Palinsesto dei programmi e delle playlist dal Lunedì al Sabato
+06.45 – Buongiorno in Blu
+08.00 – Kayros
+09.00 – S. Messa
+09.30 – Playlist Italia
+10.00 – in Blu Notizie
+10.03 – Playlist Italia
+10.30 – Radio Gemini News
+10.35 – Playlist Italia
+11.00 – in Blu Notizie
+11.03 – Pausa Caffè
+12.00 – in Blu Notizie
+12.03 – Angelus
+12.30 – Radio Gemini News
+12.35 – Ecclesia
+13.00 – in Blu Notizie
+13.12 – Playlist Classic
+14.00 – in Blu Notizie
+14.03 – Playlist  Hit’s
+14.30 – Radio Gemini News
+14.35 – Playlist  Hit’s
+15.00 – in Blu Notizie
+15.03 – Playlist Pop
+16.00 – in Blu Notizie
+16.03 – Playlist Pop
+16.30 – Radio Gemini News
+16.35 – Playlist Pop
+17.00 – in Blu Notizie
+17.03 – Serata in Blu
+18.00 – in Blu Notizie
+18.12 – Serata in Blu
+19.00 – in Blu Notizie
+19.03 –
+19.30 – Radio Gemini notizie
+19.35 –
+20.00 – in Blu Notizie
+21.00 – Playlist Sud
+22.00 – Playlist Rock
+23.00 – Playlist Gemini Night
+Mi piace:
+Mi piace
+Caricamento…
+Contattaci
+Nome *
+* Inserisci il tuo nome
+Email *
+* Inserisci una mail valida
+Messaggio  *
+* Inserisci messaggio
+Invia
+Questo sito utilizza cookies per gestire le autenticazioni, la navigazione e per altre funzioni con fini statistici. Se accetti il fatto che possiamo caricare questo tipo di cookies nel tuo dispositivo clicca sul pulsante Accetto. In mancanza di accettazione alcune funzioni potrebbero non funzionare correttamente
+Accetta
+Privacy & Cookies Policy
+%d
+blogger hanno fatto clic su Mi Piace per questo:

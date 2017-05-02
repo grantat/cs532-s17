@@ -1,0 +1,479 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+Tabhair dom do Lámh
+Chris Thile & Brad Mehldau
+From the Album
+Chris Thile & Brad Mehldau
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+January 27, 2017
+Be the first to review this item
+Price display
+$1.29
+VAT Message
+Start your 30-day free trial of Unlimited
+to listen to this song plus tens of millions more songs. Exclusive Prime pricing.
+$1.29
+to buy
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Listen to any song, anywhere with Amazon Music Unlimited.
+Learn More
+Buy song
+$1.29
+Add to MP3 Cart
+Song in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this song
+Title
+by
+Artist
+0:00
+/
+0:00
+Tabhair dom do Lámh
+Tabhair dom do Lámh
+4:21
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Customers Also Listened To These Songs
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+Got Me Wrong
+Brad Mehldau
+1
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+Ev'rybody Wants To Be A Cat
+Jamie Cullum
+1
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+I Can See Clearly Now
+Peter White
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+By The Time This Night Is Over
+Kenny G with Peabo Bryson
+1
+Stream
+or buy for
+$0.99
+check if each carouselCard is Platinum or Prime
+Blood Count (Live (1987/Copenh...
+Stan Getz & Kenny Barron
+Stream
+or buy for
+$0.99
+check if each carouselCard is Platinum or Prime
+Back To Your Heart
+Lindsey Webster
+7
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+Blackbird
+Brad Mehldau
+1
+Stream
+or buy for
+$0.99
+check if each carouselCard is Platinum or Prime
+Day To Day
+Robert Glasper Experiment
+4
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+Loving You (Edit)
+Kenny G
+Stream
+or buy for
+$0.99
+check if each carouselCard is Platinum or Prime
+A Sorte Do Amor (The Luck Of Love)
+Eliane Elias
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+City Of Lights (Album Version)
+Peter White
+2
+Stream
+or buy for
+$0.99
+check if each carouselCard is Platinum or Prime
+Fan The Flames
+Gregory Porter
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+East Of The Sun (And West Of T...
+Stan Getz
+Stream
+or buy for
+$0.99
+check if each carouselCard is Platinum or Prime
+Charlotte's Song
+Peter White
+Stream
+or buy for
+$0.99
+Next
+Product details
+Original Release Date:
+January 27, 2017
+Release Date:
+January 27, 2017
+Label:
+Nonesuch
+Record Company Required Metadata:
+Music file metadata contains unique purchase identifier.
+Learn more
+.
+Duration:
+4:21 minutes
+Genres:
+Jazz
+ASIN:
+B01N8YV1OM
+Average Customer Review:
+Be the first to review this item
+Amazon Best Sellers Rank:
+#186,732 Paid in Songs (
+See Top 100 Paid in Songs
+)
+#7238
+in
+Digital Music
+>
+Songs
+>
+Jazz
+Customer Reviews
+There are no customer reviews yet.
+5 star
+0%
+4 star
+0%
+3 star
+0%
+2 star
+0%
+1 star
+0%
+Share your thoughts with other customers
+Write a customer review
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-u2fQZfWYKpo7lf+jY9R00WCpsz/z08TUS+dsJ0d1rdfMPbfhmOS3Zdap2Xfef3tv rid-4PTCPMP2C3H1R75FRMBK

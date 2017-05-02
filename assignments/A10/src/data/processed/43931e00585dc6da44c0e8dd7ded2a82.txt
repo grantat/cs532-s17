@@ -1,0 +1,141 @@
+JavaScript seems to be disabled in your browser.
+Za ispravno funkcioniranje stranice, JavaScript mora biti omogućen.
+Moj profil
+Moja lista želja
+Moja košarica
+Naplata
+Prijava
+<label for="search"></label>
+Traži
+<ul class="header-advanced-search"><li><a title="" rel="nofollow" href="catalogsearch/advanced/"></a></li></ul>
+class="left"
+Naslovnica
+Vijesti
+<li class="level1 nav-1-1">
+                    <a href="//"></a>
+                </li>
+                <li class="level1 nav-1-2">
+                    <a href="//"></a>
+                </li>
+album tjedna
+izvođač tjedna
+film tjedna
+<li class="level1 nav-1-6">
+					<a href="//"></a>
+				</li>
+top 40
+hr top 40
+/hr-top-40/
+top of the shops
+/top-40-hdu/
+Glazba
+CD
+MP3
+DVD
+BLU-RAY
+LP
+Film
+DVD
+BLU-RAY
+Ostalo
+elektronika
+igre i igračke
+igrice
+knjige
+oprema i roba
+poklon program
+posteri
+školski i uredski pribor
+ostalo
+Ulaznice
+Outlet
+Radio
+<li class="level0 nav-0 level-top">
+    		<a target="_blank" rel="nofollow" href="http://spotdepo.hr/" rel="nofollow">Spot depo</a>
+		</li>
+Naslovna
+Vijesti
+Vijesti
+Novi Jamiroquai album nakon sedam godina čekanja
+Novi Jamiroquai album nakon sedam godina čekanja
+30.01.2017. 03:00
+Grammyem nagrađena globalna electro-funk senzacija JAMIROQUAI najavljuje svoj povratak na glazbenu scenu – i to potpuno novim studijskim izdanjem! Naslova "Automaton" album će biti objavljen 31. ožujka, a najavljen je novom istoimenom pjesmom. Ovo će biti osmo po redu studijsko izdanje za Jamiroquai, a njegovim stvaranjem i produkcijom bavili su se Jay Kay i klavijaturist skupine Matt Johnson. Iza pratećeg videospota za naslovnu pjesmu "Automaton" stoji redatelj Charlie Lightening (Arcade Fire, Bjork), a svoje kreativne naputke dao je i frontmen Jay Kay. "Inspiracija za pjesmu i video je pronađena u priznanju usponu umjetne inteligencije i tehnologije današnjice" otkriva osebujni Jay Kay te nastavlja "Mi ljudi počinjemo zaboravljati ugodne i jednostavne stvari u životu i u našem okruženju, uključujući i naše odnose jedne s drugima".Uz objavu nove pjesme i najave novog studijskog izdanja, Jamiroquai za nadolazeće mjesece pripremaju i niz koncertnih nastupa, a detalje o svim koncertnim postajama te ulaznicama moguće je pronaći na njihovoj službenoj stranici jamiroquai.com.
+Izvor: Universal Music Hrvatska
+Objavljeno u
+Vijesti
+Od
+Zlatko Balog
+Comment Section
+Anketa
+The 50 Best Albums Of 2016 So Far by SPIN
+Andy Stott, Too Many Voices
+Anohni, Hopelessness
+Beyoncé, Lemonade
+Bombino, Azel
+Brothers Osborne, Pawn Shop
+Chairlift, Moth
+Chance The Rapper, Coloring Book
+Cobalt, Slow Forever
+Colleen Green, Colleen Green Ep
+David Bowie, Blackstar
+Death Grips, Bottomless Pit
+Diiv, Is The Is Are
+Eric Prydz, Opus
+Esperanza Spalding, Emily'S D+Evolution
+Frankie Cosmos, Next Thing
+Future, Evol
+Homeboy Sandman, Kindness For Weakness
+Into It. Over It., Standards
+Jessy Lanza, Oh No
+Julianna Barwick, Will
+Kaitlyn Aurelia Smith, Ears
+Kanye West, The Life Of Pablo
+Kendrick Lamar, Untitled Unmastered.
+Kevin Gates, Islah
+Lucy Dacus, No Burden
+Marissa Nadler, Strangers
+Michete, Cool Tricks 2
+Moodymann, Dj-Kicks
+Oranssi Pazuzu, Värähtelijä
+Parquet Courts, Human Performance
+Pinegrove, Cardinal
+Radiohead, A Moon Shaped Pool
+Rihanna, Anti
+Sheer Mag, Iii
+Teen Suicide, It'S The Big Joyous Celebration, Let'S Stir The Honeypot
+The 1975, I Like It When You Sleep, For You Are So Beautiful Yet So Unaware Of It
+The Body, No One Deserves Happiness
+The Coathangers, Nosebleed Weekend
+The Field, The Follower
+The Goon Sax, Up To Anything
+The Hotelier, Goodness
+The Range, Potential
+Tweet, Charlene
+Ty Segall, Emotional Mugger
+Underworld, Barbara Barbara, We Face A Shining Future
+Vic Spencer / Chris Crack, Who The F**K Is Chris Spencer??
+Weezer, The White Album
+White Lung, Paradise
+Wussy, Forever Sounds
+Young Thug, Slime Season 3
+Glasaj
+Newsletter
+Prijavite se na naš newsletter:
+Prijava
+O nama
+Impressum
+Opći uvjeti poslovanja
+Izjava o povjerljivosti
+Sigurnost plaćanja
+Uvjeti oglašavanja
+Napredna pretraga
+Kontaktirajte nas
+Copyright ©
+Cedeterija | Sva prava pridržana.
+Google Code for Remarketing Tag
+Content
+Message
+Cedeterija.com koristi kolačiće za pružanje boljeg korisničkog iskustva, funkcionalnosti i prikaza sustava oglašavanja. Postavke kolačića mogu se kontrolirati i konfigurirati u vašem web pregledniku. Nastavkom pregleda web stranice slažete se sa korištenjem kolačića. Više o ovome možete pročitati
+ovdje
+Close Button
+Zatvori

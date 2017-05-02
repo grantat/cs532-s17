@@ -1,0 +1,178 @@
+OPENING GRAND DIV Start
+LOGO Start
+<a href="/">
+</a>
+LOGO Finish
+DATE OF PUBLICATION Start
+DATE OF PUBLICATION Finish
+NEWSLETTER MASTHEAD Start
+NEWSLETTER MASTHEAD Finish
+MAIN CONTENT Start
+BODY Start
+content begin
+Begin Table For Two Column Layout
+April 28, 2017
+Change Date!
+Begin Market Commentary
+Market Commentary
+by Scott J. Brown, Ph.D., Chief Economist
+The White House unveiled the long-awaited tax cut plan, which ended up being just a one-page, double-spaced, detail-free repeat of what Trump proposed in the campaign – and the stock market loved it. Trump came close to pulling out of the North American Free Trade Agreement, but steered away at the last minute after talking to the leaders of Canada and Mexico. A budget standoff (and possible government shutdown) was averted, after the White House dropped demands to fund construction on the border wall. All 100 senators were invited to a White House briefing on North Korea.
+The economic data were mixed. Real GDP rose 0.7% in the advance estimate for 1Q17, less than expected, but the story behind the numbers was largely in line with expectations. Consumer spending growth (69% of GDP) slowed sharply (following a strong 4Q16). Business fixed investment surged. Residential homebuilding added. Inventory growth slowed, subtracting 0.9 percentage point from the headline GDP growth figure. The Employment Cost Index rose more than expected, which could reflect increases in state minimum wages or higher annual bonuses.
+Next week, there’s a Fed policy meeting, but no change is anticipated and there will be no Yellen press conference. The financial markets could react to any surprises in the monthly ISM surveys, but the focus should be on the April employment report. Nonfarm payrolls were suspiciously soft in March, which may have reflected seasonal adjustment issues (a late Easter). Watch for revisions. Still, the underlying trend in job growth has been steadily lower over the last few years, consistent with a tighter labor market.
+End Market Commentary
+Begin Indices
+Indices
+Last
+Last Week
+YTD return %
+DJIA
+20981.33
+20578.71
+6.17%
+NASDAQ
+6038.47
+5916.78
+12.37%
+S&P 500
+2388.77
+2355.84
+6.70%
+MSCI EAFE
+1835.96
+1783.67
+9.02%
+Russell 2000
+1417.13
+1384.15
+4.42%
+End Indices
+Begin Consumer Money Rates
+Consumer Money Rates
+Last
+1 year ago
+Prime Rate
+4.00
+3.50
+Fed Funds
+0.82
+0.36
+30-year mortgage
+4.09
+3.59
+End Consumer Money Rates
+Begin Currencies
+Currencies
+Last
+1 year ago
+Dollars per British Pound
+1.290
+1.461
+Dollars per Euro
+1.087
+1.135
+Japanese Yen per Dollar
+111.26
+1108.11
+Canadian Dollars per Dollar
+1.363
+1.255
+Mexican Peso per Dollar
+19.027
+17.177
+End Currencies
+Begin Commodities
+Commodities
+Last
+1 year ago
+Crude Oil
+48.97
+46.13
+Gold
+1265.90
+1266.40
+End Commodities
+Begin Bond Rates
+Bond Rates
+Last
+1 month ago
+2-year treasury
+1.28
+1.26
+10-year treasury
+2.25
+2.41
+10-year municipal (TEY)
+3.32
+3.48
+End Bond Rates
+Begin Treasury yield curve
+Treasury Yield Curve
+– 04/28/2017
+As of close of business 04/27/2017
+End Treasury yield curve
+Begin S&P Sector Performance Charts
+S&P Sector Performance (YTD)
+– 04/28/2017
+As of close of business 04/27/2017
+End S&P Sector Performance Charts
+Begin economic calendar
+Economic Calendar
+May 1
+—
+Personal Income and Spending (March)
+—
+ISM Manufacturing Index (April)
+May 2
+—
+Motor Vehicle Sales (April)
+May 3
+—
+ADP Payroll Estimate (April)
+—
+ISM Non-Manufacturing Index (April)
+—
+FOMC Policy Decision (no press conference)
+May 4
+—
+Trade Balance (March)
+—
+NF Productivity (1Q17, preliminary)
+May 5
+—
+Employment Report (April)
+May 12
+—
+Consumer Price Index (April)
+—
+Retail Sales (April)
+May 16
+—
+Building Permits, Housing Starts (April)
+May 29
+—
+Memorial Day (markets closed)
+June 14
+—
+FOMC Policy Decision (Yellen press conference)
+End economic calendar
+Begin Disclaimers
+All expressions of opinion reflect the judgment of the Research Department of Raymond James & Associates, Inc. and are subject to change. There is no assurance any of the forecasts mentioned will occur or that any trends mentioned will continue in the future. Investing involves risks including the possible loss of capital. Past performance is not a guarantee of future results. International investing is subject to additional risks such as currency fluctuations, different financial accounting standards by country, and possible political and economic risks, which may be greater in emerging markets. While interest on municipal bonds is generally exempt from federal income tax, it may be subject to the federal alternative minimum tax, and state or local taxes. In addition, certain municipal bonds (such as Build America Bonds) are issued without a federal tax exemption, which subjects the related interest income to federal income tax. Municipal bonds may be subject to capital gains taxes if sold or redeemed at a profit. Taxable Equivalent Yield (TEY) assumes a 35% tax rate.
+The Dow Jones Industrial Average is an unmanaged index of 30 widely held stocks. The NASDAQ Composite Index is an unmanaged index of all common stocks listed on the NASDAQ National Stock Market. The S&P 500 is an unmanaged index of 500 widely held stocks. The MSCI EAFE (Europe, Australia, Far East) index is an unmanaged index that is generally considered representative of the international stock market. The Russell 2000 index is an unmanaged index of small cap securities which generally involve greater risks. An investment cannot be made directly in these indexes. The performance noted does not include fees or charges, which would reduce an investor's returns. U.S. government bonds and treasury bills are guaranteed by the US government and, if held to maturity, offer a fixed rate of return and guaranteed principal value. U.S. government bonds are issued and guaranteed as to the timely payment of principal and interest by the federal government. Treasury bills are certificates reflecting short-term (less than one year) obligations of the U.S. government.
+Commodities trading is generally considered speculative because of the significant potential for investment loss. Markets for commodities are likely to be volatile and there may be sharp price fluctuations even during periods when prices overall are rising. Specific sector investing can be subject to different and greater risks than more diversified investments. Gross Domestic Product (GDP) is the annual total market value of all final goods and services produced domestically by the U.S. The federal funds rate (“Fed Funds”) is the interest rate at which banks and credit unions lend reserve balances to other depository institutions overnight. The prime rate is the underlying index for most credit cards, home equity loans and lines of credit, auto loans, and personal loans. Material prepared by Raymond James for use by financial advisors. Data source: Bloomberg, as of close of business April 27, 2017.
+End Disclaimers
+content end
+BODY Finish
+MAIN CONTENT Finish
+SECONDARY NAVIGATION Start
+SECONDARY NAVIGATION Finish
+FOOTER Start
+©2017 Raymond James & Associates, Inc. member
+New York Stock Exchange
+/
+SIPC
+.
+FOOTER Finish
+OPENING GRAND DIV Finish
+JAVASCRIPT BOTTOM Start
+<script type="text/javascript" src="bottom.js"></script>
+JAVASCRIPT BOTTOM Start

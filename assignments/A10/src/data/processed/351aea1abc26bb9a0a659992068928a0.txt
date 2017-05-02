@@ -1,0 +1,200 @@
+<![endif]
+Google Chrome Frame for IE
+[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]
+mobile meta
+head extras
+This site is optimized with the Yoast SEO plugin v4.4 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 10]>
+<link rel='stylesheet' id='cb-ie-only-css'  href='http://www.modernists.fr/wp-content/themes/15zine/library/css/ie.css?ver=2.2.3' type='text/css' media='all' />
+<![endif]
+end custom css
+end head extras
+Qui sommes-nous ?
+L’AGENCE PAR MODERNISTS
+Contact
+Partenariats
+Idées d’articles ?
+Presse
+Rechercher
+Se connecter / S'enregistrer
+Accueil
+Mode
+Mode femme
+Mode Homme
+Mode Kids
+Art & Culture
+Art
+Cinéma
+Musique
+Photo
+TV / Séries / Videos
+Food & Shops
+Food & Restaurants & Bars
+Shops
+Home Style
+Décoration
+Mobilier
+Société
+Street
+Mot de passe oublié ?
+Accueil
+Mode
+Mode
+Tout voir
+OPENING CEREMONY X ESPRIT LE RETOUR D’UNE COLLECTION DES ANNÉES 90
+2017-04-27
+UNE NOUVELLE COMBINAISON INTÉGRALE QUI A DU STYLE, PAR LA MARQUE AQUATIQUE SAINT JACQUES
+2017-04-26
+CHANTELLE SORT SA PREMIÈRE COLLECTION DE LINGERIE POUR LE SPORT
+2017-04-26
+Mode femme
+Mode Homme
+Mode Kids
+Art & Culture
+Art & Culture
+Tout voir
+PARCOUREZ LE MONDE AVEC LE NOUVEAU CLIP DE BONOBO « BAMBRO KOYO GANDA »
+2017-04-28
+WES ANDERSON DÉVOILE L’AFFICHE ET LA DATE DE SORTIE DE SON PROCHAIN FILM : ISLE OF DOGS
+2017-04-26
+LES DATES DE SORTIE DU STAR WARS 9 ET DU PROCHAIN INDIANA JONES
+2017-04-26
+Art
+Cinéma
+Musique
+Photo
+TV / Séries / Videos
+Food & Shops
+Food & Shops
+Tout voir
+RENCONTRE AVEC VICTOR, CO-FONDATEUR DES ADRESSES ITALIENNES DU PHÉNOMÈNE BIG MAMMA
+2017-04-28
+LA MANUFACTURE CLUIZEL PROPOSE SES GLACES AU CHOCOLAT EN COLLABORATION AVEC UN MOF
+2017-04-25
+DEVENEZ CONCOMBROPHILE AVEC HENDRICK’S GIN
+2017-04-21
+Food & Restaurants & Bars
+Shops
+Home Style
+Home Style
+Tout voir
+LA MARQUE DE DÉCORATION DANOISE SOSTRENE GRENE OUVRE UNE BOUTIQUE AUX HALLES
+2017-04-19
+5000 AFFICHES VINTAGE DISPONIBLES EN HD ET GRATUITES
+2017-03-22
+L’ESPRIT SURF S’INSTALLE DANS VOS INTÉRIEURS AVEC BOLGE
+2017-03-20
+Décoration
+Mobilier
+Société
+Société
+Tout voir
+DOCU : LES YOUTUBEUSES FRANÇAISES S’INTERROGENT SUR LA PLACE DES FEMMES SUR LA PLATEFORME
+2017-04-26
+ET SI ON MONTRAIT NOS FESSES SUR INSTAGRAM ? LE NOUVEAU PHÉNOMÈNE
+2017-04-24
+FESTIVAL LOUD & PROUD À LA GAITE LYRIQUE : LE FESTIVAL DES CULTURES QUEER
+2017-04-06
+Street
+Street
+Tout voir
+À LA MÈRE DE FAMILLE ET COLETTE VOUS INVITENT À LEUR CHASSE AUX OEUFS GÉANTE
+2017-04-06
+THE MELBOURNE JACKET – UNE VESTE MULTIFONCTIONS QUI S’ADAPTE AUX DIFFÉRENTS CLIMATS
+2017-04-06
+LE BRUNCH ELEKTRONIK ARRIVE À PARIS POUR LES DIMANCHES DE PRINTEMPS
+2017-03-21
+GTranslate: https://gtranslate.io/
+JAMIROQUAI DÉVOILE LE CLIP AUTOMATON EN INTEGRALITE
+2017-01-27
+On vous l’annonçait il y a une semaine,
+2017 signe le retour du groupe Jamiroquai
+avec son célèbre chanteur Jay Kay. Après un premier teaser de 20 secondes, c’est au tour du clip entier pour le titre Automaton de sortir. Mais la question est : Allez-vous aimer ?
+Il est vrai que déjà via le teaser de la semaine dernière, on notait un changement brutal dans la direction artistique du groupe. Plus électro, vers une musique plus futuriste avec notamment la célèbre coiffe de Jay Kay qui est devenue automatique et entièrement éclairé en LED.
+7 ans sans nouvelles, le groupe débarque donc avec fracas en changeant totalement le style de sa musique funk à la base pour quelque chose de plus électro avec des voix robotiques. Une prise de risque qui apparemment déçoit les fans « hardcore », mais nous qui sommes également de grands fans de ces faiseurs de tubes, nous aimons bien et nous attendons de voir la suite qui débarquera le 31 mars avec la sortie de l’album Automaton.
+Partager :
+Cliquez pour partager sur Twitter(ouvre dans une nouvelle fenêtre)
+Cliquez pour partager sur Facebook(ouvre dans une nouvelle fenêtre)
+Cliquez pour partager sur Google+(ouvre dans une nouvelle fenêtre)
+end article section
+Partager sur
+Tweet
+Thomasd
+Articles similaires
+PARCOUREZ LE MONDE AVEC LE NOUVEAU CLIP DE BONOBO « BAMBRO KOYO GANDA »
+2017-04-28
+WES ANDERSON DÉVOILE L’AFFICHE ET LA DATE DE SORTIE DE SON PROCHAIN FILM : ISLE OF DOGS
+2017-04-26
+LES DATES DE SORTIE DU STAR WARS 9 ET DU PROCHAIN INDIANA JONES
+2017-04-26
+LE JEUNE RAPPEUR HYACINTHE REVIENT AVEC UN NOUVEAU MORCEAU FORT « SUR MA VIE »
+2017-04-26
+VIDEO : QUAND KOBE BRYANT REPREND UN POÈME DE STEVE URKEL CHEZ JIMMY FALLON
+2017-04-25
+ET SI ON MONTRAIT NOS FESSES SUR INSTAGRAM ? LE NOUVEAU PHÉNOMÈNE
+2017-04-24
+LE TITRE DE RITON EST EN LIGNE AVANT LA SORTIE DU ED REC VOL. 100
+2017-04-24
+LONDON GRAMMAR PARTAGE SON NOUVEAU TITRE « OH WOMAN OH MAN »
+2017-04-24
+Ecrire un commentaire
+Annuler la réponse
+Votre adresse e-mail ne sera pas publiée.
+Commentaire
+Nom
+*
+E-mail
+*
+Site web
+Prévenez-moi de tous les nouveaux commentaires par e-mail.
+Prévenez-moi de tous les nouveaux articles par email.
+#respond
+end article footer
+end article
+end #main
+Publicité
+SUIVEZ-NOUS
+VOUS AVEZ AIMÉ
+EXPO PHOTO : SONIA SIEFF MET LES FRANÇAISES À NU À LA GALERIE A.
+ET SI ON MONTRAIT NOS FESSES SUR INSTAGRAM ? LE NOUVEAU PHÉNOMÈNE
+IRRÉSISTIBLE FÉMINITÉ POUR LA PREMIÈRE COLLECTION DE MAILLOTS DE BAIN ANJA PARIS
+REPETTO ET MATTHIEU CHEDID REVISITENT LA MYTHIQUE ZIZI EN VERSION WAX
+LE BLV, LA NOUVELLE BRASSERIE MODERNE DE BELLEVILLE
+LE TRÈS POPULAIRE CAFÉ LA PERLE DÉVOILE SES SECRETS LES PLUS INTIMES
+TAVLINE, LA NOUVELLE TABLE ISRAELIENNE INCONTOURNABLE DU MARAIS
+LE GROUPE RUBY CUBE EXPOSE LES RELATIONS SEXUELLES DU FUTUR DANS SON CLIP PRECIOUS STONE
+X GIRL CONTRE SUPERMACHO : LE DOUBLE FILM PORNO DE CANAL+
+UNE NOUVELLE COMBINAISON INTÉGRALE QUI A DU STYLE, PAR LA MARQUE AQUATIQUE SAINT JACQUES
+Newsletter
+MailChimp for WordPress v2.3.14 - https://wordpress.org/plugins/mailchimp-for-wp/
+Email address:
+/ MailChimp for WordPress Plugin
+end #cb-content
+end #cb-container
+Modernists
+#FAIREDELAVIEUNEOEUVREDART
+Le Magazine traite de différents sujets de culture, de tendances, d’art.
+Notre souhait est de mettre en avant les talents créatifs d'aujourd'hui et de demain.
+SUIVEZ-NOUS
+PARCOUREZ LE MONDE AVEC LE NOUVEAU CLIP DE BONOBO « BAMBRO KOYO GANDA »
+2017-04-28
+RENCONTRE AVEC VICTOR, CO-FONDATEUR DES ADRESSES ITALIENNES DU PHÉNOMÈNE BIG MAMMA
+2017-04-28
+OPENING CEREMONY X ESPRIT LE RETOUR D’UNE COLLECTION DES ANNÉES 90
+2017-04-27
+WES ANDERSON DÉVOILE L’AFFICHE ET LA DATE DE SORTIE DE SON PROCHAIN FILM : ISLE OF DOGS
+2017-04-26
+UNE NOUVELLE COMBINAISON INTÉGRALE QUI A DU STYLE, PAR LA MARQUE AQUATIQUE SAINT JACQUES
+2017-04-26
+L’AGENCE PAR MODERNISTS
+Qui sommes-nous ?
+Partenariats
+Presse
+Idées d’articles
+Mentions légales
+Modernists
+end footer
+end #cb-outer-container
+Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies.
+Ok

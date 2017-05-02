@@ -1,0 +1,65 @@
+[if gte IE 9]>
+	<meta name="application-name" content="Deezer">
+	<meta name="msapplication-tooltip" content="Launch the Deezer application">
+	<meta name="msapplication-window" content="width=1600;height=1200">
+	<meta name="msapplication-starturl" content="http://www.deezer.com/us/">
+	<meta name="msapplication-navbutton-color" content="#202020">
+	<![endif]
+Deezer
+What is Deezer?
+Log in
+UNLIMITED MUSIC.
+100% PERSONALIZED
+Listen without limits
+No ads
+Download for offline listening
+Discover Flow, a 1-click mix you'll love
+Try Premium+ for free
+For Cricket Only
+Cricket customer?
+Activate your subscription.
+Elite
+Subscription Plans
+Features
+Mobile
+Press
+Jobs
+Help & Contact
+Terms and Conditions of Use
+Personal data & Cookies
+© 2017
+English (us)
+English
+English (us)
+العربیة
+Čeština
+Dansk
+Deutsch
+Español
+Español (mx)
+Français
+Indonesia
+Italiano
+Magyar
+Melayu
+Nederlands
+Norsk
+Polski
+Português (br)
+Português (pt)
+Pусский
+Română
+Srpski
+Suomi
+Svenska
+Shqip
+Slovenčina
+Slovenščina
+Türkçe
+Crnogorski
+ภาษาไทย
+中文
+Hrvatski
+한국어
+Google Tag Manager
+End Google Tag Manager

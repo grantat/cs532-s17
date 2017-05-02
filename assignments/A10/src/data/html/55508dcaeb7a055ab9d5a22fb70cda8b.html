@@ -1,0 +1,1232 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+<head>
+<script type="text/javascript" src="//hi.districtm.ca/v3.0.103935.js"></script>
+<script type="text/javascript" src="//hi.districtm.ca/currency.js"></script>
+<script type="text/javascript" src="//cdn.districtm.ca/v4.0.header.min.js"></script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/css/foundation.css"/>
+<link rel="icon" href="https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/assets/img/icons/favicon.ico" type="image/x-icon">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 
+<title>Bill Evans gauges Donald Trump - MacroBusiness</title>
+<link rel="canonical" href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/"/>
+ 
+<link rel='dns-prefetch' href='//www.macrobusiness.com.au'/>
+<link rel='dns-prefetch' href='//s.w.org'/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/www.macrobusiness.com.au\/wp-includes\/js\/wp-emoji.js","twemoji":"https:\/\/www.macrobusiness.com.au\/wp-includes\/js\/twemoji.js"}};
+			( function( window, document, settings ) {
+	var src, ready, ii, tests;
+
+	/*
+	 * Create a canvas element for testing native browser support
+	 * of emoji.
+	 */
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
+
+	/**
+	 * Detect if the browser supports rendering emoji or flag emoji. Flag emoji are a single glyph
+	 * made of two characters, so some browsers (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param type {String} Whether to test for support of "flag" or "emoji4" emoji.
+	 * @return {Boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var stringFromCharCode = String.fromCharCode,
+			flag, flag2, technologist, technologist2;
+
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * This works because the image will be one of three things:
+				 * - Two empty squares, if the browser doesn't render emoji
+				 * - Two squares with 'U' and 'N' in them, if the browser doesn't render flag emoji
+				 * - The United Nations flag
+				 *
+				 * The first two will encode to small images (1-2KB data URLs), the third will encode
+				 * to a larger image (4-5KB data URL).
+				 */
+				context.fillText( stringFromCharCode( 55356, 56826, 55356, 56819 ), 0, 0 );
+				if ( canvas.toDataURL().length < 3000 ) {
+					return false;
+				}
+
+				context.clearRect( 0, 0, canvas.width, canvas.height );
+
+				/*
+				 * Test for rainbow flag compatibility. As the rainbow flag was added out of sequence with
+				 * the usual Unicode release cycle, some browsers support it, and some don't, even if their
+				 * Unicode support is up to date.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (white flag emoji + rainbow emoji).
+				 */
+				context.fillText( stringFromCharCode( 55356, 57331, 65039, 8205, 55356, 57096 ), 0, 0 );
+				flag = canvas.toDataURL();
+
+				context.clearRect( 0, 0, canvas.width, canvas.height );
+
+				context.fillText( stringFromCharCode( 55356, 57331, 55356, 57096 ), 0, 0 );
+				flag2 = canvas.toDataURL();
+
+				return flag !== flag2;
+			case 'emoji4':
+				/*
+				 * Emoji 4 has the best technologists. So does WordPress!
+				 *
+				 * To test for support, try to render a new emoji (woman technologist: medium skin tone),
+				 * then compare it to how it would look if the browser doesn't render it correctly
+				 * (woman technologist: medium skin tone + personal computer).
+				 */
+				context.fillText( stringFromCharCode( 55357, 56425, 55356, 57341, 8205, 55357, 56507), 0, 0 );
+				technologist = canvas.toDataURL();
+
+				context.clearRect( 0, 0, canvas.width, canvas.height );
+
+				context.fillText( stringFromCharCode( 55357, 56425, 55356, 57341, 55357, 56507), 0, 0 );
+				technologist2 = canvas.toDataURL();
+
+				return technologist !== technologist2;
+		}
+
+		return false;
+	}
+
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji4' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.macrobusiness.com.au/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='follow-up-emails-css' href='https://www.macrobusiness.com.au/wp-content/plugins/woocommerce-follow-up-emails/templates/followups.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='wpt-twitter-feed-css' href='https://www.macrobusiness.com.au/wp-content/plugins/wp-to-twitter/css/twitter-feed.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='photoswipe-style-css' href='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/js/photoswipe/photoswipe.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='photoswipe-skin-css' href='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/js/photoswipe/default-skin/default-skin.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='mb_awesome_font_icon-css' href='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/css/font-awesome/css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='mb_custom_style-css' href='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/css/custom.css?v=30032017' type='text/css' media='all'/>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness/js/vendor/modernizr.js'></script>
+<link rel='https://api.w.org/' href='https://www.macrobusiness.com.au/wp-json/'/>
+<link rel="alternate" type="application/json+oembed" href="https://www.macrobusiness.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.macrobusiness.com.au%2F2017%2F02%2Fbill-evans-guages-donald-trump%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://www.macrobusiness.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.macrobusiness.com.au%2F2017%2F02%2Fbill-evans-guages-donald-trump%2F&#038;format=xml"/>
+<style type="text/css">.wccs-field-class{float:left;width:47%;}.wccs-field-class:nth-child(2n+2){padding-right:3.4%!important;}.add_info_wccs{clear:both;}</style> <meta name="google-site-verification" content="PinQDOxX_IXWjnDd6NpPwtH1D0qVm7kXlgVtERY6a6k"/>
+<script src="//tags-cdn.deployads.com/a/macrobusiness.com.au.js" async></script>
+<meta name="theme-color" content="#b90000">
+ 
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script type='text/javascript'>
+  var fusetag = fusetag || {}, googletag = fusetag;
+    fusetag.cmd = fusetag.cmd || [];
+</script>
+<script>
+  var pl_industry = ['economics'];
+
+  var pl_category = ['%CATEGORY%'];
+  var pl_pageid = '%PAGEID%';
+  var pl_profanity = '%PROFANITY%';
+  fusetag.cmd.push(function() {
+    fusetag.defineSlot('/71161633/MACB_macrobusiness_DT_article_hrec_1', [ 970, 250 ], 'pl-fuse-ad-MACB_macrobusiness_DT_article_hrec_1')
+    .defineSizeMapping(
+      fusetag.sizeMapping()
+      .addSize([ 1026, 0 ], [ [ 728, 90 ], [ 970, 90 ], [ 970, 250 ] ])
+      .addSize([ 768, 0 ], [ [ 728, 90 ] ])
+      .addSize([ 0, 0 ], [ ])
+      .build()
+    )
+    .addService(fusetag.pubads());
+
+    fusetag.defineSlot('/71161633/MACB_macrobusiness_DT_article_hrec_2', [ 970, 250 ], 'pl-fuse-ad-MACB_macrobusiness_DT_article_hrec_2')
+    .defineSizeMapping(
+      fusetag.sizeMapping()
+      .addSize([ 1026, 0 ], [ [ 728, 90 ], [ 970, 90 ], [ 970, 250 ] ])
+      .addSize([ 768, 0 ], [ [ 728, 90 ] ])
+      .addSize([ 0, 0 ], [ ])
+      .build()
+    )
+    .addService(fusetag.pubads());
+
+    fusetag.defineSlot('/71161633/MACB_macrobusiness_DT_article_vrec_1', [ 300, 600 ], 'pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_1')
+    .defineSizeMapping(
+      fusetag.sizeMapping()
+      .addSize([ 1026, 0 ], [ [ 300, 250 ], [ 300, 600 ], [ 160, 600 ] ])
+      .addSize([ 0, 0 ], [ ])
+      .build()
+    )
+    .addService(fusetag.pubads());
+
+    fusetag.defineSlot('/71161633/MACB_macrobusiness_DT_article_vrec_2', [ 300, 600 ], 'pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_2')
+    .defineSizeMapping(
+      fusetag.sizeMapping()
+      .addSize([ 1026, 0 ], [ [ 300, 250 ], [ 300, 600 ], [ 160, 600 ] ])
+      .addSize([ 0, 0 ], [ ])
+      .build()
+    )
+    .addService(fusetag.pubads());
+
+    fusetag.defineSlot('/71161633/MACB_macrobusiness_DT_article_vrec_3', [ 300, 600 ], 'pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_3')
+    .defineSizeMapping(
+      fusetag.sizeMapping()
+      .addSize([ 1026, 0 ], [ [ 300, 250 ], [ 300, 600 ], [ 160, 600 ] ])
+      .addSize([ 0, 0 ], [ ])
+      .build()
+    )
+    .addService(fusetag.pubads());
+
+    fusetag.defineSlot('/71161633/MACB_macrobusiness_DT_article_content_bottom', [ 300, 250 ], 'pl-fuse-ad-MACB_macrobusiness_DT_article_content_bottom')
+    .defineSizeMapping(
+      fusetag.sizeMapping()
+      .addSize([ 768, 0 ], [ [ 300, 250 ], [ 728, 90 ] ])
+      .addSize([ 0, 0 ], [ ])
+      .build()
+    )
+    .addService(fusetag.pubads());
+
+    fusetag.defineSlot('/71161633/MACB_macrobusiness_Mob_article_inread', [ 300, 250 ], 'pl-fuse-ad-MACB_macrobusiness_Mob_article_inread')
+    .defineSizeMapping(
+      fusetag.sizeMapping()
+      .addSize([ 768, 0 ], [ ])
+      .addSize([ 0, 0 ], [ [ 300, 250 ] ])
+      .build()
+    )
+    .addService(fusetag.pubads());
+
+    fusetag.defineSlot('/71161633/MACB_macrobusiness_Mob_article_content_bottom', [ 300, 250 ], 'pl-fuse-ad-MACB_macrobusiness_Mob_article_content_bottom')
+  .defineSizeMapping(
+    fusetag.sizeMapping()
+    .addSize([ 768, 0 ], [  ])
+    .addSize([ 0, 0 ], [ [ 300, 250 ] ])
+    .build()
+  )
+  .addService(fusetag.pubads());
+
+    var adomik_pagetarget = Math.ceil(Math.random()*100);
+    fusetag.pubads().setTargeting('publift_mv_testing', adomik_pagetarget>10?'optimized':((adomik_pagetarget%10)==0?'benchmark':'exploration'+(adomik_pagetarget%10)));
+    fusetag.pubads().setTargeting('industry', pl_industry);
+    fusetag.pubads().setTargeting('category', pl_category);
+    fusetag.pubads().setTargeting('profanity', pl_profanity);
+    fusetag.pubads().setTargeting('pageid', pl_pageid);
+    fusetag.pubads().enableSingleRequest();
+    fusetag.pubads().collapseEmptyDivs();
+    fusetag.enableServices();
+  });
+</script>
+</head>
+<body class="post-template-default single single-post postid-787189 single-format-standard post-bill-evans-guages-donald-trump">
+<script type="text/javascript">
+		iNimbusLayer=[];
+		(function(d, t) {
+			try {
+				var g=d.createElement(t), s=d.getElementsByTagName(t)[0];
+				g.type="text/javascript";
+				g.defer=true;
+				g.async=true;
+				g.src='https://trk.inimbus.com.au/tagmanager/?pubid=302';
+				s.parentNode.insertBefore(g,s);
+			} catch(e) {
+				console.log(err);
+			}
+		})(document,'script');
+	</script>
+<h1 class="title" style='display: none;'><a href="https://www.macrobusiness.com.au" title="MacroBusiness">MacroBusiness</a></h1>
+<div class="off-canvas-wrap" data-offcanvas>
+<div class="inner-wrap">
+<aside class="left-off-canvas-menu" aria-hidden="true">
+<ul id="menu-primary-menu" class="off-canvas-list"><li><label>MACRO BUSINESS</label></li><li class="divider"></li><li id="menu-item-754369" class="hide-for-large-up menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-754369"><a title="Home" href="https://www.macrobusiness.com.au/">Home</a></li>
+<li class="divider"></li><li id="menu-item-365071" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children has-submenu menu-item-365071"><a title="Australian Economy" href="https://www.macrobusiness.com.au/category/australian-economy/">Australian Economy</a>
+<ul class="left-submenu sub-menu dropdown">
+<li class="back"><a href="#">Back</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-365071"><a title="Australian Economy" href="https://www.macrobusiness.com.au/category/australian-economy/">Australian Economy</a></li>
+<li id="menu-item-365074" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365074"><a title="Australian Property" href="https://www.macrobusiness.com.au/category/australian-property/">Australian Property</a></li>
+<li id="menu-item-365075" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365075"><a title="Australian Shares" href="https://www.macrobusiness.com.au/category/equities/">Australian Shares</a></li>
+<li id="menu-item-762686" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-762686"><a title="Australian Dollar" href="https://www.macrobusiness.com.au/category/australian-dollar-2/">Australian Dollar</a></li>
+<li id="menu-item-365073" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365073"><a title="Australian interest rates" href="https://www.macrobusiness.com.au/category/australian-interest-rates/">Australian interest rates</a></li>
+<li id="menu-item-365068" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365068"><a title="Australian banks" href="https://www.macrobusiness.com.au/category/australian-banks-2/">Australian banks</a></li>
+<li id="menu-item-365069" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365069"><a title="Australian budget" href="https://www.macrobusiness.com.au/category/australian-budget-2/">Australian budget</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-365082" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children has-submenu menu-item-365082"><a title="Global Macro" href="https://www.macrobusiness.com.au/category/global-macro/">Global Macro</a>
+<ul class="left-submenu sub-menu dropdown">
+<li class="back"><a href="#">Back</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-365082"><a title="Global Macro" href="https://www.macrobusiness.com.au/category/global-macro/">Global Macro</a></li>
+<li id="menu-item-365077" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365077"><a title="Carbon Economy" href="https://www.macrobusiness.com.au/category/carbon-economy/">Carbon Economy</a></li>
+<li id="menu-item-365078" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365078"><a title="China Economy" href="https://www.macrobusiness.com.au/category/chinas-economy/">China Economy</a></li>
+<li id="menu-item-365080" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365080"><a title="European Economy" href="https://www.macrobusiness.com.au/category/european-economy/">European Economy</a></li>
+<li id="menu-item-365083" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365083"><a title="New Zealand Economy" href="https://www.macrobusiness.com.au/category/new-zealand-economy/">New Zealand Economy</a></li>
+<li id="menu-item-365084" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-365084"><a title="US Economy" href="https://www.macrobusiness.com.au/category/us-economy/">US Economy</a></li>
+<li id="menu-item-365079" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365079"><a title="Economics" href="https://www.macrobusiness.com.au/category/economics/">Economics</a></li>
+<li id="menu-item-365076" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365076"><a title="Capitalism" href="https://www.macrobusiness.com.au/category/capitalism/">Capitalism</a></li>
+<li id="menu-item-365081" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365081"><a title="Global Housing" href="https://www.macrobusiness.com.au/category/global-housing/">Global Housing</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-365085" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children has-submenu menu-item-365085"><a title="Commodities" href="https://www.macrobusiness.com.au/category/commodities/">Commodities</a>
+<ul class="left-submenu sub-menu dropdown">
+<li class="back"><a href="#">Back</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-365085"><a title="Commodities" href="https://www.macrobusiness.com.au/category/commodities/">Commodities</a></li>
+<li id="menu-item-365088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365088"><a title="Iron ore price" href="https://www.macrobusiness.com.au/category/iron-ore-price/">Iron ore price</a></li>
+<li id="menu-item-365086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365086"><a title="Australian LNG" href="https://www.macrobusiness.com.au/category/australian-lng/">Australian LNG</a></li>
+<li id="menu-item-365087" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365087"><a title="Gold" href="https://www.macrobusiness.com.au/category/gold/">Gold</a></li>
+</ul>
+</li>
+<li class="divider"></li><li id="menu-item-365089" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-submenu menu-item-365089"><a title="Bloggers" href="#">Bloggers</a>
+<ul class="left-submenu sub-menu dropdown">
+<li class="back"><a href="#">Back</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-365089"><a title="Bloggers" href="#">Bloggers</a></li>
+<li id="menu-item-365090" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365090"><a title="Cameron Murray" href="https://www.macrobusiness.com.au/cameron-murray/">Cameron Murray</a></li>
+<li id="menu-item-365091" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365091"><a title="David Llewellyn-Smith" href="https://www.macrobusiness.com.au/david-llewellyn-smith/">David Llewellyn-Smith</a></li>
+<li id="menu-item-365092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365092"><a title="Deep T." href="https://www.macrobusiness.com.au/deep-t/">Deep T.</a></li>
+<li id="menu-item-365093" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365093"><a title="Delusional Economics" href="https://www.macrobusiness.com.au/delusional-economics/">Delusional Economics</a></li>
+<li id="menu-item-365094" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365094"><a title="Leith van Onselen" href="https://www.macrobusiness.com.au/leith-van-onselen/">Leith van Onselen</a></li>
+</ul>
+</li>
+</ul></aside>
+<aside class="right-off-canvas-menu" aria-hidden="true">
+   
+<article class="widget widget-member">
+<h2 class="welcome"><span class="lg">Start your free 14 Day Trial</span></h2>
+<ul class='check'>
+<li>Access Subscriber Only Content</li>
+<li>Special Reports with Unique Insights</li>
+</ul>
+<div class="user-tool clearfix">
+<a href="https://www.macrobusiness.com.au/membership" title="Click to Subscribe" class='button'>Subscribe</a>
+<div class="small-set user-login">
+<a href="/my-account/" title="Click to Login">Already a member?</a><br>
+<a href="/my-account/" title="Click to Login">Log in here <i class="fa fa-caret-right"></i></a>
+</div>
+</div>
+</article>
+ 
+ 
+<article id="popular-posts-3" class="widget mb_popular_post"> <h5 class="widget-title">Popular Posts</h5> <ul>
+<li>
+<a href="https://www.macrobusiness.com.au/2017/05/get-set-nothing-budget/">Get set for Do-nothing Budget? | 29 comments</a>
+</li>
+<li>
+<a href="https://www.macrobusiness.com.au/2017/05/reconsider-going-university/">Why you should reconsider going to university | 40 comments</a>
+</li>
+<li>
+<a href="https://www.macrobusiness.com.au/2017/05/its-not-called-housing-affordability-its-called-a-bubble/">It&#8217;s not called &#8220;housing affordability&#8221;, it&#8217;s called a &#8220;bubble&#8221; | 177 comments</a>
+</li>
+<li>
+<a href="https://www.macrobusiness.com.au/2017/05/mass-immigration-grinds-big-cities-to-halt/">Mass immigration grinds big cities to a halt | 62 comments</a>
+</li>
+<li>
+<a href="https://www.macrobusiness.com.au/2017/05/treasurer-morrison-declares-end-great-australian-adjustment/">Treasurer Morrison declares an end to the great Australian adjustment | 12 comments</a>
+</li>
+<li>
+<a href="https://www.macrobusiness.com.au/2017/05/fill-in-the-blank-westpac-is-a-coal-whimp-coalition-a-coal/">Fill in the blank: Westpac is a coal &#8220;whimp&#8221;, Coalition is a coal&#8230;&#8230;&#8230;.. | 12 comments</a>
+</li>
+<li>
+<a href="https://www.macrobusiness.com.au/2017/04/apra-squibbed-proper-macroprudential-for-highrise-harry/">APRA squibbed proper macroprudential for Highrise Harry | 40 comments</a>
+</li>
+</ul>
+</article> 
+<ul class="off-canvas-list">
+<li class='search-menu show-for-large-up'>
+<a class='desktop-search' href="javascript: void(0); " title="Click to Search">Search <i class="fa fa-search"></i></a>
+</li>
+<li>
+<a href="https://www.macrobusiness.com.au/my-account/?redirect_to=https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump" title="Click to Login">Login <i class="fa fa-user"></i></a>
+</li>
+<li class="start-trial" data-status='NULL
+' data-user_id="int(0)
+">
+<a href="https://www.macrobusiness.com.au/membership/" title="Click to Start Trial">Start Free Trial</a>
+</li>
+</ul></aside>
+<div class="main-wrap">
+<div class="tab-bar-container show-for-medium-down">
+<nav class="tab-bar">
+<section class="left-small">
+<h2><a class="left-off-canvas-toggle menu-icon" href="#"><span><span class="display-hide">left</span></span></a></h2>
+</section>
+<section class="middle tab-bar-section">
+<h2 class="title"><a href="https://www.macrobusiness.com.au" title="MacroBusiness">MacroBusiness</a></h2>
+</section>
+<section class="right-small">
+<h2><a class="right-off-canvas-toggle fa-icon" href="#"><span class="display-hide">right</span><i class='fa fa-user'></i></a></h2>
+</section>
+<section class="right-small right-small-2">
+<h2><a class="mobile-search-toggle fa-icon" href="javascript: void(0);"><span class="display-hide">right mobile</span><i class="fa fa-search"></i></a></h2>
+</section>
+</nav>
+<div class='mobile-search hide'>
+<div class="search-wrap">
+<form role="search" method="get" action="https://www.macrobusiness.com.au">
+<input type="text" value="" name="s" id="m-s" placeholder="Type here...">
+<input type="submit" id="m-searchsubmit" value="Search" class="prefix button">
+</form>
+</div>
+</div>
+</div>
+<div class="main-body">
+<header id="header" class='site-header hide-for-medium-down'>
+<div class="row top-header">
+<div class="large-3 columns site-branding no-padding-left">
+<a href="https://www.macrobusiness.com.au" title="MacroBusiness"><img src="https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/images/logo.png" alt="MacroBusiness"/></a>
+</div>
+<div class="large-9 columns no-padding-left no-padding-right">
+<div id="site-nav-top-bar" class="navigation">
+<ul class="off-canvas-list">
+<li class='search-menu show-for-large-up'>
+<a class='desktop-search' href="javascript: void(0); " title="Click to Search">Search <i class="fa fa-search"></i></a>
+</li>
+<li>
+<a href="https://www.macrobusiness.com.au/my-account/?redirect_to=https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump" title="Click to Login">Login <i class="fa fa-user"></i></a>
+</li>
+<li class="start-trial" data-status='NULL
+' data-user_id="int(0)
+">
+<a href="https://www.macrobusiness.com.au/membership/" title="Click to Start Trial">Start Free Trial</a>
+</li>
+</ul> </div>
+<div id="site-menu">
+<div id="site-nav" class="navigation"><ul id="menu-primary-menu-1" class=""><li class="hide-for-large-up menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-754369"><a title="Home" href="https://www.macrobusiness.com.au/">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-365071"><a title="Australian Economy" href="https://www.macrobusiness.com.au/category/australian-economy/">Australian Economy</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365074"><a title="Australian Property" href="https://www.macrobusiness.com.au/category/australian-property/">Australian Property</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365075"><a title="Australian Shares" href="https://www.macrobusiness.com.au/category/equities/">Australian Shares</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-762686"><a title="Australian Dollar" href="https://www.macrobusiness.com.au/category/australian-dollar-2/">Australian Dollar</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365073"><a title="Australian interest rates" href="https://www.macrobusiness.com.au/category/australian-interest-rates/">Australian interest rates</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365068"><a title="Australian banks" href="https://www.macrobusiness.com.au/category/australian-banks-2/">Australian banks</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365069"><a title="Australian budget" href="https://www.macrobusiness.com.au/category/australian-budget-2/">Australian budget</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-365082"><a title="Global Macro" href="https://www.macrobusiness.com.au/category/global-macro/">Global Macro</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365077"><a title="Carbon Economy" href="https://www.macrobusiness.com.au/category/carbon-economy/">Carbon Economy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365078"><a title="China Economy" href="https://www.macrobusiness.com.au/category/chinas-economy/">China Economy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365080"><a title="European Economy" href="https://www.macrobusiness.com.au/category/european-economy/">European Economy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365083"><a title="New Zealand Economy" href="https://www.macrobusiness.com.au/category/new-zealand-economy/">New Zealand Economy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-365084"><a title="US Economy" href="https://www.macrobusiness.com.au/category/us-economy/">US Economy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365079"><a title="Economics" href="https://www.macrobusiness.com.au/category/economics/">Economics</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365076"><a title="Capitalism" href="https://www.macrobusiness.com.au/category/capitalism/">Capitalism</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365081"><a title="Global Housing" href="https://www.macrobusiness.com.au/category/global-housing/">Global Housing</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-365085"><a title="Commodities" href="https://www.macrobusiness.com.au/category/commodities/">Commodities</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365088"><a title="Iron ore price" href="https://www.macrobusiness.com.au/category/iron-ore-price/">Iron ore price</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365086"><a title="Australian LNG" href="https://www.macrobusiness.com.au/category/australian-lng/">Australian LNG</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-365087"><a title="Gold" href="https://www.macrobusiness.com.au/category/gold/">Gold</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-365089"><a title="Bloggers" href="#">Bloggers</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365090"><a title="Cameron Murray" href="https://www.macrobusiness.com.au/cameron-murray/">Cameron Murray</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365091"><a title="David Llewellyn-Smith" href="https://www.macrobusiness.com.au/david-llewellyn-smith/">David Llewellyn-Smith</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365092"><a title="Deep T." href="https://www.macrobusiness.com.au/deep-t/">Deep T.</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365093"><a title="Delusional Economics" href="https://www.macrobusiness.com.au/delusional-economics/">Delusional Economics</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365094"><a title="Leith van Onselen" href="https://www.macrobusiness.com.au/leith-van-onselen/">Leith van Onselen</a></li>
+</ul>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div class="site-search">
+<div class="row">
+<div class="large-12 columns">
+<div class="search-wrap">
+<form role="search" method="get" id="searchform" action="https://www.macrobusiness.com.au">
+<input type="text" value="" name="s" id="s" placeholder="Type here...">
+<input type="submit" id="searchsubmit" value="Search" class="prefix button">
+</form>
+</div> </div>
+</div>
+</div>
+</header>  
+<div id="hrec_1_adv" class="adblock">
+<div class='row'>
+<div class="large-12 column">
+<div id="top-leaderboard-adv-container">
+<center>
+ 
+<div id='pl-fuse-ad-MACB_macrobusiness_DT_article_hrec_1'>
+<script>
+  fusetag.cmd.push(function() { fusetag.display('pl-fuse-ad-MACB_macrobusiness_DT_article_hrec_1'); });</script>
+ 
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js" async="true"></script>
+<div id="crt-2a276907" style="width:728px;height:90px;"></div>
+<script type="text/javascript">
+  var Criteo = Criteo || {};
+  Criteo.events = Criteo.events || [];
+  Criteo.events.push(function() {
+      Criteo.DisplayAcceptableAdIfAdblocked({
+          "zoneid": 706784,
+          "containerid": "crt-2a276907",
+          "overrideZoneFloor": false
+      });
+  });
+  </script>
+ 
+</div>
+</center> </div>
+</div>
+</div>
+</div>
+<section id="primary" class="content-area" role="document">
+<h2 class='primary-section-title'>Primary Section</h2>
+<div class="row containerwrap">
+<div id="content" class="small-12 large-8 columns" role="main">
+<article class="post-787189 post type-post status-publish format-standard has-post-thumbnail hentry category-us-economy" id="post-787189">
+<div class="entry-header-single">
+<header class="entry-header clearfix">
+<div id='top-social-share' class='show-for-large-up right'><div class="share-buttons v2 expanded">
+<div class="share-container clearfix">
+<div class="primary-shares">
+<a href="javascript: void(0);" title="Share with Facebook" class="social-share facebook">
+<i class="fa fa-facebook-square"></i>
+<span>Share on Facebook</span>
+</a>
+<a href="javascript: void(0);" title="Share with Twitter" class="social-share twitter">
+<i class="fa fa-twitter"></i>
+<span>Share on Twitter</span>
+</a>
+<a href="javascript: void(0);" title="Share with Reddit" class="social-share reddit">
+<i class="fa fa-reddit"></i>
+<span>Share on Reddit</span>
+</a>
+<div class="share-toggle">+</div>
+</div>
+<div class="secondary-shares" style="display: none">
+<a href="javascript: void(0);" title="Share with GooglePlus" class="social-share google_plus" data-gapiattached="true">
+<i class="fa fa-google-plus"></i>
+</a>
+<a href="javascript: void(0);" title="Share with LinkedIn" class="social-share linkedin">
+<i class="fa fa-linkedin-square"></i>
+</a>
+<a href="javascript: void(0);" title="Share with Pinterest" class="social-share pinterest">
+<i class="fa fa-pinterest"></i>
+</a>
+<div class="secondary-share-toggle">-</div>
+</div>
+</div>
+</div> </div>
+<h1 class="entry-title">Bill Evans gauges Donald Trump</h1>
+<div class='entry-meta'><p class="author">By <a href="https://www.macrobusiness.com.au/author/david/" rel="author" class="fn" title="View all posts by Houses and Holes">Houses and Holes</a> in <a href="https://www.macrobusiness.com.au/category/us-economy/" title="View all posts in US Economy">US Economy</a></p><p class='time-comments-num'><time class="updated" datetime="2017-02-06T12:43:01+00:00">at 12:43 pm on February 6, 2017</time><span class=''> | <a class='comment-number ' href='https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comments' title=' View Bill Evans gauges Donald Trump Comments'>8 comments</a></span></p></div> </header>
+</div>
+<div class="entry-content">
+<p>From Bill Evans at Westpac today:</p>
+<blockquote><p>I have spent some time over the first week of my trip to the US with economists, officials and investors.</p>
+<p>The general view is that growth in the US will gradually build through 2017; 2018 and 2019. That will be supported by easing financial conditions (tighter credit spreads and a rising share market to more than offset higher rates and a rising USD); rising business confidence; a lift in wages to reflect the fact that the labour market is at full capacity; and expansionary fiscal policy.</p>
+<p>Rising wages, full employment and stronger growth will boost interest rates, with the FED tightening 2–3 times in 2017 and then 2–4 times in both 2018 and 2019. The peak in growth and interest rates is expected sometime in 2019, with the real Federal Funds Rate peaking around 1% (a zero real rate is seen as neutral).</p>
+<p>After piecing together that profile, discussions usually shifted to the huge unknown – the policies of President Trump.</p>
+<p>Despite my personal urging that infrastructure policy should be at the forefront of any initiatives, it was generally dismissed as being highly unpopular, with Republican senators seeing it as being too difficult to implement without a huge negative impact on the budget.</p>
+<p>Early readings of Trump’s priorities indicate that health care; trade; tax and regulation are the focus. Personally I am attracted to the concept of an infrastructure bank, capitalised by a Federal Government guarantee.</p>
+<p>That would seem to be a more practical approach than privatisation, where the complex relationships between Federal; state and local authorities vis a vis infrastructure assets means the time required to release funds through privatisation would be extremely long – i.e. many years.</p>
+<p>Of course, privatisation policies should be embraced anyway, but doing so should not delay infrastructure initiatives.</p>
+<p>All policy discussion was dominated by tax and trade. The base case on tax is taken to be the Ryan Plan which was released in June 2016 and contains some truly bold initiatives, including: cutting the corporate tax rate from 35% to 20%; and consolidating personal tax rates into three brackets, 12%; 25% and 33%.</p>
+<p>These policies are broadly in line with Trump’s less detailed assertions.</p>
+<p>However, to make the package “saleable”, Ryan includes some radical changes in approach. Corporates are to be taxed on sales rather than earnings, with standard deductions such as depreciation; interest; state taxes; and advertising no longer deductible. Meanwhile, capital investment would be deductible in full in the year it occurred.</p>
+<p>Of most controversy is the Border Adjustment Tax. Under this tax, companies would be exempt from tax on revenue from sales outside of the US. On the other hand, companies which purchase goods or services from outside the US would not be able to claim a deduction on those costs.</p>
+<p>Effectively, the US, which runs a massive trade deficit, would be taxing that trade deficit at 20%. Importers would be under huge pressure, while exporters would be given a massive subsidy.</p>
+<p>Implications for inflation; the USD; and the trade policy responses of other countries would be significant.</p>
+<p>For example, some argued that the USD would appreciate by 20% to reflect an improved trade position, protecting the margins of importers. That would also contain inflation pressures and help dilute the opposition from other trading partners, especially China.</p>
+<p>My discussions concluded that there is only around a 20–30% chance of such an arrangement being implemented. However, in recent days Mr Trump appears to have moved from a detractor of the policy to a supporter. Of course, all that can change again.</p>
+<p>Such a policy, while hugely disruptive, would certainly be in line with his approach on trade, and could possibly have the support of Republican senators.</p>
+<p>For markets, the implications for currencies; rates and equities would be profound.</p>
+<p>These types of uncertainties complicate the central views on the economy and markets set out above. In particular, the impact on confidence of possible policy gridlock and speculation around developments such as the Border Tax will be central.</p></blockquote>
+<div id='bot-social-share'><div class="share-buttons v2 expanded">
+<div class="share-container clearfix">
+<div class="primary-shares">
+<a href="javascript: void(0);" title="Share with Facebook" class="social-share facebook">
+<i class="fa fa-facebook-square"></i>
+<span>Share on Facebook</span>
+</a>
+<a href="javascript: void(0);" title="Share with Twitter" class="social-share twitter">
+<i class="fa fa-twitter"></i>
+<span>Share on Twitter</span>
+</a>
+<a href="javascript: void(0);" title="Share with Reddit" class="social-share reddit">
+<i class="fa fa-reddit"></i>
+<span>Share on Reddit</span>
+</a>
+<div class="share-toggle">+</div>
+</div>
+<div class="secondary-shares" style="display: none">
+<a href="javascript: void(0);" title="Share with GooglePlus" class="social-share google_plus" data-gapiattached="true">
+<i class="fa fa-google-plus"></i>
+</a>
+<a href="javascript: void(0);" title="Share with LinkedIn" class="social-share linkedin">
+<i class="fa fa-linkedin-square"></i>
+</a>
+<a href="javascript: void(0);" title="Share with Pinterest" class="social-share pinterest">
+<i class="fa fa-pinterest"></i>
+</a>
+<div class="secondary-share-toggle">-</div>
+</div>
+</div>
+</div> </div><center>
+ 
+<div id='pl-fuse-ad-MACB_macrobusiness_DT_article_content_bottom'>
+<script>
+                  fusetag.cmd.push(function() { fusetag.display('pl-fuse-ad-MACB_macrobusiness_DT_article_content_bottom'); });</script>
+</div>
+<div class='hide-for-large-up'>
+ 
+<div id='pl-fuse-ad-MACB_macrobusiness_Mob_article_content_bottom'>
+<script>
+                      fusetag.cmd.push(function() { fusetag.display('pl-fuse-ad-MACB_macrobusiness_Mob_article_content_bottom'); });</script>
+</div>
+</div>
+</center>
+<div id='related-posts'><h2>YOU MAY ALSO BE INTERESTED IN</h2><div class='related-posts-list'><div class='row'><div class='medium-6 columns post-block'><div class='media-holder'><a href='https://www.macrobusiness.com.au/2017/04/understanding-trump-tax-plan/' title='View Understanding the Trump tax plan'><img width="78" height="78" src="https://www.macrobusiness.com.au/wp-content/uploads/2017/04/49693919.cached-78x78.jpg" class="lazy-loading wp-post-image" alt="Understanding the Trump tax plan" title="Understanding the Trump tax plan" srcset="https://www.macrobusiness.com.au/wp-content/uploads/2017/04/49693919.cached-78x78.jpg 78w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/49693919.cached-200x200.jpg 200w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/49693919.cached-90x90.jpg 90w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/49693919.cached-150x150.jpg 150w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/49693919.cached-300x300.jpg 300w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/49693919.cached-198x198.jpg 198w" sizes="(max-width: 78px) 100vw, 78px"/></a></div> <div class='post-description'><h3 class="post-title"><a href="https://www.macrobusiness.com.au/2017/04/understanding-trump-tax-plan/" title="Understanding the Trump tax plan">Understanding the Trump tax plan</a></h3><p>From Goldman:
+Q&amp;A on the President’s Tax</p></div> </div><div class='medium-6 columns post-block'><div class='media-holder'><a href='https://www.macrobusiness.com.au/2017/04/trumps-tax-plan-fail-rich/' title='View Trump's tax plan fail: More for the rich'><img width="78" height="78" src="https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11-78x78.jpg" class="lazy-loading wp-post-image" alt="Trump&#039;s tax plan fail: More for the rich" title="Trump&#039;s tax plan fail: More for the rich" srcset="https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11-78x78.jpg 78w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11-200x200.jpg 200w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11-297x300.jpg 297w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11-90x90.jpg 90w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11-150x150.jpg 150w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11-300x300.jpg 300w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11-198x198.jpg 198w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/8d17c793280012f3a834001e548e1f11.jpg 627w" sizes="(max-width: 78px) 100vw, 78px" /></a></div><!-- End .media-holder --><div class='post-description'><h3 class="post-title"><a href="https://www.macrobusiness.com.au/2017/04/trumps-tax-plan-fail-rich/" title="Trump's tax plan fail: More for the rich">Trump's tax plan fail: More for the rich</a></h3><p>Care of Elliott Clarke at Westpac:
+
+
+Ever</p></div><!-- End post-description --></div></div><div class='row'><div class='medium-6 columns post-block'><div class='media-holder'><a href='https://www.macrobusiness.com.au/2017/04/canadian-property-bubble-bursting/' title='View Is the Canadian property bubble bursting?'><img width="78" height="78" src="https://www.macrobusiness.com.au/wp-content/uploads/2017/04/imgres-76-78x78.jpg" class="lazy-loading wp-post-image" alt="Is the Canadian property bubble bursting?" title="Is the Canadian property bubble bursting?" srcset="https://www.macrobusiness.com.au/wp-content/uploads/2017/04/imgres-76-78x78.jpg 78w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/imgres-76-200x200.jpg 200w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/imgres-76-90x90.jpg 90w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/imgres-76-150x150.jpg 150w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/imgres-76-198x198.jpg 198w" sizes="(max-width: 78px) 100vw, 78px" /></a></div><!-- End .media-holder --><div class='post-description'><h3 class="post-title"><a href="https://www.macrobusiness.com.au/2017/04/canadian-property-bubble-bursting/" title="Is the Canadian property bubble bursting?">Is the Canadian property bubble bursting?</a></h3><p>Canada's largest mortgage non-bank mortgage</p></div><!-- End post-description --></div><div class='medium-6 columns post-block'><div class='media-holder'><a href='https://www.macrobusiness.com.au/2017/04/trump-australia-propaganda-flows/' title='View Trump-Australia propaganda flows'><img width="78" height="78" src="https://www.macrobusiness.com.au/wp-content/uploads/2017/04/weqgtq-78x78.png" class="lazy-loading wp-post-image" alt="Trump-Australia propaganda flows" title="Trump-Australia propaganda flows" srcset="https://www.macrobusiness.com.au/wp-content/uploads/2017/04/weqgtq-78x78.png 78w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/weqgtq-200x200.png 200w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/weqgtq-90x90.png 90w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/weqgtq-150x150.png 150w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/weqgtq-300x300.png 300w, https://www.macrobusiness.com.au/wp-content/uploads/2017/04/weqgtq-198x198.png 198w" sizes="(max-width: 78px) 100vw, 78px" /></a></div><!-- End .media-holder --><div class='post-description'><h3 class="post-title"><a href="https://www.macrobusiness.com.au/2017/04/trump-australia-propaganda-flows/" title="Trump-Australia propaganda flows">Trump-Australia propaganda flows</a></h3><p>A river of drivel today surrounding</p></div><!-- End post-description --></div></div></div> <!-- End .related-posts-list --></div><!-- End #related-posts -->			</div>
+						
+
+
+	<section id="comments">
+		<h3>Comments</h3>
+		<ol class="commentlist">
+			<li class="comment byuser comment-author-adamt even thread-even depth-1">
+		<article id="comment-2805322">
+			<div class="comment-content">
+				<header class="comment-author">
+					<div class="author-avatar">
+						<img alt='' src='https://secure.gravatar.com/avatar/525646c230291f0f2639bede2520aeef?s=35&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/525646c230291f0f2639bede2520aeef?s=70&amp;d=mm&amp;r=g 2x' class='avatar avatar-35 photo' height='35' width='35' />					</div>
+					<div class="author-meta">
+						<strong class="author-name"><cite class="fn">Adam</cite><span class='user-comment-status-label label-reload user-id-270569' data-user_id='270569'></span></strong>
+						<time datetime="2017-02-06T13:35:11+00:00" class='comment-time'><a href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comment-2805322">February 6, 2017 at 1:35 pm</a></time>
+						
+											</div>
+				</header>
+
+				
+				<section class="comment">
+					<p>sounds like a pretty epic tax plan. I remember seeing Trump pre-election policies couldn&#8217;t be funded and going to 20% wouldn&#8217;t help.</p>
+<p>to an accountant: what are pros/cons/macro effects of taxing revenue instead of earnings? how do you provide sector/policy tax incentives in that environment? sounds pretty radical.</p>
+									</section>
+			</div>
+
+		</article>
+<ul class="children">
+	<li class="comment byuser comment-author-chidagwa odd alt depth-2">
+		<article id="comment-2805455">
+			<div class="comment-content">
+				<header class="comment-author">
+					<div class="author-avatar">
+						<img alt='' src='https://secure.gravatar.com/avatar/1f81e9115e9dca81cf5aee34b1b67282?s=35&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/1f81e9115e9dca81cf5aee34b1b67282?s=70&amp;d=mm&amp;r=g 2x' class='avatar avatar-35 photo' height='35' width='35' />					</div>
+					<div class="author-meta">
+						<strong class="author-name"><cite class="fn">chidagwa</cite><span class='user-comment-status-label label-member user-id-318' data-user_id='318'>MEMBER</span></strong>
+						<time datetime="2017-02-06T16:17:06+00:00" class='comment-time'><a href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comment-2805455">February 6, 2017 at 4:17 pm</a></time>
+						
+											</div>
+				</header>
+
+				
+				<section class="comment">
+					<p>Is it really taxing revenues &#8211; or just a change in the definition of &#8220;taxable income&#8221; by excluding some things that were previously deductible?</p>
+<p>Pure taxation of company revenues would completely change the tax burden of most corporates &#8211; so hard to see the corporate-owned House and Congress letting this one through.  What is the purported benefit of making this change?  Seems a big roll of the dice&#8230;</p>
+<p>The import tariff also sounds like a big risk &#8211; the impact would be to increase the cost of Americas imported goods to consumers (so much for tax cuts).  How would that go down with the American consumer/voter and would they blame Trump/Republicans?</p>
+									</section>
+			</div>
+
+		</article>
+<ul class="children">
+	<li class="comment byuser comment-author-hill-billy-55 even depth-3">
+		<article id="comment-2805492">
+			<div class="comment-content">
+				<header class="comment-author">
+					<div class="author-avatar">
+						<img alt='' src='https://secure.gravatar.com/avatar/ebcd3b1e63e0a9e19754a8d0ea3d88ba?s=35&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ebcd3b1e63e0a9e19754a8d0ea3d88ba?s=70&amp;d=mm&amp;r=g 2x' class='avatar avatar-35 photo' height='35' width='35' />					</div>
+					<div class="author-meta">
+						<strong class="author-name"><cite class="fn">Hill Billy 55</cite><span class='user-comment-status-label label-member user-id-43715' data-user_id='43715'>MEMBER</span></strong>
+						<time datetime="2017-02-06T17:05:03+00:00" class='comment-time'><a href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comment-2805492">February 6, 2017 at 5:05 pm</a></time>
+						
+											</div>
+				</header>
+
+				
+				<section class="comment">
+					<p>See the One Nation 2% Tax on Revenues in the Australian context would actually generate more revenue for the authorities than under the current regime, and would free up considerable compliance issues that drag the ATO down. Certainly would be a popular move.</p>
+									</section>
+			</div>
+
+		</article>
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-chidagwa odd alt depth-3">
+		<article id="comment-2805513">
+			<div class="comment-content">
+				<header class="comment-author">
+					<div class="author-avatar">
+						<img alt='' src='https://secure.gravatar.com/avatar/1f81e9115e9dca81cf5aee34b1b67282?s=35&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/1f81e9115e9dca81cf5aee34b1b67282?s=70&amp;d=mm&amp;r=g 2x' class='avatar avatar-35 photo' height='35' width='35' />					</div>
+					<div class="author-meta">
+						<strong class="author-name"><cite class="fn">chidagwa</cite><span class='user-comment-status-label label-member user-id-318' data-user_id='318'>MEMBER</span></strong>
+						<time datetime="2017-02-06T17:53:25+00:00" class='comment-time'><a href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comment-2805513">February 6, 2017 at 5:53 pm</a></time>
+						
+											</div>
+				</header>
+
+				
+				<section class="comment">
+					<p>&#8220;would actually generate more revenue for the authorities than under the current regime&#8221;<br />
+Which is exactly what the corporates don&#8217;t want &#8211; and they will fight hard and dirty &#8211; MRRT and Carbon Tax spring to mind&#8230;<br />
+In the US corporates are well entrenched in the halls of power &#8211; hard to see pro-business Republicans taxing companies more &#8211; there&#8217;s a catch&#8230;</p>
+									</section>
+			</div>
+
+		</article>
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-jgk even thread-odd thread-alt depth-1">
+		<article id="comment-2805381">
+			<div class="comment-content">
+				<header class="comment-author">
+					<div class="author-avatar">
+						<img alt='' src='https://secure.gravatar.com/avatar/fc8d25b8a169f688efdd140a94edd4b0?s=35&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/fc8d25b8a169f688efdd140a94edd4b0?s=70&amp;d=mm&amp;r=g 2x' class='avatar avatar-35 photo' height='35' width='35' />					</div>
+					<div class="author-meta">
+						<strong class="author-name"><cite class="fn">Jason</cite><span class='user-comment-status-label label-member user-id-267274' data-user_id='267274'>MEMBER</span></strong>
+						<time datetime="2017-02-06T14:27:40+00:00" class='comment-time'><a href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comment-2805381">February 6, 2017 at 2:27 pm</a></time>
+						
+											</div>
+				</header>
+
+				
+				<section class="comment">
+					<p>&#8220;Bill Evans guages Donald Trump&#8221;</p>
+<p>Aren&#8217;t there laws against that sort of thing in most states in the US?</p>
+									</section>
+			</div>
+
+		</article>
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-lswchp odd alt thread-even depth-1">
+		<article id="comment-2805414">
+			<div class="comment-content">
+				<header class="comment-author">
+					<div class="author-avatar">
+						<img alt='' src='https://secure.gravatar.com/avatar/68b8c0f0a4b5290bb0b2397a0812b9fa?s=35&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/68b8c0f0a4b5290bb0b2397a0812b9fa?s=70&amp;d=mm&amp;r=g 2x' class='avatar avatar-35 photo' height='35' width='35' />					</div>
+					<div class="author-meta">
+						<strong class="author-name"><cite class="fn">LSWCHP</cite><span class='user-comment-status-label label-member user-id-4395' data-user_id='4395'>MEMBER</span></strong>
+						<time datetime="2017-02-06T15:02:55+00:00" class='comment-time'><a href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comment-2805414">February 6, 2017 at 3:02 pm</a></time>
+						
+											</div>
+				</header>
+
+				
+				<section class="comment">
+					<p>Gouges?  Gauges?</p>
+									</section>
+			</div>
+
+		</article>
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-adelaide_economist even thread-odd thread-alt depth-1">
+		<article id="comment-2805491">
+			<div class="comment-content">
+				<header class="comment-author">
+					<div class="author-avatar">
+						<img alt='' src='https://secure.gravatar.com/avatar/a5e556de2aef02ff53f11b995bdcf1e7?s=35&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/a5e556de2aef02ff53f11b995bdcf1e7?s=70&amp;d=mm&amp;r=g 2x' class='avatar avatar-35 photo' height='35' width='35' />					</div>
+					<div class="author-meta">
+						<strong class="author-name"><cite class="fn">adelaide_economist</cite><span class='user-comment-status-label label-member user-id-5553' data-user_id='5553'>MEMBER</span></strong>
+						<time datetime="2017-02-06T17:04:57+00:00" class='comment-time'><a href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comment-2805491">February 6, 2017 at 5:04 pm</a></time>
+						
+											</div>
+				</header>
+
+				
+				<section class="comment">
+					<blockquote><p>Of course, privatisation policies should be embraced anyway, but doing so should not delay infrastructure initiatives.</p></blockquote>
+<p>Does he actually believe this or is it a throwaway line intended as a sop to his (banking) master?  Shades of asset recycling from the late great Joe Hockey.</p>
+									</section>
+			</div>
+
+		</article>
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-curious odd alt thread-even depth-1">
+		<article id="comment-2805598">
+			<div class="comment-content">
+				<header class="comment-author">
+					<div class="author-avatar">
+						<img alt='' src='https://secure.gravatar.com/avatar/90735eaa65c71f3e3a34842b5269acea?s=35&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/90735eaa65c71f3e3a34842b5269acea?s=70&amp;d=mm&amp;r=g 2x' class='avatar avatar-35 photo' height='35' width='35' />					</div>
+					<div class="author-meta">
+						<strong class="author-name"><cite class="fn">Curious</cite><span class='user-comment-status-label label-reload user-id-1968' data-user_id='1968'></span></strong>
+						<time datetime="2017-02-07T00:14:33+00:00" class='comment-time'><a href="https://www.macrobusiness.com.au/2017/02/bill-evans-guages-donald-trump/#comment-2805598">February 7, 2017 at 12:14 am</a></time>
+						
+											</div>
+				</header>
+
+				
+				<section class="comment">
+					<p>The move to taxing revenue instead of profit with day 1 write off for investment instead of depreciation write off over time and no deduction for debt financing costs would produce a very large shift in the debt/equity mix of corporates.  Not great for debt financing providers.<br />
+Debt funded ownership of assets, e.g. infrastructure deals presumably take a hit.<br />
+Software companies with a large revenue margin and development costs to recoup look vulnerable here.  Ditto miners with past sunk economic costs still being recouped by current revenues.<br />
+And &#8230; the real winner is equity funded property owners with rental incomes, especially if they have enough alternative income to fund new investments every year with their day 1 write downs.  The rich get richer, the poor get the picture.</p>
+<p>But &#8230;hmmm &#8230; is this macro neutral?  If there is enough equity to replace the debt investment, and the equity is prepared to be done at lower return on equity due to deleveraging then well and good.  Lots of ifs there.  There is the potential that the overall investment is reduced due to higher after tax financing cost, depends how implemented.</p>
+<p>Nil tax on offshore revenue and nil deductability re imported costs.  Surely offshore jurisdictions will retaliate against this crude beggar-thy-neighbour approach.  And I am sure domestic tax authorities would appreciate the opportunity to impact foreign based multinationals and their tax transfer pricing arrangements with nil deductability re imported costs. Some of which are US based I believe.</p>
+									</section>
+			</div>
+
+		</article>
+</li><!-- #comment-## -->
+
+		</ol>
+		<footer>
+			<nav id="comments-nav">
+				<div class="comments-previous"></div>
+				<div class="comments-next"></div>
+			</nav>
+		</footer>
+	</section>
+
+
+			
+			<style type="text/css">
+				/* Ajax Edit Comments */
+				.edit-comment-admin-links a, .ajax-edit-time-left, .aec-dropdown-container a{
+				    font-weight: normal;
+				    padding: 0;
+				    margin: 0;
+				    outline: none;
+				}
+			</style>
+
+		</article>
+	
+	
+	</div><!-- end [role=main]-->
+	<aside id="sidebar" class="small-12 large-4 columns show-for-large-up sidebar-right">
+	<div class="blog-sidebar">
+		<!-- Before check user logged in-->            <!-- User is not logged in -->
+            <article class="widget widget-member">
+                <h2 class="welcome"><span class="lg">Start your free 14 Day Trial</span></h2>
+                <ul class='check'>
+                    <li>Access Subscriber Only Content</li>
+                    <li>Special Reports with Unique Insights</li>
+                </ul>
+                <div class="user-tool clearfix">
+                    <a href="https://www.macrobusiness.com.au/membership" title="Click to Subscribe" class='button'>Subscribe</a>
+                    <div class="small-set user-login">
+                        <a href="/my-account/" title="Click to Login">Already a member?</a><br>
+                        <a href="/my-account/" title="Click to Login">Log in here <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </article>
+            <article id="vrec_1_ads_widget-2" class="widget widget_vrec_1_ads_widget">        <div id="vrec_1_ads" class="adblock">
+            <center>
+                                <!-- /71161633/MACB_macrobusiness_DT_article_vrec_1 -->
+                <div id='pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_1'>
+                <script>
+                  fusetag.cmd.push(function() { fusetag.display('pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_1'); });</script>
+                  <!-- BEGIN 706782 - PubLift - Macrobusiness - AU - Adblocking - 160x600 -->
+                  <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js" async="true"></script>
+                  <div id="crt-aa971641" style="width:160px;height:600px;"></div>
+                  <script type="text/javascript">
+                  var Criteo = Criteo || {};
+                  Criteo.events = Criteo.events || [];
+                  Criteo.events.push(function() {
+                    Criteo.DisplayAcceptableAdIfAdblocked({
+                      "zoneid": 706782,
+                      "containerid": "crt-aa971641"
+                    });
+                  });
+                  </script>
+                  <!-- END TAG -->
+                </div>
+                            </center>
+        </div>
+
+        </article><!--WP Widget Cache 0.26 Begin -->
+<!--Cache links-8 for 86400 second(s)-->
+<article id="linkcat-11595" class="widget widget_links"><h5 class="widget-title">Special Reports</h5>
+	<ul class='xoxo blogroll'>
+<li><a href="https://www.macrobusiness.com.au/2015/07/mb-special-report-asset-allocation-in-the-great-australian-adjustment/">Asset allocation in the great Australian adjustment</a></li>
+<li><a href="https://www.macrobusiness.com.au/2015/12/xmas-special-report-australia-and-the-100-year-bust/">Australia and the 100 year bust</a></li>
+<li><a href="https://www.macrobusiness.com.au/2015/09/special-report-how-to-profit-from-a-house-price-crash/">How to profit from a house price crash</a></li>
+<li><a href="https://www.macrobusiness.com.au/2016/03/special-report-is-the-commodity-crash-finally-over/">Is the commodities crash finally over?</a></li>
+<li><a href="https://www.macrobusiness.com.au/2011/09/master-yourself-then-markets/">Master yourself, then markets</a></li>
+<li><a href="https://www.macrobusiness.com.au/2011/11/tackle-risk-for-super-returns/">Tackle risk for super returns</a></li>
+<li><a href="https://www.macrobusiness.com.au/2016/03/special-report-the-economy-in-february/">The economy in February</a></li>
+<li><a href="https://www.macrobusiness.com.au/2016/09/great-housing-shrinkflation/">The great housing &quot;shrinkflation&quot;</a></li>
+<li><a href="https://www.macrobusiness.com.au/2016/03/easter-special-report-the-negative-gearing-bible/">The negative gearing bible</a></li>
+
+	</ul>
+</article>
+<!--WP Widget Cache End -->
+<article id="vrec_2_ads_widget-2" class="widget widget_vrec_2_ads_widget">        <div id="vrec_2_ads" class="adblock">
+            <center>
+                                <!-- /71161633/MACB_macrobusiness_DT_article_vrec_2 -->
+                <div id='pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_2'>
+                <script>
+                  fusetag.cmd.push(function() { fusetag.display('pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_2'); });</script>
+                  <!-- BEGIN 706783 - PubLift - Macrobusiness - AU - Adblocking - 300x250 -->
+                  <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js" async="true"></script>
+                  <div id="crt-85314206" style="width:300px;height:250px;"></div>
+                  <script type="text/javascript">
+                  var Criteo = Criteo || {};
+                  Criteo.events = Criteo.events || [];
+                  Criteo.events.push(function() {
+                      Criteo.DisplayAcceptableAdIfAdblocked({
+                          "zoneid": 706783,
+                          "containerid": "crt-85314206",
+                          "overrideZoneFloor": false
+                      });
+                  });
+                  </script>
+                  <!-- END TAG -->
+                </div>
+                            </center>
+        </div>
+
+        </article><article id="text-20" class="widget widget_text">			<div class="textwidget"><!-- /20863854/Macrobusiness_ROS_Skyscraper -->
+<div id='div-gpt-ad-1475120295383-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475120295383-0'); });
+</script>
+</div></div>
+		</article><!--WP Widget Cache 0.26 Begin -->
+<!--Cache popular-posts-2 for 900 second(s)-->
+		<article id="popular-posts-2" class="widget mb_popular_post">		<h5 class="widget-title">Popular Posts</h5>		<ul>
+					<li>
+				<a href="https://www.macrobusiness.com.au/2017/05/get-set-nothing-budget/">Get set for Do-nothing Budget? | 29 comments</a>
+			</li>
+					<li>
+				<a href="https://www.macrobusiness.com.au/2017/05/reconsider-going-university/">Why you should reconsider going to university | 40 comments</a>
+			</li>
+					<li>
+				<a href="https://www.macrobusiness.com.au/2017/05/its-not-called-housing-affordability-its-called-a-bubble/">It&#8217;s not called &#8220;housing affordability&#8221;, it&#8217;s called a &#8220;bubble&#8221; | 177 comments</a>
+			</li>
+					<li>
+				<a href="https://www.macrobusiness.com.au/2017/05/mass-immigration-grinds-big-cities-to-halt/">Mass immigration grinds big cities to a halt | 62 comments</a>
+			</li>
+					<li>
+				<a href="https://www.macrobusiness.com.au/2017/05/treasurer-morrison-declares-end-great-australian-adjustment/">Treasurer Morrison declares an end to the great Australian adjustment | 12 comments</a>
+			</li>
+					<li>
+				<a href="https://www.macrobusiness.com.au/2017/05/fill-in-the-blank-westpac-is-a-coal-whimp-coalition-a-coal/">Fill in the blank: Westpac is a coal &#8220;whimp&#8221;, Coalition is a coal&#8230;&#8230;&#8230;.. | 12 comments</a>
+			</li>
+					<li>
+				<a href="https://www.macrobusiness.com.au/2017/04/apra-squibbed-proper-macroprudential-for-highrise-harry/">APRA squibbed proper macroprudential for Highrise Harry | 40 comments</a>
+			</li>
+				</ul>
+		</article><!--WP Widget Cache End -->
+<!--WP Widget Cache 0.26 Begin -->
+<!--Cache links-7 for 86400 second(s)-->
+<article id="linkcat-3342" class="widget widget_links"><h5 class="widget-title">Meet the bloggers</h5>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.macrobusiness.com.au/cameron-murray/">Cameron Murray</a></li>
+<li><a href="http://www.macrobusiness.com.au/chris-becker/" target="_blank">Chris Becker</a></li>
+<li><a href="https://www.macrobusiness.com.au/damien-klassen/">Damien Klassen</a></li>
+<li><a href="http://www.macrobusiness.com.au/david-llewellyn-smith/">David Llewellyn-Smith</a></li>
+<li><a href="http://www.macrobusiness.com.au/deep-t/">Deep T.</a></li>
+<li><a href="http://www.macrobusiness.com.au/delusional-economics/">Delusional Economics</a></li>
+
+	</ul>
+</article>
+<!--WP Widget Cache End -->
+<!--WP Widget Cache 0.26 Begin -->
+<!--Cache mb_widget_social_media-3 for 86400 second(s)-->
+<article id="mb_widget_social_media-3" class="widget widget_mb_widget_social_media"><h5 class="widget-title">Follow us on social media</h5>			<div class="social-media-list">
+								<a href="https://www.facebook.com/pages/Macro-Business/189851007721446" title="Facebook"><i class='fa fa-facebook-square'></i></a>
+								<a href="https://twitter.com/macro_business" title="Twitter"><i class='fa fa-twitter-square'></i></a>
+								<a href="http://www.reddit.com/r/Macro_Business" title="Reddit"><i class='fa fa-reddit-square'></i></a>
+								<a href="https://www.macrobusiness.com.au/feed/" title="RSS"><i class='fa fa-rss-square'></i></a>
+			</div>
+		</article><!--WP Widget Cache End -->
+		</div>
+	
+	<article class="widget">
+		<div id='vrec_3_ads_widget' class="sidebar-box">
+	<div class="widget widget_vrec_3_ads_widget">        <div id="vrec_3_ads" class="adblock">
+            <center>
+                                <!-- /71161633/MACB_macrobusiness_DT_article_vrec_3 -->
+                <div id='pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_3'>
+                <script>
+                  fusetag.cmd.push(function() { fusetag.display('pl-fuse-ad-MACB_macrobusiness_DT_article_vrec_3'); });</script>
+                </div>
+                            </center>
+        </div>
+
+        </div>		</div>
+	</article>
+</aside><!-- End #sidebar -->
+<script type="text/javascript">
+
+if (typeof window.addEventListener === 'function' &&
+	document.hidden !== undefined &&
+	document.hasFocus !== undefined) {
+	(function(){
+		var adRefreshInterval = null;
+		var element = document.getElementById('vrec_3_ads_widget');
+		window.addEventListener('scroll', function() {
+			var rect = element.getBoundingClientRect();
+			var inViewport = (
+				rect.top >= 0 &&
+				rect.left >= 0 &&
+				rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+				rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+			);
+			if (inViewport && adRefreshInterval === null) {
+				adRefreshInterval = setInterval(function() {
+					/* Disable auto refresh for last widget ads */
+					/* console.log("run refresh ", new Date());
+					refreshAd(); */
+				}, 15000);
+			}
+			if (!inViewport) {
+				clearInterval(adRefreshInterval);
+				adRefreshInterval = null;
+			}
+		});
+		function refreshAd() {
+			if (document.hidden === false &&
+				document.hasFocus() === true ) {
+					
+				googletag.pubads().refresh([googleAdsSlot['mrec-bottom']]);
+			}
+		}
+	})();
+}
+
+</script></div><!-- End .row -->
+		</section>
+
+		<footer id='footer' class="site-footer">
+			<div id='mobile_back_to_top' class='show-for-medium-down'>
+				<a href="javascript: void(0); ">Back to Top<i class="fa fa-chevron-up"></i></a>
+			</div>
+			<div class="site-footer-bar">
+				<div class="row">
+					<div class="large-12 columns">
+						<div id="site-nav-footer-bar" class="navigation">
+							<ul id="menu-footer-menu" class="footer-menu"><li class="divider"></li><li id="menu-item-365060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365060"><a title="About" href="https://www.macrobusiness.com.au/about/">About</a></li>
+<li class="divider"></li><li id="menu-item-365062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365062"><a title="Contact" href="https://www.macrobusiness.com.au/contact/">Contact</a></li>
+<li class="divider"></li><li id="menu-item-404347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404347"><a title="Subscribe Free" href="https://www.macrobusiness.com.au/membership/">Subscribe Free</a></li>
+<li class="divider"></li><li id="menu-item-365061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365061"><a title="Comment rules" href="https://www.macrobusiness.com.au/comment-rules/">Comment rules</a></li>
+<li class="divider"></li><li id="menu-item-365063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365063"><a title="Disclaimer" href="https://www.macrobusiness.com.au/disclaimer/">Disclaimer</a></li>
+</ul>						</div>
+					</div>
+				</div>
+			</div>
+			<div class="site-footer-bottom">
+				<div class='row'>
+					<div class="large-12 columns">
+						<div class="footer-copyright">
+							<div class='footer-branding show-for-large-up'>
+								<a href="https://www.macrobusiness.com.au" title="MacroBusiness"><img src="https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/images/flogo.png" alt="MacroBusiness"/></a>
+							</div>
+							<div class="row">
+								<div class="large-6 columns copyright-text">
+									Copyright &copy; 2017 <a href="http://www.macroassociates.com.au/" target="_blank" title="go to Macro Associates">Macro Associates</a>	<span class="abn">ABN: 17 149 497 530.</span>
+								</div>
+								<div class="large-6 columns  powered">
+									<a href="http://emmix.com.au" class="credits emmix">
+										<span>Website Design &<br/> Development by Emmix</span>
+										<span class='bg'></span>
+									</a>
+									<a href="http://www.orionvm.com.au/?utm_source=MacroBusiness&amp;utm_medium=Partner&amp;utm_campaign=Contra" class="credits orion" title="Power By OrionVM"><span class='bg'></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer> <!-- End footer -->
+	</div> <!-- End main-body -->
+	
+	<a class="exit-off-canvas"></a>
+	
+		</div> <!-- End main-wrap -->
+	</div> <!-- End inner-wrap -->
+	</div> <!-- End off-canvas-wrap -->
+
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"https:\/\/www.macrobusiness.com.au\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness/js/foundation.js'></script>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness/js/vendor/fastclick.js'></script>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/js/photoswipe/photoswipe.min.js'></script>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/js/photoswipe/photoswipe-ui-default.min.js'></script>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-content/themes/macrobusiness-child/js/custom.js?v=1493692981'></script>
+<script type='text/javascript' src='https://www.macrobusiness.com.au/wp-includes/js/wp-embed.js'></script>
+	<div id="gototop" class='hide show-for-large-up'><a href="javascript: void(0); "><i class="fa fa-chevron-up"></i></a></div>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-20652997-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K6NB42"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K6NB42');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '361909690860320'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=361909690860320&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+	</body>
+</html>

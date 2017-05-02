@@ -1,0 +1,607 @@
+<![endif]
+Retina Logo
+This site is optimized with the Yoast SEO plugin v3.3.4 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+This site uses the Google Analytics by Yoast plugin v5.3.2 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/
+/ Google Analytics by Yoast
+Simple Social Buttons style sheet
+End of Simple Social Buttons
+[if IE 8]><link rel="stylesheet" type="text/css" href="http://www.idontdoclubs.com/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]
+custom css
+end custom css
+Navigation style
+Top NAV
+Headlines
+Trending Events
+Event Guides
+25 Best Music Festivals for Black Professionals
+Event Guides
+18 Best Events to Meet Black Professional Men
+Charlotte Events This Week
+10 Charlotte Events for Black Professionals This Week
+Event Guides
+22 Best SummerStage Concerts for Black Professionals
+Black-Owned Restaurants
+50 Black-Owned Restaurants and Bars in Chicago
+EAT + SHOP + CONNECT
+EAT + SHOP + CONNECT with Camp Bonfire, Summer Camp for Adults
+Lifestyle
+35 Acts of Self-Care You Should Try
+Washington, DC Events This Week
+10 Washington, DC Events for Black Professionals This Week
+Black-Owned Restaurants
+20 Black-Owned Restaurants and Bars in Charlotte
+Dallas Events This Week
+10 Dallas Events for Black Professionals This Week
+Headlines
+Share list
+Share list
+Menu
+ADVERTISE
+Menu
+mobile
+Submenu
+ADVERTISE
+Submenu
+mobile
+Top NAV
+Branding
+Logo
+logo
+logo
+Logo
+Top_Banner_06132016
+Branding
+Primary menu
+HTML Struc (truemag)
+WHY I DON’T DO CLUBS
+Our Founder and Influencers
+SUBMIT YOUR EVENT
+Black-Owned Businesses
+CONTACT & PRESS
+HTML Struc (truemag)
+Search
+Search
+Primary menu
+Navigation style
+Add class cactus-body-container for single page
+breadcrumb
+Home
+Event Guides
+70 Best Trips for Black Professionals in 2017 | Month-to-Month Guide
+.breadcrumbs
+breadcrumb
+info
+Event Guides
+January 8, 2017
+Genese Jamilah
+0
+info
+Title
+70 Best Trips for Black Professionals in 2017 | Month-to-Month Guide
+Title
+0
++50
+-3
++50
+-3
+more
+Share
+Share
+listing video
+Listing
+Config
+addClass: style-1 + (style-2 -> style-n)
+ajax div
+Now playing item
+item listing
+content
+addClass: related-post, no-picture
+picture
+now viewing
+picture
+Title
+70 Best Trips for Black Professionals in 2017 | Month-to-Month Guide
+Title
+fix pixel no remove
+content
+item listing
+End playing item
+item listing
+content
+addClass: related-post, no-picture
+picture
+now playing
+picture
+Title
+10 Philadelphia Events for Black Professionals This Week
+Title
+fix pixel no remove
+content
+item listing
+item listing
+content
+addClass: related-post, no-picture
+picture
+now playing
+picture
+Title
+10 Baltimore Events for Black Professionals This Week
+Title
+fix pixel no remove
+content
+item listing
+item listing
+content
+addClass: related-post, no-picture
+picture
+now playing
+picture
+Title
+10 Miami Events for Black Professionals This Week
+Title
+fix pixel no remove
+content
+item listing
+item listing
+content
+addClass: related-post, no-picture
+picture
+now playing
+picture
+Title
+10 Raleigh-Durham Events for Black Professionals This Week
+Title
+fix pixel no remove
+content
+item listing
+item listing
+content
+addClass: related-post, no-picture
+picture
+now playing
+picture
+Title
+10 Charlotte Events for Black Professionals This Week
+Title
+fix pixel no remove
+content
+item listing
+Config
+Listing
+listing video
+Google Plus One
+Facebook like
+Twitter
+Pinterest
+It’s the list you’ve been waiting for! Since 2014, I DON’T DO CLUBS has created a calendar of the best trips for Black professionals across the globe.
+12 Best Summer Trips for Black Professionals in 2014
+15 Best Fall and Winter Trips for Black Professionals in 2014
+35 Best Summer Trips for Black Professionals in 2015
+25 Best Fall and Winter Trips for Black Professionals in 2015
+25 Best Summer Trips for Black Professionals in 2016
+Take a look at this year’s month-to-month travel guide for you and yours!
+YEAR–ROUND IN VARIOUS LOCATIONS
+The Do-Over
+www.thedoover.net
+Grits & Biscuits
+gritsandbiscuits.com
+HennyPalooza
+www.hennypalooza.com
+I DON’T DO CLUBS’ 8 Things Women Should Know Before Attending HennyPalooza
+I DON’T DO CLUBS’ Must Love Beards
+www.idontdoclubs.com/category/must-love-beards
+Blavity’s 9 Reasons You Have to Attend a “Must Love Beards’ Party This Summer
+Trap Karaoke
+www.trapkaraoke.com
+JANUARY
+2017 W.E.A.L.T.H. Experience in Miami, FL
+January 5 – 8, 2017
+hiphopsisters.org/wealth
+FEBRUARY
+Super Bowl Weekend in Houston, TX
+February 3 – 5, 2017
+www.housuperbowl.com
+Bronner Bros. International Beauty Show in Atlanta, GA
+February 11 – 13, 2017
+www.bronnerbros.com
+NBA All-Star Weekend in New Orleans, LA
+February 17 – 19, 2017
+www.allstarweekendneworleans2017.com
+Soulquarius in Santa Ana, CA
+February 18, 2017
+www.soulquarius.com
+CIAA Basketball Tournament in Charlotte, NC
+February 20 – 25, 2017
+www.ciaatournament.org
+MARCH
+MVMT50 at South by Southwest in Austin, TX
+March 10 – 14, 2017
+twitter.com/mvmt50
+Blogging While Brown’s Our Social Media Summit in Austin, TX
+March 11, 2017
+bloggingwhilebrown.com
+Jazz in the Gardens Music Fest in Miami Gardens, FL
+March 18 – 19, 2017
+www.jazzinthegardens.com
+I DON’T DO CLUBS’ Black-Owned Restaurant Month (various locations)
+March 20 – 30, 2017
+www.idontdoclubs.com/2017/02/27/black-owned-restaurant-month-2017/
+APRIL
+Coachella Valley Music and Arts Festival in Indio, CA
+April 14 – 16, 2017 and April 21 – 23, 2017
+www.coachella.com
+MAY
+JMBLYA in Dallas, TX and Austin, TX
+May 5, 2017 and May 6, 2017
+www.jmblya.com
+Broccoli City Festival in Washington, DC
+May 6, 2017
+www.bcfestival.com
+Everyday People (various locations)
+Summer 2017 (dates have not been released)
+www.everydaypplnyc.com
+JUNE
+CurlFest in Brooklyn, NY
+June 2017 (date has not been released)
+www.curlygirlcollective.com
+The Roots Picnic in Philadelphia, PA
+June 3, 2017
+www.rootspicnic.com
+Parlour Magazine’s #TravelFly Solo Weekend in Riviera Maya, MEX
+June 8 – 12, 2017
+parlourmagazine.com/2016/11/the-travelfly-solo-weekend-2017
+Blavity’s EmpowerHer Conference in Chicago, IL
+June 9, 2017
+www.eventbrite.com/e/blavity-empowerher-17-conference-tickets
+Odunde Festival in Philadelphia, PA
+June 11, 2017
+odundefestival.org/odunde-festival
+HOT 97’s Summer Jam in East Rutherford, NJ
+June 11, 2017
+www.hot97.com/summerjam
+American Black Film Festival in Miami Beach, FL
+June 14 – 18, 2017
+www.abff.com
+This year, ABFF will have a new program called 29 Below which is an opportunity for college students and young professionals to attend the festival at half the price. The program provides an affordable and nurturing experience for those kicking off their careers in the industry. It offers half off the price of a SOBE Pass (providing access to all festival events) and a networking mixer for program attendees during the festival. Must be 18 to 29 years of age to qualify. To find out more about the program visit,
+www.abff.com/special-promotions/29-below
+.
+Atlanta Greek Picnic Week in Atlanta, GA
+June 19 – 25, 2017
+www.atlantagreekpicnic.com
+BET Experience at L.A. Live in Los Angeles, CA
+June 22 – 25, 2017
+www.bet.com/bet-experience
+Essence Festival in New Orleans, LA
+June 28 – July 2, 2017
+www.essence.com/festival-2017
+JULY
+African American Festival in Baltimore, MD
+July 2017 (date has not been released)
+www.africanamericanfestival.net
+Drake’s OVO Fest in London, ENG
+July 2017 (date has not been released)
+www.complex.com/music/2017/02/drake-teases-young-money-reunion-show-ovo-fest-london
+Brooklyn Hip Hop Festival in Brooklyn, NY
+July 12 – 15, 2017
+www.bkhiphopfestival.com
+Zeta Phi Beta Sorority, Inc. Organizational Leadership Conference in Washington, DC
+July 6, 2017
+zphib1920.org/events/zol2017
+Alpha Phi Alpha Fraternity, Inc. National Convention in Baltimore, MD
+July 12 – 16, 2017
+www.apa1906.net/alphaconvention
+Alpha Kappa Alpha Sorority, Inc. Leadership Seminar in Las Vegas, NV
+July 13, 2017
+www.aka1908.com/coming-soon-2017-leadership-seminar
+AfroPunk in Paris, FR
+July 15 – 16, 2017
+www.afropunkfest.com/paris
+Iota Phi Theta Fraternity, Inc. Conclave in Orlando, FL
+July 16 – 23, 2017
+www.cvent.com/events/36th-international-conclave/registration
+Kappa Alpha Psi Fraternity, Inc. Grand Chapter Meeting in Orlando, FL
+July 18 – 22, 2017
+www.kappaalphapsi1911.com/page/ORLANDO
+Phi Beta Sigma Fraternity, Inc. Conclave in Detroit, MI
+July 18 – 23, 2017
+www.phibetasigma1914.org/event-directory/conclave-2017
+AfroPunk in London, ENG
+July 21 – 23, 2017
+www.afropunkfest.com/london
+ColorComm Conference in Miami, FL
+July 26 – 28, 2017
+www.colorcommconference.com/events/c2-surprise-yourself
+National Urban League Conference in St. Louis, MI
+July 26 – 29, 2017
+conference.iamempowered.com
+National Black Theatre Festival in Winston-Salem, NC
+July 31 – August 5, 2017
+www.nbtf.org
+AUGUST
+Trillectro in Columbia, MD
+August 2017 (date has not been released)
+www.trillectro.com
+Omega Psi Phi Fraternity, Inc. Leadership Conference in Cincinnati, OH
+August 2 – 6, 2017
+www.oppf.org/leadership-conference
+BlackStar Film Festival in Philadelphia, PA
+August 3 – 6, 2017
+www.blackstarfest.org
+Black Harvest Film Festival in Chicago, IL
+August 4 – 31, 2017
+www.siskelfilmcenter.org/blackharvest
+Martha’s Vineyard African American Film Festival in Martha’s Vineyard, MA
+August 8 – 12, 2017
+www.mvaaff.com
+National Association of Black Journalists Convention & Career Fair in New Orleans, LA
+August 9 – 13, 2017
+www.nabj.org/2017Convention
+Black Alumni Networking Expo in Arlington, VA
+August 11 – 12, 2017
+www.blackalumninetworkingexpo.com
+Oakland Art and Soul Festival in Oakland, CA
+August 19 – 20, 2017
+artandsouloakland.com
+AfroPunk in Brooklyn, NY
+August 26 – 27, 2017
+www.afropunkfest.com/brooklyn
+SEPTEMBER
+African Festival of the Arts in Chicago, IL
+September 2017 (date has not been released)
+www.aihusa.org/african-fesitval-of-the-arts
+Made in America Festival in Philadelphia, PA
+September 2017 (date has not been released)
+www.madeinamericafest.com
+ONE Musicfest in Atlanta, GA
+September 8 – 9, 2017
+www.onemusicfest.com
+Congressional Black Caucus Foundation Legislative Conference in Washington, DC
+September 20 – 24, 2017
+www.cbcfinc.org/annual-legislative-conference
+National Black MBA Association Annual Conference and Exposition in Philadelphia, PA
+September 26 – 30, 2017
+www.nbmbaaconference.org
+OCTOBER
+Revolt Music Conference in Miami, FL
+October 2017 (date has not been released)
+revoltmusicconference.com
+SpelHouse Homecoming in Atlanta, GA
+October 2017 (date has not been released)
+www.morehouse.edu
+North Carolina A&T State University Homecoming in Greensboro, NC
+October 7, 2017
+www.ncat.edu/homecoming
+Florida A&M University Homecoming in Tallahassee, FL
+October 14, 2017
+www.famu.edu
+AfroPunk in Atlanta, GA
+October 14 – 15, 2017
+www.afropunkfest.com/atlanta
+Clark Atlanta University Homecoming in Atlanta, GA
+October 21, 2017
+www.cau.edu
+Howard University Homecoming in Washington, DC
+October 21, 2017
+www2.howard.edu
+NOVEMBER
+Barbados Food & Wine And Rum Festival
+November 2017 (date has not been released)
+www.visitbarbados.org/food-and-rum-festival
+Be Blogalicious Conference (location has not been released)
+November 2017 (date has not been released)
+beblogalicious.com/conference
+Blavity’s AfroTech in San Francisco, CA
+November 11 – 12, 2017
+www.afrotechconference.com
+SheIsWanderful.com’s MEtreat to Belize
+November 2017 (date has not been released)
+www.facebook.com/sheiswanderful
+DECEMBER
+National Black Caucus of State Legislators Legislative Conference (location has not been released)
+December 2017 (date has not been released)
+www.nbcsl.org/conference
+Art Basel in Miami Beach, FL
+December 7 – 10, 2017
+www.artbasel.com/miami-beach
++50
+-3
+Related posts:
+25 Best Music Festivals for Black Professionals
+18 Best Events to Meet Black Professional Men
+The 25 Best 2016 Summer Trips for Black Professionals
+12 Best Summer Trips for Young Black Professionals
+.entry-content
+468-IDDC-bottom-POST-Banner
+tags:
+african american events 2017
+african american festivals and events
+african american music festivals 2017
+best fall trips for young African Americans 2017
+best fall trips for young Black professionals 2017
+best spring trips for young African Americans 2017
+best spring trips for young Black professionals 2017
+best summer trips for black professionals 2017
+best summer trips for young African Americans 2017
+best summer trips for young Black professionals 2017
+best trips for young African Americans 2017
+best trips for young Black professionals 2017
+best winter trips for young African Americans 2017
+best winter trips for young Black professionals 2017
+black people events african american events calendar
+black summer festivals 2017
+black trips 2017
+0
++50
+-3
++50
+-3
+Share
+Share
+navigation post
+previous
+New Year's Eve Event Guide for Black Professionals in New York City
+next
+Singles and Couples' Valentine's Day Weekend Event Guide for Black Professionals in New York City & Brooklyn
+navigation post
+Author
+Genese Jamilah
+Genese Jamilah is the I DON'T DO CLUBS Founder and New York City Influencer.
+She is a graduate of Savannah State University. Genese Jamilah enjoys writing things down & making them happen, dinner & drinks with friends, and sharing inappropriate memes in her free time. Follow her @idontdoclubs on
+Facebook
+,
+Instagram
+,
+SnapChat
+, and
+Twitter
+.
+Author
+related post
+Related Posts
+Listing
+Config
+addClass: style-1 + (style-2 -> style-n)
+ajax div
+item listing
+content
+addClass: related-post, no-picture
+picture
+picture
+Title
+22 Best SummerStage Concerts for Black Professionals
+Title
+info
+April 11, 2017
+0
+info
+fix pixel no remove
+content
+item listing
+item listing
+content
+addClass: related-post, no-picture
+picture
+picture
+Title
+25 Best Music Festivals for Black Professionals
+Title
+info
+April 9, 2017
+0
+info
+fix pixel no remove
+content
+item listing
+item listing
+content
+addClass: related-post, no-picture
+picture
+picture
+Title
+18 Best Events to Meet Black Professional Men
+Title
+info
+April 9, 2017
+0
+info
+fix pixel no remove
+content
+item listing
+Config
+Listing
+related post
+LEAVE YOUR COMMENT
+Cancel reply
+Your email address will not be published.
+Required fields are marked
+*
+#respond
+#comments
+Sidebar
+addClass: left / right -> config sidebar position
+Sign up for our mailing list.
+First Name :
+Last Name :
+Email Address :
+07112014 ad box
+Upcoming Events
+Event Title
+LIVE PHONE CONVERSATION  | Medical Racism: A Real-Life Conversation about Racist Doctors
+Event Time
+May 2 @ 8:00 pm
+-
+8:45 pm
+Event Title
+WASHINGTON, DC | The Art of Interpretation Student Scholarship Fundraiser
+Event Time
+May 4 @ 6:00 pm
+-
+8:30 pm
+Event Title
+WASHINGTON, DC | Ladies H St NE Pop Up Store Launch Party
+Event Time
+May 4 @ 7:00 pm
+-
+11:00 pm
+Event Title
+NEW YORK CITY | Rap Somethin (Rap Karaoke)
+Event Time
+May 4 @ 10:00 pm
+-
+May 5 @ 2:00 am
+Event Title
+NEW YORK CITY | Saucy de Mayo – After Work Experience
+Event Time
+May 5 @ 4:00 pm
+-
+10:00 pm
+.hfeed
+View All Events
+Listen to the
+Henn & Apple Juice Podcast
+on Ace Boon Radio!
+11132014 336x280 ad
+you may like
+Listing
+Config
+addClass: style-1 + (style-2 -> style-n)
+ajax div
+item listing
+content
+addClass: related-post, no-picture
+picture
+Event Guides
+picture
+Title
+22 Best SummerStage Concerts for Black Professionals
+Title
+info
+April 11, 2017
+0
+info
+fix pixel no remove
+content
+item listing
+Config
+Listing
+Sidebar
+.row
+.container
+#cactus-single-page
+#cactus-body-container
+.footer-inner
+All images on www.idontdoclubs.com are readily available on the internet and believe to be in public domain. Images posted are believed to be published according to the U.S Copyright Fair Use Act(title 17, U.S. Code.). Copyright ® 2011-2013 I Don't Do Clubs Media Group. ® 2011-2013 All text herein is property of the author and may not be copied or reproduced without explicit permission.
+#wrap
+Menu moblie
+Close
+WHY I DON’T DO CLUBS
+Our Founder and Influencers
+SUBMIT YOUR EVENT
+Black-Owned Businesses
+CONTACT & PRESS
+Menu moblie
+#body-wrap
+Simple Social Buttons plugin
+/End of Simple Social Buttons
+stats_footer_test

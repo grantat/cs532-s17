@@ -1,0 +1,142 @@
+Mobile Specific Metas
+        ==================================================
+This site is optimized with the Yoast SEO plugin v4.6 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 9]>
+<script type='text/javascript' src='http://www.freim.tv/wp-content/themes/coolist/assets/js/html5.js?ver=3.6.0'></script>
+<![endif]
+KRDMMN TAG
+Música
+Noticias
+Gigs
+Playlists
+Propuestas
+Reseñas de Discos
+Editorial
+Textos Editoriales
+Entrevistas
+Freim Quiz
+Archivo
+Festivales
+Festival NRMAL
+Vive Latino
+Festival Ceremonia
+Corona Capital
+Entretenimiento
+Cine y Series
+Freim TV
+Tendencias
+Conciertos
+Contacto
+Directorio
+Aviso de Privacidad
+¡Encuentra lo que estas buscando!
+Start Header
+Música
+Home
+Cine, Series y TV
+Editorial
+Música
+Reseñas de Conciertos
+Tendencias
+Música
+Noticias
+Gigs
+Playlists
+Propuestas
+Reseñas de Discos
+Editorial
+Textos Editoriales
+Entrevistas
+Freim Quiz
+Archivo
+Festivales
+Festival NRMAL
+Vive Latino
+Festival Ceremonia
+Corona Capital
+Entretenimiento
+Cine y Series
+Freim TV
+Tendencias
+Conciertos
+Contacto
+Directorio
+Aviso de Privacidad
+Síguenos
+End Header
+Waves Container
+Música
+27/01/2017
+Jamiroquai anuncia su nuevo álbum “Automaton”
+0
+Shares
+58
+0
+Por
+Yarely Rea
+Quick Adsense WordPress Plugin: http://quicksense.net/
+DFP LEADER BOARD
+/37976360/Freim728
+Jamiroquai
+, la
+banda
+inglesa mejor conocida por su canción “
+Virtual Insanity
+” y su icónico
+video
+musical lanzó su último
+álbum
+“
+Rock Dust Light Star
+” en 2010. Este 31 de marzo vuelven con más fuerza que nunca con su nuevo disco “
+Automaton
+” y debido a esto también han anunciado una nueva
+gira
+acudiendo a países como Inglaterra, Francia, Japón, Grecia, Irlanda, Italia, República Checa entre otros.
+Quick Adsense WordPress Plugin: http://quicksense.net/
+TEADS
+Acerca del álbum,
+Jay Kay
+(quien realizó la co-producción del LP junto al tecladista
+Matt Johnson
+) dijo ante la rueda de prensa: “La inspiración de  “
+Automaton
+” es el reconocimiento del aumento en la
+tecnología
+y la inteligencia artificial en nuestros días y cómo nosotros como humanos estamos comenzando a olvidar lo agradable, cosas simples y elocuentes en la vida con nuestro ambiente incluyendo nuestras relaciones con otros seres humanos”
+Quick Adsense WordPress Plugin: http://quicksense.net/
+Previous Article
+Escucha “Tú Sí Sabes Quererme”, lo nuevo de Natalia Lafourcade
+Next Article
+Reseña: Cloud Nothings – Life Without Sound
+DFP BILLBOARD
+/37976360/CTOP
+Música
+Las 10 canciones de Nicki Minaj más vistas en colaboración con otros artistas
+0
+Shares
+0
+01/05/2017
+Música
+Hellow Festival 2017. Cartel, boletos, precios, horarios y más
+0
+Shares
+0
+28/04/2017
+Música
+Quiero Club está de regreso con “Oportunidad de Oro”, su nuevo video
+0
+Shares
+0
+28/04/2017
+Música
+Mira a Gorillaz interpretar “Let Me Out” con Pusha T en “The Late Show with Stephen Colbert”
+1
+Shares
+0
+28/04/2017
+.waves-container-inner
+.waves-container
+Copyright © Freim 2008 - 2020. TODOS LOS DERECHOS RESERVADOS
+#theme-layout

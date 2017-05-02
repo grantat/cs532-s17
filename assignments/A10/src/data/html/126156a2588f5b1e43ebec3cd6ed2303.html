@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html ⚡>
+<html itemscope itemtype="http://schema.org/Article">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQIEUl9bDhACUlRaAAYFVA=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];n.exports=u;var y=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(m,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no, minimum-scale=1">
+            <meta http-equiv="refresh" content="600">
+    
+    <meta name="theme-color" content="#CC0E02">
+
+    <link rel="dns-prefetch" href="//www.google-analytics.com"/>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com"/>
+    <link rel="dns-prefetch" href="//storage.radiosarajevo.ba"/>
+
+    <title>RSA Singl premijere /Jamiroquai - Automaton / Radio Sarajevo</title>
+    <meta name="description" content="&ldquo;Buffalo Man&ldquo; se vratio. Britanski funksteri Jamiroquai su 16. januara 2017. godine, nakon sedam godina hibernacije, obradovali veliki broj fanova sa teaserom njihovog osmog studijskog albuma.">
+
+    <meta itemprop="name" content="RSA Singl premijere /Jamiroquai - Automaton / Radio Sarajevo">
+    <meta itemprop="description" content="&ldquo;Buffalo Man&ldquo; se vratio. Britanski funksteri Jamiroquai su 16. januara 2017. godine, nakon sedam godina hibernacije, obradovali veliki broj fanova sa teaserom njihovog osmog studijskog albuma.">
+    <meta itemprop="image" content="https://storage.radiosarajevo.ba/article/252237/871x540/Jamiroquai_prtscr.jpg">
+
+    <meta property="og:title" content="Jamiroquai - Automaton">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237">
+    <meta property="og:image" content="https://storage.radiosarajevo.ba/article/252237/871x540/Jamiroquai_prtscr.jpg">
+    <meta property="og:image:width" content="871"/>
+    <meta property="og:image:height" content="540"/>
+    <meta property="og:description" content="&ldquo;Buffalo Man&ldquo; se vratio. Britanski funksteri Jamiroquai su 16. januara 2017. godine, nakon sedam godina hibernacije, obradovali veliki broj fanova sa teaserom njihovog osmog studijskog albuma.">
+    <meta property="og:site_name" content="Radio Sarajevo">
+    <meta property="fb:pages" content="9659541299">
+    <meta property="fb:app_id" content="257212854359532">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237">
+    <meta name="twitter:site" content="@radiosarajevo">
+    <meta name="twitter:title" content="Jamiroquai - Automaton">
+    <meta name="twitter:description" content="&ldquo;Buffalo Man&ldquo; se vratio. Britanski funksteri Jamiroquai su 16. januara 2017. godine, nakon sedam godina hibernacije, obradovali veliki broj fanova sa teaserom njihovog osmog studijskog albuma.">
+    <meta name="twitter:creator" content="@radiosarajevo">
+    <meta name="twitter:image:src" content="https://storage.radiosarajevo.ba/article/252237/871x540/Jamiroquai_prtscr.jpg">
+
+    <link href='https://fonts.googleapis.com/css?family=Sanchez&subset=latin,latin-ext' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.radiosarajevo.ba/build/img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.radiosarajevo.ba/build/img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.radiosarajevo.ba/build/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.radiosarajevo.ba/build/img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.radiosarajevo.ba/build/img/icons/favicon-16x16.png">
+<link rel="manifest" href="https://www.radiosarajevo.ba/build/img/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#CC0E02">
+<meta name="msapplication-TileImage" content="https://www.radiosarajevo.ba/build/img/icons/ms-icon-144x144.png">
+    <link rel="stylesheet" type="text/css" href="/build/css/all-70dcf0f0b9.css">
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-1113279-4', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = {atrk_acct: "uaPqk1aUy1X1O7", domain: "radiosarajevo.ba", dynamic: true};
+        (function () {
+            var as = document.createElement('script');
+            as.type = 'text/javascript';
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(as, s);
+        })();
+    </script>
+    <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=uaPqk1aUy1X1O7" style="display:none"
+                   height="1" width="1" alt=""/></noscript>
+    <!-- End Alexa Certify Javascript -->
+    <link rel="canonical" href="http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237"/>
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237",
+        "mainEntityOfPage": "http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237",
+        "headline": "Jamiroquai - Automaton",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.radiosarajevo.ba/article/252237/871x540/Jamiroquai_prtscr.jpg",
+            "height": 566,
+            "width": 850
+        },
+        "commentCount": "30",
+        "author": "radiosarajevo.ba",
+        "datePublished": "2017-01-30 10:21:00",
+        "dateModified": "2017-01-30 10:21:00",
+        "author": {
+            "@type": "Organization",
+            "name": "Radio Sarajevo"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Radio Sarajevo",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http://www.radiosarajevo.ba//img/rsa_shares.jpg",
+                "width": 148,
+                "height": 60
+            }
+        },
+        "description": "&ldquo;Buffalo Man&ldquo; se vratio. Britanski funksteri Jamiroquai su 16. januara 2017. godine, nakon sedam godina hibernacije, obradovali veliki broj fanova teaserom njihovog osmog studijskog albuma."
+    },
+    "author": {
+            "@type": "Organization",
+            "name": "Radio Sarajevo"
+        },
+             "datePublished": "2017-01-30 10:21:00",
+        "dateModified": "2017-01-30 10:21:00",
+         "headline": "Jamiroquai - Automaton",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.radiosarajevo.ba/article/252237/871x540/Jamiroquai_prtscr.jpg",
+            "height": 566,
+            "width": 850
+        },
+           "publisher": {
+            "@type": "Organization",
+            "name": "Radio Sarajevo",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http://www.radiosarajevo.ba//img/rsa_shares.jpg",
+                "width": 148,
+                "height": 60
+            }
+        }, "commentCount": "30"
+}
+
+
+
+
+    </script>
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+
+<!-- DotMetrics -->
+    <!--    radio   -->
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    (function() {
+        var d=document,
+                h=d.getElementsByTagName('head')[0],
+                s=d.createElement('script');
+        s.type='text/javascript';
+        s.async=true;
+        s.src=document.location.protocol + '//script.dotmetrics.net/door.js?id=1408';
+        h.appendChild(s);
+    }());
+    /* ]]> */
+</script>
+<!-- Facebook Tracking -->
+    <script>(function () {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+        }
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', '6016330085087', {'value': '0.00', 'currency': 'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none"
+               src="https://www.facebook.com/tr?ev=6016330085087&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1"/>
+</noscript><!-- iProm -->
+    <script>
+    (function(a,g,b,c){a[c]=a[c]||function(){
+                "undefined"===typeof a.ipromNS?(a[c].q=a[c].q||[]).push(arguments):a.ipromNS.execute(arguments)};
+        var k=function(){var b=g.getElementsByTagName("script")[0];return function h(f){var e=f.shift();a[c]("setConfig",{server:e});
+            var d=document.createElement("script");0<f.length&&(d.onerror=function(){a[c]("setConfig",{blocked:!0});h(f)});
+            d.src="//cdn."+e+"/ipromNS.js";d.async=!0;d.defer=!0;b.parentNode.insertBefore(d,b)}}(),e=b;"string"===typeof b&&(e=[b]);k(e)
+    })(window, document,[ "ad.server.iprom.net", "mabipa.com"],"_ipromNS");
+
+    _ipromNS('init', {
+        sitePath      : ['radiosarajevo','radio'],  /* second value of sitePath array is equal to SID */
+        cookieConsent : true /* based on site cookie policy */
+    });
+</script>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="inner">
+            <div class="overlay"></div>
+            <a href="http://www.radiosarajevo.ba/" class="btn-logo"><img src="/build/img/logo-s.png" alt="S" width="70px"/></a>
+            <a href="#" class="btn-radio" id="radio_player"><img src="/build/img/logo-radio.png" width="70px"
+                                                                 alt="Radio"/></a>
+            <a href="#" class="btn-mobilemenu">
+                <span class="first"></span>
+                <span></span>
+                <span class="last"></span>
+            </a>
+            <div class="topbar">
+                <div>
+                    <div class="page-name">
+                        <a href="http://www.radiosarajevo.ba/">
+                            <div class="logoimg" style="background-image: url('/build/img/logo-rsa.png')"></div>
+                        </a>
+                    </div>
+                    <div class="secondary">
+                        <ul class="list-inline list-menu">
+                            <li class="waves-effect"><a href="https://www.facebook.com/RadioSarajevo" target="_blank"><i class="icon-facebook"></i></a></li>
+                            <li class="waves-effect"><a href="https://twitter.com/radiosarajevo" target="_blank"><i class="icon-twitter"></i></a></li>
+                            <li class="waves-effect"><a href="https://www.youtube.com/channel/UCoMY2JtBEfX_1ZEZCeYWdKw" target="_blank"><i class="icon-youtube"></i></a></li>
+                            <li class="waves-effect"><a href="https://plus.google.com/+RadiosarajevoBa902/posts" target="_blank"><i class="icon-google"></i></a></li>
+                            <li class="waves-effect"><a href="http://chats.viber.com/radiosarajevo.ba" target="_blank"><i class="icon-viber-icon"></i></a></li>
+                            
+
+                            <li><a href="http://www.radiosarajevo.ba/pretraga"><i class="icon-search"></i></a></li>
+                            <li class="dropdown drop-user">
+                                <a href="#" data-toggle="dropdown"><i class="icon-user"></i></a>
+                                <ul class="dropdown-menu">
+                                                                            <li><a href="#" data-toggle="modal" data-target="#modal-login">Prijava</a></li>
+                                        <li><a href="#" data-toggle="modal" data-target="#modal-signup">Registracija</a>
+                                        </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="#" class="btn-closemenu"><i class="icon-x"></i></a>
+                    </div>
+
+                    <!-- Main Menu -->
+                    <div class="collapse navbar-collapse" id="mobile-menu">
+
+                        <!-- Secondary Navigation -->
+                        <div class="side-top">
+                            <div class="head">
+
+                                
+                                <a href="http://www.radiosarajevo.ba/pretraga" class="btn-sidesearch"><i class="icon-search"></i></a>
+                                <div class="dropdown drop-user">
+                                    <a href="#" data-toggle="dropdown" aria-expanded="false"><i
+                                                class="icon-user"></i></a>
+                                    <ul class="dropdown-menu">
+                                                                                    <li><a href="#" data-toggle="modal" data-target="#modal-login">Prijava</a>
+                                            </li>
+                                            <li><a href="#" data-toggle="modal"
+                                                   data-target="#modal-signup">Registracija</a></li>
+                                                                            </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="secondary">
+                                    <ul class="list-inline list-menu">
+                                        <li><a href="https://www.facebook.com/RadioSarajevo" target="_blank"><i
+                                                        class="icon-facebook"></i></a></li>
+                                        <li><a href="https://twitter.com/radiosarajevo" target="_blank"><i
+                                                        class="icon-twitter"></i></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCoMY2JtBEfX_1ZEZCeYWdKw" target="_blank"><i
+                                                        class="icon-youtube"></i></a></li>
+                                        <li><a href="https://plus.google.com/+RadiosarajevoBa902/posts" target="_blank"><i
+                                                        class="icon-google"></i></a></li>
+                                        <li><a href="http://chats.viber.com/radiosarajevo.ba" target="_blank"><i
+                                                        class="icon-viber-icon"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav navbar-nav">
+                                                                                            <li class="dropdown menu-vijesti">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/vijesti"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">VIJESTI<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/vijesti/bosna-i-hercegovina">Bosna i Hercegovina</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/vijesti/regija">Regija</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/vijesti/svijet">Svijet</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/vijesti/crna-hronika">Crna hronika</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/vijesti/lokalne-teme">Lokalne teme</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/vijesti/euphoria">Euphoria</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-biz">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/biznis"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">BIZNIS<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/biznis/ekonomija">Ekonomija</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/biznis/kompanije">Kompanije</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-metro">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/metromahala"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">METROMAHALA<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/metromahala/lica">Lica</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/metromahala/teme">Teme</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/metromahala/kultura">Kultura</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/metromahala/ja-mislim">Ja mislim</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/metromahala/zmajevi">Manjine.ba</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/metromahala/gdje-izaci">Gdje izaći</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-mag">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/magazin"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">MAGAZIN<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/magazin/zanimljivosti">Zanimljivosti</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/magazin/muzika-film-lektira">Muzika/Film/Lektira</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/magazin/tech">Tech</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/magazin/showbiz">ShowBiz</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/magazin/forwardusa">Forwardusha</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/magazin/zivot-i-stil">Život i stil</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-kol">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/kolumne"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">KOLUMNE<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/kolumne/aleksandar-hemon">Aleksandar Hemon</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/kolumne/ahmed-buric">Ahmed Burić</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/kolumne/elvis-j-kurtovic">Elvis J. Kurtović</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/kolumne/miljenko-jergovic">Miljenko Jergović</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/kolumne/zlatko-dizdarevic">Zlatko Dizdarević</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/kolumne/arhiva">Arhiva</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-sport">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/sport"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">SPORT<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/sport/nogomet">Nogomet</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/sport/kosarka">Ko&scaron;arka</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/sport/rukomet">Rukomet</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/sport/tenis">Tenis</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/sport/auto-moto-sport">Auto-moto sport</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/sport/zimski-sportovi">Zimski sportovi</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/sport/ostali-sportovi">Ostali sportovi</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-auto">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/auto-moto"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">AUTO-MOTO<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/auto-moto/auto-moto-zanimljivosti">Auto-Moto zanimljivosti</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/auto-moto/noviteti">Noviteti</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/auto-moto/testovi">Testovi</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/auto-moto/tuning">Tuning</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-mmedia">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/multimedia"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">MULTIMEDIA<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/multimedia/foto">Foto</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/multimedia/video">Video</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-info">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/infografike"
+                                        class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">INFOGRAFIKE<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/infografike/mape-ljudskih-prava">Mape ljudskih prava</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/infografike/politicke-infografike">Političke infografike</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/infografike/infografike-zmajeva">Infografike zmajeva</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/infografike/ostale-infografike">Ostale infografike</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                                                            <li class="dropdown menu-radio">
+                                    <a href="#" class="dropdown-toggle dropdown-mobile" data-toggle="dropdown"><span
+                                                class="caret"></span></a>
+
+                                    <a href="http://www.radiosarajevo.ba/radio"
+                                       class=active class="dropdown-toggle" role="button"
+                                       aria-haspopup="true" aria-expanded="false">RADIO<span
+                                                class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                                                                                                                    <li>
+                                                    <a href="http://www.radiosarajevo.ba/radio/emisije">Emisije</a>
+                                                </li>
+                                                                                                                                                                                <li>
+                                                    <a href="http://www.radiosarajevo.ba/radio/aktuelno">Aktuelno</a>
+                                                </li>
+                                                                                    
+                                    </ul>
+                                </li>
+                                                        <li><a href="http://forum.radiosarajevo.ba" class="menu-forum" target="_blank">FORUM</a></li>
+                            <li><a href="https://ads.radiosarajevo.ba/" target="_blank" class="secondary">Marketing</a></li>
+                            <li><a href="https://ads.radiosarajevo.ba/o-nama.html" target="_blank" class="secondary">Impresum</a></li>
+                            <li><a href="http://www.radiosarajevo.ba/kontakt" class="secondary">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <div class="container">
+                                    <div class="skin-container">
+                    <!-- Skin banners -->
+                    <div class="banner-skin skin-left">
+                        <div class="iAdserver" data-iadserver-zone="31"><script>_ipromNS('zone',31);</script></div>                    </div>
+                    <div class="banner-skin skin-right">
+                        <div class="iAdserver" data-iadserver-zone="30"><script>_ipromNS('zone',30);</script></div>                    </div>
+                </div>
+                                                            <section class="block banner topbanner">
+    <div class="iAdserver" data-iadserver-zone="440"><script>_ipromNS('zone',440);</script></div>
+</section>            
+    <section class="block news block-article">
+        <div class="row">
+            <div class="col-sm-8 main">
+                <!-- Section header -->
+<div class="newshead padded">
+    <h3 class="btn-sect-radio"><a href="http://www.radiosarajevo.ba/radio">RADIO</a></h3>
+    <div class="article-shares">
+        <ul class="list-inline list-newsinfo">
+            <li><a href="#artshares" class="smooth"><span class="title">SHARES: </span><i class="icon-share"></i>9</a></li>
+            <li><a href="#show" class="smooth"><span class="title">KOMENTARA: </span><i class="icon-message"></i>0</a></li>
+        </ul>
+    </div>
+</div>                <!-- Article content -->
+<input type="hidden" id="articleImagesCount" value="1">
+<article class="article">
+    <div id="_iprom_inStream">
+                                    <figure class="top-photo singlephoto">
+    <ul class="list-unstyled gallery-top" id="articlegal">
+                    <li data-thumb="https://storage.radiosarajevo.ba/image/291991/130x80/Jamiroquai_prtscr.jpg"
+                data-src="https://storage.radiosarajevo.ba/image/291991/1180x732/Jamiroquai_prtscr.jpg">
+                <img src="https://storage.radiosarajevo.ba/image/291991/1180x732/Jamiroquai_prtscr.jpg"/>
+                                    <p class="imgtitle">YouTube</p>
+                            </li>
+            </ul>
+</figure>                        </div>
+    <div class="article-box">
+        <div class="article-body radio" id="artshares">
+            <header>
+                <h1> <span>RSA Singl premijere / </span>Jamiroquai - Automaton</h1>
+                <p class="datestamp">30. 01. 2017. u 10:21:00
+                                            <span class="author">Radiosarajevo.ba</span>
+                                    </p>
+                                                                            </header>
+                        <div class="art-shares visible-sm visible-xs">
+        
+                <p class="shareno"><span>Shares:</span><i class="icon-share"></i>9</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <button class="btn btn-face waves-effect"
+                                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237','_blank','width=491,height=270,location=0'); event.preventDefault();">
+                            <span class="network"><i class="icon-facebook"></i><br/>share</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-tweet waves-effect"
+                                onclick="window.open('http://twitter.com/share?text=Jamiroquai - Automaton&http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237' ,'_blank','width=491,height=270,location=0'); event.preventDefault();">
+                            <span class="network"><i class="icon-twitter"></i><br/>tweet</span>
+                        </button>
+                    </li>
+                                    </ul>
+            </div> <!-- End Article shares -->
+            <p>“Buffalo Man“ se vratio. Britanski funksteri Jamiroquai su 16. januara 2017. godine, nakon sedam godina hibernacije, obradovali veliki broj fanova teaserom njihovog osmog studijskog albuma.</p>
+
+            
+                            <div id="__xclaimwords_wrapper">
+                    <p>Dan kasnije su objavili datume turneje koja će trajati tokom proljeća i ljeta 2017. godine a obuhvata sljedeće zemlje: Japan, Portugal, Južna Koreja, Grčka, Holandija, Italija, Finska, Francuska, &Scaron;vajcarska i Če&scaron;ka.</p>
+<p>Pro&scaron;li petak objavljen je novi teaser sa spiskom pjesama koje će se naći na albumu koji je najavljen za 31. mart 2017. godine. U subotu, napokon, i dugo očekivani novi singl koji se zove kao i novi album <em><strong>Automaton</strong></em>.</p>
+<p>"Inspiracija za pjesmu se nalazi u očiglednom rastu umjetne inteligencije i tehnologije u svijetu danas i kako mi ljudi počinjemo da zaboravljamo prijatne, jednostavne i elokventne stvari u životu i okruženju, uključujući na&scaron;e odnose jedni s drugima, kao ljudska bića", rekao je <strong>Jay Kay</strong>, koji je koproducent albuma s klavijaturistom Mattom Johnsonom. &nbsp;</p>
+<div class="video-inline">
+<div class="vid vid169"><iframe src="https://www.youtube.com/embed/rmlmOk4ubcU?rel=0&amp;controls=1&amp;showinfo=0" width="1280" height="720" frameborder="0" allowfullscreen=""></iframe></div>
+</div>
+                </div>
+            
+
+                                        <div class="tagblock">
+                    <p>Tagovi:  <a
+                                href="/tagovi/RSA singl premijere">RSA singl premijere</a>
+                                            </p>
+                </div>
+                                                    <div class="banners-inline">
+                    <div class="banner">
+    <div class="iAdserver" data-iadserver-zone="90"><script>_ipromNS('zone',90);</script></div>
+</div>                    <div class="banner">
+    <div class="iAdserver" data-iadserver-zone="91"><script>_ipromNS('zone',91);</script></div>
+</div>                </div>
+                        <div class="articles-linked">
+        <div class="art-section">
+            <div class="head">
+                <p class="title">POVEZANO</p>
+            </div>
+        </div>
+        <div class="newsblock">
+                                            <div class="newsitem sect-radio  withvideo ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/travnicanin-pjesmom-osvojio-srca-hip-hop-publike-volio-bih-da-nadvladamo-huskace-rata/252033">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/252033/871x540/anes_tabakovic_facebook.jpg')"></div>
+            </div>
+            <p class="title"> <span>Video / </span>Travničanin pjesmom osvojio srca hip-hop publike: Moramo nadvladati huškače rata</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>650</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="2 min čitanja"></i>2
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio  withvideo ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/michael-kiwanuka-na-radiju-sarajevo/252170">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/252170/871x540/Michael_Kiwanuka.jpg')"></div>
+            </div>
+            <p class="title"> <span>Vikend sa / </span>Michael Kiwanuka na Radiju Sarajevo</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>0</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                    </div>
+    </div>
+            <button id="show" class="btn btn-primary waves-effect">KOMENTARI (0)</button>
+<button id="hide" class="btn btn-primary waves-effect">SAKRIJ KOMENTARE</button>
+
+
+
+<!-- Comments -->
+    <div class="article-comments" id="artcomments">
+        <div class="art-section">
+            <div class="head">
+                                    <p class="title">NEMA KOMENTARA</p>
+                            </div>
+        </div>
+
+        <div class="body">
+
+                            <div class="comment-login">
+                    <div class="info">
+                        <div class="comment-avatar">
+                            <img src="/img/comment-avatar.png" alt="Avatar"/>
+                        </div>
+                        <p>Ostavite komentar kao 'gost' ili se prijavite</p>
+                    </div>
+                    <div class="fbcomment">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal-login">PRIJAVA</button>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal-signup">REGISTRACIJA
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                        <div class="comment-post">
+    <form class="form" id="comment_form" name="comment_form">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                    <input type="text" name="name" id="comment_name" class="form-control" placeholder="Nadimak..."/>
+                    <input type="hidden" name="_token" value="v5b8Dz7u5jNQU2nCujcRtbQuz2AB7zpGvX4uyWdi" id="comment_token">
+                    <input type="hidden" name="author_id" value="1" id="comment_author_id">
+                    <input type="hidden" name="title" value=""  id="comment_title">
+                    <input type="hidden" name="article_id" value="252237"  id="comment_article_id">
+                    <input type="hidden" name="article_section_slug" value="radio"  id="comment_article_section_slug">
+                    <input type="hidden" name="article_slug" value="jamiroquai-automaton" id="comment_article_slug">
+                    <input type="hidden" name="article_subsection_slug" value="aktuelno"  id="comment_article_subsection_slug">
+                </div>
+                <div class="form-group">
+                    <textarea name="content" id="comment_content" rows="4" cols="20" class="form-control form-area"
+                              placeholder="Upiši komentar..."></textarea>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LdYOh0TAAAAAExIvsdDONZhZFAGINYONMk8FJ16"></div>
+                <p id="comment_error"></p>
+                <p id="comment_error2"></p>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <button class="btn btn-primary" id = "btn_clear_comment_form">OBRISI SVE</button>
+                </div>
+                <div class="form-group form-group-delimited">
+                    <button class="btn btn-primary" id ="btn_save_comment">OBJAVI KOMENTAR</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+            <hr>
+            <div id="ajax_comments">
+                <input type="hidden" value="0" id="commentsCount">
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+            <div class="iAdserver" data-iadserver-zone="324"><script>_ipromNS('zone',324);</script></div>            
+        </div>
+        <!-- Article sidebar -->
+<aside class="article-side">
+        <div class="art-shares">
+                
+                <p class="shareno"><span>Shares:</span><i class="icon-share"></i>9</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <button class="btn btn-face waves-effect"
+                                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237','_blank','width=491,height=270,location=0'); event.preventDefault();">
+                            <span class="network"><i class="icon-facebook"></i><br/>share</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-tweet waves-effect"
+                                onclick="window.open('http://twitter.com/share?text=Jamiroquai - Automaton&http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237' ,'_blank','width=491,height=270,location=0'); event.preventDefault();">
+                            <span class="network"><i class="icon-twitter"></i><br/>tweet</span>
+                        </button>
+                    </li>
+                                    </ul>
+            </div> <!-- End Article shares -->    <div class="articles-other">
+        <div class="art-section">
+            <div class="head">
+                <p class="title">OSTALO IZ RUBRIKE</p>
+            </div>
+        </div>
+                                <div class="newsitem sect-radio  withvideo ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/da-zaboravis-svu-nepravdu-i-belaj-kupi-kospe-i-jeftinu-kartu-i-dodi-u-kino-prvi-maj/261261">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261261/871x540/Zabranjeno_pusenje_PrtScr.JPG')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>Zabranjeno pušenje i "Kino Prvi maj"</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                <div class="newsitem sect-radio  withvideo newsbg-radio ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/praznik-rada-uz-hit-dubioze-kolektiv-zasto-politikom-kvariti-dernek/261191">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261191/871x540/dubioza_kolektiv_noescape.jpg')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>Praznik rada uz hit Dubioze kolektiv: "Zašto politikom kvariti dernek..."</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1056</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                <div class="newsitem sect-radio  withvideo newsbg-radio ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/kad-nemiri-budu-dio-nas-i-kada-nam-kucne-zadnji-cas/261120">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261120/871x540/grupa_cod_bijeli_bagremi.jpg')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>"Kad nemiri budu dio nas i kada nam kucne zadnji čas..."</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1333</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+            </div>
+                <div class="art-shares art-shares-sticky">
+        
+                <p class="shareno"><span>Shares:</span><i class="icon-share"></i>9</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <button class="btn btn-face waves-effect"
+                                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237','_blank','width=491,height=270,location=0'); event.preventDefault();">
+                            <span class="network"><i class="icon-facebook"></i><br/>share</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-tweet waves-effect"
+                                onclick="window.open('http://twitter.com/share?text=Jamiroquai - Automaton&http://www.radiosarajevo.ba/radio/aktuelno/jamiroquai-automaton/252237' ,'_blank','width=491,height=270,location=0'); event.preventDefault();">
+                            <span class="network"><i class="icon-twitter"></i><br/>tweet</span>
+                        </button>
+                    </li>
+                                    </ul>
+            </div> <!-- End Article shares --></aside>
+    </div>
+</article>            </div>
+            <div class="col-sm-4 side">
+                <aside class="longside">
+            <div class="banner-side">
+    <div class="iAdserver" data-iadserver-zone="32"><script>_ipromNS('zone',32);</script></div>
+</div>        <div class="banner-side">
+    <div class="iAdserver" data-iadserver-zone="34"><script>_ipromNS('zone',34);</script></div>
+</div>    
+        <div class="sidebox hotbox">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs nav-tabs-side" role="tablist">
+        <li role="presentation" class="waves-effect active"><a href="#home-hot" aria-controls="home-hot" role="tab" data-toggle="tab"><i class="icon-hot"></i></a></li>
+        <li role="presentation" class="waves-effect"><a href="#home-comm" aria-controls="home-comm" role="tab" data-toggle="tab"><i class="icon-message"></i></a></li>
+        <li role="presentation" class="waves-effect"><a href="#home-share" aria-controls="home-share" role="tab" data-toggle="tab"><i class="icon-share"></i></a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane tab-pane-side active" id="home-hot">
+
+                                            <div class="newsitem sect-radio newshor withvideo newsbg-radio ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/praznik-rada-uz-hit-dubioze-kolektiv-zasto-politikom-kvariti-dernek/261191">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261191/871x540/dubioza_kolektiv_noescape.jpg')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>Praznik rada uz hit Dubioze kolektiv: "Zašto politikom kvariti dernek..."</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1056</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor withvideo newsbg-radio ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/kad-nemiri-budu-dio-nas-i-kada-nam-kucne-zadnji-cas/261120">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261120/871x540/grupa_cod_bijeli_bagremi.jpg')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>"Kad nemiri budu dio nas i kada nam kucne zadnji čas..."</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1333</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor ">
+        <a href="http://www.radiosarajevo.ba/radio/emisije/the-selector-odina/261017">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261017/871x540/Odina.jpg')"></div>
+            </div>
+            <p class="title"> <span>Emisija / </span>The Selector - Odina</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>0</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor withvideo ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/da-zaboravis-svu-nepravdu-i-belaj-kupi-kospe-i-jeftinu-kartu-i-dodi-u-kino-prvi-maj/261261">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261261/871x540/Zabranjeno_pusenje_PrtScr.JPG')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>Zabranjeno pušenje i "Kino Prvi maj"</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+            
+        </div>
+        <div role="tabpanel" class="tab-pane tab-pane-side" id="home-comm">
+                                            <div class="newsitem sect-radio newshor withvideo newsbg-radio ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/kad-nemiri-budu-dio-nas-i-kada-nam-kucne-zadnji-cas/261120">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261120/871x540/grupa_cod_bijeli_bagremi.jpg')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>"Kad nemiri budu dio nas i kada nam kucne zadnji čas..."</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1333</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor withvideo newsbg-radio ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/praznik-rada-uz-hit-dubioze-kolektiv-zasto-politikom-kvariti-dernek/261191">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261191/871x540/dubioza_kolektiv_noescape.jpg')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>Praznik rada uz hit Dubioze kolektiv: "Zašto politikom kvariti dernek..."</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1056</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor withvideo ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/da-zaboravis-svu-nepravdu-i-belaj-kupi-kospe-i-jeftinu-kartu-i-dodi-u-kino-prvi-maj/261261">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261261/871x540/Zabranjeno_pusenje_PrtScr.JPG')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>Zabranjeno pušenje i "Kino Prvi maj"</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor ">
+        <a href="http://www.radiosarajevo.ba/radio/emisije/the-selector-odina/261017">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261017/871x540/Odina.jpg')"></div>
+            </div>
+            <p class="title"> <span>Emisija / </span>The Selector - Odina</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>0</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                    </div>
+        <div role="tabpanel" class="tab-pane tab-pane-side" id="home-share">
+                                            <div class="newsitem sect-radio newshor withvideo newsbg-radio ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/kad-nemiri-budu-dio-nas-i-kada-nam-kucne-zadnji-cas/261120">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261120/871x540/grupa_cod_bijeli_bagremi.jpg')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>"Kad nemiri budu dio nas i kada nam kucne zadnji čas..."</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1333</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor withvideo newsbg-radio ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/praznik-rada-uz-hit-dubioze-kolektiv-zasto-politikom-kvariti-dernek/261191">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261191/871x540/dubioza_kolektiv_noescape.jpg')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>Praznik rada uz hit Dubioze kolektiv: "Zašto politikom kvariti dernek..."</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1056</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor withvideo ">
+        <a href="http://www.radiosarajevo.ba/radio/aktuelno/da-zaboravis-svu-nepravdu-i-belaj-kupi-kospe-i-jeftinu-kartu-i-dodi-u-kino-prvi-maj/261261">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261261/871x540/Zabranjeno_pusenje_PrtScr.JPG')"></div>
+            </div>
+            <p class="title"> <span>Pjesma dana / </span>Zabranjeno pušenje i "Kino Prvi maj"</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>1</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                                            <div class="newsitem sect-radio newshor ">
+        <a href="http://www.radiosarajevo.ba/radio/emisije/the-selector-odina/261017">
+            <div class="sideimg">
+                <div class="imgbox"
+                     style="background-image: url('https://storage.radiosarajevo.ba/article/261017/871x540/Odina.jpg')"></div>
+            </div>
+            <p class="title"> <span>Emisija / </span>The Selector - Odina</p>
+                        <ul class="list-inline list-newsinfo">
+                <li><i class="icon-message"></i>0</li>
+                <li><i class="icon-share"></i>0</li>
+                
+                    <li class="date"><i class="icon-read readtip" title="1 min čitanja"></i>1
+                        min
+                                            </li>
+            </ul>
+        </a>
+    </div>
+                    </div>
+    </div>
+</div> <!-- End Box: Hot / comments / shared -->
+<hr>    <hr>
+            <div class="banner-side">
+    <div class="iAdserver" data-iadserver-zone="35"><script>_ipromNS('zone',35);</script></div>
+</div>    
+    <hr>
+    <!-- Sidebox: Poll -->
+<div class="sidebox delimited poll">
+    <div class="newshead withicon">
+        <h3><img src="/build/img/anketa.gif" alt="Anketa" class="picto">ANKETA</h3>
+    </div>
+                    <p class="question" id="currentPollTitle">Kakva je va&scaron;a stambena situacija?</p>
+
+        <form id="poll_form" class="form" method="post">
+            <input type="hidden" name="question_id" value="192" id="current_poll_id">
+            <input type="hidden" name="_token" value="v5b8Dz7u5jNQU2nCujcRtbQuz2AB7zpGvX4uyWdi" id="poll_token" >
+         
+                            <div class="radio">
+                    <label>
+                        <input type="radio" value="972"
+                               name="poll_opt">Živim u svom stanu/kući
+                    </label>
+                </div>
+                            <div class="radio">
+                    <label>
+                        <input type="radio" value="973"
+                               name="poll_opt">Živim u zajednici sa roditeljima ili rodbinom
+                    </label>
+                </div>
+                            <div class="radio">
+                    <label>
+                        <input type="radio" value="974"
+                               name="poll_opt">Živim u iznajmljenom stanu/kući u svom gradu
+                    </label>
+                </div>
+                            <div class="radio">
+                    <label>
+                        <input type="radio" value="975"
+                               name="poll_opt">Živim u iznajmljenom stanu/kući u drugom gradu
+                    </label>
+                </div>
+                        <p id ="poll_error"></p>
+        </form>
+        <div class="foot">
+        <button class="btn btn-primary" id="poll_voting">GLASAJ</button>
+        <button class="btn btn-default" id="poll_results">REZULTATI</button>
+    </div>
+</div> <!-- End Sidebox: Poll -->                        <div class="banner-side">
+    <div class="iAdserver" data-iadserver-zone="36"><script>_ipromNS('zone',36);</script></div>
+</div>            <div class="banner-side">
+    <div class="iAdserver" data-iadserver-zone="27"><script>_ipromNS('zone',27);</script></div>
+</div>            <div class="banner-side">
+    <div class="iAdserver" data-iadserver-zone="28"><script>_ipromNS('zone',28);</script></div>
+</div>            <div class="banner-side">
+    <div class="iAdserver" data-iadserver-zone="29"><script>_ipromNS('zone',29);</script></div>
+</div>            </aside>            </div>
+        </div>
+    </section>
+
+                        <section class="block banner topbanner">
+    <div class="iAdserver" data-iadserver-zone="26"><script>_ipromNS('zone',26);</script></div>
+</section>                    <!-- Footer -->
+<footer class="block footer">
+    <ul class="list-inline list-foot">
+        <li class="foot-logo">
+            <img src="/build/img/footer-logo.png" alt="S"/>
+        </li>
+        <li class="line firstline">
+            <p class="head">PORTAL</p>
+            <p>Sva prava pridržana</p>
+            <p>Zabranjeno preuzimanje sadržaja bez dozvole izdavača</p>
+            <p>2007. - 2016. radiosarajevo.ba</p>
+        </li>
+        <li class="line foot-info">
+            <p class="head">INFO</p>
+            <p>t <a href="tel:+ 387 33 557 910">+ 387 33 557 910</a><br/>
+                t <a href="tel:+387 33 557 913">+387 33 557 913</a><br/>
+                f +387 33 557 912</p>
+            <p><a href="mailto:marketing@radiosarajevo.ba">marketing@radiosarajevo.ba</a><br/>
+                <a href="mailto:redakcija@radiosarajevo.ba">redakcija@radiosarajevo.ba</a><br/>
+                <a href="mailto:radio@radiosarajevo.ba">radio@radiosarajevo.ba</a></p>
+        </li>
+        <li class="foot-info">
+            <p class="head">&nbsp;</p>
+            <p> <a href ="https://ads.radiosarajevo.ba/" target="_blank">Marketing</a><br/>
+                <a href ="https://ads.radiosarajevo.ba/o-nama.html" target="_blank">Impressum</a><br/>
+                <a href ="http://www.radiosarajevo.ba/kontakt">Kontakt</a></p>
+            <p>Ul. Musala 5<br/>
+                71000 Sarajevo<br/>
+                Bosna i Hercegovina</p>
+        </li>
+        <li class="line foot-soc">
+            <p class="head">SOCIAL</p>
+            <p><a href="https://www.facebook.com/RadioSarajevo" target="_blank">Facebook</a><br/>
+                <a href="https://twitter.com/radiosarajevo" target="_blank">Twitter</a><br/>
+                <a href="https://plus.google.com/+RadiosarajevoBa902/posts" target="_blank">Google+</a><br/>
+                <a href="https://www.youtube.com/channel/UCoMY2JtBEfX_1ZEZCeYWdKw" target="_blank">YouTube</a></p>
+        </li>
+    </ul>
+</footer>    </div>
+</div>
+
+<!-- Modal: Login -->
+<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="Login">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">PRIJAVA</h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="form form-horizontal form-login" id="login_form" method="post"
+                      action="/authentication/login">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" placeholder="" name="email" id="login_email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Šifra</label>
+                        <div class="col-sm-9">
+                            <input type="password" class="form-control" placeholder="" name="password"
+                                   id="login_password">
+                            <input type="hidden" name="_token" value="v5b8Dz7u5jNQU2nCujcRtbQuz2AB7zpGvX4uyWdi" id="login_token">
+                        </div>
+                    </div>
+                    <p id="login_error"></p>
+                    <div class="form-group form-nomargin">
+                        <div class="col-sm-12">
+                            <button type="button" class="btn btn-primary btn-block" id="btn_login">PRIJAVI ME
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div><!-- Modal: Signup -->
+<div class="modal fade" id="modal-signup" tabindex="-1" role="dialog" aria-labelledby="Signup">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">REGISTRACIJA</h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="form form-horizontal form-login" id="registration_form" method="post"
+                      action="/authentication/registration">
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Nadimak *</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="" name="username"
+                                   id="registration_name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Email adresa *</label>
+                        <div class="col-sm-8">
+                            <input type="email" class="form-control" placeholder="" name="email"
+                                   id="registration_email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Lozinka *</label>
+                        <div class="col-sm-8">
+                            <input type="password" class="form-control" placeholder="" name="password"
+                                   id="registration_password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Ponovite lozinku *</label>
+                        <div class="col-sm-8">
+                            <input type="password" class="form-control" placeholder="" name="password_repeat"
+                                   id="registration_password_repeat">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Datum rođenja</label>
+                        <div class="col-sm-8">
+                            <input type="date" class="form-control" placeholder="" name="dob" id="registration_dob">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Grad</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="" name="city" id="registration_city">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Država</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" placeholder="" name="country"
+                                   id="registration_country">
+                            <input type="hidden" name="_token" value="v5b8Dz7u5jNQU2nCujcRtbQuz2AB7zpGvX4uyWdi" id="registration_token">
+                        </div>
+                    </div>
+                                                                                                                                            <p id="registration_error"></p>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <button type="button" class="btn btn-primary btn-block" id="btn_registration">PRIJAVI ME
+                            </button>
+                                                                                                            </div>
+                    </div>
+
+                    <div class="form-note">
+                        <p><strong>Napomena</strong></p>
+                        <ul>
+                            <li>Polja označena sa * su obavezna.</li>
+                            <li>Prilikom objave komentara jedino će 'Nadimak' biti vidljiv.</li>
+                            <li>Email i lozinka će Vam biti potrebni prilikom prijave.</li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src='https://www.google.com/recaptcha/api.js?hl=hr'></script>
+
+<!-- JS -->
+<script type="text/javascript" src="/build/js/app-2642eb23c6.js"></script>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+    var sc_project = 2273508;
+    var sc_invisible = 1;
+    var sc_partition = 20;
+    var sc_security = "b89a9750";
+</script>
+<script type="text/javascript" language="javascript" src="https://www.statcounter.com/counter/counter.js"></script>
+<!-- End of StatCounter Code -->
+
+<!-- Start of StatCounter Code BETA -->
+<script type="text/javascript">
+    var sc_project = 3437405;
+    var sc_invisible = 1;
+    var sc_partition = 34;
+    var sc_click_stat = 1;
+    var sc_security = "da3fc0aa";
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter_xhtml.js"></script>
+<!-- End of StatCounter Code -->
+
+<script async src="https://cdn.onthe.io/io.js/T19GD9yBeni3"></script>
+            <div class="iAdserver" data-iadserver-zone="299"><script>_ipromNS('zone',299);</script></div>        <div class="iAdserver" data-iadserver-zone="33"><script>_ipromNS('zone',33);</script></div>        <div class="iAdserver" data-iadserver-zone="464"><script>_ipromNS('zone',464);</script></div>        <div class="iAdserver" data-iadserver-zone="146"><script>_ipromNS('zone',146);</script></div>    
+<script>
+    _ipromNS('load');
+</script>
+<div class="none">
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1038313423;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt=""
+                 src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1038313423/?value=0&amp;guid=ON&amp;script=0"/>
+        </div>
+    </noscript>
+</div>    <script src="https://bh-engine.intextad.net/script.aspx?partnerid=200009" language="javascript"
+            type="text/javascript"></script>
+    <script id="xclaim_script" type="text/javascript" language="javascript">
+        (function () {
+            function async_load() {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src ='https://bh-engine.intextad.net/script.aspx?partnerid=200010';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+
+            if (window.attachEvent)
+                window.attachEvent('onload', async_load);
+            else
+                window.addEventListener('load', async_load, false);
+        })();
+    </script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c9baa369a6","applicationID":"26587722","transactionName":"ZAdQbEFZW0AAAUFeDF1Nc1tHUVpdTiNFRz97FkZIb3taXRUQWlsPVhBBZHJKQVoCDlBEIFwMRkpcVFlWEyJGXwxEI0BMWltZVhIkR1gOYBdQS1ZbQVoODA==","queueTime":0,"applicationTime":1268,"atts":"SEBTGglDSE4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+

@@ -1,0 +1,8 @@
+お使いのブラウザはJavaScriptが有効ではないためサイトを表示することができません。別のブラウザからご利用ください。
+[if lt IE 10]><script src="https://static.amebaowndme.com/madrid-frontend/libs/aight/aight-a6108864d6.min.js" type="text/javascript" charset="utf-8"></script>
+ <script src="https://static.amebaowndme.com/madrid-frontend/libs/html5shiv/dist/html5shiv-3044234175.min.js" type="text/javascript" charset="utf-8"></script>
+ <script src="https://static.amebaowndme.com/madrid-frontend/libs/selectivizr/selectivizr-73fa124182.min.js" type="text/javascript" charset="utf-8"></script>
+ <script src="https://static.amebaowndme.com/madrid-frontend/libs/respondJS/dest/respond-afc1984a3d.min.js" type="text/javascript" charset="utf-8"></script>
+ <script src="https://static.amebaowndme.com/madrid-frontend/libs/rem-unit-polyfill/js/rem-87fca4bed7.min.js" type="text/javascript" charset="utf-8"></script>
+ <script src="https://static.amebaowndme.com/madrid-frontend/libs/xhr-xdr-adapter/src/xhr-xdr-adapter-f86ee45ecf.min.js" type="text/javascript" charset="utf-8"></script>
+<![endif]

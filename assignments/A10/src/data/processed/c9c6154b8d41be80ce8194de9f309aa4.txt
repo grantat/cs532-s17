@@ -1,0 +1,962 @@
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+CDs & Vinyl
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Settings
+CDs & Vinyl
+›
+Jazz
+Share
+Facebook
+Twitter
+Pinterest
+Buy New
+$14.99
+TemplateId:Free_shipping_eligible_inline_display_template
+&
+FREE Shipping
+on orders over $35.
+Details
+In stock on May 17, 2017.
+Order it now.
+Ships from and sold by Amazon.com in
+easy-to-open packaging
+.
+Gift-wrap available.
+Ella & Louis [Vinyl LP]
+                        has been added to your Cart
+Add to Cart
+Turn on 1-Click ordering for this browser
+We only want padding, if the weblab is on
+Ship to:
+VIRGINIABEACH, VA 23450
+Section to show to unrecognized customers (instead of address selector)
+To see addresses, please
+Sign in
+Place holder for anchoring the address selector
+or
+Use this location:
+Update
+Please enter a valid US zip code.
+Please enter a valid US zip code.
+Shipping to a APO/FPO/DPO? Please add the address to your address book. Make sure you include the unit and box numbers (if assigned).
+or
+Add to List
+Sorry, there was a problem.
+There was an error retrieving your Wish Lists. Please try again.
+Sorry, there was a problem.
+List unavailable.
+Other Sellers on Amazon
+Add to Cart
+$16.99
+&
+FREE Shipping
+on eligible orders.
+Details
+Sold by:
+megahitrecords
+Add to Cart
+$19.99
+&
+FREE Shipping
+on eligible orders.
+Details
+Sold by:
+cdgiveaways
+22 used & new
+from
+$14.99
+Have one to sell?
+Sell on Amazon
+Creating a custom overlay for image not available experience
+Image Unavailable
+Image not available for
+Color:
+Sorry, this item is not available in
+Image not available
+To view this video download
+Flash Player
+Ella & Louis [Vinyl LP]
+Import
+Louis Armstrong
+Format:
+Vinyl
+4.5 out of 5 stars
+92 customer reviews
+giftCardHolidayAvailabilityMessaging_placeholder
+See all 5 formats and editions
+Hide other formats and editions
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Listen Now with Amazon Music
+Ella and Louis
+"Please retry"
+Amazon Music Unlimited
+Price
+New from
+Used from
+Do not show expander when DVD_redesign weblab is in treatment
+MP3 Music, March 7, 2000
+"Please retry"
+$6.99
+$6.99
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Vinyl, Import, September 7, 2010
+"Please retry"
+$14.99
+$13.18
+$15.65
+This file is a replica of swatches.jsp
+     The only difference we have introduced here is to use absolute paths 
+     and dynamic includes
+Streaming
+Unlimited
+MP3
+$6.99
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+Listen with our
+Free App
+Vinyl
+$14.99
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+1 Used
+from
+$15.65
+21 New
+from
+$13.18
+This item's packaging will indicate what is inside.
+To cover it, select
+Ship in Amazon box
+on the checkout page.
+wlim
+Add to Cart
+Ella & Louis [Vinyl LP] [Import]
+$14.99
+TemplateId:Free_shipping_eligible_inline_display_template
+&
+FREE Shipping
+on orders over $35.
+Details
+In stock on May 17, 2017.
+Order it now.        
+    
+    
+    
+    
+
+
+    
+    
+        
+            
+                
+                
+            
+
+            Ships from and sold by Amazon.com in
+easy-to-open packaging
+.
+            
+
+            Gift-wrap available.
+MarkAF
+Frequently bought together
++
++
+Total price:
+$48.71
+Add all three to Cart
+Add all three to List
+One of these items ships sooner than the other.
+Show details
+Buy the selected items together
+This item:
+Ella & Louis [Vinyl LP]
+by Louis Armstrong
+Vinyl
+$14.99
+In stock on May 17, 2017.
+Ships from and sold by Amazon.com.
+FREE Shipping on orders over
+$35
+.
+Details
+Kind Of Blue (Vinyl)
+by Miles Davis
+Vinyl
+$22.99
+In Stock.
+Ships from and sold by Amazon.com.
+FREE Shipping on orders over
+$35
+.
+Details
+A Love Supreme [Vinyl]
+by John Coltrane
+Vinyl
+$10.73
+In Stock.
+Ships from and sold by Amazon.com.
+FREE Shipping on orders over
+$35
+.
+Details
+Customers who bought this item also bought
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+This shopping feature will continue to load items. In order to navigate out of this carousel please use your heading shortcut key to navigate to the next or previous heading.
+Back
+Kind Of Blue (Vinyl)
+Miles Davis
+4.7 out of 5 stars
+1,610
+Vinyl
+$22.99
+Prime
+At Last
+Etta James
+4.3 out of 5 stars
+76
+Vinyl
+$13.97
+Prime
+A Love Supreme [Vinyl]
+John Coltrane
+4.6 out of 5 stars
+523
+Vinyl
+$10.73
+Prime
+Lady Sings The Blues (2LP Gatefold 180g Vinyl) - Billie Holiday
+Billie Holiday
+4.6 out of 5 stars
+28
+Vinyl
+$21.09
+Prime
+Ellington & Coltrane
+Duke Ellington
+4.8 out of 5 stars
+14
+Vinyl
+$11.08
+Prime
+Ella & Louis Again
+Louis Armstrong
+4.6 out of 5 stars
+45
+Vinyl
+$13.99
+Prime
+Next
+Sponsored products related to this item
+(What's this?)
+Page
+1
+of
+1
+Start over
+Sponsored Products are advertisements for products sold by merchants on Amazon.com. When you click on a Sponsored Product ad, you will be taken to an Amazon detail page where you can learn more about the product and purchase it.
+To learn more about Amazon Sponsored Products,
+click here
+.
+Feedback
+Ella & Louis Classic Album Collection
+4.6 out of 5 stars
+10
+$31.21
+Prime
+Feedback
+The Words and Music of Cole Porter: 1920s, 30s, 40s
+3 out of 5 stars
+2
+Audio CD
+$13.49
+Prime
+Feedback
+The Turnaround!
+4.7 out of 5 stars
+8
+$21.95
+Prime
+Feedback
+Changes: The 1955 Sessions
+5 out of 5 stars
+1
+Audio CD
+$11.95
+Prime
+Feedback
+Dave Brubeck Quartet: Brubeck Returns to Moscow
+3.5 out of 5 stars
+12
+$14.59
+Prime
+Feedback
+Complete Albums Collection: 1961-1963 (4CD Box Set)
+4.3 out of 5 stars
+3
+Audio CD
+$11.49
+Prime
+Feedback
+What A Wonderful Christmas
+4.6 out of 5 stars
+78
+$33.99
+Prime
+Back
+Next
+Ad feedback
+Special offers and product promotions
+Check Out Our Turntable Store
+Need a new record player?  Check out our
+turntable store
+for a great selection of turntables, needles, accessories, and more.
+Your cost could be $0.00 instead of $14.99
+! Get a
+$50 Amazon.com Gift Card
+instantly upon approval for the
+Amazon Rewards Visa Card
+Apply now
+Editorial Reviews
+show up to 2 reviews by default
+Limited edition 180 gram vinyl pressing of the classic Jazz album that brought Ella Fitzgerald and Louis Armstrong together for the first as they recorded their version of extraordinary standards.
+Used to set table width because AUI is overriding the width attribute of the tables coming in description
+Track Listings
+Disc: 1
+1. Can't We Be Friends (Swift-James) 3:48
+Showing SWM section for eligible customers for both detail and artist page.
+Product details
+Vinyl
+(September 7, 2010)
+Number of Discs:
+1
+Format:
+Import
+Label:
+101 DISTRIBUTION
+ASIN:
+B003XKAZZO
+Average Customer Review:
+4.5 out of 5 stars
+See all reviews
+(
+92 customer reviews
+)
+Amazon Best Sellers Rank:
+#7,393 in CDs & Vinyl (
+See Top 100 in CDs & Vinyl
+)
+#415
+in
+CDs & Vinyl
+>
+Jazz
+#6950
+in
+CDs & Vinyl
+>
+Pop
+If you are a seller for this product, would you like to
+suggest updates through seller support
+?
+Amazon's Louis Armstrong Store
+›
+Visit Amazon's Louis Armstrong Store
+Sponsored products related to this item
+(What's this?)
+Page
+1
+of
+1
+Start over
+Sponsored Products are advertisements for products sold by merchants on Amazon.com. When you click on a Sponsored Product ad, you will be taken to an Amazon detail page where you can learn more about the product and purchase it.
+To learn more about Amazon Sponsored Products,
+click here
+.
+Feedback
+Ella & Louis Classic Album Collection
+4.6 out of 5 stars
+10
+$31.21
+Prime
+Feedback
+The Words and Music of Cole Porter: 1920s, 30s, 40s
+3 out of 5 stars
+2
+Audio CD
+$13.49
+Prime
+Feedback
+Changes: The 1955 Sessions
+5 out of 5 stars
+1
+Audio CD
+$11.95
+Prime
+Feedback
+The Turnaround!
+4.7 out of 5 stars
+8
+$21.95
+Prime
+Feedback
+What A Wonderful Christmas
+4.6 out of 5 stars
+78
+$33.99
+Prime
+Feedback
+Blues Breakers With Eric Clapton
+4.7 out of 5 stars
+67
+Audio CD
+$18.99
+Prime
+Back
+Next
+Ad feedback
+Customer Reviews
+4.5 out of 5 stars
+92
+4.5 out of 5 stars
+5 star
+81%
+4 star
+3%
+3 star
+7%
+2 star
+7%
+1 star
+2%
+Share your thoughts with other customers
+Write a customer review
+See all verified purchase reviews
+Top Customer Reviews
+3.0 out of 5 stars
+Wax Time Unauthorized Reissues
+By
+mattmattmatt
+on April 24, 2014
+Format: Vinyl
+|
+Verified Purchase
+I bought this and a few others of these Wax Time reissues which the interwebs claim are sourced from CDs and NOT authorized from original 50s masters. I'm a professional musician but an amateur audiophile and was kind of disappointed that these were reproduced in Spain from CDs of public domain recordings not actual masters. These reissues are widely available for around $10-13 so caveat emptor. I'm less concerned that the extended estates and publishing interests of the original artists won't be paid for these recordings--AFAIK many of them weren't compensated fairly while they were alive. But from the perspective of someone who wants to own something "legit," it does bother me that these Wax Time reissues are broadly viewed as a joke.
+Having said all that, I'm actually very happy with the quality of these bootlegs. The vinyl is heavy and flat. I've bought three and none were warped and all had nice sleeves, jackets and artwork. These aren't garbage records, but they're not at all the audiophile quality they claim to be. If you want to enjoy these recordings on a turntable, these are fine. But buyers should look into the whole story on these Wax Time reissues before buying.
+Read more
+1
+1 comment
+|
+100 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Ella & Louis is Absolutely Wonderful
+By
+Inspired Dribble
+on July 4, 2013
+Format: Vinyl
+|
+Verified Purchase
+The song selection and recording quality of the "Ella & Louis" vinyl LP is far far above most LP's out there today and is one of the best sounding LPs that I have heard (specifically, I am talking about the LP labelled import, pressed by 'Waxtime').  The recording is warm and filled with feeling and has a rare dimensional depth and soundstage with a "live -  in your living room" quality and presence, - and the selection of songs shows the extraordinary warmth and dynamic that the two have together.  It is easily one of the best recorded and mastered LPs I have heard.
+The Ella & Louis LP is an absolute must have for anyone who likes Jazz, Ella or Louis, or truely great music in general.  The music spans generations and will appeal to all lovers of great song and artistry.
+If you were wondering if you should get this LP, don't hesitate.  Just buy it.  It is destined to be a classic and I recommend that you get it before people realize just how great the LP is and it becomes in short supply.
+By the way, this Ella & Louis LP (the one where the cover shows Louis with 'wader' pants pulled up by sitting in a chair and 1950's white socks showing, Waxtime label) is much better sounding and better mastered than the double vinyl LP "Together - Ella & Louis" (with a blue toned cover) which, although not bad, sounds a little lean and digital, and is lacking depth in comparison to  the better sounding single LP  "Ella & Louis" reviewed here.
+Read more
+1
+1 comment
+|
+22 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+If you enjoy listening to real music or you're just exploring
+By
+Marie_23
+on June 28, 2016
+Format: Vinyl
+|
+Verified Purchase
+I'm only 23, but I'm a bit of an old soul. There's not much I won't listen to, from Nina Simone, Edith Piaf and Billie Holiday to Elvis, Sinatra, and Jimmy Durante. If you enjoy listening to real music or you're just exploring, get the album. There's nothing bad I can say about this album. I am as in love with this album as I am in love with Ella and Louis themselves.
+Read more
+0
+Comment
+|
+4 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Great recording of these 2 geniuses
+By
+MaryAnn
+on May 31, 2015
+Format: MP3 Music
+|
+Verified Purchase
+OMG, who could not love this!  From the very first note, you can feel the genius of these 2 people.  I can't comment about the sound quality of the recording because I'm not a true audiophile.  I always maintain that the magic happens in my head, not in my speakers.  It's a good enough recording so that there was lots of magic happening.
+Read more
+0
+Comment
+|
+6 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+A must have for any lover of Ella and Louis and the Great American Songbook - Doesn't Get Any Better
+By
+Mike Agron
+on November 2, 2014
+Format: Vinyl
+|
+Verified Purchase
+Doesn't get better than Ella and Louis singing great classics from the Great American Song Book.  All of the cuts are top rate, and my absolute favorite is A Foggy Day.  Listen how Louis starts the song with his great voice, then a little musical interlude and wham, Ella comes in with that incredible voice, phrasing and just sings the hell of out lyrics, then Armstrong does his instrumental, and they finish it. For this cut alone, the album is worth it.  This is the 3rd version of this pairing I've bought in the last 20 or 30 years, starting with the first vinyl, then a CD, then this version, is again top shelf.
+Read more
+0
+Comment
+|
+4 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+They loved it. I am also a fan of Louis ...
+By
+Quin
+on March 21, 2016
+Format: Vinyl
+|
+Verified Purchase
+Bought this for some friends of mine. They loved it. I am also a fan of Louis Armstrong and got to listen to them play it the first time (I do not own a record player, but they are record enthusiasts), and it played wonderfully and the music was obviously fantastic.
+Read more
+0
+Comment
+|
+2 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Excellent
+By
+Robert
+on May 29, 2014
+Format: Vinyl
+|
+Verified Purchase
+After listening to their songs in MP3 format repeatedly I decided it was time to invest in the vinyl version of Ella Fitzgerald & Louis Armstrong, two of the smoothest voices to have ever existed (in my humble opinion). Tonight while cooking dinner I put the record on and was more than pleased with the excellent sound quality and the songs in general. Plus, whenever I play the blues my man always takes the opportunity to dance me around the kitchen while our Basset Hound watches.
+It is an album well-worth the purchase price and is an excellent addition to any vinyl collection.
+-Brittany (Robert's significant other)
+Read more
+0
+Comment
+|
+10 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Amazing.
+By
+Warflight
+on August 31, 2016
+Format: Vinyl
+|
+Verified Purchase
+If you don't like Ella and Louie, you can just get out!
+Great record, and so lovely to hear on vinyl. Brings back some good memories.
+The record is great quality (thick vinyl for better sound quality, and doesn't feel like it's likely to break by lifting it) and the packaging is top notch (remember the record sleeves with the plastic in the middle? Of course you don't, but they happened, and this has it too)
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Customer Images
+See all customer images
+Most Recent Customer Reviews
+5.0 out of 5 stars
+Wonderful
+Wonderful record. Bought it for my grandparents and they love it!
+Read more
+Published 4 days ago by Kelli Kreager
+5.0 out of 5 stars
+The BEST vinyl I own
+The BEST vinyl I own. My neighbors told me to 'up the music' through their window as I was playing it one morning! That's a first! =-)
+Read more
+Published 12 days ago by Esther
+2.0 out of 5 stars
+Disappointing Quality and Skipping
+I'm disappointed with the quality of this. It skips during several tracks, and I've tried it out on two different record players. It's quite frustrating.
+Read more
+Published 23 days ago by Amazon Customer
+5.0 out of 5 stars
+True Must Have.
+Wonderful Album. Well remastered. Recommended!!
+Read more
+Published 24 days ago by William C. Kleckner
+5.0 out of 5 stars
+Five Stars
+Great LP!
+Read more
+Published 1 month ago by Luz Justich
+5.0 out of 5 stars
+Five Stars
+Great condition lovely music!
+Read more
+Published 2 months ago by Triumphanny
+5.0 out of 5 stars
+very pleased. This was a Christmas gift for my bf ...
+Came exactly as offered, very pleased. This was a Christmas gift for my bf and he thinks I spent a fortune on it. Little does he know.. 😉
+Read more
+Published 3 months ago by Amazon Customer
+5.0 out of 5 stars
+Five Stars
+this is great
+Read more
+Published 3 months ago by guillermo galdon
+5.0 out of 5 stars
+Simply Two of the Best
+Simply two of the best there ever was. The recording quality is rich and fantastic. Arrived in great shape and quickly. A must buy for fans of jazz and vinyl.
+Read more
+Published 3 months ago by E &amp; J
+5.0 out of 5 stars
+Five Stars
+2 greatest voices together with the most beautiful songs
+Read more
+Published 4 months ago by suheil e. atallah
+Search Customer Reviews
+Search
+What other items do customers buy after viewing this item?
+Ella And Louis [LP]
+Vinyl
+Louis Armstrong
+4.8 out of 5 stars
+30
+$18.96
+Prime
+Gold - Ella Fitzgerald - 180 gram vinyl 2lp set
+Vinyl
+Ella Fitzgerald
+4.7 out of 5 stars
+14
+$23.99
+Prime
+What a Wonderful World-The Great Satchmo Live
+Vinyl
+Louis Armstrong
+4.6 out of 5 stars
+27
+$28.97
+Prime
+At Last
+Vinyl
+Etta James
+4.3 out of 5 stars
+76
+$13.97
+Prime
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Look for similar items by category
+CDs & Vinyl
+>
+Jazz
+CDs & Vinyl
+>
+Pop
+Pages with related products.
+See and discover other items:
+jazz vinyl records
+,
+record albums
+,
+ella fitzgerald
+,
+billie holiday
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+Amazon.com Mobile Site
+v

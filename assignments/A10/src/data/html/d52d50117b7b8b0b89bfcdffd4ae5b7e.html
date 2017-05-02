@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="keywords" content="livehost, hebergement, tchat, shootbox, chat, mail, compteur de visites, statistique, vidéo, streaming, gratuit" />	
+		<meta name="subject" content="Hébergement web à partir de 0€ par mois." />
+		<meta name="Identifier-URL" content="https://www.livehost.fr/" />
+		<meta name="description" content="Livehost est un hébergeur de site à partir de 0€ par mois, mais néanmoins performant, il propose plusieurs services comme le tchatLive et la shootbox" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Indie Flower">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oxygen:normal">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli:normal">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans:normal">
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://www.livehost.fr/styles/reset.css" type="text/css"/>
+		<link rel="stylesheet" href="https://www.livehost.fr/styles/darknight/css/style.css?07042017a" type="text/css"/>
+		<link id="css_color" rel="stylesheet" href="https://www.livehost.fr/styles/default/css/color.css?02042017a" type="text/css"/>
+		<link rel="stylesheet" href="https://www.livehost.fr/styles/default/css/responsive.css?07082016" type="text/css"/>
+		<link rel="stylesheet" href="https://www.livehost.fr/files/icons/css/ionicons.min.css" type="text/css"/>
+		<link rel="stylesheet" href="https://www.livehost.fr/files/font-awesome/css/font-awesome.min.css" type="text/css"/>
+		<link rel="shortcut icon" href="https://www.livehost.fr/styles/default/img/favicon.gif">
+		
+		<!-- JQUERY -->
+		<script src="https://www.livehost.fr/files/script/jquery.js"></script>
+		
+		<!-- Fonction pour les requêtes ajax -->
+		<script src="https://www.livehost.fr/files/script/ajax.js?20161001"></script>
+		<script src="https://www.livehost.fr/files/script/script.functions.js?01042017a"></script>
+		<script src="https://www.livehost.fr/files/script/script.speed_navigate.js?20161130b"></script>
+		<script> var scriptname = '/index.php'; </script>
+
+		<!-- Affichage de graphiques -->
+		<script src="https://www.livehost.fr/files/script/highcharts.js"></script>
+		
+		<!-- script de choix de couleur pour la vue tchat -->
+		<script src="https://www.livehost.fr/files/script/modcoder_excolor/jquery.modcoder.excolor.js"></script>
+
+		<!-- TCHAT -->
+		<link rel='stylesheet' href='https://www.livehost.fr/files/script/perfect-scrollbar/file.css' />
+		<script src='https://www.livehost.fr/files/script/perfect-scrollbar/file.js'></script>
+		<script src="https://www.livehost.fr/files/script/socket.io.js?20161109"></script>
+		<script src="https://www.livehost.fr/files/script/mustache.js"></script>
+		<script src="https://www.livehost.fr/files/script/tchat.js?20160918"></script>
+		<!-- TCHAT -->
+
+		<title>Livehost - Hébergement web gratuit</title>
+	</head>
+	<body id="bodyid" onload="if (window.location!=top.location) top.location=window.location;">
+				
+		<!-- cadre_body -->
+		
+
+			
+		<div id="postajax"></div>
+		
+		<div id="popupid" class="popup" style="box-sizing:border-box;">
+			<div style="box-sizing:border-box;">
+				<div id="suppr" style="box-sizing:border-box !important;">
+					<div id="close_popup"><a class="ion-close" href="javascript:fermer_popup();"></a></div>
+					<div id="titre_popup"></div>
+					<div id="contenu_popup"></div>				
+				</div>
+			</div>
+		</div>
+		
+		<style>
+	
+
+
+	
+	
+</style>
+
+		<div id="contenu">
+			<div id="webmail_container"><iframe id="webmail_frame" src="" style="position:relative;z-index:100;"></iframe></div>
+			<div id="header_conteneur" style="position:relative;z-index:2;">
+				<div id="header">
+					<a href="https://www.livehost.fr">
+						<div id="site_banner">
+							<!--<img class="logo" style="margin-right:5px;" src="/styles/default/img/logo-terre.png" />-->
+							<div class="titre_site"><span class="live">Live</span><span class="host">Host</span><span class="fr">.fr</span></div>
+							<div class="slogan">Hébergeur Web</div>
+							
+							
+						</div>
+					</a>
+					<a id="switcher"
+						title="Passer à un thème sombre"
+						alt="light_theme">
+						Mode nuit					</a>
+				</div>
+			</div>
+			
+			<div id="menu_conteneur" style="z-index:100;overflow:visible;position:relative;">
+				<!-- cadre_maj -->
+				<div id="menu">
+					<a class="left" href="https://www.livehost.fr/commande">Offres</i></a>
+					<a class="left" href="https://www.livehost.fr/demo-tchat">Tchat</a>
+					<a class="left" href="https://www.livehost.fr/forum">Forum</a>
+					<a class="left" href="https://www.livehost.fr/aide">Aide</a>					
+					<a class="left" href="https://www.livehost.fr/faq">FAQ</a>
+					
+													<a class="right" href="connection">Se connecter</a>
+						<a class="right" title="Créer un compte Livehost" href="/registrer">Inscription</a>
+										<div style="clear:both;"></div>
+				</div>
+				<!-- cadre_maj -->
+				
+			</div>
+
+			<div id="scene3D">
+			<div id="conteneur">
+				
+				<div id="allcontent">
+					<div id="content" style="position:relative;z-index:10000;padding:10px;"><body>
+	<h2 style="color:#f00">Erreur 404 : Le site auquel vous tentez d'acc&eacute;der n'existe pas ou plus</h2>
+</body>
+			</div>
+</div>
+			</div>
+			</div>
+			
+					
+		<div id="footer_bottom">
+			<div id="footer_conteneur" style="">
+				<div id="footer">
+					
+					<div id="footer_col">
+						<a href="https://www.livehost.fr/fixe?cgu">Conditions Générales d'Utilisation</a><br/>
+						<a href="https://www.livehost.fr/contact">Nous contacter</a><br/>
+						<a href="https://www.livehost.fr/contact">Signaler un abus</a><br/>
+					</div>
+					<div id="footer_col">
+												© 2012 - 2016 livehost.fr<br/>Page générée en 0.011 seconde(s)<br/>
+						20 requêtes<br/>
+					</div>
+					<div id="footer_col">
+						<h3>Ressources</h3>
+						<a href="http://www.icondrawer.com/" target="_blank">http://www.icondrawer.com/</a><br/>
+						<a href="http://www.visualpharm.com/must_have_icon_set//" target="_blank">http://www.visualpharm.com/</a><br/>
+					</div>
+					<div id="footer_col" style="float:right;">
+						<img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_paypal_site_fr.png" border="0" alt="Now accepting PayPal" />
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<style>
+		#cookies_msg{
+			position:fixed;
+			bottom:0;
+			left:0;
+			right:0;
+			background:rgba(0,0,0,.9);
+			z-index:100000;
+		}
+		#cookies_msg > div{
+			max-width:1200px;
+			margin:0 auto;
+			font-family:arial;
+			font-size:12px;
+			
+			padding:3px 0;
+			color:#eee;
+			
+		}
+		
+	</style>
+	<script>
+		function cookies_msg(){		
+			var date = new Date();
+			date.setTime(date.getTime()+(365*86400*1000));
+			var expires = "; expires="+date.toGMTString();
+			$('#cookies_msg').remove();
+			document.cookie = 'cookies_msg2=1' + expires + '; path=/';
+		}
+	</script>
+		<!-- cadre_body -->
+	<script>
+			
+			timerauto = setInterval(function (){
+				
+				if( $('.lhslider > .controls').html().toString() != 'undefined' ){
+					next_slide();
+				}
+			}, 4000);
+		</script>
+	</body>	
+</html>

@@ -1,0 +1,795 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+Future Standards
+Howe Gelb
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+November 25, 2016
+4.5 out of 5 stars
+2 customer reviews
+Price display
+Start your 30-day free trial of Unlimited
+to listen to this album plus tens of millions more songs. Exclusive Prime pricing.
+See all 5 formats and editions
+Hide other formats and editions
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Listen Now with Amazon Music
+Future Standards
+"Please retry"
+Amazon Music Unlimited
+Price
+New from
+Used from
+Do not show expander when DVD_redesign weblab is in treatment
+MP3 Music, January 27, 2017
+"Please retry"
+$8.99
+$8.99
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Audio CD, June 2, 2017
+"Please retry"
+$15.98
+$15.98
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Vinyl, Import, June 2, 2017
+"Please retry"
+$28.98
+$28.98
+—
+This file is a replica of swatches.jsp
+     The only difference we have introduced here is to use absolute paths 
+     and dynamic includes
+Streaming
+Unlimited
+MP3
+$8.99
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+Listen with our
+Free App
+Audio CD
+$15.98
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+1 New
+from
+$15.98
+Vinyl
+$28.98
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+1 New
+from
+$28.98
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Listen to any song, anywhere with Amazon Music Unlimited.
+Learn More
+Buy MP3 Album
+$8.99
+Add to MP3 Cart
+Album in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+Terribly So
+Terribly So
+3:52
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+2
+Irresponsible Lovers
+Irresponsible Lovers
+3:51
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+3
+A Book You've Read Before
+A Book You've Read Before
+3:34
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+4
+Relevant
+Relevant
+3:00
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+5
+Ownin' It
+Ownin' It
+3:13
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+6
+Clear
+Clear
+2:46
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+7
+Impossible Thing
+Impossible Thing
+2:32
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+8
+The Shiver Revisted
+The Shiver Revisted
+3:39
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+9
+Mad Man at Large
+Mad Man at Large
+2:04
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+10
+May You Never Fall In Love
+May You Never Fall In Love
+3:42
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+11
+Sweet Confusion
+Sweet Confusion
+2:43
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+12
+Mad Man at Home
+Mad Man at Home
+2:05
+Listen Now
+$0.89
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Related Video Shorts
+Page
+1
+of
+1
+Start Over
+Page 1 of 1
+Previous page
+4:05
+Terribly So
+Next page
+Popular Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+DAMN. [Explicit]
+Kendrick Lamar
+339
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Humanz (Deluxe) [Explicit]
+Gorillaz
+52
+Stream
+or buy for
+$14.49
+check if each carouselCard is Platinum or Prime
+Strength Of A Woman [Explicit]
+Mary J. Blige
+32
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Moana (Original Motion Picture...
+Various artists
+521
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+Gunslinger
+Garth Brooks
+262
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+What Now [Explicit]
+Sylvan Esso
+3
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+24K Magic
+Bruno Mars
+818
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+÷ (Deluxe)
+Ed Sheeran
+256
+Stream
+or buy for
+$12.49
+check if each carouselCard is Platinum or Prime
+One Lost Day
+Indigo Girls
+79
+Stream
+or buy for
+$5.00
+check if each carouselCard is Platinum or Prime
+The Ultimate Hits
+Garth Brooks
+1295
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+God's Problem Child
+Willie Nelson
+17
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+Madness
+All That Remains
+8
+Stream
+or buy for
+$7.99
+check if each carouselCard is Platinum or Prime
+PTX Vol. IV - Classics
+Pentatonix
+55
+Stream
+or buy for
+$5.99
+check if each carouselCard is Platinum or Prime
+Beauty and the Beast (Original...
+Various artists
+70
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+More Life [Explicit]
+Drake
+34
+Stream
+or buy for
+$12.49
+check if each carouselCard is Platinum or Prime
+8 [Explicit]
+Incubus
+28
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Sing (Original Motion Picture ...
+Various artists
+121
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+Saint Cecilia EP
+Foo Fighters
+267
+Stream
+or buy for
+$0.00
+check if each carouselCard is Platinum or Prime
+Shine [Explicit]
+Wale
+7
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Memories...Do Not Open
+The Chainsmokers
+24
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+Body Like A Back Road
+Sam Hunt
+5
+Stream
+or buy for
+$1.29
+check if each carouselCard is Platinum or Prime
+Big Little Lies (Music From Th...
+Various artists
+13
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Believer
+Imagine Dragons
+6
+Stream
+or buy for
+$0.69
+check if each carouselCard is Platinum or Prime
+La La Land (Original Motion Pi...
+Various artists
+651
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Rogue One: A Star Wars Story (...
+Michael Giacchino
+153
+Stream
+or buy for
+$5.00
+check if each carouselCard is Platinum or Prime
+Emperor of Sand
+Mastodon
+74
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Prisoner B-Sides
+Ryan Adams
+1
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+The Source
+Ayreon
+8
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+Trolls (Original Motion Pictur...
+Various
+436
+Stream
+or buy for
+$10.99
+check if each carouselCard is Platinum or Prime
+Solid State
+Jonathan Coulton
+5
+Stream
+or buy for
+$9.49
+Next
+Product details
+Original Release Date:
+November 25, 2016
+Release Date:
+January 27, 2017
+Label:
+Fire Records
+Copyright:
+℗© Fire Records
+Total Length:
+37:01
+Genres:
+Jazz
+ASIN:
+B01MQCDBXF
+Average Customer Review:
+4.5 out of 5 stars
+2 customer reviews
+Amazon Best Sellers Rank:
+#113,070 Paid in Albums (
+See Top 100 Paid in Albums
+)
+#6432
+in
+Digital Music
+>
+Albums
+>
+Jazz
+Customer Reviews
+4.5 out of 5 stars
+2
+4.5 out of 5 stars
+5 star
+50%
+4 star
+50%
+3 star
+0%
+2 star
+0%
+1 star
+0%
+Share your thoughts with other customers
+Write a customer review
+See all verified purchase reviews
+Top Customer Reviews
+5.0 out of 5 stars
+Jazz lovers will Love this.
+By
+Carrie Button
+on February 16, 2017
+Format: MP3 Music
+|
+Verified Purchase
+Howe Gelb is an instant cocktail party, just add cocktails. Relaxing enough for background mood or a real good listen to get the message.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+4.0 out of 5 stars
+A new take on the American Songbook
+By
+Alabaster Sheets
+on February 17, 2017
+Format: Vinyl
+4.5 Stars from this guy.
+Howe Gelb has been making music for quite sometime. He has put out a wonderful secular gospel record with a choir ('Sno Angel Like You), made an album with a band of gypsies (Alegras), and what do you even call what he did with Giant Sand?!?
+With Future Standards, Gelb had a clear goal in mind: expand the classic American Songbook. I suppose it is a similar thing to what Dylan has been doing in a way, but here Howe is writing the tunes and he does so really well. He makes it all sound very natural, easy and sly. It's a rather stripped down affair with mainly piano, bass, drums and vocals with the occasional guitar which seems to help make it all about the songs. Like much of Gelb's strongest work (in this guy's opinion), he brings aboard a wonderful and unique female vocalist (Lonna Kelley in this case) to add some flare to his dusty voice and it works magnificently.
+For long time fans, he revisits the superb Shiver from Chore of Enchantment although it is rearranged to fit within the format of this album. I am really in no position to critique this artist's work but since I am writing a review...
+My only slightly negative thought is that the album has such a great feel and vision but the last few songs are demos that Gelb recorded at home on the Piano. Don't get me wrong, they are still wonderful, it's just not as polished (if the rest of it is polished at all) so it does feel a bit tagged on. This is not really out of step with Howe's work and shouldn't detour anyone away from purchasing Future Standards.
+The songs fit right at home the Great American Songbook just as Howe Gelb intended. It's a fine record if ever there was one.
+Read more
+0
+Comment
+|
+Was this review helpful to you?
+Yes
+No
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Search Customer Reviews
+Search
+What other items do customers buy after viewing this item?
+Lifecycle
+Nathan East
+4.0 out of 5 stars
+1
+$0.69
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-gzF/PwDf/p9P00NNcZOpsjRZ/eozbR/AhYIXrMm0hNhc9pYtsidPPDNVWUUCj1sY rid-CVKN3ZJKWJNTQP0CS3PG

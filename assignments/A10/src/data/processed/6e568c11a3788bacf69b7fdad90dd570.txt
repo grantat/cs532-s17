@@ -1,0 +1,490 @@
+headerArea12base
+こんにちは、
+ゲスト
+様
+y
+新規会員登録
+ログイン
+マイページへ
+ログアウト
+注文状況
+よくあるご質問 (Q&A)
+suggestPopupBox01
+20141002 redmine#256 mod start
+※検索結果を全件表示するには「検索」ボタンを押してください。
+20141002 redmine#256 mod end
+/suggestPopupBox01
+ソーシャルパーツ
+ツイート
+このタグを +1 ボタンを表示する場所に挿入してください
+この render 呼び出しを適切な位置に挿入してください
+Check
+blockModel-main
+ItemPageMain12
+ItemSummaryJacket12
+全ての画像を見る
+ジャンル別のオススメ
+ジャズ
+ItemSummaryJacket12
+ItemSummaryMain12
+【CD】
+COLLAGE
+JAZZ COLLECTIVE
+1回の配送の合計金額が、1,500円(税込）以上で送料無料！
+販売中
+在庫あり
+発送までの目安：当日～翌日
+※発送されてからお届けまでの日数は、地域により異なります
+※セブン-イレブン受け取りサービスをご利用される場合、配送に3～4日かかります
+Yahoo!ウォレットを利用できます
+楽天ペイを利用できます
+ItemSummaryMain12
+ItemSummaryCart12
+価格(税込)
+￥2,400
+ポイント数
+22ポイント
+店舗取置きサービスについて
+返品について
+ItemSummaryCart12
+ItemExplain12
+商品の説明
+商品の情報
+スペック
+特典
+商品の紹介
+アーティストコメント
+レビュー
+作品の情報
+収録内容
+カスタマーズボイス
+関連商品
+関連商品
+関連ニュース＆記事
+関連ニュース＆記事
+/ItemExplain12
+ItemExplain12
+/ItemExplain12
+ItemInfo12
+商品の情報
+発売日
+2014/07/23
+フォーマット
+CD
+構成数
+1
+製造国
+国内
+レーベル
+OCTAVE/JAZZ COLLECTIVE
+規格品番
+OTCD-3722
+/ItemInfo12
+ItemSpec12
+ItemSpec12
+ItemPrivilege12
+/ItemPrivilege12
+ItemComments12
+商品の紹介
+JAZZ COLLECTIVEのサード･アルバム。先行EP「Face to Face」に加え、本作でもワールド･ワイドなコラボによるヴォーカル･ナンバーやJAZZ COLLECTIVEならではの選曲センス光るブラジリアン/ブリストルのカヴァー等を収録。 (C)RS
+JMD
+（2014/06/04）
+ItemComments12
+ItemArtistComments12
+/ItemArtistComments12
+ItemReview12
+レビュー
+世界的な評価も高い日本のクラブ・ジャズ系バンドが放った新作は、ベースとドラムスのみでダブステップに接近するなどの斬新さも見せつつ、スタイリッシュな快音で彼ら流を貫く。ロニー・ロウズ“Night Breeze”やジョージ・デューク追悼の意を込めてのラウル・ジ・スーザ“Daisy Mae”といったフュージョン古典も上々。シェイ・ソウルが歌うクリストル“Don't Change Your Way”のカヴァーはR&B;ファンにも薦めたい。
+bounce
+                                             (C)林剛
+タワーレコード
+（vol.369（2014年7月25日発行号）掲載）
+ItemReview12
+ItemTitleInfo12
+作品の情報
+メイン
+アーティスト：
+JAZZ COLLECTIVE
+その他
+アーティスト：
+田中啓介
+、
+望月敬史
+、
+広瀬たかお
+、
+ARAKI Shin
+、
+神村晃司
+、
+Saya (J-Jazz)
+、
+Shea Soul
+オリジナル盤発売日：2014年07月23日
+ItemTitleInfo12
+ItemInclude12
+収録内容
+構成数
+|
+1枚
+合計収録時間
+|
+00:56:20
+ItemUnit12
+1. [CD]
+タイトル
+時間
+WMA
+HTML
+クレジット
+1.
+INTRO
+00:00:30
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ)
+作
+田中啓介
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+2.
+REJOICE AGAIN
+00:06:52
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+広瀬たかお
+(ｔｅｎｏｒ　ｔｒｏｍｂｏｎｅ) 、
+ARAKI Shin
+(ｔｓ) 、
+神村晃司
+(ｐ) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ)
+作
+ARAKI Shin
+(作（ライター）) 、
+望月敬史
+(作（ライター）)
+3.
+COLLAGE
+00:07:02
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+広瀬たかお
+(ｔｅｎｏｒ　ｔｒｏｍｂｏｎｅ) 、
+ARAKI Shin
+(ｆｌ) 、
+神村晃司
+(ｒｈｏｄｅｓ　ｐｉａｎｏ) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ)
+歌
+Saya (J-Jazz)
+(歌)
+作
+広瀬たかお
+(作（ライター）)
+4.
+DON'T CHANGE YOUR WAYS feat.Shea Soul
+00:05:17
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+広瀬たかお
+(ｋｏｒｇ　ｄｅｌｔａ、ｓｙｎ) 、
+神村晃司
+(ｐ)
+歌
+Shea Soul
+(歌)
+作
+Karon Floyd
+(作（ライター）) 、
+Wardell Potts Jr.
+(作（ライター）) 、
+Barry Sarna
+(作（ライター）) 、
+Delores Marie Warren
+(作（ライター）)
+5.
+DAISY MAE
+00:05:29
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+広瀬たかお
+(ｔｅｎｏｒ　ｔｒｏｍｂｏｎｅ) 、
+ARAKI Shin
+(ｆｌ) 、
+神村晃司
+(ｐ) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ)
+作
+George Duke
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+6.
+NIGHT BREEZE
+00:05:45
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+広瀬たかお
+(ｔｅｎｏｒ　ｔｒｏｍｂｏｎｅ) 、
+ARAKI Shin
+(ｔｓ) 、
+神村晃司
+(ｒｈｏｄｅｓ　ｐｉａｎｏ) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ)
+作
+Bobby Lyle
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+7.
+FACE TO FACE
+00:04:24
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+神村晃司
+(ｐ、ｓｙｎ) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ、ＳＰＤ－ＳＸ)
+作
+望月敬史
+(作（ライター）) 、
+ARAKI Shin
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+8.
+INTERLUDE 1
+00:00:55
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+神村晃司
+(ｐ)
+作
+神村晃司
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+9.
+POWERS OF TEN
+00:03:46
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ)
+作
+田中啓介
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+10.
+LOVE IS THE TRIUMPH
+00:06:34
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+広瀬たかお
+(ｔｅｎｏｒ　ｔｒｏｍｂｏｎｅ) 、
+ARAKI Shin
+(ｔｓ) 、
+神村晃司
+(ｒｈｏｄｅｓ　ｐｉａｎｏ) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ)
+作
+田中啓介
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+11.
+INTERLUDE 2
+00:00:43
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+神村晃司
+(ｐ)
+作
+神村晃司
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+12.
+ISIS
+00:07:16
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+広瀬たかお
+(ｔｅｎｏｒ　ｔｒｏｍｂｏｎｅ) 、
+ARAKI Shin
+(ｔｓ) 、
+神村晃司
+(ｐ) 、
+田中啓介
+(ｅｌ－ｂ) 、
+望月敬史
+(ｄｓ)
+作
+田中啓介
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+13.
+WAY OF INDIGO
+00:01:41
+録音：Studio
+演奏者
+JAZZ COLLECTIVE
+(演奏) 、
+神村晃司
+(ｐ)
+作
+神村晃司
+(作（ライター）)
+編曲
+JAZZ COLLECTIVE
+(バンドアレンジ)
+ItemUnit12
+ItemInclude12
+レコメンド枠
+//レコメンド枠
+レコメンド枠
+//レコメンド枠
+レコメンド枠
+//レコメンド枠
+レコメンド枠
+//レコメンド枠
+カスタマーズボイス
+※現在カスタマーズボイスはありません。ぜひ書き込んでください!
+CriteoAffiliate START
+CriteoAffiliate END
+/ItemPageMain12
+otherArea
+footerArea12base
+ページの先頭へ
+footerNavigation
+ページの先頭へ
+footerArea12base
+オンラインショップ情報
+オンラインショップ売れ筋ランキング
+タワーレコード店舗チャート
+セール＆キャンペーン
+注目アイテム
+タワーセレクション
+インフォメーションメール
+新規会員登録
+ショッピングカート
+マイページ
+店舗取置き/予約
+タワーレコードオンラインが選ばれる理由
+はじめてのお客様へ
+規約、その他
+規約（オンライン利用規約）
+特定商取引法に基づく表示
+プライバシーステートメント
+よくあるご質問 (Q&A;)
+オンラインショッピング
+配送単位
+注文の確認
+キャンセル
+交換・返品
+お知らせ
+音楽情報
+ニュース
+インタビュー
+トピックス
+連載/コラム
+NO MUSIC, NO LIFE.
+LIVE! TOWER RECORDS
+T-Palette Records
+Eggs
+TOWER RECORDS
+bounce
+intoxicate
+tower+
+タワエコブログ
+イントキブログ
+タワレコ渋谷ブログ
+K-POPブログ
+タワレコ販促スタッフぶろぐ
+Mikiki - music review site
+フィード一覧
+ソーシャルメディア一覧
+店舗情報
+店舗一覧
+店舗ニュース
+店舗イベント
+店舗サービス
+規約（タワーレコードメンバーズ利用規約）
+渋谷店ホームページ
+会社情報
+会社情報
+プレスリリース
+採用情報
+復興支援活動について
+店舗に関するお問い合わせ
+アフィリエイトについて
+広告掲載について
+タワーレコード取材等のお問い合わせ
+ディストリビューション(商品流通)に関するお問い合わせ
+PC利用規約
+TOWER RECORDS ONLINEに掲載されているすべてのコンテンツ(記事、画像、音声データ等)はタワーレコード株式会社の承諾なしに無断転載することはできません。
+情報の一部はRovi Corporation.、japan music data、(株)音楽出版社より提供されています。
+タワーレコード株式会社　東京都公安委員会　古物商許可 第302191605310号
+コピーライト
+Google Tag Manager
+End Google Tag Manager
+レコメンド表示用スクリプト

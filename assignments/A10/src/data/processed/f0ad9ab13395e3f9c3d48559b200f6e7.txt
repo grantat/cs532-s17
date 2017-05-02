@@ -1,0 +1,44 @@
+<![endif]
+[if lt IE 9]>
+	<script src="http://www.25gramos.com/wp-content/themes/25gramos/js/html5.js"></script>
+	<![endif]
+[if lt IE 8]>
+<script type='text/javascript' src='http://www.25gramos.com/wp-includes/js/json2.min.js?ver=2015-05-03'></script>
+<![endif]
+<meta name="NextGEN" version="2.1.50" />
+All in one Favicon 4.3
+ABOUT
+BLOG
+TIENDA
+PUBLICIDAD
+CONTACTO
+LECTURA
+CALLE
+CÁPSULAS
+Sneakers
+Gadgets
+Motor
+Arte
+Moda
+Música
+Ocio
+Gastro
+VISUAL
+MIXTAPES
+Buscar:
+MailChimp for WordPress v3.1.8 - https://wordpress.org/plugins/mailchimp-for-wp/
+/ MailChimp for WordPress Plugin
+PREV
+/
+NEXT
+Jamiroquai está de vuelta con el primer single de su próximo álbum
+- 28/01/2017
+El octavo álbum de estudio de
+Jamiroquai
+empieza a preparar su desembarco para el próximo 31 de marzo con este primer single de adelanto titulado '
+Automaton
+', el mismo nombre que llevará el disco. Mientras su vocalista Jay Kay ha reconocido una fuerte inspiración en la tecnología e inteligencia artificial de nuestros días para ensamblar los ritmos que compondrán el sonido de este regreso musical.
+Autor:
+Carlos Sanjosé
+0
+ngg_resource_manager_marker

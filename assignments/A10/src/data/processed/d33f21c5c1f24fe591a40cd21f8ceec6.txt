@@ -1,0 +1,155 @@
+[if (gte IE 6)&(lte IE 8)]>
+    <link rel="stylesheet" src="/assets1/lt9.css">
+    <script src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/assets1/lt9.js"></script>
+    <![endif]
+Home
+Login
+About
+Help
+Chart
+News
+Menu
+SPINITRON
+home
+May
+2017
+S
+M
+T
+W
+T
+F
+S
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+Current playlist
+Program schedule
+WXOX's web site
+Browse
+Artists
+·
+Disks
+·
+Labels
+Search
+the selected month
+Artists
+Disks
+Songs
+Composers
+WXOX
+WXOX 6am - 7am
+H.A.L.
+WXOX Louisville 97.1 FM
+ARTxFM
+WXOX 6am - 7am
+With
+H.A.L.
+Mon Jan 30th 2017 6.00am–7.00am
+R
+=listener request.
+N
+=music new at the station.
+L
+=local music.
+Your
+	purchases using the
+Buy it!
+links
+	help support the station.
+Time zone: eastern
+6:02am
+Art Blakey & The Jazz Messengers
+“Sleeping Dancer Sleep On”
+from
+The Complete Blue Note Recordings Of Art Blakey's 1960 Jazz Messengers (Disc 1 Of 6)
+(1992)
+6:10am
+Flaco JimÃ©nez
+“De Rodillas Quisiera Mirarte”
+from
+Un Mojado Sin Licencia
+(2007)
+6:13am
+Booker T & The MGs
+“Track 08”
+Single
+6:17am
+Philip Glass
+“03-1934 grandmother and Kimitake”
+from
+Mishima
+(1985)
+6:20am
+Mu-qiz-in pine-effect
+“07.Iced_Jem”
+Single
+6:26am
+AntÃ´nio Carlos Jobim
+“Valsa De PÃ´rto Das Caixas”
+from
+AntÃ´nio Carlos Jobim: Composer (Warner Archives)
+(1995)
+6:30am
+Androcell
+“Night Sorceress”
+from
+Entheomythic
+(2010)
+6:39am
+Cocteau Twins
+“05. hearsay please”
+Single
+6:43am
+Aphex Twin
+“Window Sill”
+from
+Selected Ambient Works, Vol 2 [Disc 2]
+(1994)
+6:50am
+Gaudi + Nusrat Fateh Ali Khan
+“Kahin Mot Se Bhi Na Jao”
+from
+Dub Qawwali
+(2007)
+6:56am
+Endless Boogie
+“Low Lifes”
+from
+Focus Level
+(
+No Quarter
+2008)
+Like everything else, times are approximate.
+Spinitron and this station are not liable for errors or omissions.
+Copyright © 2013 Spinitron, LLC. All rights reserved.

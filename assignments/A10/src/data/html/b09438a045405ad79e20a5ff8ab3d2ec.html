@@ -1,0 +1,662 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><head><meta property="og:url" content="http://www.icontact-archive.com/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv?w=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="static/css/jquery-ui-1.8.11-c.custom.css" type="text/css" media="all" />
+<script>
+	
+	var shortUrls = {"0":{"archiveUrl":"http:\/\/www.icontact-archive.com\/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv?w=0","shortenedUrl":"http:\/\/icont.ac\/3F9O5"},"1":{"archiveUrl":"http:\/\/www.icontact-archive.com\/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv?w=1","shortenedUrl":"http:\/\/icont.ac\/3F9ei"},"2":{"archiveUrl":"http:\/\/www.icontact-archive.com\/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv?w=2","shortenedUrl":"http:\/\/icont.ac\/3F9O6"},"3":{"archiveUrl":"http:\/\/www.icontact-archive.com\/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv?w=3","shortenedUrl":"http:\/\/icont.ac\/3F9O7"},"4":{"archiveUrl":"http:\/\/www.icontact-archive.com\/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv?w=4","shortenedUrl":"http:\/\/icont.ac\/3F9e6"},"6":{"archiveUrl":"http:\/\/www.icontact-archive.com\/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv?w=6","shortenedUrl":"http:\/\/icont.ac\/3F9O8"},"7":{"archiveUrl":"http:\/\/www.icontact-archive.com\/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv?w=7","shortenedUrl":"http:\/\/icont.ac\/3F9O9"}};
+	
+	(function($) {
+		$.extend({
+			getUrlVars: function()
+			{
+				var vars = [];
+				if(window.location.search.length == 0) {
+					return vars;
+				}
+				var hashes = window.location.search.slice(window.location.search.indexOf('?') + 1).split('&');
+				for (var i = 0; i < hashes.length; i++) {
+					var hash = hashes[i].split('=');
+					vars.push(hash[0]);
+					vars[hash[0]] = hash[1];
+				}
+				return vars;
+			},
+
+			getUrlVar: function(name)
+			{
+				return $.getUrlVars()[name];
+			},
+
+			getShortUrl:  function()
+			{
+				var wParameter = $.getUrlVar('w');
+				if (wParameter !== undefined && shortUrls[wParameter] !== undefined) {
+					return shortUrls[wParameter]['shortenedUrl'];
+				}
+				return shortUrls[0]['shortenedUrl'];
+			},
+
+			urlEncodeParameters: function(o)
+			{
+				tail = [];
+				$.each(o, function(key, value)
+				{
+					tail.push(key + "=" + encodeURIComponent(value));
+				})
+				return tail.join("&");
+			},
+
+           processClick: function(key,statType,baseUrl)
+           {
+               	var data = {
+						"d"  : key,
+						"t"  : statType
+					}
+
+					var w = $.getUrlVar('w');
+					if (w !== null && w !== undefined){
+						data.w = w;
+					}
+
+					var params = $.urlEncodeParameters(data);
+
+					$.getJSON(baseUrl + "/rtrack.php?" + params, '&jsoncallback=?', function(data){});
+           }
+
+		});
+
+	})(jQuery);
+
+</script>
+
+<style>
+	#addThisBar {
+		width: 100%;
+		margin: 0 0 1em 0;
+		padding: 0;
+		background-color: #f2f2f2;
+		border-bottom: 1px solid #ccc;
+		position: fixed;
+		z-index: 100;
+	}
+
+	#addThisBar ul {
+		list-style: none;
+		width: 600px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	#addThisBar li {
+		float: left;
+		margin-top: 2px;
+	}
+
+	#addThisBar li a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #069;
+	}
+
+	#addThisBar .shareBar {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		margin-top: 5px;
+		margin-left: 10px;
+		font-weight: bold;
+		color: #069;
+	}
+
+    .buttons {
+        width: 250px;
+        margin-left: 90px;
+    }
+
+	#messageMainContent {
+		position: absolute;
+		top: 25px;
+		left: 0px;
+		width: 100%;
+	}
+
+	#poweredBy {
+		float: right;
+		margin-top: 2px;
+		margin-right: 5px;
+	}
+
+	body {
+		margin: 0;
+	}
+</style>
+<meta property="og:image" content="http://app.icontact.com/icp/static/images/spacer.gif" />
+<meta property="og:title" content="La frase del día,propuesta: Museo de la Ciudad de México, Luz e imaginación" />
+<meta property="og:type" content="company" />
+<meta property="fb:app_id" content="217374801631195" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head><body>
+<script type="text/javascript">
+(function() {
+    $(document).ready(function() {
+            var share = $("script[type='IN/Share']").each(function(){
+				$(this).attr('data-url', $.getShortUrl());
+			});
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'http://platform.linkedin.com/in.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+
+            var showDialogBox = (window.location.hash == '#linkedinshare' ? true : false);
+            if(showDialogBox) {
+                var linkedinshareDialog = $( "#linkedIn-dialog-modal" ).dialog({
+                        height: 150,
+                        width: 370,
+                        resizable: false,
+                        draggable: false,
+                        modal: true
+                });
+
+                //Work around for jQuery UI to allow limiting CSS to just the dialog and overlay
+                linkedinshareDialog.parent().wrap('<div class="__dialog_theme linkedIn"></div>')
+                         .parent().next().wrap('<div class="__dialog_theme"></div>');//the next element is the overlay
+			}
+    });
+
+    })();
+
+
+function handleLinkedInShareEvent(){
+                
+                    $.processClick("9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv","500","https://app.icontact.com/icp");
+                   
+                if((window.location.hash == '#linkedinshare' ? true : false)) {
+			$('#linkedInInstructions').hide();
+			$('#linkedInThankYou').show();
+			$("#linkedIn-dialog-modal").parent().delay(1000).fadeOut(function() {
+			$("#linkedIn-dialog-modal").dialog('close');
+			});
+		}
+        }
+</script>
+
+
+<div id="linkedIn-dialog-modal" class="linkedin dialogue"  style="display:none;">
+	<span id="linkedInInstructions">
+		<h2>Share this message</h2>
+		<p>Click the button below to share this on LinkedIn.</p>
+	</span>
+	<span id="linkedInThankYou" style="display:none;">
+		<h2>Thank you</h2>
+		<p>Thank you for sharing our message on LinkedIn.</p>
+	</span>
+	<div id="dialoglinkedIn" class="ui-corner-all"><script type="IN/Share" data-url="http://icont.ac/3F9O5" data-onSuccess="handleLinkedInShareEvent"></script></div>
+</div>
+<script type="text/javascript">
+window.___gcfg = {
+    lang: 'en-US'
+};
+
+(function() {
+    $(document).ready(function() {
+        var googleplusone = $("g\\:plus").each(function() {
+            $(this).attr('href', $.getShortUrl());
+        });
+        var po = document.createElement('script');
+        po.type = 'text/javascript';
+        po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(po, s);
+        var showDialogBox = (window.location.hash == '#googleplusone' ? true : false);
+        if (showDialogBox) {
+            var googleDialog = $("#google-dialog-modal").dialog({
+                height: 150,
+                width: 375,
+                resizable: false,
+                draggable: false,
+                modal: true
+            });
+
+            //Work around for jQuery UI to allow limiting CSS to just the dialog and overlay
+            googleDialog.parent().wrap('<div class="__dialog_theme googlePlusOne"></div>')
+                    .parent().next().wrap('<div class="__dialog_theme"></div>');//the next element is the overlay
+        }
+
+    }); //end doc ready
+})(); //end function
+
+function handleGooglePlusOneEvent(l, s){
+        if (s != 'off') {
+					
+                    $.processClick("9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv","400","https://app.icontact.com/icp");
+                    
+        }
+        if ((window.location.hash == '#googleplusone' ? true : false)) {
+            $('#googleInstructions').hide();
+            $('#googleThankYou').show();
+            $("#google-dialog-modal").parent().delay(1000).fadeOut(function() {
+                $("#google-dialog-modal").dialog('close');
+            });
+        }
+}
+</script>
+
+
+<div id="google-dialog-modal" class="google dialogue" style="display:none;">
+	<span id="googleInstructions">
+		<h2>+1 this message</h2>
+		<p>Click the button below to +1 this on Google+.</p>
+	</span>
+	<span id="googleThankYou" style="display:none;">
+		<h2>Thank you</h2>
+		<p>Thank you for sharing our message on Google+.</p>
+	</span>
+
+    <div id="dialogGoogle" class="ui-corner-all"><g:plusone size="tall" annotation="none" callback="handleGooglePlusOneEvent" href="http://icont.ac/3F9O5"></g:plusone></div>
+</div>
+<script>
+	(function($) {
+
+		$(document).ready(function() {
+			$('a[class="twitter-share-button"]').each(function()
+			{
+				$(this).attr('data-url', $.getShortUrl());
+			});
+
+		$.getScript("http://platform.twitter.com/widgets.js", function(){
+			var data = {
+			
+				"d"  : "9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv",
+				"t"  : "300"
+			
+			}
+
+			var w = $.getUrlVar('w');
+			if (w !== null && w !== undefined) {
+				data.w = w;
+			}
+
+			var params = $.urlEncodeParameters(data);
+
+			function handleTweetEvent(event){
+						
+							$.getJSON("https://app.icontact.com/icp/rtrack.php?" + params, '&jsoncallback=?',
+						
+								function(data){}
+								);
+			}
+
+			if($.browser.msie) {
+				twttr.events.bind('click',
+					handleTweetEvent
+				);
+			}
+			else {
+				twttr.events.bind('tweet',
+					handleTweetEvent
+				);
+			}
+		})
+});
+})(jQuery);
+
+
+</script>
+<div id="fb-root"></div>
+
+<script>
+	(function()	{
+		$(document).ready(function() {
+			var fblike = $("fb\\:like").each(function(){
+				$(this).attr('href', $.getShortUrl());
+			});
+			var e = document.createElement('script');
+			var showDialogBox = (window.location.hash == '#fblike' ? true : false);
+			e.type = 'text/javascript';
+			e.src = document.location.protocol + i18n.global.facebook.api_url;
+			e.async = true;
+			document.getElementById('fb-root').appendChild(e);
+
+			window.fbAsyncInit = function()	{
+				FB.init({appId:'217374801631195', status: true, cookie: true,xfbml: true, oauth: true});
+
+				FB.Event.subscribe('edge.create', function(href, widget) {
+					if(showDialogBox) {
+							$('#likeInstructions').hide();
+							$('#likeThankYou').show();
+							$("#dialog-modal").parent().delay(1000).fadeOut(function() {
+								$("#dialog-modal").dialog('close');
+							});
+					}
+					
+                    $.processClick("9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv","200","https://app.icontact.com/icp");
+                    
+				});
+
+			};
+
+			if(showDialogBox) {
+				var likeDialog = $( "#dialog-modal" ).dialog({
+					height: 150,
+					width: 370,
+					resizable: false,
+					draggable: false,
+					modal: true
+				});
+
+				//Work around for jQuery UI to allow limiting CSS to just the dialog and overlay
+				likeDialog.parent().wrap('<div class="__dialog_theme facebook"></div>')
+					 .parent().next().wrap('<div class="__dialog_theme"></div>');//the next element is the overlay
+			}
+		});
+	}());
+
+
+</script>
+
+<div id="dialog-modal" class="facebook dialogue" style="display:none;">
+	<span id="Instructions">
+		<h2>Like this message.</h2>
+		<p>Click the button below to like this on Facebook.</p>
+	</span>
+	<span id="likeThankYou" style="display:none;">
+		<h2>Thank you</h2>
+		<p>Thank you for sharing our message on Facebook.</p>
+	</span>
+	<div id="dialogLike" class="ui-corner-all"><span style="width:50px;height:20px;overflow:hidden;display:inline-block;"><fb:like href="http://icont.ac/3F9O5" show_faces="false" width="50" font="" layout="button_count" ref=""></fb:like></span></div>
+
+</div><!-- AddThis Button BEGIN -->
+
+<script>
+i18n={global:{facebook:{api_url:'//connect.facebook.net/en_US/all.js'}}};
+</script>
+
+
+<div id="addThisBar">
+	<div id="poweredBy">
+		&nbsp;&nbsp; <a href=http://www.icontact.com target="_blank"><img height="20" border="0" src="https://app.icontact.com/icp/login/static/images/poweredby/poweredBy_iContact_105x20.png" /></a>
+	</div>
+	<ul>
+		<div class = "addthis_toolbox addthis_default_style">
+			<li class="buttons">
+				<a class="at300b">
+					<span class="facebooklikespan">
+						<span style="width:50px;height:20px;overflow:hidden;display:inline-block;"><fb:like href="http://icont.ac/3F9O5" show_faces="false" width="50" font="" layout="button_count" ref=""></fb:like></span>
+					</span>
+				</a>
+				<a class="at300b">
+					<span class="twittertweetspan">
+						<a href="http://twitter.com/intent/tweet" data-url="http://icont.ac/3F9O5" class="twitter-share-button" data-count="horizontal" data-via="FrasedeldiaMich" data-text="Una novedosa forma de interacturar con la luz, Jamiroquai está en la casa y más aquí... ">Tweet</a>
+					</span>
+				</a>
+				<a class="at300b">
+                    <div style="height:20px">
+					<span class="googleplusonespan">
+						<g:plusone size="tall" annotation="none" callback="handleGooglePlusOneEvent" href="http://icont.ac/3F9O5"></g:plusone>
+					</span></div>
+				</a>
+				<a class="at300b">
+   					<span class="lnkdinshare">
+						<script type="IN/Share" data-url="http://icont.ac/3F9O5" data-onSuccess="handleLinkedInShareEvent"></script>
+					</span>
+				</a>
+			</li>
+
+			<li class="shareBar">
+				Share this Page:			</li>
+			<li class="shareBar">
+				<a class="addthis_button">
+					<img width="16" height="16" border="0" align="top" src="http://s7.addthis.com/static/btn/sm-plus.gif" alt="Share">
+				</a>
+			</li>
+		</div>
+	</ul>
+</div>
+<script type = "text/javascript">
+	var addthis_share = {
+			templates: {twitter: "Check out " + $.getShortUrl() + " via FrasedeldiaMich" }
+	};
+	var addthis_config = {
+		"data_track_clickback": true,
+		services_compact: 'email,print,facebook,linkedin,google,digg,stumbleupon,favorites,more',
+		ui_cobrand: "<a href='http://www.icontact.com'>iContact</a>"
+	};
+</script>
+<script type = "text/javascript" src ="http://s7.addthis.com/js/250/addthis_widget.js#username=iContactCorp" ></script>
+<!-- AddThis Button END --><div id="messageMainContent"><table cellpadding="0" cellspacing="0" width="100%" bgcolor="#000000" style="background-color:#000000"><tbody><tr><td align="center" style="text-align:left"><table align="center" cellpadding="0" cellspacing="0" id="topMessageWrapper" style="background-color: #000000; color: #858585; font-family: Arial; font-size: 11px; width: 520px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top: 0px none transparent; border-right: 0px none transparent; border-bottom: 0px none transparent; border-left: 0px none transparent; margin: 0 auto;" bgcolor="#000000" width="520"><tbody><tr><td>
+	<!-- DESIGNER TEMPLATE: CleanAndSimple --><!-- BASIC TEMPLATE: unknown derivation --><table width="520" height="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" style="padding-top: 20px; padding-bottom: 10px; color: #858585; font-family: Arial; font-size: 11px;">
+									<div><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+</td></tr></tbody></table></div>
+								</td>
+							</tr></tbody></table></td>
+			</tr><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+					<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td width="180" height="100%" valign="top" style="background-color: #a2c76b; color: #858585; font-family: Arial; font-size: 11px;" bgcolor="#a2c76b">
+									<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td height="100%" valign="top" style="padding: 20px; color: #858585; font-family: Arial; font-size: 11px;">
+													
+																						
+													
+													
+													<div><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+</td></tr></tbody></table></div>
+													
+													
+													
+													<div>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="padding-top: 20px; color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<font class="Apple-style-span" color="#1f2932" size="4"><b>Visítanos en las redes sociales:</b></font></p>
+</td>
+																</tr></tbody></table></div>
+													
+													<div><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+</td></tr></tbody></table></div>
+													<div>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="padding-top: 5px; color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<span style="color: #ffffff;"><span style="font-size: 10px;"><a href="http://click.icptrack.com/icp/rclick.php?d=9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv&amp;destination=http%3A%2F%2Fwww.facebook.com%2Fpages%2FLa-Frase-del-D%25C3%25ADa%2F134241700717%3Fref%3Dts" style="color: #1f2932;"><img style="margin: 0px; border: 0px solid transparent; display: inline; border-image: none;" alt="" src="http://files.icontact.com/templates/v2/CleanAndSimple/images/facebook.gif"></a>&nbsp;&nbsp;<span style="font-size: 15px;">Siguenos, y ve muchas más propuestas, frases y videos</span></span></span></p>
+</td>
+																</tr></tbody></table></div>
+													<div>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="padding-top: 5px; color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<span style="color: #ffffff;"><span style="font-size: 10px;"><a href="http://click.icptrack.com/icp/rclick.php?d=9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv&amp;destination=https%3A%2F%2Ftwitter.com%2F%23%21%2FFrasedeldiaMich" style="color: #1f2932;"><img style="margin: 0px; border: 0px solid transparent; display: inline; border-image: none;" src="http://files.icontact.com/templates/v2/CleanAndSimple/images/twitter.gif"></a>&nbsp; <span style="font-size: 15px;"><span style="color: #ffffff;"><a style="color: #ffffff;" href="#">M</a>uchas frases más.</span></span></span></span></p>
+</td>
+																</tr></tbody></table></div>
+													
+													<div style="border-color: #c2d9e7;">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="padding-top: 5px; padding-bottom: 5px; color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	<span style="color: #ffffff;"><span style="font-size: 10px;"><img style="display: inline;" src="http://files.icontact.com/templates/v2/CleanAndSimple/images/envelope.gif">&nbsp; <a style="color: #ffffff;" href="#"><span style="color: #ffffff;">Send us an Email</span></a></span></span></p>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+</td>
+																</tr></tbody></table></div>
+												</td>
+											</tr></tbody></table></td>
+								<td width="340" height="100%" valign="top" style="background-color: #ffffff; color: #858585; font-family: Arial; font-size: 11px;" bgcolor="#ffffff">
+									<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td height="100%" valign="top" style="padding: 20px; color: #858585; font-family: Arial; font-size: 11px;">
+													<div style="border-color: #c2d9e7;" class="">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="border-bottom: 1px solid #acd373; padding-bottom: 10px; color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="font-size: 24px;"><strong><span style="color: #333333;">15 años Enero 2017</span></strong></span></p>
+</td>
+																</tr></tbody></table></div>
+													<div class=""><table width="100%" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;"><p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p></td></tr></tbody></table></div>
+<div><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+</td></tr></tbody></table></div>
+<div class=""><table width="100%" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+</td></tr></tbody></table></div>
+<div style="display: block; border-color: #c2d9e7;" class="">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="border-bottom: 1px solid #acd373; padding-bottom: 20px; padding-top: 20px; color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><font class="Apple-style-span" color="#384655" size="5"><b>La Frase del día</b></font></p>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #000000;"><span style="font-size: 16px;">El éxito es la capacidad de ir de un fracaso al otro sin perder el entusiasmo</span></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #000000;"><span style="font-size: 16px;">Winston Churchill</span></span></p>
+</div>
+</td>
+																</tr></tbody></table></div>
+<div class=""><table width="100%" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</td></tr></tbody></table></div>
+<div class=""><table width="100%" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;"><p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p></td></tr></tbody></table></div>
+<div><table width="100%" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;"></td></tr></tbody></table></div>
+													<div style="border-color: #c2d9e7;" class="">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="border-bottom: 1px solid #acd373; padding-bottom: 20px; padding-top: 20px; color: #858585; font-family: Arial; font-size: 11px;">
+<p class="MsoNormal" style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><font color="#000000"><span style="font-size: 18px;"><b>Propuesta del día:Museo de la ciudad de México, Luz e imaginación</b></span></font></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #000000;"><span style="font-size: 16px;">Una buen exposición donde artistas mexicanos toman como principal elemento la luz, y como segundo la Ciudad de México , su historia, sus actualidad y su complejidad&nbsp;</span></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #000000;"><span style="font-size: 16px;">Muy interesante y muy bien armada con buenas instalaciones que hacen que los que espectadores se inmersas</span></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #000000;"><span style="font-size: 16px;">Vale la pena</span></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #000000;"><span style="font-size: 16px;">(da clic en la imagen o en el link para ver más información)</span></span></p>
+
+<div>&nbsp;</div>
+
+<div>&nbsp;</div>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><a href="http://click.icptrack.com/icp/rclick.php?d=9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv&amp;destination=http%3A%2F%2Fhttps%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DtGDLurDBE8U" style="color: #1f2932;"><img src="http://www.buro247.mx/images/2-luz-e-imaginacion-la-exposicion-que-tienes-que-conocer-en-el-Museo-de-la-Ciudad-de-Mexico.jpg" style="width: 300px; margin: 0px; border: 0px solid #858585; height: 169px;" width="300" height="169"></a></p>
+
+<div>&nbsp;</div>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #1f2932;"><span style="color: #000000;"><span style="font-size: 16px;"><a href="http://click.icptrack.com/icp/rclick.php?d=9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv&amp;destination=http%3A%2F%2Fhttps%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DtGDLurDBE8U" style="color: #1f2932;">https://www.youtube.com/watch?v=tGDLurDBE8U</a></span></span></span></p>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+
+<div>
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</div>
+</td>
+																</tr></tbody></table></div>
+													<div><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+</td></tr></tbody></table></div>
+<div class=""><table width="100%" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">
+	&nbsp;</p>
+</td></tr></tbody></table></div>
+<div style="border-color: #c2d9e7;" class="">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="padding-top: 20px; color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><a href="http://click.icptrack.com/icp/rclick.php?d=9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv&amp;destination=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrmlmOk4ubcU" style="color: #1f2932;"><img src="http://warp.la/wp-content/uploads/2017/01/jamiroquai-automaton-600x600.jpg" style="width: 300px; margin: 0px; border: 0px solid #858585; height: 300px;" width="300" height="300"></a></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #858585;"><span style="color: #000000;"><span style="font-size: 16px;"><a href="http://click.icptrack.com/icp/rclick.php?d=9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv&amp;destination=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrmlmOk4ubcU" style="color: #1f2932;">https://www.youtube.com/watch?v=rmlmOk4ubcU</a></span></span></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;"><span style="color: #858585;"><span style="color: #000000;"><span style="font-size: 16px;">El ritmo de Jamiroquai impregnado de la influencia del electronico francés como Daft Punk en esta rola</span></span></span></p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</td>
+																</tr></tbody></table></div>
+												</td>
+											</tr></tbody></table></td>
+							</tr></tbody></table></td>
+			</tr><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" style="padding-top: 20px; padding-bottom: 10px; color: #858585; font-family: Arial; font-size: 11px;">
+									
+								<div class=""><table width="100%" cellpadding="0" cellspacing="0" style="word-wrap: break-word; table-layout: fixed;"><tbody><tr><td style="color: #858585; font-family: Arial; font-size: 11px;">
+<p style="margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding: 0;">&nbsp;</p>
+</td></tr></tbody></table></div>
+</td>
+							</tr></tbody></table></td>
+			</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>
+
+
+<!-- <img src="http://click.icptrack.com/icp/rtrack.php?d=9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv" width="1" height="1"> -->
+</div><script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=1';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+<script type="text/javascript">var query = document.location.href.substring(document.location.href.indexOf("9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv")).replace("?","&");var hashTag = query.indexOf("#");if(hashTag > -1) { query = query.substring(0, hashTag); }document.body.innerHTML = document.body.innerHTML.replace(/9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv/g,query);var img = new Image();img.src = "https://app.icontact.com/icp/rtrack.php?d="+query;img.width = 1;img.height = 1;document.body.appendChild(img);</script><noscript><img src="https://app.icontact.com/icp/rtrack.php?d=9YAy2X8Nnzrm9ZmJ5tzJ11-lroLNuEdv" width="1" height="1" /></noscript></html>

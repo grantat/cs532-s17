@@ -1,0 +1,296 @@
+<![endif]
+[if lte IE 8]>
+    <link rel="stylesheet" media="all" type="text/css" href="/_assets/css/ie.268.css" />
+  <![endif]
+Typekit
+[if IE 7]>
+<script src="//engage.summitpronets.com/framework/js/vendor/json2.min.js"></script>
+<![endif]
+Header
+Investment Advisor
+Tech Center
+/.container
+The Portfolio
+Wealth
+Retirement
+Life/Health
+The Practice
+Academy
+More
+Search
+Register
+Sign In
+/.container
+/.main-nav
+My account
+CE Center
+Total Progress
+0%
+/.bar_label
+/.inner
+My Dashboard
+/.bubble
+12 tests available
+Earn credits and track your progress now »
+Log out
+<ul class="member-options container">
+    <li class="first"><a href="/account/" class="account main-link">My account</a></li>
+    <li><a class="log-out main-link" href="javascript:;">Log out</a></li>
+  </ul>
+/.sticky-nav-holder
+Sign In
+Register
+The Portfolio
+Wealth
+Retirement
+Life/Health
+The Practice
+Academy
+>
+Resource Library
+CE Center
+Webcasts
+Professional Library
+Events
+More
+>
+Investment Advisor
+Research Magazine
+Video Library
+eNewsletters
+<li><a href="/fact-sheets?ref=nav">Fact Sheets</a></li>
+TechCenter
+College Planning
+Blogs
+Investing Guides
+Trigger
+<ul class="member-options logged-in">
+    <li>
+      <a href="#"><img src="http://placehold.it/20x20"/>Name</a>
+    </li>
+    <li><a href="/account">My Account</a></li>
+    <li><a class="log-out" href="#">Log Out</a></li>
+  </ul>
+  <ul class="member-options logged-out">
+    <li><a class="login" href="#">Log in</a></li>
+    <li><a class="join" href="#">Join</a></li>
+  </ul>
+pushdown components
+end pushdown components
+Custom Header
+Most Popular
+Most Popular
+Michael Lewis: A Warning for Index Investors From the Oakland A's
+What’s Best Investment Since 2000? Most Americans Guessed Wrong
+Trump Tax Proposal to Include Estate Tax Repeal
+alternate smartsite header
+/alternate smartsite header
+AddThis
+This copy is for your personal, non-commercial use only. To order presentation-ready copies for distribution to your colleagues, clients or customers, click the "Reprints" link at the bottom of any article.
+From the
+January 2017
+issue of Research Magazine •
+Subscribe!
+December 27, 2016
+Alex. Brown Is Back
+Now part of Raymond James, its history spans 200-plus years and now includes 193 advisors nationwide with about $40 billion in client assets
+/.article-header
+CE Article Cookie is set in main.js
+Article Main Content
+Alex. Brown President Haig Ariyan and Chairman Seth Waugh (Photo: Calista Chandler)
+ThinkAdvisor PROFESSIONAL LIBRARY
+/ThinkAdvisor PROFESSIONAL LIBRARY
+Annotation
+/ Annotation
+Location. Location. Location. It matters to advisors as well as realtors.
+With Raymond James Financial’s purchase of Alex. Brown from Deutsche Bank, its San Francisco-based advisors have moved up to the 45th floor of a downtown skyscraper, near where they had worked before becoming part of the German bank.
+ad
+/ad
+Complete your profile to continue reading and get FREE access to ThinkAdvisor.com, part of your ALM digital membership.
+Your access to unlimited ThinkAdvisor.com content isn’t changing. Once you are an ALM digital member, you’ll receive:
+Critical ThinkAdvisor information including continuing education articles and quizzes, Fact Sheets, Investing Guides, educational webcasts and videos, resources from industry leaders, and informative eNewsletters.
+Exclusive discounts on ALM and ThinkAdvisor events.
+Access to other award-winning ALM publications including GlobeSt.com and Law.com.
+Register Now
+Already have an account?
+Sign In
+/page
+ThinkAdvisor PROFESSIONAL LIBRARY
+/ThinkAdvisor PROFESSIONAL LIBRARY
+Annotation
+/ Annotation
+“To have such a significant percentage of these advisors choose to continue to be affiliated with Alex. Brown and become part of the Raymond James family not only speaks about the power of the combination but also … creates tremendous pride within Raymond James more broadly,” the Raymond James & Associates, Private Client Group president explained.
+Elwyn knows the Alex. Brown reps had “their choice” of firms to move to, if they wanted to depart. “They had all firms in the profession knocking on their door and inviting them to join,” he said. “But so many chose to stay and grow their business with Raymond James, which reflects quite positively on the broader organization. We are thrilled with the retention results.”
+ad
+/ad
+/page
+ThinkAdvisor PROFESSIONAL LIBRARY
+/ThinkAdvisor PROFESSIONAL LIBRARY
+Annotation
+/ Annotation
+Mallon says clients he is in touch with “have been overwhelmingly positive.” The reason for this outcome, he believes, is communication. “We did lots of communicating with clients and talked about expectations, so we kept them updated … and solicited their input, as well,” said the executive during an interview in the firm’s Bay Area office.
+Advisor Melinda Fishel sees the Raymond James’ platform as “perfect for my clients,” says the San Francisco-based rep. “The biggest positive is the number of resources and team members in place. The systems are great.”
+ad
+/ad
+/page
+/article-content
+PPD Book
+/PPD Book
+mobile-article-nativation
+« Prev
+Next »
+/mobile-article-navigation
+/.page-nav
+/.article-pagination
+Close single page view
+Reprints
+Discuss this story
+We welcome your thoughts. Please allow time for your contribution to be approved and posted. Thank you.
+Please enable JavaScript to view the
+comments powered by Disqus.
+.article-after
+related-terms
+/related-terms
+native article widget
+By
+Janet Levaux
+Editor in Chief
+Investment Advisor & Research magazines
+Think_JanetL
+Share this story
+<div class="share-block" id="article-share"></div>
+Go to www.addthis.com/dashboard to customize your tools
+/.article-meta
+/.sidebar
+Want the latest investment news?
+Sign up for the free Daily Wire newsletter
+bringing you the latest market updates, advisor best practices, industry statistics, and commentary to grow your business and manage your practice
+.
+Sign up now—it's Free!
+Subscribe Now →
+You are signed up!
+Scroll Reveal
+Sponsor Showcase
+ThinkAdvisor TechCenter
+ThinkAdvisor's TechCenter is an educational resource designed to give you a competitive edge by keeping you abreast of new tech innovations and need-to-know information that can be applied to your business.
+Financial Education Resource Center
+ThinkAdvisor and the College for Financial Planning have partnered to bring you a series of helpful educational tools that you can use to take your career to the next level.
+/.module
+/.col-1-3
+Resources
+5 Steps to Eradicate Text Messaging Risk
+In this White Paper, we share five steps to help you build a risk management program that enables the benefits of text messaging while protecting...
+Answer the $1 million question for your business
+Can refocusing your business model help recharge your business’s value?
+Attract More Clients and Exceed Expectations
+Learn how to build a better business and create loyal clients and advocates from the start.
+View All Resources
+/.module
+/.col-1-3
+Webcasts
+Cultivate Digital Wealth Management Success through Automation
+May 11, 2017
+Mega trends continue to impact the wealth management industry. Trends such as new digital competition, increasing compliance standards, fee pressures, and an aging advisor population....
+Fighting Low-Health Care Literacy: Why Education Matters
+May 03, 2017
+Join this complimentary webcast to understand how to better connect with consumers so you can develop high-value packages that work for both sponsors and beneficiaries...
+Turbocharging Firm Productivity with Smart Tech Integration
+Apr 12, 2017
+Energize your firm’s productivity with technology by joining the experts at Envestnet as they share how to increase profitability and gain a competitive edge with...
+View All Webcasts
+/.module
+/.col-1-3
+/.scrollers
+/end test player
+/.featured-video__player
+Featured Video
+Preparing clients for life’s unexpected moments
+Provided by Prudential Advisors
+See how Prudential Advisors helped one couple take on a challenge they didn’t see coming.
+*Prudential Advisors is a brand name of The Prudential Insurance Company of America and its subsidiaries.
+Share this video
+/.featured-video__share
+/.featured-video__meta
+/.featured-video
+Most Recent Videos
+BEGIN REPEATED CONTENT
+image-wrap
+A Teacher’s Lesson Plan
+p class="module-video-library-video__source-tag">Provided by Prudential</p
+p class="module-video-library-video__deck">Troy, a professor who has spent his life helping others, now finds himself needing to catch up with planning for...</p
+image-wrap
+ENVESTAT: 2016 Year-in-Review
+p class="module-video-library-video__source-tag">Provided by Envestnet</p
+p class="module-video-library-video__deck">Powerful insights, trends, and predictions about investor behavior and advisory practices.</p
+image-wrap
+An Industry Transformed
+p class="module-video-library-video__source-tag">Provided by Envestnet</p
+p class="module-video-library-video__deck">The wealth management industry is changing. To keep pace, advisors need to understand client needs in greater detail and demonstrate...</p
+/.module-video-library-video
+END REPEATED CONTENT
+Video Library ››
+Also in Careers
+AllianceBernstein Fires CEO Peter Kraus and Removes More Than Half Its Board
+Ultra-Long U.S. Bonds Can Absolutely Make Sense: Mnuchin
+Trump Weighs Breaking Up Wall Street Banks, Raising U.S. Gas Tax
+Morningstar to Offer Advisors a New Tool to Evaluate Risk: Portfolio Products
+Who Will Be Hurt by Trump’s Plan to End State & Local Tax Deductions?
+More Careers
+Explore Tags
+The Wealth Manager
+IBDs
+Careers
+Wirehouses
+/.related-content
+Topic Spotlight
+/.topic-spotlight
+/.page-wrap
+/#outer-wrapper
+Advertise
+Contact
+About
+Privacy Policy
+Press
+Reprints
+RSS
+eNewsletters
+Magazines
+Editorial Calendar
+Terms of Use
+ALM
+Copyright © 2017
+ALM Media
+, LLC. All Rights reserved.
+Twitter
+LinkedIn
+Facebook
+Google Plus
+Advertisement. Closing in
+15
+seconds.
+Complete your profile to continue reading and get FREE access to ThinkAdvisor, part of your ALM digital membership
+Your access to unlimited ThinkAdvisor content isn’t changing. Once you are an ALM digital member, you’ll receive:
+Unlimited Digital Access to ThinkAdvisor.com and other free ALM publications
+5 free articles across the ALM subscription network every 30 days
+Your choice of ThinkAdvisor digital newsletters and over 70 others from popular sister publications
+Exclusive discounts on ALM events and publications
+Register Now
+Already have an account?
+Sign In
+*
+May exclude premium content
+/wall_block
+X
+Sign in with your ALM Account
+Remember Me
+Or...
+Sign In With
+LinkedIn
+Register for an Account
+|
+Forgot Your Password
+*
+May exclude premium content
+/wall_login
+/wall_login_lightbox_inner
+/wall_login_lightbox

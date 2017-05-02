@@ -1,0 +1,209 @@
+<![endif]
+Google Chrome Frame for IE
+[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]
+mobile meta
+head extras
+This site is optimized with the Yoast SEO plugin v3.6.1 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 10]>
+<link rel='stylesheet' id='cb-ie-only-css'  href='http://3d70893w1ykk2kocbbdjn5u1.wpengine.netdna-cdn.com/wp-content/themes/15zine/library/css/ie.css?ver=2.2.3' type='text/css' media='all' />
+<![endif]
+This site uses the Google Analytics by MonsterInsights plugin v5.5.2 - Universal enabled - https://www.monsterinsights.com/
+/ Google Analytics by MonsterInsights
+end custom css
+end head extras
+Merchandise
+Downloads
+Online Champs
+DMC TV
+DJ Champs
+More
+Home
+Features
+Buzz Chart
+Back To Mine
+Reviews
+Albums
+Ambient
+Balearic/Downtempo
+Bass
+Breaks
+Club Funk
+Compilations
+Dance
+Drum & Bass
+Dubstep
+Electro
+Electronic
+EP
+Hard Dance
+Hip-Hop
+House
+International
+Leftfield
+Mainstream
+Prog / Tribal / Trance
+R&B / Soul
+Soul / Funk
+Tech / Electro
+Tech / House
+Techno
+Twisted
+Urban
+DJ TV
+Zzub Chart
+Trainspotting
+Home
+Features
+Features
+See all
+Buzz Charts 27-04-17
+April 27, 2017
+Jackie
+April 24, 2017
+Moguai
+April 24, 2017
+Buzz Chart
+Buzz Chart
+See all
+Buzz Charts 27-04-17
+April 27, 2017
+Buzz Charts 20-04-17
+April 21, 2017
+Buzz Charts 13-04-17
+April 13, 2017
+Back To Mine
+Back To Mine
+See all
+Back To Mine with Rui Da Silva (Lisbon Kid)
+April 25, 2017
+Back to Mine with STUFF
+April 24, 2017
+Back To Mine with Heidrun
+April 20, 2017
+Reviews
+Albums
+Ambient
+Balearic/Downtempo
+Bass
+Breaks
+Club Funk
+Compilations
+Dance
+Drum & Bass
+Dubstep
+Electro
+Electronic
+EP
+Hard Dance
+Hip-Hop
+House
+International
+Leftfield
+Mainstream
+Prog / Tribal / Trance
+R&B / Soul
+Soul / Funk
+Tech / Electro
+Tech / House
+Techno
+Twisted
+Urban
+DJ TV
+Zzub Chart
+Trainspotting
+Jamiroquai ‘Automaton (Deetron Remix)’ (VIRGIN)
+February 2, 2017
+Deep House
+Reviews
+House
+Facebook
+Twitter
+Google+
+LinkedIn
+WhatsApp
+Buffer
+Pinterest
+VKontakte
+Viber
+MySpace
+Tumblr
+StumbleUpon
+Gmail
+Email
+Jamiroquai is back, and as they say, they are bigger and better than ever. THE electronic soul funk superstars also announce their return with their eight studio album, ‘Automaton’. Written and self- produced by Jay Kay and Jamiroquai keyboard-maestro Matt Johnson which shall be available by end of March.
+Causing a swarm of excitement from fans across the globe, after the release of ‘Automaton Transmission 001′, Jamiroquai has now released the full length video for the album’s title track too, as well as dropping a stunning remix from Swiss don Deetron which is arguably one of his finest reworks to date. Sometimes a bit dreamy, string heavy and sweet, this still is a dark masterpiece of a psychedelic funk record that stands out from the rest. Causing a stir on any dancefloor I have dropped it to date, this is a battle weapon for any DJ and a great move from EMI Virgin too, as they eventually commission a serious House Mix rather than any sellout EDM remix. Good!
+4.5 out of 5
+Reviewed by MANNIX
+end article section
+Share On
+Tweet
+Previous Article
+VARIOUS ARTISTS – DJ KICKS: MATTHEW DEAR - !K7
+Next Article
+Mat. Joe ‘Blow Your Mind EP’  (MOTHER)
+Related Posts
+INLAND KNIGHTS
+THIS BELONGS TO YOU EP
+DROP
+October 6, 2004
+JASON HERD FEATURING ABIGAL BAILEY
+LOVE YOURSELF
+J:SOUL
+October 6, 2004
+JULIUS PAPP FEATURING MORRISON
+FALL FOR YOU
+October 6, 2004
+MARK FARINA
+DREAM MACHINE REMIXES
+OM
+October 6, 2004
+MESSENGERS
+BEAUTIFUL SUN
+GOYA MUSIC
+October 6, 2004
+PAUL MASTERSON PRESENTS SUBWAY
+WHAT U GOT WHAT U DO
+October 6, 2004
+SHUR-I-KAN
+WAYPOINTS EP
+FREERANGE
+October 6, 2004
+AUDIO GUYS
+ALL YOUR LOVE
+AUTOMATIC
+October 6, 2004
+end article footer
+end article
+end #main
+Anders Ponsaing ‘Deep Gravity EP’ Favouritizm
+April 28, 2017
+Soulfuric Recordings / Soulfuric Deep / Soulfuric Trax
+April 28, 2017
+Trainspotting with Jay Shepheard
+April 28, 2017
+Buzz Charts 27-04-17
+April 27, 2017
+DJ Pierre ‘What Is House Muzik (Jazzuelle Remix)’ (GET PHYSICAL)
+April 26, 2017
+Worlds No1 Music Lifestyle Store
+THE ROYAL RULER & THE RAILWAY DJ - the autobiographies of Tony Prince and Jan...
+THE ROYAL RULER & THE RAILWAY DJ, is a double autobiography from both sides of the Iron […]
+Technics Halftone Deck (Navy/Silver Print)
+Technics Halftone Deck
+ 
+Available in:
+Technics Halftone Deck (Black/Orange Print) […]
+CLUB ROOTS T. Shirt - Charcoal Grey - Multi colour print
+CLUB ROOTS t-shirt   Over 175 of the best clubs & club nights from London to New York, […]
+Technics Wax Sac  - Black/ Silver print
+Technics Wax Sac   - Black/silver print  Funky new bag from DMC – This premium gym […]
+end #cb-content
+end #cb-container
+DMC World CDs/DVDs
+DMC Merchandise
+Digital Downloads
+DJ Pages
+© DMCworld.com
+end footer
+end #cb-outer-container

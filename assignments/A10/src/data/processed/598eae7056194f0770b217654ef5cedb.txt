@@ -1,0 +1,744 @@
+doctype html
+[if IE]>
+
+<script language="Javascript1.1" type="text/javascript">
+    
+  function dpCSSSetMinWidth() {
+	var elem = document.getElementById("divsinglecolumnminwidth");
+	if (elem) {
+                dpCSSSetElemWidth(elem);
+	}
+  }
+  
+  function dpCSSSetElemWidth(elem) {
+      if (elem) {
+         var clientWidth = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+         elem.runtimeStyle.width = (clientWidth < 920 ? '920px' : '100%' );
+      }
+  }
+  
+  if ( -1 != navigator.userAgent.indexOf("MSIE") ) {
+      window.onresize = dpCSSSetMinWidth;
+  }
+</script>
+
+<![endif]
+BeginNav
+From remote config v3
+[if IE 6]>
+<style type="text/css"><!--
+  #navbar.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/global-sprite_bluebeacon-v1._CB327533540_.png);
+  }
+endif
+if gt IE 6
+Amazon
+Try Prime
+Digital Music
+All Departments
+Alexa Skills
+Amazon Video
+Amazon Warehouse Deals
+Appliances
+Apps & Games
+Arts, Crafts & Sewing
+Automotive Parts & Accessories
+Baby
+Beauty & Personal Care
+Books
+CDs & Vinyl
+Cell Phones & Accessories
+Clothing, Shoes & Jewelry
+Women
+Men
+Girls
+Boys
+Baby
+Collectibles & Fine Art
+Computers
+Courses
+Credit and Payment Cards
+Digital Music
+Electronics
+Gift Cards
+Grocery & Gourmet Food
+Handmade
+Health, Household & Baby Care
+Home & Business Services
+Home & Kitchen
+Industrial & Scientific
+Kindle Store
+Luggage & Travel Gear
+Luxury Beauty
+Magazine Subscriptions
+Movies & TV
+Musical Instruments
+Office Products
+Patio, Lawn & Garden
+Pet Supplies
+Prime Exclusive
+Prime Pantry
+Software
+Sports & Outdoors
+Tools & Home Improvement
+Toys & Games
+Vehicles
+Video Games
+Wine
+Go
+Departments
+EN
+Hello. Sign in
+Account & Lists
+Sign in
+Account & Lists
+Orders
+Try Prime
+Cart
+0
+Your Amazon.com
+Today's Deals
+Gift Cards & Registry
+Sell
+Help
+Disability Customer Support
+Amazon Music Unlimited
+Prime Music
+CDs & Vinyl
+Download Store
+Open Web Player
+MP3 cart
+Settings
+You have exceeded the maximum number of MP3 items in your MP3 cart.
+Please click here to manage your MP3 cart content.
+TITLE  added to MP3 cart
+My Foolish Heart
+Ralph Towner
+isPreorderble: album/song: formatted release date
+Already out: album/song: original release date
+is now after street date
+Using isReleaseDateInPast to determine date since some albums are not pre-orderable but their release dates are in the future.
+February 3, 2017
+5.0 out of 5 stars
+8 customer reviews
+Price display
+See all 2 formats and editions
+Hide other formats and editions
+This file is just a replica of table-aiv present in mediaMatrixtemplate package.
+    This has just been picked up and moved and there has not been addition/modification/removal
+    of any logic here .
+Price
+New from
+Used from
+Do not show expander when DVD_redesign weblab is in treatment
+MP3 Music, February 3, 2017
+"Please retry"
+$11.49
+$11.49
+—
+Do not show expander when DVD_redesign weblab is in treatment
+Audio CD, February 3, 2017
+"Please retry"
+$14.69
+$10.69
+$10.00
+This file is a replica of swatches.jsp
+     The only difference we have introduced here is to use absolute paths 
+     and dynamic includes
+MP3
+$11.49
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+Listen with our
+Free App
+Audio CD
+$14.69
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+9 Used
+from
+$10.00
+23 New
+from
+$10.69
+TODO: once all buybox tasks are finished, lets see if we can optimize this giant set of conditionals
+Listen Now
+Go Unlimited
+Start your 30-day free trial
+Buy MP3 Album
+$11.49
+Add to MP3 Cart
+Album in MP3 cart
+View MP3 Cart
+DMSTORE-4025: Temporarily disable promo code modal on all IE/Edge browsers until root cause fixed
+Add gift card or promotion code
+Add to Wish List
+Give Album or Song as Gift
+Share
+Facebook
+Twitter
+Pinterest
+More options
+Buy CD + free MP3 album
+$14.69
+Your Amazon Music account is currently associated with a different marketplace. To enjoy Prime Music, go to Your Music Library and transfer your account to Amazon.com (US).
+Fix in Music Library
+Close
+v
+Sample this album
+Title
+by
+Artist
+0:00
+/
+0:00
+1
+Pilgrim
+Pilgrim
+4:31
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+2
+I'll Sing To You
+I'll Sing To You
+4:32
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+3
+Saunter
+Saunter
+5:01
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+4
+My Foolish Heart
+My Foolish Heart
+3:51
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+5
+Dolomiti Dance
+Dolomiti Dance
+4:24
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+6
+Clarion Call
+Clarion Call
+4:40
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+7
+Two Poets
+Two Poets
+2:04
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+8
+Shard
+Shard
+0:54
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+9
+Ubi Sunt
+Ubi Sunt
+1:20
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+10
+Biding Time
+Biding Time
+1:29
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+11
+Blue As In Bley
+Blue As In Bley
+3:53
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+12
+Rewind
+Rewind
+3:43
+Listen Now
+$1.29
+In MP3 cart
+View MP3 Cart
+Sold by Amazon  Digital  Services   LLC. Additional taxes may apply.
+By placing your order, you agree to our
+Terms of Use
+.
+Showing SWM section for eligible customers for both detail and artist page.
+Customers Also Bought These Albums
+Page
+1
+of
+1
+Start over
+Page 1 of 1
+Back
+check if each carouselCard is Platinum or Prime
+On A Monday Evening (Live)
+The Bill Evans Trio
+8
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Chris Thile & Brad Mehldau
+Chris Thile & Brad Mehldau
+14
+Stream
+or buy for
+$13.49
+check if each carouselCard is Platinum or Prime
+An Ancient Observer
+Tigran Hamasyan
+1
+Stream
+or buy for
+$10.49
+check if each carouselCard is Platinum or Prime
+Live in Los Angeles
+Julian Lage
+1
+Stream
+or buy for
+$5.49
+check if each carouselCard is Platinum or Prime
+Pushin' Against A Stone
+Valerie June
+231
+Stream
+or buy for
+$9.49
+check if each carouselCard is Platinum or Prime
+Away with You
+Mary Halvorson Octet
+6
+Stream
+or buy for
+$8.99
+check if each carouselCard is Platinum or Prime
+All Through The Night
+Bill Charlap, Peter Washington, Kenny Washington
+13
+Stream
+or buy for
+$8.91
+check if each carouselCard is Platinum or Prime
+Distant Star
+Bill Charlap, Sean Smith, Bill Stewart
+2
+Stream
+or buy for
+$8.91
+check if each carouselCard is Platinum or Prime
+Upward Spiral
+Branford Marsalis Quartet & Kurt Elling
+29
+Stream
+or buy for
+$9.99
+check if each carouselCard is Platinum or Prime
+Aziza (feat. Dave Holland, Chr...
+Aziza
+19
+Stream
+or buy for
+$7.92
+check if each carouselCard is Platinum or Prime
+Tokyo Adagio
+Charlie Haden & Gonzalo Rubalcaba
+17
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+Country For Old Men
+John Scofield
+22
+Stream
+or buy for
+$11.49
+check if each carouselCard is Platinum or Prime
+The Ludwigsburg Concert
+Lyle Mays Quartet
+24
+Stream
+or buy for
+$18.99
+check if each carouselCard is Platinum or Prime
+Smokin' At The Half Note (Expa...
+Wes Montgomery
+35
+Stream
+or buy for
+$9.49
+Next
+Product details
+Original Release Date:
+February 3, 2017
+Release Date:
+February 3, 2017
+Label:
+ECM Records
+Copyright:
+℗© 2017 ECM Records GmbH under exclusive license to Deutsche Grammophon GmbH, Berlin
+Record Company Required Metadata:
+Music file metadata contains unique purchase identifier.
+Learn more
+.
+Total Length:
+40:22
+Genres:
+Jazz
+ASIN:
+B01NAK1A25
+Average Customer Review:
+5.0 out of 5 stars
+8 customer reviews
+Amazon Best Sellers Rank:
+#3,559 Paid in Albums (
+See Top 100 Paid in Albums
+)
+#114
+in
+Digital Music
+>
+Albums
+>
+Jazz
+Customer Reviews
+5.0 out of 5 stars
+8
+5.0 out of 5 stars
+5 star
+100%
+4 star
+0%
+3 star
+0%
+2 star
+0%
+1 star
+0%
+Share your thoughts with other customers
+Write a customer review
+See all verified purchase reviews
+Top Customer Reviews
+5.0 out of 5 stars
+KALEIDOSCOPIC
+By
+Steve Wyzard
+on February 7, 2017
+Format: Audio CD
+|
+Verified Purchase
+What could Ralph Towner possibly have to add to his deep catalog in 2017, after 40+ years with ECM Records? Plenty, it turns out, and while some will grumble about the 40:28 running time, My Foolish Heart is proof positive that his unfettered guitar greatness has not even remotely diminished with age.
+Towner's albums (even in the CD age) have never run long, and have rarely included a liner note like this one does. He tells us that the title track (and the Evans/LeFaro/Motian version in particular) had an "immeasurable impact" upon his formation as a musician, and that he "decided to pay a visit" to this "reverent musical space". It's one of this album's true highlights, and the only cover version among the other eleven which are his own compositions.
+Long time listeners will recognize all of the classic Towner trademarks, from the angular, jagged lines of "Pilgrim" to the unbridled vigor of "Rewind". Everything is played with an overwhelming authority, and the impressionistic "wide-open-spaces-under-a-wild-sky" atmosphere is always present. This is familiar, well-trodden ground, but Towner's intuitive intellect always gives us something original and he continues to turn new pages. The relentless subtlety of "Dolomiti Dance" is this album's "wow-inspiring" stunner, but don't overlook the haunting nostalgia of "I'll Sing to You" or the searching ruminations of the shorter pieces. "Saunter", the longest track at 5:01, begins whimsically, but soon ventures toward probing bent notes and intense slides that are truly awe-inspiring.
+Yet another Towner trademark is to be found in the closing flourishes he uses to finish his performances, almost as if letting his audience know "we're done now". There's nothing in the kaleidoscopic sound-world of My Foolish Heart to indicate that he's anywhere near being "done". This album can stand head-and-shoulders next to anything else he's ever recorded without any qualifications. The ECM recording is, as always, irresistibly pristine.
+Read more
+0
+Comment
+|
+20 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Do I love this recording!
+By
+Jim from St. John Vianney Church
+on February 18, 2017
+Format: Audio CD
+|
+Verified Purchase
+Do I love this recording. One of Ralph Towner's most even recordings start to finish. There are no tracks I feel a need to skip past. Some of his earlier records had offerings that were interesting to hear once or twice but whole tracks of mostly dissonant music are not much more than interesting. This recording on the other hand is something I have listened to often and am excited to suggest it to others.
+Towner is one of the very best composers of song the last 40 years and ECM should make an effort to have their artists cover his music. Zsofia Boros  covered Green and Golden and John Abercrombie has done a few but there are so many more worthy of interpretation.
+By the way, Ralph's cover of My Foolish Heart did indeed transport me back to Bill Evans' version, as he had hoped.
+Read more
+0
+Comment
+|
+6 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+Another Excellent Solo Guitar Recording by Ralph Towner
+By
+K. Schmidt
+on February 6, 2017
+Format: Audio CD
+|
+Verified Purchase
+My Foolish Heart continues Ralph Towner's series of excellent solo guitar recordings.  While there are many great guitarists, he has a unique combination of classical guitar, outstanding compositions, and improvisation.  I enjoy his recordings with Oregon and with other collaborators, but the solo recordings exhibit his talents best.
+Read more
+0
+Comment
+|
+8 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+BEAUTIFUL MUSIC BEAUTIFULLY PLAYED
+By
+David Keymer
+TOP 1000 REVIEWER
+VINE VOICE
+on April 10, 2017
+Format: Audio CD
+|
+Verified Purchase
+Eleven originals and one standard, “My Favorite Heart”.  That’s the menu for this latest solo outing by twelve-string and classical guitar maestro Ralph Towner. How you respond to this album will depend on your response to Towner’s slant on music. I favor it.  He’s an intelligent song writer, whose compositions draw out the richness and inner romanticism of his elegant instruments. There’s a pulse to all that he plays on this album but if you’re looking for the drive of any number of bop-oriented guitarists, from Charlie Christian to Jimmy Raney, Tal Farlow and Barney Kessel, you won’t find it here. Towner is his own man, with a musical sensibility developed out of the alt-jazz of the Paul Winter Consort and Oregon (he’s been a member of Oregon since the start, now twenty-some years back) and the classical repertoire for guitar (Villa-Lobos, for instance). The music he produces is a hybrid, jazz-influenced but not always jazz-dominated. So what? It’s good, it’s musical, and he’s a killer player. As for the title piece, Towner writes that when he heard Bill Evans’s classic rendition of the piece, it changed the way he thought about music. His playing of it is beautiful. This is a lovely album, which works whether listened to in the background or foreground of your attention.
+Read more
+0
+Comment
+|
+One person found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+5.0 out of 5 stars
+A stunning set of Towner solo guitar- an instant classic and an audiophile recording
+By
+Brian Whistler
+VINE VOICE
+on February 6, 2017
+Format: Audio CD
+|
+Verified Purchase
+This may very well be Towner's strongest solo album yet. The ever prolific master has gifted us with 10 new originals, most written in his neo-classical style.  His playing is in top form- indeed Towner is one of those artists who has only improved with age. what you have here is a very listenable album, a kind of rainy day music for thoughtful listeners. It is anything but background music, although I suppose it could be listened to as such-repeated listenings reveal hidden depths.
+The opening piece, Pilgrim, sets the tone for this mostly introspective set. It's all there: a strong melodic classical piece tinged with contemporary harmony and rhythm,  that familiar and specific world that only Towner seems to inhabit. There are two tunes on which Ralph plays his signature 12 string. It's great to hear that unique sound again. His reading of My Foolish Heart is as sweet and tender as Bill Evans's classic version. To close out the set, he plays a solo version of his Oregon composition, Rewind.
+I just want to add that this may very well be the best recording yet of Ralph's custom nylon string. It's almost as if he's playing in my living room, with just the right amount of hall ambience to give the recording some needed space around the luscious notes.
+Towner has done it again. An instant classic.
+Read more
+0
+Comment
+|
+11 people found this helpful.
+Was this review helpful to you?
+Yes
+No
+Report abuse
+See all verified purchase reviews (newest first)
+Write a customer review
+Most Recent Customer Reviews
+5.0 out of 5 stars
+A pianist plays the guitar.
+Gorgeous. I'm praying that we don't have wait 10 years for the next one! Playing is as good as ever. So expressive.
+Read more
+Published 1 month ago by Peter W. Jones
+5.0 out of 5 stars
+If you loved Ralph Towner's prior guitar solo recordings this will be ...
+If you loved Ralph Towner's prior guitar solo recordings this will be a joy.  It has all the unmistakable sonority of earlier works, like 'Solo Concert' and 'Time Line', but even...
+Read more
+Published 1 month ago by Amazon Customer
+5.0 out of 5 stars
+Five Stars
+Excellent CD...Makes me wish the original group "Oregon" was still a going concern
+Read more
+Published 2 months ago by Dave  S
+Search Customer Reviews
+Search
+What other items do customers buy after viewing this item?
+My Foolish Heart
+Ralph Towner
+$1.29
+One South Beach Night
+Rick Braun
+$1.29
+There's a problem loading this menu right now.
+Learn more about Amazon Prime.
+Get fast, free shipping with Amazon Prime
+Prime members enjoy FREE Two-Day Shipping and exclusive access to music, movies, TV shows, original audio series, and Kindle books.
+>
+Get started
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+Your recently viewed items and featured recommendations
+›
+View or edit your browsing history
+After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.
+NAV-JAVA-WEB-APP-QUACK-QUACK
+Back to top
+Get to Know Us
+Careers
+About Amazon
+Investor Relations
+Amazon Devices
+Make Money with Us
+Sell on Amazon
+Sell Your Services on Amazon
+Sell on Amazon Business
+Sell Your Apps on Amazon
+Become an Affiliate
+Advertise Your Products
+Self-Publish with Us
+Become an Amazon Vendor
+Sell Your Subscription on Amazon
+›
+See all
+Amazon Payment Products
+Amazon Rewards Visa Signature Cards
+Amazon.com Store Card
+Amazon.com Corporate Credit Line
+Shop with Points
+Credit Card Marketplace
+Reload Your Balance
+Amazon Currency Converter
+Let Us Help You
+Your Account
+Your Orders
+Shipping Rates & Policies
+Amazon Prime
+Returns & Replacements
+Manage Your Content and Devices
+Amazon Assistant
+Help
+English
+United States
+Amazon Drive
+Unlimited Cloud Storage
+From Amazon
+6pm
+Score deals
+on fashion brands
+AbeBooks
+Books, art
+& collectibles
+ACX
+Audiobook Publishing
+Made Easy
+Alexa
+Actionable Analytics
+for the Web
+Amazon Business
+Everything For
+Your Business
+AmazonFresh
+Groceries & More
+Right To Your Door
+AmazonGlobal
+Ship Orders
+Internationally
+Home Services
+Handpicked Pros
+Happiness Guarantee
+Amazon Inspire
+Free Digital Educational
+Resources
+Amazon Rapids
+Fun stories for
+kids on the go
+Amazon Restaurants
+Food delivery from
+local restaurants
+Amazon Video Direct
+Video Distribution
+Made Easy
+Amazon Web Services
+Scalable Cloud
+Computing Services
+Audible
+Download
+Audio Books
+Book Depository
+Books With Free
+Delivery Worldwide
+Box Office Mojo
+Find Movie
+Box Office Data
+ComiXology
+Thousands of
+Digital Comics
+CreateSpace
+Indie Print Publishing
+Made Easy
+DPReview
+Digital
+Photography
+East Dane
+Designer Men's
+Fashion
+Fabric
+Sewing, Quilting
+& Knitting
+Goodreads
+Book reviews
+& recommendations
+IMDb
+Movies, TV
+& Celebrities
+IMDbPro
+Get Info Entertainment
+Professionals Need
+Junglee.com
+Shop Online
+in India
+Kindle Direct Publishing
+Indie Digital Publishing
+Made Easy
+Prime Now
+FREE 2-Hour Delivery
+on Everyday Items
+Shopbop
+Designer
+Fashion Brands
+TenMarks.com
+Math Activities
+for Kids & Schools
+Warehouse Deals
+Open-Box
+Discounts
+Whispercast
+Discover & Distribute
+Digital Content
+Withoutabox
+Submit to
+Film Festivals
+Woot!
+Deals and
+Shenanigans
+Zappos
+Shoes &
+Clothing
+Subscribe with Amazon
+Discover & try
+subscription services
+Conditions of Use
+Privacy Notice
+Interest-Based Ads
+© 1996-2017, Amazon.com, Inc. or its affiliates
+whfh-voUgGxrmtWGISM192boZ8AO1K9gQCsouhvRem9Dm1ztn3PAbuoKaUAuP25PLihYt rid-ZRGMRT1RY160D299BKDD

@@ -1,0 +1,155 @@
+prefetch dns
+URHEBERRECHTSHINWEIS:
+  Die SRG SSR Schrift und die dazugehörige Software stehen im vollumfänglichen Eigentum der SRG. Jede Bearbeitung, Vervielfältigung, Verbreitung und/oder öffentliche Wiedergabe, insbesondere die ungenehmigte Übernahme der SRG SSR Schrift stellt einen Rechtsverstoss dar, der zum Schadenersatz verpflichtet und auch strafrechtlich verfolgt wird.
+For Chrome for Android:
+For iPhone 6 Plus with @3× display:
+For iPad with @2× display running iOS ≥ 7:
+For iPad with @2× display running iOS ≤ 6:
+For iPhone with @2× display running iOS ≥ 7:
+For iPhone with @2× display running iOS ≤ 6:
+For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7:
+For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6:
+For non-Retina iPhone, iPod Touch, and Android 2.1+ devices:
+HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+WARNING: Respond.js doesn't work if you view the page via file://
+[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]
+Go to www.addthis.com/dashboard to customize your tools
+#main-wrapper
+Radio starten
+Musikprogramm
+Programm durchsuchen
+Neu im Programm
+Programmraster
+Musikdatenbank
+Musikjury
+Konzertkalender
+Empfang
+Digitalradio (DAB+)
+Internet
+Apps
+Kabel/ipTV
+Satellit
+Aktuelles
+Verlosungen
+Konzerttipps
+Festivaltipps
+Services
+Hier hören Sie uns
+Links
+Downloads
+Über uns
+Unser Radio in Kürze
+Kontakt
+FAQ
+END NAVIGATION
+DE
+FR
+IT
+EN
+END LANGUAGE LINKS
+END STATION LINKS
+Menü
+a href="javascript:;">
+    <div id="topbar-search">
+      <span class="hidden-xs search-text">
+      </span>
+      <span class="icon-magnifier"></span>
+    </div>
+  </a
+Musikdatenbank
+Titel
+Music To Love By
+Jack Teagarden
+Information
+Interpreten
+Dick Carey
+(trumpet)
+Jack Teagarden
+(vocals, trombone)
+Edmond Hall
+(clarinet)
+Leonard Feather
+(piano)
+Carl Kress
+(electric guitar)
+Walter Page
+(e-bass)
+Ray Bauduc
+(drums)
+Urheber
+Jack Teagarden
+Aufnahmedatum
+ca. November 1954
+Im Programm
+Wurde zuletzt gespielt
+12.04.2017 05:08
+Läuft wieder im Programm am
+06.05.2017 ca.  10:40
+Album
+Jazz Original
+Jack Teagarden, Jimmy McPartland, Dick Carey, Fred Greenleaf
+Label
+Affinity / CD Charly 80
+Produktionsjahr
+1987
+Tracks
+1.   King Porter Stomp
+2.   Eccentric
+3.   Davenport Blues
+4.   Original Dixieland One-Step
+5.   Bad Actin' Woman
+6.   Mis'ry And The Blues
+7.   High Society
+8.   Music To Love By
+9.   Meet Me Where They Play The Blues
+10.   Riverboat Shuffle
+11.   Milenberg Joys
+12.   Blue Funk
+open list
+Newsletter
+Möchten Sie regelmässig über Neuigkeiten rund um Radio Swiss Jazz informiert werden? Dann abonnieren Sie unseren Newsletter!
+abonnieren
+Twitter
+Folgen Sie dem Radio Swiss Jazz On-air-Service
+Follow jazz_onair
+Facebook
+Radio Swiss Jazz
+Impressum
+|
+Kontakt
+span>|</span
+span></span
+DE
+|
+FR
+|
+IT
+|
+EN
+© 2017 Schweizerische Radio- und Fernsehgesellschaft
+end row-wrapper
+end content-wrapper
+end main-wrapper
+jPlayer Container
+div class="hq-ctr hidden-xs hidden-sm">
+						<span class="icon-hq"></span>
+				</div
+04:38
+Jetzt läuft
+One Note Samba (CH)
+Alexia Gardner
+Update Required
+To play the media you will need to either update your browser to a recent version or update your
+Flash plugin
+.
+Hook jPlayer
+WEMF-TAG VERSION="1.4"
+/WEMF-TAG
+Begin Sitestat4 code
+End Sitestat4 code
+Mandatory for Responsive Bootstrap Toolkit to operate
+end mandatory
+Revision 12680784@production

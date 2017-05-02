@@ -18,3 +18,4 @@ rescale the data
 
 kernel trick: transform to higher dimensions for linear classificiation. then transform back to start
 
+2 + 

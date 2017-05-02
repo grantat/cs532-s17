@@ -1,0 +1,287 @@
+<![endif]
+end:responsive web design
+start:wp_head
+All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[1763,1831]
+/all in one seo pack
+[if lt IE 9]>
+<link rel='stylesheet' id='miptheme-photobox-ie-css'  href='http://www.rockeuroperadio.es/wp-content/themes/weeklynews/assets/css/photobox.ie.css?ver=2.8.1' type='text/css' media='all' />
+<![endif]
+This site is powered by Tweet, Like, Plusone and Share Plugin - http://techxt.com/tweet-like-google-1-and-share-plugin-wordpress/
+[if lt IE 9]>
+	  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]
+This site is optimized with the Schema plugin v1.6.5 - http://schema.press
+Customizer CSS
+/Customizer CSS
+end:wp_head
+[if lt IE 9]>
+    <script src="http://www.rockeuroperadio.es/wp-content/themes/weeklynews/assets/js/respond.js"></script>
+    <script src="http://www.rockeuroperadio.es/wp-content/themes/weeklynews/assets/js/html5shiv.js"></script>
+    <![endif]
+start:body-start
+end:body-start
+start:ad-top-banner
+end:ad-top-banner
+start:page outer wrap
+start:page inner wrap
+start:page header mobile
+start:sidr
+INICIO
+EN DIRECTO
+Última Hora
+PROGRAMAS
+NonStop Hits
+ROCK THE NIGHT
+Lo mejor de PATIOBOB
+WEEKEND HITS
+INSESSION
+CHILL CONEXION
+EuroHits
+SECCIONES
+Canciones de Anuncios
+Conciertos
+Cultura
+Festivales
+Especiales
+Noticias
+Novedades Discos 2016
+Próximos eventos
+Radio
+Singles y Novedades
+Televisíon
+Titulares Música
+Actualidad Total
+Videos Musicales
+DESCARGA NUESTRA APP
+A LA CARTA
+TOP 20 EUROPA
+Tecnología
+Radio
+end:sidr
+start:row
+start:col
+start:logo
+end:logo
+end:col
+start:col
+end:col
+end:row
+end:page-header-mobile
+start:ad-above-banner
+end:ad-above-banner
+start:page-header
+start:header-branding
+start:container
+start:row
+start:col
+end:col
+end:row
+end:container
+end:header-branding
+start:sticky-header
+start:header-navigation
+start:container
+start:menu
+INICIO
+EN DIRECTO
+Última Hora
+PROGRAMAS
+NonStop Hits
+ROCK THE NIGHT
+Lo mejor de PATIOBOB
+WEEKEND HITS
+INSESSION
+CHILL CONEXION
+EuroHits
+SECCIONES
+Canciones de Anuncios
+Conciertos
+Cultura
+Festivales
+Especiales
+Noticias
+Novedades Discos 2016
+Próximos eventos
+Radio
+Singles y Novedades
+Televisíon
+Titulares Música
+Actualidad Total
+Videos Musicales
+DESCARGA NUESTRA APP
+A LA CARTA
+TOP 20 EUROPA
+Tecnología
+Radio
+end:menu
+end:container
+end:header-navigation
+end:sticky-header
+end:page-header
+end:page header mobile
+start:ad-side-banner
+end:ad-side-banner
+start:ad-top-banner
+end:ad-top-banner
+start:container
+start:page content
+start:cover image
+Última Hora
+Jamiroquai estrena vídeo para “Automaton”
+Enero 30th, 2017
+Última Hora
+,
+Videos Musicales
+end:cover image
+start:tbl-row
+start:main
+start:article-post
+SENSEI 336 INI ART DESK
+Jamiroquai es una de nuestras novedades de la semana con su nuevo single y disco automaton del que ahora se estrena el vídeoclip.
+El artista británico anuncia su regreso con su octavo álbum de estudio titulado
+“Automaton”
+. Compuesto por Jay Kay y co-producido junto a su profesor de piano, Matt Johnson. Este nuevo trabajo verá la luz el
+31 de Marzo
+a través del sello Virgin EMI.
+Tras la vorágine que ha causado el pasado lunes entre sus fans de todo el mundo la edición de “Automaton Transmission 001”,
+Jamiroquai
+comparte el
+primer single
+de su nuevo disco que da título al álbum. El vídeo, dirigido por Charlie Lightening (Arcade Fire, Bjork) con dirección creativa del líder de la banda, Jay Kay, es un ejemplo de cine negro novel y ciencia ficción.
+Según Jay Kay,
+“Automaton está inspirado en el alza de la inteligencia artificial y de la tecnología en nuestro mundo actual y en como los seres humanos empiezan a olvidar las cosas más satisfactorias, sencillas y relevantes de la vida y nuestro entorno, incluyendo nuestras relaciones con las demás personas “
+.
+kksr-fuel
+kksr-stars
+Jamiroquai estrena vídeo para “Automaton”
+5
+(100%)
+2
+votes
+kksr-legend
+kk-star-ratings
+Via
+TODOINDIE
+start:article footer
+end:article footer
+end:article-post
+start:related-posts
+ARTÍCULOS RELACIONADOS
+start:row
+start:article
+DISCOS 2017
+Jamiroquai: Todo sobre “Automation”, su nuevo disco
+end:article
+end:row
+end:related-posts
+start:article-comments
+end:article-comments
+start:article-comments-form
+end:article-comments-form
+end:main
+start:sidebar
+SENSEI SIDEBAR MOV Y ESCR
+PROGRAMAS
+start:article-container
+start:article.linkbox
+The Chainsmokers, Hardwell y Vitalic esta noche en Insession
+Actualidad Total
+end:article.linkbox
+end:article-container
+end:sidebar
+end:tbl-row
+end:page content
+end:container
+section:page footer
+start:container
+start:foot-menu
+Click here - to select or create a menu
+end:foot-menu
+start:col
+Secciones – FESTIVALES
+start:article-container
+start:article.linkbox
+WOMAD Cáceres: cuenta atrás para otro de los grandes festivales de 2017
+Festivales
+end:article.linkbox
+end:article-container
+Canciones Anuncios
+start:article-container
+start:article.linkbox
+The Chainsmokers, Hardwell y Vitalic esta noche en Insession
+Actualidad Total
+end:article.linkbox
+end:article-container
+end:col
+start:col
+Discos 20’17
+start:article-container
+start:article.linkbox
+Gorillaz, L.A. y The Cranberries entre los discos de la semana
+DISCOS 2017
+end:article.linkbox
+end:article-container
+VÍDEOS MUSICALES
+start:article-container
+start:article.linkbox
+Fall Out Boy, Kygo e Izal entre los vídeos de la semana
+Última Hora
+end:article.linkbox
+end:article-container
+end:col
+start:col
+CONCIERTOS
+start:article-container
+start:article.linkbox
+Tequila regresa con 4 conciertos en España
+Conciertos
+end:article.linkbox
+end:article-container
+NOTICIAS
+start:article-container
+start:article.linkbox
+Ed Sheeran continúa en el número 1 de UK pero menos
+Noticias
+end:article.linkbox
+end:article-container
+end:col
+start:col
+SINGLES Y NOVEDADES
+start:article-container
+start:article.linkbox
+"The Apprentice" es el nuevo adelanto de Gorillaz
+Singles y Novedades
+end:article.linkbox
+end:article-container
+Tecnología
+start:article-container
+start:article.linkbox
+Pokémon Go genera a Nintendo 180 millones en beneficios
+Tecnología
+end:article.linkbox
+end:article-container
+end:col
+end:row
+start:row
+start:col
+©
+ROCK EUROPA RADIO
+2017. All rights reserved.
+end:col
+start:col
+end:col
+end:row
+end:container
+end:page footer
+end:page inner wrap
+end:page outer wrap
+start:wp_footer
+JS generated by theme
+end:wp_footer
+CHILL CONEXION
+Martes, 4:00 am-6:00 am
+RCAST.NET - START EMBEDDED PLAYER BAR HTML5 PLAYER
+RCAST.NET - END EMBEDDED PLAYER BAR HTML5 PLAYER
+Lo mejor de PATIOBOB
+Martes,
+6:00 am-8:00 am

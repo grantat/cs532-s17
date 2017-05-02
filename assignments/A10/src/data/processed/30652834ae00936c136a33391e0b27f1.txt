@@ -1,0 +1,453 @@
+Jetpack Site Verification Tags
+Jetpack Open Graph Tags
+HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+[if lt IE 9]>
+	<script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]
+BEGIN wp-parsely Plugin Version 1.9
+END wp-parsely Plugin Version 1.9
+Google Tag Manager
+End Google Tag Manager
+Fixed navbar
+Toggle navigation
+Home
+News
+Local
+Sports
+Business
+Opinion
+Crime
+Entertainment
+Life
+/.nav-collapse
+Las Vegas Review Journal
+86
+°
+F
+Sunny
+Las Vegas NV
+Home
+News
+News
+Section Front
+Education
+Politics and Government
+Clark County
+Las Vegas
+Nevada
+Nation and World
+Science and Technology
+Special Features
+Death in Las Vegas
+Neon Rebirth
+Delivering a New Downtown
+News Columns
+Jane Ann Morrison
+Road Warrior
+Paul Harasim
+On Education
+Debra Saunders
+Vegas Vice
+Victor Joecks
+Bundy-BLM
+Military
+Pot News
+.dropdown
+Local
+Local
+Section Front
+Las Vegas
+Downtown
+Nevada
+Henderson
+Restaurant
+Local Columns
+Bob Morris
+Terri Schlichenmeyer
+Deborah Wall
+Herb Jaffe
+John Asay
+East Valley
+The Strip
+Summerlin
+North Las Vegas
+Southwest
+.dropdown
+Sports
+Sports
+Section Front
+51s/Baseball
+Basketball
+NBA Summer League
+NCAA Tournament
+#VegasMadness
+Betting
+Boxing
+Golf
+Shriners Open
+MMA and UFC
+Motor Sports
+NASCAR
+NHRA Races
+Champions Week
+Raiders/NFL
+Golden Knights/NHL
+Olympics
+Rodeo
+Helldorado Days
+National Finals Rodeo
+Professional Bull Riders
+UNLV
+UNLV Basketball
+UNLV Football
+Other Sports
+Sports Columns
+Ed Graney
+In The Outdoors
+Matt Youmans
+Richard Eng
+Ron Kantowski
+Brian Hurlburt
+Todd Dewey
+Nevada Preps
+Football
+Las Vegas Bowl
+Super Bowl
+.dropdown
+Business
+Business
+Section Front
+Casinos & Gaming
+Energy
+Housing
+Stadium
+Tourism
+Business Columns
+Inside Gaming
+Real Estate Insider
+Entrepreneurs
+.dropdown
+Opinion
+Opinion
+Section Front
+Editorials
+Letters
+Opinion Columns
+Charles Krauthammer
+Steve Sebelius
+Wayne Allyn Root
+.dropdown
+Crime
+Crime
+Section Front
+Courts
+Homicides
+Robberies
+Sex Crimes
+Shootings
+Stabbings
+.dropdown
+Entertainment
+Entertainment
+Section Front
+Arts & Culture
+Celebrity
+Food
+Movies
+Nightlife
+Shows
+Music
+TV
+Entertainment Columns
+Christopher Lawrence
+Heidi Knapp Rinella
+Mike Weatherford
+Robin Leach
+Trip of the Week
+Kats
+Sounding Off
+.dropdown
+Life
+Life
+Section Front
+Comics
+Fashion
+Games
+Health
+Home and Garden
+Recreation
+Religion
+Travel
+.dropdown
+Video
+Obituaries
+Obituaries
+Section Front
+Today’s Obituaries
+Submit an obit
+.dropdown
+Autos
+Autos
+Section Front
+Auto News
+Dealer News
+REV THIS WEEK
+Classifieds
+Place a Classified Ad
+.dropdown
+Homes
+Homes
+Section Front
+Advertising Features
+New Homes
+Real Estate Millions
+Resale News
+Commercial Property
+Classifieds
+Place a Classified Ad
+.dropdown
+Jobs
+Jobs
+Section Front
+Login on Monster
+Post A Job on Monster
+Job Fairs
+Jobs at the RJ
+.dropdown
+Classifieds
+Classifieds
+Section Front
+Legal Information
+Coupons
+Contests
+Service Directory
+Print Display Ads
+Nifty Nickel
+FAQ
+Place a Classified Ad
+.dropdown
+Circulars
+Contests
+Subscriptions
+Jobs with us
+Contact Us
+Advertise with Us
+#side-rail-nav
+ad-fullscreen
+#rjth-region-wallpaper
+Skip to content
+section-ads_high_impact_1
+#rjth-region-top
+Arts & Culture
+Dave Loeb brings jazz music to Las Vegas
+.entry-header
+By CAROL CLING LAS VEGAS REVIEW-JOURNAL
+September 6, 2016 - 7:56 pm
+.entry-info
+.entry-info-cont
+Dave Loeb, director of Jazz Studies at UNLV, makes himself at home on campus -- and at Wynn Las Vegas, where he's music director for "Steve Wynn's ShowStoppers." Elizabeth Page Brumley/Las Vegas Review-Journal Follow @ELIPAGEPHOTO
+Dave Loeb, director of Jazz Studies at UNLV, finds himself in a familiar place -- at the keyboard. Elizabeth Page Brumley/Las Vegas Review-Journal Follow @ELIPAGEPHOTO
+Dave Loeb, director of Jazz Studies at UNLV, performs a medley of favorites while trying out the grand piano in the jazz studio on campus. Elizabeth Page Brumley/Las Vegas Review-Journal Follow @ELIPAGEPHOTO
+Dave Loeb, director of Jazz Studies at UNLV, found a home at the keyboard while still a kid -- and has been playing professionally since college. Elizabeth Page Brumley/Las Vegas Review-Journal Follow @ELIPAGEPHOTO
+Vegas Voices is a weekly question-and-answer series featuring notable Las Vegans.
+Most people get out of college and start looking for a job.
+Dave Loeb had his first job offer before he even finished grad school. More than three decades later, he’s still got that job, serving as Tony winner Ben Vereen’s pianist and conductor.
+Loeb’s had plenty of other jobs since then, from jazz pianist to session pianist. (You’ve undoubtedly heard his playing on TV themes from “Hill Street Blues” to “Family Guy,” or on the soundtracks of such movies as “Ted” and “Pocahontas.”)
+As a keyboardist with the Hollywood Bowl Orchestra, he’s worked with luminaries from Placido Domingo to Herbie Hancock. His Vegas gigs include stints with Shirley MacLaine and Dionne Warwick, among others. He’s composed songs (Dolly Parton recorded one) and scores (for PBS documentaries).
+These days, Loeb spends most nights at Wynn Las Vegas, where he leads the 31-piece onstage orchestra for “Steve Wynn’s ShowStoppers.” (The show was initially expected to close in September, but Loeb says it’s been extended through December.)
+Despite his professional credits, however, Loeb’s still got a college connection — as director of jazz studies at UNLV, where he’s taught for 13 years.
+He’s on faculty development leave this semester, but he’ll still be working, visiting other colleges and universities with jazz and commercial music programs to implement modifications of existing courses to better reflect the professional music industry.
+When it comes to music, there are so many styles, he says. “This is what you have to be able to do … to re-create almost any style, from Gregorian chant to country. It’s fun for me.”
+We caught up with Loeb, 63, in UNLV’s jazz studio, where he took a break from playing piano (working lilting, jazzy variations on standards from “Night and Day” to “Luck Be a Lady”) to reflect on his musical life.
+Review-Journal:
+What was your first Las Vegas gig?
+Loeb:
+It was probably with Ben Vereen at the Riviera in the ’70s. … The opening act was either Joan Rivers or David Brenner. One night, Sammy Davis Jr. came up onstage and sang with the 25-piece orchestra.
+RJ:
+How, and why, did you first get interested in music?
+Loeb:
+I was about 6 or 7 years old. I could always hear it and had an idea of what notes were. … In school, I was tested on my musical ability and I got everything right. The music director at the Lutheran church we attended was interested in having me be a church musician and so I studied Bach and classical music. … Outside of those lessons, I had friends who liked all kinds of music: R&B, popular entertainment, jazz. I assimilated what I was hearing and would be able to play it.
+RJ:
+UNLV’s jazz program has been winning awards for decades. What makes it so strong?
+Loeb:
+The students, of course, and we have a world-class faculty. And it’s also the opportunities here. We’re in the entertainment capital and there are many times for students to perform. … We try to push (students) out in the professional world as soon as possible.
+RJ:
+How do you keep jazz, and the musicianship it requires, relevant in a digital/electronic age?
+Loeb:
+That is a great question. Fortunately, the jazz genre requires spontaneous composition in performance. Technology enters into it in many aspects, but performing … it’s musical improvisation. … I marvel at how jazz musicians create jazz melodies. … It’s an American art form — it’s vibrant and it’s always changing. Some people say it’s a dead art form — no, it’s not.
+RJ:
+Do you worry about the future of jazz as a viable musical form?
+Loeb:
+Yeah, I do worry about it. I’m concerned that all the other influences receive so much attention. … The problem with jazz is, it’s very old and (requires) a very high level of musical artistry. Sometimes it’s hard for the average listener to assimilate. … It’s like watching a sporting event. You don’t know what the outcome’s going to be. … In the ’30s and ’40s, jazz was the popular music. Rock is what pushed jazz aside and it’s simpler melodically. … Jazz music requires a high degree of sophistication.
+RJ:
+What’s your most memorable Las Vegas gig?
+Loeb:
+Conducting for “Sinatra 100” (a CBS special saluting Frank Sinatra’s centennial). That was one of the most memorable experiences for that whole lineup (including Tony Bennett, Lady Gaga, Garth Brooks, Trisha Yearwood, Usher, Harry Connick Jr., Alicia Keys, Celine Dion, John Legend and more) … . That was a real highlight in a very compact period of time.
+Read more from Carol Cling at reviewjournal.com. Contact her at ccling@reviewjournal.com and follow
+@CarolSCling
+on Twitter.
+GETTING TO KNOW …
+DAVE LOEB
+What’s your ringtone?
+“I don’t think I have one. My ringer is never on. As a studio musician, if that ever were to go off, my career would be over.”
+What’s the last performance you attended?
+Clint Holmes’ “Between the Lines” at the Palazzo
+Best place to take out-of-town visitors?
+“Hoover Dam, Red Rock Canyon … or I try to get them to come see our shows, our concert series with the UNLV Jazz Ensemble.”
+Favorite sport?
+“Golf or tennis. … I like to play golf. Or I would if I had the time.”
+What’s your favorite indulgence?
+“To hear my students play. When you hear them, you just beam. I’d rather hear them play than play myself.”
+Personal motto?
+” ‘Know music, know life. No music, no life.’ I like that one.”
+ads-in_article_1
+ads_insert_2
+ads-insert_3
+section-ads_high_impact_4
+TOP NEWS
+#rjth-region-tna-title
+.post-thumbnail
+Kats
+New candy shop hits ‘Pawn Stars’ fave Chumlee’s sweet spot
+By John Katsilometes / RJ
+#post-##
+#rjth-region-tna-feature
+.post-thumbnail
+Kats
+Paul Rodriguez becomes comedy elder; ‘Pawn Stars’ faces ...
+By John Katsilometes / RJ
+#post-##
+ad-315×600
+.post-thumbnail
+Arts & Culture
+Celtic festival draws thousands to Floyd Lamb Park
+By Sandy Lopez / RJ
+#post-##
+#rjth-region-tna-left-sidebar
+News Headlines
+News
+Body identified as missing Grand Canyon hiker
+The Associated Press
+#post-##
+2017 Legislature
+Nevada PAC eyes 2018 for anti-sanctuary cities measure
+By Sean Whaley / RJ Capital Bureau
+#post-##
+Golden Knights/NHL
+T-Mobile Arena to host college hockey tournament in January
+By Steve Carp / RJ
+#post-##
+2017 Legislature
+Teen lobbies for bill to allow younger Nevada veterans concealed weapons permit
+By Ben Botkin / RJ Capital Bureau
+#post-##
+Nation and World
+Toronto financial district section closed after blast, smoke
+The Associated Press and Reuters
+#post-##
+Betting
+Bettors wager over Pats, Jags, Browns win totals, under Titans
+By Todd Dewey / RJ
+#post-##
+Homicides
+Las Vegas police arrest teen in deadly December bus shooting
+By Rachel Hershkovitz / RJ
+#post-##
+Nation and World
+1 dead, multiple hospitalized after stabbing at University of Texas
+Reuters
+#post-##
+Nevada
+Yucca Mountain not included in federal spending bill
+By Gary Martin / RJ
+#post-##
+2017 Legislature
+Amended gay marriage bill approved in Nevada Senate
+By Sandra Chereb / RJ Capital Bureau
+#post-##
+2017 Legislature
+CCSD officials support bill awaiting Gov. Sandoval’s signature
+By Amelia Pak-Harvey / RJ
+#post-##
+Nation and World
+Arizona home burns after hoverboard catches fire
+The Associated Press
+#post-##
+#rjth-region-tna-headlines
+.post-thumbnail
+Kats
+Clinton-Holmes joins Righteous Brothers (for a song) at Power of ...
+By John Katsilometes / RJ
+#post-##
+pos-2 — ads_infeed_1
+.post-thumbnail
+Kats
+‘Hedwig’ is transcendent in opening at House of Blues
+By John Katsilometes / RJ
+#post-##
+post-4 — ads_infeed_2
+.post-thumbnail
+Arts & Culture
+Giveaways, music mark Día del Niño celebration in Las Vegas
+By Brooke Wanser / RJ
+#post-##
+.post-thumbnail
+Arts & Culture
+Nevada art exhibition portrays state flowers — QUIZ
+By John Przybys / RJ
+#post-##
+#rjth-region-tna-right-sidebar
+top-news-anchor-container
+high_impact_5
+Home Front Page Footer Listing
+Check out what's for sale or rent in the Las Vegas valley
+HOMES
+Explore life stories, offer condolences & send flowers.
+OBITUARIES
+Buy, Sell or just browse to see what's for sale
+CLASSIFIEDS
+Your best source of local jobs and career training
+JOBS
+Browse to see cars & trucks for sale from local dealers
+AUTOS
+Circular
+You May Like
+You  May Like
+INFO & EDITIONS
+Traffic
+Weather
+Email Alerts
+e-Edition
+Apps
+Contests
+SOLUTIONS
+Advertise with Us
+Place a Classified Ad
+FAQ
+SUBSCRIPTIONS
+Subscriptions
+Put The Paper On Hold
+Report A Delivery Issue
+ENewsletter Sign Up
+CONNECTIONS
+Contact Us
+Letter to Editor
+Jobs at the RJ
+News Tips and Press Releases
+AFFILIATE PUBLICATIONS
+Best of Las Vegas
+Business Press
+El Tiempo
+Pahrump Valley Times
+Boulder City Review
+Luxury Las Vegas
+Las Vegas New Homes Guide
+Nifty Nickel
+Copyright
+Copyright © 2017
+Las Vegas Review-Journal, Inc.
+|
+Privacy policy
+Powered by
+WordPress.com VIP

@@ -1,0 +1,77 @@
+JM Twitter Cards by Julien Maury 7.9
+/JM Twitter Cards by Julien Maury 7.9
+This site is optimized with the Yoast SEO plugin v4.6 - https://yoast.com/wordpress/plugins/seo/
+/ Yoast SEO plugin.
+[if lt IE 9]>
+<script type='text/javascript' src='http://lagramoladigital.com/wp-content/themes/tortuga/js/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]
+Skip to content
+.site-branding
+.header-widgets
+.header-main
+Actualidad
+Tienda
+Reportajes
+Discos
+Conciertos
+Podcast
+#main-navigation
+#masthead
+Jamiroquai anuncian disco y gira
+27 de Enero de 2017
+General
+.entry-header
+Jamiroquai
+ha anunciado a través de su web nuevo disco y gira mundial.
+Después de siete año de su último disco titulado “Rock dust light star” Jamiroquai ha anunciado el título del que será su próximo disco que tiene por nombre “#Automaton”.
+En un pequeño avance que han publicado en su página
+web
+se puede escuchar como versionan a Daft Punk en el tema que estos grabaron para el “remake” de Tron.
+Jamiroquai revolucionaron la escena musical británica de los noventa a base de Accid Jazz y Funk y lograron acercar estos géneros a un público más “rockero”.
+Su gira comenzará el 25 de mayo en Tokio.
+A lo mejor también te interesa:
+Digitalism actuará en España
+Def Con Dos anuncian nuevo disco
+Gran Aparato Eléctrico; nuevo disco
+Sabado 8, Toundra en la sala TZVR
+Insania publican su disco de despedida
+7 Notas 7 Colores regresan a los escenarios
+Tangerine Flavour; EP de debut
+.entry-content
+#Automaton
+Concierto
+Discos
+Jamiroquai
+La Gramola Digital
+.entry-tags
+Navegación de entradas
+Previous Post:
+L.A publica el single “Wind”
+Next Post:
+Clara Plath publica “Yes I’m special”
+.entry-footer
+#main
+#primary
+Search for:
+Search
+Gramola 1
+Gramola 3
+Begin MailChimp Signup Form
+Suscríbete a nuestra newsletter
+real people should not fill this in and expect good things - do not remove this or risk form bot signups
+End mc_embed_signup
+Anúnciate aquí
+#secondary
+#content
+Powered by
+WordPress
+and
+Tortuga
+.
+.site-info
+#colophon
+#page
+© La Gramola Digital 2016
+Gramola 4
+Powered by WPtouch: 4.3.15
+Lightbox Plus Colorbox v2.7.2/1.5.9 - 2013.01.24 - Message: 0

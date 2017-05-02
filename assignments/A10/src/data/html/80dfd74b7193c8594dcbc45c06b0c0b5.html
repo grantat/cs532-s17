@@ -1,0 +1,559 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CD、DVDソフト:YAMANO-MUSIC オンライン通販ショップのご案内</title>
+<style type="text/css"></style>
+<link href="/pages/user/css/base.css" rel="stylesheet" type="text/css" />
+<link href="/pages/user/css/soft.css" rel="stylesheet" type="text/css" />
+<link href="/pages/user/css/kihon.css" rel="stylesheet" type="text/css" />
+<link href="/pages/user/css/tokuten.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/pages/user/css/autocomplete/jquery.ui.all.css"/>
+
+<script src="/pages/user/js/jquery-1.9.1.js"></script>
+<script src="/pages/user/js/autocomplete/jquery.ui.core.js"></script>
+<script src="/pages/user/js/autocomplete/jquery.ui.widget.js"></script>
+<script src="/pages/user/js/autocomplete/jquery.ui.position.js"></script>
+<script src="/pages/user/js/autocomplete/jquery.ui.menu.js"></script>
+<script src="/pages/user/js/autocomplete/jquery.ui.autocomplete.js"></script>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function addItem(itemCode){
+        $.ajax({
+            type:"POST",
+            url:"basketAddManage.do",
+            data:"itemCode="+itemCode,
+	        success:function(msg){
+				var arr = msg.split("|");
+				var totalVolumeDisplay = arr[0];
+				//税込
+				var subTotalAddTaxDisplay = arr[1];
+				//税抜
+				var subTotalDisplay = arr[2];
+				document.getElementById("totalVolumeDisplay").innerHTML = totalVolumeDisplay;
+				//税込表示
+				document.getElementById("subTotalDisplay").innerHTML = subTotalAddTaxDisplay;
+				//税抜表示
+				//document.getElementById("subTotalDisplay").innerHTML = subTotalDisplay;
+				//subTotalAddTaxDisplay = subTotalAddTaxDisplay.replace(',', '');
+				//subTotalAddTaxDisplay = subTotalDisplay.replace(',', '');
+				subTotalAddTaxDisplay = subTotalAddTaxDisplay.replace(',', '');
+
+				if(subTotalAddTaxDisplay >= 2200 ){
+					$("#free_massage").css('display','block');
+				}
+
+				if(arr[3] == 'true'){
+					$("#cart_img_link").html('<img src="/pages/user/images/cart_bt_c.jpg" alt="バスケット" name="cart" width="165"　height="40" border="0" id="cart2" />');
+				}
+				$("#errors").html(arr[4]);
+	        }
+	    });
+
+    }
+</script>
+<script language="javascript">
+    <!--
+        function seriesSubmit(value) {
+			document.forms[1].command.value = 'search';
+			document.forms[1].seriesFlg.value = 'series';
+			document.forms[1].seriesName.value = value;
+			document.forms[1].submit();
+		}
+    //-->
+</script>
+<script language="javascript">
+    <!--
+        function connectSubmit(value) {
+			document.forms[1].command.value = 'search';
+			document.forms[1].name2NarrowFromFlg.value = 'name2Narrow';
+			document.forms[1].name2Narrow.value = value;
+			document.forms[1].submit();
+		}
+
+    //-->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body id="index" class="soft" onload="MM_preloadImages('/pages/user/images/cart_bt_b.jpg')">
+<div id="container" class="clearfix">
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/pages/user/css/screen.css" rel="stylesheet" type="text/css" />
+<script src="/docs/common/js/include.js"></script>
+<script src="/docs/common/js/rollover.js"></script>
+<script src="/docs/common/js/common.js"></script>
+
+<script src="/pages/user/js/jquery.placeholder.1.3.min.js"></script>
+	<script type="text/javascript">
+
+	function searchSubmit(value) {
+		$.Placeholder.cleanBeforeSubmit();
+		document.forms[0].submit();
+	}
+
+	$(function() {
+
+		$.Placeholder.init();
+
+		
+
+		function split( val ) {
+			return val.split( /,\s*/ );
+		}
+		function extractLast( term ) {
+			return split( term ).pop();
+		}
+
+		$( "#searchText" )
+			// don't navigate away from the field on tab when selecting an item
+			.bind( "keydown", function( event ) {
+				if ( event.keyCode === $.ui.keyCode.TAB &&
+						$( this ).data( "ui-autocomplete" ).menu.active ) {
+					event.preventDefault();
+				}
+			})
+			.autocomplete({
+				source: function( request, response ) {
+					$.getJSON("/autocompleteSearch.do", {
+						param1: extractLast( request.term )
+					}, response );
+				}
+			});
+	});
+
+	// 右クリック抑止
+	function DisableOnContextMenu(ev) {
+	  return false;
+	}
+
+	function DisableContextMenu(ev) {
+	  if (ev) {
+	    if (ev.button && ev.button == 2) {  // W3C DOM2
+	      return false;
+	    } else if (!ev.button && ev.which == 3) {  // N4
+	      return false;
+	    } else if (navigator.platform.indexOf("Mac")!=-1
+	      && navigator.appName == "Netscape") {
+	      return false;
+	    }
+	  } else {
+	    if (event && event.button && event.button == 2) {  // IE
+	      return false;
+	    }
+	  }
+	}
+
+	if (navigator.appName == "Netscape"
+	  && !(navigator.platform.indexOf("Mac")!=-1)) {
+	  document.captureEvents(Event.MOUSEDOWN);
+	}
+
+	// Winの場合だけ右クリック抑止を動作させる
+	if( navigator.platform.indexOf("Win") != -1 ){
+		document.onmousedown=DisableContextMenu;
+		document.oncontextmenu=DisableOnContextMenu;
+	}
+	// 右クリック抑止ここまで
+
+	</script>
+<script type="text/javascript">
+$(function() {
+$('body').prepend('\x3c!-- Google Tag Manager -->'
+		+'\x3cnoscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5NWR27"'
+		+'height="0" width="0"'
+		+'style="display:none;visibility:hidden">\x3c/iframe>\x3c/noscript>'
+		+'\x3cscript>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':'
+		+'new Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],'
+		+'j=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src='
+		+'\'//www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);'
+		+'})(window,document,\'script\',\'dataLayer\',\'GTM-5NWR27\');\x3c/script>'
+		+'\x3c!-- End Google Tag Manager -->');
+});
+</script>
+		<div id="header" class="clearfix">
+		<h1 id="logo"><a href="/"><img src="/pages/user/images/logo.gif" alt="銀座 山野楽器" width="175" height="41" border="0" /></a></h1>
+		<!-- end .header -->
+		</div>
+	<div id="login">
+
+ <form name="scDetailSearchForm" method="post" action="/scSearchDetail.do;jsessionid=45F01D81DB8EC91BCC4DB545E23EF472">
+	<div class="search">
+			<input type="hidden" name="command" value="search">
+			<input type="hidden" name="fromFlg" value="basic">
+			<input type="hidden" name="firstFlg" value="first">
+	<input type="text" class="searchfield" size="30" id="searchText" name="searchNameTitle" value = '' placeholder="商品名や人名で探す" >
+	<a href="javascript:searchSubmit('search')"><img class="search_bt" src="/pages/user/images/hdr_bt_search.gif"  /></a><a href="/scSearchDetail.do?command=init"><img class="search_bt" src="/pages/user/images/hdr_serarch_ad_bt.gif" alt="詳細検索" /></a>
+	</div>
+</form>
+
+
+	<div class="login_list">いらっしゃいませ、お客さま
+	｜<a href="/authMember.do"><img src="/pages/user/images/bullet_login_b.gif" alt="" width="13" height="18" /><span class="blue_11">ログイン</span></a>
+	｜<a href="/userEntryMember.do?mode=input&action="><img src="/pages/user/images/bullet_registration.gif" alt="" /><span class="blue_11">	新規登録</span></a>
+	｜<a href="/docs/soft/help/help_01_touroku.html">　<span class="blue_11"> ヘルプ　</span></a>
+	｜</div>
+
+
+
+
+
+
+	<div class="cartareaWrap">
+		<div id="cart"><a href="/userBasketManage.do">カートを見る＞レジへ進む 　<span class ="cart_price"><span id="totalVolumeDisplay">0</span>点　￥<span id="subTotalDisplay">0</span> </span></a></div>
+		<div id="free_massage" style="display:none"><img src="/pages/user/images/icon_free.gif" alt="送料無料になりました" /></div>
+		<div id="serarch_hosoku">※曲目などは<a href="/scSearchDetail.do?command=init">「詳細検索」</a>へ</div>
+	</div>
+
+
+
+</div>
+
+
+
+<!-- ログインエリアここまで -->
+
+<div id="softwrapper" class="clearfix">
+<!-- .sidebar1 -->
+<!--=========== IMPORT ============-->
+<link rel="stylesheet" type="text/css" media="all" href="/docs/common/css/base.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/docs/common/css/screen.css" />
+<!--<script type="text/javascript" src="/docs/common/js/jquery.js"></script>-->
+<script type="text/javascript" src="/docs/common/js/jquery.easing.js"></script>
+<script type="text/javascript" src="/docs/common/js/scroller.js"></script>
+<script type="text/javascript" src="/docs/common/js/rollover.js"></script>
+<script type="text/javascript" src="/docs/common/js/common.js"></script>
+
+<link rel="stylesheet" type="text/css" media="all" href="/docs/common/css/top.css" />
+<script type="text/javascript" src="/docs/common/js/jquery.aw-showcase.js"></script>
+<script type="text/javascript" src="/docs/common/js/top.js"></script>
+<!--=========== /IMPORT ============-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+</head>
+<div id="sub_col" class="clearfix">
+
+<div id="lnav">
+<ul>
+<li><a href="/docs/soft/jpop/jpop01.jsp">J-POP</a></li>
+<li><a href="/docs/soft/korea/korea01.jsp">K-POP/韓国・アジア</a></li>
+<li><a href="/docs/soft/rock/rock01.jsp">洋楽（ロック・ポップス/ワールド）</a></li>
+<li><a href="/docs/soft/jazz/jazz01.jsp">ジャズ</a></li>
+<li><a href="/docs/soft/classic/classic01.jsp">クラシック/ヒーリング・イージーリスニング</a></li>
+<li><a href="/docs/soft/anime/anime01.jsp">アニメ/キッズ</a></li>
+<li><a href="/docs/soft/enka/enka01.jsp">演歌/歌謡曲</a></li>
+<li><a href="/docs/soft/etc/etc01.jsp">落語/純邦楽、その他</a></li>
+<li><a href="/docs/soft/dvd/dvd01.jsp">ブルーレイ/DVD</a></li>
+
+</ul>
+</div>
+<!-- /lnav -->
+
+<table  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center"><script language="JavaScript" TYPE="text/javascript" src="https://trusted-web-seal.cybertrust.ne.jp/seal/getScript?host_name=www.yamano-music.co.jp&type=21"></script> <br /></td>
+  </tr>
+  <tr>
+    <td><span class="fnormal10">このサイトは、サイバートラストの<a href="https://www.cybertrust.ne.jp/SureServer/" target="_blank">サーバ証明書</a>により実在性が認証されています。また、SSLページは通信が暗号化されプライバシーが守られています。</span></td>
+  </tr>
+</table>
+</div>
+<!-- end .sidebar1 -->
+
+<div id="content">
+
+<!--=========== 集積と共通パーツ ============-->
+<form name="scDetailSearchForm" method="post" action="/scSearchDetail.do;jsessionid=45F01D81DB8EC91BCC4DB545E23EF472">
+    <input type="hidden" name="command" value="">
+    <input type="hidden" name="seriesFlg" value="">
+    <input type="hidden" name="seriesName" value="">
+    <input type="hidden" name="name2NarrowFromFlg" value="">
+    <input type="hidden" name="name2Narrow" value="">
+</form>
+<h2>商品詳細</h2>
+<div id="errors" style="color:red"></div>
+<div class="kihon_area">
+<div class="jacket"><img src="/docs/jacket-link/nowprint.gif?0.20014601029757395" width="160"  /></div>
+
+<div class="kihon">
+<div class="soft_icon">
+	
+			
+				<img src="/pages/user/images/icon_cd_album.jpg" width="90" height="25" alt="CD" />
+			
+			
+			
+			
+			
+	
+	
+</div>
+<div class="title">
+	
+		COLLAGE
+	
+</div>
+<div class="artist">JAZZ COLLECTIVE</div>
+
+<div class="data">発売日：
+ 	
+		
+	        2014/07/23
+		
+		
+		
+		
+		
+	
+    <br/>
+    
+	    
+			レーベル：	オクターヴ<br />
+		
+	
+	商品番号：	OTCD-3722<br />
+	
+	      メディア詳細：CD<br />
+	
+	
+
+	
+	
+	
+	
+	
+
+	
+</div>
+
+</div>
+
+<div class="price_area">
+	
+		<div class="price_normal">販売価格<br />
+			<span class="price">
+			    
+				￥2,399
+			</span>
+		</div>
+		<!--  <div class="price_normal">消費税額<br />
+			<span class="price">
+				￥177
+			</span>
+		</div>-->
+	
+
+	
+
+	<div class="point_normal">
+		ポイント：47ポイント
+	</div>
+	<div class="point_normal">
+		
+		
+	</div>
+
+
+	<div id="cart_img">
+		<a id="cart_img_link" href="javascript:addItem('4114052217')" >
+			
+				
+					<img src="/pages/user/images/cart_bt.jpg" alt="カートに入れる" name="cart" width="165"　height="40" border="0" id="cart2" onmouseout="this.src='/pages/user/images/cart_bt.jpg'" onmouseover="this.src='/pages/user/images/cart_bt_b.jpg'"/>
+				
+				
+				
+			
+		</a>
+		
+	</div>
+
+	<div id="free shipping"><img src="/pages/user/images/free_c.jpg" alt="お買い上げ￥2,200（税込）で送料無料" /></div>
+
+
+
+</div>
+</div>
+<!--=========== 集積と共通パーツここまで ============-->
+
+<h3>仕様</h3>
+<div class="details">
+	<p class="midashi_cd">
+       
+	       組数：	1<br/>
+	    
+		
+			
+			
+		
+      
+	</p>
+</div>
+
+<!--=========== ソフト詳細ここから ============-->
+
+<h3>収録内容</h3>
+<div class="songlist">
+(1)Intro<br>(2)Rejoice Again<br>(3)Collage<br>(4)Don't Change Your Ways Feat.shea Soul<br>(5)Daisy Mae<br>(6)Night Breeze<br>(7)Face To Face<br>(8)Interlude 1<br>(9)Powers Of Ten<br>(10)Love Is The Triumph<br>(11)Interlude 2<br>(12)Isis<br>(13)Way Of Indigo<br/>
+<p >
+
+
+</p>
+</div>
+
+
+	<div class="details_border">
+    	<p class="midashi">出演者一覧</p>
+    	<p>JAZZ COLLECTIVE</p>
+	</div>
+
+
+
+
+
+
+
+	<SCRIPT LANGUAGE="JavaScript" src="web-cache.chocomaru.com/jplayer.js"></SCRIPT>
+	<div class="details_border">
+		<p class="midashi">試聴できます</p>
+		<a href="javascript:void(0)" onClick="jplayer('AY016','bzc37muc82','CL00355127',''); return false;">
+			<img src="/pages/user/images/flash.gif" width="140" height="20" border="0" />
+		</a>
+		<br />
+		※試聴にはAdobe Flash Playerが必要です。お持ちでない方は下記から無料でダウンロードできます。 <br />
+		<div id="adobe">
+			<a href="http://www.adobe.com/go/getflashplayer" target="_new"><img src="/pages/user/images/getadobe_bt.jpg" width="127" height="34" alt="" /></a>
+			Adobe、Flash、は合衆国およびその他の国における<br />Adobe Systems Incorporatedの商標または登録商標です。
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div class="details">
+		<p class="midashi">コメント</p>
+		<p>前作『Prelude』に続く、2014年7月リリースの3rdアルバム。UK女性シンガーのシェイ・ソウルを迎えたクリストル「DON&#39;T CHANGE YOUR WAYS」のカヴァーほかを収録。未来のスタンダードとなりうる一枚。 </p>
+	</div>
+
+
+
+
+
+	
+		<h3>関連情報</h3>
+		
+		
+		
+			<div class="details_border">
+				<p class="midashi">関連人名</p>
+				
+				   <a href="javascript:connectSubmit('JAZZ COLLECTIVE');">
+		    	       JAZZ COLLECTIVE
+		    	   </a>
+	    	       
+				
+                
+		   			
+		   				
+		   					
+			   					/
+		   					
+		   					
+				       		<a href="javascript:connectSubmit('ARAKI Shin');">
+				       		     ARAKI Shin
+				       		</a>
+		   				
+		   	 		
+                
+			</div>
+		
+	
+
+
+<div align="right">
+表示価格はすべて税込価格です。<br/>
+国内盤の検索結果を表示しています。<br/>
+ご注文いただいた商品は、在庫切れ・生産中止・限定盤などの理由でお取り寄せができない場合がございます。<br/>
+<br/>
+</div>
+<div align="right"><a href="#top">ページTOPへ↑</a></div>
+
+<!--=========== ソフト詳細ここまで ============-->
+<!-- end .content --></div>
+</div>
+</div>
+<div id="footer" class="clearfix">
+<!-- end .footer --></div>
+<!-- end .container -->
+<!--=========== 20131224 FOR ASP ============-->
+<script type="text/javascript" charset="UTF-8" src="//navicast.jp/NavicastApi.js?yamano-music"></script>
+<!--=========== /20131224 FOR ASP ============-->
+</body>
+</html>

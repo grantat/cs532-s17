@@ -1,0 +1,214 @@
+BEGIN wp_head()
+This site is optimized with the Yoast WordPress SEO plugin v1.4.13 - http://yoast.com/wordpress/seo/
+/ Yoast WordPress SEO plugin.
+[if IE]>
+<link rel='stylesheet' id='ie-general-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/ie.css?ver=1.8.2' type='text/css' media='all' />
+<![endif]
+[if lt IE 9]>
+<link rel='stylesheet' id='ie-lt9-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/ie-lt9.css?ver=1.8.2' type='text/css' media='all' />
+<![endif]
+[if IE 8]>
+<link rel='stylesheet' id='ie8-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/ie8.css?ver=1.8.2' type='text/css' media='all' />
+<![endif]
+[if IE 7]>
+<link rel='stylesheet' id='ie7-css'  href='http://pennfieldathletics.com/wp-content/themes/startbox-vnn/css/ie7.css?ver=1.8.2' type='text/css' media='all' />
+<![endif]
+Begin alerts widget config
+BEGIN Analytics
+END Analytics
+END wp_head()
+Skip to content
+This is the home of pennfieldathletics.com
+#header
+#header_wrap
+Home
+Panther HQ
+Application for Financial Assistance
+Athletic Dept Info
+Athletic Handbook
+Dual Sport Form
+MHSAA Physical Form
+Hall of Fame Nomination Form
+Training Rules/Understanding Form
+Fall Sports
+Boys Cross Country
+Boys Soccer
+Boys Tennis
+Equestrian
+Football
+Girls Cross Country
+Volleyball
+Winter Sports
+Boys Basketball
+Boys Bowling
+Boys Swimming
+Competitive Cheer
+Girls Basketball
+Girls Bowling
+Wrestling
+Spring Sports
+Baseball
+Boys Golf
+Boys Lacrosse
+Boys Track
+Girls Soccer
+Girls Tennis
+Girls Track
+Softball
+Middle School
+MS Boys Basketball
+MS Boys Track
+MS Competitive Cheer
+MS Cross Country
+MS Girls Basketball
+MS Girls Track
+MS Volleyball
+MS Wrestling
+Boosters
+Concession Stand Fund Raising Application
+Booster Flyer
+Concession Stand Sign-Up
+Camps
+Summer Tennis Clinics
+Summer Gym Schedule
+Youth Cheer Clinic
+Football Clinics and/or Camps
+Soccer Camps and Conditioning Info
+PHS Track and Cross Country Camps
+Directions
+I-8 Schools Athletic Facilities/Locations
+Varsity Wrestling Team Competes at Bill Evans Invitational
+By
+steeleb
+on
+January 30, 2017
+Tweet
+59 Reads
+0
+Comments
+Print
+The Pennfield High School varsity wrestling team traveled to Battle Creek Central High School on Saturday to compete in the annual Bill Evans Invitational.
+The Panthers had some solid individual performances on the day led by Nolen Bornamann and Dillon Striplin who both finished 4-1 in their matches.  Striplin finished in second place at 160 pounds, while Bornamann finished in 5th place at 112 pounds.
+Other Pennfield wrestlers who placed in their respective weight classes were Shane Edwards (4th), Kaleb Dillard (8th), and Ashton Leenhouts (7th) who all went 2-2 on the day.
+The varsity wrestling team will be back in action on Saturday, February 4th when they travel to Coldwater for the Interstate 8 Conference Championships.  Wrestling is scheduled to begin at 10:00am.
+Comments Off
+on Varsity Wrestling Team Competes at Bill Evans Invitational
+.post
+«
+Varsity Girl’s Basketball Makes it Three Straight Victories
+Varsity Girls Bowling Team Finishes 2nd at East Kentwood Invitational
+»
+#comments
+Related Articles
+All Teams Schedule: Week of May 1 – May 7
+By
+vnnadmin
+on
+May 1, 2017
+Event Recap: Week of April 22 – April 28
+By
+vnnadmin
+on
+April 29, 2017
+Varsity Lacrosse Defeats Ovid-Elsie
+By
+steeleb
+on
+April 28, 2017
+#content
+#container
+Latest Photo Galleries
+2 Photos
+Dec 14
+1 Photo
+Oct 12
+1 Photo
+Oct 12
+1 Photo
+Aug 23
+View More Galleries
+SUPPORT OUR SPONSORS
+Adunit
+FOLLOW US ON TWITTER
+New Story: All Teams Schedule: Week of May 1 – May 7
+pennfieldathletics.com/2017/0…
+About 3 hours ago
+·
+reply
+·
+retweet
+·
+favorite
+In Case You Missed It: New Story: Pennfield High School Girls Varsity Soccer beat Battle Creek Central High School
+pennfieldathletics.com/2017/0…
+Yesterday
+·
+reply
+·
+retweet
+·
+favorite
+In Case You Missed It: New Story: Pennfield High School Girls Varsity Soccer falls to Marshall High School 4-1
+pennfieldathletics.com/2017/0…
+Yesterday
+·
+reply
+·
+retweet
+·
+favorite
+In Case You Missed It: New Story: Event Recap: Week of April 22 – April 28
+pennfieldathletics.com/2017/0…
+Yesterday
+·
+reply
+·
+retweet
+·
+favorite
+New Story: Pennfield High School Girls Varsity Soccer beat Battle Creek Central High School 7-0
+pennfieldathletics.com/2017/0…
+About 2 days ago
+·
+reply
+·
+retweet
+·
+favorite
+Follow @PennfieldAD
+SUPPORT OUR SPONSORS
+Adunit
+Adunit
+#primary .aside-primary .aside
+#container_wrap .hfeed
+#wrap .hfeed
+Pennfield High School
+Athletic Director: Brett Steele
+8587 PENNFIELD RD
+BATTLE CREEK, MI 49017
+Phone: (269) 961-9777
+#footer_widget_area_1 .aside-footer_widget_area_1 .aside
+Area Preps News
+VIDEO: Top plays from Nike EYBL: Indiana, Day 3
+VIDEO: Laeticia Amihere may have just thrown down the most powerful dunk by a woman ever
+Texas track coach dies in bus crash on way home from meet
+Chino Hills (Calif.) basketball coach posts video in response to firing
+Micah Parsons, No. 3 overall player, leads five invitees to Opening Final
+adidas Gauntlet: Brock Cunningham is dominating the competition
+#footer_widget_area_2 .aside-footer_widget_area_2 .aside
+#footer_sidebar
+©2017 Pennfield Panther Athletics.
+All Rights Reserved.
+#credits
+#footer_left
+Powered by VNN Technology
+#footer_right
+#wp_footer
+#footer
+#footer_wrap .hfeed
+Adunit
+Subscribe & Follow
+Twitter
+Print
+Quantcast Tag
+End Quantcast tag

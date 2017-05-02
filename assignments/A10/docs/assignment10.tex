@@ -72,13 +72,13 @@ for k={1,2,5,10,20}.
 \clearpage
 \subsection*{Answer}
 
-To solve this question I used the blog data I previously received in assignment 8 \textbf{blogdata.txt} and the code provided by the Programming Collective Intelligence book \cite{collectiveIntell}. To calculate the cosine distance metric \textbf{numpredict.py} had to be modified to accompany this new function. The methods that changed in this file were the \textit{knnestimate} and \textit{getdistances} functions. In the \textit{getdistances} function I simply swapped out the euclidean function for cosine. In the \textit{knnestimate} function I removed the average value and instead return a list of sorted distances in descending order.
+To solve this question I used the blog data I previously received in assignment 8 \textbf{blogdata.txt} and the code provided by the Programming Collective Intelligence book \cite{collectiveIntell}. To calculate the cosine distance metric \textbf{numpredict.py} had to be modified to accompany this new function. The methods that changed in this file were the \textit{knnestimate} and \textit{getdistances} functions. In the \textit{getdistances} function I simply swapped out the euclidean function for cosine as shown in Listing \ref{lst:q1numpred}. In the \textit{knnestimate} function I removed the average value and instead return a list of sorted distances in descending order.
 
-I then went
+I then went filtered the F-measure and Web Science research group's blogs and create separate vectors with their values. These vectors were used for the cosine measurement against the vector with all blogs. This is shown in Listing \ref{lst:q1knncalc}.
 
-\lstinputlisting[firstline=48,lastline=87,frame=single,caption={Python script with included cosine function and knnestimate},label=lst:q1download,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/numpredict.py}
+\lstinputlisting[firstline=48,lastline=87,frame=single,caption={Python script with included cosine function and knnestimate changes},label=lst:q1numpred,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/numpredict.py}
 
-\lstinputlisting[frame=single,caption={Python script to find KNN values},label=lst:q1download,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/knn.py}
+\lstinputlisting[frame=single,caption={Python script to find KNN values},label=lst:q1knncalc,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{\srcPath/knn.py}
 
 \clearpage
  \begin{figure}[h]

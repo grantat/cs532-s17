@@ -1,0 +1,93 @@
+smart / midnight
+[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<![endif]
+EMS FRAMEWORK
+HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+[if lt IE 9]>
+        <script src="//888-radio.e-monsite.com/medias/static/themes/ems_framework/js/html5shiv.min.js"></script>
+        <script src="//888-radio.e-monsite.com/medias/static/themes/ems_framework/js/respond.min.js"></script>
+        <![endif]
+NAV
+8LDIES R8CK STATI8N !
+Accueil
+l'info à la Réunion
+web radio en ligne
+webcam volcan Réunion
+gîte de la Réunion
+rencontre Réunion
+télécharger musique gratuit
+Contact
+HEADER
+//HEADER
+WRAPPER
+MAIN
+Vous êtes le
+ème
+visiteur
+Bienvenue sur 888 RADIO (
+8
+ldies r
+8
+ck stati
+8
+n).
+Depuis L'ile de la Réunion, une web radio pour les amateurs de bonne musique, ici pas de hit, mais de la musique pour vous accompagner toute la journée : rock & funk oldies des années 60' & 70'  . Toute l'équipe vous souhaite une bonne écoute. Contact SMS : 0692 333 888.
+Follow @888radionline
+PARTENAIRES MEDIAS :
+Enlaces Gratis
+Online Rádiók
+widget director.ascultalive.ro
+end widget director.ascultalive.ro
+widget director.radiostations.ro
+end widget director.radiostations.ro
+Codul de Promovare unTop.ro
+Codul de Promovare unTop.ro
+/Start async trafic.ro/
+Web analytics
+/End async trafic.ro/
+Каталог сайтовe
+PARTENAIRES MEDIAS
+photo sat océan indien (dom-tom)
+mise à jour le 31 mars 2017.
+Enlaces Gratis
+begin Internet Radio Top Sites | The Top Internet Radio Stations All In One Place code
+end Internet Radio Top Sites | The Top Internet Radio Stations All In One Place code
+Les
+                meilleurs liens
+du Web francophone...
+Findeen.com
+Login
+Mot de passe
+Rester connecté
+Créer un compte
+|
+Mot de passe perdu ?
+Participer à la cagnotte en ligne
+8LDIES R8CK STATI8N !
+Menu
+forum radio
+commentaires
+Coordonnées
+partenaires médias
+derniers titres jouer
+agenda 888 radio concert
+player 888 radio
+vidéos news
+artistes
+publicité
+téléchargement gratuit
+playlist 888 radio
+world stations
+NEW
+radio en ligne
+NEW
+référencement radio gratuit
+NEW
+créer votre radio
+NEW
+Mentions légales
+Créer un site gratuit
+avec e-monsite
+Signaler un contenu illicite sur ce site
+×
