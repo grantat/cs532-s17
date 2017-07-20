@@ -2,10 +2,10 @@ import tweepy
 import json
 
 # Variables that contains the user credentials to access Twitter API
-access_token = "821042028800802816-E7SvwPXZKJRzazLctidudXhD0X0SgDZ"
-access_token_secret = "hfEMDTkVBX6Kf7x8FddjBZi7joxKZIYYJztq1QFQcF8cp"
-consumer_key = "RigRve4McsZdYXNpz2rwPRZfx"
-consumer_secret = "EuFivjFeWCBmG205shXMjTPb0u56wTXJgRDRhqaWPRQU1CxYjW"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 
 def getFollowers(api):

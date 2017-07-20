@@ -4,10 +4,10 @@ import csv
 from pprint import pprint as pp
 
 # Variables that contains the user credentials to access Twitter API
-access_token = "821042028800802816-E7SvwPXZKJRzazLctidudXhD0X0SgDZ"
-access_token_secret = "hfEMDTkVBX6Kf7x8FddjBZi7joxKZIYYJztq1QFQcF8cp"
-consumer_key = "RigRve4McsZdYXNpz2rwPRZfx"
-consumer_secret = "EuFivjFeWCBmG205shXMjTPb0u56wTXJgRDRhqaWPRQU1CxYjW"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 
 def minimizeConnections():
@@ -17,7 +17,7 @@ def minimizeConnections():
     who aren't already keys.
     For each Key the formula for number of connections to make:
     for 1 in total:
-        pairs_to_check = total - iteration_count 
+        pairs_to_check = total - iteration_count
         total += pairs_to_check
 
     New total = 5151, vs 10100 to check
@@ -46,7 +46,7 @@ def minimizeConnections():
                 else:
                     temp.append(j)
                     fDict[i] = temp
-                
+
     return fDict
 
 

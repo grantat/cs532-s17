@@ -10,11 +10,11 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 
-#Variables that contains the user credentials to access Twitter API 
-access_token = "821042028800802816-E7SvwPXZKJRzazLctidudXhD0X0SgDZ"
-access_token_secret = "hfEMDTkVBX6Kf7x8FddjBZi7joxKZIYYJztq1QFQcF8cp"
-consumer_key = "RigRve4McsZdYXNpz2rwPRZfx"
-consumer_secret = "EuFivjFeWCBmG205shXMjTPb0u56wTXJgRDRhqaWPRQU1CxYjW"
+#Variables that contains the user credentials to access Twitter API
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 # Filter list for bad/inappropriate/repeating domains
 blacklist = ['.xyz','.pw','http://artist-rack.com?','https://twitter.com/i/web/status/','paper.li']
 
@@ -35,7 +35,7 @@ def request(uri):
         exit()
     except:
         pass
-    
+
 
 def uriFilter(uri):
     for f in blacklist:
@@ -50,10 +50,10 @@ def uriFilter(uri):
 
 
 def saveOutput(origUri,finalUri):
-    
+
     if not os.path.exists("output"):
         os.makedirs("output")
-        
+
     # final URIs to file
     try:
         with open('output/finalURIs.txt', 'a+b', 0) as file, \
@@ -78,7 +78,7 @@ def saveOutput(origUri,finalUri):
 # This is a basic listener that just prints received tweets to stdout.
 # Consider this the main class that calls the functions from before
 class StdOutListener(StreamListener):
-    
+
     def on_data(self, data):
         print (data)
         jsonData = json.loads(data)
@@ -86,14 +86,14 @@ class StdOutListener(StreamListener):
         for item in uriArr:
             uri = item['url']
             request(uri)
-            
+
         # handle retweet json
         if 'retweeted_status' in jsonData:
             uriArr = jsonData['retweeted_status']['entities']['urls']
             for item in uriArr:
                 uri = item['url']
                 request(uri)
-                
+
         print("finished requests")
         return True
 
@@ -117,4 +117,3 @@ if __name__ == '__main__':
     except:
         print("Error occurred - SHUTTING DOWN\n",str(datetime.now()))
         exit()
-
